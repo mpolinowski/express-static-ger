@@ -1,0 +1,50 @@
+<% include _partials/template/_head.ejs %>
+
+    <body>
+      <% include _partials/template/_outdated.ejs %>
+
+        <div id="wrapper">
+
+            <header><% include _partials/template/_header.ejs %></header>
+            <!-- Navbar-->
+
+            <!-- #############################################  Search ############################################# -->
+
+            <section class="container search mb">
+
+                <div class="row col-xs-10 offset-xs-1">
+
+                    <form  method="get" action="/Search/Results" class="form-inline">
+                        <div class="form-group">
+                            <label for="inputSearch" class="sr-only">Search Query</label>
+                            <input type="search" autofocus class="form-control" placeholder="Search Query" name="q" autocomplete="off" class="form-control">
+                            <br/><br/>
+                            <button class="btn btn-primary btn-block" type="submit">Search</button>
+                        </div>
+                    </form>
+                </div>
+                 <!-- /row -->
+
+            </div>
+            <!-- /wrapper -->
+
+        </section>
+        <!-- /search -->
+
+        <section class="instarvision"><% include _partials/content/_instarvision.ejs %></section>
+        <!-- /webui -->
+
+        <section class="social"><% include _partials/template/_social.ejs %></section>
+        <!-- /social -->
+
+        <!-- ############################################# Footer ############################################# -->
+
+        <footer><% include _partials/template/_footer.ejs %></footer>
+
+        <% include _partials/template/_jsdefaults.ejs %>
+
+    </div>
+
+</body>
+
+</html>

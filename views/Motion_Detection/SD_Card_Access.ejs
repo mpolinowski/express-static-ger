@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html ⚡>
+    <head>
+        <% include ../_partials/amp/_amp-head.ejs %>
+        <link rel="canonical" href="/Motion_Detection/SD_Card_Access">
+    </head>
+
+    <body class="home">
+
+        <header class="fixed">
+            <div class="wrap">
+                <div class="container">
+                    <div class="clearfix">
+                        <div class="left-nav">
+                            <a href="/" class="tab header-title">
+                                <amp-img class="placeholder shadow" src="/images/instar_245x77.png" height="30px" width="95px" alt="Instar Wiki"></amp-img>
+                            </a>
+                        </div>
+                        <div class="right alt">
+
+                            <a href="/Motion_Detection/" class="tab header-title">
+                                <amp-img class="placeholder shadow" src="/images/return.jpg" height="30px" width="30px" alt="Go Back"></amp-img>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="wrap">
+            <div class="content">
+
+                <section class="hero altIP">
+                    <div class="container">
+                        <div class="row">
+                            <div class="six columns">
+                                <div class="intro-container">
+                                    <h1>How to access the SD Card</h1>
+                                    <p class="intro">
+                                        The HD camera models allow you to record videos and snapshots to the internal SD card. To quickly access your recordings, click on the SD Card link inside your cameras web user interface. Or use a third-party Software to download the video.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <article class="blade get-started">
+                    <div class="container">
+                        <div class="row">
+                            <div class="twelve columns margin">
+                                <h2>SD-Karte Zugriff</h2>
+                                <p>Die Kameras der HD Serie benutzen eine (austauschbare) SD Karte bzw. Micro SD Karte um Videos, Alarmaufnahmen und Fotoserien zu speichern die z.B. im Zeitraffer genutzt werden können.
+								Sie können direkt auf die Aufnahmen der SD Karte zugreifen indem Sie über die Weboberfläche die SD Karte öffnen oder aber komfortabler wie hier beschrieben mit einem FTP Client. 
+								Zwar ist die WebUI die schnellste Art auf die Aufnahmen zuzugreifen, jedoch ermöglichen FTP Clients eine komfortablere Art mehrere Aufnahmen gleichzeitig zu kopieren bzw. herunterzuladen. 
+								Bitte bedenken Sie bei der Auswahl eines FTP Clients das dieser das hyper text transfer protocol (HTTP) unterstützt welches zum Zugriff auf die SD Karte benötigt wird. 
+								Bitte seien Sie sich bewusst das Sie mit einem entsprechenden Client nur Aufnahmen herunterladen können - <strong>es ist nicht möglich über den FTP Client auf den SD Speicher zu SCHREIBEN!</strong>
+								Untenstehend finden Sie eine kleine Auswahl an FTP Clients mit denen Sie auf die SD Karte Ihrer INSTAR IP Kamera zugreifen können.</p>
+                                <p>Bei Innenkameras können Sie jederzeit problemlos die SD Karte aus der Kamera entfernen um diese so mit einem Kartenleser direkt am PC zu lesen und schreiben.</p>
+                            </div>
+                        </div>
+
+                        <div class="margin">
+                            <h3>Weboberfläche</h3>
+                        </div>
+                         <!-- /margin -->
+
+                        <div class="card-container">
+                            <div class="twocard">
+                                <div class="image">
+                                    <amp-img class="shadow" noloading height=232 width=335 layout=responsive src="/images/WebUI-SD_01.png"></amp-img>
+                                </div>
+                                <div class="content">
+                                    <p>Die Kameras der HD Serie ermöglichen es Ihnen Videoaufnahmen oder Bilder direkt auf die interne SD Karte zu speichern. Um die Aufnahmen schnell einzusehen, 
+									klicken Sie auf <strong>SD Karte</strong> oben links in der Weboberfläche Ihrer Kamera.
+									</p>
+                                </div>
+                                <div class="action">
+                                    Weboberfläche
+                                </div>
+                            </div>
+                             <!-- /Twocard -->
+                            <div class="twocard">
+                                <div class="image">
+                                    <amp-img noloading height=232 width=335 layout=responsive src="/images/WebUI-SD_02.png"></amp-img>
+                                </div>
+                                <div class="content">
+                                    <p>Das Verzeichnis der SD Karte wird in einem neuen Tab geöffnet. Melden Sie sich ggbf. mit dem Benutzernamen und dem Passwort Ihrer Kamera an um die Aufnahmen einzusehen. Sollte die SD Karte nicht angezeigt werden, so kann durch das konstante Beschreiben ggf. ein Fehler in der Verzeichnisstruktur entstanden sein.
+									In diesem Fall formatieren Sie am besten einmal die SD Karte oder entfernen Sie diese kurzzeitig aus der Kamera.</p>
+                                </div>
+                                <div class="action">
+                                    SD Card Index
+                                </div>
+                            </div>
+                             <!-- /Twocard -->
+                        </div>
+                         <!-- /Card-Container -->
+
+                        <div class="card-container">
+                            <div class="twocard">
+                                <div class="image">
+                                    <amp-img noloading height=232 width=335 layout=responsive src="/images/WebUI-SD_03.png"></amp-img>
+                                </div>
+                                <div class="content">
+                                    <p>Ihre Kamera generiert ein neues Verzeichnis für jeden Tag und ein neues <strong>recordXXX</strong> Unterverzeichnis für jeweils 200 Alarmaufnahmen dieses Tages. Jeder Alarm erzeugt eine *.avi Datei, die mit dem Großbuchstaben A beginnt - geplante Aufnahmen starten mit dem Buchstaben P und so weiter - gefolgt von dem Zeitcode des auslösenden Ereignis.</p>
+                                </div>
+                                <div class="action">
+                                    File System
+                                </div>
+                            </div>
+                             <!-- /Twocard -->
+                            <div class="twocard">
+                                <div class="image">
+                                    <amp-img noloading height=232 width=335 layout=responsive src="/images/WebUI-SD_04.png"></amp-img>
+                                </div>
+                                <div class="content">
+                                    <p>Das Standardverhalten der meisten Browser ist es, das Video - das Sie anklicken - herunterzuladen. Browser, wie z.B. der Mozilla Firefox Browsers, unterstützen das VLC plugin um das Video direkt im Browser-Fenster wiederzugeben. Stellen Sie dafür bei der Installation des VLC Players sicher, das Sie das Firefox Plugin aktivieren und starten Sie den Browser nach der Installation neu. Das VLC Web Plugin sollte danach in der Addons Liste unter Plugins aufgeführt sein.</p>
+                                </div>
+                                <div class="action">
+                                    Video Player Plugin
+                                </div>
+                            </div>
+                             <!-- /Twocard -->
+                        </div>
+                         <!-- /Card-Container -->
+
+                        <div class="margin">
+                            <h3>Windows Software für den Zugriff auf Ihre SD Karte</h3>
+                            <ul>
+                              <li><a href="/Motion_Detection/SD_Card_Access/Bitkinex">Bitkinex</a></li>
+                              <li><a href="/Motion_Detection/SD_Card_Access/CuteFTP">CuteFTP</a></li>
+                              <li><a href="/Motion_Detection/SD_Card_Access/DownThemAll">DownThemAll! (Firefox Addon)</a></li>
+                            </ul>
+                        </div>
+                        <!-- /Margin -->
+
+                       <div class="margin">
+                           <h3>MacOSX Software für den Zugriff auf Ihre SD Karte</h3>
+                           <ul>
+                             <li><a href="/Motion_Detection/SD_Card_Access/Interachy">Interachy</a></li>
+                             <li><a href="/Motion_Detection/SD_Card_Access/DeepVacuum">DeepVacuum</a></li>
+                             <li><a href="/Motion_Detection/SD_Card_Access/SiteSucker">SiteSucker</a></li>
+                             <li><a href="/Motion_Detection/SD_Card_Access/SimpleWget">SimpleWget</a></li>
+                             <li><a href="/Motion_Detection/SD_Card_Access/DownThemAll">DownThemAll! (Firefox Addon)</a></li>
+                           </ul>
+                       </div>
+                       <!-- /Margin -->
+
+                    </div>
+                    <!-- /Container -->
+                </article>
+                <!-- /Article -->
+
+            </div>
+            <!-- /Content -->
+        </div>
+        <!-- /Wrap -->
+
+        <section class="blade blog">
+
+            <div class="container wider">
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1>Verwandte Themen:</h1>
+                    </div>
+                </div>
+
+                <div class="tab-container">
+
+                    <a class="tab" href="/Quick_Installation/First_Steps">
+                        <h3>Erste Schritte um Ihre INSTAR IP Camera zu installieren</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/After_Unpacking">
+                        <h3>Nach dem Auspacken Ihrer INSTAR IP Camera</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Direct_LAN_Connection">
+                        <h3>Verbinden Sie Ihre Kamera direkt mit Ihrem Computer</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
+                        <h3>Wie Sie die Firmware und Benutzeroberfläche Ihrer Kamera ändern können</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Set_Up_A_Wireless_Connection">
+                        <h3>Wie Sie Ihre Kamera mit dem WLAN verbinden</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Creating_User_Accounts">
+                        <h3>Ändern Sie den Standard-Login Ihrer Kamera</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+                </div>
+
+                <a href="/Quick_Installation/" target="_blank">Mehr ansehen</a>
+
+            </div>
+        </section>
+
+        <footer>
+            <% include ../_partials/amp/_amp-footer.ejs %>
+        </footer>
+    </body>
+</html>

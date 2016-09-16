@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html ⚡>
+    <head>
+        <% include ../_partials/amp/_amp-head.ejs %>
+        <link rel="canonical" href="/Internet_Access/The_DDNS_Service/">
+    </head>
+
+    <body class="home">
+
+        <header class="fixed">
+            <div class="wrap">
+                <div class="container">
+                    <div class="clearfix">
+                        <div class="left-nav">
+                            <a href="/" class="tab header-title">
+                                <amp-img class="placeholder shadow" src="/images/instar_245x77.png" height="30px" width="95px" alt="Instar Wiki"></amp-img>
+                            </a>
+                        </div>
+                        <div class="right alt">
+
+                            <a href="/Internet_Access/" class="tab header-title">
+                                <amp-img class="placeholder shadow" src="/images/return.jpg" height="30px" width="30px" alt="Go Back"></amp-img>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="wrap">
+            <div class="content">
+                <section class="hero internetAccess">
+                    <div class="container">
+                        <div class="row">
+                            <div class="six columns">
+                                <div class="intro-container">
+                                    <h1>Der DDNS Service</h1>
+                                    <p class="intro">
+                                      Grundsätzlich müssen wir zwischen zwei Verbindungstypen unterscheiden. Die eine Verbindung ist der interne Zugang mit der wir die Weboberfläche der Kamera erreichen. Das setzt voraus, das der Computer und die Kamera im selben lokalen Netzwerk sind und an den selben Router angeschlossen sind. Danach können Sie mit der privaten IP-Adresse der Kamera auf die Kamera zugreifen. Der zweite Verbindungstyp ist der externe Zugriff, um die Weboberfläche der Kamera außerhalb des Netzwerks zu erreichen. Mit diesem Verbindungstyp können Sie den Zugriff auf die Kamera von überall auf der Welt gestatten. Dabei ist es egal ob Sie mit Ihrem Smartphone im Zug sitzen oder im Urlaub sind und Ihren Laptop nutzen. Um dies zu ermöglichen, sind ein paar Einstellungen in der Kamera und im Router notwendig. Diese Anleitung zeigt Ihnen Schritt für Schritt wie Sie die externe Verbindung einrichten.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /Hero -->
+            </div>
+            <!-- /Content -->
+        </div>
+        <!-- /Wrap -->
+
+        <div class="wrap">
+            <div class="container main">
+
+                <article>
+                    <!-- article -->
+
+                    <div class="margin">
+                        <h4 class="post-title">Drei einfache Schritte für den externen Zugriff auf Ihre INSTAR IP Kamera über das Internet</h4>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h3>Statische IP Adresse</h3>
+                        <p>Verbinden sie sich über die private IP Adresse mit der Kamera. Öffnen Sie dann den Menüpunkt <strong>Netzwerk > IP-Konfiguration</strong>. Standardmäßig ist dort der Punkt Beziehen der IP vom DHCP Server aktiviert. Dies bedeutet, dass die Kamera alle 24-48 Stunden vom Router eine neue IP Adresse zugewiesen bekommt. Dies würde bedeuten, dass wir die folgenden Einstellungen immer wieder anpassen müssten. Daher entfernen Sie bitte das Häkchen bei diesem Punkt und vergeben der Kamera eine fixe IP Adresse. Danach öffnen sich einige neue Punkte welche Sie auszufüllen haben. Die Einstellungen können z.B. wie folgt aussehen:</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Port_Forwarding_EN_01.jpg" width="620" height="206" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox1" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Port_Forwarding_EN_01.jpg" width="620" height="206" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <table>
+                            <tr>
+                                <td width="20%">
+                                    <strong>IP Adresse</strong>
+                                </td>
+                                <td>Die ersten drei Zahlen definieren den IP Raum des Routers, sie sind daher identisch mit denen des Routers, die letzte Zahl ordnet der IP Kamera eine eindeutige IP Adresse zu. Diese kann zwischen 2 und 254 liegen. Da der Router meist bei 100 anfängt IP Adressen zu vergeben, empfehlen wir Ihnen eine Zahl im hohen Bereich zu vergeben wie z.B. 237 in unserem Beispiel.</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Subnetzmaske</strong>
+                                </td>
+                                <td>Die Private Subnetzmaske beträgt in den meisten Netzwerken 255.255.255.0. Sie können in Windows über die Befehlszeile oder in MacOS über das Terminal den Befehl ipconfig /all aufrufen um die Subnetzmaske in Ihrem Netzwerk zu prüfen. (Dort können Sie auch die Gateway und DNS Adresse einsehen - siehe unten).</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Gateway</strong>
+                                </td>
+                                <td>Dies ist im Regelfall die IP Adresse Ihres Routers - in unserem Fall die 192.168.1.1 .</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>DNS Server</strong>
+                                </td>
+                                <td>Gleicher Eintrag wie beim Gateway. Wir benutzen im Beispiel alternativ einen offenen DNS Server der Firma Google - 8.8.8.8 .</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>HTTP Port</strong>
+                                </td>
+                                <td>Dies ist der interne Port (auch LAN Port genannt) der Kamera, Sie können diesen für die erste Kamera standardmäßig auf 80 lassen, manche Router ermöglichen nur symmetrische interne (LAN) und externe (WAN) Ports, sollte dies der Fall sein, müssen Sie der zweiten Kamera den Port 81, der dritten den Port 82 uws. zuweisen. Sollten Sie Probleme mit diesen Ports haben - gerade beim Internetzugriff über den Mobilfunk - verwenden Sie stattdessen Ports >8080. Also 8081, 8082, und so weiter.</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>Diese Daten müssen für jede Kamera eindeutig sein, jede Kamera hat daher eine eigene eindeutige IP Adresse zu bekommen. Wir empfehlen Ihnen auch jeder Kamera einen eigenen internen Port und später im Schritt 3 den gleichen externen Port zu vergeben. Es empfiehlt sich natürlich den Kameras fortlaufende Nummern zu geben, so dass man der zweiten Kamera einfach die IP Adresse 192.168.1.238 und den Port 81, der dritten Kamera die IP Adresse 192.168.1.239 und den Port 82 usw. gibt. Um auf die Kameras zuzugreifen müssen Sie anschließend den Port mit in der Adresszeile des Browsers angeben - also z.B. 192.168.1.238:81 oder 123test.ddns-instar.com:81 .</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="primarycard">
+                        <p><strong><u>Exkurs:</u></strong><br/><br/>Bitte beachten Sie, dass die ersten drei Zahlen den IP Raum des Routers definieren. Im obigen Beispiel wurde die der Fritz!Box verwendet. Ein andereres Beispiel ist der Speedport von T-Mobile, dieser verwendet standardmäßig den IP Raum 192.168.2.x, die meisten gängigen Router verwenden den IP Raum 192.168.1.x. Hierbei ist zu beachten, dass das x für die Zahlen 1 bis 256 stehen kann und die 1 immer den Router adressiert. Wir haben im obigen Beispiel die 190 verwendet, da es im Allgemeinem besser ist eine IP Adresse zu verwenden welche nicht vom Router reserviert wird. Der Router reserviert einen bestimmten Bereich des IP Raumes für DHCP. In den meisten Fällen ist die 190 außerhalb, im Allgemeinen sollte es zu keinen Problemen kommen wenn Sie eine IP Adresse aus dem DHCP Bereich erwischen. Sollte es einmal doch zu Problemen kommen, können Sie einfach einmal versuchen eine IP Adresse in einem anderen Bereich zu verwenden. Sollte Sie einmal nicht sicher sein, wie die IP Adresse Ihres Routers lautet so können Sie diese einfach testen. Geben Sie die vermeintliche IP Adresse Ihres Routers in den Web Browsers Ihres Vertrauens ein, wenn es die Richtige ist, sollten Sie auf die Weboberfläche Ihres Routers kommen. Wenn Ihr PC mit dem Router verbunden ist, können Sie die IP Ihres Routers auch über den Befehl ipconfig ausfindig machen. Tippen Sie diesen einfach in die MS-Dos Kommandozeile ein und Sie werden die IP Adresse Ihres Standardateways angezeigt bekommen. Ihr Standardgateway in die Welt des Internets ist aber eben Ihr Router und somit ist diese IP Adresse identisch mit der Ihres Routers.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h3>Testen des DDNS Eintrages</h3>
+                        <p>Dieser Schritt ist relativ einfach, da Sie keine Einstellungen vornehmen müssen. Verbinden Sie sich wieder mit Ihrer Kamera, sofern Sie nicht weiterhin auf der WebUI sind, und öffnen Sie den Menüpunkt Netzwerk > DDNS Service. Dort finden Sie unter dem Punkt Hersteller-Domain die Adresse über der Sie die Kamera von extern aufrufen können. Merken Sie sich diese! Sie besteht in der Regel aus einer 6 stelligen Ziffern- und Buchstabenkombination, nach dem Muster xxxxx.ddns-instar.com oder xxxxx.ddns-instar.de, wobei die x stellvertretend für die Ziffern oder Buchstaben stehen. Danach gehen Sie auf den Menüpunkt System > Info. Dort finden Sie den aktuellen DDNS Status. Dieser muss mit dem Attribut Erfolgreich versehen sein. Ist dies der Fall, dann bedeutet das, dass die Kamera sich erfolgreich mit dem DDNS Server verbunden hat und von der Kameraseite alles funktioniert.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/Port_Forwarding_EN_02.jpg" width="620" height="329" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox2" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox2.close" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/Port_Forwarding_EN_02.jpg" width="620" height="329" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>Sollte einmal der Eintrag der Hersteller Domain fehlen, so kontaktieren Sie bitte den INSTAR Support, dieser kann Ihnen dabei behilflich sein eine Hersteller Domain auf die Kamera aufzuspielen. Sollte der Status einmal einen Fehler anzeigen, so kann es sich um ein temporäres Problem handeln. Starten Sie ggf. einmal die Kamera neu um eine Neuanmeldung auf dem DDNS Server zu erzwingen und überprüfen Sie die IP Konfiguration der Kamera - speziell den DNS Server und das Gateway. Es kann sein, dass die Verbindung nicht gleich hergestellt werden kann und eine Stunden später alles okay ist. Sollte das Problem länger als einen Tag bestehen, wenden Sie sich bitte an den INSTAR Support.</p>
+                        <p>Sie können Ihre DDNS Adresse auch ganz einfach manuell überprüfen mit einem kleinen Programm mit dem Namen <a href="http://en.wikipedia.org/wiki/Nslookup">nslookup</a>. Öffnen Sie hierfür die Eingabeaufforderung an Ihrem Windows PC (im Startmenü einfach cmd suchen und bestätigen) und geben Sie nslookup ein um das Programm zu starten. Sie können jetzt Ihre persönliche DDNS Adresse eingeben und auf die Antwort warten (siehe Screenshots unten). Die gefundene IPv4 Adresse muss identisch sein mit Ihrer aktuellen WAN IP Adresse. Die WAN IP Adresse können Sie in Ihrem Router einsehen. Oder öffnen Sie die Website <a href="http://wieistmeineip.de/">wieistmeineip.de</a>  und vergleichen Sie die angezeigte IP mit dem nslookup Ergebnis. Achten Sie bitte darauf, dass Ihnen keine IPv6 Adressen (DSLite) angezeigt werden - mit diesen ist der DDNS Zugriff nicht möglich und Sie wären auf den P2P Service unserer HD Kameras angewiesen.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/Nslookup_01.png" width="620" height="313" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox3" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox3.close" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/Nslookup_01.png" width="620" height="313" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>Öffnen Sie Ihre Eingabeaufforderung und geben Sie nslookup ein um das Programm zu starten.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox4" role="button" tabindex="0" src="/images/Nslookup_02.png" width="620" height="313" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox4" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox4.close" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox4.close" role="button" tabindex="0" src="/images/Nslookup_02.png" width="620" height="313" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>Geben Sie Ihre DDNS Adresse ein und bestätigen Sie.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox5" role="button" tabindex="0" src="/images/Nslookup_03.png" width="620" height="313" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox5" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox5.close" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox5.close" role="button" tabindex="0" src="/images/Nslookup_03.png" width="620" height="313" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>Die angezeigte IP Adresse muss identisch sein mit Ihrer WAN IP dami der DDNS Zugriff funktioniert.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h3>Portweiterleitung / Portforwarding / Portfreigabe / NAT- oder Port-Regeln / Virtueller Server</h3>
+                        <p>Im dritten und letztem Schritt müssen Sie nun dem Router mitteilen, über welche IP Adresse und welchen internen (WAN) und externen (LAN) Port die Kamera erreichbar ist. Sie müssen in Ihrem Router eine Regel erstellen welche den externen Zugriff entsprechend regelt und erlaubt, dies wird je nach Router als Portweiterleitung / Portforwarding / Portfreigabe / NAT- oder Port-Regel bezeichnet. Im folgenden wird der Begriff Portweiterleitung synonym verwendet.</p>
+                        <p>Wo Sie diese Regel definieren ist von Router zu Router unterschiedlich. Welche Bezeichnungen verwendet werden ebenfalls. Ziel ist es Ihnen die Begriffe so gut zu verdeutlichen, dass Sie diese Einstellungen vornehmen können. Die Portweiterleitung soll am Beispiel der Fritz!Box erläutert werden. Verbinden Sie sich mit Ihrem Router. Dazu geben Sie einfach die schon aus dem Schritt 1 bekannte IP Adresse in Ihrem Web Browser ein. Für die Fritz!Box ist dies die 192.168.178.1. Dort gehen Sie auf den Menüpunkt für die Portweiterleitung. In der Fritz!Box finden Sie diese unter Internet > Portfreigabe. Im Allgemeinem braucht der Router die folgenden Daten:</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <table>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Anwendung</strong>
+                                </td>
+                                <td>Es gibt viele Standardanwendungen für welche eine Portweiterleitung eingerichtet werden kann, z.B. Webserver, FTP-Sever etc. Hier sollten Sie "Andere Anwendungen" auswählen um so eine neue Anwendung anzulegen und diese zu benennen um bei mehreren Kameras diese auseinanderhalten zu können.</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Bezeichnung</strong>
+                                </td>
+                                <td>Diese ist lediglich für Sie wichtig, damit Sie später wissen, für welches Gerät die Portweiterleitung eingerichtet wurde ; z.B. Kameraname + Kameraort.</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Protokoll</strong>
+                                </td>
+                                <td>Die Kamera benötigt lediglich das <strong>TCP Protokoll</strong>. Sie benötigen in diesem Fall UDP nicht.</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Von (externer) Port</strong>
+                                </td>
+                                <td>Dies ist der externe (WAN) Port der Kamera, dieser wird in hier definiert, der externe Port darf nicht doppelt vergeben werden (im Gegensatz zum internen), d.h. wenn Sie mehrere Kameras einbinden, sollte dieser durchlaufend vergeben werden ; da der externe Port 80 standardmäßig für Webanwendungen verwendet wird, kann es sein, dass Sie den Port 81 als externen Port verwenden müssen.</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Bis (externer) Port</strong>
+                                </td>
+                                <td>Gleichen Port wie bei "Von (externen) Port".</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>IP Adresse</strong>
+                                </td>
+                                <td>Dies ist die IP Adresse der Kamera welche wir im Schritt 1 vergeben haben.</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>An (internen) Port</strong>
+                                </td>
+                                <td> Dies ist der interne (LAN) Port der Kamera, wir haben diesen im Schritt 1 definiert, der Wert ist entsprechend einzutragen, in der Regel wird dies die 80 sein ; der interne Port kann einen größeren Bereich umfassen, für unsere Kameras ist dies aber nicht der Fall, so dass der zweite Wert ebenfalls den gleichen Wert wie der erste hat oder leer bleiben kann.</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>Wenn Sie mehrere Kameras einbinden wollen, muss für jede Kamera eine Portweiterleitung eingerichtet werden. Der externe Port muss für jede Kamera eindeutig sein. Es empfiehlt sich die Kamera 1 den externen Port 81 zu geben, der Kamera 2 den externen Port 82 usw. Abschließend verwenden Sie die Hersteller Domain aus Schritt 2, tippen diese in Ihrem Web Browser ein und hängen durch einen Doppelpunkt getrennt den externen Port der Kamera an. Für obiges Beispiel schaut diese wie folgt aus:</p>
+                        <p><strong>http://xxxxx.ddns-instar.com:80</strong></p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="primarycard">
+                        <p><strong><u>Exkurs:</u></strong><br/><br/>Sie können auch immer die gleiche aipcam Adresse verwenden und nur den Port ändern. Die Kamera kommuniziert über die DDNS Adresse mit dem DNS Server und teilt diesem die IP Adresse des Routers mit. Für alle Kameras welche am gleichen Router hängen ist diese natürlich die gleiche. D.h. Sie können die Kameras auch wie folgt aufrufen:
+
+Camera 1: http://abcd12.ddns-instar.com:80 Camera 2: http://abcd12.ddns-instar.com:81 Camera 3: http://abcd12.ddns-instar.com:82 and so on...
+
+Der Domain Name besteht aus dem Prefix http:// welches das Internetprotokoll definiert. Dies muss in der Regel nicht mit eingetippt werden, da aktuelle Browser dies als Standard voranstellen.
+
+Geben Sie somit nur xxxxx.ddns-instar.com ein, wobei x für die Zahlen- und Buchstabenkombination Ihrer DDNS Adresse stehen.
+
+Wenn man einen anderen Port als 80 verwendet z.B. 81, dann muss man diesen mit einem :81 hinter den Domain Name schreiben. Wird der Standard Web-Port 80 verwendet so muss man diesen nicht mit angeben, da dieser automatisch von aktuellen Web Browsern angesteuert wird.</p>
+                        <p><strong>Kamera 1: </strong> http://d2908.ddns-instar.com:80<br/><br/>
+                        <strong>Kamera 2: </strong> http://d2908.ddns-instar.com:8081<br/><br/>
+                      <strong>Kamera 3: </strong> http://d2908.ddns-instar.com:8082 und so weiter...<br/><br/></p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p><u>Achtung: </u>Die Portweiterleitung kann man bei der Fritzbox und beim Speedport aus dem eigenen Netzwerk testen. Es gibt Router, welche den externen Zugriff aus dem internen Netzwerk nicht unterstützen. Das heißt Sie müssen gegebenenfalls den Zugriff über einen externen Rechner von einem Freund oder von Ihrem Arbeitsplatz verwenden. Wenn Sie über den Port 80 auf das Menü des Routers kommen, dann stellen Sie einmal den internen und externen Port der Kamera auf 81. Sie müssen aufpassen, dass die Ports welche Sie verwenden nicht von anderen Geräten oder Diensten belegt sind. Wenn Sie z.b. mit Ihrem Smartphone von extern zugreifen wollen, müssen Sie in der Regel nur die Domain Name ohne Prefix angeben, der Port wird in der Regel durch eine eigene Eingabemaske abgefragt. Bei der App InstarVision am iPhone ist dies der Fall. Sie können auch in den Anleitungen der <a href="/Products/Software/Windows/InstarVision_Windows-Phone">Windows Phone</a>, <a href="http://localhost:3000/Products/Software/iOS">iOS</a> and <a href="/Products/Software/Android">Android</a> nachschauen.</p>
+                    </div>
+                    <!-- /margin -->
+
+                </article>
+                <!-- /article -->
+            </div>
+        </div>
+
+        <section class="blade blog">
+
+            <div class="container wider">
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1>Verwandte Themen:</h1>
+                    </div>
+                </div>
+
+                <div class="tab-container">
+
+                    <a class="tab" href="/Quick_Installation/First_Steps">
+                        <h3>Erste Schritte um Ihre INSTAR IP Camera zu installieren</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/After_Unpacking">
+                        <h3>Nach dem Auspacken Ihrer INSTAR IP Camera</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Direct_LAN_Connection">
+                        <h3>Verbinden Sie Ihre Kamera direkt mit Ihrem Computer</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
+                        <h3>Wie Sie die Firmware und Benutzeroberfläche Ihrer Kamera ändern können</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Set_Up_A_Wireless_Connection">
+                        <h3>Wie Sie Ihre Kamera mit dem WLAN verbinden</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Creating_User_Accounts">
+                        <h3>Ändern Sie den Standard-Login Ihrer Kamera</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+                </div>
+
+                <a href="/Quick_Installation/" target="_blank">Mehr ansehen</a>
+
+            </div>
+        </section>
+
+        <footer>
+            <% include ../_partials/amp/_amp-footer.ejs %>
+        </footer>
+    </body>
+</html>

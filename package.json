@@ -1,0 +1,19 @@
+	{
+  "name": "express-static-ger",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.1",
+    "elasticsearch": "^11.0.1",
+    "express": "~4.14.0",
+    "express-redirect": "^1.2.2",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  }
+}
