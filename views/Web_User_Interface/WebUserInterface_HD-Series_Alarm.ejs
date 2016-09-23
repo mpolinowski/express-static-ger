@@ -39,8 +39,6 @@
 
                     <!-- ##################################### Areas ############################################ -->
 
-
-
                     <div class="card-container margin">
                         <div class="twocard">
                             <div class="image" on="tap:areas-lightbox" role="button" tabindex="0">
@@ -48,7 +46,8 @@
                             </div>
                             <div class="content">
                                 <hr>
-                                <p class="areas"></p> <!-- innerHTML Added by script below -->
+                                <p class="areas"></p>
+                                <!-- innerHTML Added by script below -->
                             </div>
                             <div class="action">
                                 <a href="/Web_User_Interface/720p_Series/Alarm/Areas/">Menü Bereich</a>
@@ -56,28 +55,32 @@
                         </div>
                         <!-- /Card -->
                         <!-- lightbox -->
-                          <amp-lightbox id="areas-lightbox" layout="nodisplay">
+                        <amp-lightbox id="areas-lightbox" layout="nodisplay">
                             <div class="lightbox" tabindex="0">
-                              <div class="twocard cardbox">
-                                  <div class="image"on=" tap:areas-lightbox.close">
-                                      <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Areas_mouseOver.png"></amp-img>
-                                  </div>
-                                  <div class="content" tabindex="0">
-                                      <hr>
-                                      <p class="areas2"></p> <!-- innerHTML Added by script below -->
-                                  </div>
-                                  <div class="action">
-                                      <a href="/Web_User_Interface/720p_Series/Alarm/Areas/">Klicken Sie für mehr Informationen</a>
-                                  </div>
-                              </div>
+                                <div class="twocard cardbox">
+                                    <div class="image" on=" tap:areas-lightbox.close">
+                                        <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Areas_mouseOver.png"></amp-img>
+                                    </div>
+                                    <div class="content" tabindex="0">
+                                        <hr>
+                                        <p class="areas2"></p>
+                                        <!-- innerHTML Added by script below -->
+                                    </div>
+                                    <div class="action">
+                                        <a href="/Web_User_Interface/720p_Series/Alarm/Areas/">Klicken Sie für mehr Informationen</a>
+                                    </div>
+                                </div>
                             </div>
-                          </amp-lightbox>
+                        </amp-lightbox>
                         <!-- /lightbox -->
                         <!-- Add Pragraph Text -->
                         <script>
                             var areas = document.querySelectorAll('.areas, .areas2');
-                            for(var i = 0; i < areas.length; i++) {
-                              areas[i].innerHTML="Die Alarmbereiche bestimmen die Bildbereiche, die für die interne, softwarebasierte Bewegungserkennung der Kamera herangezogen wird. Sie können bis zu vier Alarmbereiche einzeichnen - aktivieren Sie einfach einen der 4 Bereiche und zeichnen sie diesen in den gewünschten Bildausschnitt ein, indem Sie die linke Maustaste gedrückt halten und die Maus bewegen. Der Schwellenwert für ein Alarmereignis kann über die Empfindlichkeit festgelegt werden - von sehr unempfindlich (Wert = 0) bis sehr empfindlich (Wert = 100). Die Empfindlichkeit wird darüber hinaus von der Größe des Bereiches bestimmt. Je kleiner der Bereich, desto mehr Fläche nimmt eine Änderung im Bild prozentual ein. Wenn Sie eine hohe Empfindlichkeit brauchen, setzten Sie viele kleine Alarmbereiche. Wenn Sie zu viele Fehlalarme erhalten, ist es besser einen großen Bereich aufzuziehen.";
+                            for (var i = 0; i < areas.length; i++) {
+                                areas[i].innerHTML = "Die Alarmbereiche bestimmen die Bildbereiche, die für die interne, softwarebasierte Bewegungserkennung der Kamera herangezogen wird. Sie können bis zu vier Alarmbereiche einzeichnen - aktivieren Sie einfach einen der 4 Bereiche und zeichnen sie diese" +
+                                        "n in den gewünschten Bildausschnitt ein, indem Sie die linke Maustaste gedrückt halten und die Maus bewegen. Der Schwellenwert für ein Alarmereignis kann über die Empfindlichkeit festgelegt werden - von sehr unempfindlich (Wert = 0) bis sehr empfindl" +
+                                        "ich (Wert = 100). Die Empfindlichkeit wird darüber hinaus von der Größe des Bereiches bestimmt. Je kleiner der Bereich, desto mehr Fläche nimmt eine Änderung im Bild prozentual ein. Wenn Sie eine hohe Empfindlichkeit brauchen, setzten Sie viele klein" +
+                                        "e Alarmbereiche. Wenn Sie zu viele Fehlalarme erhalten, ist es besser einen großen Bereich aufzuziehen.";
                             }
                         </script>
 
@@ -89,53 +92,59 @@
                             </div>
                             <div class="content">
                                 <hr>
-                                <p class="privacy"></p> <!-- innerHTML Added by script below -->
+                                <p class="privacy"></p>
+                                <!-- innerHTML Added by script below -->
                             </div>
                             <div class="action">
                                 <a href="/Web_User_Interface/720p_Series/Alarm/Privacy_Mask/">Menü Privatsphäre</a>
                             </div>
                         </div>
                         <!-- /Card -->
-                      </div>
-                      <!-- Card Container -->
-                      <!-- lightbox -->
-                        <amp-lightbox id="privacy-lightbox" layout="nodisplay">
-                          <div class="lightbox" on="tap:privacy-lightbox.close" tabindex="0">
+                    </div>
+                    <!-- Card Container -->
+                    <!-- lightbox -->
+                    <amp-lightbox id="privacy-lightbox" layout="nodisplay">
+                        <div class="lightbox" on="tap:privacy-lightbox.close" tabindex="0">
                             <div class="twocard cardbox">
                                 <a href="/Web_User_Interface/720p_Series/Alarm/Privacy_Mask/">
-                                <div class="image">
-                                    <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Privacy_mouseOver.png"></amp-img>
-                                </div>
+                                    <div class="image">
+                                        <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Privacy_mouseOver.png"></amp-img>
+                                    </div>
                                 </a>
                                 <div class="content" on="tap:privacy-lightbox.close" tabindex="0">
                                     <hr>
-                                    <p class="privacy2"></p> <!-- innerHTML Added by script below -->
+                                    <p class="privacy2"></p>
+                                    <!-- innerHTML Added by script below -->
                                 </div>
                                 <div class="action">
                                     <a href="/Web_User_Interface/720p_Series/Alarm/Privacy_Mask/">Klicken Sie für mehr Informationen</a>
                                 </div>
                             </div>
-                          </div>
-                        </amp-lightbox>
-                      <!-- /lightbox -->
-                      <!-- Add Pragraph Text -->
-                      <script>
-                          var privacy = document.querySelectorAll('.privacy, .privacy2');
-                          for(var i = 0; i < privacy.length; i++) {
-                            privacy[i].innerHTML="Die Privatsphäre Maske erlaubt es Ihnen Bereiche, die Sie nicht überwachen dürfen im Video auszuschwärzen. Wenn Sie z.B. Ihren Hauseingang überwachen und einen Teil der öffentlichen Straße im Bild haben, können Sie diesen Bereich aus dem Videobild entfernen. Beachten Sie bitte, dass die Privatsphären Maske nicht von der Funktion zum Drehen und Spiegeln des Videobildes erfasst wird. Wenn Sie Ihre Kamera über Kopf montiert haben, müssen Sie zuerst das Bild wieder richtig herum drehen und spiegeln, die Masken einzeichnen und das Bild danach wieder aufrichten. Sie können bis zu 4 Masken einzeichnen - aktivieren Sie einfach eine der 4 Masken und zeichnen sie diese in den gewünschten Bildausschnitt ein, indem Sie die linke Maustaste gedrückt halten und die Maus bewegen.";
-                          }
-                      </script>
+                        </div>
+                    </amp-lightbox>
+                    <!-- /lightbox -->
+                    <!-- Add Pragraph Text -->
+                    <script>
+                        var privacy = document.querySelectorAll('.privacy, .privacy2');
+                        for (var i = 0; i < privacy.length; i++) {
+                            privacy[i].innerHTML = "Die Privatsphäre Maske erlaubt es Ihnen Bereiche, die Sie nicht überwachen dürfen im Video auszuschwärzen. Wenn Sie z.B. Ihren Hauseingang überwachen und einen Teil der öffentlichen Straße im Bild haben, können Sie diesen Bereich aus dem Videobild en" +
+                                    "tfernen. Beachten Sie bitte, dass die Privatsphären Maske nicht von der Funktion zum Drehen und Spiegeln des Videobildes erfasst wird. Wenn Sie Ihre Kamera über Kopf montiert haben, müssen Sie zuerst das Bild wieder richtig herum drehen und spiegeln," +
+                                    " die Masken einzeichnen und das Bild danach wieder aufrichten. Sie können bis zu 4 Masken einzeichnen - aktivieren Sie einfach eine der 4 Masken und zeichnen sie diese in den gewünschten Bildausschnitt ein, indem Sie die linke Maustaste gedrückt halt" +
+                                    "en und die Maus bewegen.";
+                        }
+                    </script>
 
-                      <!-- ##################################### Actions ############################################ -->
+                    <!-- ##################################### Actions ############################################ -->
 
-                      <div class="card-container margin">
+                    <div class="card-container margin">
                         <div class="twocard">
                             <div class="image" on="tap:actions-lightbox" role="button" tabindex="0">
                                 <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Actions_mouseOver.png"></amp-img>
-                              </div>
+                            </div>
                             <div class="content">
                                 <hr>
-                                <p class="actions"></p> <!-- innerHTML Added by script below -->
+                                <p class="actions"></p>
+                                <!-- innerHTML Added by script below -->
                             </div>
                             <div class="action">
                                 <a href="/Web_User_Interface/720p_Series/Alarm/Actions/">Menü Aktionen</a>
@@ -143,30 +152,33 @@
                         </div>
                         <!-- /Card -->
                         <!-- lightbox -->
-                          <amp-lightbox id="actions-lightbox" layout="nodisplay">
+                        <amp-lightbox id="actions-lightbox" layout="nodisplay">
                             <div class="lightbox" on="tap:actions-lightbox.close" tabindex="0">
-                              <div class="twocard cardbox">
-                                  <a href="/Web_User_Interface/720p_Series/Alarm/Actions/">
-                                  <div class="image">
-                                      <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Actions_mouseOver.png"></amp-img>
-                                  </div>
-                                  </a>
-                                  <div class="content" on="tap:actions-lightbox.close" tabindex="0">
-                                      <hr>
-                                      <p class="actions"></p> <!-- innerHTML Added by script below -->
-                                  </div>
-                                  <div class="action">
-                                      <a href="/Web_User_Interface/720p_Series/Alarm/Actions/">Klicken Sie für mehr Informationen</a>
-                                  </div>
-                              </div>
+                                <div class="twocard cardbox">
+                                    <a href="/Web_User_Interface/720p_Series/Alarm/Actions/">
+                                        <div class="image">
+                                            <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Actions_mouseOver.png"></amp-img>
+                                        </div>
+                                    </a>
+                                    <div class="content" on="tap:actions-lightbox.close" tabindex="0">
+                                        <hr>
+                                        <p class="actions"></p>
+                                        <!-- innerHTML Added by script below -->
+                                    </div>
+                                    <div class="action">
+                                        <a href="/Web_User_Interface/720p_Series/Alarm/Actions/">Klicken Sie für mehr Informationen</a>
+                                    </div>
+                                </div>
                             </div>
-                          </amp-lightbox>
+                        </amp-lightbox>
                         <!-- /lightbox -->
                         <!-- Add Pragraph Text -->
                         <script>
                             var actions = document.querySelectorAll('.actions, .actions2');
-                            for(var i = 0; i < actions.length; i++) {
-                              actions[i].innerHTML="Bestimmen Sie hier welche Aktionen die Kamera ausführen soll, wenn ein Alarmereignis ausgelöst wurde. Alarme können ausgelöst werden durch die interne Bewegungserkennung der Kamera, durch den Audio Alarm oder durch einen externen Sensor. Sie können Ihre Kamera anweisen Ihnen eine Email (mit Schnappschüssen) zu senden oder Bilder auf der internen SD Karte abzulegen, bzw. auf den FTP Server hochzuladen. Stellen Sie bitte sicher, dass Sie einen SMTP Server hinterlegt haben, bevor Sie den Email Versand aktivieren. Auch für den FTP Versand muss zuerst ein FTP Server hinterlegt sein. Sollte die Option zum Speichern auf der internen SD Karte nicht auswählbar sein, müsste die interne SD Karte überprüft werden.";
+                            for (var i = 0; i < actions.length; i++) {
+                                actions[i].innerHTML = "Bestimmen Sie hier welche Aktionen die Kamera ausführen soll, wenn ein Alarmereignis ausgelöst wurde. Alarme können ausgelöst werden durch die interne Bewegungserkennung der Kamera, durch den Audio Alarm oder durch einen externen Sensor. Sie können I" +
+                                        "hre Kamera anweisen Ihnen eine Email (mit Schnappschüssen) zu senden oder Bilder auf der internen SD Karte abzulegen, bzw. auf den FTP Server hochzuladen. Stellen Sie bitte sicher, dass Sie einen SMTP Server hinterlegt haben, bevor Sie den Email Vers" +
+                                        "and aktivieren. Auch für den FTP Versand muss zuerst ein FTP Server hinterlegt sein. Sollte die Option zum Speichern auf der internen SD Karte nicht auswählbar sein, müsste die interne SD Karte überprüft werden.";
                             }
                         </script>
 
@@ -185,225 +197,241 @@
                             </div>
                         </div>
                         <!-- /Card -->
-                      </div>
-                      <!-- Card Container -->
-                      <!-- lightbox -->
-                        <amp-lightbox id="schedule-lightbox" layout="nodisplay">
-                          <div class="lightbox" on="tap:schedule-lightbox.close" tabindex="0">
+                    </div>
+                    <!-- Card Container -->
+                    <!-- lightbox -->
+                    <amp-lightbox id="schedule-lightbox" layout="nodisplay">
+                        <div class="lightbox" on="tap:schedule-lightbox.close" tabindex="0">
                             <div class="twocard cardbox">
                                 <a href="/Web_User_Interface/720p_Series/Alarm/Schedule/">
-                                <div class="image">
-                                    <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Schedule_mouseOver.png"></amp-img>
-                                </div>
+                                    <div class="image">
+                                        <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Schedule_mouseOver.png"></amp-img>
+                                    </div>
                                 </a>
                                 <div class="content" on="tap:schedule-lightbox.close" tabindex="0">
                                     <hr>
-                                    <p class="schedule2"></p> <!-- innerHTML Added by script below -->
+                                    <p class="schedule2"></p>
+                                    <!-- innerHTML Added by script below -->
                                 </div>
                                 <div class="action">
                                     <a href="/Web_User_Interface/720p_Series/Alarm/Schedule/">Klicken Sie für mehr Informationen</a>
                                 </div>
                             </div>
-                          </div>
-                        </amp-lightbox>
-                      <!-- /lightbox -->
-                      <!-- Add Pragraph Text -->
-                      <script>
-                          var schedule = document.querySelectorAll('.schedule, .schedule2');
-                          for(var i = 0; i < schedule.length; i++) {
-                            schedule[i].innerHTML="Hier können Sie die Zeitfenster festlegen in dem die Bewegungserkennung der Kamera für aktivierte Alarmbereiche aktiv sein soll. Beachten Sie bitte, dass dieser Zeitplan auch für die Alarmauslösung durch den Audio Alarm oder durch einen externen Sensor regelt. Jedes blaue Quadrat entspricht dabei 30 Minuten, in denen der Alarm scharfgestellt ist. Stellen Sie bitte sicher, dass in der Kamera die richtige Zeitzone und der Wert für die Sommerzeit gesetzt wurde bevor Sie den Zeitplan aktivieren.";
-                          }
-                      </script>
-
-                      <!-- ##################################### SMTP ############################################ -->
-
-                      <div class="card-container margin">
-                        <div class="twocard">
-                            <div class="image" on="tap:smtp-lightbox" role="button" tabindex="0">
-                                <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_SMTP_mouseOver.png"></amp-img>
-                              </div>
-                            </a>
-                            <div class="content">
-                                <hr>
-                                <p class="smtp"></p> <!-- innerHTML Added by script below -->
-                            </div>
-                            <div class="action">
-                                <a href="/Web_User_Interface/720p_Series/Alarm/SMTP_Server/">Menü SMTP Server</a>
-                            </div>
                         </div>
-                        <!-- /Card -->
-                        <!-- lightbox -->
-                          <amp-lightbox id="smtp-lightbox" layout="nodisplay">
-                            <div class="lightbox" on="tap:smtp-lightbox.close" tabindex="0">
-                              <div class="twocard cardbox">
-                                  <a href="/Web_User_Interface/720p_Series/Alarm/SMTP_Server/">
-                                  <div class="image">
-                                      <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_SMTP_mouseOver.png"></amp-img>
-                                  </div>
-                                  </a>
-                                  <div class="content" on="tap:smtp-lightbox.close" tabindex="0">
-                                      <hr>
-                                      <p class="smtp2"></p> <!-- innerHTML Added by script below -->
-                                  </div>
-                                  <div class="action">
-                                      <a href="/Web_User_Interface/720p_Series/Alarm/SMTP_Server/">Klicken Sie für mehr Informationen</a>
-                                  </div>
-                              </div>
-                            </div>
-                          </amp-lightbox>
-                        <!-- /lightbox -->
-                        <!-- Add Pragraph Text -->
-                        <script>
-                            var smtp = document.querySelectorAll('.smtp, .smtp2');
-                            for(var i = 0; i < smtp.length; i++) {
-                              smtp[i].innerHTML="Um den Email Versand nutzen zu können, müssen Sie in der Kamera die Zugangsdaten zum Emailausgangsserver Ihres Anbieters hinterlegen. Sollten Sie diese nicht zur Hand haben, können Sie einfach die INSTAR Vorauswahl nutzen. Wählen Sie dafür einfach den INSTAR SMTP Server aus der Vorauswahl und bestätigen Sie die Eingabe. Ihre persönliche Empfänger Adresse können Sie dann im Email Menü hinterlegen. Mit dieser Einrichtung wird die Kamera Benachrichtigungs-Emails - TLS Verschlüsselt - über den, in Deutschland stehenden, INSTAR Server an Ihre persönliche Email Adresse senden. INSTAR führt dabei keine Datenspeicherung durch, sondern leitet die Emails einfach weiter.";
-                            }
-                        </script>
-
-                        <!-- ##################################### Email ############################################ -->
-
-                        <div class="twocard">
-                            <div class="image" on="tap:email-lightbox" role="button" tabindex="0">
-                                <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Email_mouseOver.png"></amp-img>
-                            </div>
-                            <div class="content">
-                                <hr>
-                                <p class="email"></p> <!-- innerHTML Added by script below -->
-                            </div>
-                            <div class="action">
-                                <a href="/Web_User_Interface/720p_Series/Alarm/Email/">Menü E-Mail</a>
-                            </div>
-                        </div>
-                        <!-- /Card -->
-                    </div>
-                    <!-- /Card Container -->
-                    <!-- lightbox -->
-                      <amp-lightbox id="email-lightbox" layout="nodisplay">
-                        <div class="lightbox" on="tap:email-lightbox.close" tabindex="0">
-                          <div class="twocard cardbox">
-                              <a href="/Web_User_Interface/720p_Series/Alarm/Email/">
-                              <div class="image">
-                                  <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Email_mouseOver.png"></amp-img>
-                              </div>
-                              </a>
-                              <div class="content" on="tap:email-lightbox.close" tabindex="0">
-                                  <hr>
-                                  <p class="email2"></p> <!-- innerHTML Added by script below -->
-                              </div>
-                              <div class="action">
-                                  <a href="/Web_User_Interface/720p_Series/Alarm/Email/">Klicken Sie für mehr Informationen</a>
-                              </div>
-                          </div>
-                        </div>
-                      </amp-lightbox>
+                    </amp-lightbox>
                     <!-- /lightbox -->
                     <!-- Add Pragraph Text -->
                     <script>
-                        var email = document.querySelectorAll('.email, .email2');
-                        for(var i = 0; i < email.length; i++) {
-                          email[i].innerHTML="Im Email Menü können Sie die Absender und Ihre Empfänger Adresse für die Email Benachrichtigung hinterlegen. Der Absender muss entsprechend des gewählten SMTP Accounts gesetzt werden. Beachten Sie bitte, dass einige Email Anbieter es nicht erlauben, wenn Absender und Empfänger Email gleich gewählt werden! Als Empfänger können Sie mehrere Email Adressen, getrennt durch ein Semikolon gesetzt werden, z.B. max.mustermann@instar.de;franz.fingerhut@instar.de. Es ist empfohlen auch einen Betreff und Email Text (max 64 Zeichen) einzutragen, da leere Emails ggf. an Spam-Wächtern hängen bleiben.";
+                        var schedule = document.querySelectorAll('.schedule, .schedule2');
+                        for (var i = 0; i < schedule.length; i++) {
+                            schedule[i].innerHTML = "Hier können Sie die Zeitfenster festlegen in dem die Bewegungserkennung der Kamera für aktivierte Alarmbereiche aktiv sein soll. Beachten Sie bitte, dass dieser Zeitplan auch für die Alarmauslösung durch den Audio Alarm oder durch einen externen Sens" +
+                                    "or regelt. Jedes blaue Quadrat entspricht dabei 30 Minuten, in denen der Alarm scharfgestellt ist. Stellen Sie bitte sicher, dass in der Kamera die richtige Zeitzone und der Wert für die Sommerzeit gesetzt wurde bevor Sie den Zeitplan aktivieren.";
                         }
                     </script>
 
-                    <!-- ##################################### FTP ############################################ -->
+                    <!-- ##################################### SMTP ############################################ -->
 
                     <div class="card-container margin">
-                      <div class="twocard">
-                          <div class="image" on="tap:ftp-lightbox" role="button" tabindex="0">
-                              <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_FTP_mouseOver.png"></amp-img>
-                          </div>
-                          <div class="content">
-                              <hr>
-                              <p class="ftp"></p>
-                          </div>
-                          <div class="action">
-                              <a href="/Web_User_Interface/720p_Series/Alarm/FTP/">Menü FTP</a>
-                          </div>
-                      </div>
-                      <!-- /Card -->
-                      <!-- lightbox -->
-                        <amp-lightbox id="ftp-lightbox" layout="nodisplay">
-                          <div class="lightbox" on="tap:ftp-lightbox.close" tabindex="0">
+                        <div class="twocard">
+                            <div class="image" on="tap:smtp-lightbox" role="button" tabindex="0">
+                                <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_SMTP_mouseOver.png"></amp-img>
+                            </div>
+                        </a>
+                        <div class="content">
+                            <hr>
+                            <p class="smtp"></p>
+                            <!-- innerHTML Added by script below -->
+                        </div>
+                        <div class="action">
+                            <a href="/Web_User_Interface/720p_Series/Alarm/SMTP_Server/">Menü SMTP Server</a>
+                        </div>
+                    </div>
+                    <!-- /Card -->
+                    <!-- lightbox -->
+                    <amp-lightbox id="smtp-lightbox" layout="nodisplay">
+                        <div class="lightbox" on="tap:smtp-lightbox.close" tabindex="0">
+                            <div class="twocard cardbox">
+                                <a href="/Web_User_Interface/720p_Series/Alarm/SMTP_Server/">
+                                    <div class="image">
+                                        <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_SMTP_mouseOver.png"></amp-img>
+                                    </div>
+                                </a>
+                                <div class="content" on="tap:smtp-lightbox.close" tabindex="0">
+                                    <hr>
+                                    <p class="smtp2"></p>
+                                    <!-- innerHTML Added by script below -->
+                                </div>
+                                <div class="action">
+                                    <a href="/Web_User_Interface/720p_Series/Alarm/SMTP_Server/">Klicken Sie für mehr Informationen</a>
+                                </div>
+                            </div>
+                        </div>
+                    </amp-lightbox>
+                    <!-- /lightbox -->
+                    <!-- Add Pragraph Text -->
+                    <script>
+                        var smtp = document.querySelectorAll('.smtp, .smtp2');
+                        for (var i = 0; i < smtp.length; i++) {
+                            smtp[i].innerHTML = "Um den Email Versand nutzen zu können, müssen Sie in der Kamera die Zugangsdaten zum Emailausgangsserver Ihres Anbieters hinterlegen. Sollten Sie diese nicht zur Hand haben, können Sie einfach die INSTAR Vorauswahl nutzen. Wählen Sie dafür einfach de" +
+                                    "n INSTAR SMTP Server aus der Vorauswahl und bestätigen Sie die Eingabe. Ihre persönliche Empfänger Adresse können Sie dann im Email Menü hinterlegen. Mit dieser Einrichtung wird die Kamera Benachrichtigungs-Emails - TLS Verschlüsselt - über den, in D" +
+                                    "eutschland stehenden, INSTAR Server an Ihre persönliche Email Adresse senden. INSTAR führt dabei keine Datenspeicherung durch, sondern leitet die Emails einfach weiter.";
+                        }
+                    </script>
+
+                    <!-- ##################################### Email ############################################ -->
+
+                    <div class="twocard">
+                        <div class="image" on="tap:email-lightbox" role="button" tabindex="0">
+                            <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Email_mouseOver.png"></amp-img>
+                        </div>
+                        <div class="content">
+                            <hr>
+                            <p class="email"></p>
+                            <!-- innerHTML Added by script below -->
+                        </div>
+                        <div class="action">
+                            <a href="/Web_User_Interface/720p_Series/Alarm/Email/">Menü E-Mail</a>
+                        </div>
+                    </div>
+                    <!-- /Card -->
+                </div>
+                <!-- /Card Container -->
+                <!-- lightbox -->
+                <amp-lightbox id="email-lightbox" layout="nodisplay">
+                    <div class="lightbox" on="tap:email-lightbox.close" tabindex="0">
+                        <div class="twocard cardbox">
+                            <a href="/Web_User_Interface/720p_Series/Alarm/Email/">
+                                <div class="image">
+                                    <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Email_mouseOver.png"></amp-img>
+                                </div>
+                            </a>
+                            <div class="content" on="tap:email-lightbox.close" tabindex="0">
+                                <hr>
+                                <p class="email2"></p>
+                                <!-- innerHTML Added by script below -->
+                            </div>
+                            <div class="action">
+                                <a href="/Web_User_Interface/720p_Series/Alarm/Email/">Klicken Sie für mehr Informationen</a>
+                            </div>
+                        </div>
+                    </div>
+                </amp-lightbox>
+                <!-- /lightbox -->
+                <!-- Add Pragraph Text -->
+                <script>
+                    var email = document.querySelectorAll('.email, .email2');
+                    for (var i = 0; i < email.length; i++) {
+                        email[i].innerHTML = "Im Email Menü können Sie die Absender und Ihre Empfänger Adresse für die Email Benachrichtigung hinterlegen. Der Absender muss entsprechend des gewählten SMTP Accounts gesetzt werden. Beachten Sie bitte, dass einige Email Anbieter es nicht erlauben, " +
+                                "wenn Absender und Empfänger Email gleich gewählt werden! Als Empfänger können Sie mehrere Email Adressen, getrennt durch ein Semikolon gesetzt werden, z.B. max.mustermann@instar.de;franz.fingerhut@instar.de. Es ist empfohlen auch einen Betreff und Em" +
+                                "ail Text (max 64 Zeichen) einzutragen, da leere Emails ggf. an Spam-Wächtern hängen bleiben.";
+                    }
+                </script>
+
+                <!-- ##################################### FTP ############################################ -->
+
+                <div class="card-container margin">
+                    <div class="twocard">
+                        <div class="image" on="tap:ftp-lightbox" role="button" tabindex="0">
+                            <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_FTP_mouseOver.png"></amp-img>
+                        </div>
+                        <div class="content">
+                            <hr>
+                            <p class="ftp"></p>
+                        </div>
+                        <div class="action">
+                            <a href="/Web_User_Interface/720p_Series/Alarm/FTP/">Menü FTP</a>
+                        </div>
+                    </div>
+                    <!-- /Card -->
+                    <!-- lightbox -->
+                    <amp-lightbox id="ftp-lightbox" layout="nodisplay">
+                        <div class="lightbox" on="tap:ftp-lightbox.close" tabindex="0">
                             <div class="twocard cardbox">
                                 <a href="/Web_User_Interface/720p_Series/Alarm/FTP/">
-                                <div class="image">
-                                    <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_FTP_mouseOver.png"></amp-img>
-                                </div>
+                                    <div class="image">
+                                        <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_FTP_mouseOver.png"></amp-img>
+                                    </div>
                                 </a>
                                 <div class="content" on="tap:ftp-lightbox.close" tabindex="0">
                                     <hr>
-                                    <p class="ftp2"></p> <!-- innerHTML Added by script below -->
+                                    <p class="ftp2"></p>
+                                    <!-- innerHTML Added by script below -->
                                 </div>
                                 <div class="action">
                                     <a href="/Web_User_Interface/720p_Series/Alarm/FTP/">Klicken Sie für mehr Informationen</a>
                                 </div>
                             </div>
-                          </div>
-                        </amp-lightbox>
-                      <!-- /lightbox -->
-                      <!-- Add Pragraph Text -->
-                      <script>
-                          var ftp = document.querySelectorAll('.ftp, .ftp2');
-                          for(var i = 0; i < ftp.length; i++) {
-                            ftp[i].innerHTML="Um den FTP Upload zu nutzen, müssen Sie zuerst einen FTP Server und Ihre Login Daten hinterlegen. Sie können z.B. Ihren Router als Empfänger des FTP Uploads einrichten - in diesem Fall können Sie einfach die Router IP Adresse (z.B. 192.168.178.1) als FTP Server Adresse eintragen. Der Standard FTP Port ist 21 und der Standard Modus ist passiv (PASV). Beachten Sie bitte, dass es manche FTP Server (z.B. Telekom Speedport) es nicht erlauben, für jeden Tag einen neunen Ordner anzulegen.";
-                          }
-                      </script>
+                        </div>
+                    </amp-lightbox>
+                    <!-- /lightbox -->
+                    <!-- Add Pragraph Text -->
+                    <script>
+                        var ftp = document.querySelectorAll('.ftp, .ftp2');
+                        for (var i = 0; i < ftp.length; i++) {
+                            ftp[i].innerHTML = "Um den FTP Upload zu nutzen, müssen Sie zuerst einen FTP Server und Ihre Login Daten hinterlegen. Sie können z.B. Ihren Router als Empfänger des FTP Uploads einrichten - in diesem Fall können Sie einfach die Router IP Adresse (z.B. 192.168.178.1) als" +
+                                    " FTP Server Adresse eintragen. Der Standard FTP Port ist 21 und der Standard Modus ist passiv (PASV). Beachten Sie bitte, dass es manche FTP Server (z.B. Telekom Speedport) es nicht erlauben, für jeden Tag einen neunen Ordner anzulegen.";
+                        }
+                    </script>
 
-                      <!-- ##################################### Audio Alarm ############################################ -->
+                    <!-- ##################################### Audio Alarm ############################################ -->
 
-                      <div class="twocard">
-                          <div class="image" on="tap:audio-lightbox" role="button" tabindex="0">
-                              <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Audio_mouseOver.png"></amp-img>
-                          </div>
-                          <div class="content">
-                              <hr>
-                              <p class="audio"></p> <!-- innerHTML Added by script below -->
-                          </div>
-                          <div class="action">
-                              <a href="/Web_User_Interface/720p_Series/Alarm/Audio_Alarm/">Menü Audio Alarm</a>
-                          </div>
-                      </div>
-                      <!-- /Card -->
-                  </div>
-                  <!-- /Card Container -->
-                  <!-- lightbox -->
-                    <amp-lightbox id="audio-lightbox" layout="nodisplay">
-                      <div class="lightbox" on="tap:audio-lightbox.close" tabindex="0">
+                    <div class="twocard">
+                        <div class="image" on="tap:audio-lightbox" role="button" tabindex="0">
+                            <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Audio_mouseOver.png"></amp-img>
+                        </div>
+                        <div class="content">
+                            <hr>
+                            <p class="audio"></p>
+                            <!-- innerHTML Added by script below -->
+                        </div>
+                        <div class="action">
+                            <a href="/Web_User_Interface/720p_Series/Alarm/Audio_Alarm/">Menü Audio Alarm</a>
+                        </div>
+                    </div>
+                    <!-- /Card -->
+                </div>
+                <!-- /Card Container -->
+                <!-- lightbox -->
+                <amp-lightbox id="audio-lightbox" layout="nodisplay">
+                    <div class="lightbox" on="tap:audio-lightbox.close" tabindex="0">
                         <div class="twocard cardbox">
                             <a href="/Web_User_Interface/720p_Series/Alarm/Audio_Alarm/">
-                            <div class="image">
-                                <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Audio_mouseOver.png"></amp-img>
-                            </div>
+                                <div class="image">
+                                    <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_Audio_mouseOver.png"></amp-img>
+                                </div>
                             </a>
                             <div class="content" on="tap:audio-lightbox.close" tabindex="0">
                                 <hr>
-                                <p class="audio2"></p> <!-- innerHTML Added by script below -->
+                                <p class="audio2"></p>
+                                <!-- innerHTML Added by script below -->
                             </div>
                             <div class="action">
                                 <a href="/Web_User_Interface/720p_Series/Alarm/Audio_Alarm/">Klicken Sie für mehr Informationen</a>
                             </div>
                         </div>
-                      </div>
-                    </amp-lightbox>
-                  <!-- /lightbox -->
-                  <!-- Add Pragraph Text -->
-                  <script>
-                      var audio = document.querySelectorAll('.audio, .audio2');
-                      for(var i = 0; i < audio.length; i++) {
-                        audio[i].innerHTML="Der Audio Alarm nutzt das Mikrofon der Kamera um bei einem lauten Geräusch einen Alarm auslösen zu können. Diese Alarmereignisse werden genauso behandelt, wie die Ereignisse der Bewegungserkennung und führen zu der Auslösung der von Ihnen festgelegten Alarm Aktionen. Beachten Sie bitte, dass die Empfindlichkeit dieser Detektion sowohl von der hier eingestellten Empfindlichkeit, als auch der eingestellten Lautstärke des Audio-Eingangs in der Multimedia Sektion der Weboberfläche.";
-                      }
-                  </script>
+                    </div>
+                </amp-lightbox>
+                <!-- /lightbox -->
+                <!-- Add Pragraph Text -->
+                <script>
+                    var audio = document.querySelectorAll('.audio, .audio2');
+                    for (var i = 0; i < audio.length; i++) {
+                        audio[i].innerHTML = "Der Audio Alarm nutzt das Mikrofon der Kamera um bei einem lauten Geräusch einen Alarm auslösen zu können. Diese Alarmereignisse werden genauso behandelt, wie die Ereignisse der Bewegungserkennung und führen zu der Auslösung der von Ihnen festgelegte" +
+                                "n Alarm Aktionen. Beachten Sie bitte, dass die Empfindlichkeit dieser Detektion sowohl von der hier eingestellten Empfindlichkeit, als auch der eingestellten Lautstärke des Audio-Eingangs in der Multimedia Sektion der Weboberfläche.";
+                    }
+                </script>
 
-                  <!-- ##################################### SD Card ############################################ -->
+                <!-- ##################################### SD Card ############################################ -->
 
-                  <div class="card-container margin">
+                <div class="card-container margin">
                     <div class="twocard">
                         <div class="image" on="tap:sd-lightbox" role="button" tabindex="0">
                             <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_SD_mouseOver.png"></amp-img>
                         </div>
                         <div class="content">
                             <hr>
-                            <p class="sd"></p> <!-- innerHTML Added by script below -->
+                            <p class="sd"></p>
+                            <!-- innerHTML Added by script below -->
                         </div>
                         <div class="action">
                             <a href="/Web_User_Interface/720p_Series/Alarm/SD_Card/">Menü SD Karte</a>
@@ -411,94 +439,97 @@
                     </div>
                     <!-- /Card -->
                     <!-- lightbox -->
-                      <amp-lightbox id="sd-lightbox" layout="nodisplay">
+                    <amp-lightbox id="sd-lightbox" layout="nodisplay">
                         <div class="lightbox" on="tap:sd-lightbox.close" tabindex="0">
-                          <div class="twocard cardbox">
-                              <a href="/Web_User_Interface/720p_Series/Alarm/SD_Card/">
-                              <div class="image">
-                                  <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_SD_mouseOver.png"></amp-img>
-                              </div>
-                              </a>
-                              <div class="content" on="tap:sd-lightbox.close" tabindex="0">
-                                  <hr>
-                                  <p class="sd2"></p> <!-- innerHTML Added by script below -->
-                              </div>
-                              <div class="action">
-                                  <a href="/Web_User_Interface/720p_Series/Alarm/SD_Card/">Klicken Sie für mehr Informationen</a>
-                              </div>
-                          </div>
+                            <div class="twocard cardbox">
+                                <a href="/Web_User_Interface/720p_Series/Alarm/SD_Card/">
+                                    <div class="image">
+                                        <amp-img noloading height=400 width=400 layout=responsive src="/images/QL-Box_WebUI_Alarm_SD_mouseOver.png"></amp-img>
+                                    </div>
+                                </a>
+                                <div class="content" on="tap:sd-lightbox.close" tabindex="0">
+                                    <hr>
+                                    <p class="sd2"></p>
+                                    <!-- innerHTML Added by script below -->
+                                </div>
+                                <div class="action">
+                                    <a href="/Web_User_Interface/720p_Series/Alarm/SD_Card/">Klicken Sie für mehr Informationen</a>
+                                </div>
+                            </div>
                         </div>
-                      </amp-lightbox>
+                    </amp-lightbox>
                     <!-- /lightbox -->
                     <!-- Add Pragraph Text -->
                     <script>
                         var sd = document.querySelectorAll('.sd, .sd2');
-                        for(var i = 0; i < sd.length; i++) {
-                          sd[i].innerHTML="Wählen Sie ob Sie die SD Karte auswerfen oder Formatieren möchten und bestätigen Sie die Eingabe. Es ist immer empfohlen die SD Karte zuerst auszuwerfen, bevor Sie sie aus der Kamera entfernen. Gerade wenn die Kamera eine Aufnahme durchführt während die Stromversorgung gekappt wird, kann es zu Fehlern im Dateisystem kommen. Sollte die SD Karte beschädigt werden, wird das Betriebsysstem versuchen die SD Karte zu reparieren und es kann einige Minuten dauern, bis die SD Karte wieder verfügbar ist. Sollte die SD Karte auch nach einiger Zeit noch nicht erreichbar sein, können Sie probieren die Karte zu formatieren. Sollte die Karte ausgeworfen werden, wird das Betriebssystem versuchen Sie nach einiger Zeit wieder automatisch zu mounten.";
+                        for (var i = 0; i < sd.length; i++) {
+                            sd[i].innerHTML = "Wählen Sie ob Sie die SD Karte auswerfen oder Formatieren möchten und bestätigen Sie die Eingabe. Es ist immer empfohlen die SD Karte zuerst auszuwerfen, bevor Sie sie aus der Kamera entfernen. Gerade wenn die Kamera eine Aufnahme durchführt während " +
+                                    "die Stromversorgung gekappt wird, kann es zu Fehlern im Dateisystem kommen. Sollte die SD Karte beschädigt werden, wird das Betriebsysstem versuchen die SD Karte zu reparieren und es kann einige Minuten dauern, bis die SD Karte wieder verfügbar ist. " +
+                                    "Sollte die SD Karte auch nach einiger Zeit noch nicht erreichbar sein, können Sie probieren die Karte zu formatieren. Sollte die Karte ausgeworfen werden, wird das Betriebssystem versuchen Sie nach einiger Zeit wieder automatisch zu mounten.";
                         }
                     </script>
                     <div class="twocard invisible"></div>
                     <!-- /Card -->
                 </div>
                 <!-- /Card Container -->
-                </div>
-                <!-- /Container -->
-            </section>
-            <!-- /Blade -->
-        </div>
-        <!-- /Wrapper -->
-
-        <!-- ------------------------------------ Related ------------------------------------------------------ -->
-
-        <section class="blade blog">
-
-            <div class="container wider">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1>Verwandte Themen:</h1>
-                    </div>
-                </div>
-
-                <div class="tab-container">
-
-                    <a class="tab" href="/Quick_Installation/First_Steps">
-                        <h3>Erste Schritte um Ihre INSTAR IP Camera zu installieren</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Quick_Installation/After_Unpacking">
-                        <h3>Nach dem Auspacken Ihrer INSTAR IP Camera</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Quick_Installation/Direct_LAN_Connection">
-                        <h3>Verbinden Sie Ihre Kamera direkt mit Ihrem Computer</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                    <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
-                        <h3>Wie Sie die Firmware und Benutzeroberfläche Ihrer Kamera ändern können</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                    <a class="tab" href="/Quick_Installation/Set_Up_A_Wireless_Connection">
-                        <h3>Wie Sie Ihre Kamera mit dem WLAN verbinden</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                    <a class="tab" href="/Quick_Installation/Creating_User_Accounts">
-                        <h3>Ändern Sie den Standard-Login Ihrer Kamera</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-                </div>
-
-                <a href="/Quick_Installation/" target="_blank">Mehr ansehen</a>
-
             </div>
+            <!-- /Container -->
         </section>
+        <!-- /Blade -->
+    </div>
+    <!-- /Wrapper -->
 
-        <footer>
-            <% include ../_partials/amp/_amp-footer.ejs %>
-        </footer>
-    </body>
+    <!-- ------------------------------------ Related ------------------------------------------------------ -->
+
+    <section class="blade blog">
+
+        <div class="container wider">
+            <div class="row">
+                <div class="twelve columns">
+                    <h1>Verwandte Themen:</h1>
+                </div>
+            </div>
+
+            <div class="tab-container">
+
+                <a class="tab" href="/Quick_Installation/First_Steps">
+                    <h3>Erste Schritte um Ihre INSTAR IP Camera zu installieren</h3>
+                    <div class="subtitle">Einfach</div>
+                </a>
+
+                <a class="tab" href="/Quick_Installation/After_Unpacking">
+                    <h3>Nach dem Auspacken Ihrer INSTAR IP Camera</h3>
+                    <div class="subtitle">Einfach</div>
+                </a>
+
+                <a class="tab" href="/Quick_Installation/Direct_LAN_Connection">
+                    <h3>Verbinden Sie Ihre Kamera direkt mit Ihrem Computer</h3>
+                    <div class="subtitle">Mittel</div>
+                </a>
+
+                <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
+                    <h3>Wie Sie die Firmware und Benutzeroberfläche Ihrer Kamera ändern können</h3>
+                    <div class="subtitle">Mittel</div>
+                </a>
+
+                <a class="tab" href="/Quick_Installation/Set_Up_A_Wireless_Connection">
+                    <h3>Wie Sie Ihre Kamera mit dem WLAN verbinden</h3>
+                    <div class="subtitle">Mittel</div>
+                </a>
+
+                <a class="tab" href="/Quick_Installation/Creating_User_Accounts">
+                    <h3>Ändern Sie den Standard-Login Ihrer Kamera</h3>
+                    <div class="subtitle">Einfach</div>
+                </a>
+            </div>
+
+            <a href="/Quick_Installation/" target="_blank">Mehr ansehen</a>
+
+        </div>
+    </section>
+
+    <footer>
+        <% include ../_partials/amp/_amp-footer.ejs %>
+    </footer>
+</body>
 </html>
