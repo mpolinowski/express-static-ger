@@ -9,8 +9,6 @@ This App was created in several steps:
 2. [Preparing the Site Structure](#2-preparing-the-site-structure)
 3. []()
 4. []()
-5. []()
-6. []()
   * []()
 
 
