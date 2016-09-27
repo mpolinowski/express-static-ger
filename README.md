@@ -7,7 +7,7 @@ This App was created in several steps:
 
 1. [Install Node.js and Express.js to serve our Web Application](#1-install-nodejs-and-expressjs-to-serve-our-web-application)
 2. [Preparing the Site Structure](#2-preparing-the-site-structure)
-3. []()
+3. [Import JSON Elements]()
 4. []()
   * []()
 
