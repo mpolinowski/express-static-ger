@@ -2,7 +2,7 @@ var express = require('express');
 var productRouter = express.Router();
 var appdata = require('../views/_partials/data/cameras.json');
 
-/* ****************************************** GET /Products ****************************************** */
+/* ****************************************** GET /General Product Routes ****************************************** */
 productRouter.route('/')
   .get(function(req, res) {
       res.render('./Products/Products', {
@@ -20,168 +20,216 @@ productRouter.route('/Usermanuals')
 productRouter.route('/Outdoor_Cameras/IN-7011_HD/Safety_Warnings')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Safety_Warnings', {
-          title: 'INSTAR IP Cameras Safety Warnings',
+          title: 'IN-7011 HD Safety Warnings',
+          model: 'IN-7011_HD',
+		  type: 'Outdoor'
         });
     });
 	
 productRouter.route('/Outdoor_Cameras/IN-7011_HD/Warranty')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Warranty', {
-          title: 'INSTAR IP Cameras Warranty & Disposal',
+          title: 'IN-7011 HD Warranty & Disposal',
+          model: 'IN-7011_HD',
+		  type: 'Outdoor'
         });
     });
 	
 productRouter.route('/Outdoor_Cameras/IN-7011_HD/Video_Streaming')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Video_Streaming', {
-          title: 'INSTAR IP Cameras Video Streaming',
+          title: 'IN-7011 HD Video Streaming',
+          model: 'IN-7011_HD',
+		  type: 'Outdoor'
         });
     });
 	
 productRouter.route('/Outdoor_Cameras/IN-7011_HD/Camera_Reset')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Camera_Reset', {
-          title: 'INSTAR IP Cameras Hardware Reset',
+          title: 'IN-7011 HD Hardware Reset',
+          model: 'IN-7011_HD',
+		  type: 'Outdoor'
         });
     });
 	
 productRouter.route('/Outdoor_Cameras/IN-5907_HD/Safety_Warnings')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Safety_Warnings', {
-          title: 'INSTAR IP Cameras Safety Warnings',
+          title: 'IN-5907 HD Safety Warnings',
+          model: 'IN-5907_HD',
+		  type: 'Outdoor'
         });
     });
 	
 productRouter.route('/Outdoor_Cameras/IN-5907_HD/Warranty')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Warranty', {
-          title: 'INSTAR IP Cameras Warranty & Disposal',
+          title: 'IN-5907 HD Warranty & Disposal',
+          model: 'IN-5907_HD',
+		  type: 'Outdoor'
         });
     });
 	
 productRouter.route('/Outdoor_Cameras/IN-5907_HD/Video_Streaming')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Video_Streaming', {
-          title: 'INSTAR IP Cameras Video Streaming',
+          title: 'IN-5907 HD Video Streaming',
+          model: 'IN-5907_HD',
+		  type: 'Outdoor'
         });
     });
 	
 productRouter.route('/Outdoor_Cameras/IN-5907_HD/Camera_Reset')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Camera_Reset', {
-          title: 'INSTAR IP Cameras Hardware Reset',
+          title: 'IN-5907 HD Hardware Reset',
+          model: 'IN-5907_HD',
+		  type: 'Outdoor'
         });
     });
 	
 productRouter.route('/Outdoor_Cameras/IN-5905_HD/Safety_Warnings')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Safety_Warnings', {
-          title: 'INSTAR IP Cameras Safety Warnings',
+          title: 'IN-5905 HD Safety Warnings',
+          model: 'IN-5905_HD',
+		  type: 'Outdoor'
         });
     });
 	
 productRouter.route('/Outdoor_Cameras/IN-5905_HD/Warranty')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Warranty', {
-          title: 'INSTAR IP Cameras Warranty & Disposal',
+          title: 'IN-5905 HD Warranty & Disposal',
+          model: 'IN-5905_HD',
+		  type: 'Outdoor'
         });
     });
 	
 productRouter.route('/Outdoor_Cameras/IN-5905_HD/Video_Streaming')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Video_Streaming', {
-          title: 'INSTAR IP Cameras Video Streaming',
+          title: 'IN-5905 HD Video Streaming',
+          model: 'IN-5905_HD',
+		  type: 'Outdoor'
         });
     });
 	
 productRouter.route('/Outdoor_Cameras/IN-5905_HD/Camera_Reset')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Camera_Reset', {
-          title: 'INSTAR IP Cameras Hardware Reset',
+          title: 'IN-5905 HD Hardware Reset',
+          model: 'IN-5905_HD',
+		  type: 'Outdoor'
         });
     });
 	
 productRouter.route('/Indoor_Cameras/IN-6014_HD/Safety_Warnings')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Safety_Warnings', {
-          title: 'INSTAR IP Cameras Safety Warnings',
+          title: 'IN-6014 HD Safety Warnings',
+          model: 'IN-6014_HD',
+		  type: 'Indoor'
         });
     });
 	
 productRouter.route('/Indoor_Cameras/IN-6014_HD/Warranty')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Warranty', {
-          title: 'INSTAR IP Cameras Warranty & Disposal',
+          title: 'IN-6014 HD Warranty & Disposal',
+          model: 'IN-6014_HD',
+		  type: 'Indoor'
         });
     });
 	
 productRouter.route('/Indoor_Cameras/IN-6014_HD/Video_Streaming')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Video_Streaming', {
-          title: 'INSTAR IP Cameras Video Streaming',
+          title: 'IN-6014 HD Video Streaming',
+          model: 'IN-6014_HD',
+		  type: 'Indoor'
         });
     });
 	
 productRouter.route('/Indoor_Cameras/IN-6014_HD/Camera_Reset')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Camera_Reset', {
-          title: 'INSTAR IP Cameras Hardware Reset',
+          title: 'IN-6014 HD Hardware Reset',
+          model: 'IN-6014_HD',
+		  type: 'Indoor'
         });
     });
 	
 productRouter.route('/Indoor_Cameras/IN-6012_HD/Safety_Warnings')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Safety_Warnings', {
-          title: 'INSTAR IP Cameras Safety Warnings',
+          title: 'IN-6012 HD Safety Warnings',
+          model: 'IN-6012_HD',
+		  type: 'Indoor'
         });
     });
 	
 productRouter.route('/Indoor_Cameras/IN-6012_HD/Warranty')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Warranty', {
-          title: 'INSTAR IP Cameras Warranty & Disposal',
+          title: 'IN-6012 HD Warranty & Disposal',
+          model: 'IN-6012_HD',
+		  type: 'Indoor'
         });
     });
 	
 productRouter.route('/Indoor_Cameras/IN-6012_HD/Video_Streaming')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Video_Streaming', {
-          title: 'INSTAR IP Cameras Video Streaming',
+          title: 'IN-6012 HD Video Streaming',
+          model: 'IN-6012_HD',
+		  type: 'Indoor'
         });
     });
 	
 productRouter.route('/Indoor_Cameras/IN-6012_HD/Camera_Reset')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Camera_Reset', {
-          title: 'INSTAR IP Cameras Hardware Reset',
+          title: 'IN-6012 HD Hardware Reset',
+          model: 'IN-6012_HD',
+		  type: 'Indoor'
         });
     });
 	
 productRouter.route('/Indoor_Cameras/IN-6001_HD/Safety_Warnings')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Safety_Warnings', {
-          title: 'INSTAR IP Cameras Safety Warnings',
+          title: 'IN-6001 HD Safety Warnings',
+          model: 'IN-6001_HD',
+		  type: 'Indoor'
         });
     });
 	
 productRouter.route('/Indoor_Cameras/IN-6001_HD/Warranty')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Warranty', {
-          title: 'INSTAR IP Cameras Warranty & Disposal',
+          title: 'IN-6001 HD Warranty & Disposal',
+          model: 'IN-6001_HD',
+		  type: 'Indoor'
         });
     });
 	
 productRouter.route('/Indoor_Cameras/IN-6001_HD/Video_Streaming')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Video_Streaming', {
-          title: 'INSTAR IP Cameras Video Streaming',
+          title: 'IN-6001 HD Video Streaming',
+          model: 'IN-6001_HD',
+		  type: 'Indoor'
         });
     });
 	
 productRouter.route('/Indoor_Cameras/IN-6001_HD/Camera_Reset')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Camera_Reset', {
-          title: 'INSTAR IP Cameras Hardware Reset',
+          title: 'IN-6001 HD Hardware Reset',
+          model: 'IN-6001_HD',
+		  type: 'Indoor'
         });
     });
 
@@ -242,17 +290,17 @@ productRouter.route('/Indoor_Cameras/IN-6014_HD/Quick_Installation')
     });
 });
 
-productRouter.route('/Indoor_Cameras/IN-6014_HD/Technical_Specifications')
-.get(function(req, res) {
-  res.render('./Products/IN-6014_Tech_Specs', {
-      title: 'IN-6014 HD Technical Specifications',
-    });
-});
-
 productRouter.route('/Indoor_Cameras/IN-6014_HD/Lense_Adjustment')
 .get(function(req, res) {
   res.render('./Products/IN-6014_Lense_Adjustment', {
       title: 'IN-6014 HD Lense Adjustment',
+    });
+});
+
+productRouter.route('/Indoor_Cameras/IN-6014_HD/Technical_Specifications')
+.get(function(req, res) {
+  res.render('./Products/IN-6014_Tech_Specs', {
+      title: 'IN-6014 HD Technical Specifications',
     });
 });
 
@@ -274,6 +322,34 @@ productRouter.route('/Indoor_Cameras/IN-6012_HD/Usermanual')
 .get(function(req, res) {
   res.render('./Products/IN-6012_Usermanual', {
       title: 'IN-6012 HD Usermanual',
+    });
+});
+
+productRouter.route('/Indoor_Cameras/IN-6012_HD/Product_Features')
+.get(function(req, res) {
+  res.render('./Products/IN-6012_Product_Features', {
+      title: 'IN-6012 HD Product Features',
+    });
+});
+
+productRouter.route('/Indoor_Cameras/IN-6012_HD/Point2Point')
+.get(function(req, res) {
+  res.render('./Products/IN-6012_Point2Point', {
+      title: 'IN-6012 HD Point 2 Point',
+    });
+});
+
+productRouter.route('/Indoor_Cameras/IN-6012_HD/Quick_Installation')
+.get(function(req, res) {
+  res.render('./Products/IN-6012_Quick_Installation', {
+      title: 'IN-6012 HD Quick Installation',
+    });
+});
+
+productRouter.route('/Indoor_Cameras/IN-6012_HD/Lense_Adjustment')
+.get(function(req, res) {
+  res.render('./Products/IN-6012_Lense_Adjustment', {
+      title: 'IN-6012 HD Lense Adjustment',
     });
 });
 
@@ -302,6 +378,34 @@ productRouter.route('/Indoor_Cameras/IN-6001_HD/Usermanual')
 .get(function(req, res) {
   res.render('./Products/IN-6001_Usermanual', {
       title: 'IN-6001 HD Usermanual',
+    });
+});
+
+productRouter.route('/Indoor_Cameras/IN-6001_HD/Product_Features')
+.get(function(req, res) {
+  res.render('./Products/IN-6001_Product_Features', {
+      title: 'IN-6001 HD Product Features',
+    });
+});
+
+productRouter.route('/Indoor_Cameras/IN-6001_HD/Point2Point')
+.get(function(req, res) {
+  res.render('./Products/IN-6001_Point2Point', {
+      title: 'IN-6001 HD Point 2 Point',
+    });
+});
+
+productRouter.route('/Indoor_Cameras/IN-6001_HD/Quick_Installation')
+.get(function(req, res) {
+  res.render('./Products/IN-6001_Quick_Installation', {
+      title: 'IN-6001 HD Quick Installation',
+    });
+});
+
+productRouter.route('/Indoor_Cameras/IN-6001_HD/Lense_Adjustment')
+.get(function(req, res) {
+  res.render('./Products/IN-6001_Lense_Adjustment', {
+      title: 'IN-6001 HD Lense Adjustment',
     });
 });
 
@@ -376,6 +480,34 @@ productRouter.route('/Outdoor_Cameras/IN-7011_HD/Usermanual')
     });
 });
 
+productRouter.route('/Outdoor_Cameras/IN-7011_HD/Product_Features')
+.get(function(req, res) {
+  res.render('./Products/IN-7011_Product_Features', {
+      title: 'IN-7011 HD Product Features',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-7011_HD/Point2Point')
+.get(function(req, res) {
+  res.render('./Products/IN-7011_Point2Point', {
+      title: 'IN-7011 HD Point 2 Point',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-7011_HD/Quick_Installation')
+.get(function(req, res) {
+  res.render('./Products/IN-7011_Quick_Installation', {
+      title: 'IN-7011 HD Quick Installation',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-7011_HD/Lense_Adjustment')
+.get(function(req, res) {
+  res.render('./Products/IN-7011_Lense_Adjustment', {
+      title: 'IN-7011 HD Lense Adjustment',
+    });
+});
+
 productRouter.route('/Outdoor_Cameras/IN-7011_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Products/IN-7011_Tech_Specs', {
@@ -404,6 +536,34 @@ productRouter.route('/Outdoor_Cameras/IN-5907_HD/Usermanual')
     });
 });
 
+productRouter.route('/Outdoor_Cameras/IN-5907_HD/Product_Features')
+.get(function(req, res) {
+  res.render('./Products/IN-5907_Product_Features', {
+      title: 'IN-5907 HD Product Features',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-5907_HD/Point2Point')
+.get(function(req, res) {
+  res.render('./Products/IN-5907_Point2Point', {
+      title: 'IN-5907 HD Point 2 Point',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-5907_HD/Quick_Installation')
+.get(function(req, res) {
+  res.render('./Products/IN-5907_Quick_Installation', {
+      title: 'IN-5907 HD Quick Installation',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-5907_HD/Lense_Adjustment')
+.get(function(req, res) {
+  res.render('./Products/IN-5907_Lense_Adjustment', {
+      title: 'IN-5907 HD Lense Adjustment',
+    });
+});
+
 productRouter.route('/Outdoor_Cameras/IN-5907_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Products/IN-5907_Tech_Specs', {
@@ -429,6 +589,34 @@ productRouter.route('/Outdoor_Cameras/IN-5905_HD/Usermanual')
 .get(function(req, res) {
   res.render('./Products/IN-5905_Usermanual', {
       title: 'IN-5905 HD Usermanual',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-5905_HD/Product_Features')
+.get(function(req, res) {
+  res.render('./Products/IN-5905_Product_Features', {
+      title: 'IN-5905 HD Product Features',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-5905_HD/Point2Point')
+.get(function(req, res) {
+  res.render('./Products/IN-5905_Point2Point', {
+      title: 'IN-5905 HD Point 2 Point',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-5905_HD/Quick_Installation')
+.get(function(req, res) {
+  res.render('./Products/IN-5905_Quick_Installation', {
+      title: 'IN-5905 HD Quick Installation',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-5905_HD/Lense_Adjustment')
+.get(function(req, res) {
+  res.render('./Products/IN-5905_Lense_Adjustment', {
+      title: 'IN-5905 HD Lense Adjustment',
     });
 });
 
@@ -1038,16 +1226,128 @@ productRouter.route('/Software/Windows/InstarVision')
     });
 });
 
-productRouter.route('/Software/Windows/InstarVision_WindowsPhone')
+productRouter.route('/Software/Windows/InstarVision/Camera_List')
 .get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_WP', {
+  res.render('./Products/Windows_InstarVision_Camera_List', {
+      title: 'InstarVision v2 Camera List',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/Layout')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_Layout', {
+      title: 'InstarVision v2 Layout',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/PTZ')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_PTZ', {
+      title: 'InstarVision v2 Pan, Tilt & Zoom',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/Image_Adjust')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_Image_Adjust', {
+      title: 'InstarVision v2 Image Adjust',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/Webserver')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_Webserver', {
+      title: 'InstarVision v2 Webserver',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/Record')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_Record', {
+      title: 'InstarVision v2 Record',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/Record/General')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_Record_General', {
+      title: 'InstarVision v2 Record General',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/Record/Schedule')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_Record_Schedule', {
+      title: 'InstarVision v2 Record Schedule',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/Record/Alarm')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_Record_Alarm', {
+      title: 'InstarVision v2 Record Alarm',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/Record/Photoseries')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_Record_Photoseries', {
+      title: 'InstarVision v2 Record Photoseries',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/Record/Email')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_Record_Email', {
+      title: 'InstarVision v2 Record Email',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/Record/FTP')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_Record_FTP', {
+      title: 'InstarVision v2 Record FTP',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/System')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_System', {
+      title: 'InstarVision v2 System',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/Users')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_Users', {
+      title: 'InstarVision v2 Users',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/Advanced')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_Advanced', {
+      title: 'InstarVision v2 Advanced',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/About')
+.get(function(req, res) {
+  res.render('./Products/Windows_InstarVision_About', {
+      title: 'InstarVision v2 About',
+    });
+});
+
+productRouter.route('/Software/Windows/InstarVision/Windows_Phone')
+.get(function(req, res) {
+  res.render('./Products/Windows_Phone_InstarVision', {
       title: 'InstarVision for WindowsPhone',
     });
 });
 
-productRouter.route('/Software/Windows/InstarVision_Metro')
+productRouter.route('/Software/Windows/InstarVision/Metro')
 .get(function(req, res) {
-  res.render('./Products/Windows_InstarVision_Metro', {
+  res.render('./Products/Windows_Metro_InstarVision', {
       title: 'InstarVision for Windows Metro',
     });
 });
@@ -1187,6 +1487,41 @@ productRouter.route('/Software/Android/InstarVision')
     });
 });
 
+productRouter.route('/Software/Android/InstarVision/DDNS')
+.get(function(req, res) {
+  res.render('./Products/Android_InstarVision_DDNS', {
+      title: 'InstarVision for Android - DDNS',
+    });
+});
+
+productRouter.route('/Software/Android/InstarVision/P2P')
+.get(function(req, res) {
+  res.render('./Products/Android_InstarVision_P2P', {
+      title: 'InstarVision for Android - P2P',
+    });
+});
+
+productRouter.route('/Software/Android/InstarVision/Multiview')
+.get(function(req, res) {
+  res.render('./Products/Android_InstarVision_Multiview', {
+      title: 'InstarVision for Android - Multiview',
+    });
+});
+
+productRouter.route('/Software/Android/InstarVision/Recording')
+.get(function(req, res) {
+  res.render('./Products/Android_InstarVision_Recording', {
+      title: 'InstarVision for Android - Recording',
+    });
+});
+
+productRouter.route('/Software/Android/InstarVision/Settings')
+.get(function(req, res) {
+  res.render('./Products/Android_InstarVision_Settings', {
+      title: 'InstarVision for Android - Settings',
+    });
+});
+
 productRouter.route('/Software/Android/TinyCam_Monitor')
 .get(function(req, res) {
   res.render('./Products/Android_TinyCam', {
@@ -1206,6 +1541,90 @@ productRouter.route('/Software/iOS')
 .get(function(req, res) {
   res.render('./Products/iOS', {
       title: 'Software for iOS',
+    });
+});
+
+productRouter.route('/Software/iOS/InstarVision/iPhone')
+.get(function(req, res) {
+  res.render('./Products/iOS_InstarVision_iPhone', {
+      title: 'InstarVision for iPhone',
+    });
+});
+
+productRouter.route('/Software/iOS/InstarVision/iPhone/DDNS')
+.get(function(req, res) {
+  res.render('./Products/iOS_InstarVision_iPhone_DDNS', {
+      title: 'InstarVision for iOS - DDNS',
+    });
+});
+
+productRouter.route('/Software/iOS/InstarVision/iPhone/P2P')
+.get(function(req, res) {
+  res.render('./Products/iOS_InstarVision_iPhone_P2P', {
+      title: 'InstarVision for iOS - P2P',
+    });
+});
+
+productRouter.route('/Software/iOS/InstarVision/iPhone/Multiview')
+.get(function(req, res) {
+  res.render('./Products/iOS_InstarVision_iPhone_Multiview', {
+      title: 'InstarVision for iOS - Multiview',
+    });
+});
+
+productRouter.route('/Software/iOS/InstarVision/iPhone/Recording')
+.get(function(req, res) {
+  res.render('./Products/iOS_InstarVision_iPhone_Recording', {
+      title: 'InstarVision for iOS - Recording',
+    });
+});
+
+productRouter.route('/Software/iOS/InstarVision/iPhone/Settings')
+.get(function(req, res) {
+  res.render('./Products/iOS_InstarVision_iPhone_Settings', {
+      title: 'InstarVision for iOS - Settings',
+    });
+});
+
+productRouter.route('/Software/iOS/InstarVision/iPad')
+.get(function(req, res) {
+  res.render('./Products/iOS_InstarVision_iPad', {
+      title: 'InstarVision for iPad',
+    });
+});
+
+productRouter.route('/Software/iOS/InstarVision/iPad/DDNS')
+.get(function(req, res) {
+  res.render('./Products/iOS_InstarVision_iPad_DDNS', {
+      title: 'InstarVision for iOS - DDNS',
+    });
+});
+
+productRouter.route('/Software/iOS/InstarVision/iPad/P2P')
+.get(function(req, res) {
+  res.render('./Products/iOS_InstarVision_iPad_P2P', {
+      title: 'InstarVision for iOS - P2P',
+    });
+});
+
+productRouter.route('/Software/iOS/InstarVision/iPad/Multiview')
+.get(function(req, res) {
+  res.render('./Products/iOS_InstarVision_iPad_Multiview', {
+      title: 'InstarVision for iOS - Multiview',
+    });
+});
+
+productRouter.route('/Software/iOS/InstarVision/iPad/Recording')
+.get(function(req, res) {
+  res.render('./Products/iOS_InstarVision_iPad_Recording', {
+      title: 'InstarVision for iOS - Recording',
+    });
+});
+
+productRouter.route('/Software/iOS/InstarVision/iPad/Settings')
+.get(function(req, res) {
+  res.render('./Products/iOS_InstarVision_iPad_Settings', {
+      title: 'InstarVision for iOS - Settings',
     });
 });
 
@@ -1256,6 +1675,13 @@ productRouter.route('/Software/Other_Platforms')
 .get(function(req, res) {
   res.render('./Products/Other_Platforms', {
       title: 'Other Platforms',
+    });
+});
+
+productRouter.route('/Software/Other_Platforms/InstarVision_Blackberry')
+.get(function(req, res) {
+  res.render('./Products/Android_InstarVision_Blackberry', {
+      title: 'InstarVision Blackberry',
     });
 });
 
