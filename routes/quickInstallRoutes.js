@@ -151,6 +151,14 @@ quickInstallRouter.route('/Live_Video/Troubleshooting/Kaspersky_2014')
       });
 
 /* GET Live Video Selection /Live_Video */
+quickInstallRouter.route('/Live_Video/Troubleshooting/Kaspersky_2017')
+    .get(function(req, res) {
+        res.render('./Quick_Installation/Live_Video_Kaspersky_2017', {
+            title: 'Live Video Kaspersky 2017',
+          });
+      });
+
+/* GET Live Video Selection /Live_Video */
 quickInstallRouter.route('/Live_Video/Troubleshooting/AVG')
     .get(function(req, res) {
         res.render('./Quick_Installation/Live_Video_AVG', {
@@ -267,6 +275,46 @@ quickInstallRouter.route('/Set_Up_A_Wireless_Connection')
     .get(function(req, res) {
         res.render('./Quick_Installation/Set_Up_A_Wireless_Connection', {
             title: 'How to set up a Wireless Connection',
+          });
+      });
+
+/* GET DEV pages /dev */
+quickInstallRouter.route('/DEV')
+    .get(function(req, res) {
+        res.render('DEV', {
+            title: 'DEV Resources',
+          });
+      });
+
+/* GET AMP Test Range /amp */
+quickInstallRouter.route('/AMP')
+    .get(function(req, res) {
+        res.render('AMP', {
+            title: 'Accelerated Mobile Page',
+          });
+      });
+
+/* GET AMP2 Test Range /amp2 */
+quickInstallRouter.route('/AMP2')
+    .get(function(req, res) {
+        res.render('AMP2', {
+            title: 'Accelerated Mobile Page 2',
+          });
+      });
+
+/* GET AMP3 Test Range /Redirection */
+quickInstallRouter.route('/AMP3')
+    .get(function(req, res) {
+        res.render('AMP3', {
+            title: 'Redirection',
+          });
+      });
+
+/* GET AMP3 Test Range /Redirection */
+quickInstallRouter.route('/AMP_Gallery')
+    .get(function(req, res) {
+        res.render('AMP_Gallery', {
+            title: 'AMP Gallery',
           });
       });
 
