@@ -15,7 +15,7 @@ quickInstallRouter.get('/', function(req, res) {
       });
 
     res.render('./Quick_Installation/Quick_Installation', {
-        title: 'Quick Installation',
+        title: 'Schnellinstallation',
         qiPic: qiPicture,
         qiPicAlt: qiPictureAlt,
         qiUrl: qiHref,
@@ -26,7 +26,7 @@ quickInstallRouter.get('/', function(req, res) {
 quickInstallRouter.route('/How_Does_An_IP_Camera_Work')
     .get(function(req, res) {
         res.render('./Quick_Installation/How_Does_An_IP_Camera_Work', {
-            title: 'How Does An IP Camera Work?',
+            title: 'Wie arbeitet eine IP Kamera?',
             uplink: '/Quick_Installation/',
           });
       });
@@ -35,7 +35,7 @@ quickInstallRouter.route('/How_Does_An_IP_Camera_Work')
 quickInstallRouter.route('/First_Steps')
     .get(function(req, res) {
         res.render('./Quick_Installation/First_Steps', {
-            title: 'First Steps to get your IP camera working',
+            title: 'Erste Schritte mit Ihrer IP Kamera',
             uplink: '/Quick_Installation/',
           });
       });
@@ -44,7 +44,7 @@ quickInstallRouter.route('/First_Steps')
 quickInstallRouter.route('/After_Unpacking')
     .get(function(req, res) {
         res.render('./Quick_Installation/After_Unpacking', {
-            title: 'After unpacking your INSTAR IP Camera',
+            title: 'Nach dem Auspacken Ihrer IP Kamera',
             uplink: '/Quick_Installation/',
           });
       });
@@ -53,7 +53,7 @@ quickInstallRouter.route('/After_Unpacking')
 quickInstallRouter.route('/Direct_LAN_Connection')
     .get(function(req, res) {
         res.render('./Quick_Installation/Direct_LAN_Connection', {
-            title: 'Direct connection with a PC or Notebook',
+            title: 'Direkte Verbindung mit einem PC oder Notebook',
             uplink: '/Quick_Installation/',
           });
       });
@@ -62,7 +62,7 @@ quickInstallRouter.route('/Direct_LAN_Connection')
 quickInstallRouter.route('/Alternative_IP_Scanner')
     .get(function(req, res) {
         res.render('./Quick_Installation/Alternative_IP_Scanner', {
-            title: 'How to find your IP Camera with an alternative IP Scanner',
+            title: 'Wie Sie Ihre Kamera mit einem alternativen IP Scanner finden',
             uplink: '/Quick_Installation/',
           });
       });
@@ -98,7 +98,7 @@ quickInstallRouter.route('/Alternative_IP_Scanner/Fing_Mobile')
 quickInstallRouter.route('/Language_Selection')
     .get(function(req, res) {
         res.render('./Quick_Installation/Language_Selection', {
-            title: 'Language Selection',
+            title: 'Sprache auswählen',
             uplink: '/Quick_Installation/',
           });
       });
@@ -206,7 +206,7 @@ quickInstallRouter.route('/Live_Video/Troubleshooting/F-Secure')
 quickInstallRouter.route('/Creating_User_Accounts')
     .get(function(req, res) {
         res.render('./Quick_Installation/Creating_User_Accounts', {
-            title: 'Creating user accounts on your camera',
+            title: 'Benutzer in Ihrer Kamera erstellen',
             uplink: '/Quick_Installation/',
           });
       });
@@ -215,7 +215,7 @@ quickInstallRouter.route('/Creating_User_Accounts')
 quickInstallRouter.route('/WebUI_And_Firmware_Upgrade')
     .get(function(req, res) {
         res.render('./Quick_Installation/WebUI_And_Firmware_Upgrade', {
-            title: 'WebUI and Firmware Upgrade',
+            title: 'WebUI und Firmware Upgrade',
             uplink: '/Quick_Installation/',
           });
       });
@@ -224,7 +224,7 @@ quickInstallRouter.route('/WebUI_And_Firmware_Upgrade')
 quickInstallRouter.route('/WebUI_And_Firmware_Upgrade/HD_Cameras')
     .get(function(req, res) {
         res.render('./Quick_Installation/WebUI_And_Firmware_Upgrade_HD', {
-            title: 'WebUI and Firmware Upgrade for HD Cameras',
+            title: 'WebUI und Firmware Upgrade für HD Cameras',
             uplink: '/Quick_Installation/',
           });
       });
@@ -233,7 +233,7 @@ quickInstallRouter.route('/WebUI_And_Firmware_Upgrade/HD_Cameras')
 quickInstallRouter.route('/WebUI_And_Firmware_Upgrade/VGA_Cameras')
     .get(function(req, res) {
         res.render('./Quick_Installation/WebUI_And_Firmware_Upgrade_VGA', {
-            title: 'WebUI and Firmware Upgrade for VGA Cameras',
+            title: 'WebUI und Firmware Upgrade für VGA Cameras',
             uplink: '/Quick_Installation/',
           });
       });
@@ -242,7 +242,7 @@ quickInstallRouter.route('/WebUI_And_Firmware_Upgrade/VGA_Cameras')
 quickInstallRouter.route('/How_To_Clear_Your_Browsing_History')
     .get(function(req, res) {
         res.render('./Quick_Installation/How_To_Clear_Your_Browsing_History', {
-            title: 'How to clear your Browsing History',
+            title: 'Browser Cache löschen',
             uplink: '/Quick_Installation/',
           });
       });
@@ -251,7 +251,7 @@ quickInstallRouter.route('/How_To_Clear_Your_Browsing_History')
 quickInstallRouter.route('/How_To_Clear_Your_Browsing_History/Internet_Explorer')
     .get(function(req, res) {
         res.render('./Quick_Installation/How_To_Clear_Your_Browsing_History_Internet_Explorer', {
-            title: 'How to clear your Browsing History Internet Explorer',
+            title: 'Browser Cache löschen im Internet Explorer',
             uplink: '/Quick_Installation/',
           });
       });
@@ -260,7 +260,7 @@ quickInstallRouter.route('/How_To_Clear_Your_Browsing_History/Internet_Explorer'
 quickInstallRouter.route('/How_To_Clear_Your_Browsing_History/Mozilla_Firefox')
     .get(function(req, res) {
         res.render('./Quick_Installation/How_To_Clear_Your_Browsing_History_Mozilla_Firefox', {
-            title: 'How to clear your Browsing History Mozilla Firefox',
+            title: 'Browser Cache löschen in Mozilla Firefox',
             uplink: '/Quick_Installation/',
           });
       });
@@ -269,7 +269,7 @@ quickInstallRouter.route('/How_To_Clear_Your_Browsing_History/Mozilla_Firefox')
 quickInstallRouter.route('/How_To_Clear_Your_Browsing_History/Google_Chromium')
     .get(function(req, res) {
         res.render('./Quick_Installation/How_To_Clear_Your_Browsing_History_Google_Chromium', {
-            title: 'How to clear your Browsing History Google Chromium',
+            title: 'Browser Cache löschen in Google Chromium',
             uplink: '/Quick_Installation/',
           });
       });
@@ -278,7 +278,7 @@ quickInstallRouter.route('/How_To_Clear_Your_Browsing_History/Google_Chromium')
 quickInstallRouter.route('/How_To_Clear_Your_Browsing_History/Opera')
     .get(function(req, res) {
         res.render('./Quick_Installation/How_To_Clear_Your_Browsing_History_Opera', {
-            title: 'How to clear your Browsing History Opera',
+            title: 'Browser Cache löschen im Opera',
             uplink: '/Quick_Installation/',
           });
       });
@@ -287,7 +287,7 @@ quickInstallRouter.route('/How_To_Clear_Your_Browsing_History/Opera')
 quickInstallRouter.route('/How_To_Clear_Your_Browsing_History/Microsoft_Edge')
     .get(function(req, res) {
         res.render('./Quick_Installation/How_To_Clear_Your_Browsing_History_Microsoft_Edge', {
-            title: 'How to clear your Browsing History Microsoft Edge',
+            title: 'Browser Cache löschen im Microsoft Edge',
             uplink: '/Quick_Installation/',
           });
       });
@@ -296,7 +296,7 @@ quickInstallRouter.route('/How_To_Clear_Your_Browsing_History/Microsoft_Edge')
 quickInstallRouter.route('/How_To_Clear_Your_Browsing_History/Vivaldi')
     .get(function(req, res) {
         res.render('./Quick_Installation/How_To_Clear_Your_Browsing_History_Vivaldi', {
-            title: 'How to clear your Browsing History Vivaldi',
+            title: 'Browser Cache löschen im Vivaldi',
             uplink: '/Quick_Installation/',
           });
       });
@@ -305,7 +305,7 @@ quickInstallRouter.route('/How_To_Clear_Your_Browsing_History/Vivaldi')
 quickInstallRouter.route('/Set_Up_A_Wireless_Connection')
     .get(function(req, res) {
         res.render('./Quick_Installation/Set_Up_A_Wireless_Connection', {
-            title: 'How to set up a Wireless Connection',
+            title: 'Eine WLAN Verbindung aufbauen',
             uplink: '/Quick_Installation/',
           });
       });
