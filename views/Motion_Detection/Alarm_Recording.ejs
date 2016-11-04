@@ -7,25 +7,9 @@
 
     <body class="home">
 
-        <header class="fixed">
-            <div class="wrap">
-                <div class="container">
-                    <div class="clearfix">
-                        <div class="left-nav">
-                            <a href="/" class="tab header-title">
-                                <amp-img class="placeholder shadow" src="/images/instar_245x77.png" height="30px" width="95px" alt="Instar Wiki"></amp-img>
-                            </a>
-                        </div>
-                        <div class="right alt">
-
-                            <a href="/Motion_Detection/" class="tab header-title">
-                                <amp-img class="placeholder shadow" src="/images/return.jpg" height="30px" width="30px" alt="Go Back"></amp-img>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+      <header class="fixed">
+          <% include ../_partials/amp/_amp-header.ejs %>
+      </header>
 
         <div class="wrap">
             <div class="content">
@@ -129,7 +113,7 @@
                           Die Kamera verwendet ein ActiveX Plugin um Videos aufzunehmen... dies unterstützt derzeit nur der Internet Explorer. Das ist der Grund, warum die Video-Aufnahmen nur mit einem Windows-PC möglich ist. Der Aufnahme Pfad kann unter <strong>Alarm/Pfad</strong> gesetzt werden und das Aufnehmen durch klicken auf <strong>Aufnehmen</strong> über dem Kamera Live Video gestartet werden.<br/><br/>
 
                           Um unter Windows Vista / 7 / 8 aufzuzeichnen müssen Sie die IP Adresse Ihrer Kamera zu den vertrauenswürdigen Seiten hinzufügen. Dafür gehen Sie bitte im Internet Explorer unter Tools - Internetoptionen - Sicherheit - Vertrauenswürdige Seiten - Seiten um die IP Adresse Ihrer Kamera hinzuzufügen. Sie müssen den Haken unter Benötigte Server Verifizierung (https:) für alle Seiten in dieser Zone entfernen, sodass Sie die IP als http eintragen können. Danach geben Sie bitte die IP-Adresse in der Adressleiste Ihres Webbrowsers ein und Sie sollten dementsprechend den<a href="/Web_User_Interface/HD_Series/Video_Menu_Bar/">Pfad aufzeichnen</a> können. Falls Sie den Pfad immer noch nicht aufzeichnen können, stellen Sie bitte sicher, dass Sie den Internet Explorer mit Administratorrechten gestartet haben.
-                        
+
                           Das Aufnehmen mit 1 Bild pro Sekunde ist mit FTP Upload möglich. Die Kamera kann bei Alarm jede Sekund ein Bild hochladen. Alles was Sie dazu brauchen ist ein FTP Server oder eine ans Netzwerk angeschlossene HDD, die Sie ebenfalls über FTP erreichen können. Sie können das Video auch mit unserer zusätzlichen Software <a href="/Products/Software/Windows/InstarVision">InstarVision</a> oder einer anderen <a href="/Products/Software">Drittanbieter Software</a> aufnehmen. Wenn Sie <a href="/Products/Software/Other_Platforms/QNAP">QNAP</a> oder die <a href="/Products/Software/Other_Platforms/Synology">Synology Disk Station</a> verwenden können Sie auch einfach die Kamera in die Überwachungssoftware in der Disk Station einbinden.
                         </p>
                     </div>
