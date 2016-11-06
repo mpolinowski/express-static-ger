@@ -6,22 +6,22 @@
         <header><% include _partials/template/_header.ejs %></header>
         <!-- Navbar-->
 
-        <!-- #############################################  Search Results Header ############################################# -->
+        <!-- ##############################  Search Results Header ############################## -->
 
         <section class="slanding">
           <div class="container"
             <div class="row">
                 <% if (response.hits.total > 0) { %>
-                    <h1 class="headline">Search Results</h1>
+                    <h1 class="headline">Suchergebnisse</h1>
                     <hr>
                     <br/>
-                    <h2 class="subheader">Run took <%= response.took %> milliseconds</h2>
-                    <h5 class="text-muted">Max search score: "<%= response.hits.max_score %>"</h5>
+                    <h2 class="subheader">Die Suche dauerte <%= response.took %> Millisekunden</h2>
+                    <h5 class="text-muted">Maximale Übereinstimmung: "<%= response.hits.max_score %>"</h5>
                     <% } else { %>
-                        <h1 class="headline hidden-xs-down">No results found!</h1>
-                        <h2 class="headline hidden-sm-up">No Results<h2>
+                        <h1 class="headline hidden-xs-down">Keine Ergebnisse gefunden!</h1>
+                        <h2 class="headline hidden-sm-up">Keine Ergebnisse<h2>
                         <br/>
-                        <h2 class="subheader hidden-xs-down">¯\_(ツ)_/¯ Your keyword produced no hits ¯\_(ツ)_/¯</h2>
+                        <h2 class="subheader hidden-xs-down">¯\_(ツ)_/¯ Ihr Suchbriff brachte leider keine Treffer ¯\_(ツ)_/¯</h2>
                         <h3 class="subheader hidden-sm-up">¯\_(ツ)_/¯</h3>
                   <% } %>
                   <h2 class="subheader"><i class="fa fa-angle-double-down" aria-hidden="true"></i></h2><br/>
@@ -43,7 +43,7 @@
                                   <div class="card-block" style="height: 215px;">
                                       <h4 class="card-title"><%= response.hits.hits[i]._source.title %></h4>
                                       <p class="card-text"><%= response.hits.hits[i]._source.abstract %></p>
-                                      <a href="<%= response.hits.hits[i]._source.link %>" class="btn btn-primary">Read More</a>
+                                      <a href="<%= response.hits.hits[i]._source.link %>" class="btn btn-primary">Mehr</a>
                                   </div>
                               </div>
                           <% } %>
@@ -54,25 +54,25 @@
                           <div class="card">
                             <img class="card-img-top img-fluid" src="http://placehold.it/594x380" alt="Card image cap">
                             <div class="card-block">
-                              <h4 class="card-title">Products</h4>
-                              <p class="card-text">Get all Information about INSTAR Products. Downloads, Technical Specifications and more.</p>
-                              <a href="/Products/" class="btn btn-secondary">Read More</a>
+                              <h4 class="card-title">Produkte</h4>
+                              <p class="card-text">Alle Informationen über INSTAR Produkte. Downloads, Technische Spezifikationen und mehr.</p>
+                              <a href="/Products/" class="btn btn-secondary">Mehr</a>
                             </div>
                           </div>
                           <div class="card">
                             <img class="card-img-top img-fluid" src="http://placehold.it/594x380" alt="Card image cap">
                             <div class="card-block">
-                              <h4 class="card-title">Quick Installation</h4>
-                              <p class="card-text">Install your INSTAR camera with ease - read this guide for more information on the process.</p>
-                              <a href="/Quick_Installation/" class="btn btn-secondary">Read More</a>
+                              <h4 class="card-title">Schnell-Installation</h4>
+                              <p class="card-text">Installieren Sie Ihre INSTAR Kamera - lesen Sie diese Anleitung, wenn Sie mehr Informationen benötigen.</p>
+                              <a href="/Quick_Installation/" class="btn btn-secondary">Mehr</a>
                             </div>
                           </div>
                           <div class="card">
                             <img class="card-img-top img-fluid" src="http://placehold.it/594x380" alt="Card image cap">
                             <div class="card-block">
-                              <h4 class="card-title">Internet Access</h4>
-                              <p class="card-text">All INSTAR cameras can be accessed from the internet - click here to learn more about DDNS, P2P &amp; Co.</p>
-                              <a href="/Internet_Access/" class="btn btn-secondary">Read More</a>
+                              <h4 class="card-title">Internet Zugriff</h4>
+                              <p class="card-text">Alle INSTAR Kameras können über das Internet erreicht werden - klicken Sie hier für mehr zu DDNS, P2P &amp; Co.</p>
+                              <a href="/Internet_Access/" class="btn btn-secondary">Mehr</a>
                             </div>
                           </div>
                         </div>
@@ -82,24 +82,24 @@
                             <div class="card">
                               <img class="card-img-top img-fluid" src="http://placehold.it/594x380" alt="Card image cap">
                               <div class="card-block">
-                                <h4 class="card-title">Motion Detection</h4>
-                                <p class="card-text">Use your INSTAR camera to notify you, whenever someone enters the surveillance areas!</p>
-                                <a href="/Motion_Detection/" class="btn btn-secondary">Read More</a>
+                                <h4 class="card-title">Bewegungserkennung</h4>
+                                <p class="card-text">Nutzen Sie Ihre INSTAR Kamera um benachrichtigt zu werden, wenn jemand den Überwachungsbereich betritt.</p>
+                                <a href="/Motion_Detection/" class="btn btn-secondary">Mehr</a>
                               </div>
                             </div>
                             <div class="card">
                               <img class="card-img-top img-fluid" src="http://placehold.it/594x380" alt="Card image cap">
                               <div class="card-block">
-                                <h4 class="card-title">Advanced User</h4>
-                                <p class="card-text">IP cameras are small computers that can be tinkered with. Advanced users, programmers... read on!</p>
-                                <a href="/Advanced_User/" class="btn btn-secondary">Read More</a>
+                                <h4 class="card-title">Für Experten</h4>
+                                <p class="card-text">IP Kameras sind kleine Computer, mit denen man weit mehr anstellen kann...</p>
+                                <a href="/Advanced_User/" class="btn btn-secondary">Mehr</a>
                               </div>
                             </div>
                             <div class="card">
                               <img class="card-img-top img-fluid" src="http://placehold.it/594x380" alt="Card image cap">
                               <div class="card-block">
                                 <h4 class="card-title">INSTAR Shop</h4>
-                                <p class="card-text">Interested in getting a new IP camera? Or looking for some accessories for your existing one?</p>
+                                <p class="card-text">Sind Sie interessiert an einer IP Kamera? Oder benötigen Sie Zubehör für Ihre IP Kameraüberwachung?</p>
                                 <a href="http://instar.de" class="btn btn-secondary" target="_blank">Go Shopping</a>
                               </div>
                             </div>
@@ -112,17 +112,9 @@
         </section>
         <!-- /Container -->
 
-        <!-- ############################################# Footer ############################################# -->
+        <!-- ############################### Footer ############################### -->
 
-        <section class="footer">
-
-            <div class="container">
-                <div class="row">
-                    <div class="pull-xs-right">
-                        <p class="text-muted"><small><i class="fa fa-copyright"></i> 2016 INSTAR Deutschland GmbH</small></p>
-                    </div>
-                </div> <!-- /row -->
-            </div> <!-- /container -->
+        <footer><% include _partials/template/_footer.ejs %></footer>
 
             <% include _partials/template/_jsdefaults_NO_WRAP.ejs %>
 
