@@ -258,18 +258,9 @@ a:before, a:after {
 a:hover {
 	color: white;
 }
-
-.app-links {
-	width: auto;
-	height: auto;
-	padding-top: 10px;
-}
-
-.table {
-	padding-left: 95px;
-}
-
 .borderless td, .borderless th {
     border: none;
 }
-
+.apps {
+  margin-right: 10px -5px 10px 0;
+}
