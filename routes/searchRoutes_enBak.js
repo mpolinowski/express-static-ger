@@ -9,7 +9,7 @@ var client = new elasticsearch.Client({
     log: 'trace',
   });
 
-var _index = 'wiki_de';
+var _index = 'wiki';
 var _type = 'article';
 
 /* GET Search page. */
@@ -40,7 +40,7 @@ searchRouter.route('/Results')
                   query: {
                       multi_match: {
                           query: req.query.q,
-                          fields: ['title^100', 'tags^50', 'abstract^20', 'description^10', 'description_de^10', 'models^5', 'chapter^5', 'title2^5'],
+                          fields: ['title^100', 'tags^50', 'abstract^20', 'description^10', 'models^5', 'chapter^5', 'title2^5'],
                           fuzziness: 1,
                         },
                     },
