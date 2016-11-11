@@ -118,9 +118,10 @@ a:before, a:after {
 /* Nav Links*/
 
 .impact {
-  font-size: 15px;
-  color: #cecece;
-  font-weight: 500;
+  font-size: 17px;
+  color: white;
+  font-weight: 700;
+  padding-top: 12px;
 }
 
 /* Search */
@@ -263,4 +264,16 @@ a:hover {
 }
 .apps {
   margin-right: 10px -5px 10px 0;
+}
+
+.logo-text {
+  font-size: 22px;
+  color: #CECECE;
+  padding-top: 3px;
+  font-family: Ubuntu;
+}
+
+.nav-item h6 {
+  color: #CECECE;
+  font-family: Ubuntu;
 }

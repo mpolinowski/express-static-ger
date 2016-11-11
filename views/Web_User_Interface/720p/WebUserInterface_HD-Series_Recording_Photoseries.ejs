@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html ⚡>
+    <head>
+        <% include ../../_partials/amp/_amp-head.ejs %>
+        <link rel="canonical" href="/Web_User_Interface/720p_Series/Recording/Photoseries/">
+    </head>
+
+    <body class="home">
+
+      <header class="fixed">
+          <% include ../../_partials/amp/_amp-header.ejs %>
+      </header>
+
+        <div class="wrap">
+            <div class="content">
+                <section class="hero webUI">
+                    <div class="container">
+                        <div class="row">
+                            <div class="six columns">
+                                <div class="intro-container">
+                                    <h1>Oberfläche Fotoserie</h1>
+                                    <p class="intro">
+                                      Snapshots in einem einstellbaren Zeitintervall aufnehmen und in einer <a href="http://wiki.instar.com/index.php/Instarvision_2.0_Usermanual_::_Record_::_Photoseries">Drittanbieter-Software</a> zusammenführen um ein TimeLapse Video zu erstellen. Sie können die Snapshots auch mit einem festen Dateinamen hochladen. Dies wird immer die letzte Datei überschreiben und erlaubt es Ihnen ein "Live Bild" Ihrer Kamera auf Ihrer Webseite anzuzeigen.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /Hero -->
+            </div>
+            <!-- /Content -->
+        </div>
+        <!-- /Wrap -->
+
+        <div class="wrap">
+            <div class="container main">
+
+                <article>
+                    <!-- article -->
+
+                    <div class="margin">
+                        <h2 class="post-title">Konfiguration einer Fotoserie auf einer SD Karte</h2>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+
+                      <div>
+                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/WebUI-Rec_Photoseries.png" width="716" height="746" layout="responsive" class="shadow"></amp-img>
+                      </div>
+
+                        <amp-lightbox id="lightbox1" layout="nodisplay">
+                            <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
+                                <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/WebUI-Rec_Photoseries.png" width="716" height="746" layout="responsive" class="shadow"></amp-img>
+                            </div>
+                        </amp-lightbox>
+
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <table>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Auf SD Karte</strong>
+                                </td>
+                                <td>Aktivieren, um die geplanten Snapshot Aufnahme auf der internen SD Karte zu speichern. Bitte beachten Sie, dass die Aufnahme nur startet wenn der <a href="/Web_User_Interface/720p_Series/Recording/Schedule/">Aufnahme Zeitplan</a> aktiv ist.</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Zeitintervall</strong>
+                                </td>
+                                <td>Setzen Sie das Zeitintervall zwischen den Snapshots. Das längste unterstützte Intervall ist 86400 Sekunden - dies würde eine Fotoserie erstellen, bei der 24 Stunden zwischen den beiden aufgenommen Bildern vergangen sind.</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Via Email</strong>
+                                </td>
+                                <td>Aktivieren Sie die geplante Snapshot Aufnahme und senden Sie die Snapshots per <a href="/Web_User_Interface/720p_Series/Alarm/Email/">Email</a>. Bitte beachten Sie, dass die Aufnahme nur startet wenn Sie einen <a href="/Web_User_Interface/720p_Series/Recording/Schedule/">Aufnahme Zeitplan</a> aktiviert haben und einen<a href="/Web_User_Interface/720p_Series/Alarm/SMTP_Server/">SMTP Server</a> eingerichtet haben.</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Zeitintervall<</strong>
+                                </td>
+                                <td>Setzen Sie das Zeitintervall zwischen den Snapshots. Das längste unterstützte Intervall ist 86400 Sekunden - dies würde eine Fotoserie erstellen, bei der 24 Stunden zwischen den beiden aufgenommen Bildern vergangen sind.</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Auf FTP Server</strong>
+                                </td>
+                                <td>Aktivieren Sie die geplante Snapshot Aufnahme und laden Sie die Snapshots auf einen <a href="/Web_User_Interface/720p_Series/Alarm/FTP/">FTP Server</a> hoch. Bitte beachten Sie, dass die Aufnahme nur startet wenn Sie einen <a href="/Web_User_Interface/720p_Series/Recording/Schedule/">Aufnahme Zeitplan</a> aktiviert haben und einen <a href="/Web_User_Interface/720p_Series/Alarm/FTP/">FTP Server</a> eingerichtet haben.</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Dateiname mit Zeitstempel</strong>
+                                </td>
+                                <td>Erstellen Sie einen Dateinamen für jeden Snapshot von einem Zeitstempel.</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Fester Dateiname</strong>
+                                </td>
+                                <td>Setzen Sie einen festen Dateinamen der bei jedem Upload überschrieben wird. So haben Sie immer nur eine Datei auf Ihrem FTP Server - was ideal ist, wenn Sie das "Live Bild" der Kamera in einer Webseite einbinden möchten.</td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Zeitintervall</strong>
+                                </td>
+                                <td>Setzen Sie das Zeitintervall zwischen den Snapshots. Das längste unterstützte Intervall ist 86400 Sekunden - dies würde eine Fotoserie erstellen, bei der 24 Stunden zwischen den beiden aufgenommen Bildern vergangen sind.</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- /margin -->
+
+                </article>
+                <!-- /article -->
+            </div>
+        </div>
+
+        <section class="blade blog">
+
+            <div class="container wider">
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1>Verwandte Themen:</h1>
+                    </div>
+                </div>
+
+                <div class="tab-container">
+
+                    <a class="tab" href="/Quick_Installation/First_Steps">
+                        <h3>Erste Schritte um Ihre INSTAR IP Camera zu installieren</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/After_Unpacking">
+                        <h3>Nach dem Auspacken Ihrer INSTAR IP Camera</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Direct_LAN_Connection">
+                        <h3>Verbinden Sie Ihre Kamera direkt mit Ihrem Computer</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
+                        <h3>Wie Sie die Firmware und Benutzeroberfläche Ihrer Kamera ändern können</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Set_Up_A_Wireless_Connection">
+                        <h3>Wie Sie Ihre Kamera mit dem WLAN verbinden</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Creating_User_Accounts">
+                        <h3>Ändern Sie den Standard-Login Ihrer Kamera</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+                </div>
+
+                <a href="/Quick_Installation/" target="_blank">Mehr ansehen</a>
+
+            </div>
+        </section>
+
+        <footer>
+            <% include ../../_partials/amp/_amp-footer.ejs %>
+        </footer>
+    </body>
+</html>
