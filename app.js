@@ -15,7 +15,8 @@ var motionDetectionRouter = require('./routes/motionDetectionRoutes');
 var advancedUserRouter = require('./routes/advancedUserRoutes');
 var cgi720pRouter = require('./routes/cgi720pRoutes');
 var cgi1080pRouter = require('./routes/cgi1080pRoutes');
-var webUIRouter = require('./routes/webUIRoutes');
+var webUIRouter = require('./routes/webUI720pRoutes');
+var webUI1080pRouter = require('./routes/webUI1080pRoutes');
 
 var app = express();
 
