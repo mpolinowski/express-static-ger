@@ -23,11 +23,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     color: #333;
 }
-.glow {
-    -webkit-box-shadow: 0 0 5px 2px rgba(2, 117, 216, .50);
-    -moz-box-shadow: 0 0 5px 2px rgba(2, 117, 216, .50);
-    box-shadow: 0 0 5px 2px rgba(2, 117, 216, .50);
-}
 .shadow {
   box-shadow: 2px 2px 1px #888888;
 }
@@ -121,7 +116,7 @@ a:before, a:after {
   font-size: 17px;
   color: white;
   font-weight: 700;
-  padding-top: 12px;
+  padding-top: 7px;
 }
 
 /* Search */
@@ -195,11 +190,13 @@ a:before, a:after {
     background-color: #0275d8;
     padding-top: 70px;
     margin-bottom: 0;
+    box-shadow: 2px 2px 1px #888888;
 }
 .webui {
     background-color: #f0ad4e;
     padding-top: 50px;
     margin-bottom: 0;
+    box-shadow: 2px 2px 1px #888888;
 }
 .instarvision .subheader, .products .subheader, .webui .subheader {
     color: white;
@@ -273,7 +270,8 @@ a:hover {
   font-family: Ubuntu;
 }
 
-.nav-item h6 {
+/* nAVBAR */
+
+.nav-item h6, .nav-item h4 {
   color: #CECECE;
-  font-family: Ubuntu;
 }
