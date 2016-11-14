@@ -1,4 +1,4 @@
-<% include ../_partials/template/_head.ejs %>
+<% include ../_partials/template/_head_chart.ejs %>
 
     <body>
       <% include ../_partials/template/_outdated.ejs %>
@@ -41,11 +41,76 @@
                    <a href="/Products/Indoor_Cameras/IN-6014_HD/Technical_Specifications"><button type="button" class="btn btn-primary">Technische Spezifikationen</button></a>
                 </div>
 
+                <div class="clearfix"></div>
+
+            <!-- #############################################  Chart JS ############################################# -->
+
+                <div class="col-lg-6 mb">
+                  <div class="card shadow">
+                    <div class="card-header">
+                      <h5>Nachtsicht (Minimum / Maximum) [m]</h5>
+                    </div>
+                    <div class="card-block">
+                      <canvas id="nightvision6014" width="600" height="400"></canvas>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb">
+                  <div class="card shadow">
+                    <div class="card-header">
+                      <h5>Blickwinkel (Diagonal, Horizontal, Vertikal) [°]</h5>
+                    </div>
+                    <div class="card-block">
+                      <canvas id="angleofview6014" width="600" height="400"></canvas>
+                    </div>
+                  </div>
+                </div>
+
+                <script src="/javascripts/chartjs/overview6014_angleofview.js"></script>
+                <script src="/javascripts/chartjs/overview6014_nightvision.js"></script>
+
+            <!-- #############################################  Chart JS ############################################# -->
+
+            <div class="clearfix"></div>
+
                 <div class="col-xs-12">
                     <p class="justify">
                       Die IN-6014HD ist eine Allround Lösung für die Innenüberwachung. Der Kamerakopf kann ferngesteuert werden und ist mit Infrarot Dioden für die Nachtsicht in dunklen Umgebungen ausgestattet. Der integrierte IR Cut Filter auf der anderen Seite erlaubt die Aufnahme von natürlichen Bildern, die durch das menschliche Auge wahrgenommen werden können. Durch die Nutzung des effektiven h.264 komprimierten Codecs ist es möglich aufgenommene Videodateien auf eine SD Karte mit vergleichbar kleinen Größen aber bester Bildqualität zu speichern. Jedes Gerät (d.h. Smartphones) kann Sich auf die Weboberfläche der Kamera verbinden und die Schwenk- und Neidfunktion zu nutzen. Mit 350 Grad horizontalem und 100 Grad vertikalem Bewegungsbereich. Dank der kompakten Größe und dem modernen Design können Sie die Kamera nicht nur als Überwachungslösung verwenden, sondern auch für Ihre persönlichen Projekt nutzen. Die FTP Unterstützung erlaubt es Ihnen die IN-6012 HD als eine multifunktionale Webcam zur Integration in Ihre Webseite zu nutzen.</a>.
                     </p>
                 </div>
+
+            <div class="clearfix"></div>
+
+            <!-- #############################################  Chart JS ############################################# -->
+
+                <div class="col-lg-6 mb">
+                  <div class="card shadow">
+                    <div class="card-header">
+                      <h5>IN-6014 HD vs. IN-8015 HD</h5>
+                    </div>
+                    <div class="card-block">
+                      <canvas id="radar6014_8015" width="600" height="400"></canvas>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb">
+                  <div class="card shadow">
+                    <div class="card-header">
+                      <h5>IN-6014 HD vs. IN-3011</h5>
+                    </div>
+                    <div class="card-block">
+                      <canvas id="radar6014_3011" width="600" height="400"></canvas>
+                    </div>
+                  </div>
+                </div>
+
+
+                <script src="/javascripts/chartjs/overview6014_radar8015.js"></script>
+                <script src="/javascripts/chartjs/overview6014_radar3011.js"></script>
+
+            <!-- #############################################  Chart JS ############################################# -->
+
+            <div class="clearfix"></div>
 
             </div>
             <!-- /row -->

@@ -1,4 +1,4 @@
-<% include ../_partials/template/_head.ejs %>
+<% include ../_partials/template/_head_chart.ejs %>
 
     <body>
       <% include ../_partials/template/_outdated.ejs %>
@@ -41,6 +41,38 @@
                    <br/>
                    <a href="/Products/Outdoor_Cameras/IN-5907_HD/Technical_Specifications"><button type="button" class="btn btn-primary">Technical Specifications</button></a>
                 </div>
+
+                <div class="clearfix"></div>
+
+                <!-- #############################################  Chart JS ############################################# -->
+
+                    <div class="col-lg-6 mb">
+                      <div class="card shadow">
+                        <div class="card-header">
+                          <h5>Nachtsicht (Minimum / Maximum) [m]</h5>
+                        </div>
+                        <div class="card-block">
+                          <canvas id="nightvision5907" width="600" height="400"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 mb">
+                      <div class="card shadow">
+                        <div class="card-header">
+                          <h5>Blickwinkel (Diagonal, Horizontal, Vertical) [°]</h5>
+                        </div>
+                        <div class="card-block">
+                          <canvas id="angleofview5907" width="600" height="400"></canvas>
+                        </div>
+                      </div>
+                    </div>
+
+                    <script src="/javascripts/chartjs/overview5907_angleofview.js"></script>
+                    <script src="/javascripts/chartjs/overview5907_nightvision.js"></script>
+
+                <!-- #############################################  Chart JS ############################################# -->
+
+                <div class="clearfix"></div>
 
                 <div class="col-xs-12">
                     <div class="col-sm-12 embed-responsive embed-responsive-16by9 mb shadow">
@@ -115,6 +147,39 @@
 
       <div class="row mt">
 
+      <div class="clearfix"></div>
+
+          <!-- #############################################  Chart JS ############################################# -->
+
+              <div class="col-lg-6 mb">
+                <div class="card shadow">
+                  <div class="card-header">
+                    <h5>IN-5907 HD vs. IN-9008 HD</h5>
+                  </div>
+                  <div class="card-block">
+                    <canvas id="radar5907_9008" width="600" height="400"></canvas>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mb">
+                <div class="card shadow">
+                  <div class="card-header">
+                    <h5>IN-5907 HD vs. IN-2905 V2</h5>
+                  </div>
+                  <div class="card-block">
+                    <canvas id="radar5907_2905" width="600" height="400"></canvas>
+                  </div>
+                </div>
+              </div>
+
+
+              <script src="/javascripts/chartjs/overview5907_radar9008.js"></script>
+              <script src="/javascripts/chartjs/overview5907_radar2905.js"></script>
+
+          <!-- #############################################  Chart JS ############################################# -->
+
+          <div class="clearfix"></div>
+
           <div class="col-xs-12">
             <p class="text-justify">Viele eingebaute Funktionen erlauben es Ihnen die Kamera nicht nur zu Überwachungszwecken zu nutzen, sondern auch für Ihre persönlichen Projekte. Die <a href="/Motion_Detection/Alarm_FTP_Upload">FTP Unterstützung</a> erlaubt es Ihnen die IN-7011 HD als eine multifunktionale Außenkamera mit Integration in Ihre Webseite zu nutzen.</p>
             <p class="text-justify">The 1/3 inch WDR sensor is built on a 4.3 micron OmniPixel3-HS™ Pixel enabling 720p HD at unparalleled low-light sensitivity and a dynamic range in colour of 115 dB – compared to the 60 db of a regular VGA IP Camera. WDR allows you to capture high detailed colour videos even in high-contrast environmental lighting conditions.</p>
@@ -126,80 +191,85 @@
       <div class="row mt">
 
             <div class="col-xs-12 mb">
-                <h2 class="text-muted">Linse einstellen</h2>
+                <h2>Verfügbare Video Tutorials:</h2>
             </div>
 
-            <div class="col-xs-12 mb">
+            <div class="col-lg-6">
+                <h3 class="text-muted"><u>Einstellen des Objektives</u></h3>
+            </div>
+
+            <div class="col-lg-6 mb">
                 <div class="col-sm-12 embed-responsive embed-responsive-16by9 mb shadow">
                     <iframe src="https://www.youtube.com/embed/c136CT0SypU" alt="INSTAR IN-5907 HD IP Camera - HD Outdoor Camera"></iframe>
                 </div>
             </div>
 
-            <div class="col-xs-12 mb">
-                <h2 class="text-muted">Weitwinkel Installation</h2>
+            <div class="col-lg-6">
+                <h3 class="text-muted"><u>Installation des Weitwinkel Objektives</u></h3>
             </div>
 
-            <div class="col-xs-12 mb">
+            <div class="col-lg-6 mb">
                 <div class="col-sm-12 embed-responsive embed-responsive-16by9 mb shadow">
                     <iframe src="https://www.youtube.com/embed/JUT4XxssAfA" alt="INSTAR IN-5907 HD IP Camera - HD Outdoor Camera"></iframe>
                 </div>
             </div>
 
-            <div class="col-xs-12 mb">
-                <h2 class="text-muted">SD Karte austauschen</h2>
+            <div class="col-lg-6">
+                <h3 class="text-muted"><u>Tauschen der SD Karte</u></h3>
             </div>
 
-            <div class="col-xs-12 mb">
+            <div class="col-lg-6 mb">
                 <div class="col-sm-12 embed-responsive embed-responsive-16by9 mb shadow">
                     <iframe src="https://www.youtube.com/embed/L_nR9qY7-8I" alt="INSTAR IN-5907 HD IP Camera - HD Outdoor Camera"></iframe>
                 </div>
             </div>
 
-            <div class="col-xs-12 mb">
-                <h2 class="text-muted">Heizungsinstallation</h2>
+            <div class="col-lg-6">
+                <h3 class="text-muted"><u>Installation der Heizung</u></h3>
             </div>
 
-            <div class="col-xs-12 mb">
+            <div class="col-lg-6 mb">
                 <div class="col-sm-12 embed-responsive embed-responsive-16by9 mb shadow">
                     <iframe src="https://www.youtube.com/embed/qTNFJKNBgRo" alt="INSTAR IN-5907 HD IP Camera - HD Outdoor Camera"></iframe>
                 </div>
             </div>
 
-            <div class="col-xs-12 mb">
-                <h2 class="text-muted">Kabelbaum entfernen</h2>
+            <div class="col-lg-6">
+                <h3 class="text-muted"><u>Entfernen des Kabelstranges</u></h3>
             </div>
 
-            <div class="col-xs-12 mb">
+            <div class="col-lg-6 mb">
                 <div class="col-sm-12 embed-responsive embed-responsive-16by9 mb shadow">
                     <iframe src="https://www.youtube.com/embed/UxnCqE1YU0k" alt="INSTAR IN-5907 HD IP Camera - HD Outdoor Camera"></iframe>
                 </div>
             </div>
 
-            <div class="col-xs-12 mb">
-                <h2 class="text-muted">Beschlagene Kamerafront</h2>
+            <div class="col-lg-6">
+                <h3 class="text-muted"><u>Kondensatbildung</u></h3>
             </div>
 
-            <div class="col-xs-12 mb">
+            <div class="col-lg-6 mb">
                 <div class="col-sm-12 embed-responsive embed-responsive-16by9 mb shadow">
                     <iframe src="https://www.youtube.com/embed/RIE2TjE_JCg" alt="INSTAR IN-5907 HD IP Camera - HD Outdoor Camera"></iframe>
                 </div>
             </div>
 
-            <div class="col-xs-12 mb">
-                <h2 class="text-muted">IR LEDs deaktivieren</h2>
+            <div class="col-lg-6">
+                <h3 class="text-muted"><u>Deaktivieren der IR LEDs</u></h3>
             </div>
 
-            <div class="col-xs-12 mb">
+            <div class="col-lg-6 mb">
                 <div class="col-sm-12 embed-responsive embed-responsive-16by9 mb shadow">
                     <iframe src="https://www.youtube.com/embed/rF60Sh863yc" alt="INSTAR IN-5907 HD IP Camera - HD Outdoor Camera"></iframe>
                 </div>
             </div>
 
-            <div class="col-xs-12 mb">
-                <h2 class="text-muted">Weitwinkel Installation (ältere Modelle)</h2>
+            <div class="col-lg-6">
+                <h3 class="text-muted"><u>Installation der Heizung</u></h3>
+                <p class="text-muted">(ältere Modelle)</p>
             </div>
 
-            <div class="col-xs-12 mb">
+            <div class="col-lg-6 mb">
                 <div class="col-sm-12 embed-responsive embed-responsive-16by9 mb shadow">
                     <iframe src="https://www.youtube.com/embed/e56pETIUOUk" alt="INSTAR IN-5907 HD IP Camera - HD Outdoor Camera"></iframe>
                 </div>
