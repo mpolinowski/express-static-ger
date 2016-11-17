@@ -2311,3 +2311,11 @@ nav ol li {
 .main h1 {
     margin-top: 0
 }
+
+.container-footer {
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+}
