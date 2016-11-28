@@ -11,7 +11,7 @@
           <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
-        <div class="wrap">
+        <div class="wrap mobile-down">
             <div class="content">
                 <section class="hero internetAccess">
                     <div class="container">
@@ -36,6 +36,7 @@
 
         <div class="wrap">
             <div class="container main">
+              <% include ../_partials/content/_bluenav-md.ejs %>
 
                 <article>
                     <!-- article -->
@@ -54,7 +55,7 @@
                           <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Speicherpfad_Aufnahmen_im_IE_HD_01_EN.jpg" width="700" height="393" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox1" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox1.close" role="button" tabindex="0" class="centered">
                               <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Speicherpfad_Aufnahmen_im_IE_HD_01_EN.jpg" width="700" height="393" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -74,7 +75,7 @@
                           <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/Speicherpfad_Aufnahmen_im_IE_HD_02_EN.jpg" width="320" height="333" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox2" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox2.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox2.close" role="button" tabindex="0" class="centered">
                               <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/Speicherpfad_Aufnahmen_im_IE_HD_02_EN.jpg" width="320" height="333" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -94,7 +95,7 @@
                           <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/Speicherpfad_Aufnahmen_im_IE_HD_03_EN.jpg" width="700" height="394" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox3" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox3.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox3.close" role="button" tabindex="0" class="centered">
                               <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/Speicherpfad_Aufnahmen_im_IE_HD_03_EN.jpg" width="700" height="394" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -126,7 +127,7 @@
         </div>
         <!-- /wrap -->
 
-        <section class="blade blog">
+        <section class="blade blog mobile-down">
 
             <div class="container wider">
                 <div class="row">
