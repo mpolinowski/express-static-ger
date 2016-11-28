@@ -13,47 +13,7 @@
 
         <div class="wrap">
             <div class="container main">
-                <nav class="desktop-up">
-                          <ul class="margin">
-                              <li>
-                                  <h2>Einführung</h2>
-                              </li>
-                              <hr>
-                              <li>
-                                  <a href="/Products/Outdoor_Cameras/IN-5905_HD/Safety_Warnings">Sicherheitshinweise</a>
-                              </li>
-                              <li>
-                                  <a href="/Products/Outdoor_Cameras/IN-5905_HD/Product_Features">Produkt-Features</a>
-                              </li>
-                              <li>
-                                  <a href="/Products/Outdoor_Cameras/IN-5905_HD/Quick_Installation">Schnellinstallation</a>
-                              </li>
-                              <li>
-                                  <a href="/Products/Outdoor_Cameras/IN-5905_HD/Point2Point">P2P &amp; WPS</a>
-                              </li>
-                              <li>
-                                  <a href="/Web_User_Interface/720p_Series">Weboberfläche</a>
-                              </li>
-                              <li>
-                                  <a href="/Quick_Installation/WebUI_And_Firmware_Upgrade">Software Update</a>
-                              </li>
-                              <li>
-                                  <a href="/Products/Outdoor_Cameras/IN-5905_HD/Video_Streaming">Video Streaming</a>
-                              </li>
-                              <li>
-                                  <a href="/Products/Outdoor_Cameras/IN-5905_HD/Camera_Reset">Reset Ihrer Kamera</a>
-                              </li>
-                              <li>
-                                  <a href="/Products/Outdoor_Cameras/IN-5905_HD/Lense_Adjustment">Linse einstellen</a>
-                              </li>
-                              <li>
-                                  <a href="/Products/Outdoor_Cameras/IN-5905_HD/Technical_Specifications">Technische Spezifikationen</a>
-                              </li>
-                              <li>
-                                  <a href="/Products/Outdoor_Cameras/IN-5905_HD/Warranty">Garantie</a>
-                              </li>
-                          </ul>
-                      </nav>
+                <% include ../_partials/content/_bluenav-qi.ejs %>
 
 
                     <article class="content">
@@ -83,44 +43,7 @@
         </div>
         <!-- /wrap-->
 
-        <section class="blade blog mobile-down">
-
-            <div class="container wider">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1>Verwandte Themen:</h1>
-                    </div>
-                </div>
-
-                <div class="tab-container">
-
-                    <a class="tab" href="/Quick_Installation/First_Steps">
-                        <h3>Erste Schritte um Ihre INSTAR Kamera zu installieren</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Quick_Installation/After_Unpacking">
-                        <h3>Nach dem Auspacken Ihrer INSTAR IP Camera</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Quick_Installation/Direct_LAN_Connection">
-						            <h3>Verbinden Sie Ihre Kamera direkt mit Ihrem Computer</h3>
-						            <div class="subtitle">Mittel</div>
-					          </a>
-
-
-					          <a class="tab" href="/Quick_Installation/Set_Up_A_Wireless_Connection">
-						            <h3>Wie Sie Ihre Kamera mit dem WLAN verbinden</h3>
-						            <div class="subtitle">Mittel</div>
-					          </a>
-
-                </div>
-
-                <a href="/Quick_Installation/" target="_blank">Mehr ansehen</a>
-
-            </div>
-        </section>
+        <% include ../_partials/content/_bluenav-qi-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>
