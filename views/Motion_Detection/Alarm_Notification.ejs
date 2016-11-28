@@ -11,7 +11,7 @@
           <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
-        <div class="wrap">
+        <div class="wrap mobile-down">
             <div class="content">
                 <section class="hero internetAccess">
                     <div class="container">
@@ -36,6 +36,7 @@
 
         <div class="wrap">
             <div class="container main">
+              <% include ../_partials/content/_bluenav-md.ejs %>
 
                 <article>
                     <!-- article -->
@@ -55,7 +56,7 @@
                           <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_01_EN.jpg" width="700" height="397" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox1" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox1.close" role="button" tabindex="0" class="centered">
                               <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_01_EN.jpg" width="700" height="397" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -81,7 +82,7 @@
                           <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_02_EN.jpg" width="470" height="580" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox2" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox2.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox2.close" role="button" tabindex="0" class="centered">
                               <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_02_EN.jpg" width="470" height="580" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -101,7 +102,7 @@
                           <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_03_EN.jpg" width="700" height="397" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox3" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox3.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox3.close" role="button" tabindex="0" class="centered">
                               <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_03_EN.jpg" width="700" height="397" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -125,7 +126,7 @@
                           <amp-img on="tap:lightbox4" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_04_EN.jpg" width="470" height="580" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox4" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox4.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox4.close" role="button" tabindex="0" class="centered">
                               <amp-img on="tap:lightbox4.close" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_04_EN.jpg" width="470" height="580" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -168,7 +169,7 @@
                           <amp-img on="tap:lightbox5" role="button" tabindex="0" src="/images/Email_Einstellungen_MJPEG_01_EN.jpg" width="700" height="415" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox5" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox5.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox5.close" role="button" tabindex="0" class="centered">
                               <amp-img on="tap:lightbox5.close" role="button" tabindex="0" src="/images/Email_Einstellungen_MJPEG_01_EN.jpg" width="700" height="415" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -186,7 +187,7 @@
                           <amp-img on="tap:lightbox5" role="button" tabindex="0" src="/images/Email_Einstellungen_MJPEG_02_EN.jpg" width="700" height="446" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox5" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox5.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox5.close" role="button" tabindex="0" class="centered">
                               <amp-img on="tap:lightbox5.close" role="button" tabindex="0" src="/images/Email_Einstellungen_MJPEG_02_EN.jpg" width="700" height="446" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -215,7 +216,7 @@
                           <amp-img on="tap:lightbox6" role="button" tabindex="0" src="/images/Gmail-UnsecureApps_en.png" width="500" height="300" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox6" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox6.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox6.close" role="button" tabindex="0" class="centered">
                               <amp-img on="tap:lightbox6.close" role="button" tabindex="0" src="/images/Gmail-UnsecureApps_en.png" width="500" height="300" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -239,7 +240,7 @@
                             <amp-img on="tap:lightbox7" role="button" tabindex="0" src="/images/01_MailAbuse-en.png" width="700" height="421" layout="responsive" class="shadow"></amp-img>
                         </div>
                         <amp-lightbox id="lightbox7" layout="nodisplay">
-                            <div class="lightbox" on="tap:lightbox7.close" tabindex="0" class="centered">
+                            <div class="lightbox" on="tap:lightbox7.close" role="button" tabindex="0" class="centered">
                                 <amp-img on="tap:lightbox7.close" role="button" tabindex="0" src="/images/01_MailAbuse-en.png" width="700" height="421" layout="responsive" class="shadow"></amp-img>
                             </div>
                         </amp-lightbox>
@@ -263,7 +264,7 @@
                             <amp-img on="tap:lightbox7" role="button" tabindex="0" src="/images/Telekom-Mail_01.png" width="800" height="500" layout="responsive" class="shadow"></amp-img>
                         </div>
                         <amp-lightbox id="lightbox7" layout="nodisplay">
-                            <div class="lightbox" on="tap:lightbox7.close" tabindex="0" class="centered">
+                            <div class="lightbox" on="tap:lightbox7.close" role="button" tabindex="0" class="centered">
                                 <amp-img on="tap:lightbox7.close" role="button" tabindex="0" src="/images/Telekom-Mail_01.png" width="800" height="500" layout="responsive" class="shadow"></amp-img>
                             </div>
                         </amp-lightbox>
@@ -280,7 +281,7 @@
                             <amp-img on="tap:lightbox7" role="button" tabindex="0" src="/images/Telekom-Mail_02.png" width="800" height="400" layout="responsive" class="shadow"></amp-img>
                         </div>
                         <amp-lightbox id="lightbox7" layout="nodisplay">
-                            <div class="lightbox" on="tap:lightbox7.close" tabindex="0" class="centered">
+                            <div class="lightbox" on="tap:lightbox7.close" role="button" tabindex="0" class="centered">
                                 <amp-img on="tap:lightbox7.close" role="button" tabindex="0" src="/images/Telekom-Mail_02.png" width="800" height="400" layout="responsive" class="shadow"></amp-img>
                             </div>
                         </amp-lightbox>
@@ -299,7 +300,7 @@
         </div>
         <!-- /wrap -->
 
-        <section class="blade blog">
+        <section class="blade blog mobile-down">
 
             <div class="container wider">
                 <div class="row">
