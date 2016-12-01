@@ -5,7 +5,7 @@ var webUI1080pRouter = express.Router();
 webUI1080pRouter.route('/Overview')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface', {
-            title: 'INSTAR Weboberfläche',
+            title: 'INSTAR Web User Interface',
           });
       });
 
@@ -15,7 +15,7 @@ webUI1080pRouter.route('/Overview')
 webUI1080pRouter.route('/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series', {
-            title: 'INSTAR Weboberfläche fullHD Serie',
+            title: 'INSTAR Web User Interface fullHD Series',
 			uplink: '/Web_User_Interface/1080p_Series/Overview/',
           });
       });
@@ -26,7 +26,7 @@ webUI1080pRouter.route('/')
 webUI1080pRouter.route('/System/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_System', {
-            title: 'System Menü',
+            title: 'System Menu',
 			uplink: '/Web_User_Interface/1080p_Series/',
           });
       });
@@ -35,7 +35,7 @@ webUI1080pRouter.route('/System/')
 webUI1080pRouter.route('/System/Date_Time/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_System_Date_Time', {
-            title: 'System Menü :: Datum & Uhrzeit',
+            title: 'System Menu :: Date & Time',
 			uplink: '/Web_User_Interface/1080p_Series/System/',
           });
       });
@@ -44,7 +44,7 @@ webUI1080pRouter.route('/System/Date_Time/')
 webUI1080pRouter.route('/System/Email/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_System_Email', {
-            title: 'System Menü :: Email',
+            title: 'System Menu :: Email',
 			uplink: '/Web_User_Interface/1080p_Series/System/',
           });
       });
@@ -53,7 +53,7 @@ webUI1080pRouter.route('/System/Email/')
 webUI1080pRouter.route('/System/Info/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_System_Info', {
-            title: 'System Menü :: Info',
+            title: 'System Menu :: Info',
 			uplink: '/Web_User_Interface/1080p_Series/System/',
           });
       });
@@ -62,7 +62,7 @@ webUI1080pRouter.route('/System/Info/')
 webUI1080pRouter.route('/System/Language/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_System_Language', {
-            title: 'System Menü :: Sprache',
+            title: 'System Menu :: Language',
 			uplink: '/Web_User_Interface/1080p_Series/System/',
           });
       });
@@ -71,7 +71,7 @@ webUI1080pRouter.route('/System/Language/')
 webUI1080pRouter.route('/System/User/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_System_User', {
-            title: 'System Menü :: Benutzer',
+            title: 'System Menu :: User',
 			uplink: '/Web_User_Interface/1080p_Series/System/',
           });
       });
@@ -80,7 +80,7 @@ webUI1080pRouter.route('/System/User/')
 webUI1080pRouter.route('/System/Log/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_System_Log', {
-            title: 'System Menü :: Log',
+            title: 'System Menu :: Log',
 			uplink: '/Web_User_Interface/1080p_Series/System/',
           });
       });
@@ -89,7 +89,7 @@ webUI1080pRouter.route('/System/Log/')
 webUI1080pRouter.route('/System/Reboot/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_System_Reboot', {
-            title: 'System Menü :: Neustart',
+            title: 'System Menu :: Reboot',
 			uplink: '/Web_User_Interface/1080p_Series/System/',
           });
       });
@@ -98,7 +98,7 @@ webUI1080pRouter.route('/System/Reboot/')
 webUI1080pRouter.route('/System/Reset/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_System_Reset', {
-            title: 'System Menü :: Reset',
+            title: 'System Menu :: Reset',
 			uplink: '/Web_User_Interface/1080p_Series/System/',
           });
       });
@@ -107,7 +107,7 @@ webUI1080pRouter.route('/System/Reset/')
 webUI1080pRouter.route('/System/Update/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_System_Update', {
-            title: 'System Menü :: Update',
+            title: 'System Menu :: Update',
 			uplink: '/Web_User_Interface/1080p_Series/System/',
           });
       });
@@ -118,7 +118,7 @@ webUI1080pRouter.route('/System/Update/')
 webUI1080pRouter.route('/Network/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Network', {
-            title: 'Network Menü',
+            title: 'Network Menu',
 			uplink: '/Web_User_Interface/1080p_Series/',
           });
       });
@@ -127,7 +127,7 @@ webUI1080pRouter.route('/Network/')
 webUI1080pRouter.route('/Network/IP_Configuration/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Network_IP_Configuration', {
-            title: 'Network Menü :: IP Konfiguration',
+            title: 'Network Menu :: IP Configuration',
 			uplink: '/Web_User_Interface/1080p_Series/Network/',
           });
       });
@@ -136,8 +136,8 @@ webUI1080pRouter.route('/Network/IP_Configuration/')
 webUI1080pRouter.route('/Network/WiFi/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Network_WiFi', {
-            title: 'Network Menü :: WiFi',
-			uplink: '/Web_User_Interface/1080p_Series/Netzwerk/',
+            title: 'Network Menu :: WiFi',
+			uplink: '/Web_User_Interface/1080p_Series/Network/',
           });
       });
 
@@ -145,7 +145,7 @@ webUI1080pRouter.route('/Network/WiFi/')
 webUI1080pRouter.route('/Network/Remote_Access/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Network_Remote_Access', {
-            title: 'Network Menü :: Remote Zugang',
+            title: 'Network Menu :: Remote Access',
 			uplink: '/Web_User_Interface/1080p_Series/Network/',
           });
       });
@@ -154,7 +154,7 @@ webUI1080pRouter.route('/Network/Remote_Access/')
 webUI1080pRouter.route('/Network/ONVIF/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Network_ONVIF', {
-            title: 'Network Menü :: ONVIF',
+            title: 'Network Menu :: ONVIF',
 			uplink: '/Web_User_Interface/1080p_Series/Network/',
           });
       });
@@ -163,7 +163,7 @@ webUI1080pRouter.route('/Network/ONVIF/')
 webUI1080pRouter.route('/Network/UPnP/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Network_UPnP', {
-            title: 'Network Menü :: UPnP',
+            title: 'Network Menu :: UPnP',
 			uplink: '/Web_User_Interface/1080p_Series/Network/',
           });
       });
@@ -172,7 +172,7 @@ webUI1080pRouter.route('/Network/UPnP/')
 webUI1080pRouter.route('/Network/FTP/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Network_FTP', {
-            title: 'Network Menü :: FTP',
+            title: 'Network Menu :: FTP',
 			uplink: '/Web_User_Interface/1080p_Series/Network/',
           });
       });
@@ -183,7 +183,7 @@ webUI1080pRouter.route('/Network/FTP/')
 webUI1080pRouter.route('/Features/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Features', {
-            title: 'Features Menü',
+            title: 'Features Menu',
 			uplink: '/Web_User_Interface/1080p_Series/',
           });
       });
@@ -192,7 +192,7 @@ webUI1080pRouter.route('/Features/')
 webUI1080pRouter.route('/Features/Status_LED/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Features_Status_LED', {
-            title: 'Features Menü :: Status LED',
+            title: 'Features Menu :: Status LED',
 			uplink: '/Web_User_Interface/1080p_Series/Features/',
           });
       });
@@ -201,7 +201,7 @@ webUI1080pRouter.route('/Features/Status_LED/')
 webUI1080pRouter.route('/Features/IR_LEDs/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Features_IR_LEDs', {
-            title: 'Features Menü :: IR LEDs',
+            title: 'Features Menu :: IR LEDs',
 			uplink: '/Web_User_Interface/1080p_Series/Features/',
           });
       });
@@ -210,7 +210,7 @@ webUI1080pRouter.route('/Features/IR_LEDs/')
 webUI1080pRouter.route('/Features/PTZ/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Features_PTZ', {
-            title: 'Features Menü :: PTZ',
+            title: 'Features Menu :: PTZ',
 			uplink: '/Web_User_Interface/1080p_Series/Features/',
           });
       });
@@ -219,7 +219,7 @@ webUI1080pRouter.route('/Features/PTZ/')
 webUI1080pRouter.route('/Features/SD_Card/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Features_SD_Card', {
-            title: 'Features Menü :: SD Karte',
+            title: 'Features Menu :: SD Card',
 			uplink: '/Web_User_Interface/1080p_Series/Features/',
           });
       });
@@ -228,7 +228,7 @@ webUI1080pRouter.route('/Features/SD_Card/')
 webUI1080pRouter.route('/Features/PTZ_Tour/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Features_PTZ_Tour', {
-            title: 'Features Menü :: PTZ Tour',
+            title: 'Features Menu :: PTZ Tour',
 			uplink: '/Web_User_Interface/1080p_Series/Features/',
           });
       });
@@ -239,7 +239,7 @@ webUI1080pRouter.route('/Features/PTZ_Tour/')
 webUI1080pRouter.route('/Multimedia/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Multimedia', {
-            title: 'Multimedia Menü',
+            title: 'Multimedia Menu',
 			uplink: '/Web_User_Interface/1080p_Series/',
           });
       });
@@ -248,7 +248,7 @@ webUI1080pRouter.route('/Multimedia/')
 webUI1080pRouter.route('/Multimedia/Audio/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Multimedia_Audio', {
-            title: 'Multimedia Menü :: Audio',
+            title: 'Multimedia Menu :: Audio',
 			uplink: '/Web_User_Interface/1080p_Series/Multimedia/',
           });
       });
@@ -257,7 +257,7 @@ webUI1080pRouter.route('/Multimedia/Audio/')
 webUI1080pRouter.route('/Multimedia/Video/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Multimedia_Video', {
-            title: 'Multimedia Menü :: Video',
+            title: 'Multimedia Menu :: Video',
 			uplink: '/Web_User_Interface/1080p_Series/Multimedia/',
           });
       });
@@ -266,7 +266,7 @@ webUI1080pRouter.route('/Multimedia/Video/')
 webUI1080pRouter.route('/Multimedia/Image/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Multimedia_Image', {
-            title: 'Multimedia Menü :: Bild',
+            title: 'Multimedia Menu :: Image',
 			uplink: '/Web_User_Interface/1080p_Series/Multimedia/',
           });
       });
@@ -275,7 +275,7 @@ webUI1080pRouter.route('/Multimedia/Image/')
 webUI1080pRouter.route('/Multimedia/Privacy_Mask/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Multimedia_Privacy_Mask', {
-            title: 'Multimedia Menü :: Privatsphäre',
+            title: 'Multimedia Menu :: Privacy Mask',
 			uplink: '/Web_User_Interface/1080p_Series/Multimedia/',
           });
       });
@@ -286,7 +286,7 @@ webUI1080pRouter.route('/Multimedia/Privacy_Mask/')
 webUI1080pRouter.route('/Alarm/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Alarm', {
-            title: 'Alarm Menü',
+            title: 'Alarm Menu',
 			uplink: '/Web_User_Interface/1080p_Series/Alarm/',
           });
       });
@@ -295,7 +295,7 @@ webUI1080pRouter.route('/Alarm/')
 webUI1080pRouter.route('/Alarm/Areas/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Alarm_Areas', {
-            title: 'Alarm Menü :: Bereiche',
+            title: 'Alarm Menu :: Areas',
 			uplink: '/Web_User_Interface/1080p_Series/Alarm/',
           });
       });
@@ -304,7 +304,7 @@ webUI1080pRouter.route('/Alarm/Areas/')
 webUI1080pRouter.route('/Alarm/Actions/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Alarm_Actions', {
-            title: 'Alarm Menü :: Aktionen',
+            title: 'Alarm Menu :: Actions',
 			uplink: '/Web_User_Interface/1080p_Series/Alarm/',
           });
       });
@@ -313,7 +313,7 @@ webUI1080pRouter.route('/Alarm/Actions/')
 webUI1080pRouter.route('/Alarm/Schedule/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Alarm_Schedule', {
-            title: 'Alarm Menü :: Zeitplan',
+            title: 'Alarm Menu :: Schedule',
 			uplink: '/Web_User_Interface/1080p_Series/Alarm/',
           });
       });
@@ -322,7 +322,7 @@ webUI1080pRouter.route('/Alarm/Schedule/')
 webUI1080pRouter.route('/Alarm/Alarm_Server/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Alarm_Alarm_Server', {
-            title: 'Alarm Menü :: Alarm Server',
+            title: 'Alarm Menu :: Alarm Server',
 			uplink: '/Web_User_Interface/1080p_Series/Alarm/',
           });
       });
@@ -331,7 +331,7 @@ webUI1080pRouter.route('/Alarm/Alarm_Server/')
 webUI1080pRouter.route('/Alarm/Email/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Alarm_Email', {
-            title: 'Alarm Menü :: Email',
+            title: 'Alarm Menu :: Email',
 			uplink: '/Web_User_Interface/1080p_Series/Alarm/',
           });
       });
@@ -340,7 +340,7 @@ webUI1080pRouter.route('/Alarm/Email/')
 webUI1080pRouter.route('/Alarm/Push_Service/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Alarm_Push_Service', {
-            title: 'Alarm Menü :: Push Service',
+            title: 'Alarm Menu :: Push Service',
 			uplink: '/Web_User_Interface/1080p_Series/Alarm/',
           });
       });
@@ -351,7 +351,7 @@ webUI1080pRouter.route('/Alarm/Push_Service/')
 webUI1080pRouter.route('/Recording/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Recording', {
-            title: 'Recording Menü',
+            title: 'Recording Menu',
 			uplink: '/Web_User_Interface/1080p_Series/',
           });
       });
@@ -360,7 +360,7 @@ webUI1080pRouter.route('/Recording/')
 webUI1080pRouter.route('/Recording/Video/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Recording_Video', {
-            title: 'Recording Menü :: Video',
+            title: 'Recording Menu :: Video',
 			uplink: '/Web_User_Interface/1080p_Series/Recording/',
           });
       });
@@ -369,7 +369,7 @@ webUI1080pRouter.route('/Recording/Video/')
 webUI1080pRouter.route('/Recording/Photoseries/')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Recording_Photoseries', {
-            title: 'Recording Menü :: Fotoserie',
+            title: 'Recording Menu :: Photoseries',
 			uplink: '/Web_User_Interface/1080p_Series/Recording/',
           });
       });
