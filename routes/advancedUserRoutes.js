@@ -85,4 +85,13 @@ advancedUserRouter.get('/CCTV_vs_IP/', function(req, res) {
       });
   });
 
+advancedUserRouter.get('/VPN_AVM_Fritzbox/', function(req, res) {
+    res.render('./Advanced_User/VPN_AVM_Fritzbox_Windows', {
+        title: 'VPN in AVM Fritzbox',
+        uplink: '/Advanced_User',
+      });
+  });
+
+
+
 module.exports = advancedUserRouter;
