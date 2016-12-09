@@ -1,18 +1,18 @@
-var ctx = document.getElementById('radar5907_9008');
+var ctx = document.getElementById('radar9008_2905');
 var myChart = new Chart(ctx, {
       type: 'radar',
       data: {
         labels: ['Nightvision [m]', 'Megapixel', 'Power Consumptions [W]', 'IR LEDs', 'Focal Length [mm]'],
         datasets: [{
-          label: 'IN-5907 HD',
+          label: 'IN-9008 HD',
           backgroundColor: 'rgba(2, 117, 216, 0.5)',
           borderColor: 'rgba(2, 117, 216, 1)',
-          data: [25, 1, 13, 3, 8],
+          data: [20, 2, 9, 5, 4.2],
         }, {
-          label: 'IN-9008 HD',
+          label: 'IN-2905',
           backgroundColor: 'rgba(240, 173, 78, 0.5)',
           borderColor: 'rgba(240, 173, 78, 1)',
-          data: [20, 2, 9, 5, 4.2],
+          data: [15, 0.3, 6, 24, 6],
         },],
       },
       options: {

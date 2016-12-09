@@ -58,6 +58,46 @@ productRouter.route('/Outdoor_Cameras/IN-7011_HD/Camera_Reset')
         });
     });
 	
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Safety_Warnings')
+  .get(function(req, res) {
+      res.render('./Products/Usermanuals_Safety_Warnings', {
+          title: 'IN-9008 HD Sicherheitswarnungen',
+          model: 'IN-9008_HD',
+		  type: 'Outdoor',
+          uplink: '/Products/Usermanuals',
+        });
+    });
+	
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Warranty')
+  .get(function(req, res) {
+      res.render('./Products/Usermanuals_Warranty', {
+          title: 'IN-9008 HD Garantie & Verfügbarkeit',
+          model: 'IN-9008_HD',
+		  type: 'Outdoor',
+          uplink: '/Products/Usermanuals',
+        });
+    });
+	
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Video_Streaming')
+  .get(function(req, res) {
+      res.render('./Products/Usermanuals_Video_Streaming', {
+          title: 'IN-9008 HD Video Streaming',
+          model: 'IN-9008_HD',
+		  type: 'Outdoor',
+          uplink: '/Products/Usermanuals',
+        });
+    });
+	
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Camera_Reset')
+  .get(function(req, res) {
+      res.render('./Products/Usermanuals_Camera_Reset', {
+          title: 'IN-9008 HD Hardware Reset',
+          model: 'IN-9008_HD',
+		  type: 'Outdoor',
+          uplink: '/Products/Usermanuals',
+        });
+    });
+	
 productRouter.route('/Outdoor_Cameras/IN-5907_HD/Safety_Warnings')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Safety_Warnings', {
@@ -679,6 +719,70 @@ productRouter.route('/Outdoor_Cameras/IN-7011_HD/Downloads')
 .get(function(req, res) {
   res.render('./Products/IN-7011_Downloads', {
       title: 'IN-7011 HD Downloads',
+      uplink: '/Products/Usermanuals',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-9008_HD')
+.get(function(req, res) {
+  res.render('./Products/IN-9008_Overview', {
+      title: 'IN-9008 HD Überblick',
+      uplink: '/Products',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Usermanual')
+.get(function(req, res) {
+  res.render('./Products/IN-9008_Usermanual', {
+      title: 'IN-9008 HD Handbuch',
+      uplink: '/Products',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Product_Features')
+.get(function(req, res) {
+  res.render('./Products/IN-9008_Product_Features', {
+      title: 'IN-9008 HD Produktfeatures',
+      uplink: '/Products/Usermanuals',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Point2Point')
+.get(function(req, res) {
+  res.render('./Products/IN-9008_Point2Point', {
+      title: 'IN-9008 HD Point 2 Point',
+      uplink: '/Products/Usermanuals',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Quick_Installation')
+.get(function(req, res) {
+  res.render('./Products/IN-9008_Quick_Installation', {
+      title: 'IN-9008 HD Schnellinstallation',
+      uplink: '/Products/Usermanuals',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Lense_Adjustment')
+.get(function(req, res) {
+  res.render('./Products/IN-9008_Lense_Adjustment', {
+      title: 'IN-9008 HD Linse einstellen',
+      uplink: '/Products/Usermanuals',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Technical_Specifications')
+.get(function(req, res) {
+  res.render('./Products/IN-9008_Tech_Specs', {
+      title: 'IN-9008 HD Technische Spezifikationen',
+      uplink: '/Products/Usermanuals',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Downloads')
+.get(function(req, res) {
+  res.render('./Products/IN-9008_Downloads', {
+      title: 'IN-9008 HD Downloads',
       uplink: '/Products/Usermanuals',
     });
 });
