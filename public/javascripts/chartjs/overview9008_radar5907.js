@@ -1,4 +1,4 @@
-var ctx = document.getElementById('radar5907_9008');
+var ctx = document.getElementById('radar9008_5907');
 var myChart = new Chart(ctx, {
       type: 'radar',
       data: {
