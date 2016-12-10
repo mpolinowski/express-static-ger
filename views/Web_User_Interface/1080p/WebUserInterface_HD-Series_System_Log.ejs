@@ -16,9 +16,9 @@
                         <div class="row">
                             <div class="six columns">
                                 <div class="intro-container">
-                                    <h1>System Log Overlay</h1>
+                                    <h1>Oberfläche System Log</h1>
                                     <p class="intro">
-                                      Something doesn´t work anymore? Check the system log file for information. You don´t receive Alarm Emails anymore but your SMTP settings look fine? Check the log if there are still motion trigger events. Or you get spammed with Alarm Emails but motion detection is already deactivated? Check your log - maybe the events are triggered by the <a href="/Web_User_Interface/1080p_Series/Alarm/Actions/">Audio Alarm</a> or an <a href="/Web_User_Interface/1080p_Series/Alarm/Actions/">external trigger</a>.
+                                      Nutzen Sie das Log um Fehlerquellen auf die Schliche zu kommen. Sie erhalten keine Alarm Emails mehr, die SMTP Server Daten scheinen aber noch zu funktionieren? Schauen Sie im Log nach, ob überhaupt noch Alarme ausgelöst werden. Sie erhalten kontinuierlich Alarmbenachrichtigungen, obwohl Sie testweise schon einmal die Bewegungserkennung ganz deaktiviert haben? Überprüfen Sie im Log was den Alarm auslöst. Ist eventuell der Audio Alarm aktiv? Oder kommt der Trigger vom Alarmeingang der Kamera?.
                                     </p>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                     <!-- article -->
 
                     <div class="margin">
-                        <h2 class="post-title">Keep an eye on your Camera´s Operation</h2>
+                        <h2 class="post-title">Halten Sie ein Auge auf die Einstellungen Ihrer Kamera</h2>
                     </div>
                     <!-- /margin -->
 
@@ -62,67 +62,67 @@
                                 <td width="20%">
                                     <strong>ipc_server start</strong>
                                 </td>
-                                <td>Time of the last system boot process. Be aware, that the system log will be deleted with every restart.</td>
+                                <td>Zeitpunkt des letzten Neustarts Ihrer Kamera. Beachten Sie bitte, dass das Systemlog bei einem Neustart gelöscht wird.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>-- empty entyry --</strong>
+                                    <strong>-- leere Zeile --</strong>
                                 </td>
-                                <td>Login to the live video via the <a href="/Web_User_Interface/1080p_Series/Multimedia/Video/">Flash Video Plugin</a>.</td>
+                                <td>Login auf den Videostream über das Flash Video Plugin.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>user(admin, user or guest) login for live stream</strong>
+                                    <strong>user(admin, user oder guest) login für live stream</strong>
                                 </td>
-                                <td>Login of the admin, user or guest to the live video stream (unless logged in over the Flash Plugin s. above).</td>
+                                <td>Login des Administrators, Benutzers oder Gastes auf den Live Video Stream (außer über das Flash Plugin s.o.).</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>motion detection(area= 1,2,3 or 4) alarm</strong>
+                                    <strong>motion detection(area= 1,2,3 oder 4) alarm</strong>
                                 </td>
-                                <td>Time of a motion detection event in <a href="/Web_User_Interface/1080p_Series/Alarm/Areas/">alarm area</a> 1, 2, 3 or 4.</td>
+                                <td>Zeitpunkt einer Bewegungserkennung innerhalb des Alarmbereiches 1, 2, 3 oder 4.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>input alarm</strong>
                                 </td>
-                                <td>Time of the trigger alert by the <a href="/Web_User_Interface/1080p_Series/Alarm/Actions/">alarm input</a> - e.g. by an <a href="/Products/IN-Motion/">external sensor</a> or the internal PIR sensor (in case of the <a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a>).</td>
+                                <td>Eine Alarmauslösung durch den Alarmeingang Ihrer Kamera - durch einen externen Bewegungsmelder oder den interne PIR Melder (im Falle der IN-6014 HD).</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>audio alarm</strong>
                                 </td>
-                                <td>Time of an alarm event by the <a href="/Web_User_Interface/1080p_Series/Alarm/Actions/">audio alarm</a> of your camera.</td>
+                                <td>Eine Alarmauslösung durch den Audioalarm Ihrer Kamera.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>alarm event: alarm to email (snap)</strong>
                                 </td>
-                                <td>The alarm event triggered an alarm notification by email, according to your settings in the <a href="/Web_User_Interface/1080p_Series/Alarm/Actions/">Alarm Actions Menu</a>.</td>
+                                <td>Es wurde eine Alarm Email gemäß Ihrer Einstellungen im Alarmaktionen Menü versandt.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>alarm event: alarm to ftp (snap oder video)</strong>
                                 </td>
-                                <td>The alarm event triggered a video or snapshot upload by FTP, according to your settings in the <a href="/Web_User_Interface/1080p_Series/Alarm/Actions/">Alarm Actions Menu</a>, to your <a href="/Web_User_Interface/1080p_Series/Network/FTP/">FTP Server</a>.</td>
+                                <td>Es wurde eine Bild oder Video Datei gemäß Ihrer Einstellungen im Alarmaktionen Menü auf Ihren FTP Server abgelegt.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>alarm event: alarm to SD (snap oder video)</strong>
                                 </td>
-                                <td>The alarm event triggered a video or snapshot recording on your <a href="/Web_User_Interface/1080p_Series/Features/SD_Card/">SD Card</a>, according to your settings in the <a href="/Web_User_Interface/1080p_Series/Alarm/Actions/">Alarm Actions Menu</a>.</td>
+                                <td>Es wurde eine Bild oder Video Datei gemäß Ihrer Einstellungen im Alarmaktionen Menü auf der SD KarteIhrer Kamera abgelegt.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>Delete</strong>
+                                    <strong>Löschen</strong>
                                 </td>
-                                <td>Delete the system log. Be aware, that the system log will be deleted with every restart.</td>
+                                <td>Löschen Sie alle Logbuch Einträge. Beachten Sie bitte, dass die Einträge auch bei einem Neustart der Kamera gelöscht werden.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>Refresh</strong>
+                                    <strong>Aktualisieren</strong>
                                 </td>
-                                <td>The log does not refresh as long as the menu is kept open. Click refresh to do it manually.</td>
+                                <td>Wenn Sie das Systemlogbuch öffnen, werden automatisch alle aktuellen Einträge ausgelesen. Drücken Sie auf Aktualisieren um sich neu hinzugekommene Einträge anzeigen zu lassen.</td>
                             </tr>
                         </table>
                     </div>

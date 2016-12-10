@@ -16,9 +16,9 @@
                         <div class="row">
                             <div class="six columns">
                                 <div class="intro-container">
-                                    <h1>Info Overlay</h1>
+                                    <h1>Oberfläche Info</h1>
                                     <p class="intro">
-                                      Info is simply a collection of a lot of system internals that are interesting if you have to start troubleshooting your set up. You DDNS access doesn´t work? Check the <a href="/Web_User_Interface/1080p_Series/Network/Remote_Access/">DDNS status</a> (has to be successful) and the UPnP Status (<a href="/Web_User_Interface/1080p_Series/Network/UPnP/">most likely has to be deactivated</a>). You can also try accessing your camera via it´s WAN IP (instead of DDNS address) - to check wether it is the DDNS address or your <a href="/Internet_Access/Port_Forwarding">port forwarding</a> that is the culprit.
+                                      Das Info Panel ist eine einfache Sammlung von Systemvariablen die von Interesse sein können, wenn Sie Ihr Kamerasystem auf Fehler überprüfen müssen. Der DDNS Zugriff funktioniert nicht mehr? Überprüfen Sie hier den DDNS status (muss erfolgreich sein) und den UPnP Status (muss deaktiviert sein, wenn Sie eine manuelle Portweiterleitung eingerichtet haben). Sie können auch die WAN IP aus diesem Menü (anstatt der DDNS Adresse) verwenden, um direkt auf Ihre Kamera zuzugreifen. Sollte der Zugriff über die WAN IP möglich sein, über die DDNS Adresse jedoch nicht, ist vermutlich die Portweiterleitung der Schuldige. Um weiteren Fehlerquellen auf die Schliche zu kommen, überprüfen Sie auch das Sytem Logbuch.Das Info Panel ist eine einfache Sammlung von Systemvariablen die von Interesse sein können, wenn Sie Ihr Kamerasystem auf Fehler überprüfen müssen. Der DDNS Zugriff funktioniert nicht mehr? Überprüfen Sie hier den DDNS status (muss erfolgreich sein) und den UPnP Status (muss deaktiviert sein, wenn Sie eine manuelle Portweiterleitung eingerichtet haben). Sie können auch die WAN IP aus diesem Menü (anstatt der DDNS Adresse) verwenden, um direkt auf Ihre Kamera zuzugreifen. Sollte der Zugriff über die WAN IP möglich sein, über die DDNS Adresse jedoch nicht, ist vermutlich die Portweiterleitung der Schuldige. Um weiteren Fehlerquellen auf die Schliche zu kommen, überprüfen Sie auch das Sytem Logbuch.
                                     </p>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                     <!-- article -->
 
                     <div class="margin">
-                        <h2 class="post-title">Keep an Eye on your Camera´s Operation</h2>
+                        <h2 class="post-title">Halten Sie ein Auge auf die Einstellungen der Kamera</h2>
                     </div>
                     <!-- /margin -->
 
@@ -60,69 +60,69 @@
                         <table>
                             <tr>
                                 <td width="20%">
-                                    <strong>Camera ID</strong>
+                                    <strong>Kamera ID</strong>
                                 </td>
-                                <td>Model number of your camera.</td>
+                                <td>Modellbezeichnung Ihrer Kamera.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>Firmware Version</strong>
                                 </td>
-                                <td>Version of your camera´s operating system. You can always find the newest version of the Firmware/WebUI in our <a href="http://download.instar.de/">Download Area</a>. The software is uploaded to your camera through the <a href="/Web_User_Interface/720p_Series/Software/Update/">Update Menu</a>.</td>
+                                <td>Versionsnummer des Betriebssystems Ihrer Kamera. Sie finden die neueste Firmware/Weboberfläche für Ihre Kamera in unserem Download Bereich. Das Aufspielen der neuen Software können Sie über das Update Menü durchführen.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>WebUI Version</strong>
                                 </td>
-                                <td>Version of your camera´s web user interface. You can always find the newest version of the Firmware/WebUI in our <a href="http://download.instar.de/">Download Area</a>. The software is uploaded to your camera through the <a href="/Web_User_Interface/720p_Series/Software/Update/">Update Menu</a>.</td>
+                                <td>Versionsnummer des Benutzeroberfläche Ihrer Kamera. Sie finden die neueste Firmware/Weboberfläche für Ihre Kamera in unserem Download Bereich. Das Aufspielen der neuen Software können Sie über das Update Menü durchführen.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>Network Interface</strong>
+                                    <strong>Netzwerktyp</strong>
                                 </td>
-                                <td>Displays whether your camera is connected by WiFi or Ethernet cable.</td>
+                                <td>Zeigt an ob sich Ihre Kamera im LAN oder WLAN Betrieb befindet.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>MAC Address</strong>
+                                    <strong>MAC Adresse</strong>
                                 </td>
-                                <td>Hardware identification of the active (LAN or WLAN) network interface.</td>
+                                <td>Hardware Identifikation der jeweils aktiven (LAN oder WLAN) Netzwerkschnittstelle.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>SD Status</strong>
                                 </td>
-                                <td>Displays if your camera´s SD card is ready for operation and it´s remaining capacity (the SD card is used as a ring buffer - the oldest folder is deleted once the capacity is reached).</td>
+                                <td>Anzeige der Betriebsbereitschaft Ihrer SD Karte und des verbleibenden Speicherplatzes.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>IR LED Status</strong>
                                 </td>
-                                <td>Operating mode of your nightvision LEDs - either switched on automatically (when it is getting dark) or permanently deactivated.</td>
+                                <td>Betriebsmodus der Nachtsicht LEDs - diese werden entweder automatisch geschaltet, oder sind permanent aus.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>WAN IP Address</strong>
+                                    <strong>WAN IP Adresse</strong>
                                 </td>
-                                <td><strong>W</strong>ide <strong>A</strong>rea <strong>N</strong>etwork Address of your internet connection. This is the address that your <a href="/Internet_Access/The_DDNS_Service">DDNS Address</a> will be translated to, to make your camera availabe from the internet (needs a <a href="/Internet_Access/Port_Forwarding">Port Forwarding</a>!).</td>
+                                <td><strong>W</strong>ide <strong>A</strong>rea <strong>N</strong>etwork Adresse Ihres Internetanschlusses. Dies ist die Adresse, die hinter Ihrer DDNS Adresse hinterlegt wird um die Kamera von extern zu erreichen.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>DDNS Status</strong>
                                 </td>
-                                <td>This function checks if your <a href="/Web_User_Interface/720p_Series/Network/DDNS/">DDNS Address</a> was successfully updated with your actual WAN IP Address. This is a requirement to <a href="/Internet_Access/The_DDNS_Service">ccess your camera from the internet</a>.</td>
+                                <td>Überprüft ob die WAN IP Adresse Ihres Internetanschlusses hinter Ihrer DDNS Adresse hinterlegt wurde. Dies wird für den Zugriff über das Internet auf die Kamera benötigt.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>UPnP Status</strong>
                                 </td>
-                                <td>The UPnP service automatically tries to set a <a href="/Internet_Access/Port_Forwarding">Port Forwarding</a> for the DDNS access to your camera. <strong>We recommend</strong> to <a href="/Web_User_Interface/720p_Series/Network/UPnP/">deactivate this service</a> and create a manual forwarding instead.</td>
+                                <td>Der UPnP Dienst würde automatisch eine Portweiterleitung für den DDNS Zugriff auf Ihre Kamera anlegen. Wir empfehlen jedoch dies manuell zu machen und UPnP zu deaktivieren.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>Camera active since</strong>
+                                    <strong>Kamera aktiv seit</strong>
                                 </td>
-                                <td>Up-time of your camera since the last reboot.</td>
+                                <td>Laufzeit Ihrer Kamera seit dem letzten System Start.</td>
                             </tr>
                         </table>
                     </div>

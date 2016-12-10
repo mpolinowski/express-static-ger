@@ -16,9 +16,9 @@
                         <div class="row">
                             <div class="six columns">
                                 <div class="intro-container">
-                                    <h1>ONVIF Overlay</h1>
+                                    <h1>Oberfläche ONVIF</h1>
                                     <p class="intro">
-                                      The surveillance industry has created an open standard protocol called <a href="/Quick_Installation/ONVIF">ONVIF</a> that allows cameras to communicate with each other and with network recording devices. You can activate or deactivate this service and change the port that it is using - as needed by your receiving ONVIF device.
+                                      Die Überwachungsindustrie hat ein offenes Standardprotokoll entwickelt, dass sich <a href="/Quick_Installation/ONVIF">ONVIF</a>  nennt. Dieses Protokoll erlaubt es Kameras untereinander und mit Netzwerkgeräten zu kommunizieren. Sie können den Service aktivieren oder deaktivieren und den Port ändern - wie es Ihr empfangenes ONVIF Gerät benötigt.
                                     </p>
                                 </div>
                             </div>
@@ -40,12 +40,12 @@
                     <!-- article -->
 
                     <div class="margin">
-                        <h2 class="post-title">Integrate your INSTAR Camera in a Third-party Application</h2>
+                        <h2 class="post-title">Integrieren Sie Ihre INSTAR Kamera in eine Drittanbieter-Applikation</h2>
                     </div>
                     <!-- /margin -->
 
                     <div class="margin">
-                        <p><a href="/Quick_Installation/ONVIF">ONVIF</a> is a global standard for the interface of IP-based security products. The ONVIF specification will ensure interoperability between products regardless of manufacturer, allowing you to integrate your INSTAR camera as a generic ONVIF camera into existing security systems.</p>
+                        <p><a href="/Quick_Installation/ONVIF">ONVIF</a> ist eine globaler Standard für die Kommunikation zwischen Netzwerk Sicherheitsprodukten - wie Ihre IP Kamera und z.B. einen Netzwerk Rekorder. Die ONVIF Spezifikationen garantieren Ihnen, dass die Netzwerkgeräte zusammenarbeiten - auch dann, wenn Sie von anderen Herstellern stammen. Nutzen Sie den ONVIF Dienst Ihrer INSTAR Kamera um diese in bereits bestehende Sicherheitssysteme zu integrieren. Neben dem aktivieren und deaktivieren des Dienstes, erlaubt Ihnen das Overlay auch das Festlegen des ONVIF Ports (Standard: 8080) und ob Sie eine Authentifizierung durch die zugreifende Anwendung verlangen oder nicht. Beachten Sie bitte, dass durch das Deaktivieren der Authentifizierung jeder in Ihrem lokalen Netzwerk über das ONVIF Protokoll Zugriff auf die Kamera hat. Deaktivieren Sie die Authentifizierung nur, wenn das Kameranetzwerk nur Ihnen Zugänglich ist und die Authentifizierung Ihnen bei der Einbindung Probleme bereitet. Der ONVIF Port darf in diesem Fall unter keinen Umständen in Ihrem Router durchgeleitet werden!</p>
                     </div>
                     <!-- /margin -->
 
@@ -65,21 +65,21 @@
                         <table>
                             <tr>
                                 <td width="20%">
-                                    <strong>Activate ONVIF Protocol</strong>
+                                    <strong>ONVIF Protokoll aktivieren</strong>
                                 </td>
-                                <td>Activate or deactivate the <a href="/Quick_Installation/ONVIF">ONVIF service</a> of your camera.</td>
+                                <td>Aktivieren oder deaktivieren Sie den ONVIF Dienst in Ihrer Kamera.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>ONVIF Port</strong>
                                 </td>
-                                <td>This is the port that external devices have to use to communicate with your camera over the <a href="/Quick_Installation/ONVIF">ONVIF protocol</a>. It is recommended to leave it at it´s default 8080. Make sure that you don´t use the same port as <a href="/Web_User_Interface/720p_Series/Network/IP_Configuration/">LAN, RTMP or RTSP port</a>!</td>
+                                <td>Dies ist der Port über den Ihre Kamera über das ONVIF Protokoll ansprechbar ist. Es wird empfohlen diesen auf dem Standardwert von 8080 zu belassen. Achten Sie bitte darauf nicht den LAN, RTMP oder RTSP Port auf den gleichen Wert zu legen!</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>ONVIF Authentication</strong>
+                                    <strong>ONVIF Authentifizierung</strong>
                                 </td>
-                                <td>If you third-party ONVIF device cannot connect with your camera, you can try to deactivate the authentication for the <a href="/Quick_Installation/ONVIF">ONVIF protocoll</a>. Be aware that everyone might be able to login your cameras live video stream, if authentication is deactivated. It is not recommended to forward the ONVIF port to the internet in this case.</td>
+                                <td>Sollten Sie Probleme haben die Kamera in eine Drittanbieter Anwendung über den ONVIF Dienst einzubinden, können Sie hier einmal probieren testweise die Authentifizierung zu deaktivieren. In diesem Fall sollte man den ONVIF Port nicht im Router durchleiten, um unerwünschte Zugriffe auf die Kamera zu vermeiden.</td>
                             </tr>
                         </table>
                     </div>
