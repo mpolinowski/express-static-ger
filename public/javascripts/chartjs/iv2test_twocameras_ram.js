@@ -1,4 +1,4 @@
-var ctx = document.getElementById('line_onecamera_cpu');
+var ctx = document.getElementById('line_twocameras_ram');
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
@@ -6,8 +6,8 @@ var myChart = new Chart(ctx, {
         datasets: [
             {
                 type: 'line',
-                label: 'CPU-Auslastung in %',
-                data: [3, 8, 25],
+                label: 'Arbeitsspeicher in Megabyte',
+                data: [70, 94, 170],
                 backgroundColor: 'rgba(2, 117, 216, 1)',
               },
         ],
@@ -19,14 +19,14 @@ var myChart = new Chart(ctx, {
 		    scales: {
 		      yAxes: [{
 		        ticks: {
-              max: 60,
+              max: 200,
               beginAtZero: true,
             },
 		      },],
 		    },
         title: {
             display: true,
-            text: 'CPU-Auslastung in Prozent'
+            text: 'Arbeitsspeicher in Megabyte'
         }
 		  },
   });

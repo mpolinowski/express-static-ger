@@ -1,13 +1,13 @@
-var ctx = document.getElementById('line_onecamera_cpu');
+var ctx = document.getElementById('line_morecameras_cpu');
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: ['VGA-Kamera', 'HD-Kamera', 'FullHD-Kamera'],
+        labels: ['4 Kameras', '8 Kameras', '16 Kameras'],
         datasets: [
             {
                 type: 'line',
                 label: 'CPU-Auslastung in %',
-                data: [3, 8, 25],
+                data: [36, 60, 73],
                 backgroundColor: 'rgba(2, 117, 216, 1)',
               },
         ],
@@ -19,7 +19,7 @@ var myChart = new Chart(ctx, {
 		    scales: {
 		      yAxes: [{
 		        ticks: {
-              max: 60,
+              max: 100,
               beginAtZero: true,
             },
 		      },],

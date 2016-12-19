@@ -1,13 +1,13 @@
-var ctx = document.getElementById('line_onecamera_cpu');
+var ctx = document.getElementById('line_onecamera_network');
 var myChart = new Chart(ctx, {
-    type: 'line',
+    type: 'bar',
     data: {
         labels: ['VGA-Kamera', 'HD-Kamera', 'FullHD-Kamera'],
         datasets: [
             {
-                type: 'line',
-                label: 'CPU-Auslastung in %',
-                data: [3, 8, 25],
+                type: 'bar',
+                label: 'Netzwerkauslastung in Kilobit pro Sekunde',
+                data: [114, 51, 570],
                 backgroundColor: 'rgba(2, 117, 216, 1)',
               },
         ],
@@ -19,14 +19,15 @@ var myChart = new Chart(ctx, {
 		    scales: {
 		      yAxes: [{
 		        ticks: {
-              max: 60,
+              max: 800,
+              fixedStepSize: 50,
               beginAtZero: true,
             },
 		      },],
 		    },
         title: {
             display: true,
-            text: 'CPU-Auslastung in Prozent'
+            text: 'Netzwerkauslastung in Kilobit pro Sekunde'
         }
 		  },
   });

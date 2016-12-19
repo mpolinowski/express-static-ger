@@ -131,7 +131,11 @@
                                       <h4 class="modal-title" id="SystemPerformance">1 Kamera eingebunden</h4>
                                   </div>
                                   <div class="modal-body">
-                                      <canvas id="line_onecamera_cpu" width="600" height="400"></canvas>
+                                      <canvas id="line_onecamera_cpu" width="600" height="400"></canvas><br><br>
+                                      <h4 class="modal-title" id="SystemPerformance">2 Kameras eingebunden</h4><hr><br>
+                                      <canvas id="line_twocameras_cpu" width="600" height="400"></canvas><br><br>
+                                      <h4 class="modal-title" id="SystemPerformance">Mehrere Kameras eingebunden</h4><hr><br>
+                                      <canvas id="line_morecameras_cpu" width="600" height="400"></canvas>
                                   </div>
                                   <div class="modal-footer">
                                       <button type="button" class="btn btn-danger" data-dismiss="modal">Schließen</button>
@@ -141,6 +145,47 @@
                       </div>
 
                       <script src="/javascripts/chartjs/iv2test_onecamera_cpu.js"></script>
+                      <script src="/javascripts/chartjs/iv2test_twocameras_cpu.js"></script>
+                      <script src="/javascripts/chartjs/iv2test_morecameras_cpu.js"></script>
+
+                      <!-- /modal -->
+                    </div>
+                  </div>
+
+                  <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
+                    <img class="card-img-top img-fluid" src="/images/InstarVision2_RAMTest.png" alt="InstarVision 2 RAM-Auslastung">
+                    <div class="card-block">
+                      <h4 class="card-title">Arbeitsspeicher</h4>
+                      <p class="card-text">Benötigte Kapazitäten des Arbeitsspeichers (RAM)</p>
+                      <button class="btn btn-xs btn-primary" data-toggle="modal" data-target="#RAMPerformance">
+                        Daten &amp; Graphen
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="RAMPerformance" tabindex="-1" role="dialog" aria-labelledby="RAMPerformance" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                      <h4 class="modal-title" id="SystemPerformance">1 Kamera eingebunden</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                      <canvas id="line_onecamera_ram" width="600" height="400"></canvas><br><br>
+                                      <h4 class="modal-title" id="RAMPerformance">2 Kameras eingebunden</h4><hr><br>
+                                      <canvas id="line_twocameras_ram" width="600" height="400"></canvas><br><br>
+                                      <h4 class="modal-title" id="SystemPerformance">Mehrere Kameras eingebunden</h4><hr><br>
+                                      <canvas id="line_morecameras_ram" width="600" height="400"></canvas>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Schließen</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <script src="/javascripts/chartjs/iv2test_onecamera_ram.js"></script>
+                      <script src="/javascripts/chartjs/iv2test_twocameras_ram.js"></script>
+                      <script src="/javascripts/chartjs/iv2test_morecameras_ram.js"></script>
 
                       <!-- /modal -->
                     </div>
@@ -164,7 +209,11 @@
                                       <h4 class="modal-title" id="NetworkPerformance">1 Kamera eingebunden</h4>
                                   </div>
                                   <div class="modal-body">
-                                      <canvas id="line_onecamera_network" width="300" height="100"></canvas>
+                                      <canvas id="line_onecamera_network" width="300" height="100"></canvas><br><br>
+                                      <h4 class="modal-title" id="NetworkPerformance">2 Kameras eingebunden</h4><hr><br>
+                                      <canvas id="line_twocameras_network" width="600" height="400"></canvas><br><br>
+                                      <h4 class="modal-title" id="SystemPerformance">Mehrere Kameras eingebunden</h4><hr><br>
+                                      <canvas id="line_morecameras_network" width="600" height="400"></canvas>
                                   </div>
                                   <div class="modal-footer">
                                       <button type="button" class="btn btn-danger" data-dismiss="modal">Schließen</button>
@@ -172,6 +221,11 @@
                               </div>
                           </div>
                       </div>
+
+                      <script src="/javascripts/chartjs/iv2test_onecamera_network.js"></script>
+                      <script src="/javascripts/chartjs/iv2test_twocameras_network.js"></script>
+                      <script src="/javascripts/chartjs/iv2test_morecameras_network.js"></script>
+
                       <!-- /modal -->
                     </div>
                   </div>

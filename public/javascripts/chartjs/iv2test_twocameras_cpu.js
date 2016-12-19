@@ -1,4 +1,4 @@
-var ctx = document.getElementById('line_onecamera_cpu');
+var ctx = document.getElementById('line_twocameras_cpu');
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
@@ -7,7 +7,7 @@ var myChart = new Chart(ctx, {
             {
                 type: 'line',
                 label: 'CPU-Auslastung in %',
-                data: [3, 8, 25],
+                data: [8.5, 10, 30],
                 backgroundColor: 'rgba(2, 117, 216, 1)',
               },
         ],
