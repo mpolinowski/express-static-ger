@@ -1,4 +1,4 @@
-<% include ../_partials/template/_head.ejs %>
+<% include ../_partials/template/_head_chart.ejs %>
 
     <body>
       <% include ../_partials/template/_outdated.ejs %>
@@ -96,6 +96,100 @@
         <!-- / row -->
       </div>
       <!-- / container -->
+
+        <div class="clearfix mb"></div>
+
+        <!-- ############################################ Language ################################################ -->
+
+        <div class="container mt">
+          <div class="row">
+
+            <div class="col-xs-12 mb">
+              <h2><i class="fa fa-bars" aria-hidden="true"></i>&nbsp; Systemvoraussetzungen</h2>
+            </div>
+
+            <div class="offset-lg-1 col-lg-10 mb">
+
+              <div class="card-deck-wrapper mb">
+                <div class="card-deck">
+
+                  <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
+                    <img class="card-img-top img-fluid" src="/images/InstarVision2_SystemTest.png" alt="InstarVision 2 Systemauslastung">
+                    <div class="card-block">
+                      <h4 class="card-title">Systemauslastung</h4>
+                      <p class="card-text">Anforderungen an das Betriebssystem</p>
+                      <button class="btn btn-xs btn-primary" data-toggle="modal" data-target="#SystemPerformance">
+                        Daten &amp; Graphen
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="SystemPerformance" tabindex="-1" role="dialog" aria-labelledby="SystemPerformance" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                      <h4 class="modal-title" id="SystemPerformance">1 Kamera eingebunden</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                      <canvas id="line_onecamera_cpu" width="600" height="400"></canvas>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Schließen</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <script src="/javascripts/chartjs/iv2test_onecamera_cpu.js"></script>
+
+                      <!-- /modal -->
+                    </div>
+                  </div>
+
+                  <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
+                    <img class="card-img-top img-fluid" src="/images/InstarVision2_NetworkTest.png" alt="InstarVision 2 Netzwerkauslastung">
+                    <div class="card-block">
+                      <h4 class="card-title">Netzwerkauslastung</h4>
+                      <p class="card-text">Testergebnisse in Bezug auf den Netzwerktraffic</p>
+                      <button class="btn btn-xs btn-primary" data-toggle="modal" data-target="#NetworkPerformance">
+                        Daten &amp; Graphen
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="NetworkPerformance" tabindex="-1" role="dialog" aria-labelledby="NetworkPerformance" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                      <h4 class="modal-title" id="NetworkPerformance">1 Kamera eingebunden</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                      <canvas id="line_onecamera_network" width="300" height="100"></canvas>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Schließen</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- /modal -->
+                    </div>
+                  </div>
+
+                </div>
+                <!-- /card-deck -->
+              </div>
+              <!-- /deck-wrapper -->
+
+
+
+            </div>
+            <!-- /offset -->
+
+         </div>
+         <!-- / row -->
+        </div>
+        <!-- / container -->
 
         <div class="clearfix mb"></div>
 
@@ -336,7 +430,9 @@
                       <div class="card-block">
                         <h4 class="card-title">Erweitert</h4>
                         <p class="card-text">Überprüfen Sie Ihr Software Log, importieren/exportieren Sie Ihre Systemeinstellungen und starten Sie den InstarVision Video Player.</p>
-                        <a href="/Products/Software/Windows/InstarVision/Advanced" class="btn btn-primary">Mehr lesen</a>
+                        <div class="card-footer">
+                            <a href="/Products/Software/Windows/InstarVision/Advanced" class="btn btn-primary">Mehr lesen</a>
+                        </div>
                       </div>
                     </div>
 
@@ -367,6 +463,7 @@
                   <!-- /card-deck -->
                 </div>
                 <!-- /deck-wrapper -->
+
 
             </div>
             <!-- /offset -->
