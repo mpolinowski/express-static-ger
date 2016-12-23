@@ -7,7 +7,7 @@ var myChart = new Chart(ctx, {
             {
                 type: 'bar',
                 label: 'Netzwerkauslastung in Kilobit pro Sekunde',
-                data: [170, 87, 630],
+                data: [170, 87, 760],
                 backgroundColor: 'rgba(2, 117, 216, 1)',
               },
         ],
@@ -19,7 +19,7 @@ var myChart = new Chart(ctx, {
 		    scales: {
 		      yAxes: [{
 		        ticks: {
-              max: 800,
+              max: 1000,
               fixedStepSize: 50,
               beginAtZero: true,
             },
