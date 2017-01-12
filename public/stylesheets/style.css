@@ -1,5 +1,49 @@
 /* FONTS */
 
+/* FONTS */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(/fonts/Hgo13k-tfSpn0qi1SFdUfaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(/fonts/zN7GBFwfMP4uA6AR0HCoLQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(/fonts/d-6IYplOFocCacKzxwXSOKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(/fonts/mnpfi9pxYH-Go5UiibESIqCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(/fonts/_aijTyevf54tkVDLy-dlnKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(/fonts/2Q-AW1e_taO6pHwMXcXW5w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(/fonts/0ihfXUL2emPh0ROJezvraKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
 
@@ -112,10 +156,9 @@ a:before, a:after {
 /* Nav Links*/
 
 .impact {
-  font-size: 17px;
-  color: white;
-  font-weight: 700;
-  padding-top: 7px;
+  color: #cecece;
+  font-weight: 500;
+  padding-top: 10px;
 }
 
 /* Search */
