@@ -313,7 +313,7 @@ a:hover {
   padding-top: 3px;
 }
 
-/* nAVBAR */
+/* NAVBAR */
 
 .nav-item h6, .nav-item h4 {
   color: #CECECE;
@@ -346,7 +346,7 @@ a:hover {
 }
 
 .ct-series-d .ct-bar, .ct-series-d .ct-line, .ct-series-d .ct-point, .ct-series-d .ct-slice-donut {
-  stroke: #d32f2f;
+    stroke: #d32f2f;
 }
 
 .ct-series-d .ct-area, .ct-series-d .ct-slice-pie {
