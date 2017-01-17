@@ -70,6 +70,11 @@ amp-img.placeholder {
 .shadow {
   box-shadow: 2px 2px 1px #888888;
 }
+.bevel {
+  border-top-style: outset;
+  border-color: #eee;
+  border-top-width: thin;
+}
 .justify {
   text-align: justify;
 }
