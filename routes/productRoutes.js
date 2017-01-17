@@ -763,6 +763,36 @@ productRouter.route('/Outdoor_Cameras/IN-9008_HD/Quick_Installation')
     });
 });
 
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi')
+.get(function(req, res) {
+  res.render('./Products/IN-9008_Quick_Installation_1hole', {
+      title: 'IN-9008 HD Schnellinstallation - PoE und WiFi',
+	  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/Quick_Installation/',
+      ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
+      headline: 'INSTAR Produkte IP Aussenkamera',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Quick_Installation/Ethernet')
+.get(function(req, res) {
+  res.render('./Products/IN-9008_Quick_Installation_2hole', {
+      title: 'IN-9008 HD Schnellinstallation - Ethernet',
+	  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/Quick_Installation/',
+      ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
+      headline: 'INSTAR Produkte IP Aussenkamera',
+    });
+});
+
+productRouter.route('/Outdoor_Cameras/IN-9008_HD/Quick_Installation/Ethernet_and_Audio-Out')
+.get(function(req, res) {
+  res.render('./Products/IN-9008_Quick_Installation_3hole', {
+      title: 'IN-9008 HD Schnellinstallation - Ethernet & Audio-Out',
+	  uplink: '/Products/Outdoor_Cameras/IN-9008_HD/Usermanual/Quick_Installation/',
+      ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
+      headline: 'INSTAR Produkte IP Aussenkamera',
+    });
+});
+
 productRouter.route('/Outdoor_Cameras/IN-9008_HD/Lense_Adjustment')
 .get(function(req, res) {
   res.render('./Products/IN-9008_Lense_Adjustment', {
