@@ -12,17 +12,17 @@
           <div class="container"
             <div class="row">
                 <% if (response.hits.total > 0) { %>
-                    <h1 class="headline hidden-xs-down">Suchergebnisse</h1>
+                    <h1 class="headline hidden-down">Suchergebnisse</h1>
                     <h3 class="headline hidden-sm-up">Ergebnisse<h3>
                     <hr>
                     <br/>
                     <h2 class="subheader">Die Suche dauerte <%= response.took %> Millisekunden</h2>
                     <h5 class="text-muted">Maximale Übereinstimmung: "<%= response.hits.max_score %>"</h5>
                     <% } else { %>
-                        <h1 class="headline hidden-xs-down">Keine Ergebnisse gefunden!</h1>
+                        <h1 class="headline hidden-down">Keine Ergebnisse gefunden!</h1>
                         <h3 class="headline hidden-sm-up">Keine Ergebnisse<h3>
                         <br/>
-                        <h2 class="subheader hidden-xs-down">¯\_(ツ)_/¯ Ihr Suchbriff brachte leider keine Treffer ¯\_(ツ)_/¯</h2>
+                        <h2 class="subheader hidden-down">¯\_(ツ)_/¯ Ihr Suchbegriff brachte leider keine Treffer ¯\_(ツ)_/¯</h2>
                         <h3 class="subheader hidden-sm-up">¯\_(ツ)_/¯</h3>
                   <% } %>
                   <h2 class="subheader"><i class="fa fa-angle-double-down" aria-hidden="true"></i></h2><br/>
