@@ -1368,6 +1368,7 @@ productRouter.route('/IN-Route')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li>',
     });
 });
 
@@ -1377,6 +1378,7 @@ productRouter.route('/IN-Route/First_Steps')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">Erste Schritte</a></li>',
     });
 });
 
@@ -1386,6 +1388,7 @@ productRouter.route('/IN-Route/First_Steps/Introduction')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">Erste Schritte</a></li><li><a href="/Products/IN-Route/First_Steps/Introduction/">Introduction</a></li>',
     });
 });
 
@@ -1395,6 +1398,7 @@ productRouter.route('/IN-Route/First_Steps/Charging')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">Erste Schritte</a></li><li><a href="/Products/IN-Route/First_Steps/Charging/">Charging</a></li>',
     });
 });
 
@@ -1404,6 +1408,7 @@ productRouter.route('/IN-Route/First_Steps/Login')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">Erste Schritte</a></li><li><a href="/Products/IN-Route/First_Steps/Login/">Login</a></li>',
     });
 });
 
@@ -1413,6 +1418,7 @@ productRouter.route('/IN-Route/First_Steps/Wizard')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">Erste Schritte</a></li><li><a href="/Products/IN-Route/First_Steps/Wizard/">Wizard</a></li>',
     });
 });
 
@@ -1422,6 +1428,7 @@ productRouter.route('/IN-Route/First_Steps/Quick_Access')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">Erste Schritte</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/">Schnellzugriff</a></li>',
     });
 });
 
@@ -1431,6 +1438,7 @@ productRouter.route('/IN-Route/First_Steps/Quick_Access/Router_Modes')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">Erste Schritte</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/">Schnellzugriff</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/Router_Modes/">Router Modes</a></li>',
     });
 });
 
@@ -1440,6 +1448,7 @@ productRouter.route('/IN-Route/First_Steps/Quick_Access/Repeater_Mode')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">Erste Schritte</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/">Schnellzugriff</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/Repeater_Mode/">Repeater Mode</a></li>',
     });
 });
 
@@ -1449,6 +1458,7 @@ productRouter.route('/IN-Route/First_Steps/Quick_Access/3G_Mode')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/First_Steps/">Erste Schritte</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/">Schnellzugriff</a></li><li><a href="/Products/IN-Route/First_Steps/Quick_Access/3G_Mode/">3G Mode</a></li>',
     });
 });
 
@@ -1458,6 +1468,7 @@ productRouter.route('/IN-Route/Overview')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Overview/">Überblick</a></li>',
     });
 });
 
@@ -1467,6 +1478,7 @@ productRouter.route('/IN-Route/Overview/Status')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Overview/">Überblick</a></li><li><a href="/Products/IN-Route/Overview/Status/">Status</a></li>',
     });
 });
 
@@ -1476,6 +1488,7 @@ productRouter.route('/IN-Route/Overview/WAN_Status')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Overview/">Überblick</a></li><li><a href="/Products/IN-Route/Overview/WAN_Status/">WAN Status</a></li>',
     });
 });
 
@@ -1485,6 +1498,7 @@ productRouter.route('/IN-Route/Overview/Mode')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Overview/">Überblick</a></li><li><a href="/Products/IN-Route/Overview/Mode/">Mode</a></li>',
     });
 });
 
@@ -1494,6 +1508,7 @@ productRouter.route('/IN-Route/Overview/File_Explorer')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Overview/">Überblick</a></li><li><a href="/Products/IN-Route/Overview/File_Explorer/">File Explorer</a></li>',
     });
 });
 
@@ -1503,6 +1518,7 @@ productRouter.route('/IN-Route/Network')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Netzwerk</a></li>',
     });
 });
 
@@ -1512,6 +1528,7 @@ productRouter.route('/IN-Route/Network/LAN')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Netzwerk</a></li><li><a href="/Products/IN-Route/Network/LAN/">LAN</a></li>',
     });
 });
 
@@ -1521,6 +1538,7 @@ productRouter.route('/IN-Route/Network/WiFi_Settings')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Netzwerk</a></li><li><a href="/Products/IN-Route/Network/WiFi_Settings/">WiFi Settings</a></li>',
     });
 });
 
@@ -1530,6 +1548,7 @@ productRouter.route('/IN-Route/Network/Repeater_Settings')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Netzwerk</a></li><li><a href="/Products/IN-Route/Network/Repeater_Settings/">Repeater Settings</a></li>',
     });
 });
 
@@ -1539,6 +1558,7 @@ productRouter.route('/IN-Route/Network/3G_Settings')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Netzwerk</a></li><li><a href="/Products/IN-Route/Network/3G_Settings/">3G Settings</a></li>',
     });
 });
 
@@ -1548,6 +1568,7 @@ productRouter.route('/IN-Route/Network/Router_Mode')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Netzwerk</a></li><li><a href="/Products/IN-Route/Network/Router_Mode/">Router Modus</a></li>',
     });
 });
 
@@ -1557,6 +1578,7 @@ productRouter.route('/IN-Route/Network/DHCP')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Netzwerk</a></li><li><a href="/Products/IN-Route/Network/DHCP/">DHCP</a></li>',
     });
 });
 
@@ -1566,6 +1588,7 @@ productRouter.route('/IN-Route/Network/DDNS')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Netzwerk</a></li><li><a href="/Products/IN-Route/Network/DDNS/">DDNS</a></li>',
     });
 });
 
@@ -1575,6 +1598,7 @@ productRouter.route('/IN-Route/Network/FTP')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Network/">Netzwerk</a></li><li><a href="/Products/IN-Route/Network/FTP/">FTP</a></li>',
     });
 });
 
@@ -1584,6 +1608,7 @@ productRouter.route('/IN-Route/Firewall')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Firewall/">Firewall</a></li>',
     });
 });
 
@@ -1593,6 +1618,7 @@ productRouter.route('/IN-Route/Firewall/Port_Forwarding')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Firewall/">Firewall</a></li><li><a href="/Products/IN-Route/Firewall/Port_Forwarding/">Portweiterleitung</a></li>',
     });
 });
 
@@ -1602,6 +1628,7 @@ productRouter.route('/IN-Route/Firewall/Device_Filter')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Firewall/">Firewall</a></li><li><a href="/Products/IN-Route/Firewall/Device_Filter/">Gerätefilter</a></li>',
     });
 });
 
@@ -1611,6 +1638,7 @@ productRouter.route('/IN-Route/Firewall/DMZ_Host')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Firewall/">Firewall</a></li><li><a href="/Products/IN-Route/Firewall/DMZ_Host/">DMZ Host</a></li>',
     });
 });
 
@@ -1620,6 +1648,7 @@ productRouter.route('/IN-Route/Firewall/Webfilter')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Firewall/">Firewall</a></li><li><a href="/Products/IN-Route/Firewall/Webfilter/">Webfilter</a></li>',
     });
 });
 
@@ -1629,6 +1658,7 @@ productRouter.route('/IN-Route/System')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li>',
     });
 });
 
@@ -1638,6 +1668,7 @@ productRouter.route('/IN-Route/System/Log')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/Log/">Log</a></li>',
     });
 });
 
@@ -1647,6 +1678,7 @@ productRouter.route('/IN-Route/System/Login')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/Login/">Login</a></li>',
     });
 });
 
@@ -1656,6 +1688,7 @@ productRouter.route('/IN-Route/System/NTP_Setup')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/NTP_Setup/">NTP Setup</a></li>',
     });
 });
 
@@ -1665,6 +1698,7 @@ productRouter.route('/IN-Route/System/Statistics')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/Statistics/">Statistik</a></li>',
     });
 });
 
@@ -1674,6 +1708,7 @@ productRouter.route('/IN-Route/System/Import')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/Import/">Import</a></li>',
     });
 });
 
@@ -1683,6 +1718,7 @@ productRouter.route('/IN-Route/System/Reboot')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/Reboot/">Neustart</a></li>',
     });
 });
 
@@ -1692,6 +1728,7 @@ productRouter.route('/IN-Route/System/Upgrade')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/System/">System</a></li><li><a href="/Products/IN-Route/System/Upgrade/">Upgrade</a></li>',
     });
 });
 
@@ -1701,6 +1738,7 @@ productRouter.route('/IN-Route/Help')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Help/">Hilfe</a></li>',
     });
 });
 
@@ -1710,6 +1748,7 @@ productRouter.route('/IN-Route/Help/Features')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Help/">Hilfe</a></li>li><a href="/Products/IN-Route/Help/Features/">Features</a></li>',
     });
 });
 
@@ -1719,6 +1758,7 @@ productRouter.route('/IN-Route/Help/About_Us')
       title: 'IN-Route P52 Travel Router',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li><li><a href="/Products/IN-Route/Help/">Hilfe</a></li>li><a href="/Products/IN-Route/Help/About_Us/">Über Uns</a></li>',
     });
 });
 
@@ -1730,6 +1770,7 @@ productRouter.route('/IN-Motion')
       title: 'IN-Motion',
       uplink: '/Products',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li>',
     });
 });
 
@@ -1739,6 +1780,7 @@ productRouter.route('/IN-Motion/300')
       title: 'IN-Motion 300',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/300/">300</a></li>',
     });
 });
 
@@ -1748,15 +1790,17 @@ productRouter.route('/IN-Motion/500')
       title: 'IN-Motion 500',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li>',
     });
 });
 
 productRouter.route('/IN-Motion/500/Dual_Sensor')
 .get(function(req, res) {
   res.render('./Products/IN-Motion_500_Dual_Sensor', {
-      title: 'IN-Motion 500 - Dual Sensor',
+      title: 'IN-Motion 500 - Dualer Sensor',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li><li><a href="/Products/IN-Motion/500/Dual_Sensor/">Dualer Sensor</a></li>',
     });
 });
 
@@ -1766,15 +1810,17 @@ productRouter.route('/IN-Motion/500/Setup')
       title: 'IN-Motion 500 - Setup',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li><li><a href="/Products/IN-Motion/500/Setup/">Setup</a></li>',
     });
 });
 
 productRouter.route('/IN-Motion/500/Wiring')
 .get(function(req, res) {
   res.render('./Products/IN-Motion_500_Wiring', {
-      title: 'IN-Motion 500 - Wiring',
+      title: 'IN-Motion 500 - Verkabelung',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li><li><a href="/Products/IN-Motion/500/Wiring/">Verkabelung</a></li>',
     });
 });
 
@@ -1784,6 +1830,7 @@ productRouter.route('/IN-Motion/500/User_Interface')
       title: 'IN-Motion 500 - Benutzeroberfläche',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li><li><a href="/Products/IN-Motion/500/User_Interface/">Benutzeroberfläche</a></li>',
     });
 });
 
@@ -1793,6 +1840,7 @@ productRouter.route('/IN-Motion/500/Considerations')
       title: 'IN-Motion 500 - Berücksichtigungen',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li><li><a href="/Products/IN-Motion/500/Considerations/">Berücksichtigungen</a></li>',
     });
 });
 
@@ -1802,6 +1850,7 @@ productRouter.route('/IN-Motion/500/Recorder')
       title: 'IN-Motion 500 - Recorder',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Motion/">IN-Motion</a></li><li><a href="/Products/IN-Motion/500/">500</a></li><li><a href="/Products/IN-Motion/500/Recorder/">Recorder</a></li>',
     });
 });
 
@@ -2116,6 +2165,7 @@ productRouter.route('/Software/Windows/iSpy')
       title: 'iSpy Connect',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/iSpy/">iSpy</a></li>',
     });
 });
 
@@ -2125,6 +2175,7 @@ productRouter.route('/Software/Windows/Sighthound')
       title: 'Sighthound',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Sighthound/">Sighthound</a></li>',
     });
 });
 
@@ -2134,6 +2185,7 @@ productRouter.route('/Software/Windows/P2P_Client')
       title: 'P2P Client',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/P2P_Client/">P2P Client</a></li>',
     });
 });
 
@@ -2143,6 +2195,7 @@ productRouter.route('/Software/Windows/go1984')
       title: 'Logiware go1984',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/go1984/">go1984</a></li>',
     });
 });
 
@@ -2152,6 +2205,7 @@ productRouter.route('/Software/Windows/VLC_Player')
       title: 'VLC Player',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/VLC_Player/">VLC Player</a></li>',
     });
 });
 
@@ -2161,6 +2215,7 @@ productRouter.route('/Software/Windows/CCTV_Chrome_Plugin')
       title: 'CCTV Plugin',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/CCTV_Chrome_Plugin/">CCTV Plugin</a></li>',
     });
 });
 
@@ -2170,6 +2225,7 @@ productRouter.route('/Software/Windows/Blue_Iris')
       title: 'Blue Iris',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Blue_Iris/">Blue Iris</a></li>',
     });
 });
 
@@ -2179,6 +2235,7 @@ productRouter.route('/Software/Windows/YAW_Cam')
       title: 'YAW Cam',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/YAW_Cam/">YAW Cam</a></li>',
     });
 });
 
@@ -2188,6 +2245,7 @@ productRouter.route('/Software/Windows/Zone_Trigger')
       title: 'Zone Trigger',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Zone_Trigger/">Zone Trigger</a></li>',
     });
 });
 
@@ -2197,6 +2255,7 @@ productRouter.route('/Software/Windows/Webcam_XP')
       title: 'WebcamXP',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Webcam_XP/">Webcam XP</a></li>',
     });
 });
 
@@ -2206,6 +2265,7 @@ productRouter.route('/Software/Windows/Webcam_Motion_Detector')
       title: 'Webcam Motion Detector',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Webcam_Motion_Detector/">Webcam Motion Detector</a></li>',
     });
 });
 
@@ -2215,6 +2275,7 @@ productRouter.route('/Software/Windows/Zebra_Surveillance')
       title: 'Zebra Surveillance',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Zebra_Surveillance/">Zebra Surveillance</a></li>',
     });
 });
 
@@ -2233,6 +2294,7 @@ productRouter.route('/Software/macOS/Sighthound')
       title: 'Sighthound',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/macOS/">macOS</a></li><li><a href="/Software/macOS/Sighthound/">Sighthound</a></li>',
     });
 });
 
@@ -2242,6 +2304,7 @@ productRouter.route('/Software/macOS/EvoCam')
       title: 'EvoCam',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/macOS/">macOS</a></li><li><a href="/Software/macOS/EvoCam/">EvoCam</a></li>',
     });
 });
 
@@ -2251,6 +2314,7 @@ productRouter.route('/Software/macOS/VLC_Player')
       title: 'VLC Player',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/macOS/">macOS</a></li><li><a href="/Software/macOS/VLC_Player/">VLC Player</a></li>',
     });
 });
 
@@ -2260,6 +2324,7 @@ productRouter.route('/Software/macOS/SecuritySpy')
       title: 'SecuritySpy',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/macOS/">macOS</a></li><li><a href="/Software/macOS/SecuritySpy/">SecuritySpy</a></li>',
     });
 });
 
@@ -2326,6 +2391,7 @@ productRouter.route('/Software/Android/TinyCam_Monitor')
       title: 'TinyCam Monitor',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Android/">Android</a></li><li><a href="/Software/Android/TinyCam_Monitor/">TinyCam Monitor</a></li>',
     });
 });
 
@@ -2335,6 +2401,7 @@ productRouter.route('/Software/Android/IP_Cam_Viewer')
       title: 'IP Cam Viewer',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Android/">Android</a></li><li><a href="/Software/Android/IP_Cam_Viewer/">IP Cam Viewer</a></li>',
     });
 });
 
@@ -2457,6 +2524,7 @@ productRouter.route('/Software/iOS/LiveCams')
       title: 'LiveCams',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/iOS/">iOS</a></li><li><a href="/Software/iOS/LiveCams/">LiveCams</a></li>',
     });
 });
 
@@ -2466,6 +2534,7 @@ productRouter.route('/Software/iOS/IP_Vision_Pro')
       title: 'IP Vision Pro',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/iOS/">iOS</a></li><li><a href="/Software/iOS/IP_Vision_Pro/">IP Vision Pro</a></li>',
     });
 });
 
@@ -2475,6 +2544,7 @@ productRouter.route('/Software/iOS/ICCAM')
       title: 'ICCAM',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/iOS/">iOS</a></li><li><a href="/Software/iOS/ICCAM/">ICCAM</a></li>',
     });
 });
 
@@ -2484,6 +2554,7 @@ productRouter.route('/Software/iOS/IP_Cam_Viewer')
       title: 'IP Cam Viewer',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/iOS/">iOS</a></li><li><a href="/Software/iOS/IP_Cam_Viewer/">IP Cam Viewer</a></li>',
     });
 });
 
@@ -2493,6 +2564,7 @@ productRouter.route('/Software/iOS/P2P_Cam_Live')
       title: 'P2P Cam Live',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/iOS/">iOS</a></li><li><a href="/Software/iOS/P2P_Cam_Live/">P2P Cam Live</a></li>',
     });
 });
 
@@ -2511,6 +2583,7 @@ productRouter.route('/Software/Other_Platforms/InstarVision_Blackberry')
       title: 'InstarVision Blackberry',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Other_Platforms/">Other</a></li><li><a href="/Software/Other_Platforms/InstarVision_Blackberry/">InstarVisione</a></li>',
     });
 });
 
@@ -2520,6 +2593,7 @@ productRouter.route('/Software/Other_Platforms/QNAP')
       title: 'QNAP',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Other_Platforms/">Other</a></li><li><a href="/Software/Other_Platforms/QNAP/">QNAP</a></li>',
     });
 });
 
@@ -2529,6 +2603,7 @@ productRouter.route('/Software/Other_Platforms/Synology')
       title: 'Synology',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Other_Platforms/">Other</a></li><li><a href="/Software/Other_Platforms/Synology/">Synology</a></li>',
     });
 });
 
@@ -2538,6 +2613,7 @@ productRouter.route('/Software/Other_Platforms/AVM_Fritzphone')
       title: 'AVM Fritzphone',
       uplink: '/Products/Usermanuals',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Other_Platforms/">Other</a></li><li><a href="/Software/Other_Platforms/AVM_Fritzphone/">AVM Fritzphone</a></li>',
     });
 });
 
