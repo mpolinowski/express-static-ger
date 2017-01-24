@@ -213,7 +213,7 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Safety_Warnings')
       res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-8015 HD Safety Warnings',
           model: 'IN-8015_HD',
-		  type: 'Indoor‘,
+		  type: 'Indoor',
           ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
           breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Usermanual/">Handbuch</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Safety_Warnings/">Sicherheitswarnungen</a></li>',
         });
@@ -224,7 +224,7 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Warranty')
       res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-8015 HD Warranty & Disposal',
           model: 'IN-8015_HD',
-		  type: 'Indoor‘,
+		  type: 'Indoor',
           ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
           breadcrumbs: '<li><a href="/Products/Indoor_Cameras">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Usermanual/">Handbuch</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Warranty/">Garantie</a></li>',
         });
@@ -424,7 +424,7 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD')
 .get(function(req, res) {
   res.render('./Products/IN-8015_Overview', {
       title: 'IN-8015 HD Overview',
-	  uplink: '/Products/Indoor_Cameras/‚
+	  uplink: '/Products/Indoor_Cameras/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li>',
     });
@@ -434,7 +434,7 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Usermanual')
 .get(function(req, res) {
   res.render('./Products/IN-8015_Usermanual', {
       title: 'IN-8015 HD Usermanual',
-	  uplink: '/Products/Indoor_Cameras/IN-8015_HD/‚,
+	  uplink: '/Products/Indoor_Cameras/IN-8015_HD/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Usermanual/">Handbuch</a></li>',
     });
@@ -483,7 +483,7 @@ productRouter.route('/Indoor_Cameras/IN-8015_HD/Lense_Adjustment')
 productRouter.route('/Indoor_Cameras/IN-8015_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Products/IN-8015_Tech_Specs', {
-      title: 'IN-8015 HD Technical Specifications‘,
+      title: 'IN-8015 HD Technical Specifications',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Products/Indoor_Cameras/">Indoor Cams</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Products/Indoor_Cameras/IN-8015_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
