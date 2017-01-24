@@ -10,58 +10,95 @@
 
         <!-- ################################# Landing ################################# -->
 
-        <section class="landing">
+        <section>
+          <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-8 offset-sm-2 text-center">
-                        <h1 class="headline hidden-sm-down">Downloadbereich</h1>
-                        <h1 class="mobile-headline hidden-md-up">Downloadbereich</h1>
-                        <hr>
-                        <h2 class="subheader hidden-sm-down">INSTAR Wiki - Downloads</h2>
-                        <h3 class="subheader hidden-md-up">INSTAR Wiki - Downloads</h3>
-                    </div>
-                </div>
-                <!-- /row -->
+                <h1 class="headline hidden-md-down">Downloads</h1>
+                <h1 class="mobile-headline hidden-lg-up">Downloads</h1>
+              <p class="lead">Der INSTAR Wiki Downloadbereich für Kameras, Zubehör und Software.</p>
             </div>
-            <!-- /container -->
+          </div>
         </section>
-        <!-- /landing -->
 
         <!-- #################################  Cameras ################################# -->
 
         <section class="container mb">
             <div class="row justify-content-between mt grid">
 
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/Indoor_Cameras"><img src="/images/Wiki_Tiles_P-Indoor.jpg" alt="Indoor Cameras" class="img-fluid"></a>
+                <div class="col col-lg-3 mb">
+                  <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="/images/Wiki_Tiles_P-Indoor.jpg" alt="Innenkameras">
+                    <div class="card-block">
+                     <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><a href="#" class="card-link">3001</a></li>
+                      <li class="list-group-item"><a href="#" class="card-link">3003</a></li>
+                      <li class="list-group-item"><a href="#" class="card-link">3010</a></li>
+                      <li class="list-group-item"><a href="#" class="card-link">3011</a></li>
+                      <li class="list-group-item"><a href="#" class="card-link">6001</a></li>
+                      <li class="list-group-item"><a href="#" class="card-link">6012</a></li>
+                      <li class="list-group-item"><a href="#" class="card-link">6014</a></li>
+                     </ul>
+                    </div>
+                  </div>
+
                 </div>
 
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/Outdoor_Cameras"><img src="/images/Wiki_Tiles_P-Outdoor.jpg" alt="Outdoor Cameras" class="img-fluid"></a>
-                </div>
+                <div class="col col-lg-3 mb">
+                  <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="/images/Wiki_Tiles_P-Outdoor.jpg" alt="Außenkameras">
+                    <div class="card-block">
+                     <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><a href="#" class="card-link">3001</a></li>
+                      <li class="list-group-item"><a href="#" class="card-link">3003</a></li>
+                      <li class="list-group-item"><a href="#" class="card-link">3010</a></li>
+                      <li class="list-group-item"><a href="#" class="card-link">3011</a></li>
+                      <li class="list-group-item"><a href="#" class="card-link">6001</a></li>
+                      <li class="list-group-item"><a href="#" class="card-link">6012</a></li>
+                      <li class="list-group-item"><a href="#" class="card-link">6014</a></li>
+                     </ul>
+                    </div>
+                  </div>
 
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/Lenses"><img src="/images/Wiki_Tiles_P-Lenses.jpg" alt="Camera Lenses" class="img-fluid"></a>
-                </div>
-
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/Software"><img src="/images/Wiki_Tiles_P-Software.jpg" alt="Software" class="img-fluid"></a>
-                </div>
-
-                <div class="col-6 col-lg-4 mb">
-                    <a href="http://www.instar.de/downloads/"><img src="/images/Wiki_Tiles_P-Downloads.jpg" alt="Downloads" class="img-fluid"></a>
-                </div>
-
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/Usermanuals"><img src="/images/Wiki_Tiles_P-Usermanuals.jpg" alt="Downloads" class="img-fluid"></a>
                 </div>
 
             </div>
         </section>
         <!-- /Cameras -->
 
-        <section class="webui mb"><% include ../_partials/content/_webui.ejs %></section>
+        <section class="instarvision"><% include ../_partials/content/_downloads-software.ejs %></section>
         <!-- /webui -->
+
+        <section class="container mb">
+
+          <div class="row justify-content-center mt">
+            <div class="col-12 centered mb">
+                  <hr>
+                  <h4>
+                      <span class="text-muted">Allgemeines Zubehör</span>
+                  </h4>
+              </div>
+          </div>
+
+            <div class="row centered mt grid">
+
+                <div class="col-6 col-lg-4 mb">
+                    <a href="/Products/IN-Motion"><img src="/images/Wiki_Tiles_P-IN-Motion.jpg" alt="IN-Motion Products" class="img-fluid"></a>
+                </div>
+
+                <div class="col-6 col-lg-4 mb">
+                    <a href="/Products/IR_Lighting"><img src="/images/Wiki_Tiles_P-IN-Frared.jpg" alt="IR Lighting Products" class="img-fluid"></a>
+                </div>
+
+                <div class="col-6 col-lg-4 mb">
+                    <a href="/Products/IN-Mikro"><img src="/images/Wiki_Tiles_P-IN-Mikro.jpg" alt="IN-Mikro Products" class="img-fluid"></a>
+                </div>
+
+            </div>
+
+
+
+        </section>
+        <!-- /Cameras -->
 
         <!-- ##########################  Networking Accessories ########################## -->
 
@@ -98,41 +135,6 @@
         <!-- /Cameras -->
 
         <!-- #################################  Accessories ################################# -->
-
-        <section class="container mb">
-
-          <div class="row justify-content-center mt">
-            <div class="col-12 centered mb">
-                  <hr>
-                  <h4>
-                      <span class="text-muted">Zubehör</span>
-                  </h4>
-              </div>
-          </div>
-
-            <div class="row centered mt grid">
-
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/IN-Motion"><img src="/images/Wiki_Tiles_P-IN-Motion.jpg" alt="IN-Motion Products" class="img-fluid"></a>
-                </div>
-
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/IR_Lighting"><img src="/images/Wiki_Tiles_P-IN-Frared.jpg" alt="IR Lighting Products" class="img-fluid"></a>
-                </div>
-
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/IN-Mikro"><img src="/images/Wiki_Tiles_P-IN-Mikro.jpg" alt="IN-Mikro Products" class="img-fluid"></a>
-                </div>
-
-            </div>
-
-
-
-        </section>
-        <!-- /Cameras -->
-
-        <section class="instarvision"><% include ../_partials/content/_instarvision.ejs %></section>
-        <!-- /webui -->
 
         <section class="social"><% include ../_partials/template/_social.ejs %></section>
         <!-- /social -->
