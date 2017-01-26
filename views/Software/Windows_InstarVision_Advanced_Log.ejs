@@ -1,0 +1,90 @@
+<% include ../_partials/template/_head.ejs %>
+
+    <body>
+      <% include ../_partials/template/_outdated.ejs %>
+
+      <div id="wrapper">
+
+        <header><% include ../_partials/template/_header.ejs %></header>
+        <!-- Navbar-->
+        <div class="clearfix mb"></div>
+        <!-- #############################################  Content ############################################# -->
+
+        <div class="container mb">
+          <div class="row">
+            <div class="col-xs-12">
+              <nav class="breadcrumb" style="padding: 5px; margin: 0 0 10px 0;">
+                <a class="breadcrumb-item" href="/Software/Windows/InstarVision">Software Überblick</a>
+                  <a class="breadcrumb-item" href="/Software/Windows/InstarVision/Advanced">Erweitertes Menü</a>
+                <span class="breadcrumb-item active">Log</span>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <!--############################################Banner#################################################-->
+
+        <section class="container mb">
+          <div class="row">
+
+            <div class="hidden-sm-down col-md-12 text-xs-center">
+                <img src="/images/Banner_en-InstarVision2-0_Advanced.png" class="shadow img-fluid" alt="InstarVision 2 Advanced"/>
+            </div>
+
+            <div class="hidden-md-up col-xs-12 text-xs-center">
+                <img src="/images/Banner_en-InstarVision2-0_small_Advanced.png" class="shadow img-fluid" alt="InstarVision 2.0 Advanced"/>
+            </div>
+
+          </div>
+          <!-- /row -->
+        </section>
+        <!-- /container -->
+
+        <!--###################################### Camera List ###########################################-->
+
+        <section class="container">
+          <div class="row">
+
+              <div class="col-xs-12 mt mb">
+                <h1><i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp; Seitennavigation - System Log</h1>
+              </div>
+
+              <div class="col-md-12 col-lg-4 mt mb" style="padding-top: 5px;">
+                  <img src="/images/Image050-Log.png" alt="InstarVision 2.0 Surveillance Center User Interface - Record Menu" class="shadow img-fluid"/>
+              </div>
+
+              <div class="col-md-12 col-lg-8 mt">
+                <p class="lead">Überprüfen Sie das Logbuch um potentielle Probleme zu sichten</p>
+                <p class="text-justify">Das Log Fenster gibt Ihnen eine Übersicht über die laufenden Operationen der Software - und Fehler, die dabei auftreten. Wann haben Sie den Kontakt zu Ihrer Kamera verloren? Vermissen Sie eine Videoaufnahme, obwohl die InstarVision eine Alarm-Aufnahme registriert hat? Wählen Sie welche Informationen Sie sichten möchten - Systemereignisse, Aufnahmen, Netzwerkfunktionen, Setup oder Bewegungsalarme. Wählen Sie noch das Zeitfenster, dass Sie interessiert, und klicken Sie den Suche Button. Für erfahrene User: Die Log Datei wird im Installationsverzeichnis der Software gespeichert und kann für manuelle - oder gescriptete - Backups genutzt werden.</p>
+              </div>
+
+            </div>
+            <!-- /row -->
+          </section>
+          <!-- /container -->
+
+
+      <div class="clearfix mt"></div>
+
+        <!-- #############################################  Gallery ############################################# -->
+
+        <section class="instarvision mb"><% include ../_partials/content/_instarvision.ejs %></section>
+        <!-- /webui -->
+
+        <section class="social"><% include ../_partials/template/_social.ejs %></section>
+        <!-- /social -->
+
+        <!-- ############################################# Footer ############################################# -->
+
+        <footer><% include ../_partials/template/_footer.ejs %></footer>
+
+        <% include ../_partials/template/_jsdefaults.ejs %>
+
+        </div>
+        <!-- /Wrapper -->
+
+    </body>
+
+</html>
