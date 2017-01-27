@@ -352,3 +352,8 @@ a:hover {
 .ct-series-d .ct-area, .ct-series-d .ct-slice-pie {
     fill: #FFF;
 }
+
+.soft-icons {
+    color: white;
+    padding-top: 5px;
+}
