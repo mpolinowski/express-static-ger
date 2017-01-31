@@ -24,6 +24,7 @@ indoorCamsRouter.get('/', function(req, res) {
         indoorPic: indoorPicture,
         indoorPicAlt: indoorPictureAlt,
         indoorUrl: indoorHref,
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li class="breadcrumb-item active"><a href="/Outdoor_Cameras/IN-5905_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
       });
   });
 

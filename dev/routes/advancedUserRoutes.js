@@ -19,15 +19,16 @@ advancedUserRouter.get('/', function(req, res) {
         mdPic: mdPicture,
         mdPicAlt: mdPictureAlt,
         mdUrl: mdHref,
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Advanced_User/">Für Entwickler</a></li>',
       });
   });
 
 advancedUserRouter.get('/Website_Integration/', function(req, res) {
     res.render('./Advanced_User/Website_Integration', {
-        title: 'Website Integration',
+        title: 'Webseiten Integration',
         uplink: '/Advanced_User',
         ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/Website_Integration/">Website Integration</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Für Entwickler</a></li><li><a href="/Advanced_User/Website_Integration/">Webseiten Integration</a></li>',
       });
   });
 
@@ -36,7 +37,7 @@ advancedUserRouter.get('/Website_Integration/Cambozola', function(req, res) {
         title: 'Cambozola (JAVA Plugin)',
         uplink: '/Advanced_User/Website_Integration',
         ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/Website_Integration/">Website Integration</a></li><li><a href="/Advanced_User/Website_Integration/Cambozola/">Cambozola</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Für Entwickler</a></li><li><a href="/Advanced_User/Website_Integration/">Webseiten Integration</a></li><li><a href="/Advanced_User/Website_Integration/Cambozola/">Cambozola</a></li>',
       });
   });
 
@@ -45,16 +46,16 @@ advancedUserRouter.get('/Website_Integration/Open_IP_Camera_Manager', function(r
         title: 'Open IP Camera Manager (PHP)',
         uplink: '/Advanced_User/Website_Integration',
         ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/Website_Integration/">Website Integration</a></li><li><a href="/Advanced_User/Website_Integration/Open_IP_Camera_Manager/">OIPCM</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Für Entwickler</a></li><li><a href="/Advanced_User/Website_Integration/">Webseiten Integration</a></li><li><a href="/Advanced_User/Website_Integration/Open_IP_Camera_Manager/">OIPCM</a></li>',
       });
   });
 
 advancedUserRouter.get('/Website_Integration/HD_Camera_Integration', function(req, res) {
     res.render('./Advanced_User/HD_Camera_Integration', {
-        title: 'HD Camera Website Integration',
+        title: 'HD Camera Webseiten Integration',
         uplink: '/Advanced_User/Website_Integration',
         ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/Website_Integration/">Website Integration</a></li><li><a href="/Advanced_User/Website_Integration/HD_Camera_Integration/">HD Kameras</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Für Entwickler</a></li><li><a href="/Advanced_User/Website_Integration/">Webseiten Integration</a></li><li><a href="/Advanced_User/Website_Integration/HD_Camera_Integration/">HD Kameras</a></li>',
       });
   });
 
@@ -62,7 +63,7 @@ advancedUserRouter.get('/CGI_Commands/', function(req, res) {
     res.render('./Advanced_User/CGI_Commands', {
         title: 'CGI Commands',
         uplink: '/Advanced_User',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Advanced_User/">Für Entwickler</a></li><li class="breadcrumb-item"><a href="/Advanced_User/CGI_Commands/">CGI Befehle</a></li>',
       });
   });
 
@@ -70,7 +71,7 @@ advancedUserRouter.get('/CGI_Commands/VGA_Series_CGI_List', function(req, res) {
     res.render('./Advanced_User/VGA_Series_CGI_List', {
         title: 'VGA Series CGI List',
         uplink: '/Advanced_User/CGI_Commands',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/Advanced_User/CGI_Commands/VGA_Series_CGI_List/">VGA Serie</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Für Entwickler</a></li><li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/Advanced_User/CGI_Commands/VGA_Series_CGI_List/">VGA Serie</a></li>',
       });
   });
 
@@ -79,7 +80,7 @@ advancedUserRouter.get('/Restore_WebUI/', function(req, res) {
         title: 'Restore your Camera after a faulty WebUI Upgrade',
         uplink: '/Advanced_User',
         ampimg: '/images/Search/AU_SearchThumb_ResetAfterWebUIError.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/Restore_WebUI/">WebUI wiederherstellen</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Für Entwickler</a></li><li><a href="/Advanced_User/Restore_WebUI/">Wiederherstellen der WebUI</a></li>',
       });
   });
 
@@ -88,7 +89,7 @@ advancedUserRouter.get('/Restore_Firmware/', function(req, res) {
         title: 'Restore your Camera after a faulty Firmware Upgrade',
         uplink: '/Advanced_User',
         ampimg: '/images/Search/AU_SearchThumb_ResetAfterFirmwareError.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/Restore_Firmware/">Firmware wiederherstellen</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Für Entwickler</a></li><li><a href="/Advanced_User/Restore_Firmware/">Wiederherstellen der Firmware</a></li>',
       });
   });
 
@@ -97,7 +98,7 @@ advancedUserRouter.get('/CCTV_vs_IP/', function(req, res) {
         title: 'Difference Between Analog And IP Cameras',
         uplink: '/Advanced_User',
         ampimg: '/images/Search/AU_SearchThumb_IPvsCCTV.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/CCTV_vs_IP/">CCTV vs IP</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Für Entwickler</a></li><li><a href="/Advanced_User/CCTV_vs_IP/">CCTV vs IP</a></li>',
       });
   });
 
@@ -106,7 +107,7 @@ advancedUserRouter.get('/VPN_AVM_Fritzbox/', function(req, res) {
         title: 'VPN in AVM Fritzbox',
         uplink: '/Advanced_User',
         ampimg: '/images/Search/AU_SearchThumb_VPN.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/VPN_AVM_Fritzbox/">VPN AVM Fritzbox</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Für Entwickler</a></li><li><a href="/Advanced_User/VPN_AVM_Fritzbox/">VPN AVM Fritzbox</a></li>',
       });
   });
 
