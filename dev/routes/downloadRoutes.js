@@ -19,6 +19,7 @@ downloadsRouter.get('/', function(req, res) {
         mdPic: mdPicture,
         mdPicAlt: mdPictureAlt,
         mdUrl: mdHref,
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li>',
       });
   });
 
@@ -26,6 +27,7 @@ downloadsRouter.get('/Downloads/', function(req, res) {
     res.render('./Downloads/Downloads', {
         title: 'Downloadbereich',
         uplink: '/Downloads',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li>',
       });
   });
 

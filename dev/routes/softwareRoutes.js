@@ -8,6 +8,7 @@ softwareRouter.route('/')
 .get(function(req, res) {
   res.render('./Software/Software', {
       title: 'INSTAR Software',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li>'
     });
 });
 
@@ -17,7 +18,7 @@ softwareRouter.route('/Windows')
 .get(function(req, res) {
   res.render('./Software/Windows', {
       title: 'Software für Windows',
-      uplink: '/Software/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li>'
     });
 });
 
@@ -25,7 +26,7 @@ softwareRouter.route('/Windows/InstarVision')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision', {
       title: 'InstarVision für Windows',
-      uplink: '/Software/Windows/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li>'
     });
 });
 
@@ -33,7 +34,7 @@ softwareRouter.route('/Windows/InstarVision/Camera_List')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Camera_List', {
       title: 'InstarVision v2 Kamera Liste',
-      uplink: '/Software/Windows/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Camera_List/">Kamera Liste</a></li>'
     });
 });
 
@@ -41,7 +42,7 @@ softwareRouter.route('/Windows/InstarVision/Layout')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Layout', {
       title: 'InstarVision v2 Layout',
-      uplink: '/Software/Windows/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Layout/">Layout</a></li>'
     });
 });
 
@@ -49,7 +50,7 @@ softwareRouter.route('/Windows/InstarVision/PTZ')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_PTZ', {
       title: 'InstarVision v2 Schwenken, Neigen & Zoomen',
-      uplink: '/Software/Windows/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Camera_List/">Pan, Tilt & Zoom</a></li>'
     });
 });
 
@@ -57,7 +58,7 @@ softwareRouter.route('/Windows/InstarVision/Image_Adjust')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Image_Adjust', {
       title: 'InstarVision v2 Bildeinstellungen',
-      uplink: '/Software/Windows/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Image_Adjust/">Bildeinstellungen</a></li>'
     });
 });
 
@@ -65,7 +66,7 @@ softwareRouter.route('/Windows/InstarVision/Webserver')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Webserver', {
       title: 'InstarVision v2 Webserver',
-      uplink: '/Software/Windows/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Webserver/">Webserver</a></li>'
     });
 });
 
@@ -73,7 +74,7 @@ softwareRouter.route('/Windows/InstarVision/Record')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Record', {
       title: 'InstarVision v2 Aufnahme',
-      uplink: '/Software/Windows/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li>'
     });
 });
 
@@ -81,7 +82,7 @@ softwareRouter.route('/Windows/InstarVision/Record/General')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Record_General', {
       title: 'InstarVision v2 Allgemeine Aufnahme',
-      uplink: '/Software/Windows/InstarVision/Record/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/General/">Allgemein</a></li>'
     });
 });
 
@@ -89,7 +90,7 @@ softwareRouter.route('/Windows/InstarVision/Record/Schedule')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Record_Schedule', {
       title: 'InstarVision v2 Aufnahme Zeitplan',
-      uplink: '/Software/Windows/InstarVision/Record/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/Schedule/">Zeitplan</a></li>'
     });
 });
 
@@ -97,7 +98,7 @@ softwareRouter.route('/Windows/InstarVision/Record/Alarm')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Record_Alarm', {
       title: 'InstarVision v2 Alarmaufnahme',
-      uplink: '/Software/Windows/InstarVision/Record/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/Alarm/">Alarm</a></li>'
     });
 });
 
@@ -105,7 +106,7 @@ softwareRouter.route('/Windows/InstarVision/Record/Photoseries')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Record_Photoseries', {
       title: 'InstarVision v2 Fotoserie aufnehmen',
-      uplink: '/Software/Windows/InstarVision/Record/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/Photoseries/">Fotoserie</a></li>'
     });
 });
 
@@ -113,7 +114,7 @@ softwareRouter.route('/Windows/InstarVision/Record/Email')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Record_Email', {
       title: 'InstarVision v2 Aufnahmen per Email',
-      uplink: '/Software/Windows/InstarVision/Record/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/Email/">Email</a></li>'
     });
 });
 
@@ -121,7 +122,7 @@ softwareRouter.route('/Windows/InstarVision/Record/FTP')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Record_FTP', {
       title: 'InstarVision v2 Aufnahmen auf FTP',
-      uplink: '/Software/Windows/InstarVision/Record/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/FTP/">FTP</a></li>'
     });
 });
 
@@ -129,7 +130,7 @@ softwareRouter.route('/Windows/InstarVision/System')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_System', {
       title: 'InstarVision v2 System',
-      uplink: '/Software/Windows/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/System/">System</a></li>'
     });
 });
 
@@ -137,7 +138,7 @@ softwareRouter.route('/Windows/InstarVision/Users')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Users', {
       title: 'InstarVision v2 Benutzer',
-      uplink: '/Software/Windows/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Users/">Benutzer</a></li>'
     });
 });
 
@@ -145,7 +146,7 @@ softwareRouter.route('/Windows/InstarVision/Advanced')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Advanced', {
       title: 'InstarVision v2 Erweitert',
-      uplink: '/Software/Windows/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Erweitert</a></li>'
     });
 });
 
@@ -153,7 +154,7 @@ softwareRouter.route('/Windows/InstarVision/Advanced/License')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Advanced_License', {
       title: 'InstarVision v2 Erweitert Lizenz',
-      uplink: '/Software/Windows/InstarVision/Advanced/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Erweitert</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/License/">Lizenz</a></li>'
     });
 });
 
@@ -161,7 +162,7 @@ softwareRouter.route('/Windows/InstarVision/Advanced/Log')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Advanced_Log', {
       title: 'InstarVision v2 Erweitert Log',
-      uplink: '/Software/Windows/InstarVision/Advanced/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Erweitert</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/Log/">Logbuch</a></li>'
     });
 });
 
@@ -169,7 +170,7 @@ softwareRouter.route('/Windows/InstarVision/Advanced/Export')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Advanced_Export', {
       title: 'InstarVision v2 Erweitert Exportieren',
-      uplink: '/Software/Windows/InstarVision/Advanced/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Erweitert</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/Export/">Export</a></li>'
     });
 });
 
@@ -177,7 +178,7 @@ softwareRouter.route('/Windows/InstarVision/Advanced/Player')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Advanced_Player', {
       title: 'InstarVision v2 Erweitert Player',
-      uplink: '/Software/Windows/InstarVision/Advanced/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Erweitert</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/Player/">Player</a></li>'
     });
 });
 
@@ -185,7 +186,7 @@ softwareRouter.route('/Windows/InstarVision/Advanced/Explorer')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_Advanced_Explorer', {
       title: 'InstarVision v2 Erweitert Explorer',
-      uplink: '/Software/Windows/InstarVision/Advanced/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Erweitert</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/Explorer/">Explorer</a></li>'
     });
 });
 
@@ -193,7 +194,7 @@ softwareRouter.route('/Windows/InstarVision/About')
 .get(function(req, res) {
   res.render('./Software/Windows_InstarVision_About', {
       title: 'InstarVision v2 Über',
-      uplink: '/Software/Windows/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/About/">About</a></li>'
     });
 });
 
@@ -201,7 +202,7 @@ softwareRouter.route('/Windows/InstarVision/Windows_Phone')
 .get(function(req, res) {
   res.render('./Software/Windows_Phone_InstarVision', {
       title: 'InstarVision für WindowsPhone',
-      uplink: '/Software/Windows/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li>'
     });
 });
 
@@ -209,7 +210,7 @@ softwareRouter.route('/Windows/InstarVision/Windows_Phone/DDNS')
 .get(function(req, res) {
   res.render('./Software/Windows_Phone_InstarVision_DDNS', {
       title: 'InstarVision für Windows Phone - DDNS',
-      uplink: '/Software/Windows/InstarVision/Windows_Phone/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/DDNS/">DDNS</a></li>'
     });
 });
 
@@ -217,7 +218,7 @@ softwareRouter.route('/Windows/InstarVision/Windows_Phone/P2P')
 .get(function(req, res) {
   res.render('./Software/Windows_Phone_InstarVision_P2P', {
       title: 'InstarVision für Windows Phone - P2P',
-      uplink: '/Software/Windows/InstarVision/Windows_Phone/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/P2P/">P2P</a></li>'
     });
 });
 
@@ -225,7 +226,7 @@ softwareRouter.route('/Windows/InstarVision/Windows_Phone/Multiview')
 .get(function(req, res) {
   res.render('./Software/Windows_Phone_InstarVision_Multiview', {
       title: 'InstarVision für Windows Phone - Multiview',
-      uplink: '/Software/Windows/InstarVision/Windows_Phone/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/Multiview/">Multiview</a></li>'
     });
 });
 
@@ -233,7 +234,7 @@ softwareRouter.route('/Windows/InstarVision/Windows_Phone/Recording')
 .get(function(req, res) {
   res.render('./Software/Windows_Phone_InstarVision_Recording', {
       title: 'InstarVision für Windows Phone - Recording',
-      uplink: '/Software/Windows/InstarVision/Windows_Phone/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/Recording/">Recording</a></li>'
     });
 });
 
@@ -241,7 +242,7 @@ softwareRouter.route('/Windows/InstarVision/Windows_Phone/Settings')
 .get(function(req, res) {
   res.render('./Software/Windows_Phone_InstarVision_Settings', {
       title: 'InstarVision für Windows Phone - Settings',
-      uplink: '/Software/Windows/InstarVision/Windows_Phone/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/Settings/">Settings</a></li>'
     });
 });
 
@@ -249,7 +250,7 @@ softwareRouter.route('/Windows/InstarVision/Metro')
 .get(function(req, res) {
   res.render('./Software/Windows_Metro_InstarVision', {
       title: 'InstarVision für Windows Metro',
-      uplink: '/Software/Windows/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li>'
     });
 });
 
@@ -257,7 +258,7 @@ softwareRouter.route('/Windows/InstarVision/Metro/DDNS')
 .get(function(req, res) {
   res.render('./Software/Windows_Metro_InstarVision_DDNS', {
       title: 'InstarVision für Windows Metro - DDNS',
-      uplink: '/Software/Windows/InstarVision/Metro/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/DDNS/">DDNS</a></li>'
     });
 });
 
@@ -265,7 +266,7 @@ softwareRouter.route('/Windows/InstarVision/Metro/P2P')
 .get(function(req, res) {
   res.render('./Software/Windows_Metro_InstarVision_P2P', {
       title: 'InstarVision für Windows Metro - P2P',
-      uplink: '/Software/Windows/InstarVision/Metro/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/P2P/">P2P</a></li>'
     });
 });
 
@@ -273,7 +274,7 @@ softwareRouter.route('/Windows/InstarVision/Metro/Multiview')
 .get(function(req, res) {
   res.render('./Software/Windows_Metro_InstarVision_Multiview', {
       title: 'InstarVision für Windows Metro - Multiview',
-      uplink: '/Software/Windows/InstarVision/Metro/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/Multiview/">Multiview</a></li>'
     });
 });
 
@@ -281,7 +282,7 @@ softwareRouter.route('/Windows/InstarVision/Metro/Recording')
 .get(function(req, res) {
   res.render('./Software/Windows_Metro_InstarVision_Recording', {
       title: 'InstarVision für Windows Metro - Recording',
-      uplink: '/Software/Windows/InstarVision/Metro/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/Recording/">Recording</a></li>'
     });
 });
 
@@ -289,7 +290,7 @@ softwareRouter.route('/Windows/InstarVision/Metro/Settings')
 .get(function(req, res) {
   res.render('./Software/Windows_Metro_InstarVision_Settings', {
       title: 'InstarVision für Windows Metro - Settings',
-      uplink: '/Software/Windows/InstarVision/Metro/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/Settings/">Settings</a></li>'
     });
 });
 
@@ -299,7 +300,7 @@ softwareRouter.route('/Windows/iSpy')
       title: 'iSpy Connect',
       uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Windows/">Windows</a></li><li><a href="/Windows/iSpy/">iSpy</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/iSpy/">iSpy</a></li>',
     });
 });
 
@@ -309,7 +310,7 @@ softwareRouter.route('/Windows/Sighthound')
       title: 'Sighthound',
       uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Windows/">Windows</a></li><li><a href="/Windows/Sighthound/">Sighthound</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Sighthound/">Sighthound</a></li>',
     });
 });
 
@@ -319,7 +320,7 @@ softwareRouter.route('/Windows/P2P_Client')
       title: 'P2P Client',
       uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Windows/">Windows</a></li><li><a href="/Windows/P2P_Client/">P2P Client</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/P2P_Client/">P2P Client</a></li>',
     });
 });
 
@@ -329,7 +330,7 @@ softwareRouter.route('/Windows/go1984')
       title: 'Logiware go1984',
       uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Windows/">Windows</a></li><li><a href="/Windows/go1984/">go1984</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/go1984/">go1984</a></li>',
     });
 });
 
@@ -339,7 +340,7 @@ softwareRouter.route('/Windows/VLC_Player')
       title: 'VLC Player',
       uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Windows/">Windows</a></li><li><a href="/Windows/VLC_Player/">VLC Player</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/VLC_Player/">VLC Player</a></li>',
     });
 });
 
@@ -349,7 +350,7 @@ softwareRouter.route('/Windows/CCTV_Chrome_Plugin')
       title: 'CCTV Plugin',
       uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Windows/">Windows</a></li><li><a href="/Windows/CCTV_Chrome_Plugin/">CCTV Plugin</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/CCTV_Chrome_Plugin/">CCTV Plugin</a></li>',
     });
 });
 
@@ -359,7 +360,7 @@ softwareRouter.route('/Windows/Blue_Iris')
       title: 'Blue Iris',
       uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Windows/">Windows</a></li><li><a href="/Windows/Blue_Iris/">Blue Iris</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Blue_Iris/">Blue Iris</a></li>',
     });
 });
 
@@ -369,7 +370,7 @@ softwareRouter.route('/Windows/YAW_Cam')
       title: 'YAW Cam',
       uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Windows/">Windows</a></li><li><a href="/Windows/YAW_Cam/">YAW Cam</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/YAW_Cam/">YAW Cam</a></li>',
     });
 });
 
@@ -379,7 +380,7 @@ softwareRouter.route('/Windows/Zone_Trigger')
       title: 'Zone Trigger',
       uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Windows/">Windows</a></li><li><a href="/Windows/Zone_Trigger/">Zone Trigger</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Zone_Trigger/">Zone Trigger</a></li>',
     });
 });
 
@@ -389,7 +390,7 @@ softwareRouter.route('/Windows/Webcam_XP')
       title: 'WebcamXP',
       uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Windows/">Windows</a></li><li><a href="/Windows/Webcam_XP/">Webcam XP</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Webcam_XP/">Webcam XP</a></li>',
     });
 });
 
@@ -399,7 +400,7 @@ softwareRouter.route('/Windows/Webcam_Motion_Detector')
       title: 'Webcam Motion Detector',
       uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Windows/">Windows</a></li><li><a href="/Windows/Webcam_Motion_Detector/">Webcam Motion Detector</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Webcam_Motion_Detector/">Webcam Motion Detector</a></li>',
     });
 });
 
@@ -409,16 +410,17 @@ softwareRouter.route('/Windows/Zebra_Surveillance')
       title: 'Zebra Surveillance',
       uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Windows/">Windows</a></li><li><a href="/Windows/Zebra_Surveillance/">Zebra Surveillance</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Zebra_Surveillance/">Zebra Surveillance</a></li>',
     });
 });
 
-/* *************************  GET InstarVision für    macOS /macOS *********************************** */
+/* *************************  GET InstarVision für macOS /macOS *********************************** */
 softwareRouter.route('/macOS')
 .get(function(req, res) {
   res.render('./Software/MacOS', {
       title: 'Software für macOS',
       uplink: '/Software/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/macOS/">macOS</a></li>'
     });
 });
 
@@ -428,7 +430,7 @@ softwareRouter.route('/macOS/Sighthound')
       title: 'Sighthound',
       uplink: 'Software/macOS/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/macOS/">macOS</a></li><li><a href="/macOS/Sighthound/">Sighthound</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/macOS/">macOS</a></li><li><a href="/Software/macOS/Sighthound/">Sighthound</a></li>',
     });
 });
 
@@ -438,7 +440,7 @@ softwareRouter.route('/macOS/EvoCam')
       title: 'EvoCam',
       uplink: 'Software/macOS/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/macOS/">macOS</a></li><li><a href="/macOS/EvoCam/">EvoCam</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/macOS/">macOS</a></li><li><a href="/Software/macOS/EvoCam/">EvoCam</a></li>',
     });
 });
 
@@ -448,7 +450,7 @@ softwareRouter.route('/macOS/VLC_Player')
       title: 'VLC Player',
       uplink: 'Software/macOS/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/macOS/">macOS</a></li><li><a href="/macOS/VLC_Player/">VLC Player</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/macOS/">macOS</a></li><li><a href="/Software/macOS/VLC_Player/">VLC Player</a></li>',
     });
 });
 
@@ -458,7 +460,7 @@ softwareRouter.route('/macOS/SecuritySpy')
       title: 'SecuritySpy',
       uplink: 'Software/macOS/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/macOS/">macOS</a></li><li><a href="/macOS/SecuritySpy/">SecuritySpy</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/macOS/">macOS</a></li><li><a href="/Software/macOS/SecuritySpy/">SecuritySpy</a></li>',
     });
 });
 
@@ -467,7 +469,7 @@ softwareRouter.route('/Android')
 .get(function(req, res) {
   res.render('./Software/Android', {
       title: 'Software für Android',
-      uplink: '/Software/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li>'
     });
 });
 
@@ -475,7 +477,7 @@ softwareRouter.route('/Android/InstarVision')
 .get(function(req, res) {
   res.render('./Software/Android_InstarVision', {
       title: 'InstarVision für Android',
-      uplink: '/Software/Android/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li>'
     });
 });
 
@@ -483,7 +485,7 @@ softwareRouter.route('/Android/InstarVision/DDNS')
 .get(function(req, res) {
   res.render('./Software/Android_InstarVision_DDNS', {
       title: 'InstarVision für Android - DDNS',
-      uplink: '/Software/Android/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li>'
     });
 });
 
@@ -491,7 +493,7 @@ softwareRouter.route('/Android/InstarVision/P2P')
 .get(function(req, res) {
   res.render('./Software/Android_InstarVision_P2P', {
       title: 'InstarVision für Android - P2P',
-      uplink: '/Software/Android/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/P2P/">P2P</a></li>'
     });
 });
 
@@ -499,7 +501,7 @@ softwareRouter.route('/Android/InstarVision/Multiview')
 .get(function(req, res) {
   res.render('./Software/Android_InstarVision_Multiview', {
       title: 'InstarVision für Android - Multiview',
-      uplink: '/Software/Android/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/Multiview/">Multiview</a></li>'
     });
 });
 
@@ -507,7 +509,7 @@ softwareRouter.route('/Android/InstarVision/Recording')
 .get(function(req, res) {
   res.render('./Software/Android_InstarVision_Recording', {
       title: 'InstarVision für Android - Recording',
-      uplink: '/Software/Android/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/Recording/">Recording</a></li>'
     });
 });
 
@@ -515,7 +517,7 @@ softwareRouter.route('/Android/InstarVision/Settings')
 .get(function(req, res) {
   res.render('./Software/Android_InstarVision_Settings', {
       title: 'InstarVision für Android - Settings',
-      uplink: '/Software/Android/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/Settings/">Settings</a></li>'
     });
 });
 
@@ -525,7 +527,7 @@ softwareRouter.route('/Android/TinyCam_Monitor')
       title: 'TinyCam Monitor',
       uplink: '/Software/Android/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Android/">Android</a></li><li><a href="/Android/TinyCam_Monitor/">TinyCam Monitor</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Android/">Android</a></li><li><a href="/Software/Android/TinyCam_Monitor/">TinyCam Monitor</a></li>',
     });
 });
 
@@ -535,7 +537,7 @@ softwareRouter.route('/Android/IP_Cam_Viewer')
       title: 'IP Cam Viewer',
       uplink: '/Software/Android/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Android/">Android</a></li><li><a href="/Android/IP_Cam_Viewer/">IP Cam Viewer</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Android/">Android</a></li><li><a href="/Software/Android/IP_Cam_Viewer/">IP Cam Viewer</a></li>',
     });
 });
 
@@ -544,7 +546,7 @@ softwareRouter.route('/iOS')
 .get(function(req, res) {
   res.render('./Software/iOS', {
       title: 'Software für iOS',
-      uplink: '/Software/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li>'
     });
 });
 
@@ -552,7 +554,7 @@ softwareRouter.route('/iOS/InstarVision/iPhone')
 .get(function(req, res) {
   res.render('./Software/iOS_InstarVision_iPhone', {
       title: 'InstarVision für iPhone',
-      uplink: '/Software/iOS/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li>'
     });
 });
 
@@ -560,7 +562,7 @@ softwareRouter.route('/iOS/InstarVision/iPhone/DDNS')
 .get(function(req, res) {
   res.render('./Software/iOS_InstarVision_iPhone_DDNS', {
       title: 'InstarVision für iOS - DDNS',
-      uplink: '/Software/iOS/InstarVision/iPhone/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/DDNS/">DDNS</a></li>'
     });
 });
 
@@ -568,7 +570,7 @@ softwareRouter.route('/iOS/InstarVision/iPhone/P2P')
 .get(function(req, res) {
   res.render('./Software/iOS_InstarVision_iPhone_P2P', {
       title: 'InstarVision für iOS - P2P',
-      uplink: '/Software/iOS/InstarVision/iPhone/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/P2P/">P2P</a></li>'
     });
 });
 
@@ -576,7 +578,7 @@ softwareRouter.route('/iOS/InstarVision/iPhone/Multiview')
 .get(function(req, res) {
   res.render('./Software/iOS_InstarVision_iPhone_Multiview', {
       title: 'InstarVision für iOS - Multiview',
-      uplink: '/Software/iOS/InstarVision/iPhone/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/Multimedia/">Multimedia</a></li>'
     });
 });
 
@@ -584,15 +586,15 @@ softwareRouter.route('/iOS/InstarVision/iPhone/Recording')
 .get(function(req, res) {
   res.render('./Software/iOS_InstarVision_iPhone_Recording', {
       title: 'InstarVision für iOS - Recording',
-      uplink: '/Software/iOS/InstarVision/iPhone/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/Recording/">Recording</a></li>'
     });
 });
 
 softwareRouter.route('/iOS/InstarVision/iPhone/Settings')
 .get(function(req, res) {
   res.render('./Software/iOS_InstarVision_iPhone_Settings', {
-      title: 'InstarVision füriOS - Settings',
-      uplink: '/Software/iOS/InstarVision/iPhone/',
+      title: 'InstarVision für iOS - Settings',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/Settings/">Settings</a></li>'
     });
 });
 
@@ -600,7 +602,7 @@ softwareRouter.route('/iOS/InstarVision/iPad')
 .get(function(req, res) {
   res.render('./Software/iOS_InstarVision_iPad', {
       title: 'InstarVision für iPad',
-      uplink: '/Software/iOS/InstarVision/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li>'
     });
 });
 
@@ -608,7 +610,7 @@ softwareRouter.route('/iOS/InstarVision/iPad/DDNS')
 .get(function(req, res) {
   res.render('./Software/iOS_InstarVision_iPad_DDNS', {
       title: 'InstarVision für iOS - DDNS',
-      uplink: '/Software/iOS/InstarVision/iPad/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/DDNS/">DDNS</a></li>'
     });
 });
 
@@ -616,7 +618,7 @@ softwareRouter.route('/iOS/InstarVision/iPad/P2P')
 .get(function(req, res) {
   res.render('./Software/iOS_InstarVision_iPad_P2P', {
       title: 'InstarVision für iOS - P2P',
-      uplink: '/Software/iOS/InstarVision/iPad/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/P2P/">P2P</a></li>'
     });
 });
 
@@ -624,7 +626,7 @@ softwareRouter.route('/iOS/InstarVision/iPad/Multiview')
 .get(function(req, res) {
   res.render('./Software/iOS_InstarVision_iPad_Multiview', {
       title: 'InstarVision für iOS - Multiview',
-      uplink: '/Software/iOS/InstarVision/iPad/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/Multiview/">Multiview</a></li>'
     });
 });
 
@@ -632,7 +634,7 @@ softwareRouter.route('/iOS/InstarVision/iPad/Recording')
 .get(function(req, res) {
   res.render('./Software/iOS_InstarVision_iPad_Recording', {
       title: 'InstarVision für iOS - Recording',
-      uplink: '/Software/iOS/InstarVision/iPad/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/Recording/">Recording</a></li>'
     });
 });
 
@@ -640,7 +642,7 @@ softwareRouter.route('/iOS/InstarVision/iPad/Settings')
 .get(function(req, res) {
   res.render('./Software/iOS_InstarVision_iPad_Settings', {
       title: 'InstarVision für iOS - Settings',
-      uplink: '/Software/iOS/InstarVision/iPad/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/Settings/">Settings</a></li>'
     });
 });
 
@@ -649,6 +651,7 @@ softwareRouter.route('/iOS/InstarVision')
   res.render('./Software/iOS_InstarVision', {
       title: 'InstarVision für iOS',
       uplink: '/Software/iOS/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li>'
     });
 });
 
@@ -658,7 +661,7 @@ softwareRouter.route('/iOS/LiveCams')
       title: 'LiveCams',
       uplink: '/Software/iOS/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/iOS/">iOS</a></li><li><a href="/iOS/LiveCams/">LiveCams</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/iOS/">iOS</a></li><li><a href="/iOS/LiveCams/">LiveCams</a></li>',
     });
 });
 
@@ -668,7 +671,7 @@ softwareRouter.route('/iOS/IP_Vision_Pro')
       title: 'IP Vision Pro',
       uplink: '/Software/iOS/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/iOS/">iOS</a></li><li><a href="/iOS/IP_Vision_Pro/">IP Vision Pro</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/iOS/">iOS</a></li><li><a href="/iOS/IP_Vision_Pro/">IP Vision Pro</a></li>',
     });
 });
 
@@ -678,7 +681,7 @@ softwareRouter.route('/iOS/ICCAM')
       title: 'ICCAM',
       uplink: '/Software/iOS/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/iOS/">iOS</a></li><li><a href="/iOS/ICCAM/">ICCAM</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/iOS/">iOS</a></li><li><a href="/iOS/ICCAM/">ICCAM</a></li>',
     });
 });
 
@@ -688,7 +691,7 @@ softwareRouter.route('/iOS/IP_Cam_Viewer')
       title: 'IP Cam Viewer',
       uplink: '/Software/iOS/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/iOS/">iOS</a></li><li><a href="/iOS/IP_Cam_Viewer/">IP Cam Viewer</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/iOS/">iOS</a></li><li><a href="/iOS/IP_Cam_Viewer/">IP Cam Viewer</a></li>',
     });
 });
 
@@ -698,7 +701,7 @@ softwareRouter.route('/iOS/P2P_Cam_Live')
       title: 'P2P Cam Live',
       uplink: '/Software/iOS/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/iOS/">iOS</a></li><li><a href="/iOS/P2P_Cam_Live/">P2P Cam Live</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/iOS/">iOS</a></li><li><a href="/iOS/P2P_Cam_Live/">P2P Cam Live</a></li>',
     });
 });
 
@@ -707,7 +710,7 @@ softwareRouter.route('/Other_Platforms')
 .get(function(req, res) {
   res.render('./Software/Other_Platforms', {
       title: 'Other Platforms',
-      uplink: '/Software/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Other_Platforms/">Andere Platform</a></li>'
     });
 });
 
@@ -717,7 +720,7 @@ softwareRouter.route('/Other_Platforms/InstarVision_Blackberry')
       title: 'InstarVision Blackberry',
       uplink: '/Software/Other_Platforms/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Other_Platforms/">Other</a></li><li><a href="/Other_Platforms/InstarVision_Blackberry/">InstarVisione</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Other_Platforms/">Andere Platform</a></li><li class="breadcrumb-item"><a href="/Software/Other_Platforms/InstarVision_Blackberry/">InstarVision</a></li>',
     });
 });
 
@@ -727,7 +730,7 @@ softwareRouter.route('/Other_Platforms/QNAP')
       title: 'QNAP',
       uplink: '/Software/Other_Platforms/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Other_Platforms/">Other</a></li><li><a href="/Other_Platforms/QNAP/">QNAP</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Other_Platforms/">Other</a></li><li><a href="/Software/Other_Platforms/QNAP/">QNAP</a></li>',
     });
 });
 
@@ -737,7 +740,7 @@ softwareRouter.route('/Other_Platforms/Synology')
       title: 'Synology',
       uplink: '/Software/Other_Platforms/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Other_Platforms/">Other</a></li><li><a href="/Other_Platforms/Synology/">Synology</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Other_Platforms/">Other</a></li><li><a href="/Software/Other_Platforms/Synology/">Synology</a></li>',
     });
 });
 
@@ -747,7 +750,7 @@ softwareRouter.route('/Other_Platforms/AVM_Fritzphone')
       title: 'AVM Fritzphone',
       uplink: '/Software/Other_Platforms/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/">Software</a></li><li><a href="/Other_Platforms/">Other</a></li><li><a href="/Other_Platforms/AVM_Fritzphone/">AVM Fritzphone</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Other_Platforms/">Other</a></li><li><a href="/Software/Other_Platforms/AVM_Fritzphone/">AVM Fritzphone</a></li>',
     });
 });
 
