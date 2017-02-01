@@ -24,7 +24,7 @@ indoorCamsRouter.get('/', function(req, res) {
         indoorPic: indoorPicture,
         indoorPicAlt: indoorPictureAlt,
         indoorUrl: indoorHref,
-        breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li class="breadcrumb-item active"><a href="/Outdoor_Cameras/IN-5905_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li>',
       });
   });
 
@@ -83,9 +83,7 @@ indoorCamsRouter.route('/IN-8015_HD')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-8015_Overview', {
       title: 'IN-8015 HD Overview',
-	  uplink: '/Indoor_Cameras/',
-      ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products">Produkte</a></li><li><a href="/Indoor_Cameras/">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products">Produkte</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li>',
     });
 });
 
@@ -143,8 +141,7 @@ indoorCamsRouter.route('/IN-8015_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-8015_Tech_Specs', {
       title: 'IN-8015 HD Technical Specifications',
-      ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
-      breadcrumbs: '<li><a href="/Products">Produkte</a></li><li><a href="/Indoor_Cameras/">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products">Produkte</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-8015_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
 
@@ -204,9 +201,7 @@ indoorCamsRouter.route('/IN-6014_HD')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-6014_Overview', {
       title: 'IN-6014 HD Überblick',
-      uplink: '/Indoor_Cameras/',
-      ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products">Produkte</a></li><li><a href="/Indoor_Cameras/">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products">Produkte</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li>',
     });
 });
 
@@ -264,9 +259,7 @@ indoorCamsRouter.route('/IN-6014_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-6014_Tech_Specs', {
       title: 'IN-6014 HD Technische Spezifikationen',
-      uplink: '/Indoor_Cameras/IN-6014_HD/',
-      ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
-      breadcrumbs: '<li><a href="/Products">Produkte</a></li><li><a href="/Indoor_Cameras/">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products">Produkte</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-6014_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
 
@@ -326,9 +319,7 @@ indoorCamsRouter.route('/IN-6012_HD')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-6012_Overview', {
       title: 'IN-6012 HD Überblick',
-      uplink: '/Indoor_Cameras/',
-      ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products">Produkte</a></li><li><a href="/Indoor_Cameras/">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products">Produkte</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li>',
     });
 });
 
@@ -386,9 +377,7 @@ indoorCamsRouter.route('/IN-6012_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-6012_Tech_Specs', {
       title: 'IN-6012 HD Technische Spezifikationen',
-      uplink: '/Indoor_Cameras/IN-6012_HD/',
-      ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
-      breadcrumbs: '<li><a href="/Products">Produkte</a></li><li><a href="/Indoor_Cameras/">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products">Produkte</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-6012_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
 
@@ -448,9 +437,7 @@ indoorCamsRouter.route('/IN-6001_HD')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-6001_Overview', {
       title: 'IN-6001 HD Überblick',
-      uplink: '/Indoor_Cameras/',
-      ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products">Produkte</a></li><li><a href="/Indoor_Cameras/">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products">Produkte</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li>',
     });
 });
 
@@ -508,9 +495,7 @@ indoorCamsRouter.route('/IN-6001_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-6001_Tech_Specs', {
       title: 'IN-6001 HD Technische Spezifikationen',
-      uplink: '/Indoor_Cameras/IN-6001_HD/',
-      ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
-      breadcrumbs: '<li><a href="/Products">Produkte</a></li><li><a href="/Indoor_Cameras/">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products">Produkte</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-6001_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
 
@@ -522,7 +507,7 @@ indoorCamsRouter.route('/IN-3011')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-3011_Overview', {
       title: 'IN-3011 Overview',
-      uplink: '/Indoor_Cameras/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products">Produkte</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-3011/">IN-3011</a></li>',
     });
 });
 
@@ -531,6 +516,7 @@ indoorCamsRouter.route('/IN-3011/Technical_Specifications')
   res.render('./Indoor_Cams/IN-3011_Tech_Specs', {
       title: 'IN-3011 Technische Spezifikationen',
       uplink: '/Indoor_Cameras/IN-3011/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products">Produkte</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-3011/">IN-3011</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-3011/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
 
