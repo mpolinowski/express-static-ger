@@ -24,6 +24,7 @@ outdoorCamsRouter.get('/', function(req, res) {
       outdoorPic: outdoorPicture,
       outdoorPicAlt: outdoorPictureAlt,
       outdoorUrl: outdoorHref,
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li>',
     });
 });
 
@@ -33,7 +34,7 @@ outdoorCamsRouter.get('/', function(req, res) {
 	
 outdoorCamsRouter.route('/IN-9008_HD/Safety_Warnings')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Safety_Warnings', {
+      res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-9008 HD Sicherheitshinweise',
           model: 'IN-9008_HD',
 		  type: 'Outdoor',
@@ -45,7 +46,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Safety_Warnings')
 	
 outdoorCamsRouter.route('/IN-9008_HD/Warranty')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Warranty', {
+      res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-9008 HD Garantie & Entsorgung',
           model: 'IN-9008_HD',
 		  type: 'Outdoor',
@@ -57,7 +58,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Warranty')
 	
 outdoorCamsRouter.route('/IN-9008_HD/Video_Streaming')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Video_Streaming', {
+      res.render('./Products/Usermanuals_Video_Streaming', {
           title: 'IN-9008 HD Video Streaming',
           model: 'IN-9008_HD',
 		  type: 'Outdoor',
@@ -69,7 +70,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Video_Streaming')
 	
 outdoorCamsRouter.route('/IN-9008_HD/Camera_Reset')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Camera_Reset', {
+      res.render('./Products/Usermanuals_Camera_Reset', {
           title: 'IN-9008 HD Hardware Reset',
           model: 'IN-9008_HD',
 		  type: 'Outdoor',
@@ -83,9 +84,7 @@ outdoorCamsRouter.route('/IN-9008_HD')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Overview', {
       title: 'IN-9008 HD Überblick',
-      uplink: '/Outdoor_Cameras/',
-      ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
-	  breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Produkte</a></li><li><a href="/Outdoor_Cameras/">Außenkameras</a></li><li><a href="/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li>',
+	  breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li>',
     });
 });
 
@@ -180,6 +179,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Lense_Adjustment')
   res.render('./Outdoor_Cams/IN-9008_Lense_Adjustment', {
       title: 'IN-9008 HD Linse einstellen',
       uplink: '/Outdoor_Cameras/IN-9008_HD/Usermanual/',
+      ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       breadcrumbs: '<li><a href="/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Outdoor_Cameras/IN-9008_HD/Usermanual/">Handbuch</a></li><li><a href="/Outdoor_Cameras/IN-9008_HD/Lense_Adjustment/">Objektivjustage</a></li>',
     });
 });
@@ -188,7 +188,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Tech_Specs', {
       title: 'IN-9008 HD Technische Spezifikationen',
-      uplink: '/Outdoor_Cameras/IN-9008_HD/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/Outdoor_Cameras">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-9008_HD/Usermanual/">Handbuch</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-9008_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
 
@@ -198,7 +198,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Technical_Specifications')
 	
 outdoorCamsRouter.route('/IN-7011_HD/Safety_Warnings')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Safety_Warnings', {
+      res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-7011 HD Sicherheitshinweise',
           model: 'IN-7011_HD',
 		  type: 'Outdoor',
@@ -210,7 +210,7 @@ outdoorCamsRouter.route('/IN-7011_HD/Safety_Warnings')
 	
 outdoorCamsRouter.route('/IN-7011_HD/Warranty')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Warranty', {
+      res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-7011 HD Garantie & Entsorgung',
           model: 'IN-7011_HD',
 		  type: 'Outdoor',
@@ -222,7 +222,7 @@ outdoorCamsRouter.route('/IN-7011_HD/Warranty')
 	
 outdoorCamsRouter.route('/IN-7011_HD/Video_Streaming')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Video_Streaming', {
+      res.render('./Products/Usermanuals_Video_Streaming', {
           title: 'IN-7011 HD Video Streaming',
           model: 'IN-7011_HD',
 		  type: 'Outdoor',
@@ -234,7 +234,7 @@ outdoorCamsRouter.route('/IN-7011_HD/Video_Streaming')
 	
 outdoorCamsRouter.route('/IN-7011_HD/Camera_Reset')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Camera_Reset', {
+      res.render('./Products/Usermanuals_Camera_Reset', {
           title: 'IN-7011 HD Hardware Reset',
           model: 'IN-7011_HD',
 		  type: 'Outdoor',
@@ -248,9 +248,7 @@ outdoorCamsRouter.route('/IN-7011_HD')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-7011_Overview', {
       title: 'IN-7011 HD Überblick',
-      uplink: '/Outdoor_Cameras/',
-      ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
-	  breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Produkte</a></li><li><a href="/Outdoor_Cameras/">Außenkameras</a></li><li><a href="/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li>',
+	  breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li>',
     });
 });
 
@@ -268,8 +266,6 @@ outdoorCamsRouter.route('/IN-7011_HD/Product_Features')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-7011_Product_Features', {
       title: 'IN-7011 HD Produktfeatures',
-      uplink: '/Outdoor_Cameras/IN-7011_HD/Usermanual/',
-      ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
 	  breadcrumbs: '<li><a href="/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li><li><a href="/Outdoor_Cameras/IN-7011_HD/Usermanual/">Handbuch</a></li><li><a href="/Outdoor_Cameras/IN-7011_HD/Product_Features/">Produkt Features</a></li>',
     });
 });
@@ -308,7 +304,7 @@ outdoorCamsRouter.route('/IN-7011_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-7011_Tech_Specs', {
       title: 'IN-7011 HD Technische Spezifikationen',
-      uplink: '/Outdoor_Cameras/IN-7011_HD/',
+	  breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-7011_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
 
@@ -318,7 +314,7 @@ outdoorCamsRouter.route('/IN-7011_HD/Technical_Specifications')
 
 outdoorCamsRouter.route('/IN-5907_HD/Safety_Warnings')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Safety_Warnings', {
+      res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-5907 HD Sicherheitshinweise',
           model: 'IN-5907_HD',
 		  type: 'Outdoor',
@@ -328,7 +324,7 @@ outdoorCamsRouter.route('/IN-5907_HD/Safety_Warnings')
 	
 outdoorCamsRouter.route('/IN-5907_HD/Warranty')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Warranty', {
+      res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-5907 HD Garantie & Entsorgung',
           uplink: '/Outdoor_Cameras/IN-5907_HD/Usermanual/',
 		  type: 'Outdoor',
@@ -340,7 +336,7 @@ outdoorCamsRouter.route('/IN-5907_HD/Warranty')
 	
 outdoorCamsRouter.route('/IN-5907_HD/Video_Streaming')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Video_Streaming', {
+      res.render('./Products/Usermanuals_Video_Streaming', {
           title: 'IN-5907 HD Video Streaming',
           model: 'IN-5907_HD',
 		  type: 'Outdoor',
@@ -352,7 +348,7 @@ outdoorCamsRouter.route('/IN-5907_HD/Video_Streaming')
 	
 outdoorCamsRouter.route('/IN-5907_HD/Camera_Reset')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Camera_Reset', {
+      res.render('./Products/Usermanuals_Camera_Reset', {
           title: 'IN-5907 HD Hardware Reset',
           model: 'IN-5907_HD',
 		  type: 'Outdoor',
@@ -366,9 +362,7 @@ outdoorCamsRouter.route('/IN-5907_HD')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-5907_Overview', {
       title: 'IN-5907 HD Überblick',
-      uplink: '/Outdoor_Cameras/',
-      ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Produkte</a></li><li><a href="/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li>',
     });
 });
 
@@ -426,8 +420,7 @@ outdoorCamsRouter.route('/IN-5907_HD/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-5907_Tech_Specs', {
       title: 'IN-5907 HD Technische Spezifikationen',
-      uplink: '/Outdoor_Cameras/IN-5907_HD/',
-      breadcrumbs: '<li><a href="/Products/">Produkte</a></li><li><a href="/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li><a href="/Outdoor_Cameras/IN-5907_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-5907_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
 
@@ -437,7 +430,7 @@ outdoorCamsRouter.route('/IN-5907_HD/Technical_Specifications')
 	
 outdoorCamsRouter.route('/IN-5905_HD/Safety_Warnings')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Safety_Warnings', {
+      res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-5905 HD Sicherheitshinweise',
           model: 'IN-5905_HD',
 		  type: 'Outdoor',
@@ -449,7 +442,7 @@ outdoorCamsRouter.route('/IN-5905_HD/Safety_Warnings')
 	
 outdoorCamsRouter.route('/IN-5905_HD/Warranty')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Warranty', {
+      res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-5905 HD Garantie & Entsorgung',
           model: 'IN-5905_HD',
 		  type: 'Outdoor',
@@ -461,7 +454,7 @@ outdoorCamsRouter.route('/IN-5905_HD/Warranty')
 	
 outdoorCamsRouter.route('/IN-5905_HD/Video_Streaming')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Video_Streaming', {
+      res.render('./Products/Usermanuals_Video_Streaming', {
           title: 'IN-5905 HD Video Streaming',
           model: 'IN-5905_HD',
 		  type: 'Outdoor',
@@ -473,7 +466,7 @@ outdoorCamsRouter.route('/IN-5905_HD/Video_Streaming')
 	
 outdoorCamsRouter.route('/IN-5905_HD/Camera_Reset')
   .get(function(req, res) {
-      res.render('./Outdoor_Cams/Usermanuals_Camera_Reset', {
+      res.render('./Products/Usermanuals_Camera_Reset', {
           title: 'IN-5905 HD Hardware Reset',
           model: 'IN-5905_HD',
 		  type: 'Outdoor',
@@ -488,9 +481,7 @@ outdoorCamsRouter.route('/IN-5905_HD')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-5905_Overview', {
       title: 'IN-5905 HD Überblick',
-      uplink: '/Outdoor_Cameras/',
-      ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Produkte</a></li><li><a href="/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li>',
     });
 });
 
@@ -549,7 +540,7 @@ outdoorCamsRouter.route('/IN-5905_HD/Technical_Specifications')
   res.render('./Outdoor_Cams/IN-5905_Tech_Specs', {
       title: 'IN-5905 HD Technische Spezifikationen',
       uplink: '/Outdoor_Cameras/IN-5905_HD/',
-      breadcrumbs: '<li><a href="/Products/">Produkte</a></li><li><a href="/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li><a href="/Outdoor_Cameras/IN-5905_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-5905_HD/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
 
@@ -561,7 +552,7 @@ outdoorCamsRouter.route('/IN-4011')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-4011_Overview', {
       title: 'IN-4011 Overview',
-      uplink: '/Outdoor_Cameras/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-4011/">IN-4011</a></li>',
     });
 });
 
@@ -570,6 +561,7 @@ outdoorCamsRouter.route('/IN-4011/Technical_Specifications')
   res.render('./Outdoor_Cams/IN-4011_Tech_Specs', {
       title: 'IN-4011 Technische Spezifikationen',
       uplink: '/Outdoor_Cameras/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-4011/">IN-4011</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-4011/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
 
@@ -577,7 +569,7 @@ outdoorCamsRouter.route('/IN-4010_V2')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-4010_V2_Overview', {
       title: 'IN-4010 V2 Überblick',
-      uplink: '/Outdoor_Cameras/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-4010_V2/">IN-4010 V2</a></li>',
     });
 });
 
@@ -585,7 +577,7 @@ outdoorCamsRouter.route('/IN-4010_V2/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-4010_V2_Tech_Specs', {
       title: 'IN-4010 V2 Technische Spezifikationen',
-      uplink: '/Outdoor_Cameras/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-4010_V2/">IN-4010 V2</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-4010_V2/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
 
@@ -593,7 +585,7 @@ outdoorCamsRouter.route('/IN-2908')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-2908_Overview', {
       title: 'IN-2908 Overview',
-      uplink: '/Outdoor_Cameras/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-2908/">IN-2908</a></li>',
     });
 });
 
@@ -601,7 +593,7 @@ outdoorCamsRouter.route('/IN-2908/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-2908_Tech_Specs', {
       title: 'IN-2908 Technische Spezifikationen',
-      uplink: '/Outdoor_Cameras/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-2908/">IN-2908</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-2908/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
 
@@ -609,7 +601,7 @@ outdoorCamsRouter.route('/IN-2905_V2')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-2905_V2_Overview', {
       title: 'IN-2905 V2 Überblick',
-      uplink: '/Outdoor_Cameras/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-2905_V2/">IN-2905 V2</a></li>',
     });
 });
 
@@ -617,7 +609,7 @@ outdoorCamsRouter.route('/IN-2905_V2/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-2905_V2_Tech_Specs', {
       title: 'IN-2905 V2 Technische Spezifikationen',
-      uplink: '/Outdoor_Cameras/',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-2905_V2/">IN-2905 V2</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-2905_V2/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
 
