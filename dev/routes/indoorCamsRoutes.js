@@ -515,7 +515,6 @@ indoorCamsRouter.route('/IN-3011/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-3011_Tech_Specs', {
       title: 'IN-3011 Technische Spezifikationen',
-      uplink: '/Indoor_Cameras/IN-3011/',
       breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products">Produkte</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-3011/">IN-3011</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/IN-3011/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });

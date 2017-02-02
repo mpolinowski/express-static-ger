@@ -62,7 +62,6 @@ advancedUserRouter.get('/Website_Integration/HD_Camera_Integration', function(re
 advancedUserRouter.get('/CGI_Commands/', function(req, res) {
     res.render('./Advanced_User/CGI_Commands', {
         title: 'CGI Commands',
-        uplink: '/Advanced_User',
         breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Advanced_User/">Für Entwickler</a></li><li class="breadcrumb-item"><a href="/Advanced_User/CGI_Commands/">CGI Befehle</a></li>',
       });
   });
@@ -70,8 +69,7 @@ advancedUserRouter.get('/CGI_Commands/', function(req, res) {
 advancedUserRouter.get('/CGI_Commands/VGA_Series_CGI_List', function(req, res) {
     res.render('./Advanced_User/VGA_Series_CGI_List', {
         title: 'VGA Series CGI List',
-        uplink: '/Advanced_User/CGI_Commands',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Für Entwickler</a></li><li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/Advanced_User/CGI_Commands/VGA_Series_CGI_List/">VGA Serie</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Advanced_User/">Für Entwickler</a></li><li class="breadcrumb-item"><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li class="breadcrumb-item"><a href="/Advanced_User/CGI_Commands/VGA_Series_CGI_List/">VGA Serie</a></li>',
       });
   });
 

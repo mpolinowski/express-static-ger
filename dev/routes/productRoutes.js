@@ -601,7 +601,7 @@ productRouter.route('/IN-Motion/300')
 .get(function(req, res) {
   res.render('./Products/IN-Motion_300', {
       title: 'IN-Motion 300',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/300/">300</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/300/">300</a></li>',
     });
 });
 
@@ -609,9 +609,7 @@ productRouter.route('/IN-Motion/500')
 .get(function(req, res) {
   res.render('./Products/IN-Motion_500', {
       title: 'IN-Motion 500',
-      uplink: '/Products/',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li>',
     });
 });
 
@@ -619,7 +617,7 @@ productRouter.route('/IN-Motion/500/Dual_Sensor')
 .get(function(req, res) {
   res.render('./Products/IN-Motion_500_Dual_Sensor', {
       title: 'IN-Motion 500 - Dualer Sensor',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/Dual_Sensor/">Dualer Sensor</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/Dual_Sensor/">Dualer Sensor</a></li>',
     });
 });
 
@@ -627,7 +625,7 @@ productRouter.route('/IN-Motion/500/Setup')
 .get(function(req, res) {
   res.render('./Products/IN-Motion_500_Setup', {
       title: 'IN-Motion 500 - Setup',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/Setup/">Setup</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/Setup/">Setup</a></li>',
     });
 });
 
@@ -635,7 +633,7 @@ productRouter.route('/IN-Motion/500/Wiring')
 .get(function(req, res) {
   res.render('./Products/IN-Motion_500_Wiring', {
       title: 'IN-Motion 500 - Verkabelung',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/Wiring/">Verkabelung</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/Wiring/">Verkabelung</a></li>',
     });
 });
 
@@ -643,7 +641,7 @@ productRouter.route('/IN-Motion/500/User_Interface')
 .get(function(req, res) {
   res.render('./Products/IN-Motion_500_User_Interface', {
       title: 'IN-Motion 500 - Benutzeroberfläche',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/User_Interface/">Benutzeroberfläche</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/User_Interface/">Benutzeroberfläche</a></li>',
     });
 });
 
@@ -651,7 +649,7 @@ productRouter.route('/IN-Motion/500/Considerations')
 .get(function(req, res) {
   res.render('./Products/IN-Motion_500_Considerations', {
       title: 'IN-Motion 500 - Berücksichtigungen',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/Considerations/">Berücksichtigungen</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/Considerations/">Berücksichtigungen</a></li>',
     });
 });
 
@@ -659,7 +657,7 @@ productRouter.route('/IN-Motion/500/Recorder')
 .get(function(req, res) {
   res.render('./Products/IN-Motion_500_Recorder', {
       title: 'IN-Motion 500 - Recorder',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/Recorder/">Recorder</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/">IN-Motion</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/">500</a></li><li class="breadcrumb-item"><a href="/Products/IN-Motion/500/Recorder/">Recorder</a></li>',
     });
 });
 

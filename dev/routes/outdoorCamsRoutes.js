@@ -318,7 +318,9 @@ outdoorCamsRouter.route('/IN-5907_HD/Safety_Warnings')
           title: 'IN-5907 HD Sicherheitshinweise',
           model: 'IN-5907_HD',
 		  type: 'Outdoor',
+          ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
           uplink: '/Outdoor_Cameras/IN-5907_HD/Usermanual/',
+          breadcrumbs: '<li><a href="/Products/Outdoor_Cameras">Outdoor Cams</a></li><li><a href="/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li><li><a href="/Outdoor_Cameras/IN-5907_HD/Usermanual/">Usermanual</a></li><li><a href="/Outdoor_Cameras/IN-5907_HD/Safety_Warnings/">Safety Warnings</a></li>',
         });
     });
 	
@@ -560,7 +562,6 @@ outdoorCamsRouter.route('/IN-4011/Technical_Specifications')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-4011_Tech_Specs', {
       title: 'IN-4011 Technische Spezifikationen',
-      uplink: '/Outdoor_Cameras/',
       breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-4011/">IN-4011</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/IN-4011/Technical_Specifications/">Technische Spezifikationen</a></li>',
     });
 });
