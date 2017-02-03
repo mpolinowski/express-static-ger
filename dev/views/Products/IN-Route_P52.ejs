@@ -36,18 +36,16 @@
                       </div>
                       <!-- /margin -->
 
-                        <div class="margin">
-                          <div>
-                              <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/IN-Route_P52_00.png" width="1000" height="515" layout="responsive" class="shadow"></amp-img>
-                          </div>
-
-                            <amp-lightbox id="lightbox1" layout="nodisplay">
-                                <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
-                                    <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/IN-Route_P52_00.png" width="1000" height="515" layout="responsive" class="shadow"></amp-img>
-                                </div>
-                            </amp-lightbox>
-                        </div>
-                        <!-- /margin -->
+                    <div class="margin">
+                      <amp-img
+                          on="tap:lightbox1"
+                          role="button"
+                          tabindex="0"
+                          src="/images/IN-Route_P52_00.png" width="1000" height="515" layout="responsive" class="shadow">
+                      </amp-img>
+                      <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
+                    </div>
+                    <!-- /margin -->
 
                         <div class="margin">
                           <h3>What are the key features?</h3>
@@ -64,15 +62,18 @@
 
                           <div class="margin">
                             <h3>What comes in the Box</h3>
-                            <div>
-                                <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/IN-Route_Inside-the-Box.png" width="1000" height="243" layout="responsive" class="shadow"></amp-img>
-                            </div>
 
-                              <amp-lightbox id="lightbox1" layout="nodisplay">
-                                  <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
-                                      <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/IN-Route_Inside-the-Box.png" width="1000" height="243" layout="responsive" class="shadow"></amp-img>
-                                  </div>
-                              </amp-lightbox>
+                            <div class="margin">
+                              <amp-img
+                                  on="tap:lightbox2"
+                                  role="button"
+                                  tabindex="0"
+                                  src="/images/IN-Route_Inside-the-Box.png" width="1000" height="243" layout="responsive" class="shadow">
+                              </amp-img>
+                              <amp-image-lightbox id="lightbox2" layout="nodisplay"></amp-image-lightbox>
+                            </div>
+                            <!-- /margin -->
+
                               <p>The IN-Route P52 comes with a USB cable to charge the internal Powerbank and a Quick-Installation Guide.</p>
                               <ul>
                                 <li>1 x IN-Route P52 Wireless Router / NAS / Power Bank</li>
@@ -82,106 +83,95 @@
                           </div>
                           <!-- /margin -->
 
-                        <div class="card-container">
-                            <div class="card">
-                                <div class="image">
-                                  <a href="/Products/IN-Route/First_Steps">
-                                    <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_FirstSteps.png"></amp-img>
-                                  </a>
-                                </div>
-                                <div class="content">
-                                    <h3>First Steps</h3>
-                                    <p>IN-Route P52 Introduction</p>
-                                </div>
-                                <div class="action">
-                                    <a href="/Products/IN-Route/First_Steps">Read More</a>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="image">
-                                  <a href="/Products/IN-Route/Overview">
-                                    <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_Overview.png"></amp-img>
-                                  </a>
-                                </div>
-                                <div class="content">
-                                    <h3>Interface :: Overview</h3>
-                                    <p>User Interface Overview Section.</p>
-                                </div>
-                                <div class="action">
-                                    <a href="/Products/IN-Route/Overview">Read More</a>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="image">
-                                  <a href="/Products/IN-Route/Network">
-                                    <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_Network.png"></amp-img>
-                                  </a>
-                                </div>
-                                <div class="content">
-                                    <h3>Interface :: Network</h3>
-                                    <p>User Interface Network Section</p>
-                                </div>
-                                <div class="action">
-                                    <a href="/Products/IN-Route/Network">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /Card Container -->
-
                       <div class="card-container">
-                          <div class="card">
+                          <div class="twocard">
                               <div class="image">
-                                <a href="/Products/IN-Route/Firewall">
-                                  <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_Firewall.png"></amp-img>
+                                <a href="/Products/IN-Route/First_Steps">
+                                  <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_FirstSteps.png"></amp-img>
                                 </a>
                               </div>
-                              <div class="content">
-                                  <h3>Interface :: Firewall</h3>
-                                  <p>User Interface Firwall Section</p>
-                              </div>
                               <div class="action">
-                                  <a href="/Products/IN-Route/Firewall">Read More</a>
+                                  <h3>First Steps</h3>
+                                  <p>IN-Route P52 Introduction</p>
+                                  <br><br>
+                                  <a href="/Products/IN-Route/First_Steps">Read More</a>
                               </div>
                           </div>
-                          <div class="card">
+                          <div class="twocard">
                               <div class="image">
-                                <a href="/Products/IN-Route/System">
-                                  <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_System.png"></amp-img>
+                                <a href="/Products/IN-Route/Overview">
+                                  <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_Overview.png"></amp-img>
                                 </a>
                               </div>
-                              <div class="content">
-                                  <h3>Interface :: System</h3>
-                                  <p>User Interface System Section</p>
-                              </div>
                               <div class="action">
-                                  <a href="/Products/IN-Route/System">Read More</a>
-                              </div>
-                          </div>
-                          <div class="card">
-                              <div class="image">
-                                <a href="/Products/IN-Route/Help">
-                                  <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_Help.png"></amp-img>
-                                </a>
-                              </div>
-                              <div class="content">
-                                  <h3>Interface :: Help</h3>
-                                  <p>User Interface Help Section</p>
-                              </div>
-                              <div class="action">
-                                  <a href="/Products/IN-Route/Help">Read More</a>
+                                  <h3>Interface :: Overview</h3>
+                                  <p>User Interface Overview Section.</p>
+                                  <br><br>
+                                  <a href="/Products/IN-Route/Overview">Read More</a>
                               </div>
                           </div>
                       </div>
                       <!-- /Card Container -->
 
+                    <div class="card-container">
+                        <div class="twocard">
+                            <div class="image">
+                              <a href="/Products/IN-Route/Network">
+                                <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_Network.png"></amp-img>
+                              </a>
+                            </div>
+                            <div class="action">
+                                <h3>Interface :: Network</h3>
+                                <p>User Interface Network Section</p>
+                                <br><br>
+                                <a href="/Products/IN-Route/Network">Read More</a>
+                            </div>
+                        </div>
+                        <div class="twocard">
+                            <div class="image">
+                              <a href="/Products/IN-Route/Firewall">
+                                <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_Firewall.png"></amp-img>
+                              </a>
+                            </div>
+                            <div class="action">
+                                <h3>Interface :: Firewall</h3>
+                                <p>User Interface Firwall Section</p>
+                                <br><br>
+                                <a href="/Products/IN-Route/Firewall">Read More</a>
+                            </div>
+                        </div>
                     </div>
-                    <!-- /Container -->
-                  </section>
-                  <!-- /blade -->
-                </div>
-                <!-- /Content -->
-              </div>
-              <!-- /WRAP -->
+                    <!-- /Card Container -->
+
+                    <div class="card-container margin">
+                        <div class="twocard">
+                            <div class="image">
+                              <a href="/Products/IN-Route/System">
+                                <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_System.png"></amp-img>
+                              </a>
+                            </div>
+                            <div class="action">
+                                <h3>Interface :: System</h3>
+                                <p>User Interface System Section</p>
+                                <br><br>
+                                <a href="/Products/IN-Route/System">Read More</a>
+                            </div>
+                        </div>
+                        <div class="twocard">
+                            <div class="image">
+                              <a href="/Products/IN-Route/Help">
+                                <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_Help.png"></amp-img>
+                              </a>
+                            </div>
+                            <div class="action">
+                                <h3>Interface :: Help</h3>
+                                <p>User Interface Help Section</p>
+                                <br><br>
+                                <a href="/Products/IN-Route/Help">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Card Container -->
 
 
                 <div class="container main">
@@ -301,6 +291,15 @@
                     <!-- /article -->
                 </div>
                 <!-- /Container -->
+
+                </div>
+                <!-- /Container -->
+              </section>
+              <!-- /blade -->
+            </div>
+            <!-- /Content -->
+          </div>
+          <!-- /WRAP -->
 
                 <% include ../_partials/content/_bluenav-p-mobile.ejs %>
 
