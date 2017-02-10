@@ -11,20 +11,20 @@ downloadsRouter.get('/', function(req, res) {
       });
   });
 
-downloadsRouter.get('/IndoorCams/', function(req, res) {
-    res.render('./Downloads/IndoorCams', {
+downloadsRouter.get('/Indoor_Cameras/', function(req, res) {
+    res.render('./Downloads/Indoor_Cameras', {
         title: 'Downloadbereich für Innenkameras',
         ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
         uplink: '/Downloads',
-        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/IndoorCams/">Innenkameras</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li>',
       });
   });
-downloadsRouter.get('/OutdoorCams/', function(req, res) {
-    res.render('./Downloads/OutdoorCams', {
+downloadsRouter.get('/Outdoor_Cameras/', function(req, res) {
+    res.render('./Downloads/Outdoor_Cameras', {
         title: 'Downloadbereich für Außenkameras',
         ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
         uplink: '/Downloads',
-        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/IndoorCams/">Außenkameras</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Outdoor_Cameras/">Außenkameras</a></li>',
       });
   });
 
@@ -55,81 +55,61 @@ downloadsRouter.get('/Desktop_Software/', function(req, res) {
       });
   });
 
-downloadsRouter.get('/Apps/', function(req, res) {
-    res.render('./Downloads/Apps', {
-        title: 'Downloadbereich unserer Apps',
+downloadsRouter.get('/Mobile_Apps/', function(req, res) {
+    res.render('./Downloads/Mobile_Apps', {
+        title: 'Downloadbereich unserer Mobil Apps',
         ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
         uplink: '/Downloads',
-        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Apps/">Apps</a></li>',
-      });
-  });
-
-downloadsRouter.get('/IndoorCams/', function(req, res) {
-    res.render('./Downloads/IndoorCams', {
-        title: 'Downloads for Innenkameras',
-        ampimg: '/images/Search/P_SearchThumb_IndoorCams.jpg',
-        uplink: '/Downloads/',
-        headline: 'Downloads for Innenkameras',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/IndoorCams">Innenkameras</a></li>',
-      });
-  });
-
-downloadsRouter.get('/OutdoorCams/', function(req, res) {
-    res.render('./Downloads/OutdoorCams', {
-        title: 'Downloads for Außenkameras',
-        ampimg: '/images/Search/P_SearchThumb_OutdoorCams.jpg',
-        uplink: '/Downloads/',
-        headline: 'Downloads for Außenkameras',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/OutdoorCams">Außenkameras</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Apps/">Mobile Apps</a></li>',
       });
   });
 
 /* ###################################################### Innenkameras ###################################################### */
 
-downloadsRouter.route('/IndoorCams/IN-6014_HD/')
+downloadsRouter.route('/Indoor_Cameras/IN-6014_HD/')
 .get(function(req, res) {
-  res.render('./IndoorCams/Downloads_IndoorCams_6014', {
+  res.render('./Indoor_Cameras/Downloads_IndoorCams_6014', {
       title: 'IN-6014 HD Downloads',
-      uplink: '/Downloads/IndoorCams/',
+      uplink: '/Downloads/Indoor_Cameras/',
       ampimg: '/images/Search/P_SearchThumb_IndoorCams.jpg',
       headline: 'INSTAR Products IN-6014 HD',
-      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/IndoorCams">Innenkameras</a></li><li><a href="/Downloads/IndoorCams/IN-6014_HD">IN-6014 HD</a></li>',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Indoor_Cameras">Innenkameras</a></li><li><a href="/Downloads/Indoor_Cameras/IN-6014_HD">IN-6014 HD</a></li>',
     });
 });
 
 
-downloadsRouter.route('/IndoorCams/IN-6012_HD/')
+downloadsRouter.route('/Indoor_Cameras/IN-6012_HD/')
 .get(function(req, res) {
-  res.render('./IndoorCams/Downloads_IndoorCams_6012', {
+  res.render('./Indoor_Cameras/Downloads_IndoorCams_6012', {
       title: 'IN-6012 HD Downloads',
-      uplink: '/Downloads/IndoorCams/',
+      uplink: '/Downloads/Indoor_Cameras/',
       ampimg: '/images/Search/P_SearchThumb_IndoorCams.jpg',
       headline: 'INSTAR Products IN-6012 HD',
-      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/IndoorCams">Innenkameras</a></li><li><a href="/Downloads/IndoorCams/IN-6012_HD">IN-6012 HD</a></li>',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Indoor_Cameras">Innenkameras</a></li><li><a href="/Downloads/Indoor_Cameras/IN-6012_HD">IN-6012 HD</a></li>',
     });
 });
 
 
-downloadsRouter.route('/IndoorCams/IN-6001_HD/')
+downloadsRouter.route('/Indoor_Cameras/IN-6001_HD/')
 .get(function(req, res) {
-  res.render('./IndoorCams/Downloads_IndoorCams_6001', {
+  res.render('./Indoor_Cameras/Downloads_IndoorCams_6001', {
       title: 'IN-6001 HD Downloads',
-      uplink: '/Downloads/IndoorCams/',
+      uplink: '/Downloads/Indoor_Cameras/',
       ampimg: '/images/Search/P_SearchThumb_IndoorCams.jpg',
       headline: 'INSTAR Products IN-6001 HD',
-      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/IndoorCams">Innenkameras</a></li><li><a href="/Downloads/IndoorCams/IN-6001_HD">IN-6001 HD</a></li>',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Indoor_Cameras">Innenkameras</a></li><li><a href="/Downloads/Indoor_Cameras/IN-6001_HD">IN-6001 HD</a></li>',
     });
 });
 
 
-downloadsRouter.route('/IndoorCams/IN-3011/')
+downloadsRouter.route('/Indoor_Cameras/IN-3011/')
 .get(function(req, res) {
-  res.render('./IndoorCams/Downloads_IndoorCams_3011', {
+  res.render('./Indoor_Cameras/Downloads_IndoorCams_3011', {
       title: 'IN-3011 Downloads',
-      uplink: '/Downloads/IndoorCams/',
+      uplink: '/Downloads/Indoor_Cameras/',
       ampimg: '/images/Search/P_SearchThumb_IndoorCams.jpg',
       headline: 'INSTAR Products IN-3011',
-      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/IndoorCams">Innenkameras</a></li><li><a href="/Downloads/IndoorCams/IN-3011">IN-3011</a></li>',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Indoor_Cameras">Innenkameras</a></li><li><a href="/Downloads/Indoor_Cameras/IN-3011">IN-3011</a></li>',
     });
 });
 
@@ -137,85 +117,85 @@ downloadsRouter.route('/IndoorCams/IN-3011/')
 /* ###################################################### Außenkameras ###################################################### */
 
 
-downloadsRouter.route('/OutdoorCams/IN-7011_HD/')
+downloadsRouter.route('/Outdoor_Cameras/IN-7011_HD/')
 .get(function(req, res) {
-  res.render('./OutdoorCams/Downloads_OutdoorCams_7011', {
+  res.render('./Outdoor_Cameras/Downloads_OutdoorCams_7011', {
       title: 'IN-7011 HD Downloads',
       ampimg: '/images/Search/P_SearchThumb_OutdoorCams.jpg',
-      uplink: '/Downloads/OutdoorCams/',
+      uplink: '/Downloads/Outdoor_Cameras/',
       headline: 'INSTAR Products IN-7011 HD',
-      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/OutdoorCams">Außenkameras</a></li><li><a href="/Downloads/OutdoorCams/IN-7011_HD/">IN-7011 HD</a></li>',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Downloads/Outdoor_Cameras/IN-7011_HD/">IN-7011 HD</a></li>',
     });
 });
 
 
-downloadsRouter.route('/OutdoorCams/IN-5907_HD/')
+downloadsRouter.route('/Outdoor_Cameras/IN-5907_HD/')
 .get(function(req, res) {
-  res.render('./OutdoorCams/Downloads_OutdoorCams_5907', {
+  res.render('./Outdoor_Cameras/Downloads_OutdoorCams_5907', {
       title: 'IN-5907 HD Downloads',
       ampimg: '/images/Search/P_SearchThumb_OutdoorCams.jpg',
-      uplink: '/Downloads/OutdoorCams/',
+      uplink: '/Downloads/Outdoor_Cameras/',
       headline: 'INSTAR Products IN-5907 HD',
-      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/OutdoorCams">Außenkameras</a></li><li><a href="/Downloads/OutdoorCams/IN-5907_HD/">IN-5907 HD</a></li>',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Downloads/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li>',
     });
 });
 
 
-downloadsRouter.route('/OutdoorCams/IN-5905_HD/')
+downloadsRouter.route('/Outdoor_Cameras/IN-5905_HD/')
 .get(function(req, res) {
-  res.render('./OutdoorCams/Downloads_OutdoorCams_5905', {
+  res.render('./Outdoor_Cameras/Downloads_OutdoorCams_5905', {
       title: 'IN-5905 HD Downloads',
       ampimg: '/images/Search/P_SearchThumb_OutdoorCams.jpg',
-      uplink: '/Downloads/OutdoorCams/',
+      uplink: '/Downloads/Outdoor_Cameras/',
       headline: 'INSTAR Products IN-5905 HD',
-      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/OutdoorCams">Außenkameras</a></li><li><a href="/Downloads/OutdoorCams/IN-5905_HD/">IN-5905 HD</a></li>',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Downloads/Outdoor_Cameras/IN-5905_HD/">IN-5905 HD</a></li>',
     });
 });
 
 
-downloadsRouter.route('/OutdoorCams/IN-4011/')
+downloadsRouter.route('/Outdoor_Cameras/IN-4011/')
 .get(function(req, res) {
-  res.render('./OutdoorCams/Downloads_OutdoorCams_4011', {
+  res.render('./Outdoor_Cameras/Downloads_OutdoorCams_4011', {
       title: 'IN-4011 Downloads',
       ampimg: '/images/Search/P_SearchThumb_OutdoorCams.jpg',
-      uplink: '/Downloads/OutdoorCams/',
+      uplink: '/Downloads/Outdoor_Cameras/',
       headline: 'INSTAR Products IN-4011',
-      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/OutdoorCams">Außenkameras</a></li><li><a href="/Downloads/OutdoorCams/IN-4011/">IN-4011</a></li>',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Downloads/Outdoor_Cameras/IN-4011/">IN-4011</a></li>',
     });
 });
 
 
-downloadsRouter.route('/OutdoorCams/IN-4010_V2/')
+downloadsRouter.route('/Outdoor_Cameras/IN-4010_V2/')
 .get(function(req, res) {
-  res.render('./OutdoorCams/Downloads_OutdoorCams_4010', {
+  res.render('./Outdoor_Cameras/Downloads_OutdoorCams_4010', {
       title: 'IN-4010 V2 Downloads',
       ampimg: '/images/Search/P_SearchThumb_OutdoorCams.jpg',
-      uplink: '/Downloads/OutdoorCams/',
+      uplink: '/Downloads/Outdoor_Cameras/',
       headline: 'INSTAR Products IN-4010 V2',
-      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/OutdoorCams">Außenkameras</a></li><li><a href="/Downloads/OutdoorCams/IN-4010_V2/">IN-4010 V2</a></li>',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Downloads/Outdoor_Cameras/IN-4010_V2/">IN-4010 V2</a></li>',
     });
 });
 
-downloadsRouter.route('/OutdoorCams/IN-2908/')
+downloadsRouter.route('/Outdoor_Cameras/IN-2908/')
 .get(function(req, res) {
-  res.render('./OutdoorCams/Downloads_OutdoorCams_2908', {
+  res.render('./Outdoor_Cameras/Downloads_OutdoorCams_2908', {
       title: 'IN-2908 Downloads',
       ampimg: '/images/Search/P_SearchThumb_OutdoorCams.jpg',
-      uplink: '/Downloads/OutdoorCams/',
+      uplink: '/Downloads/Outdoor_Cameras/',
       headline: 'INSTAR Products IN-2908',
-      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/OutdoorCams">Außenkameras</a></li><li><a href="/Downloads/OutdoorCams/IN-2908/">IN-2908</a></li>',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Downloads/Outdoor_Cameras/IN-2908/">IN-2908</a></li>',
     });
 });
 
 
-downloadsRouter.route('/OutdoorCams/IN-2905_V2/')
+downloadsRouter.route('/Outdoor_Cameras/IN-2905_V2/')
 .get(function(req, res) {
-  res.render('./OutdoorCams/Downloads_OutdoorCams_2905', {
+  res.render('./Outdoor_Cameras/Downloads_OutdoorCams_2905', {
       title: 'IN-2905 V2 Downloads',
       ampimg: '/images/Search/P_SearchThumb_OutdoorCams.jpg',
-      uplink: '/Downloads/OutdoorCams/',
+      uplink: '/Downloads/Outdoor_Cameras/',
       headline: 'INSTAR Products IN-2905 V2',
-      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/OutdoorCams">Außenkameras</a></li><li><a href="/Downloads/OutdoorCams/IN-2905_V2/">IN-2905 V2</a></li>',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Downloads/Outdoor_Cameras/IN-2905_V2/">IN-2905 V2</a></li>',
     });
 });
 
