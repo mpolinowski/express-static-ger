@@ -11,8 +11,12 @@
           <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
-        <section class="blade get-started">
-            <div class="container">
+      <div class="wrap">
+          <div class="container main">
+            <% include ../_partials/content/_bluenav-dl.ejs %>
+
+             <section class="blade get-started">
+              <div class="container">
                 <div class="row">
                     <div class="twelve columns">
                       <h1>INSTAR Wiki Downloadbereich</h1>
@@ -21,9 +25,9 @@
                 </div>
 
                 <div class="card-container">
-                    <div class="card">
+                    <div class="twocard">
                         <div class="image">
-                          <a href="/Downloads/Indoor_Cameras/">
+                          <a href="/Downloads/IndoorCams/">
                             <amp-img noloading height=256 width=256 layout=responsive src="/images/IN-6014_Shop.jpg"></amp-img>
                           </a>
                         </div>
@@ -31,12 +35,12 @@
                             <h3>Innenkameras</h3>
                         </div>
                         <div class="action">
-                            <a href="/Downloads/Indoor_Cameras/">Downloads</a>
+                            <a href="/Downloads/IndoorCams">zu den Downloads</a>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="twocard">
                         <div class="image">
-                          <a href="/Downloads/Outdoor_Cameras/">
+                          <a href="/Downloads/OutdoorCams/">
                             <amp-img noloading height=256 width=256 layout=responsive src="/images/IN-5905_Shop.jpg"></amp-img>
                           </a>
                         </div>
@@ -44,20 +48,7 @@
                             <h3>Außenkameras</h3>
                         </div>
                         <div class="action">
-                            <a href="/Downloads/Outdoor_Cameras/">Downloads</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="image">
-                          <a href="/Downloads/Software/">
-                            <amp-img noloading height=256 width=256 layout=responsive src="/images/InstarVision2_Shop.jpg"></amp-img>
-                          </a>
-                        </div>
-                        <div class="content">
-                            <h3>Desktop-Software</h3>
-                        </div>
-                        <div class="action">
-                            <a href="/Downloads/Software/">Downloads</a>
+                            <a href="/Downloads/OutdoorCams/">zu den Downloads</a>
                         </div>
                     </div>
                 </div>
@@ -65,9 +56,22 @@
                 <!-- Card Container -->
 
                 <div class="card-container">
-                    <div class="card">
+                    <div class="twocard">
                         <div class="image">
-                          <a href="/Downloads/Mobile_Apps/">
+                          <a href="/Downloads/Desktop_Software/">
+                            <amp-img noloading height=256 width=256 layout=responsive src="/images/InstarVision2_Shop.jpg"></amp-img>
+                          </a>
+                        </div>
+                        <div class="content">
+                            <h3>Desktop-Software</h3>
+                        </div>
+                        <div class="action">
+                            <a href="/Downloads/Desktop_Software">zu den Downloads</a>
+                        </div>
+                    </div>
+                    <div class="twocard">
+                        <div class="image">
+                          <a href="/Downloads/Apps/">
                             <amp-img noloading height=256 width=256 layout=responsive src="/images/InstarVision_App_Shop.jpg"></amp-img>
                           </a>
                         </div>
@@ -75,10 +79,12 @@
                             <h3>Apps</h3>
                         </div>
                         <div class="action">
-                            <a href="/Downloads/Mobile_Apps/">Downloads</a>
+                            <a href="/Downloads/Apps">zu den Downloads</a>
                         </div>
                     </div>
-                    <div class="card">
+                </div>
+                <div class="card-container">
+                    <div class="twocard">
                         <div class="image">
                           <a href="/Downloads/Accessories/">
                             <amp-img noloading height=256 width=256 layout=responsive src="/images/IN-Motion500_Shop.jpg"></amp-img>
@@ -88,10 +94,10 @@
                             <h3>Allgemeines Zubehör</h3>
                         </div>
                         <div class="action">
-                            <a href="/Downloads/Accessories/">Downloads</a>
+                            <a href="/Downloads/Accessories">zu den Downloads</a>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="twocard">
                         <div class="image">
                           <a href="/Downloads/Network_Accessories/">
                             <amp-img noloading height=256 width=256 layout=responsive src="/images/IN-PoE4000_Shop.jpg"></amp-img>
@@ -101,42 +107,19 @@
                             <h3>Netzwerkzubehör</h3>
                         </div>
                         <div class="action">
-                            <a href="/Downloads/Network_Accessories/">Downloads</a>
+                            <a href="/Downloads/Network_Accessories">zu den Downloads</a>
                         </div>
                     </div>
                 </div>
                 <!-- Card Container -->
 
             </div>
-        </section>
+          </section>
 
-        <!-- <section class="blade blog mobile-down">
-
-            <div class="container wider">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1>Verwandte Themen:</h1>
-                    </div>
-                </div>
-
-                <div class="tab-container">
-
-                    <a class="tab" href="/Quick_Installation/First_Steps">
-                        <h3>Erste Schritte um Ihre INSTAR Kamera zu installieren</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-					          <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
-						            <h3>Wie Sie die Firmware und Benutzeroberfläche Ihrer Kamera ändern können</h3>
-						            <div class="subtitle">Mittel</div>
-					          </a>
-
-                </div>
-
-                <a href="/Quick_Installation/" target="_blank">Mehr ansehen</a>
-
-            </div>
-        </section>-->
+         </div>
+          <!-- /container -->
+      </div>
+      <!-- /wrap -->
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>
