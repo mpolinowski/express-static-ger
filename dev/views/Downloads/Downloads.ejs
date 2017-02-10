@@ -11,8 +11,12 @@
           <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
-        <section class="blade get-started">
-            <div class="container">
+      <div class="wrap">
+          <div class="container main">
+            <% include ../_partials/content/_bluenav-dl.ejs %>
+
+             <section class="blade get-started">
+              <div class="container">
                 <div class="row">
                     <div class="twelve columns">
                       <h1>INSTAR Wiki Downloadbereich</h1>
@@ -20,10 +24,10 @@
                     </div>
                 </div>
 
-                <div class="card-container centered">
-                    <div class="card">
+                <div class="card-container">
+                    <div class="twocard">
                         <div class="image">
-                          <a href="/Downloads/Indoor_Cameras/">
+                          <a href="/Downloads/IndoorCams/">
                             <amp-img noloading height=256 width=256 layout=responsive src="/images/IN-6014_Shop.jpg"></amp-img>
                           </a>
                         </div>
@@ -31,16 +35,12 @@
                             <h3>Innenkameras</h3>
                         </div>
                         <div class="action">
-<<<<<<< HEAD
                             <a href="/Downloads/IndoorCams">zu den Downloads</a>
-=======
-                            <a href="/Downloads/Indoor_Cameras/">Downloads</a>
->>>>>>> master
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="twocard">
                         <div class="image">
-                          <a href="/Downloads/Outdoor_Cameras/">
+                          <a href="/Downloads/OutdoorCams/">
                             <amp-img noloading height=256 width=256 layout=responsive src="/images/IN-5905_Shop.jpg"></amp-img>
                           </a>
                         </div>
@@ -48,16 +48,17 @@
                             <h3>Außenkameras</h3>
                         </div>
                         <div class="action">
-<<<<<<< HEAD
-                            <a href="/Downloads/OutdoorCams">zu den Downloads</a>
-=======
-                            <a href="/Downloads/Outdoor_Cameras/">Downloads</a>
->>>>>>> master
+                            <a href="/Downloads/OutdoorCams/">zu den Downloads</a>
                         </div>
                     </div>
-                    <div class="card">
+                </div>
+
+                <!-- Card Container -->
+
+                <div class="card-container">
+                    <div class="twocard">
                         <div class="image">
-                          <a href="/Downloads/Software/">
+                          <a href="/Downloads/Desktop_Software/">
                             <amp-img noloading height=256 width=256 layout=responsive src="/images/InstarVision2_Shop.jpg"></amp-img>
                           </a>
                         </div>
@@ -65,21 +66,12 @@
                             <h3>Desktop-Software</h3>
                         </div>
                         <div class="action">
-<<<<<<< HEAD
                             <a href="/Downloads/Desktop_Software">zu den Downloads</a>
-=======
-                            <a href="/Downloads/Software/">Downloads</a>
->>>>>>> master
                         </div>
                     </div>
-                </div>
-
-                <!-- Card Container -->
-
-                <div class="card-container centered">
-                    <div class="card">
+                    <div class="twocard">
                         <div class="image">
-                          <a href="/Downloads/Mobile_Apps/">
+                          <a href="/Downloads/Apps/">
                             <amp-img noloading height=256 width=256 layout=responsive src="/images/InstarVision_App_Shop.jpg"></amp-img>
                           </a>
                         </div>
@@ -87,14 +79,12 @@
                             <h3>Apps</h3>
                         </div>
                         <div class="action">
-<<<<<<< HEAD
                             <a href="/Downloads/Apps">zu den Downloads</a>
-=======
-                            <a href="/Downloads/Mobile_Apps/">Downloads</a>
->>>>>>> master
                         </div>
                     </div>
-                    <div class="card">
+                </div>
+                <div class="card-container">
+                    <div class="twocard">
                         <div class="image">
                           <a href="/Downloads/Accessories/">
                             <amp-img noloading height=256 width=256 layout=responsive src="/images/IN-Motion500_Shop.jpg"></amp-img>
@@ -104,14 +94,10 @@
                             <h3>Allgemeines Zubehör</h3>
                         </div>
                         <div class="action">
-<<<<<<< HEAD
                             <a href="/Downloads/Accessories">zu den Downloads</a>
-=======
-                            <a href="/Downloads/Accessories/">Downloads</a>
->>>>>>> master
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="twocard">
                         <div class="image">
                           <a href="/Downloads/Network_Accessories/">
                             <amp-img noloading height=256 width=256 layout=responsive src="/images/IN-PoE4000_Shop.jpg"></amp-img>
@@ -121,18 +107,19 @@
                             <h3>Netzwerkzubehör</h3>
                         </div>
                         <div class="action">
-<<<<<<< HEAD
                             <a href="/Downloads/Network_Accessories">zu den Downloads</a>
-=======
-                            <a href="/Downloads/Network_Accessories/">Downloads</a>
->>>>>>> master
                         </div>
                     </div>
                 </div>
                 <!-- Card Container -->
 
             </div>
-        </section>
+          </section>
+
+         </div>
+          <!-- /container -->
+      </div>
+      <!-- /wrap -->
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

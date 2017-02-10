@@ -11,6 +11,10 @@
           <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
+      <div class="wrap">
+          <div class="container main">
+            <% include ../_partials/content/_bluenav-dl.ejs %>
+
         <section class="blade get-started">
             <div class="container">
                 <div class="row">
@@ -19,8 +23,8 @@
                     </div>
                 </div>
 
-                <div class="card-container centered">
-                    <div class="card">
+                <div class="card-container">
+                    <div class="twocard">
                         <div class="image">
                             <amp-img noloading height=256 width=256 layout=responsive src="/images/InstarVision2_Shop.jpg"></amp-img>
                         </div>
@@ -31,7 +35,7 @@
                             <a href="/Quick_Installation/How_To_Clear_Your_Browsing_History/Internet_Explorer">zu den Downloads</a>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="twocard">
                         <div class="image">
                             <amp-img noloading height=256 width=256 layout=responsive src="/images/Instar-Camera-Tool.jpg"></amp-img>
                         </div>
@@ -46,6 +50,11 @@
 
             </div>
         </section>
+
+        </div>
+        <!-- /container -->
+     </div>
+     <!-- /wrap -->
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>
