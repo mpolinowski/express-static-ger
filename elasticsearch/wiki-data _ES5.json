@@ -1,0 +1,214 @@
+################################################################ Configuring Analyzers
+
+{
+  "analysis": {
+    "char_filter": {
+       "replace": {
+        "type": "mapping",
+        "mappings": [
+          "&=> and "
+        ]
+      }
+    },
+    "filter": {
+      "word_delimiter" : {
+        "type" : "word_delimiter",
+        "split_on_numerics" : false,
+        "split_on_case_change" : true,
+        "generate_word_parts" : true,
+        "generate_number_parts" : true,
+        "catenate_all" : true,
+        "preserve_original":true,
+        "catenate_numbers":true
+      }
+    },
+    "analyzer": {
+      "default": {
+        "type": "custom",
+        "char_filter": [
+          "html_strip",
+          "replace"
+        ],
+        "tokenizer": "whitespace",
+        "filter": [
+            "lowercase",
+            "word_delimiter"
+        ]
+      }
+    }
+  }
+}
+    
+
+Out the box, elasticsearch uses the default standard analyzer. We extend the default analyzer to offer word delimiter, html strip and char mapping.
+
+################################################################ Create Mapping
+
+Often you will want a field to be both searchable and appear as filters. A field will need to be indexed in 2 ways to achieve this, and we can make use of multi fields:
+
+{
+  "article" : {
+    "properties" : {
+      "chapters" : {
+        "type" : "string",
+        "fields" : {          
+          "raw" : {
+            "type" : "string",
+            "index" : "not_analyzed"
+          }
+        }
+      }
+    }
+  }
+}
+
+This mapping will mean the chapters field is indexed in 2 ways. The chapters path will be analyzed by elastic search meaning it will be tokenized and have the standard stop words removed which is ideal for a free text search. The chapters.raw path will be left untouched by Elasticsearch, Searchkit would use not_analyzed paths to power aggregated search components.
+
+Component examples:
+
+Using the chapter.raw field
+
+<RefinementListFilter id="chapters" title="Chapters" field="chapters.raw" operator="AND"/>
+
+Using the field for searching using prefix:
+
+<SearchBox prefixQueryFields={["chapters^1", "name^10"]}/>
+
+
+################################################################ PUT with Kibana
+
+PUT /wiki2_en
+{
+  "analysis": {
+    "char_filter": {
+       "replace": {
+        "type": "mapping",
+        "mappings": [
+          "&=> and "
+        ]
+      }
+    },
+    "filter": {
+      "word_delimiter" : {
+        "type" : "word_delimiter",
+        "split_on_numerics" : false,
+        "split_on_case_change" : true,
+        "generate_word_parts" : true,
+        "generate_number_parts" : true,
+        "catenate_all" : true,
+        "preserve_original":true,
+        "catenate_numbers":true
+      }
+    },
+    "analyzer": {
+      "default": {
+        "type": "custom",
+        "char_filter": [
+          "html_strip",
+          "replace"
+        ],
+        "tokenizer": "whitespace",
+        "filter": [
+            "lowercase",
+            "word_delimiter"
+        ]
+      }
+    }
+  },
+  "mappings": {
+    "article": {
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "series": {
+          "type": "string",
+          "index" : "not_analyzed"
+        },
+        "models": {
+          "type": "string",
+          "index" : "not_analyzed"
+        },
+        "description": {
+          "type": "string",
+          "analyzer": "german"
+        },
+        "description2": {
+          "type": "string",
+          "analyzer": "english"
+        },
+        "link": {
+          "type": "string",
+          "index" : "not_analyzed"
+        },
+        "title2": {
+          "type": "string"
+        },
+        "chapters" : {
+        "type" : "string",
+        "fields" : {          
+          "raw" : {
+            "type" : "string",
+            "index" : "not_analyzed"
+            }
+          }
+        },
+        "tags": {
+          "type": "string",
+          "analyzer": "keyword",
+          "fields" : {          
+          "raw" : {
+            "type" : "string",
+            "index" : "not_analyzed"
+            }
+          }
+        },
+        "image": {
+          "type": "string",
+          "index" : "not_analyzed"
+        },
+        "abstract": {
+          "type": "string",
+          "analyzer": "english"
+        }
+      }
+    }
+  }
+}
+
+http://localhost:9200/wiki2_en?pretty
+
+http://localhost:5601/app/kibana
+
+http://localhost:5601/app/sense
+
+
+
+################################################################ Single Post
+
+POST /wiki2_en/article
+{
+  "title": "Wie arbeitet eine IP Kamera?",
+  "series": ["HD", "VGA", "Indoor", "Outdoor"],
+  "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
+  "description": "Wie arbeitet eine IP Kamera? Dieses Video beinhaltet einen kurzen Überblick über die Grundfunktionen einer IP Kamera wie z.B. LAN oder WiFi Konnektivität Zugriff über das Internet mit Hilfe von DDNS (Dynamic Domain Name Service) Interne IP Adresse gegenüber der Internet IP Adresse (DDNS) Was ist der Unterschied zwischen der internen IP (LAN) und der externen IP Adresse (WAN) Interner Port / externer Port - Wie öffnet man die Tür aus bzw. ins Internet (Port Forwarding)",
+  "description2": "How does an IP-Camera-Network work? LAN or Wifi connectivity. Remote access to your camera via DDNS (Dynamic Domain Name Service). Internal IP address vs internet address (DDNS). What is the difference between the internal IP (LAN) and the external IP address (WAN). Internal port / external port - How to open a door to the internet (Port Forwarding)",
+  "link": "/Quick_Installation/How_Does_An_IP_Camera_Work",
+  "title2": "How Does An IP Camera Work?",
+  "chapters": "Quick Installation",
+  "tags": ["Introduction", "Quickinstallation"],
+  "image": "/images/Search/QI_SearchThumb_HowDoesAnIPCameraWork.jpg",
+  "abstract": "How do IP Cameras work in my Network"
+}
+
+
+
+
+################################################################ Update Field
+
+POST /wiki/article/AVXzjlPh7CL0F31EvU-m/_update
+{
+  "doc": {
+    "image": "/images/Search/InstarWiki_SearchThumb_HowDoesAnIPCameraWork.jpg"
+  }
+}

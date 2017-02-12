@@ -55,7 +55,7 @@ motionDetectionRouter.get('/Cloud/', function(req, res) {
         title: 'INSTAR Cloud',
         uplink: '/Motion_Detection',
         ampimg: '/images/Search/MD_SearchThumb_Cloud.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Motion Detection</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/">INSTAR Cloud</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Motion_Detection/">Motion Detection</a></li><li class="breadcrumb-item"><a href="/Motion_Detection/INSTAR_Cloud/">INSTAR Cloud</a></li>',
       });
   });
 
@@ -64,7 +64,7 @@ motionDetectionRouter.get('/Cloud/Create_User_Account', function(req, res) {
         title: 'INSTAR Cloud - Neues Benutzerkonto erstellen',
         uplink: '/Motion_Detection/Cloud',
         ampimg: '/images/Search/MD_SearchThumb_Cloud.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Motion Detection</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/">INSTAR Cloud</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/Create_User_Account/">Neuen Benutzer erstellen</a></li>',
+        breadcrumbs: '<li><a href="/Motion_Detection/">Motion Detection</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/">INSTAR Cloud</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/Create_User_Account/">Neuen Benutzer erstellen</a></li>',
       });
   });
 
@@ -73,7 +73,7 @@ motionDetectionRouter.get('/Cloud/Create_User_Account', function(req, res) {
         title: 'INSTAR Cloud - Mehr Speicherplatz buchen',
         uplink: '/Motion_Detection/Cloud',
         ampimg: '/images/Search/MD_SearchThumb_Cloud.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Motion Detection</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/">INSTAR Cloud</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/Storage/">Speicherplatz</a></li>',
+        breadcrumbs: '<li><a href="/Motion_Detection/">Motion Detection</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/">INSTAR Cloud</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/Storage/">Speicherplatz</a></li>',
       });
   });
 
@@ -82,7 +82,7 @@ motionDetectionRouter.get('/Cloud/Create_User_Account', function(req, res) {
         title: 'INSTAR Cloud - Benutzer',
         uplink: '/Motion_Detection/Cloud',
         ampimg: '/images/Search/MD_SearchThumb_Cloud.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Motion Detection</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/">INSTAR Cloud</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/User/">Benutzer</a></li>',
+        breadcrumbs: '<li><a href="/Motion_Detection/">Motion Detection</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/">INSTAR Cloud</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/User/">Benutzer</a></li>',
       });
   });
 
@@ -91,7 +91,7 @@ motionDetectionRouter.get('/Cloud/Create_User_Account', function(req, res) {
         title: 'INSTAR Cloud - Verwaltung Ihrer Cloud',
         uplink: '/Motion_Detection/Cloud',
         ampimg: '/images/Search/MD_SearchThumb_Cloud.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Motion Detection</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/">INSTAR Cloud</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/Administration/">Administration</a></li>',
+        breadcrumbs: '<li><a href="/Motion_Detection/">Motion Detection</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/">INSTAR Cloud</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/Administration/">Administration</a></li>',
       });
   });
 
@@ -100,12 +100,12 @@ motionDetectionRouter.get('/Cloud/Create_User_Account', function(req, res) {
         title: 'INSTAR Cloud - Alarm Benachrichtigungen',
         uplink: '/Motion_Detection/Cloud',
         ampimg: '/images/Search/MD_SearchThumb_Cloud.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Motion Detection</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/">INSTAR Cloud</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/Alarm_Recordings/">Alarm Aufnahmen</a></li>',
+        breadcrumbs: '<li><a href="/Motion_Detection/">Motion Detection</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/">INSTAR Cloud</a></li><li><a href="/Motion_Detection/INSTAR_Cloud/Alarm_Recordings/">Alarm Aufnahmen</a></li>',
       });
   });
 
-  motionDetectionRouter.get('/Cloud/Settings', function(req, res) {
-    res.render('./Motion_Detection/Cloud_Settings', {
+  motionDetectionRouter.get('/Cloud/Sets', function(req, res) {
+    res.render('./Motion_Detection/Cloud_Sets', {
         title: 'INSTAR Cloud - Einstellungen',
         uplink: '/Motion_Detection/Cloud',
         ampimg: '/images/Search/MD_SearchThumb_Cloud.jpg',
