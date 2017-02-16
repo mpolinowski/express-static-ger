@@ -327,6 +327,11 @@ To restart the Nginx service, enter the following command:
  service nginx restart
 ```
 
+Check Nginx version:
+```
+ nginx -V
+```
+
 
 ### 6 Install Node.js on a CentOS 7 web server
 ___
@@ -540,7 +545,12 @@ sudo systemctl enable elasticsearch
 | logs | Log files location | /var/log/elasticsearch |
 | plugins | Plugin files location. Each plugin will be contained in a subdirectory. | /usr/share/elasticsearch/plugins |
 | repo | Shared file system repository locations. | Not configured |
-| script | Location of script files. | /etc/elasticsearch/scripts |
+| script | Location of script files. | /etc/elasticsearch/scripts |```
+
+Check Elasticsearch Version:
+```
+curl -XGET 'localhost:9200'
+```
 
 
 
