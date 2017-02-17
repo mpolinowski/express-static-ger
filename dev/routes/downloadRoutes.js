@@ -19,6 +19,7 @@ downloadsRouter.get('/Indoor_Cameras/', function(req, res) {
         breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Indoor_Cameras/">Innenkameras</a></li>',
       });
   });
+
 downloadsRouter.get('/Outdoor_Cameras/', function(req, res) {
     res.render('./Downloads/Outdoor_Cameras', {
         title: 'Downloadbereich für Außenkameras',
@@ -46,6 +47,28 @@ downloadsRouter.get('/Network_Accessories/', function(req, res) {
       });
   });
 
+/* ###################################################### Mobile Apps ###################################################### */
+
+downloadsRouter.get('/Mobile_Apps/', function(req, res) {
+    res.render('./Downloads/Mobile_Apps', {
+        title: 'Downloadbereich unserer Mobilen Apps',
+        ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
+        uplink: '/Downloads',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Mobile_Apps/">Mobile Apps</a></li>',
+      });
+  });
+
+downloadsRouter.get('/Mobile_Apps/Android_BlackBerry/', function(req, res) {
+    res.render('./Downloads/Mobile_Apps_Android_BlackBerry', {
+        title: 'Download der INSTAR Vision für Android und BlackBerry',
+        ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
+        uplink: '/Downloads/Mobile_Apps',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Mobile_Apps/">Mobile Apps</a></li><li class="breadcrumb-item"><a href="/Mobile_Apps/Android_BlackBerry">Mobile Apps</a></li>',
+      });
+  });
+
+/* ###################################################### Desktop Software###################################################### */
+
 downloadsRouter.get('/Desktop_Software/', function(req, res) {
     res.render('./Downloads/Desktop_Software', {
         title: 'Downloadbereich unserer Desktop Software',
@@ -55,12 +78,12 @@ downloadsRouter.get('/Desktop_Software/', function(req, res) {
       });
   });
 
-downloadsRouter.get('/Mobile_Apps/', function(req, res) {
-    res.render('./Downloads/Mobile_Apps', {
-        title: 'Downloadbereich unserer Mobil Apps',
+downloadsRouter.get('/Desktop_Software/InstarVision', function(req, res) {
+    res.render('./Downloads/Desktop_Software_InstarVision', {
+        title: 'Downloadbereich der InstarVision Desktop Software',
         ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
-        uplink: '/Downloads',
-        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Apps/">Mobile Apps</a></li>',
+        uplink: '/Downloads/Desktop_Software',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Desktop_Software/">Desktop-Software</a></li><li class="breadcrumb-item"><a href="/Desktop_Software/InstarVision">InstarVision</a></li>',
       });
   });
 
@@ -77,7 +100,6 @@ downloadsRouter.route('/Indoor_Cameras/IN-6014_HD/')
     });
 });
 
-
 downloadsRouter.route('/Indoor_Cameras/IN-6012_HD/')
 .get(function(req, res) {
   res.render('./Indoor_Cameras/Downloads_IndoorCams_6012', {
@@ -88,7 +110,6 @@ downloadsRouter.route('/Indoor_Cameras/IN-6012_HD/')
       breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Indoor_Cameras">Innenkameras</a></li><li><a href="/Downloads/Indoor_Cameras/IN-6012_HD">IN-6012 HD</a></li>',
     });
 });
-
 
 downloadsRouter.route('/Indoor_Cameras/IN-6001_HD/')
 .get(function(req, res) {
@@ -101,7 +122,6 @@ downloadsRouter.route('/Indoor_Cameras/IN-6001_HD/')
     });
 });
 
-
 downloadsRouter.route('/Indoor_Cameras/IN-3011/')
 .get(function(req, res) {
   res.render('./Indoor_Cameras/Downloads_IndoorCams_3011', {
@@ -113,9 +133,7 @@ downloadsRouter.route('/Indoor_Cameras/IN-3011/')
     });
 });
 
-
 /* ###################################################### Außenkameras ###################################################### */
-
 
 downloadsRouter.route('/Outdoor_Cameras/IN-7011_HD/')
 .get(function(req, res) {
@@ -128,7 +146,6 @@ downloadsRouter.route('/Outdoor_Cameras/IN-7011_HD/')
     });
 });
 
-
 downloadsRouter.route('/Outdoor_Cameras/IN-5907_HD/')
 .get(function(req, res) {
   res.render('./Outdoor_Cameras/Downloads_OutdoorCams_5907', {
@@ -139,7 +156,6 @@ downloadsRouter.route('/Outdoor_Cameras/IN-5907_HD/')
       breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Downloads/Outdoor_Cameras/IN-5907_HD/">IN-5907 HD</a></li>',
     });
 });
-
 
 downloadsRouter.route('/Outdoor_Cameras/IN-5905_HD/')
 .get(function(req, res) {
@@ -164,7 +180,6 @@ downloadsRouter.route('/Outdoor_Cameras/IN-4011/')
     });
 });
 
-
 downloadsRouter.route('/Outdoor_Cameras/IN-4010_V2/')
 .get(function(req, res) {
   res.render('./Outdoor_Cameras/Downloads_OutdoorCams_4010', {
@@ -186,7 +201,6 @@ downloadsRouter.route('/Outdoor_Cameras/IN-2908/')
       breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Outdoor_Cameras">Außenkameras</a></li><li><a href="/Downloads/Outdoor_Cameras/IN-2908/">IN-2908</a></li>',
     });
 });
-
 
 downloadsRouter.route('/Outdoor_Cameras/IN-2905_V2/')
 .get(function(req, res) {
