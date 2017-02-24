@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html ⚡>
+    <head>
+        <% include ../_partials/amp/_amp-head.ejs %>
+        <link rel="canonical" href="/Motion_Detection/Alarm_FTP_Upload">
+    </head>
+
+    <body class="home">
+
+      <header class="fixed">
+          <% include ../_partials/amp/_amp-header.ejs %>
+      </header>
+
+        <div class="wrap">
+            <div class="container main">
+              <% include ../_partials/content/_bluenav-md.ejs %>
+
+                <article>
+                    <!-- article -->
+
+                    <div class="margin">
+                      <table>
+                        <tr>
+                          <td>
+                            <a href="/Motion_Detection/Alarm_FTP_Upload/"><button type="button" class="btn">1080p Serie</button></a>
+                          </td>
+                          <td>
+                            <button type="button" disabled class="btn btnDisabled">720p Serie</button>
+                          </td>
+                          <td>
+                            <a href="/Motion_Detection/Alarm_FTP_Upload/VGA_Series/"><button type="button" class="btn">VGA Serie</button></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h1>FTP Einstellungen für den Alarm Upload</h1>
+                        <h2>720p Kamera Serie</h2>
+                        <p>
+                          <strong>Einrichten der FTP Einstellungen für Alarm und Fotoserie</strong></br>Ihre Kamera kann sowohl im Alarmfall als auch in einem frei definierbaren Zeitintervall Standbilder und Videos auf einen FTP Server hochladen. Die hierfür notwendigen Einstellungen können in der Weboberfläche der Kamera unter dem Punkt <a href="/Web_User_Interface/720p_Series/Alarm/FTP/">Alarm / FTP</a>, <a href="/Web_User_Interface/720p_Series/Alarm/Actions/">Alarm / Aktionen</a> oder <a href="/Web_User_Interface/720p_Series/Recording/Photoseries/">Aufnahme / Photoserie</a> vorgenommen werden.
+                        </p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_1_en.jpg" width="700" height="398" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox1" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox1.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_1_en.jpg" width="700" height="398" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h3>Schritt 1</h3>
+                        <p>
+                          Öffnen Sie die Weboberfläche Ihrer HD IP Kamera und klicken Sie auf Alarm - FTP.
+                        </p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_2_en.jpg" width="450" height="555" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox2" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox2.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_2_en.jpg" width="450" height="555" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h3>Schritt 2</h3>
+                        <p>
+                          Die folgenden Einstellungen müssen in der sich öffnenden Oberfläche vorgenommen werden.
+                        </p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_2_en.jpg" width="400" height="555" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox3" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox3.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_2_en.jpg" width="400" height="555" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>
+                          <strong>FTP Server</strong>: Bitte geben Sie die Adresse Ihres FTP Servers ein. Im Beispiel oben haben wir eine AVM Fritzbox (Router) als FTP Server genutzt. Der Router bietet einen USB Stick als Speicherplatz für die Bilder. In unserem Fall müssen wir die IP Adresse unseres Routers eingeben. Falls Sie Ihren eigenen FTP Server auf Ihrem lokalen Rechner einrichten möchten, finden Sie hier eine passende Schritt-für-Schritt Anleitung. Sie können auch eine Webadresse als FTP Server angeben. Dies kann entweder ein Online-Service sein oder eine DDNS-Adresse die auf einen anderen FTP Server verweist.
+						            </p>
+                        <p>
+                          <strong>FTP Port</strong>: Bitte geben Sie den FTP Port ein, welcher normalerweise 21 ist.
+                        </p>
+                        <p>
+                          <strong>FTP Ordner</strong>: Geben Sie den Ordner an, in den die Bilder hochgeladen werden sollen. Standardmäßig ist der Ordner "./" , was die Bilder in den Root-Ordner des Servers hochladen würde. In unserem Beispiel oben werden die Bilder im Root-Ordner gespeichert.
+                        </p>
+                        <p>
+                          <strong>FTP Benutzernamename</strong>: Bitte geben Sie den Benutzernamen Ihres FTP-Accounts an. Der Standard-Benutzername der AVM Fritzbox ist "ftpuser".
+                        </p>
+                        <p>
+                          <strong>FTP Passwort</strong>: Bitte geben Sie das Passwort Ihres FTP-Accounts an.
+                        </p>
+                        <p>
+                          <strong>FTP Modus</strong>: Hier können Sie zwischen (PASV) und dem aktiven Modus (PORT) wählen. Der Standardmodus ist PORT mit der die Kamera dem Server Ihre IP-Adresse und Port mitteilt. Dieser Modus funktioniert auch mit passiven FTP-Servern. Wenn sich der Client hinter einem Router befindet, der NAT benutzt, oder eine Firewall die Verbindung blockiert, sollte der PASV-Modus verwendet werden.
+                        </p>
+                        <p>Als nächstes Bestätigen Sie bitte alle Einstellungen und testen Sie danach, um sicherzustellen das alle Einstellungen korrekt sind.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_3_en.jpg" width="700" height="398" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox3" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox3.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_3_en.jpg" width="700" height="398" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h3>Schritt 3</h3>
+                        <p>
+                          Bitte öffnen Sie das Menü Alarm / Aktionen
+                        </p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_4_en.jpg" width="450" height="408" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox3" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox3.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_4_en.jpg" width="450" height="408" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h3>Schritt 4</h3>
+                        <p>
+                          In der Oberfläche, die sich öffnet, wählen Sie bitte, was die Kamera bei einer Bewegungserkennung machen soll. Die Kamera kann Bilder auf einen FTP Server hochladen, wenn eine Bewegung erkannt wird. Insgesamt werden 4 Bilder hochgeladen, in denen Sie erkenn können, welches Objekt den Alarm ausgelöst hat. Alle Bilder werden in der vollen HD Auflösung 1280 x 720 hochgeladen. Sie können auch Videos auf Ihren FTP Server hochladen. Dafür müssen Sie eine SD-Karte in Ihre Kamera stecken. Die Kamera wird dann auf der SD-Karte aufgenommen und auf den FTP Server hochgeladen. Mehr Informationen über die Einstellungen für die Bewegungserkennung finden Sie <a href="/Motion_Detection/Setup">HIER</a>.
+                        </p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_5_en.jpg" width="700" height="398" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox3" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox3.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_5_en.jpg" width="700" height="398" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h3>Schritt 5</h3>
+                        <p>
+                          Zusätzlich zum Upload während eines Alarms können Sie auch Bilder in einem bestimmten Zeitintervall hochladen. Dank dieser Funktion können Sie eine Timelapse erstellen. Bitte öffnen Sie das Menü Alarm / Fotoserie.
+                        </p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_6_en.jpg" width="450" height="555" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox3" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox3.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/FTP_Einstellungen_HD_6_en.jpg" width="450" height="555" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h3>Schritt 6</h3>
+                        <p>
+                          Bitte aktivieren Sie die Funktion, dass Sie Fotoserien auf Ihren FTP Server hochladen möchten. Als nächstes können Sie auswählen, ob das Foto jedes Mal mit einem neuen Dateinamen hochgeladen wird (Zeitstempel), oder ob Sie einen fixen Dateinamen verwenden möchten, der jedes Mal ersetzt wird. Außerdem können Sie das Zeitintervall wählen, in denen die Bilder hochgeladen werden sollen. Der kleinste Wert ist 1 Sekunde, welcher allerdings auch von Ihrer Internetverbindung abhängt. Alle Bilder werden in der HD Auflösung 1280 x 720 hochgeladen.
+                        </p>
+                    </div>
+                    <!-- /margin -->
+
+                </article>
+                <!-- /article -->
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- /wrap -->
+
+        <% include ../_partials/content/_bluenav-md-mobile.ejs %>
+
+        <footer>
+            <% include ../_partials/amp/_amp-footer.ejs %>
+        </footer>
+    </body>
+</html>
