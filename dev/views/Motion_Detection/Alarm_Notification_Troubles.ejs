@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html ⚡>
+    <head>
+        <% include ../_partials/amp/_amp-head.ejs %>
+        <link rel="canonical" href="/Motion_Detection/Alarm_Notification/">
+    </head>
+
+    <body class="home">
+
+      <header class="fixed">
+          <% include ../_partials/amp/_amp-header.ejs %>
+      </header>
+
+        <div class="wrap mobile-down">
+            <div class="content">
+                <section class="hero internetAccess">
+                    <div class="container">
+                        <div class="row">
+                            <div class="six columns">
+                                <div class="intro-container">
+                                    <h1>Bewegungserkennung</h1>
+                                    <h3>Alarm Benachrichtigung</h3>
+                                    <p class="intro">
+                                      Die Bewegungserkennung funktionert durch einen Vergleich zwischen den einzelnen Bildern, die Kamera vergleicht also das letzte Bild mit dem neuesten Bild. Das hat zum einen den Effekt, das die Kamera Unterschiede in der Helligkeit der Bilder erkennt, als auch Personen und Objekte, die sich durch das Bild bewegen. Mit der Sensibilität können Sie einstellen, wieviel Prozent eines Bilds sich verändern muss, damit die Kamera einen Alarm auslöst.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /Hero -->
+            </div>
+            <!-- /Content -->
+        </div>
+        <!-- /Wrap -->
+
+        <div class="wrap">
+            <div class="container main">
+              <% include ../_partials/content/_bluenav-md.ejs %>
+
+                <article>
+                    <!-- article -->
+
+                    <div class="margin">
+                      <table>
+                        <tr>
+                          <td>
+                            <a href="/Motion_Detection/Alarm_Notification/"><button class="btn">1080p Serie</button></a>
+                          </td>
+                          <td>
+                            <a href="/Motion_Detection/Alarm_Notification/720p_Series/"><button class="btn">720p Serie</button></a>
+                          </td>
+                          <td>
+                            <a href="/Motion_Detection/Alarm_Notification/VGA_Series/"><button class="btn">VGA Serie</button></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h2>Troubleshooting</h2>
+                        <h3>Gmail</h3>
+                        <p><strong>Problem</strong>: Sie haben einen neuen Gmail Account, extra für Ihre Kamera Benachrichtigungen, eingerichtet. Die Test-Mail funktioniert allerdings aufgrund fehlgeschlagener Authentifizierung nicht.</p>
+                        <p><strong>Lösung</strong>: Google überwacht Ihr Verhalten, um sicherzustellen, dass es sich wirklich um Sie handelt, der auf die E-Mails zugreift. Wenn Sie ein anderes Gerät verwenden - z.B. ein anderes Smartphone oder Ihre IP Kamera - um sich in Ihrem Account einzuloggen, kann es sein das Google Sie blockt und nach einer 2 Wege Authentifizierung fragt. Dadurch wird Ihre Test-Mail fehlschlagen. Bitte loggen Sie sich über Ihren Webbrowser in Ihren Account ein und prüfen Sie ob Ihr Gmail Account blockiert wurde oder Google Ihnen mitteilt, das eine verdächtige Aktivität festgestellt wurde. Authentifizieren Sie sich einfach mit dem Gerät, welches das Problem ausgelöst hat.</p>
+                        <p><strong>Problem</strong>: Gmail hat immer funktioniert, aber jetzt kommen keine Alarm-Nachrichten mehr an. Von anderen Absendern erhalte ich allerdings noch E-Mails.</p>
+                        <p><strong>Lösung</strong>: Gmail hat die Anzahl von gesendeten E-Mails für freie Accounts limitiert. Ihre Kamera verwendet den Gmail SMTP Server, um die Alarm Mails zu verschicken und beschränkt daher die Anzahl der Mails die Sie senden möchten. Sie können einen seperaten Gmail Account für Ihre IP Kamera erstellen, um den Einschränkungen mit Ihren persönlichen Mails aus dem Weg zu gehen.</p>
+                        <p><strong>Problem</strong>: Sie können keine Test-Mail senden. Der Login ist fehlgeschlagen.</p>
+                        <p><strong>Lösung</strong>: Aktivieren Sie den SMTP Zugang für weniger sichere Anwendungen.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox6" role="button" tabindex="0" src="/images/Gmail-UnsecureApps_en.png" width="500" height="300" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox6" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox6.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox6.close" role="button" tabindex="0" src="/images/Gmail-UnsecureApps_en.png" width="500" height="300" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>Öffnen Sie Ihr E-Mail Account Menü und navigieren Sie zu Ihren Account Einstellungen. Gehen Sie zu den Login-Einstellungen und aktivieren Sie den Zugriff durch weniger sichere Anwendungen.</p>
+                      </div>
+                      <!-- /margin -->
+
+                      <div class="margin">
+                          <h3>Telekom Speedport</h3>
+                          <p><strong>Problem</strong>: Sie haben nun Ihre Kamera hinter einem Telekom Speedport Router eingerichtet und den SMTP Server und Ihre Login Daten eingegeben, die Test-Mail schlägt allerdings immer fehl.</p>
+                          <p><strong>Lösung</strong>: Der Telekom Speedport beinhaltet eine Liste aller erlaubten SMTP Server in seiner Firmware, welche standardmäßig genutzt wird. Obwohl diese Liste alle gewöhnlichen SMTP Server beinhaltet - kann es trotzdem Ihre Verbindungsversuche mit SMTP Servern beeinträchtigen. Sie können Ihre E-Mail Spam Einstellungen für einen Moment deaktivieren (es kann sein das Sie Ihren Speedport neustarten müssen) und es erneut versuchen.</p>
+                      </div>
+                      <!-- /margin -->
+
+                      <div class="margin">
+                        <div>
+                            <amp-img on="tap:lightbox7" role="button" tabindex="0" src="/images/01_MailAbuse-en.png" width="700" height="421" layout="responsive" class="shadow"></amp-img>
+                        </div>
+                        <amp-lightbox id="lightbox7" layout="nodisplay">
+                            <div class="lightbox" on="tap:lightbox7.close" role="button" tabindex="0" class="centered">
+                                <amp-img on="tap:lightbox7.close" role="button" tabindex="0" src="/images/01_MailAbuse-en.png" width="700" height="421" layout="responsive" class="shadow"></amp-img>
+                            </div>
+                        </amp-lightbox>
+                      </div>
+                      <!-- /margin -->
+
+                      <div class="margin">
+                          <p>Die E-Mail Spam Einstellungen deaktiviert und die Test-Mail erneut gesendet. Wenn es funktioniert, fügen Sie Ihren SMTP Server zur Liste der erlaubten Adressen hinzu und aktivieren Sie die Funktion wieder.</p>
+                      </div>
+                      <!-- /margin -->
+
+                      <div class="margin">
+                          <h3>T-Online Mail</h3>
+                          <p><strong>Problem</strong>: Sie haben einen neuen T-Online Mail Account nur für ihre Kamera Benachrichtigungen erstellt, die Test-Mails kommen allerdings aufgrund falscher Authentifizierung nicht an.</p>
+                          <p><strong>Lösung</strong>: Sie müssen ein seperates E-Mail Passwort für externe Apps verwenden um sich mit Ihrem T-Online Mail Account zu verbinden.</p>
+                      </div>
+                      <!-- /margin -->
+
+                      <div class="margin">
+                        <div>
+                            <amp-img on="tap:lightbox7" role="button" tabindex="0" src="/images/Telekom-Mail_01.png" width="800" height="500" layout="responsive" class="shadow"></amp-img>
+                        </div>
+                        <amp-lightbox id="lightbox7" layout="nodisplay">
+                            <div class="lightbox" on="tap:lightbox7.close" role="button" tabindex="0" class="centered">
+                                <amp-img on="tap:lightbox7.close" role="button" tabindex="0" src="/images/Telekom-Mail_01.png" width="800" height="500" layout="responsive" class="shadow"></amp-img>
+                            </div>
+                        </amp-lightbox>
+                      </div>
+                      <!-- /margin -->
+
+                      <div class="margin">
+                          <p>Loggen Sie sich in Ihren T-Online Web Account ein und öffnen Sie Menü -> Einstellungen. Gehen Sie auf <strong>Passwörter</strong> und klicken Sie auf <strong>E-Mail Passwort ändern</strong>. Folgen Sie den Anweisungen und bestätigen Sie Ihr Passwort.</p>
+                      </div>
+                      <!-- /margin -->
+
+                      <div class="margin">
+                        <div>
+                            <amp-img on="tap:lightbox7" role="button" tabindex="0" src="/images/Telekom-Mail_02.png" width="800" height="400" layout="responsive" class="shadow"></amp-img>
+                        </div>
+                        <amp-lightbox id="lightbox7" layout="nodisplay">
+                            <div class="lightbox" on="tap:lightbox7.close" role="button" tabindex="0" class="centered">
+                                <amp-img on="tap:lightbox7.close" role="button" tabindex="0" src="/images/Telekom-Mail_02.png" width="800" height="400" layout="responsive" class="shadow"></amp-img>
+                            </div>
+                        </amp-lightbox>
+                      </div>
+                      <!-- /margin -->
+
+                      <div class="margin">
+                          <p>Loggen Sie sich in die Weboberfläche der Kamera, öffnen Sie die <a href="/Web_User_Interface/HD_Series/Alarm/SMTP_Server/">Alarm / SMTP Oberfläche</a> und wählen T-Online. Tippen Sie Ihre komplette E-Mail Adresse als Benutzernamen und fügen Sie das Passwort, dass Sie erstellt haben, hinzu. Fügen Sie Ihre T-Online Adresse in der <a href="/Web_User_Interface/HD_Series/Alarm/Email/">Alarm / Email Oberfläche</a> hinzu, bestätigen Sie und testen anschließend die Verbindung.</p>
+                      </div>
+                      <!-- /margin -->
+
+                      <div class="margin">
+                          <h3>GMX Mail</h3>
+                          <p><strong>Problem</strong>: Die Test-Email schlägt fehl.</p>
+                          <p><strong>Lösung</strong>: Aktivieren Sie den SMTP Dienst für externe Programme wie Thunderbird oder Outlook.</p>
+                      </div>
+                      <!-- /margin -->
+
+                      <div class="margin">
+                        <div>
+                            <amp-img on="tap:lightbox8" role="button" tabindex="0" src="/images/GMX_SMTP_Fix.png" width="800" height="510" layout="responsive" class="shadow"></amp-img>
+                        </div>
+                        <amp-lightbox id="lightbox8" layout="nodisplay">
+                            <div class="lightbox" on="tap:lightbox8.close" tabindex="0" class="centered" role="button">
+                                <amp-img on="tap:lightbox8.close" role="button" tabindex="0" src="/images/GMX_SMTP_Fix.png" width="800" height="510" layout="responsive" class="shadow"></amp-img>
+                            </div>
+                        </amp-lightbox>
+                      </div>
+                      <!-- /margin -->
+
+                </article>
+                <!-- /article -->
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- /wrap -->
+
+        <section class="blade blog mobile-down">
+
+            <div class="container wider">
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1>Verwandte Themen:</h1>
+                    </div>
+                </div>
+
+                <div class="tab-container">
+
+                    <a class="tab" href="/Quick_Installation/First_Steps">
+                        <h3>Erste Schritte um Ihre INSTAR IP Camera zu installieren</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/After_Unpacking">
+                        <h3>Nach dem Auspacken Ihrer INSTAR IP Camera</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Direct_LAN_Connection">
+                        <h3>Verbinden Sie Ihre Kamera direkt mit Ihrem Computer</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
+                        <h3>Wie Sie die Firmware und Benutzeroberfläche Ihrer Kamera ändern können</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Set_Up_A_Wireless_Connection">
+                        <h3>Wie Sie Ihre Kamera mit dem WLAN verbinden</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Creating_User_Accounts">
+                        <h3>Ändern Sie den Standard-Login Ihrer Kamera</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+                </div>
+
+                <a href="/Quick_Installation/" target="_blank">Mehr ansehen</a>
+
+            </div>
+        </section>
+
+        <footer>
+            <% include ../_partials/amp/_amp-footer.ejs %>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html ⚡>
+    <head>
+        <% include ../_partials/amp/_amp-head.ejs %>
+        <link rel="canonical" href="/Motion_Detection/Alarm_FTP_Upload">
+    </head>
+
+    <body class="home">
+
+      <header class="fixed">
+          <% include ../_partials/amp/_amp-header.ejs %>
+      </header>
+
+        <div class="wrap">
+            <div class="container main">
+              <% include ../_partials/content/_bluenav-md.ejs %>
+
+                <article>
+                    <!-- article -->
+
+                    <div class="margin">
+                      <table>
+                        <tr>
+                          <td>
+                            <a href="/Motion_Detection/Alarm_FTP_Upload/"><button type="button" class="btn">1080p Serie</button></a>
+                          </td>
+                          <td>
+                            <a href="/Motion_Detection/Alarm_FTP_Upload/720p_Series/"><button type="button" class="btn">720p Serie</button></a>
+                          </td>
+                          <td>
+                            <button type="button" disabled class="btn btnDisabled">VGA Serie</button>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h1>Alarm Upload / FTP Einstellungen</h1>
+                        <h2>VGA Kamera Serie</h2>
+                        <p>
+                        FTP Upload und FTP Alarm Benachrichtigungseinstellungen
+                        </p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Email_Einstellungen_MJPEG_01_EN.jpg" width="700" height="415" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox1" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox1.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Email_Einstellungen_MJPEG_01_EN.jpg" width="700" height="415" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>
+                          <strong>FTP Server</strong>: Bitte geben Sie die Adresse Ihres FTP Servers ein. Im Beispiel oben haben wir eine AVM Fritzbox (Router) als FTP Server genutzt. Der Router bietet einen USB Stick als Speicherplatz für die Bilder. In unserem Fall müssen wir die IP Adresse unseres Routers eingeben. Falls Sie Ihren eigenen FTP Server auf Ihrem lokalen Rechner einrichten möchten, finden Sie hier eine passende Schritt-für-Schritt Anleitung. Sie können auch eine Webadresse als FTP Server angeben. Dies kann entweder ein Online-Service sein oder eine DDNS-Adresse die auf einen anderen FTP Server verweist.
+						</p>
+                        <p>
+                          <strong>FTP Port</strong>:  Bitte geben Sie den FTP Port ein, welcher normalerweise 21 ist.
+                        </p>
+                        <p>
+                          <strong>FTP Benutzernamename</strong>: Bitte geben Sie den Benutzernamen Ihres FTP-Accounts an. Der Standard-Benutzername der AVM Fritzbox ist "ftpuser".
+                        </p>
+                        <p>
+                          <strong>FTP Passwort</strong>: Bitte geben Sie das Passwort Ihres FTP-Accounts an.
+                        </p>
+                        <p>
+                          <strong>FTP Ordner</strong>: Geben Sie den Ordner an, in den die Bilder hochgeladen werden sollen. Standardmäßig ist der Ordner "./" , was die Bilder in den Root-Ordner des Servers hochladen würde. In unserem Beispiel oben werden die Bilder im Root-Ordner gespeichert.
+                        </p>
+                        <p>
+                          <strong>FTP Modus</strong>: Hier können Sie zwischen (PASV) und dem aktiven Modus (PORT) wählen. Der Standardmodus ist PORT mit der die Kamera dem Server Ihre IP-Adresse und Port mitteilt. Dieser Modus funktioniert auch mit passiven FTP-Servern. Wenn sich der Client hinter einem Router befindet, der NAT benutzt, oder eine Firewall die Verbindung blockiert, sollte der PASV-Modus verwendet werden.
+                        </p>
+                        <p>
+                          <strong>Bilder in Zeitintervall hochladen</strong>: Bitte nur aktivieren, wenn Sie wollen, dass Ihre Kamera Bilder in einem bestimmten Zeitintervall hochlädt. Dies ist eine seperate Funktion zur Alarmbenachrichtigung.
+                        </p>
+                        <p>
+                          <strong>Bild-Name</strong>: Bitte geben Sie einen Dateinamen für das Bild an, welcher bei jedem Bild-Upload gespeichert und ersetzt wird. Das benötigen Sie, wenn Sie das Bild auf Ihrer Webseite anzeigen möchten. So wird das das Bild immer durch das neueste ersetzt. Wenn Sie dieses Feld leer lassen, wird die Kamera jedes Mal ein Bild mit Zeit und Datum im Dateinamen hochladen, was so aussieht: KameraID(KameraName)_0_yyyymmddhhmmss_Nr.jpg.
+                        </p>
+                        <p>
+                          <strong>Interval (in Sekunden)</strong>: Wählen Sie das Zeitintervall, in der die Kamera ein neues Bild auf den Server hochladen soll. Das Intervall muss in Sekunden angegeben werden. Das kleinste Intervall ist 1 Sekunde, das heißt, jede Sekunde wird ein neues Bilder auf den Server hochgeladen.
+                        </p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Email_Einstellungen_MJPEG_02_EN.jpg" width="700" height="415" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox1" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox1.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Email_Einstellungen_MJPEG_02_EN.jpg" width="700" height="415" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h3>Schritt 2</h3>
+                        <p>
+                          <strong>FTP Server</strong>:  Falls Sie einen FTP Upload anstatt eines Alarms nutzen möchten, können Sie dies unter Alarm / Alarm Einstellungen tun. Wenn ein Alarm ausgelöst wird, bleibt dieser für 60 Sekunden bestehen. Mit dem Zeitintervall können Sie wählen, wieviele Bilder während der 60 Sekunden gemacht werden. Wenn Sie also das Zeitintervall auf 10 setzen, werden während dem Event 6 Bilder erstellt.
+                        </p>
+                    </div>
+                    <!-- /margin -->
+
+                </article>
+                <!-- /article -->
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- /wrap -->
+
+        <% include ../_partials/content/_bluenav-md-mobile.ejs %>
+
+        <footer>
+            <% include ../_partials/amp/_amp-footer.ejs %>
+        </footer>
+    </body>
+</html>

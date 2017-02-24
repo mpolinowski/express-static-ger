@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html ⚡>
+    <head>
+        <% include ../_partials/amp/_amp-head.ejs %>
+        <link rel="canonical" href="/Motion_Detection/Setup">
+    </head>
+
+    <body class="home">
+
+      <header class="fixed">
+          <% include ../_partials/amp/_amp-header.ejs %>
+      </header>
+
+        <div class="wrap mobile-down">
+            <div class="content">
+                <section class="hero internetAccess">
+                    <div class="container">
+                        <div class="row">
+                            <div class="six columns">
+                                <div class="intro-container">
+                                    <h1>Bewegungserkennung</h1>
+                                    <h3>Einrichten der Bewegungserkennung</h3>
+                                    <p class="intro">
+                                      Die Bewegungserkennung der Kamera funktioniert durch einen Bildvergleich zwischen den einzelnen Bildern. Die Kamera vergleicht also immer das neueste Foto mit dem letzten Foto. Dies hat außerdem den Effekt, dass die Kamera einen Unterscheid in der Helligkeit der Bilder festellt, genauso wie es Personen oder Objekte erkennt erkennt, die sich durch das Bild bewegen. Mit der Sensibilität können Sie einstellen, wieviel Prozent des Bilds sich verändern muss, damit ein Alarm ausgelöst wird.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /Hero -->
+            </div>
+            <!-- /Content -->
+        </div>
+        <!-- /Wrap -->
+
+        <div class="wrap">
+            <div class="container main">
+              <% include ../_partials/content/_bluenav-md.ejs %>
+
+                <article>
+                    <!-- article -->
+
+                    <div class="margin">
+                      <table>
+                        <tr>
+                          <td>
+                            <a href="/Motion_Detection/Setup/"><button type="button" class="btn">1080p Serie</button></a>
+                          </td>
+                          <td>
+                            <button type="button" disabled class="btn btnDisabled">720p Serie</button>
+                          </td>
+                          <td>
+                            <a href="/Motion_Detection/Setup/VGA_Series/"><button type="button" class="btn">VGA Serie</button></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h2>720p Modelle</h2>
+                        <p>Öffnen Sie die Weboberfläche Ihrer INSTAR HD IP Kamera und gehen Sie auf den Menüpunkt <a href="/Web_User_Interface/720p_Series/Alarm/Areas/">Alarm / Bereiche</a>.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Bewegungserkennung_Alarm_HD_01_EN.jpg" width="700" height="398" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox1" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox1.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Bewegungserkennung_Alarm_HD_01_EN.jpg" width="700" height="398" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>Im Fenster <a href="/Web_User_Interface/720p_Series/Alarm/Areas/">Bereiche</a> können Sie jetzt festlegen welcher Bildbereich im Video überwacht werden soll. Dazu wählen Sie bitte auf der rechten Seite den jeweiligen Bereich aus den Sie einstellen möchten und setzen Sie dann rechts daneben den Haken für <strong>Aktiv</strong>.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/Bewegungserkennung_Alarm_HD_02_EN.jpg" width="700" height="365" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox2" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox2.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/Bewegungserkennung_Alarm_HD_02_EN.jpg" width="700" height="365" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>Sie werden sehen das der auf <strong>Aktiv</strong> gesetzte Bereich jetzt eine Farbe bekommt. Zudem leuchtet jetzt in der oberen Zeile die Zahl "1"
+						um zu signalisieren das dieser Alarmbereich aktiv ist. Durch einfaches ziehen mit dem Mauszeiger können Sie jetzt einen Bildbereich markieren im Bild.
+						In diesem Bereich wird dann die Bewegungserkennung aktiv sein. Alternativ können Sie auch auf der rechten Seite auf "Alles" klicken um die Erkennung
+						im gesamten Bild zu aktivieren. Anschließend können Sie noch mit dem Schieberegler die Empfindlichkeit einstellen für die Bewegungserkennung.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/Bewegungserkennung_Alarm_HD_03_EN.jpg" width="700" height="365" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox3" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox3.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/Bewegungserkennung_Alarm_HD_03_EN.jpg" width="700" height="365" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>Wiederholen Sie den Schritt sofern Sie auch die anderen Bereiche nutzen möchten für die Erkennung. Jeder Bereich erhält eine andere Farbe. Hierbei ist:</p>
+                        <ul>
+                          <li><strong>Bereich 1</strong> = rot</li>
+                          <li><strong>Bereich 2</strong> = blau</li>
+                          <li><strong>Bereich 3</strong> = grün</li>
+                          <li><strong>Bereich 4</strong> = gelb</li>
+                        </ul>
+                        <p><strong>Bestätigen</strong> Sie anschließend auf der rechten Seite Ihre Einstellungen um diese entsprechend abzuspeichern. </p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox4" role="button" tabindex="0" src="/images/Bewegungserkennung_Alarm_HD_04_EN.jpg" width="700" height="365" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox4" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox4.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox4.close" role="button" tabindex="0" src="/images/Bewegungserkennung_Alarm_HD_04_EN.jpg" width="700" height="365" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>Sie müssen jetzt noch eine Aktion auswählen damit die Kamera weiss was sie bei einer erkannten Bewegung machen soll. Dafür gehen Sie bitte auf das Menü <a href="/Web_User_Interface/HD_Series/Alarm/Actions/">Alarm / Aktionen</a>.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox5" role="button" tabindex="0" src="/images/Bewegungserkennung_Alarm_HD_05_EN.jpg" width="700" height="399" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox5" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox5.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox5.close" role="button" tabindex="0" src="/images/Bewegungserkennung_Alarm_HD_05_EN.jpg" width="700" height="399" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <p>Hier können Sie jetzt einstellen ob die Kamera bei einer Bewegung eine Email verschicken soll mit Snapshots (Bildern) im Anhang oder ob die Kamera die Bilder auf eine SD Karte bzw. einen FTP Server speichern soll. Die Speicherung von Bildern oder Videos auf eine SD Karte ist nur dann möglich wenn sich eine SD Karte in der Kamera befindet.<br/><br/><strong>Bestätigen</strong> Sie zum Schluss die Einstellungen. </p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img on="tap:lightbox5" role="button" tabindex="0" src="/images/Bewegungserkennung_Alarm_HD_06_EN.jpg" width="470" height="578" layout="responsive" class="shadow"></amp-img>
+                      </div>
+                      <amp-lightbox id="lightbox5" layout="nodisplay">
+                          <div class="lightbox" on="tap:lightbox5.close" role="button" tabindex="0" class="centered">
+                              <amp-img on="tap:lightbox5.close" role="button" tabindex="0" src="/images/Bewegungserkennung_Alarm_HD_06_EN.jpg" width="470" height="578" layout="responsive" class="shadow"></amp-img>
+                          </div>
+                      </amp-lightbox>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="primarycard">
+                        <p><u><strong>Achtung</strong>:</u> Wenn Sie Probleme mit zu vielen Alarmen haben, dann können Sie dies durch andere Einstellungen verbessern. Stellen Sie die Empfindlichkeit immer so ein, dass die von Ihnen gewünschte Bewegung registriert wird. In der Regel sind dies Personen. Stellen Sie dabei einfach einen Wert für die Empfindlichkeit ein, so dass die von Ihnen vermutete (Personen)-Bewegung noch ausreicht um einen Alarm auszulösen. Ist dieser Wert für die Sensibilität z.B. 50, so empfehlen wir einen Wert von 60 für Ihre endgültige Konfiguration. Sie können so sehr einfach den kleinsten möglichen Wert finden der für Ihre Anforderungen verlässlich arbeitet.
+						Um Alarme durch unerwünschte Bewegungen zu vermeiden, sollten Sie den Bildausschnitt so auswählen, dass Bereiche wie z.B. der Himmel, Straßen im Hintergrund, stark reflektierende Flächen etc. nicht und/oder so gering wie möglich im Bildbereich sind. Die Wahl des richtigen Bildausschnittes kann durch andere Objektive und/oder einfach durch eine andere Kameraausrichtung erreicht werden. Dies kann die Anzahl der unerwünschten Alarme deutlich reduzieren.</p>
+                    </div>
+                    <!-- /margin -->
+
+                </article>
+                <!-- /article -->
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- /wrap -->
+
+        <section class="blade blog mobile-down">
+
+            <div class="container wider">
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1>Verwandte Themen:</h1>
+                    </div>
+                </div>
+
+                <div class="tab-container">
+
+                    <a class="tab" href="/Quick_Installation/First_Steps">
+                        <h3>Erste Schritte um Ihre INSTAR IP Camera zu installieren</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/After_Unpacking">
+                        <h3>Nach dem Auspacken Ihrer INSTAR IP Camera</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Direct_LAN_Connection">
+                        <h3>Verbinden Sie Ihre Kamera direkt mit Ihrem Computer</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
+                        <h3>Wie Sie die Firmware und Benutzeroberfläche Ihrer Kamera ändern können</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Set_Up_A_Wireless_Connection">
+                        <h3>Wie Sie Ihre Kamera mit dem WLAN verbinden</h3>
+                        <div class="subtitle">Mittel</div>
+                    </a>
+
+                    <a class="tab" href="/Quick_Installation/Creating_User_Accounts">
+                        <h3>Ändern Sie den Standard-Login Ihrer Kamera</h3>
+                        <div class="subtitle">Einfach</div>
+                    </a>
+                </div>
+
+                <a href="/Quick_Installation/" target="_blank">Mehr ansehen</a>
+
+            </div>
+        </section>
+
+        <footer>
+            <% include ../_partials/amp/_amp-footer.ejs %>
+        </footer>
+    </body>
+</html>

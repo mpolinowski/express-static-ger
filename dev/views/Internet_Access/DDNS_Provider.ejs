@@ -51,7 +51,7 @@
                           <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/ThirdpartyDDNS_01.png" width="500" height="163" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox1" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox1.close" tabindex="0" role="button" class="centered">
                               <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/ThirdpartyDDNS_01.png" width="500" height="163" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -79,7 +79,7 @@
                           <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/ThirdpartyDDNS_02.png" width="500" height="233" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox2" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox2.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox2.close" role="button" tabindex="0" class="centered">
                               <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/ThirdpartyDDNS_02.png" width="500" height="233" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -107,7 +107,51 @@
                           <li><strong>Kamera 2:</strong> instar01.ddns3-instar.de:8082</li>
                           <li><strong>Kamera 3:</strong> instar01.ddns3-instar.de:8083</li>
                         </ul>
-                        <p> Für Informationen darüber, wie diese Ports weitergegeben werden und warum Sie Ports über 8080 wählen sollten, lesen Sie bitte in unserem Portweiterleitungsartikel, der Sie durch das Setup für ein paar Standard-Internet-Router führen wird. Im Folgenden werden wir 3 verschiedene DDNS-Adressen von Drittanbietern auf verschiedenen Systemen einrichten. Sie werden sehen, dass das Einrichten des Hostnamens und die Verwendung eines Update-Dienstes auf Ihrem Router oder einem anderen System sehr einfach ist und die Schritte immer dieselben sind - egal, welcher Provider und welche Hardware Sie verwenden möchten. Wir wählen diese drei Anbieter, weil sie <strong> freie Hostnamen </ strong> anbieten, um mit ihnen zu experimentieren. </p>                    </div>
+                        <p> Für Informationen darüber, wie diese Ports weitergegeben werden und warum Sie Ports über 8080 wählen sollten, lesen Sie bitte in unserem Portweiterleitungsartikel, der Sie durch das Setup für ein paar Standard-Internet-Router führen wird. Im Folgenden werden wir 3 verschiedene DDNS-Adressen von Drittanbietern auf verschiedenen Systemen einrichten. Sie werden sehen, dass das Einrichten des Hostnamens und die Verwendung eines Update-Dienstes auf Ihrem Router oder einem anderen System sehr einfach ist und die Schritte immer dieselben sind - egal, welcher Provider und welche Hardware Sie verwenden möchten. Wir wählen diese drei Anbieter, weil sie <strong> freie Hostnamen </ strong> anbieten, um mit ihnen zu experimentieren. </p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div class="card-container">
+                          <div class="twocard">
+                              <div class="image">
+                                  <a href="/Internet_Access/DDNS_Provider/NoIP/">
+                                    <amp-img noloading height=150 width=200 layout=responsive src="/images/DDNS_No-IP.png"></amp-img>
+                                  </a>
+                              </div>
+                              <div class="action">
+                                  <a href="/Internet_Access/DDNS_Provider/NoIP/">Lesen Sie die Einführung</a>
+                              </div>
+                          </div>
+                          <div class="twocard">
+                              <div class="image">
+                                  <a href="/Internet_Access/DDNS_Provider/Selfhost/">
+                                    <amp-img noloading height=150 width=200 layout=responsive src="/images/DDNS_Selfhost.png"></amp-img>
+                                  </a>
+                              </div>
+                              <div class="action">
+                                  <a href="/Internet_Access/DDNS_Provider/Selfhost/">Lesen Sie die Einführung</a>
+                              </div>
+                          </div>
+                        </div>
+                        <!-- /Card-Container -->
+
+                        <div class="card-container">
+                          <div class="twocard">
+                              <div class="image">
+                                  <a href="/Internet_Access/DDNS_Provider/DDNSS/">
+                                    <amp-img noloading height=150 width=200 layout=responsive src="/images/DDNS_DDNSS.png"></amp-img>
+                                  </a>
+                              </div>
+                              <div class="action">
+                                  <a href="/Internet_Access/DDNS_Provider/DDNSS/">Lesen Sie die Einführung</a>
+                              </div>
+                          </div>
+                            <div class="twocard invisible">
+                            </div>
+                      </div>
+                      <!-- /Card-Container -->
+                    </div>
                     <!-- /margin -->
 
                 </article>
@@ -116,56 +160,6 @@
             <!-- /container main -->
         </div>
         <!-- /wrap-->
-
-        <section class="blade get-started">
-            <div class="container">
-
-                <div class="card-container">
-                    <div class="card">
-                        <div class="image">
-                            <a href="/Internet_Access/DDNS_Provider/NoIP/">
-                              <amp-img noloading height=150 width=200 layout=responsive src="/images/DDNS_No-IP.png"></amp-img>
-                            </a>
-                        </div>
-                        <div class="content">
-                            <h4>No-IP (Englisch)</h4>
-                        </div>
-                        <div class="action">
-                            <a href="/Internet_Access/DDNS_Provider/NoIP/">Lesen Sie die Einführung</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="image">
-                            <a href="/Internet_Access/DDNS_Provider/Selfhost/">
-                              <amp-img noloading height=150 width=200 layout=responsive src="/images/DDNS_Selfhost.png"></amp-img>
-                            </a>
-                        </div>
-                        <div class="content">
-                            <h4>Selfhost (Deutsch)</h4>
-                        </div>
-                        <div class="action">
-                            <a href="/Internet_Access/DDNS_Provider/Selfhost/">Lesen Sie die Einführung<</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="image">
-                            <a href="/Internet_Access/DDNS_Provider/DDNSS/">
-                              <amp-img noloading height=150 width=200 layout=responsive src="/images/DDNS_DDNSS.png"></amp-img>
-                            </a>
-                        </div>
-                        <div class="content">
-                            <h4>DDNSS (Deutsch)</h4>
-                        </div>
-                        <div class="action">
-                            <a href="/Internet_Access/DDNS_Provider/DDNSS/">Lesen Sie die Einführung<</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- /Card-Container -->
-            </div>
-            <!-- /Container -->
-        </section>
-        <!-- /Cards -->
 
         <% include ../_partials/content/_bluenav-ia-mobile.ejs %>
 

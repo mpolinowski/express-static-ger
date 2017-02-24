@@ -278,7 +278,7 @@ quickInstallRouter.route('/WebUI_And_Firmware_Upgrade')
       });
 
 /* GET /WebUI_And_Firmware_Upgrade_HD */
-quickInstallRouter.route('/WebUI_And_Firmware_Upgrade/HD_Cameras')
+quickInstallRouter.route('/WebUI_And_Firmware_Upgrade/720p_Cameras')
     .get(function(req, res) {
         res.render('./Quick_Installation/WebUI_And_Firmware_Upgrade_HD', {
             title: 'WebUI und Firmware Upgrade für HD Cameras',
