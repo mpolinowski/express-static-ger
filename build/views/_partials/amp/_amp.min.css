@@ -1014,6 +1014,11 @@ header .tab.hamburger {
     box-shadow: -1px 6px 6px -3px rgba(0, 0, 0, 0.22);
 }
 
+.navGoBig {
+    width: 120px;
+    font-size: 13px;
+}
+
 .btnPrimary {
     height: 40px;
     width: 150px;
@@ -2564,40 +2569,15 @@ body.roadmap .stages ul {
     -ms-flex: 0 0 48%;
     flex: 0 0 48%;
     -webkit-box-flex: 0;
-}
-
-.box-mobile {
-    background-color: #fff;
-    font-size: 14px;
-    color: #757575;
-    margin-bottom: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 90%;
-    flex: 0 0 90%;
-    -webkit-box-flex: 0;
-}
-
-.box-one {
-    background-color: #fff;
-    font-size: 14px;
-    color: #757575;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 90%;
-    flex: 0 0 90%;
-    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc(50% - 10px);
+    flex: 0 0 calc(50% - 10px)
 }
 
 .box__inner {
-    padding: 30px;
+    padding: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: responsive;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -2620,6 +2600,7 @@ body.roadmap .stages ul {
 }
 
 .box__content {
+    margin-bottom: 20px;
     line-height: 1.7;
     -webkit-box-flex: 1;
     -ms-flex: 1 0 0;
@@ -2629,6 +2610,7 @@ body.roadmap .stages ul {
 .box__footer {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -2645,6 +2627,7 @@ body.roadmap .stages ul {
 }
 
 .box__credit {
+    margin-top: 12px;
     -webkit-box-flex: 1;
     -ms-flex: 1 0 0;
     flex: 1 0 0
@@ -2987,4 +2970,11 @@ footer .footer-text {
 
 .box-image-button {
     padding-top: 25px;
+}
+
+.jumptarget::before {
+  content:"";
+  display:block;
+  height:80px; /* fixed header height*/
+  margin:-80px 0 0; /* negative fixed header height */
 }
