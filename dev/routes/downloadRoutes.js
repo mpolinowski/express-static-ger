@@ -47,6 +47,15 @@ downloadsRouter.get('/Network_Accessories/', function(req, res) {
       });
   });
 
+downloadsRouter.get('/Network_Accessories/IN-LAN500', function(req, res) {
+    res.render('./Downloads/Network_Accessories_IN-LAN500', {
+        title: 'Downloadbereich für den IN-LAN 500',
+        ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
+        uplink: '/Downloads',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Network_Accessories/">Netzwerkzubehör</a></li><li class="breadcrumb-item"><a href="/Network_Accessories/IN-LAN500">IN-LAN 500</a></li>',
+      });
+  });
+
 /* ###################################################### Mobile Apps ###################################################### */
 
 downloadsRouter.get('/Mobile_Apps/', function(req, res) {
