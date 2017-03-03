@@ -38,12 +38,67 @@ downloadsRouter.get('/Accessories/', function(req, res) {
       });
   });
 
+downloadsRouter.get('/Accessories/IN-90x', function(req, res) {
+    res.render('./Downloads/Accessories_IN-90x', {
+        title: 'Downloadbereich für die Infrarotscheinwerfer',
+        ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
+        uplink: '/Downloads',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Accessories/">Allgemeines Zubehör</a></li><li class="breadcrumb-item"><a href="/Accessories/IN-90x">IN-903 und IN-905</a></li>',
+      });
+  });
+
+downloadsRouter.get('/Accessories/IN-Mikro380', function(req, res) {
+    res.render('./Downloads/Accessories_IN-Mikro380', {
+        title: 'Downloadbereich für das IN-Mikro 380',
+        ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
+        uplink: '/Downloads',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Accessories/">Allgemeines Zubehör</a></li><li class="breadcrumb-item"><a href="/Accessories/IN-90x">IN-Mikro 380</a></li>',
+      });
+  });
+
+downloadsRouter.get('/Accessories/IN-Motion300', function(req, res) {
+    res.render('./Downloads/Accessories_IN-Motion300', {
+        title: 'Downloadbereich für den IN-Motion 300',
+        ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
+        uplink: '/Downloads',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Accessories/">Allgemeines Zubehör</a></li><li class="breadcrumb-item"><a href="/Accessories/IN-90x">IN-Motion 300</a></li>',
+      });
+  });
+
+downloadsRouter.get('/Accessories/IN-Motion500', function(req, res) {
+    res.render('./Downloads/Accessories_IN-Motion500', {
+        title: 'Downloadbereich für den IN-Motion 500',
+        ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
+        uplink: '/Downloads',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Accessories/">Allgemeines Zubehör</a></li><li class="breadcrumb-item"><a href="/Accessories/IN-90x">IN-Motion 500</a></li>',
+      });
+  });
+
+
 downloadsRouter.get('/Network_Accessories/', function(req, res) {
     res.render('./Downloads/Network_Accessories', {
         title: 'Downloadbereich für Netzwerkzubehör',
         ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
         uplink: '/Downloads',
         breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Network_Accessories/">Netzwerkzubehör</a></li>',
+      });
+  });
+
+downloadsRouter.get('/Network_Accessories/IN-LAN500', function(req, res) {
+    res.render('./Downloads/Network_Accessories_IN-LAN500', {
+        title: 'Downloadbereich für den IN-LAN 500',
+        ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
+        uplink: '/Downloads/Network_Accessories',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Network_Accessories/">Netzwerkzubehör</a></li><li class="breadcrumb-item"><a href="/Network_Accessories/IN-LAN500">IN-LAN 500</a></li>',
+      });
+  });
+
+downloadsRouter.get('/Network_Accessories/IN-PoE1000', function(req, res) {
+    res.render('./Downloads/Network_Accessories_IN-PoE1000', {
+        title: 'Downloadbereich für den IN-PoE1000',
+        ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
+        uplink: '/Downloads/Network_Accessories',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloads/">Downloads</a></li><li class="breadcrumb-item"><a href="/Network_Accessories/">Netzwerkzubehör</a></li><li class="breadcrumb-item"><a href="/Network_Accessories/IN-PoE1000">IN-PoE1000</a></li>',
       });
   });
 
