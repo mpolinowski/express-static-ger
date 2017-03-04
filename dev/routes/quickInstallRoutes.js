@@ -63,7 +63,7 @@ quickInstallRouter.route('/Direct_LAN_Connection')
             title: 'Direkte Verbindung mit einem PC oder Notebook',
             uplink: '/Quick_Installation/',
             ampimg: '/images/Search/QI_SearchThumb_DirectConnectionWithYourPC.jpg',
-            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/Direct_LAN_Connection/">Direkte Verbindung mit einem PC oder Notebook</a></li>',
+            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/Direct_LAN_Connection/">Direkte Verbindung zum PC</a></li>',
           });
       });
 
@@ -85,7 +85,7 @@ quickInstallRouter.route('/Alternative_IP_Scanner/Angry_IP_Scanner')
             title: 'Angry IP Scanner',
             uplink: '/Quick_Installation/Alternative_IP_Scanner',
             ampimg: '/images/Search/QI_SearchThumb_AlternativeIPScanner_eng.jpg',
-            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/Alternative_IP_Scanner/">Alternative IP Scanner</a></li><li><a href="/Quick_Installation/Alternative_IP_Scanner/Angry_IP_Scanner/">Angry IP Scanner</a></li>',
+            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/Alternative_IP_Scanner/">IP Scanner</a></li><li><a href="/Quick_Installation/Alternative_IP_Scanner/Angry_IP_Scanner/">Angry IP Scanner</a></li>',
           });
       });
 
@@ -96,7 +96,7 @@ quickInstallRouter.route('/Alternative_IP_Scanner/Fing_CLI')
             title: 'Fing IP Scanner - Command Line Interface',
             uplink: '/Quick_Installation/Alternative_IP_Scanner',
             ampimg: '/images/Search/QI_SearchThumb_AlternativeIPScanner_eng.jpg',
-            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/Alternative_IP_Scanner/">Alternative IP Scanner</a></li><li><a href="/Quick_Installation/Alternative_IP_Scanner/Fing_CLI/">Fing CLI</a></li>',
+            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/Alternative_IP_Scanner/">IP Scanner</a></li><li><a href="/Quick_Installation/Alternative_IP_Scanner/Fing_CLI/">Fing CLI</a></li>',
           });
       });
 
@@ -107,7 +107,7 @@ quickInstallRouter.route('/Alternative_IP_Scanner/Fing_Mobile')
             title: 'Fing IP Scanner - Mobile App',
             uplink: '/Quick_Installation/Alternative_IP_Scanner',
             ampimg: '/images/Search/QI_SearchThumb_AlternativeIPScanner_eng.jpg',
-            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/Alternative_IP_Scanner/">Alternative IP Scanner</a></li><li><a href="/Quick_Installation/Alternative_IP_Scanner/Fing_Mobile/">Fing Mobile</a></li>',
+            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/Alternative_IP_Scanner/">IP Scanner</a></li><li><a href="/Quick_Installation/Alternative_IP_Scanner/Fing_Mobile/">Fing Mobile</a></li>',
           });
       });
 
@@ -273,7 +273,7 @@ quickInstallRouter.route('/WebUI_And_Firmware_Upgrade')
             title: 'WebUI und Firmware Upgrade',
             uplink: '/Quick_Installation/',
             ampimg: '/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade.jpg',
-            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/WebUI_And_Firmware_Upgrade/">WebUI und Firmware Upgrade</a></li>',
+            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/WebUI_And_Firmware_Upgrade/">Software Upgrade</a></li>',
           });
       });
 
@@ -284,7 +284,7 @@ quickInstallRouter.route('/WebUI_And_Firmware_Upgrade/720p_Cameras')
             title: 'WebUI und Firmware Upgrade für HD Cameras',
             uplink: '/Quick_Installation/',
             ampimg: '/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade.jpg',
-            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/WebUI_And_Firmware_Upgrade/">WebUI and Firmware Upgrade</a></li><li><a href="/Quick_Installation/WebUI_And_Firmware_Upgrade/HD_Cameras/">HD Kameras</a></li>',
+            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/WebUI_And_Firmware_Upgrade/">Software Upgrade</a></li><li><a href="/Quick_Installation/WebUI_And_Firmware_Upgrade/HD_Cameras/">HD Kameras</a></li>',
           });
       });
 
@@ -295,7 +295,7 @@ quickInstallRouter.route('/WebUI_And_Firmware_Upgrade/VGA_Cameras')
             title: 'WebUI und Firmware Upgrade für VGA Cameras',
             uplink: '/Quick_Installation/',
             ampimg: '/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade.jpg',
-            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/WebUI_And_Firmware_Upgrade/">WebUI and Firmware Upgrade</a></li><li><a href="/Quick_Installation/WebUI_And_Firmware_Upgrade/VGA_Cameras/">VGA Kameras</a></li>',
+            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnellinstallation</a></li><li><a href="/Quick_Installation/WebUI_And_Firmware_Upgrade/">Software Upgrade</a></li><li><a href="/Quick_Installation/WebUI_And_Firmware_Upgrade/VGA_Cameras/">VGA Kameras</a></li>',
           });
       });
 

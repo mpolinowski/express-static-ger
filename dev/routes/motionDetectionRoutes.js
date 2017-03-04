@@ -82,7 +82,7 @@ motionDetectionRouter.get('/Alarm_Notification/Troubleshooting/', function(req, 
         title: 'Alarm Benachrichtigung',
         uplink: '/Motion_Detection',
         ampimg: '/images/Search/MD_SearchThumb_AlarmNotification.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Bewegungserkennung</a></li><li><a href="/Motion_Detection/Alarm_Notification/">Benachrichtigung</a></li><li><a href="/Motion_Detection/Alarm_Notification/Troubleshooting/">Troubleshooting</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Erkennung</a></li><li><a href="/Motion_Detection/Alarm_Notification/">Benachrichtigung</a></li><li><a href="/Motion_Detection/Alarm_Notification/Troubleshooting/">Troubles</a></li>',
       });
   });
 
@@ -199,7 +199,7 @@ motionDetectionRouter.get('/SD_Card_Access/DownThemAll', function(req, res) {
         title: 'SD Karten Zugriff - DownThemAll',
         uplink: '/Motion_Detection/SD_Card_Access',
         ampimg: '/images/Search/MD_SearchThumb_SDCardAccess.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Bewegungserkennung</a></li><li><a href="/Motion_Detection/SD_Card_Access/">SD Karten Zugriff</a></li><li><a href="/Motion_Detection/SD_Card_Access/DownThemAll/">DownThemAll</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Bewegungserkennung</a></li><li><a href="/Motion_Detection/SD_Card_Access/">SD Karte</a></li><li><a href="/Motion_Detection/SD_Card_Access/DownThemAll/">DownThemAll</a></li>',
       });
   });
 
@@ -280,7 +280,7 @@ motionDetectionRouter.get('/Router_as_a_FTP_Server/AVM_Fritzbox_as_FTP_Server', 
         title: 'AVM Fritzbox asl FTP Server',
         uplink: '/Motion_Detection/Router_as_a_FTP_Server',
         ampimg: '/images/Search/MD_SearchThumb_RouterAsFTPServer.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Bewegungserkennung</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/">Router as a FTP Server</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/AVM_Fritzbox_as_FTP_Server/">AVM Fritzbox</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Bewegungserkennung</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/">FTP Server</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/AVM_Fritzbox_as_FTP_Server/">AVM Fritzbox</a></li>',
       });
   });
 
@@ -289,7 +289,7 @@ motionDetectionRouter.get('/Router_as_a_FTP_Server/Telekom_Speedport_as_FTP_Serv
         title: 'Telekom Speedport als FTP Server',
         uplink: '/Motion_Detection/Router_as_a_FTP_Server',
         ampimg: '/images/Search/MD_SearchThumb_RouterAsFTPServer.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Bewegungserkennung</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/">Router as a FTP Server</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/Telekom_Speedport_as_FTP_Server/">Speedport</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Bewegungserkennung</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/">FTP Server</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/Telekom_Speedport_as_FTP_Server/">Speedport</a></li>',
       });
   });
 
@@ -298,7 +298,7 @@ motionDetectionRouter.get('/Router_as_a_FTP_Server/QNAP_as_FTP_Server', function
         title: 'QNAP als FTP Server',
         uplink: '/Motion_Detection/Router_as_a_FTP_Server',
         ampimg: '/images/Search/MD_SearchThumb_RouterAsFTPServer.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Bewegungserkennung</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/">Router as a FTP Server</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/QNAP_as_FTP_Server/">QNAP</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Bewegungserkennung</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/">FTP Server</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/QNAP_as_FTP_Server/">QNAP</a></li>',
       });
   });
 
@@ -307,7 +307,7 @@ motionDetectionRouter.get('/Router_as_a_FTP_Server/Synology_as_FTP_Server', func
         title: 'Synology als FTP Server',
         uplink: '/Motion_Detection/Router_as_a_FTP_Server',
         ampimg: '/images/Search/MD_SearchThumb_RouterAsFTPServer.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Bewegungserkennung</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/">Router as a FTP Server</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/Synology_as_FTP_Server/">Synology</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Bewegungserkennung</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/">FTP Server</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/Synology_as_FTP_Server/">Synology</a></li>',
       });
   });
 
@@ -316,7 +316,7 @@ motionDetectionRouter.get('/Router_as_a_FTP_Server/WD_MyCloud_as_FTP_Server', fu
         title: 'WD MyCloud als FTP Server',
         uplink: '/Motion_Detection/Router_as_a_FTP_Server',
         ampimg: '/images/Search/MD_SearchThumb_RouterAsFTPServer.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Bewegungserkennung</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/">Router as a FTP Server</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/WD_MyCloud_as_FTP_Server/">WD MyCloud</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Motion_Detection/">Bewegungserkennung</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/">FTP Server</a></li><li><a href="/Motion_Detection/Router_as_a_FTP_Server/WD_MyCloud_as_FTP_Server/">WD MyCloud</a></li>',
       });
   });
 
