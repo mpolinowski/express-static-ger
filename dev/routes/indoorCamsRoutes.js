@@ -34,7 +34,7 @@ indoorCamsRouter.get('/', function(req, res) {
 
 indoorCamsRouter.route('/IN-8015_HD/Safety_Warnings')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Safety_Warnings', {
+      res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-8015 HD Sicherheitshinweise',
           model: 'IN-8015_HD',
 		  type: 'Indoor',
@@ -42,10 +42,10 @@ indoorCamsRouter.route('/IN-8015_HD/Safety_Warnings')
           breadcrumbs: '<li><a href="/Indoor_Cameras">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/Usermanual/">Handbuch</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/Safety_Warnings/">Sicherheitshinweise</a></li>',
         });
     });
-	
+
 indoorCamsRouter.route('/IN-8015_HD/Warranty')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Warranty', {
+      res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-8015 HD Warranty & Disposal',
           model: 'IN-8015_HD',
 		  type: 'Indoor',
@@ -53,10 +53,10 @@ indoorCamsRouter.route('/IN-8015_HD/Warranty')
           breadcrumbs: '<li><a href="/Indoor_Cameras">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/Usermanual/">Handbuch</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/Warranty/">Garantie</a></li>',
         });
     });
-	
+
 indoorCamsRouter.route('/IN-8015_HD/Video_Streaming')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Video_Streaming', {
+      res.render('./Products/Usermanuals_Video_Streaming', {
           title: 'IN-8015 HD Video Streaming',
           model: 'IN-8015_HD',
 		  type: 'Indoor',
@@ -65,10 +65,10 @@ indoorCamsRouter.route('/IN-8015_HD/Video_Streaming')
           breadcrumbs: '<li><a href="/Indoor_Cameras">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/Usermanual/">Handbuch</a></li><li><a href="/Indoor_Cameras/IN-8015_HD/Video_Streaming/">Video Streaming</a></li>',
         });
     });
-	
+
 indoorCamsRouter.route('/IN-8015_HD/Camera_Reset')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Camera_Reset', {
+      res.render('./Products/Usermanuals_Camera_Reset', {
           title: 'IN-8015 HD Hardware Reset',
           model: 'IN-8015_HD',
 		  type: 'Indoor',
@@ -151,7 +151,7 @@ indoorCamsRouter.route('/IN-8015_HD/Technical_Specifications')
 
 indoorCamsRouter.route('/IN-6014_HD/Safety_Warnings')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Safety_Warnings', {
+      res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-6014 HD Sicherheitshinweise',
           model: 'IN-6014_HD',
 		  type: 'Indoor',
@@ -160,10 +160,10 @@ indoorCamsRouter.route('/IN-6014_HD/Safety_Warnings')
           breadcrumbs: '<li><a href="/Indoor_Cameras">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/Usermanual/">Handbuch</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/Safety_Warnings/">Sicherheitshinweise</a></li>',
         });
     });
-	
+
 indoorCamsRouter.route('/IN-6014_HD/Warranty')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Warranty', {
+      res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-6014 HD Garantie & Entsorgung',
           model: 'IN-6014_HD',
 		  type: 'Indoor',
@@ -172,10 +172,10 @@ indoorCamsRouter.route('/IN-6014_HD/Warranty')
           breadcrumbs: '<li><a href="/Indoor_Cameras">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/Usermanual/">Handbuch</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/Safety_Warnings/">Sicherheitshinweise</a></li>',
         });
     });
-	
+
 indoorCamsRouter.route('/IN-6014_HD/Video_Streaming')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Video_Streaming', {
+      res.render('./Products/Usermanuals_Video_Streaming', {
           title: 'IN-6014 HD Video Streaming',
           model: 'IN-6014_HD',
 		  type: 'Indoor',
@@ -184,10 +184,10 @@ indoorCamsRouter.route('/IN-6014_HD/Video_Streaming')
           breadcrumbs: '<li><a href="/Indoor_Cameras">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/">IN-6014 HD</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/Usermanual/">Handbuch</a></li><li><a href="/Indoor_Cameras/IN-6014_HD/Video_Streaming/">Video Streaming</a></li>',
         });
     });
-	
+
 indoorCamsRouter.route('/IN-6014_HD/Camera_Reset')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Camera_Reset', {
+      res.render('./Products/Usermanuals_Camera_Reset', {
           title: 'IN-6014 HD Hardware Reset',
           model: 'IN-6014_HD',
 		  type: 'Indoor',
@@ -269,7 +269,7 @@ indoorCamsRouter.route('/IN-6014_HD/Technical_Specifications')
 
 indoorCamsRouter.route('/IN-6012_HD/Safety_Warnings')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Safety_Warnings', {
+      res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-6012 HD Sicherheitshinweise',
           model: 'IN-6012_HD',
 		  type: 'Indoor',
@@ -278,10 +278,10 @@ indoorCamsRouter.route('/IN-6012_HD/Safety_Warnings')
           breadcrumbs: '<li><a href="/Indoor_Cameras">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/Usermanual/">Handbuch</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/Safety_Warnings/">Sicherheitshinweise</a></li>',
         });
     });
-	
+
 indoorCamsRouter.route('/IN-6012_HD/Warranty')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Warranty', {
+      res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-6012 HD Garantie & Entsorgung',
           model: 'IN-6012_HD',
 		  type: 'Indoor',
@@ -290,10 +290,10 @@ indoorCamsRouter.route('/IN-6012_HD/Warranty')
           breadcrumbs: '<li><a href="/Indoor_Cameras">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/Usermanual/">Handbuch</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/Warranty/">Garantie</a></li>',
         });
     });
-	
+
 indoorCamsRouter.route('/IN-6012_HD/Video_Streaming')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Video_Streaming', {
+      res.render('./Products/Usermanuals_Video_Streaming', {
           title: 'IN-6012 HD Video Streaming',
           model: 'IN-6012_HD',
 		  type: 'Indoor',
@@ -302,10 +302,10 @@ indoorCamsRouter.route('/IN-6012_HD/Video_Streaming')
           breadcrumbs: '<li><a href="/Indoor_Cameras">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/">IN-6012 HD</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/Usermanual/">Handbuch</a></li><li><a href="/Indoor_Cameras/IN-6012_HD/Video_Streaming/">Video Streaming</a></li>',
         });
     });
-	
+
 indoorCamsRouter.route('/IN-6012_HD/Camera_Reset')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Camera_Reset', {
+      res.render('./Products/Usermanuals_Camera_Reset', {
           title: 'IN-6012 HD Hardware Reset',
           model: 'IN-6012_HD',
 		  type: 'Indoor',
@@ -387,7 +387,7 @@ indoorCamsRouter.route('/IN-6012_HD/Technical_Specifications')
 
 indoorCamsRouter.route('/IN-6001_HD/Safety_Warnings')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Safety_Warnings', {
+      res.render('./Products/Usermanuals_Safety_Warnings', {
           title: 'IN-6001 HD Sicherheitshinweise',
           model: 'IN-6001_HD',
 		  type: 'Indoor',
@@ -396,10 +396,10 @@ indoorCamsRouter.route('/IN-6001_HD/Safety_Warnings')
           breadcrumbs: '<li><a href="/Indoor_Cameras">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/Usermanual/">Handbuch</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/Safety_Warnings/">Sicherheitshinweise</a></li>',
         });
     });
-	
+
 indoorCamsRouter.route('/IN-6001_HD/Warranty')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Warranty', {
+      res.render('./Products/Usermanuals_Warranty', {
           title: 'IN-6001 HD Garantie & Entsorgung',
           model: 'IN-6001_HD',
 		  type: 'Indoor',
@@ -408,10 +408,10 @@ indoorCamsRouter.route('/IN-6001_HD/Warranty')
           breadcrumbs: '<li><a href="/Indoor_Cameras">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/Usermanual/">Handbuch</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/Warranty/">Garantie</a></li>',
         });
     });
-	
+
 indoorCamsRouter.route('/IN-6001_HD/Video_Streaming')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Video_Streaming', {
+      res.render('./Products/Usermanuals_Video_Streaming', {
           title: 'IN-6001 HD Video Streaming',
           model: 'IN-6001_HD',
 		  type: 'Indoor',
@@ -420,10 +420,10 @@ indoorCamsRouter.route('/IN-6001_HD/Video_Streaming')
           breadcrumbs: '<li><a href="/Indoor_Cameras">Innenkameras</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/">IN-6001 HD</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/Usermanual/">Handbuch</a></li><li><a href="/Indoor_Cameras/IN-6001_HD/Video_Streaming/">Video Streaming</a></li>',
         });
     });
-	
+
 indoorCamsRouter.route('/IN-6001_HD/Camera_Reset')
   .get(function(req, res) {
-      res.render('./Indoor_Cams/Usermanuals_Camera_Reset', {
+      res.render('./Products/Usermanuals_Camera_Reset', {
           title: 'IN-6001 HD Hardware Reset',
           model: 'IN-6001_HD',
 		  type: 'Indoor',
