@@ -11,7 +11,7 @@
 
         <!-- #############################################  Content ############################################# -->
 
-        <div class="container">
+        <section class="container">
           <div class="row">
 
             <div class="col-12">
@@ -26,24 +26,24 @@
 
             </div>
 
-          </div>
-          <!-- / row -->
-        </div>
-        <!-- / container -->
+            </div>
+            <!-- / row -->
 
-        <div class="container mb">
-          <div class="row">
-            <img src="/images/Image002.png" alt="InstarVision 2.0 Surveillance Center User Interface" class="shadow img-fluid img-rounded"/>
+          <div class="container mb">
+            <div class="row">
+              <img src="/images/Image002.png" alt="InstarVision 2.0 Surveillance Center User Interface" class="shadow img-fluid img-rounded"/>
+            </div>
+            <!-- / row -->
           </div>
-          <!-- / row -->
-        </div>
-        <!-- / container -->
+          <!-- / container -->
+
+        </section>
 
         <div class="clearfix mb"></div>
 
         <!-- ########################################### Overview ################################################ -->
 
-        <div class="container mb">
+        <section class="container mb">
           <div class="row">
 
           <div class="col-12">
@@ -78,180 +78,196 @@
 
         </div>
         <!-- / row -->
-      </div>
+      </section>
       <!-- / container -->
 
         <div class="clearfix mb"></div>
 
-        <!-- ############################################ Language ################################################ -->
+        <!-- ############################################ Sys Req ################################################ -->
 
-        <div class="container mt">
+        <section class="container mb mt">
           <div class="row">
 
             <div class="col-12 mb">
               <h2><i class="fa fa-bars" aria-hidden="true"></i>&nbsp; Systemvoraussetzungen</h2>
             </div>
 
-            <div class="offset-lg-1 col-lg-10 mb">
+             <div class="col-12 mb"><p>Zur besseren Übersicht der benötigten Ressourcen der InstarVision 2.0 haben wir in verschiedenen Szenarien die Software getestet und die Ergebnisse oben dargestellt. Als Test-System haben wir einen Mittelklasse-Rechner mit folgenden Daten genutzt:<br/><br/>
+             <b>CPU:</b> Intel Core i5-2520M 2.50GHz<br>
+             <b>RAM:</b> 4 GB<br>
+             <b>DISK:</b> 120 GB SSD<br>
+             <b>BS:</b> Windows 10 64-Bit<br>
+             (Alle Kameras wurden aus dem lokalen Netzwerk angebunden.)<br><br>
+             Als minimale Systemvoraussetzungen für 4 Kameras hier ein Auszug aus dem <a href="http://forum.instar.de/"> InstarForum</a>:<br>
+             <b>CPU:</b> DualCore ASUS eeePC der älteren Generation <br>
+             <b>RAM:</b> 2 GB<br>
+             <b>DISK:</b> 250 GB HDD<br>
+             <b>BS:</b> Windows 7 32-Bit<br>
+            </p>
+             </div>
 
-              <div class="card-deck-wrapper mb">
-                <div class="card-deck">
+           </div>
+           <!-- /row -->
 
-                  <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
+            <div class="row justify-content-between mb">
+
+              <div class="col-md-6 col-lg-4 card-deck mb">
+                <div class="card card-inverse shadow w-33" style="background-color: #333;">
+                  <div class="card-header" style="background-color: #fff;">
+                    <h4 class="card-title font-weight-bold" style="color: #333; padding-top: 10px;">Prozessor</h4>
+                  </div>
+                  <div class="text-xs-center">
                     <img class="card-img-top img-fluid" src="/images/InstarVision2_SystemTest.png" alt="InstarVision 2 Systemauslastung">
-                    <div class="card-block">
-                      <h4 class="card-title">Systemauslastung</h4>
-                      <p class="card-text">Anforderungen an das Betriebssystem</p>
-                      <button class="btn btn-xs btn-primary" data-toggle="modal" data-target="#SystemPerformance">
-                        Daten &amp; Graphen
-                      </button>
-
-                      <!-- Modal -->
-                      <div class="modal fade" id="SystemPerformance" tabindex="-1" role="dialog" aria-labelledby="SystemPerformance" aria-hidden="true">
-                          <div class="modal-dialog">
-                              <div class="modal-content">
-                                  <div class="modal-header">
-                                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                      <h4 class="modal-title" id="SystemPerformance">1 Kamera eingebunden</h4>
-                                  </div>
-                                  <div class="modal-body">
-                                      <canvas id="line_onecamera_cpu" width="600" height="400"></canvas><br><br>
-                                      <h4 class="modal-title" id="SystemPerformance">2 Kameras eingebunden</h4><hr><br>
-                                      <canvas id="line_twocameras_cpu" width="600" height="400"></canvas><br><br>
-                                      <h4 class="modal-title" id="SystemPerformance">Mehrere Kameras eingebunden</h4><hr><br>
-                                      <canvas id="line_morecameras_cpu" width="600" height="400"></canvas><br>
-                                      <p>Zusammensetzung: Bei 4 Kameras wurden ausschließlich HD-Kameras verwendet. Bei 8 Kameras waren jeweils 1 VGA- und 1 FullHD-Kamera
-                                      vertreten. Bei 16 Kameras waren jeweils 2 VGA- und 2 FullHD-Kameras vertreten.</p>
-                                  </div>
-                                  <div class="modal-footer">
-                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Schließen</button>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-
-                      <script src="/javascripts/chartjs/iv2test_onecamera_cpu.js"></script>
-                      <script src="/javascripts/chartjs/iv2test_twocameras_cpu.js"></script>
-                      <script src="/javascripts/chartjs/iv2test_morecameras_cpu.js"></script>
-
-                      <!-- /modal -->
-                    </div>
                   </div>
-
-                  <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
-                    <img class="card-img-top img-fluid" src="/images/InstarVision2_RAMTest.png" alt="InstarVision 2 RAM-Auslastung">
-                    <div class="card-block">
-                      <h4 class="card-title">Arbeitsspeicher</h4>
-                      <p class="card-text">Benötigte Kapazitäten des Arbeitsspeichers (RAM)</p>
-                      <button class="btn btn-xs btn-primary" data-toggle="modal" data-target="#RAMPerformance">
-                        Daten &amp; Graphen
-                      </button>
-
-                      <!-- Modal -->
-                      <div class="modal fade" id="RAMPerformance" tabindex="-1" role="dialog" aria-labelledby="RAMPerformance" aria-hidden="true">
-                          <div class="modal-dialog">
-                              <div class="modal-content">
-                                  <div class="modal-header">
-                                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                      <h4 class="modal-title" id="SystemPerformance">1 Kamera eingebunden</h4>
-                                  </div>
-                                  <div class="modal-body">
-                                      <canvas id="line_onecamera_ram" width="600" height="400"></canvas><br><br>
-                                      <h4 class="modal-title" id="RAMPerformance">2 Kameras eingebunden</h4><hr><br>
-                                      <canvas id="line_twocameras_ram" width="600" height="400"></canvas><br><br>
-                                      <h4 class="modal-title" id="SystemPerformance">Mehrere Kameras eingebunden</h4><hr><br>
-                                      <canvas id="line_morecameras_ram" width="600" height="400"></canvas><br>
-                                      <p>Zusammensetzung: Bei 4 Kameras wurden ausschließlich HD-Kameras verwendet. Bei 8 Kameras waren jeweils 1 VGA- und 1 FullHD-Kamera
-                                      vertreten. Bei 16 Kameras waren jeweils 2 VGA- und 2 FullHD-Kameras vertreten.</p>
-                                  </div>
-                                  <div class="modal-footer">
-                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Schließen</button>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-
-                      <script src="/javascripts/chartjs/iv2test_onecamera_ram.js"></script>
-                      <script src="/javascripts/chartjs/iv2test_twocameras_ram.js"></script>
-                      <script src="/javascripts/chartjs/iv2test_morecameras_ram.js"></script>
-
-                      <!-- /modal -->
-                    </div>
+                  <div class="card-block">
+                    <p class="card-text">CPU Voraussetzungen</p>
                   </div>
-
-                  <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
-                    <img class="card-img-top img-fluid" src="/images/InstarVision2_NetworkTest.png" alt="InstarVision 2 Netzwerkauslastung">
-                    <div class="card-block">
-                      <h4 class="card-title">Netzwerkauslastung</h4>
-                      <p class="card-text">Testergebnisse in Bezug auf den Netzwerktraffic</p>
-                      <button class="btn btn-xs btn-primary" data-toggle="modal" data-target="#NetworkPerformance">
-                        Daten &amp; Graphen
-                      </button>
-
-                      <!-- Modal -->
-                      <div class="modal fade" id="NetworkPerformance" tabindex="-1" role="dialog" aria-labelledby="NetworkPerformance" aria-hidden="true">
-                          <div class="modal-dialog">
-                              <div class="modal-content">
-                                  <div class="modal-header">
-                                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                      <h4 class="modal-title" id="NetworkPerformance">1 Kamera eingebunden</h4>
-                                  </div>
-                                  <div class="modal-body">
-                                      <canvas id="line_onecamera_network" width="600" height="400"></canvas><br>
-                                      <p>Info: Die höhere Netzwerkauslastung bei VGA-Kameras ist auf den Videomodus zurückzuführen.
-                                      Die VGA-Kameras verwenden den MJPEG-Modus, wobei die HD-Kameras den komprimierten h264 Videostream verwenden.</p><br><br>
-                                      <h4 class="modal-title" id="NetworkPerformance">2 Kameras eingebunden</h4><hr><br>
-                                      <canvas id="line_twocameras_network" width="600" height="400"></canvas><br><br>
-                                      <h4 class="modal-title" id="SystemPerformance">Mehrere Kameras eingebunden</h4><hr><br>
-                                      <canvas id="line_morecameras_network" width="600" height="400"></canvas><br>
-                                      <p>Zusammensetzung: Bei 4 Kameras wurden ausschließlich HD-Kameras verwendet. Bei 8 Kameras waren jeweils 1 VGA- und 1 FullHD-Kamera
-                                      vertreten. Bei 16 Kameras waren jeweils 2 VGA- und 2 FullHD-Kameras vertreten.</p>
-                                  </div>
-                                  <div class="modal-footer">
-                                      <button type="button" class="btn btn-danger" data-dismiss="modal">Schließen</button>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-
-                      <script src="/javascripts/chartjs/iv2test_onecamera_network.js"></script>
-                      <script src="/javascripts/chartjs/iv2test_twocameras_network.js"></script>
-                      <script src="/javascripts/chartjs/iv2test_morecameras_network.js"></script>
-
-                      <!-- /modal -->
-                    </div>
+                  <div class="card-footer" style="background-color: #fff;">
+                    <button class="btn btn-block btn-primary" data-toggle="modal" data-target="#SystemPerformance">
+                      Daten &amp; Graphen
+                    </button>
                   </div>
-
                 </div>
-                <!-- /card-deck -->
+                <!-- /card -->
               </div>
-              <!-- /deck-wrapper -->
+              <!-- /col -->
 
+              <div class="col-md-6 col-lg-4 card-deck mb">
+                <div class="card card-inverse shadow w-33" style="background-color: #333;">
+                  <div class="card-header" style="background-color: #fff;">
+                    <h4 class="card-title font-weight-bold" style="color: #333; padding-top: 10px;">RAM</h4>
+                  </div>
+                  <div class="text-xs-center">
+                    <img class="card-img-top img-fluid" src="/images/InstarVision2_RAMTest.png" alt="InstarVision 2 RAM-Auslastung">
+                  </div>
+                  <div class="card-block">
+                    <p class="card-text">RAM Voraussetzungen</p>
+                  </div>
+                  <div class="card-footer" style="background-color: #fff;">
+                    <button class="btn btn-block btn-primary" data-toggle="modal" data-target="#RAMPerformance">
+                      Data &amp; Graphen
+                    </button>
+                  </div>
+                </div>
+                <!-- /card -->
+              </div>
+              <!-- /col -->
 
+              <div class="col-md-6 col-lg-4 card-deck mb">
+                <div class="card card-inverse shadow w-33" style="background-color: #333;">
+                  <div class="card-header" style="background-color: #fff;">
+                    <h4 class="card-title font-weight-bold" style="color: #333; padding-top: 10px;">Network</h4>
+                  </div>
+                  <div class="text-xs-center">
+                    <img class="card-img-top img-fluid" src="/images/InstarVision2_NetworkTest.png" alt="InstarVision 2 Netzwerkauslastung">
+                  </div>
+                  <div class="card-block">
+                    <p class="card-text">Netzwerk Traffic</p>
+                  </div>
+                  <div class="card-footer" style="background-color: #fff;">
+                    <button class="btn btn-block btn-primary" data-toggle="modal" data-target="#NetworkPerformance">
+                      Data &amp; Graphen
+                    </button>
+                  </div>
+                </div>
+                <!-- /card -->
+              </div>
+              <!-- /col -->
 
-            </div>
-            <!-- /offset -->
-         </div>
-         <!-- / row -->
+            <!-- ######################################## Modals ################################################ -->
 
-         <div class="container mt">
-           <p>Zur besseren Übersicht der benötigten Ressourcen der InstarVision 2.0 haben wir in verschiedenen Szenarien die Software getestet und die Ergebnisse oben dargestellt. Als Test-System haben wir einen Mittelklasse-Rechner mit folgenden Daten genutzt:<br>
-           <b>CPU:</b> Intel Core i5-2520M 2.50GHz<br>
-           <b>RAM:</b> 4 GB<br>
-           <b>DISK:</b> 120 GB SSD<br>
-           <b>BS:</b> Windows 10 64-Bit<br>
-           (Alle Kameras wurden aus dem lokalen Netzwerk angebunden.)<br><br>
-           Als minimale Systemvoraussetzungen für 4 Kameras hier ein Auszug aus dem <a href="http://forum.instar.de/"> InstarForum</a>:<br>
-           <b>CPU:</b> DualCore ASUS eeePC der älteren Generation <br>
-           <b>RAM:</b> 2 GB<br>
-           <b>DISK:</b> 250 GB HDD<br>
-           <b>BS:</b> Windows 7 32-Bit<br>
-          </p>
-         </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="SystemPerformance" tabindex="-1" role="dialog" aria-labelledby="SystemPerformance" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                  <h4 class="modal-title" id="SystemPerformance">1 Kamera eingebunden</h4>
+                              </div>
+                              <div class="modal-body">
+                                  <canvas id="line_onecamera_cpu" width="600" height="400"></canvas><br><br>
+                                  <h4 class="modal-title" id="SystemPerformance">2 Kameras eingebunden</h4><hr><br>
+                                  <canvas id="line_twocameras_cpu" width="600" height="400"></canvas><br><br>
+                                  <h4 class="modal-title" id="SystemPerformance">Mehrere Kameras eingebunden</h4><hr><br>
+                                  <canvas id="line_morecameras_cpu" width="600" height="400"></canvas><br>
+                                  <p>Zusammensetzung: Bei 4 Kameras wurden ausschließlich HD-Kameras verwendet. Bei 8 Kameras waren jeweils 1 VGA- und 1 FullHD-Kamera
+                                  vertreten. Bei 16 Kameras waren jeweils 2 VGA- und 2 FullHD-Kameras vertreten.</p>
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Schließen</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
 
+                  <script src="/javascripts/chartjs/iv2test_onecamera_cpu.js"></script>
+                  <script src="/javascripts/chartjs/iv2test_twocameras_cpu.js"></script>
+                  <script src="/javascripts/chartjs/iv2test_morecameras_cpu.js"></script>
 
-        </div>
-        <!-- / container -->
+                  <!-- Modal -->
+                  <div class="modal fade" id="RAMPerformance" tabindex="-1" role="dialog" aria-labelledby="RAMPerformance" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                  <h4 class="modal-title" id="SystemPerformance">1 Kamera eingebunden</h4>
+                              </div>
+                              <div class="modal-body">
+                                  <canvas id="line_onecamera_ram" width="600" height="400"></canvas><br><br>
+                                  <h4 class="modal-title" id="RAMPerformance">2 Kameras eingebunden</h4><hr><br>
+                                  <canvas id="line_twocameras_ram" width="600" height="400"></canvas><br><br>
+                                  <h4 class="modal-title" id="SystemPerformance">Mehrere Kameras eingebunden</h4><hr><br>
+                                  <canvas id="line_morecameras_ram" width="600" height="400"></canvas><br>
+                                  <p>Zusammensetzung: Bei 4 Kameras wurden ausschließlich HD-Kameras verwendet. Bei 8 Kameras waren jeweils 1 VGA- und 1 FullHD-Kamera
+                                  vertreten. Bei 16 Kameras waren jeweils 2 VGA- und 2 FullHD-Kameras vertreten.</p>
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Schließen</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <script src="/javascripts/chartjs/iv2test_onecamera_ram.js"></script>
+                  <script src="/javascripts/chartjs/iv2test_twocameras_ram.js"></script>
+                  <script src="/javascripts/chartjs/iv2test_morecameras_ram.js"></script>
+
+                  <!-- /modal -->
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="NetworkPerformance" tabindex="-1" role="dialog" aria-labelledby="NetworkPerformance" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                  <h4 class="modal-title" id="NetworkPerformance">1 Kamera eingebunden</h4>
+                              </div>
+                              <div class="modal-body">
+                                  <canvas id="line_onecamera_network" width="600" height="400"></canvas><br>
+                                  <p>Info: Die höhere Netzwerkauslastung bei VGA-Kameras ist auf den Videomodus zurückzuführen.
+                                  Die VGA-Kameras verwenden den MJPEG-Modus, wobei die HD-Kameras den komprimierten h264 Videostream verwenden.</p><br><br>
+                                  <h4 class="modal-title" id="NetworkPerformance">2 Kameras eingebunden</h4><hr><br>
+                                  <canvas id="line_twocameras_network" width="600" height="400"></canvas><br><br>
+                                  <h4 class="modal-title" id="SystemPerformance">Mehrere Kameras eingebunden</h4><hr><br>
+                                  <canvas id="line_morecameras_network" width="600" height="400"></canvas><br>
+                                  <p>Zusammensetzung: Bei 4 Kameras wurden ausschließlich HD-Kameras verwendet. Bei 8 Kameras waren jeweils 1 VGA- und 1 FullHD-Kamera
+                                  vertreten. Bei 16 Kameras waren jeweils 2 VGA- und 2 FullHD-Kameras vertreten.</p>
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Schließen</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <script src="/javascripts/chartjs/iv2test_onecamera_network.js"></script>
+                  <script src="/javascripts/chartjs/iv2test_twocameras_network.js"></script>
+                  <script src="/javascripts/chartjs/iv2test_morecameras_network.js"></script>
+
+              </div>
+              <!-- /row -->
+
+            </section>
 
         <div class="clearfix mb"></div>
 
@@ -282,18 +298,21 @@
 
             <div class="clearfix"></div>
 
-            <div class="list-group col-md-6">
-              <a href="#" class="list-group-item list-group-item-action active shadow">
-                <h5 class="list-group-item-heading lead">admin</h5>
-                <p class="list-group-item-text">Standard Benutzername:</p>
-              </a>
+            <div class="row">
+              <div class="list-group col mb">
+                <a href="#" class="list-group-item justify-content-between list-group-item-action active shadow">
+                  <p class="list-group-item-text">Standard Benutzername</p>
+                  <h5 class="list-group-item-heading lead">admin</h5>
+                </a>
+              </div>
+              <div class="list-group col mb">
+                <a href="#" class="list-group-item justify-content-between list-group-item-action active shadow">
+                  <p class="list-group-item-text">Standard Kennwort</p>
+                  <h5 class="list-group-item-heading lead">instar</h5>
+                </a>
+              </div>
             </div>
-            <div class="list-group col-md-6">
-              <a href="#" class="list-group-item list-group-item-action active shadow">
-                <h5 class="list-group-item-heading lead">instar</h5>
-                <p class="list-group-item-text">Standard Kennwort:</p>
-              </a>
-            </div>
+            <!-- /row -->
 
             <div class="clearfix mb"></div>
 
@@ -317,7 +336,7 @@
       <!-- / container -->
 
 
-        <!-- ############################################ Registration ################################################ -->
+        <!-- ########################################## Registration ######################################### -->
 
         <div class="container mb">
           <div class="row">
@@ -383,74 +402,84 @@
 
         <!--############################################Mason Wall#################################################-->
 
-        <div class="container mt">
+        <section class="container mt">
           <div class="row">
 
             <div class="col-12 mb">
               <h2><i class="fa fa-bars" aria-hidden="true"></i>&nbsp; Nutzeroberfläche</h2>
             </div>
 
-            <div class="offset-lg-1 col-lg-10 mb">
+          </div>
+          <!-- /row -->
 
-                <div class="card-deck-wrapper">
-                  <div class="card-deck">
+             <div class="row justify-content-between mb">
 
-                    <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
-                      <div class="card-header">
-                        <h4 class="card-title" style="color: #333; padding-top: 10px;">Kamera Liste</h4>
-                      </div>
-                      <div class="text-xs-center">
-                        <img class="card-img-top img-fluid" src="/images/InstarVision2_CameraList.png" alt="InstarVision 2 Camera List">
-                      </div>
-                      <div class="card-block">
-                        <p class="card-text">Fügen Sie Kameras und elektronische Karten hinzu und bearbeiten Sie bereits existierende.</p>
-                      </div>
-                      <div class="card-footer">
-                        <a href="/Software/Windows/InstarVision/Camera_List" class="btn btn-primary">Mehr lesen</a>
-                      </div>
+               <div class="col-md-6 col-lg-4 card-deck mb">
+                 <div class="card card-inverse shadow" style="background-color: #333;">
+                   <div class="card-header" style="background-color: #fff;">
+                      <h4 class="card-title font-weight-bold" style="color: #333; padding-top: 10px;">Kamera Liste</h4>
                     </div>
-
-                    <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
-                      <div class="card-header">
-                        <h4 class="card-title" style="color: #333; padding-top: 10px;">Layout</h4>
-                      </div>
-                      <div class="text-xs-center">
-                        <img class="card-img-top img-fluid" src="/images/InstarVision2_Layout.png" alt="InstarVision 2 Layout">
-                      </div>
-                      <div class="card-block">
-                        <p class="card-text">Arrangieren Sie Ihre Kameras nach Ihrem Ansprüchen in Layout Vorlagen.</p>
-                      </div>
-                      <div class="card-footer">
-                        <a href="/Software/Windows/InstarVision/Layout" class="btn btn-primary">Mehr lesen</a>
-                      </div>
+                    <div class="text-xs-center">
+                      <img class="card-img-top img-fluid" src="/images/InstarVision2_CameraList.png" alt="InstarVision 2 Camera List">
                     </div>
-
-                    <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
-                      <div class="card-header">
-                        <h4 class="card-title" style="color: #333; padding-top: 10px;">Kamera PTZ</h4>
-                      </div>
-                      <div class="text-xs-center">
-                        <img class="card-img-top img-fluid" src="/images/InstarVision2_CameraPTZ.png" alt="InstarVision 2 Camera PTZ">
-                      </div>
-                      <div class="card-block">
-                        <p class="card-text">Kontrollieren Sie die Pan, Tilt und Zoom Funktionen zum Bewegen Ihrer Kamera.</p>
-                      </div>
-                      <div class="card-footer">
-                        <a href="/Software/Windows/InstarVision/PTZ" class="btn btn-primary">Mehr lesen</a>
-                      </div>
+                    <div class="card-block">
+                      <p class="card-text">Fügen Sie Kameras und elektronische Karten hinzu und bearbeiten Sie bereits existierende.</p>
                     </div>
-
+                    <div class="card-footer" style="background-color: #fff;">
+                      <a href="/Software/Windows/InstarVision/Camera_List" class="btn btn-primary btn-block">Mehr</a>
+                    </div>
                   </div>
-                  <!-- /card-deck -->
+                  <!-- /card -->
+              </div>
+              <!-- /col -->
+
+              <div class="col-md-6 col-lg-4 card-deck mb">
+                <div class="card card-inverse shadow" style="background-color: #333;">
+                  <div class="card-header" style="background-color: #fff;">
+                      <h4 class="card-title font-weight-bold" style="color: #333; padding-top: 10px;">Layout</h4>
+                    </div>
+                    <div class="text-xs-center">
+                      <img class="card-img-top img-fluid" src="/images/InstarVision2_Layout.png" alt="InstarVision 2 Layout">
+                    </div>
+                    <div class="card-block">
+                      <p class="card-text">Arrangieren Sie Ihre Kameras nach Ihrem Ansprüchen in Layout Vorlagen.</p>
+                    </div>
+                    <div class="card-footer" style="background-color: #fff;">
+                      <a href="/Software/Windows/InstarVision/Layout" class="btn btn-primary btn-block">Mehr</a>
+                    </div>
+                  </div>
+                  <!-- /card -->
+              </div>
+              <!-- /col -->
+
+              <div class="col-md-6 col-lg-4 card-deck mb">
+                <div class="card card-inverse shadow" style="background-color: #333;">
+                  <div class="card-header" style="background-color: #fff;">
+                      <h4 class="card-title font-weight-bold" style="color: #333; padding-top: 10px;">Kamera PTZ</h4>
+                    </div>
+                    <div class="text-xs-center">
+                      <img class="card-img-top img-fluid" src="/images/InstarVision2_CameraPTZ.png" alt="InstarVision 2 Camera PTZ">
+                    </div>
+                    <div class="card-block">
+                      <p class="card-text">Kontrollieren Sie die Pan, Tilt und Zoom Funktionen zum Bewegen Ihrer Kamera.</p>
+                    </div>
+                    <div class="card-footer" style="background-color: #fff;">
+                      <a href="/Software/Windows/InstarVision/PTZ" class="btn btn-primary btn-block">Mehr</a>
+                    </div>
+                  </div>
+                  <!-- /card -->
                 </div>
-                <!-- /deck-wrapper -->
+                <!-- /col -->
 
-                <div class="card-deck-wrapper">
-                  <div class="card-deck">
+            </div>
+            <!-- /row -->
 
-                    <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
-                      <div class="card-header">
-                        <h4 class="card-title" style="color: #333; padding-top: 10px;">Bildeinstellungen</h4>
+            <div class="row justify-content-between mb">
+
+                 <div class="col-md-6 col-lg-4 card-deck mb">
+                   <div class="card card-inverse shadow" style="background-color: #333;">
+                     <div class="card-header" style="background-color: #fff;">
+                        <h4 class="card-title font-weight-bold" style="color: #333; padding-top: 10px;">Bildeinstellungen</h4>
                       </div>
                       <div class="text-xs-center">
                         <img class="card-img-top img-fluid" src="/images/InstarVision2_ImageSettings.png" alt="InstarVision 2 Image Adjust">
@@ -458,14 +487,18 @@
                       <div class="card-block">
                         <p class="card-text">Stellen Sie die einzelnen Bildparameter wie Helligkeit, Kontrast und Sättigung Ihrer eingebundenen Kameras ein.</p>
                       </div>
-                      <div class="card-footer">
-                        <a href="/Software/Windows/InstarVision/Image_Adjust" class="btn btn-primary">Mehr lesen</a>
+                      <div class="card-footer" style="background-color: #fff;">
+                        <a href="/Software/Windows/InstarVision/Image_Adjust" class="btn btn-primary btn-block">Mehr</a>
                       </div>
                     </div>
+                    <!-- /card -->
+                </div>
+                <!-- /col -->
 
-                    <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
-                      <div class="card-header">
-                        <h4 class="card-title" style="color: #333; padding-top: 10px;">Webserver</h4>
+                <div class="col-md-6 col-lg-4 card-deck mb">
+                  <div class="card card-inverse shadow" style="background-color: #333;">
+                    <div class="card-header" style="background-color: #fff;">
+                        <h4 class="card-title font-weight-bold" style="color: #333; padding-top: 10px;">Webserver</h4>
                       </div>
                       <div class="text-xs-center">
                         <img class="card-img-top img-fluid" src="/images/InstarVision2_Webserver.png" alt="InstarVision 2 Webserver">
@@ -473,14 +506,18 @@
                       <div class="card-block">
                         <p class="card-text">Lassen Sie InstarVision das Video Ihrer Kamera ins Internet streamen und setzten Sie diesen in Ihrer Webseite ein.</p>
                       </div>
-                      <div class="card-footer">
-                        <a href="/Software/Windows/InstarVision/Webserver" class="btn btn-primary">Mehr lesen</a>
+                      <div class="card-footer" style="background-color: #fff;">
+                        <a href="/Software/Windows/InstarVision/Webserver" class="btn btn-primary btn-block">Mehr</a>
                       </div>
                     </div>
+                    <!-- /card -->
+                </div>
+                <!-- /col -->
 
-                    <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
-                      <div class="card-header">
-                        <h4 class="card-title" style="color: #333; padding-top: 10px;">Aufnahme</h4>
+                <div class="col-md-6 col-lg-4 card-deck mb">
+                  <div class="card card-inverse shadow" style="background-color: #333;">
+                    <div class="card-header" style="background-color: #fff;">
+                        <h4 class="card-title font-weight-bold" style="color: #333; padding-top: 10px;">Aufnahme</h4>
                       </div>
                       <div class="text-xs-center">
                         <img class="card-img-top img-fluid" src="/images/InstarVision2_Record.png" alt="InstarVision 2 Record">
@@ -488,22 +525,23 @@
                       <div class="card-block">
                         <p class="card-text">Nutzen Sie die Software um geplante und alarmausgelöste Videos aufzunehmen und verwalten Sie Ihre FTP Uploads.</p>
                       </div>
-                      <div class="card-footer">
-                        <a href="/Software/Windows/InstarVision/Record" class="btn btn-primary">Mehr lesen</a>
+                      <div class="card-footer" style="background-color: #fff;">
+                        <a href="/Software/Windows/InstarVision/Record" class="btn btn-primary btn-block">Mehr</a>
                       </div>
                     </div>
-
-                  </div>
-                  <!-- /card-deck -->
+                    <!-- /card -->
                 </div>
-                <!-- /deck-wrapper -->
+                <!-- /col -->
 
-                <div class="card-deck-wrapper">
-                  <div class="card-deck">
+            </div>
+            <!-- /row -->
 
-                    <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
-                      <div class="card-header">
-                        <h4 class="card-title" style="color: #333; padding-top: 10px;">System</h4>
+            <div class="row justify-content-between mb">
+
+                 <div class="col-md-6 col-lg-4 card-deck mb">
+                   <div class="card card-inverse shadow" style="background-color: #333;">
+                     <div class="card-header" style="background-color: #fff;">
+                        <h4 class="card-title font-weight-bold" style="color: #333; padding-top: 10px;">System</h4>
                       </div>
                       <div class="text-xs-center">
                         <img class="card-img-top img-fluid" src="/images/InstarVision2_System.png" alt="InstarVision 2 System">
@@ -511,14 +549,18 @@
                       <div class="card-block">
                         <p class="card-text">Stellen Sie die UI Sprache, den Startmodus und die TCP Ports für den Fernzugriff ein.</p>
                       </div>
-                      <div class="card-footer">
-                        <a href="/Software/Windows/InstarVision/System" class="btn btn-primary">Mehr lesen</a>
+                      <div class="card-footer" style="background-color: #fff;">
+                        <a href="/Software/Windows/InstarVision/System" class="btn btn-primary btn-block">Mehr</a>
                       </div>
                     </div>
+                    <!-- /card -->
+                </div>
+                <!-- /col -->
 
-                    <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
-                      <div class="card-header">
-                        <h4 class="card-title" style="color: #333; padding-top: 10px;">Benutzer</h4>
+                <div class="col-md-6 col-lg-4 card-deck mb">
+                  <div class="card card-inverse shadow" style="background-color: #333;">
+                    <div class="card-header" style="background-color: #fff;">
+                        <h4 class="card-title font-weight-bold" style="color: #333; padding-top: 10px;">Benutzer</h4>
                       </div>
                       <div class="text-xs-center">
                         <img class="card-img-top img-fluid" src="/images/InstarVision2_User.png" alt="InstarVision 2 Users">
@@ -526,14 +568,18 @@
                       <div class="card-block">
                         <p class="card-text">Die Benutzerverwaltung mit feinstufigen Einstellungen auf die Funktionen der Software.</p>
                       </div>
-                      <div class="card-footer">
-                        <a href="/Software/Windows/InstarVision/Users" class="btn btn-primary">Mehr lesen</a>
+                      <div class="card-footer" style="background-color: #fff;">
+                        <a href="/Software/Windows/InstarVision/Users" class="btn btn-primary btn-block">Mehr</a>
                       </div>
                     </div>
+                    <!-- /card -->
+                </div>
+                <!-- /col -->
 
-                    <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
-                      <div class="card-header">
-                        <h4 class="card-title" style="color: #333; padding-top: 10px;">Erweitert</span></h4>
+                <div class="col-md-6 col-lg-4 card-deck mb">
+                  <div class="card card-inverse shadow" style="background-color: #333;">
+                    <div class="card-header" style="background-color: #fff;">
+                        <h4 class="card-title font-weight-bold" style="color: #333; padding-top: 10px;">Erweitert</h4>
                       </div>
                       <div class="text-xs-center">
                         <img class="card-img-top img-fluid" src="/images/InstarVision2_Advanced.png" alt="InstarVision 2 Advanced">
@@ -541,52 +587,55 @@
                       <div class="card-block">
                         <p class="card-text">Überprüfen Sie Ihr Software Log oder importieren/exportieren Sie Ihre Systemeinstellungen.</p>
                       </div>
-                      <div class="card-footer">
-                          <a href="/Software/Windows/InstarVision/Advanced" class="btn btn-primary">Mehr lesen</a>
+                      <div class="card-footer" style="background-color: #fff;">
+                        <a href="/Software/Windows/InstarVision/Advanced" class="btn btn-primary btn-block">Mehr</a>
                       </div>
                     </div>
-
-                  </div>
-                  <!-- /card-deck -->
+                    <!-- /card -->
                 </div>
-                <!-- /deck-wrapper -->
+                <!-- /col -->
 
-                <div class="card-deck-wrapper mb">
-                  <div class="card-deck">
+            </div>
+            <!-- /row -->
 
-                    <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
-                    <div class="card-header">
-                      <h4 class="card-title" style="color: #333; padding-top: 10px;">Über InstarVision</span></h4>
+            <div class="row justify-content-between mb">
+
+              <div class="col-md-6 col-lg-4 card-deck mb">
+                <div class="card card-inverse shadow" style="background-color: #333;">
+                  <div class="card-header" style="background-color: #fff;">
+                      <h4 class="card-title font-weight-bold" style="color: #333; padding-top: 10px;">Über InstarVision</h4>
                     </div>
                     <div class="text-xs-center">
                       <img class="card-img-top img-fluid" src="/images/InstarVision2_About.png" alt="InstarVision 2 About InstarVision">
                     </div>
-                      <div class="card-block">
-                        <p class="card-text">Allgemeine Informationen über die Software Installation.</p>
-                      </div>
-                      <div class="card-footer">
-                        <a href="/Software/Windows/InstarVision/About" class="btn btn-primary">Mehr lesen</a>
-                      </div>
+                    <div class="card-block">
+                      <p class="card-text">Allgemeine Informationen über die Software Installation.</p>
                     </div>
-
-                    <div class="card invisible">
+                    <div class="card-footer" style="background-color: #fff;">
+                      <a href="/Software/Windows/InstarVision/About" class="btn btn-primary btn-block">Mehr</a>
                     </div>
-
-                    <div class="card invisible">
-                    </div>
-
                   </div>
-                  <!-- /card-deck -->
+                  <!-- /card -->
+              </div>
+              <!-- /col -->
+
+              <div class="col-md-6 col-lg-4 card-deck mb">
+                  <div class="card invisible">
+                  </div>
+                  <!-- /card -->
                 </div>
-                <!-- /deck-wrapper -->
+                <!-- /col -->
 
-
+              <div class="col-md-6 col-lg-4 card-deck mb">
+                  <div class="card invisible">
+                </div>
+                <!-- /card -->
             </div>
-            <!-- /offset -->
+            <!-- /col -->
 
           </div>
           <!-- / row -->
-        </div>
+        </section>
         <!-- / container -->
 
         <div class="clearfix"></div>
