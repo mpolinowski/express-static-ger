@@ -2,7 +2,7 @@
 <html ⚡>
     <head>
         <% include ../_partials/amp/_amp-head.ejs %>
-        <link rel="canonical" href="/Software//Windows/VLC_Player">
+        <link rel="canonical" href="/Software/Windows/VLC_Player">
     </head>
 
     <body class="home">
@@ -19,45 +19,45 @@
                 <article class="margin">
                     <!-- article -->
 
-                    <div class="margin">
+                    <div>
                         <h1>Windows &amp; macOS Software</h1>
                         <h2>VLC Player</h2>
-                        <p class="justify">VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols. You can download the <a href="http://www.videolan.org/vlc/">free Windows client HERE</a>. After installing the software start the user interface.</p>
+                        <p class="justify">VLC ist ein kostenloser cross-platform (Windows, macOS, LINUX) Mediaplayer. Sie können die aktuellste Version der Software <a href="http://www.videolan.org/vlc/">Hier</a> herunterladen. Nach dem installieren der Software können Sie diese mit einem Doppelklick starten und in der Oberfläche die folgenden Schritte durchführen:</p>
                     </div>
                     <!-- /margin -->
 
                     <div class="margin">
-                      <h3>Open Network Stream Assistant</h3>
-                      <p>Go to Media and choose to open a network stream - or simply type CTRL+N.</p>
+                      <h3>Öffnen des Network Stream Assistant</h3>
+                      <p>Gehen Sie in der Menüleiste nach Media und wählen Sie einen <strong>Netzwerk Stream zu öffnen</strong> - oder drücken Sie einfach CTRL+N auf Ihrer Tastatur.</p>
                       <br>
                       <div>
                           <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/VLC_01.png" width="610" height="457" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox1" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox1.close"  tabindex="0" role="button" class="centered">
                               <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/VLC_01.png" width="610" height="457" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
                       <br>
-                      <p>Open the program and add a network stream.</p>
+                      <p>Öffnen Sie das Programm und nutzen Sie den Netzwerk Stream Assistent um den Netzwerk Stream Ihrer Kamera hinzuzufügen.</p>
                     </div>
                     <!-- /margin -->
 
                     <div class="margin">
-                      <h3>Add a new HD Camera</h3>
-                      <p class="justify">To add an INSTAR HD camera type in the RTSP streaming address (see Installation Guide). You can either use the local IP address (e.g. <strong>192.168.1.101:554</strong>) to connect to a camera inside your local area network or use the <a href="/Internet_Access/The_DDNS_Service">camera´s DDNS address</a> (e.g. <strong>1234ab.ddns-instar.com:554</strong> to connect to your camera from a different network.</p>
-                      <p class="justify">Your INSTAR HD camera offers you three RTSP streams with different resolutions. To minimize your network load it is recommended to use a stream with a lower resolution - especially if you access your camera over the internet. For a camera with the network address 1234ab.ddns-instar.com that is <a href="/Internet_Access/Port_Forwarding">forwarded</a> on the RTSP port 554 (see Web User Interface Network/IP Configuration) and the default login <strong>user = admin</strong> and <strong>password = instar</strong> you have the following three options:</p>
+                      <h3>Hinzufügen einer HD Kamera</h3>
+                      <p class="justify">Um den RTSP Stream Ihrer INSTAR HD Kamera hinzuzufügen, geben Sie einfach den <a href="/Indoor_Cameras/IN-8015_HD/Video_Streaming">RTSP Pfad</a> Ihrer Kamera ein. Sie können die Kamera lokal über die lokale IP Adresse (z.b. <strong>192.168.1.101:554</strong>) oder über das Internet mit ihrer <a href="/Internet_Access/The_DDNS_Service">DDNS Adresse</a> (z.b. <strong>1234ab.ddns-instar.de:554</strong> einbinden.</p>
+                      <p class="justify">Ihre INSTAR HD Kamera bietet Ihnen 3 RTSP Streams mit unterschiedlicher Auflösung. Um die Auslastung im Netzwerk zu reduzieren, können Sie einfach einen Stream mit geringerer Auflösung auswählen - dies empfiehlt sich besonders, wenn Sie die Kamera über das Internet ansprechen möchten. Beachten Sie bitte, das Sie für den Zugriff über das Internet noch den RTSP Port auf die Kamera <a href="/Internet_Access/Port_Forwarding">durchleiten müssen</a>. Der Standard RTSP Port ist <strong>554</strong>. Dieser kann aber in der Weboberfläche unter Netzwerk/IP Konfiguration frei gewählt werden - <a href="/Web_User_Interface/720p_Series/Network/IP_Configuration/">720p</a> / <a href="/Web_User_Interface/1080p_Series/Network/IP_Configuration/">1080p</a> Serie. Für eine Kamera mit der DDNS Adresse 1234ab.ddns-instar.de und dem weitergeleiteten RTSP Port 554, mit dem Standard Login <strong>Benutzer = admin</strong> und <strong>Kennwort = instar</strong>, würde der Videopfad wie folgt aussehen:</p>
                       <ul>
-                        <li><strong>High Bandwidth</strong>: <span class="code">rtsp://admin:instar@1234ab.ddns-instar.com:554/11</span></li>
-                        <li><strong>Normal Bandwidth</strong>: <span class="code">rtsp://admin:instar@1234ab.ddns-instar.com:554/12</span></li>
-                        <li><strong>Low Bandwidth</strong>: <span class="code">rtsp://admin:instar@1234ab.ddns-instar.com:554/13</span></li>
+                        <li><strong>Hohe Bandbreite</strong>: <span class="code">rtsp://admin:instar@1234ab.ddns-instar.com:554/11</span></li>
+                        <li><strong>Normale Bandbreite</strong>: <span class="code">rtsp://admin:instar@1234ab.ddns-instar.com:554/12</span></li>
+                        <li><strong>Niedrige Bandbreite</strong>: <span class="code">rtsp://admin:instar@1234ab.ddns-instar.com:554/13</span></li>
                       </ul>
                       <br>
                       <div>
                           <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/VLC_02.png" width="543" height="441" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox2" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox2.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox2.close"  tabindex="0" role="button" class="centered">
                               <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/VLC_02.png" width="543" height="441" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -65,13 +65,13 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <p>The HD camera´s video stream will be loaded after clicking on Play:</p>
+                      <p>Der Videostream Ihrer HD Kamera wird abgespielt, sobald Sie die <strong>Play</strong> Taste gedrückt haben:</p>
                       <br>
                       <div>
                           <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/VLC_04.png" width="657" height="463" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox3" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox3.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox3.close"  tabindex="0" role="button" class="centered">
                               <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/VLC_04.png" width="657" height="463" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -79,19 +79,19 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <h3>Add a new VGA Camera</h3>
-                      <p class="justify">To add an INSTAR VGA camera type in the <a href="/Advanced_User/CGI_Commands/VGA_Series_CGI_List/">CGI command</a> for the network MJPEG stream. You can either use the local IP address (e.g. <strong>192.168.1.101:80</strong>) to connect to a camera inside your local area network or use the camera´s <a href="/Internet_Access/The_DDNS_Service">DDNS address</a> (e.g. <strong>1234ab.ddns-instar.com:80</strong> to connect to your camera from a different network.</p>
-                      <p class="justify">Your INSTAR VGA camera offers you two streams - the MJPEG stream and the ASF stream that adds a sound track to the stream, if your camera has a microphone. For a camera with the network address 1234ab.ddns-instar.com that is <a href="/Internet_Access/Port_Forwarding">forwarded</a> on the HTTP port 80 (see Web User Interface Network/IP Configuration) and uses the default login user = admin and password = <empty> you have the following two options:</p>
+                      <h3>Hinzufügen einer VGA Kamera</h3>
+                      <p class="justify">Um eine INSTAR VGA Kamera hinzuzufügen, geben Sie einfach den <a href="/Advanced_User/CGI_Commands/VGA_Series_CGI_List/">CGI Befehl</a> für den Netzwerk MJPEG Stream als Netzwerk URL ein. Sie können die Kamera lokal über die lokale IP Adresse (z.b. <strong>192.168.1.101:80</strong>) oder über das Internet mit ihrer <a href="/Internet_Access/The_DDNS_Service">DDNS Adresse</a> (z.b. <strong>1234ab.ddns-instar.de:80</strong> einbinden.</p>
+                      <p class="justify">Beachten Sie bitte, das Sie für den Zugriff über das Internet noch den HTTP Port auf die Kamera <a href="/Internet_Access/Port_Forwarding">durchleiten müssen</a>. Der Standard RTSP Port ist <strong>80</strong>. Wir empfehlen diesen in der Weboberfläche unter Netzwerk/IP Konfiguration auf 8081 oder höher zu ändern. Für eine Kamera mit der DDNS Adresse 1234ab.ddns-instar.de und dem weitergeleiteten HTTP Port 8081, mit dem Login <strong>Benutzer = admin</strong> und <strong>Kennwort = instar</strong>, würde der Videopfad wie folgt aussehen:</p>
                       <ul>
-                        <li><strong>MJPEG Stream</strong>: <span class="code">http://1234ab.ddns-instar.com:80/videostream.cgi?user=admin&pwd=</span></li>
-                        <li><strong>MJPEG + Audio Stream</strong>: <span class="code">http://1234ab.ddns-instar.com:80/videostream.asf?user=admin&pwd=/span></li>
+                        <li><strong>MJPEG Stream</strong>: <span class="code">http://1234ab.ddns-instar.com:80/videostream.cgi?user=admin&pwd=instar</span></li>
+                        <li><strong>MJPEG + Audio Stream</strong>: <span class="code">http://1234ab.ddns-instar.com:80/videostream.asf?user=admin&pwd=instar</span></li>
                       </ul>
                       <br>
                       <div>
                           <amp-img on="tap:lightbox4" role="button" tabindex="0" src="/images/VLC_03.png" width="543" height="440" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox4" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox4.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox4.close"  tabindex="0" role="button" class="centered">
                               <amp-img on="tap:lightbox4.close" role="button" tabindex="0" src="/images/VLC_03.png" width="543" height="440" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -99,13 +99,13 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <p>The VGA camera´s video stream will be loaded after clicking on <strong>Play</strong>:</p>
+                      <p>Der Videostream Ihrer VGA Kamera wird abgespielt, sobald Sie die <strong>Play</strong> Taste gedrückt haben:</p>
                       <br>
                       <div>
                           <amp-img on="tap:lightbox5" role="button" tabindex="0" src="/images/VLC_05.png" width="655" height="590" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox5" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox5.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox5.close"  tabindex="0" role="button" class="centered">
                               <amp-img on="tap:lightbox5.close" role="button" tabindex="0" src="/images/VLC_05.png" width="655" height="590" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
@@ -113,77 +113,77 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <h3>Advanced Options</h3>
-                      <p>VLC Player allows you to save a camera to a playlist to quickly access it´s video stream and do manual video recordings.</p>
+                      <h3>Erweiterte Optionen</h3>
+                      <p>Der VLC Player ermöglicht es Ihnen Ihre Kameras in Playlisten zu speichern und manuelle Aufnahmen zu starten.</p>
                       <br>
                       <div>
                           <amp-img on="tap:lightbox6" role="button" tabindex="0" src="/images/VLC_Playlist_01_en.jpg" width="400" height="125" layout="responsive" class="shadow"></amp-img>
                       </div>
                       <amp-lightbox id="lightbox6" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox6.close" tabindex="0" class="centered">
+                          <div class="lightbox" on="tap:lightbox6.close"  tabindex="0" role="button" class="centered">
                               <amp-img on="tap:lightbox6.close" role="button" tabindex="0" src="/images/VLC_Playlist_01_en.jpg" width="400" height="125" layout="responsive" class="shadow"></amp-img>
                           </div>
                       </amp-lightbox>
                       <br>
-                      <p>Start the program and open the playlist window.</p>
+                      <p>Starten Sie das Programm und öffnen Sie das Playlist Fenster.</p>
                     </div>
                     <!-- /margin -->
 
                     <div class="margin">
-                        <p><strong>Step 1</strong>: Open the playlist window by clicking the Show Playlist button.</p>
+                        <p><strong>Schritt 1</strong>: Öffnen Sie das Playlist Fenster, indem Sie auf den <strong>Playliste anzeigen</strong> Button drücken.</p>
                         <br>
                           <div>
                               <amp-img on="tap:lightbox7" role="button" tabindex="0" src="/images/VLC_Playlist_02_en.jpg" width="600" height="405" layout="responsive" class="shadow"></amp-img>
                           </div>
                           <amp-lightbox id="lightbox7" layout="nodisplay">
-                              <div class="lightbox" on="tap:lightbox7.close" tabindex="0" class="centered">
+                              <div class="lightbox" on="tap:lightbox7.close"  tabindex="0" role="button" class="centered">
                                   <amp-img on="tap:lightbox7.close" role="button" tabindex="0" src="/images/VLC_Playlist_02_en.jpg" width="600" height="405" layout="responsive" class="shadow"></amp-img>
                               </div>
                           </amp-lightbox>
                           <br>
-                          <p>Choose <strong>Advanced Open</strong>.</p>
+                          <p>Wählen Sie <strong>Öffnen Erweitert</strong>.</p>
                     </div>
 
                         <div class="margin">
-                            <p><strong>Step 2</strong>: Right-click the playlist window and choose <strong>Advanced Open</strong>.</p>
+                            <p><strong>Schritt 2</strong>: Rechts-klicken Sie das Playlist Fenster und wählen Sie <strong>Advanced Open</strong>.</p>
                             <br>
                           <div>
                               <amp-img on="tap:lightbox8" role="button" tabindex="0" src="/images/VLC_Playlist_03_en.jpg" width="550" height="535" layout="responsive" class="shadow"></amp-img>
                           </div>
                           <amp-lightbox id="lightbox8" layout="nodisplay">
-                              <div class="lightbox" on="tap:lightbox8.close" tabindex="0" class="centered">
+                              <div class="lightbox" on="tap:lightbox8.close"  tabindex="0" role="button" class="centered">
                                   <amp-img on="tap:lightbox8.close" role="button" tabindex="0" src="/images/VLC_Playlist_03_en.jpg" width="550" height="535" layout="responsive" class="shadow"></amp-img>
                               </div>
                           </amp-lightbox>
                           <br>
-                          <p>Type in the network stream address and click on <strong>Enqeue</strong>.</p>
+                          <p>Geben Sie den Videopfad Ihrer Kamera ein - wie oben beschrieben. Und klicken Sie auf <strong>Enqeue</strong>.</p>
                         </div>
                         <!-- /margin -->
 
                         <div class="margin">
-                            <p><strong>Step 3</strong>: Type in the network stream address for your HD or VGA camera (see above for details) and click on <strong>Enqeue</strong> to add the URL to your playlist.</p>
+                            <p><strong>Schritt 3</strong>: Geben Sie die Videostream Adresse des RTSP oder MJPEG Streams Ihrer INSTAR HD oder VGA Kamera ein (s.o.) und klicken Sie auf <strong>Enqeue</strong> um die URL der Playliste hinzuzufügen.</p>
                             <br>
                           <div>
                               <amp-img on="tap:lightbox9" role="button" tabindex="0" src="/images/VLC_Playlist_09_en.jpg" width="600" height="389" layout="responsive" class="shadow"></amp-img>
                           </div>
                           <amp-lightbox id="lightbox9" layout="nodisplay">
-                              <div class="lightbox" on="tap:lightbox9.close" tabindex="0" class="centered">
+                              <div class="lightbox" on="tap:lightbox9.close"  tabindex="0" role="button" class="centered">
                                   <amp-img on="tap:lightbox9.close" role="button" tabindex="0" src="/images/VLC_Playlist_09_en.jpg" width="600" height="389" layout="responsive" class="shadow"></amp-img>
                               </div>
                           </amp-lightbox>
                           <br>
-                          <p>Go to <strong>Media</strong> if you want to save the playlist.</p>
+                          <p>Öffnen Sie das <strong>Medien</strong> Menü, um die Playliste zu speichern.</p>
                         </div>
                         <!-- /margin -->
 
                         <div class="margin">
-                            <p><strong>Step 4</strong>: You can now save the playlist to a file or add more cameras to it before saving it to a file. This allows you to quickly access your cameras in the future.</p>
+                            <p><strong>Schritt 4</strong>: Sie können die Playliste jetzt über das Medien Menü speichern oder einfach noch weitere Kameras hinzufügen bevor Sie die Datei speichern. Auf diese Weise haben Sie in Zukunft schnell Zugriff auf alle Ihre Kameras.</p>
                             <br>
                           <div>
                               <amp-img on="tap:lightbox10" role="button" tabindex="0" src="/images/VLC_Playlist_04_en.jpg" width="600" height="388" layout="responsive" class="shadow"></amp-img>
                           </div>
                           <amp-lightbox id="lightbox10" layout="nodisplay">
-                              <div class="lightbox" on="tap:lightbox10.close" tabindex="0" class="centered">
+                              <div class="lightbox" on="tap:lightbox10.close"  tabindex="0" role="button" class="centered">
                                   <amp-img on="tap:lightbox10.close" role="button" tabindex="0" src="/images/VLC_Playlist_04_en.jpg" width="600" height="388" layout="responsive" class="shadow"></amp-img>
                               </div>
                           </amp-lightbox>
@@ -195,7 +195,7 @@
                               <amp-img on="tap:lightbox11" role="button" tabindex="0" src="/images/VLC_Playlist_05_en.jpg" width="600" height="388" layout="responsive" class="shadow"></amp-img>
                           </div>
                           <amp-lightbox id="lightbox11" layout="nodisplay">
-                              <div class="lightbox" on="tap:lightbox11.close" tabindex="0" class="centered">
+                              <div class="lightbox" on="tap:lightbox11.close"  tabindex="0" role="button" class="centered">
                                   <amp-img on="tap:lightbox11.close" role="button" tabindex="0" src="/images/VLC_Playlist_05_en.jpg" width="600" height="388" layout="responsive" class="shadow"></amp-img>
                               </div>
                           </amp-lightbox>
@@ -203,13 +203,13 @@
                         <!-- /margin -->
 
                         <div class="margin">
-                            <p><strong>Step 5</strong>: Make sure that the advanced controls are activated if you want to record the live stream.</p>
+                            <p><strong>Schritt 5</strong>: Stellen Sie sicher, dass die <strong>Erweiterten Kontrollelemente</strong> aktiv sind, um eine manuelle Aufnahme des Videostreams zu starten.</p>
                             <br>
                           <div>
                               <amp-img on="tap:lightbox12" role="button" tabindex="0" src="/images/VLC_Playlist_06_en.jpg" width="600" height="395" layout="responsive" class="shadow"></amp-img>
                           </div>
                           <amp-lightbox id="lightbox12" layout="nodisplay">
-                              <div class="lightbox" on="tap:lightbox12.close" tabindex="0" class="centered">
+                              <div class="lightbox" on="tap:lightbox12.close"  tabindex="0" role="button" class="centered">
                                   <amp-img on="tap:lightbox12.close" role="button" tabindex="0" src="/images/VLC_Playlist_06_en.jpg" width="600" height="395" layout="responsive" class="shadow"></amp-img>
                               </div>
                           </amp-lightbox>
@@ -217,18 +217,18 @@
                         <!-- /margin -->
 
                         <div class="margin">
-                            <p><strong>Step 6</strong>: You can start the live streaming by clicking on the Play button.</p>
+                            <p><strong>Schritt 6</strong>: Starten Sie den Live Stream Ihrer Kamera, indem Sie den <strong>Play Button</strong> betätigen.</p>
                             <br>
                           <div>
                               <amp-img on="tap:lightbox13" role="button" tabindex="0" src="/images/VLC_Playlist_07_en.jpg" width="600" height="596" layout="responsive" class="shadow"></amp-img>
                           </div>
                           <amp-lightbox id="lightbox13" layout="nodisplay">
-                              <div class="lightbox" on="tap:lightbox13.close" tabindex="0" class="centered">
+                              <div class="lightbox" on="tap:lightbox13.close"  tabindex="0" role="button" class="centered">
                                   <amp-img on="tap:lightbox13.close" role="button" tabindex="0" src="/images/VLC_Playlist_07_en.jpg" width="600" height="596" layout="responsive" class="shadow"></amp-img>
                               </div>
                           </amp-lightbox>
                           <br>
-                          <p><strong>Step 7</strong>: You can start the live stream recording by clicking on the <strong>Rec</strong> button. The file will be saved in <strong>My Documents</strong> inside your <strong>My Videos</strong> folder.</p>
+                          <p><strong>Schritt 7</strong>: Um eine Aufnahme des Live Streams zu starten, klicken Sie jetzt einfach auf den <strong>Rec Button</strong>. Klicken Sie erneut, um die Aufnahme zu beenden. Die Datei wird automatisch in Ihren <strong>Eigenen Dateien</strong> im <strong>Videos</strong> Ordner gespeichert.</p>
                         </div>
                         <!-- /margin -->
 
