@@ -70,51 +70,51 @@
                         <table>
                             <tr>
                                 <td width="20%">
-                                    <strong>Video resolution</strong>
+                                    <strong>Video Auflösung</strong>
                                 </td>
-                                <td>Your camera can send it´s h.264 video in form of three different streams, with different resolution. You can access all three of them independently with <a href="/Software/">external software</a>. Selecting a stream here defines which stream is displayed inside the web user interface.</td>
+                                <td>Legen Sie hier die Auflösung des Videostreams fest. Je nachdem welchen Videokanal Sie gewählt haben, werden Ihnen hier unterschiedliche Werte zur Auswahl stehen. Nur der erste Kanal kann die volle 1080p HD Auflösung der Kamera wiedergeben.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>Image refresh rate (fps)</strong>
+                                    <strong>Bildwiederholrate (fps)</strong>
                                 </td>
-                                <td>This value represents the frames per seconds in your camera´s videostream. Please be aware that this is only a theoretical maximum that you don´t want your camera to exceed. The actual framerate might be bottlenecked by your camera´s network connection and the exposure time of the image sensor (the darker the image becomes, the longer the image sensor has to collect light and the longer it takes to create a frame). The framerate is suitable to set an upper limit to the bandwidth requirement of your camera, to prevent a network overload. The default value of <strong>15 fps</strong> is usually a workable compromise for most surveillance tasks.</td>
+                                <td>Bei dieser Einstellung handelt es sich um die gewünschte Bildwiederholungsrate des Videobildes. Beachten Sie bitte, dass der hier eingestellte Wert nur das theoretische Maximum ist. Die reale Framerate wird auch durch die Netzwerkanbindung und die Belichtungszeiten der Kamera (um so dunkler es wird, desto länger muss die Kamera den Sensor belichten, um ein einzelnes Videobild aufzunehmen) bestimmt. Die Framerate eignet sich daher am besten um ein oberes Limit für die Übertragung festzulegen, um Ihr Netzwerk nicht zu überlasten. Der Standardwert ist 15 fps und ist für die meisten Überwachungsaufgaben eine gute Kompromisslösung.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>Variable fps</strong>
                                 </td>
-                                <td>Allow your camera to reduce it´s frame rate when a high frame rate is not needed. This can drastically reduce the required bandwith.</td>
+                                <td>Erlauben Sie Ihrer Kamera die Framerate zu reduzieren, wenn keine höhe Framerate benötigt wird. Dies kann die Bandbreite drastisch reduzieren.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>Video bitrate</strong>
+                                    <strong>Video Bitrate</strong>
                                 </td>
-                                <td>The bitrate determines how many information can be packed into the video stream. Increasing the bitrate will massively increase the bandwidth requirements for accessing the stream over the local network and will also increase the file size of recorded videos. A significant advantage in image quality will only be achieved, if the video contains a lot of fine details. In most cases it is recommended to leave this value at it´s default of <strong>2048kbps</strong>.</td>
+                                <td>Die Videobitrate bestimmt wie viele Informationen in dem Videostream enthalten sein können. Ein hochstellen dieses Wertes vergrößert massive die Bandbreitenanforderungen und die Größe der von der Kamera aufgenommenen Videos. Eine signifikante Verbesserung des Videos ist jedoch meistens nur dann zu beobachten, wenn das Kamerabild sehr viele Details oder sehr viele unterschiedliche Farben beinhaltet. Für die meisten Überwachungsaufgaben empfiehlt es sich diesen Wert auf dem Standard (1024-2048kbps) zu belassen.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>Variable bitrate</strong>
+                                    <strong>Variable Bitrate</strong>
                                 </td>
-                                <td>You can adjust if you want to hold the set bitrate, or if you want your camera to automatically use a lower bitrate if the video is low in details (e.g. your camera can often work with a much lower bitrate during the night). This will effect the file size of recorded videos, the processor load of your camera, as well as the bandwidth requirements of the live stream. We recommend that you use the <strong>variable Bitrate</strong>.</td>
+                                <td>Bei der Videokodierung können Sie vorgeben, ob die Kamera durchgehend die maximale Bitrate halten soll, oder ob die Bitrate automatisch runtergeregelt werden soll, wenn die Kamera die Datenmenge nicht benötigt. Beispielweise benötigt die Kamera i.d.R. eine wesentlich höhere Bitrate um das Farbbild bei Tage wiederzugeben, als es für das Nachtbild notwendig wäre. Die Dateigröße der Videoaufnahme, die Bandbreitenanforderung des Live Videostreams und Auslastung der Kamera kann durch die variable Bitrate signifikant runter gehen.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>Keyframe interval</strong>
+                                    <strong>Keyframe Intervall</strong>
                                 </td>
-                                <td>A key frame (I-Frame) is a frame encoded in its entirety, much like a JPEG image. P-frames are "predicted", ie, they contain only the changes from frame to frame. Hence I frames are typically 10x larger than P frames, so the fewer you have, the more compression you can get. As a compromise between image quality and bandwidth requirement, it is recommended to create about 1 keyframe every second. With the default intervall of <strong>20 frames</strong> and a framerate of 15fps, your camera will send an I-Frame every (20 Frames/15 Frames/s) = 1.33s.</td>
+                                <td>Ein wichtiger Teil der oben erwähnten erweiterten Videokomprimierung, ist die Aufarbeitung in i und p Bilder (i-Frames & p-Frames). Nur die i-Frames beinhalten alle Bildinformationen. Bei den p-Frames handelt es sich um sogenannte Delta-Frames, die nur die Informationen beinhalten, die sich seit dem letzten Frame geändert haben. Die p-Frames sind somit um einiges kleiner, als ein i-Frame und führen zu geringeren Datenmengen beim Übertragen des Videos. Das aus p-Frames erzeugte Videobild besitzt jedoch einen interpolierten Anteil, der zu einer Verschlechterung der Videoqualität führt. Umso größer das Intervall zwischen zwei Keyframes (i-Frames) ist, desto geringer sind die Bandbreitenanforderungen des Videostreams und desto schlechter wird die Videoqualität. Das Keyframe Intervall sollte so gewählt werden, dass Sie ca. einmal pro Sekunde ein i-Frame erhalten. Der Standardwert für das Intervall liegt bei 20 Frames - Sie erhalten also, bei einer Framerate von 15fps alle (20 Frames/15 Frames/s) = 1.33s ein Vollbild (i-Frame).</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>h.264 Video Plugin</strong>
                                 </td>
-                                <td>Here you can choose the video plugin the web user interface uses to diplay the h.264 videostream. The default plugin is <strong>Flash</strong>. The ActiveX Player can be chooses alternatively. In general we recommend the use of the Flash Plugin.</td>
+                                <td>Wählen Sie hier mit welchen Plugin das Video in der Weboberfläche wiedergegeben werden soll. Als Standard-Plugin ist hier Adobe Flash gewählt. Alternativ können Sie aber auch den Quicktime Player oder das ActiveX Plugin (nur Windows & nur Internet Explorer und Firefox) wählen. Das ActiveX Plugin hat ein paar zusätzliche Funktionen. Generell wird aber die Benutzung des Flash Plugins empfohlen.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>MotionJPEG Video Mode</strong>
+                                    <strong>MotionJPEG Video Modus</strong>
                                 </td>
-                                <td>Your camera is able to send the video, instead of an h.264 encoded stream, in form of a sequence of single snapshots. This Motion-JPEG Stream has the advantage, that it can be displayed in every web browser without the need for a video plugin. This is necessary if you want to see the live video on a computer where you don´t have the rights to install a browser plugin, e.g. your company PC. The disadvantage of this mode is that the compression is a lot weaker and you will need a lot more bandwidth.<br><br>If you are using the MJPEG stream, you can choose between two modes - a "real" MJPEG Stream (recommended) and a "simulated" Stream that is created by letting your browser request a new snapshot for each frame. I am not sure what the latter is for - but it is always nice to have it :)</td>
+                                <td>Ihre Kamera kann im neben dem h.264 kodierten Stream ihr Video auch über eine Abfolge von Einzelbildern versenden. Dieser Motion-JPEG Stream hat den Vorteil, dass er ohne Verwendung eines Videoplugins im Webbrowser wiedergegeben werden kann. Sollten Sie an Ihrem Rechner kein Plugin installieren können (z.B. am Firmen-PC), können Sie das Video Ihrer Kamera immer noch über den MJPEG Modus einsehen. Der Nachteil des Modus ist es, dass die Komprimierung hier wesentlich schwächer ist und die Übertragung entsprechend mehr Bandbreite benötigt als beim h.264 Stream. Sie finden einen Schnellzugiff auf diese Funktion in der Video Menüleiste.</td>
                             </tr>
                         </table>
                     </div>
