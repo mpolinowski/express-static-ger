@@ -1,142 +1,350 @@
 var express = require('express');
 var internetAccessRouter = express.Router();
-var appdata = require('../views/_partials/data/internetAccess.json');
 
 /* GET Internet_Access page. */
 internetAccessRouter.get('/', function(req, res) {
-
-    var iaPicture = []; /* Get all Pictures from gallery.json for the gallery */
-    var iaPictureAlt = [];
-    var iaHref = [];
-    appdata.articles.forEach(function(item) {
-        iaPicture = iaPicture.concat(item.iaPic);
-        iaPictureAlt = iaPictureAlt.concat(item.iaPicAlt);
-        iaHref = iaHref.concat(item.iaUrl);
-      });
-
     res.render('./Internet_Access/Internet_Access', {
-        title: 'Internet Zugriff',
-        iaPic: iaPicture,
-        iaPicAlt: iaPictureAlt,
-        iaUrl: iaHref,
-        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Internet_Access/">Zugriff über das Internet</a></li>',
+        title: 'Internet Access',
+        ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration.jpg',
+        headline: 'Access your IP Camera over the Internet',
       });
   });
 
 internetAccessRouter.get('/The_DDNS_Service/', function(req, res) {
     res.render('./Internet_Access/The_DDNS_Service', {
-        title: 'Der DDNS Service',
-        uplink: '/Internet_Access',
+        title: 'The DDNS Service',
         ampimg: '/images/Search/IA_SearchThumb_DDNSService.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Zugriff</a></li><li><a href="/Internet_Access/The_DDNS_Service/">Der DDNS Dienst</a></li>',
+        headline: 'The DDNS Service',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Access</a></li><li><a href="/Internet_Access/The_DDNS_Service/">The DDNS Service</a></li>',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
       });
   });
 
 internetAccessRouter.get('/Port_Forwarding/', function(req, res) {
     res.render('./Internet_Access/Port_Forwarding', {
-        title: 'Portweiterleitung',
-        uplink: '/Internet_Access',
+        title: 'Port Forwarding',
         ampimg: '/images/Search/IA_SearchThumb_Portforwarding.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Zugriff</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Weiterleitung</a></li>',
+        headline: 'Port Forwarding',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Access</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Forwarding</a></li>',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
       });
   });
 
 internetAccessRouter.get('/Port_Forwarding/AVM_Fritzbox/', function(req, res) {
     res.render('./Internet_Access/Port_Forwarding_AVM_Fritzbox', {
-        title: 'Portweiterleitung AVM Fritzbox',
-        uplink: '/Internet_Access/Port_Forwarding',
+        title: 'Port Forwarding AVM Fritzbox',
         ampimg: '/images/Search/IA_SearchThumb_Portforwarding.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Zugriff</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Weiterleitung</a></li><li><a href="/Internet_Access/Port_Forwarding/AVM_Fritzbox/">AVM Fritzbox</a></li>',
+        headline: 'Port Forwarding AVM Fritzbox',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Access</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Forwarding</a></li><li><a href="/Internet_Access/Port_Forwarding/AVM_Fritzbox/">AVM Fritzbox</a></li>',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
       });
   });
 
 internetAccessRouter.get('/Port_Forwarding/Telekom_Speedport/', function(req, res) {
     res.render('./Internet_Access/Port_Forwarding_Telekom_Speedport', {
-        title: 'Portweiterleitung Telekom Speedport',
-        uplink: '/Internet_Access/Port_Forwarding',
+        title: 'Port Forwarding Telekom Speedport',
         ampimg: '/images/Search/IA_SearchThumb_Portforwarding.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Zugriff</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Weiterleitung</a></li><li><a href="/Internet_Access/Port_Forwarding/Telekom_Speedport/">Telekom Speedport</a></li>',
+        headline: 'Port Forwarding Telekom Speedport',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Access</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Forwarding</a></li><li><a href="/Internet_Access/Port_Forwarding/Telekom_Speedport/">Telekom Speedport</a></li>',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
       });
   });
 
 internetAccessRouter.get('/Port_Forwarding/D-Link/', function(req, res) {
     res.render('./Internet_Access/Port_Forwarding_D-Link', {
-        title: 'Portweiterleitung D-Link',
-        uplink: '/Internet_Access/Port_Forwarding',
+        title: 'Port Forwarding D-Link',
         ampimg: '/images/Search/IA_SearchThumb_Portforwarding.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Zugriff</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Weiterleitung</a></li><li><a href="/Internet_Access/Port_Forwarding/D-Link/">D-Link</a></li>',
+        headline: 'Port Forwarding D-Link',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Access</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Forwarding</a></li><li><a href="/Internet_Access/Port_Forwarding/D-Link/">D-Link</a></li>',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
       });
   });
 
 internetAccessRouter.get('/Port_Forwarding/TP-Link/', function(req, res) {
     res.render('./Internet_Access/Port_Forwarding_TP-Link', {
-        title: 'Portweiterleitung TP-Link',
-        uplink: '/Internet_Access/Port_Forwarding',
+        title: 'Port Forwarding TP-Link',
         ampimg: '/images/Search/IA_SearchThumb_Portforwarding.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Zugriff</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Weiterleitung</a></li><li><a href="/Internet_Access/Port_Forwarding/TP-Link/">TP-Link</a></li>',
+        headline: 'Port Forwarding TP-Link',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Access</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Forwarding</a></li><li><a href="/Internet_Access/Port_Forwarding/TP-Link/">TP-Link</a></li>',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
       });
   });
 
 internetAccessRouter.get('/Port_Forwarding/Netgear/', function(req, res) {
     res.render('./Internet_Access/Port_Forwarding_Netgear', {
-        title: 'Portweiterleitung Netgear',
-        uplink: '/Internet_Access/Port_Forwarding',
+        title: 'Port Forwarding Netgear',
         ampimg: '/images/Search/IA_SearchThumb_Portforwarding.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Zugriff</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Weiterleitung</a></li><li><a href="/Internet_Access/Port_Forwarding/Netgear/">Netgear</a></li>',
+        headline: 'Port Forwarding Netgear',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Access</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Forwarding</a></li><li><a href="/Internet_Access/Port_Forwarding/Netgear/">Netgear</a></li>',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
       });
   });
 
 internetAccessRouter.get('/Port_Forwarding/Vodafone_Easybox/', function(req, res) {
     res.render('./Internet_Access/Port_Forwarding_Vodafone_Easybox', {
-        title: 'Portweiterleitung Vodafone Easybox',
-        uplink: '/Internet_Access/Port_Forwarding',
+        title: 'Port Forwarding Vodafone Easybox',
         ampimg: '/images/Search/IA_SearchThumb_Portforwarding.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Zugriff</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Weiterleitung</a></li><li><a href="/Internet_Access/Port_Forwarding/Vodafone_Easybox/">Vodafone Easybox</a></li>',
+        headline: 'Port Forwarding Vodafone Easybox',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Access</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Forwarding</a></li><li><a href="/Internet_Access/Port_Forwarding/Vodafone_Easybox/">Vodafone Easybox</a></li>',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
       });
   });
 
 internetAccessRouter.get('/Port_Forwarding/Pirelli/', function(req, res) {
     res.render('./Internet_Access/Port_Forwarding_Pirelli', {
-        title: 'Portweiterleitung Pirelli',
-        uplink: '/Internet_Access/Port_Forwarding',
+        title: 'Port Forwarding Pirelli',
         ampimg: '/images/Search/IA_SearchThumb_Portforwarding.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Zugriff</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Weiterleitung</a></li><li><a href="/Internet_Access/Port_Forwarding/Pirelli/">Pirelli</a></li>',
+        headline: 'Port Forwarding Pirelli',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Access</a></li><li><a href="/Internet_Access/Port_Forwarding/">Port Forwarding</a></li><li><a href="/Internet_Access/Port_Forwarding/Pirelli/">Pirelli</a></li>',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
       });
   });
 
 internetAccessRouter.get('/DDNS_Provider/', function(req, res) {
     res.render('./Internet_Access/DDNS_Provider', {
-        title: 'Drittanbieter DDNS-Dienste',
-        uplink: '/Internet_Access',
+        title: 'Third Party DDNS Provider',
         ampimg: '/images/Search/IA_SearchThumb_DDNSService.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Zugriff</a></li><li><a href="/Internet_Access/DDNS_Provider/">DDNS Anbieter</a></li><li><a href="/Internet_Access/DDNS_Provider/NoIP/">NoIP</a></li>',
+        headline: 'Third Party DDNS Provider',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Access</a></li><li><a href="/Internet_Access/DDNS_Provider/">DDNS Provider</a></li>',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
       });
   });
 
 internetAccessRouter.get('/DDNS_Provider/NoIP/', function(req, res) {
     res.render('./Internet_Access/DDNS_Provider_NoIP', {
-        title: 'NoIP DDNS-Dienste',
-        uplink: '/Internet_Access/DDNS_Provider',
+        title: 'NoIP DDNS Provider',
         ampimg: '/images/Search/IA_SearchThumb_DDNSService.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Zugriff</a></li><li><a href="/Internet_Access/DDNS_Provider/">DDNS Anbieter</a></li><li><a href="/Internet_Access/DDNS_Provider/Selfhost/">NoIP</a></li>',
+        headline: 'Third Party DDNS Provider',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Access</a></li><li><a href="/Internet_Access/DDNS_Provider/">DDNS Provider</a></li><li><a href="/Internet_Access/DDNS_Provider/NoIP/">NoIP</a></li>',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
       });
   });
 
 internetAccessRouter.get('/DDNS_Provider/Selfhost/', function(req, res) {
     res.render('./Internet_Access/DDNS_Provider_Selfhost', {
-        title: 'Selfhost DDNS-Dienste',
-        uplink: '/Internet_Access/DDNS_Provider',
+        title: 'Selfhost DDNS Provider',
         ampimg: '/images/Search/IA_SearchThumb_DDNSService.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Zugriff</a></li><li><a href="/Internet_Access/DDNS_Provider/">DDNS Anbieter</a></li><li><a href="/Internet_Access/DDNS_Provider/Selfhost/">Selfhost</a></li>',
+        headline: 'Third Party DDNS Provider',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Access</a></li><li><a href="/Internet_Access/DDNS_Provider/">DDNS Provider</a></li><li><a href="/Internet_Access/DDNS_Provider/Selfhost/">Selfhost</a></li>',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
       });
   });
 
 internetAccessRouter.get('/DDNS_Provider/DDNSS/', function(req, res) {
     res.render('./Internet_Access/DDNS_Provider_DDNSS', {
-        title: 'DDNSS DDNS-Dienste',
-        uplink: '/Internet_Access/DDNS_Provider',
+        title: 'DDNSS DDNS Provider',
         ampimg: '/images/Search/IA_SearchThumb_DDNSService.jpg',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Zugriff</a></li><li><a href="/Internet_Access/DDNS_Provider/">DDNS Anbieter</a></li><li><a href="/Internet_Access/DDNS_Provider/DDNSS/">DDNSS</a></li>',
+        headline: 'Third Party DDNS Provider',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Internet Access</a></li><li><a href="/Internet_Access/DDNS_Provider/">DDNS Provider</a></li><li><a href="/Internet_Access/DDNS_Provider/DDNSS/">DDNSS</a></li>',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
       });
   });
 
