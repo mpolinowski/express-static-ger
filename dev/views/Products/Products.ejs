@@ -1,153 +1,455 @@
-<% include ../_partials/template/_head.ejs %>
+<!DOCTYPE html>
+<html ⚡ lang="en">
 
-    <body>
-      <% include ../_partials/template/_outdated.ejs %>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="INSTAR Wiki - IP Camera Knowledge Base">
+  <meta name="author" content="Mike Polinowski">
+  <title>
+      <%= title %>
+  </title>
+  <link rel="canonical" href="/Products/">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 
-      <div id="wrapper">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+  <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+  <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
 
-        <header><% include ../_partials/template/_header.ejs %></header>
-        <!-- Navbar-->
+  <!-- http://schema.org/TechArticle -->
+  <script type="application/ld+json">
+      { "@context": "http://schema.org",
+        "@type": "TechArticle",
+        "headline": "<%= headline %>",
+        "image": [ "http://wiki.instar.com<%= ampimg %>" ] }
+  </script>
 
-        <!-- ################################# Landing ################################# -->
+  <% include ../_partials/amp/_amp-boilerplate.css %>
+  <% include ../_partials/amp/_ampLandingCustom.css %>
 
-        <section class="slanding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-8 offset-sm-2 text-xs-center">
-                        <h1 class="headline hidden-sm-down">Produkt Portfolio</h1>
-                        <h2 class="mobile-headline hidden-md-up">INSTAR Produkte</h2>
-                        <hr>
-                        <h2 class="subheader hidden-sm-down">INSTAR IP Camera Knowledgebase</h2>
-                        <h3 class="subheader hidden-md-up">INSTAR Wiki 2.0</h3>
-                        <br/>
-                        <br/>
-                        <h2 class="subheader"><i class="fa fa-angle-double-down" aria-hidden="true"></i></h2>
+</head>
+
+<body>
+
+  <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+      <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+  </amp-sidebar>
+
+  <header class="header fixed">
+      <% include ../_partials/amp/_ampLandingHeader.ejs %>
+  </header>
+
+    <div class="wrap">
+        <div class="content">
+
+            <section class="large-cta">
+              <div class="cta-container">
+                <h1>INSTAR Wiki 2.0</h1>
+                <h2>Das INSTAR Produkt Portfolio</h2>
+              </div>
+            </section>
+
+            <!-- ########################## Products ############################### -->
+
+            <section class="tile-wall">
+                <h1>INSTAR Produkte</h1>
+                <div class="container">
+
+                  <!-- ################################ desktop-up ###################### -->
+
+                    <div class="row desktop-up">
+
+                      <amp-carousel class="success-carousel" height="400" layout="flex-item" type="slides">
+                          <div class="card-container flex-wrap">
+                              <div class="card centered tile flex-card">
+                                <a href="/Indoor_Cameras/">
+                                    <div class="card-inner">
+                                        <amp-img class="card-icon" noloading height=300 width=300 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-Indoor_white.png">
+                                        </amp-img>
+                                    </div>
+                                </a>
+                              </div>
+                              <div class="card centered tile flex-card">
+                                <a href="/Outdoor_Cameras/">
+                                    <div class="card-inner">
+                                        <amp-img class="card-icon" noloading height=300 width=300 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-Outdoor_white.png">
+                                        </amp-img>
+                                    </div>
+                                </a>
+                              </div>
+                              <div class="card centered tile flex-card">
+                                <a href="/Products/Lenses/">
+                                    <div class="card-inner">
+                                        <amp-img class="card-icon" noloading height=300 width=300 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-Lenses_white.png">
+                                        </amp-img>
+                                    </div>
+                                </a>
+                              </div>
+                          </div>
+                      </amp-carousel>
+
+                      <amp-carousel class="success-carousel" height="400" layout="flex-item" type="slides">
+                          <div class="card-container flex-wrap">
+                              <div class="card centered tile flex-card">
+                                <a href="/Software/">
+                                    <div class="card-inner">
+                                        <amp-img class="card-icon" noloading height=300 width=300 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-Software_white.png">
+                                        </amp-img>
+                                    </div>
+                                </a>
+                              </div>
+                              <div class="card centered tile flex-card">
+                                <a href="/Downloads/">
+                                    <div class="card-inner">
+                                        <amp-img class="card-icon" noloading height=300 width=300 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-Downloads_white.png">
+                                        </amp-img>
+                                    </div>
+                                </a>
+                              </div>
+                              <div class="card centered tile flex-card">
+                                <a href="/Products/Usermanuals/">
+                                    <div class="card-inner">
+                                        <amp-img class="card-icon" noloading height=300 width=300 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-Usermanuals_white.png">
+                                        </amp-img>
+                                    </div>
+                                </a>
+                              </div>
+                          </div>
+                      </amp-carousel>
+
                     </div>
+                    <!-- /row desktop-up -->
+
+                    <!-- ################################ mobile-down ###################### -->
+
+                    <div class="mobile-down">
+
+                      <a href="/Indoor_Cameras/">
+                        <div class="articleListItem margin">
+                          <div class="articleImage">
+                            <amp-img height=100 width=100 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-Indoor_white.png">
+                            </amp-img>
+                          </div>
+                          <!-- /articleImage -->
+                          <div class="articlePreview">
+                            <h4>Innenkameras</h4>
+                            <p>Starre und schwenkbare IP Kameras mit Infrarot LEDs für die Nachtsicht Innenraumüberwachung ...</p>
+                          </div>
+                          <!-- /articleImage -->
+                        </div>
+                        <!-- /articleListItem -->
+                      </a>
+
+                      <hr>
+
+                      <a href="/Outdoor_Cameras/">
+                        <div class="articleListItem margin">
+                          <div class="articleImage">
+                            <amp-img height=100 width=100 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-Outdoor_white.png">
+                            </amp-img>
+                          </div>
+                          <!-- /articleImage -->
+                          <div class="articlePreview">
+                            <h4>Außenkameras</h4>
+                            <p>Die perfekten IP Kameras für Aufgaben aus der Außenüberwachung. IR Nachtsicht, schwenkbare Kameraköpfe und Zoomobjetive ...</p>
+                          </div>
+                          <!-- /articleImage -->
+                        </div>
+                        <!-- /articleListItem -->
+                      </a>
+
+                      <hr>
+
+                      <a href="/Products/Lenses/">
+                        <div class="articleListItem margin">
+                          <div class="articleImage">
+                            <amp-img height=100 width=100 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-Lenses_white.png">
+                            </amp-img>
+                          </div>
+                          <!-- /articleImage -->
+                          <div class="articlePreview">
+                            <h4>Objektive</h4>
+                            <p>Die meisten Kameramodelle bieten Ihnen den Komfort von einfach austauschbaren Objektiven. Brauchen Sie ein Weitwinkelobjektiv? Oder möchten Sie eine höhere Detaildichte auf große Distanzen? ...</p>
+                          </div>
+                          <!-- /articleImage -->
+                        </div>
+                        <!-- /articleListItem -->
+                      </a>
+
+                      <hr>
+
+                      <a href="/Software/">
+                        <div class="articleListItem margin">
+                          <div class="articleImage">
+                            <amp-img height=100 width=100 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-Software_white.png">
+                            </amp-img>
+                          </div>
+                          <!-- /articleImage -->
+                          <div class="articlePreview">
+                            <h4>Software</h4>
+                            <p>INSTAR bietet Ihnen das INSTAR Überwachung Center für die meisten gängigen Betriebsysteme. Ihre INSTAR IP Kamera ist darüber hinaus auch kompatibel mit einer Reihe von Drittanbieter Software ...</p>
+                          </div>
+                          <!-- /articleImage -->
+                        </div>
+                        <!-- /articleListItem -->
+                      </a>
+
+                      <hr>
+
+                      <a href="/Downloads/">
+                        <div class="articleListItem margin">
+                          <div class="articleImage">
+                            <amp-img height=100 width=100 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-Downloads_white.png">
+                            </amp-img>
+                          </div>
+                          <!-- /articleImage -->
+                          <div class="articlePreview">
+                            <h4>Download Bereich</h4>
+                            <p>Firmware und Weboberflächen Updates, PDF Handbücher als auch Apps und Software Downloads für Ihre INSTAR IP Kamera und original INSTAR Zubehör ...</p>
+                          </div>
+                          <!-- /articleImage -->
+                        </div>
+                        <!-- /articleListItem -->
+                      </a>
+
+                      <hr>
+
+                      <a href="/Products/Usermanuals/">
+                        <div class="articleListItem margin">
+                          <div class="articleImage">
+                            <amp-img height=100 width=100 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-Usermanuals_white.png">
+                            </amp-img>
+                          </div>
+                          <!-- /articleImage -->
+                          <div class="articlePreview">
+                            <h4>Handbücher</h4>
+                            <p>Die Ihrer Kamera beiliegenden Handbücher sind leider meistens schon veraltet, sobald sie gedruckt werden. Die schnell voranschreitende Softwareentwicklung benötigt stets aktuelle Online Handbücher ...</p>
+                          </div>
+                          <!-- /articleImage -->
+                        </div>
+                        <!-- /articleListItem -->
+                      </a>
+
+                    </div>
+                    <!-- /row mobile-down -->
                 </div>
-                <!-- /row -->
-            </div>
-            <!-- /container -->
-        </section>
-        <!-- /slanding -->
+                <!-- /container -->
+            </section>
+            <!-- /Products -->
 
-        <!-- #################################  Cameras ################################# -->
+            <!-- ########################## WebUI ############################### -->
 
-        <section class="container mb">
-            <div class="row justify-content-between mt grid">
+            <% include ../_partials/amp/_ampWebUI.ejs %>
 
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Indoor_Cameras"><img src="/images/Wiki_Tiles_P-Indoor.jpg" alt="Indoor Cameras" class="img-fluid"></a>
+            <!-- ########################## Products ############################### -->
+
+            <section class="tile-wall">
+                <h1>Zubehör</h1>
+                <div class="container">
+
+                  <!-- ################################ desktop-up ###################### -->
+
+                    <div class="row desktop-up">
+
+                      <amp-carousel class="success-carousel" height="400" layout="flex-item" type="slides">
+                          <div class="card-container flex-wrap">
+                              <div class="card centered tile flex-card">
+                                <a href="/Products/IN-LAN/">
+                                    <div class="card-inner">
+                                        <amp-img class="card-icon" noloading height=300 width=300 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-IN-LAN_white.png">
+                                        </amp-img>
+                                    </div>
+                                </a>
+                              </div>
+                              <div class="card centered tile flex-card">
+                                <a href="/Products/Power_over_Ethernet/">
+                                    <div class="card-inner">
+                                        <amp-img class="card-icon" noloading height=300 width=300 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-IN-PoE_white.png">
+                                        </amp-img>
+                                    </div>
+                                </a>
+                              </div>
+                              <div class="card centered tile flex-card">
+                                <a href="/Products/IN-Route/">
+                                    <div class="card-inner">
+                                        <amp-img class="card-icon" noloading height=300 width=300 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-IN-Route_white.png">
+                                        </amp-img>
+                                    </div>
+                                </a>
+                              </div>
+                          </div>
+                      </amp-carousel>
+
+                      <amp-carousel class="success-carousel" height="400" layout="flex-item" type="slides">
+                          <div class="card-container flex-wrap">
+                              <div class="card centered tile flex-card">
+                                <a href="/Products/IN-Motion/">
+                                    <div class="card-inner">
+                                        <amp-img class="card-icon" noloading height=300 width=300 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-IN-Motion_white.png">
+                                        </amp-img>
+                                    </div>
+                                </a>
+                              </div>
+                              <div class="card centered tile flex-card">
+                                <a href="/Products/IR_Lighting/">
+                                    <div class="card-inner">
+                                        <amp-img class="card-icon" noloading height=300 width=300 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-IN-Frared_white.png">
+                                        </amp-img>
+                                    </div>
+                                </a>
+                              </div>
+                              <div class="card centered tile flex-card">
+                                <a href="/Products/IN-Mikro/">
+                                    <div class="card-inner">
+                                        <amp-img class="card-icon" noloading height=300 width=300 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-IN-Mikro_white.png">
+                                        </amp-img>
+                                    </div>
+                                </a>
+                              </div>
+                          </div>
+                      </amp-carousel>
+
+                    </div>
+                    <!-- /row desktop-up -->
+
+                    <!-- ################################ mobile-down ###################### -->
+
+                    <div class="mobile-down">
+
+                      <a href="/Products/IN-LAN/">
+                        <div class="articleListItem margin">
+                          <div class="articleImage">
+                            <amp-img height=100 width=100 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-IN-LAN_white.png">
+                            </amp-img>
+                          </div>
+                          <!-- /articleImage -->
+                          <div class="articlePreview">
+                            <h4>IN-LAN 500 &amp; 500p</h4>
+                            <p>Nutzen Sie mit IN-LAN Ihre existierenden Stromleitungen um Ihr Netzwerk an unzugängliche Orte zu bringen. Sehr einfache Plug&amp;Play Installation. Erweitern Sie Ihr Netzwerk für weitere IP Kameras, ohne dafür Netzwerkkabel verlegen zu müssen ...</p>
+                          </div>
+                          <!-- /articleImage -->
+                        </div>
+                        <!-- /articleListItem -->
+                      </a>
+
+                      <hr>
+
+                      <a href="/Products/Power_over_Ethernet/">
+                        <div class="articleListItem margin">
+                          <div class="articleImage">
+                            <amp-img height=100 width=100 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-IN-PoE_white.png">
+                            </amp-img>
+                          </div>
+                          <!-- /articleImage -->
+                          <div class="articlePreview">
+                            <h4>Power over Ethernet</h4>
+                            <p>Der IN-PoE 1000 bündelt Strom und Netzwerk damit dieses dann über ein einziges Netzwerkkabel an ein Endgerät übertragen werden kann welches den PoE Standard erfüllt. Dafür ist es wichtig das Ihr Endgerät PoE (Power over Ethernet) unterstützt ...</p>
+                          </div>
+                          <!-- /articleImage -->
+                        </div>
+                        <!-- /articleListItem -->
+                      </a>
+
+                      <hr>
+
+                      <a href="/Products/IN-Route/">
+                        <div class="articleListItem margin">
+                          <div class="articleImage">
+                            <amp-img height=100 width=100 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-IN-Route_white.png">
+                            </amp-img>
+                          </div>
+                          <!-- /articleImage -->
+                          <div class="articlePreview">
+                            <h4>IN-Route P52</h4>
+                            <p>Die INSTAR IN-Route Line bietet Ihnen eine mobile Plug-and-Play WiFi Lösung um Informationen zwischen WLAN Geräten auszutauschen. Wir bieten Ihnen eine NAS Lösung für Ihre USB Massespeicher, als auch eine Powerbank um Ihr Smartphone oder Kompaktkamera zu laden ...</p>
+                          </div>
+                          <!-- /articleImage -->
+                        </div>
+                        <!-- /articleListItem -->
+                      </a>
+
+                      <hr>
+
+                      <a href="/Products/IN-Motion/">
+                        <div class="articleListItem margin">
+                          <div class="articleImage">
+                            <amp-img height=100 width=100 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-IN-Motion_white.png">
+                            </amp-img>
+                          </div>
+                          <!-- /articleImage -->
+                          <div class="articlePreview">
+                            <h4>IN-Motion 300 &amp; 500</h4>
+                            <p>Der IN-Motion 500 ist mit einem Mikrowellen- und Passiven Infrarot Bewegungsmelder ausgestattet. Er ist perfekt für den Außenbereich geeignet. Der IN-Motion 300 ist die perfekte Erweiterung für Ihre Kamera, um Fehlalarme zu kompensieren ...</p>
+                          </div>
+                          <!-- /articleImage -->
+                        </div>
+                        <!-- /articleListItem -->
+                      </a>
+
+                      <hr>
+
+                      <a href="/Products/IR_Lighting/">
+                        <div class="articleListItem margin">
+                          <div class="articleImage">
+                            <amp-img height=100 width=100 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-IN-Frared_white.png">
+                            </amp-img>
+                          </div>
+                          <!-- /articleImage -->
+                          <div class="articlePreview">
+                            <h4>Infrarot Scheinwerfer</h4>
+                            <p>Der Infrarot Scheinwerfer kann direkt an der Steckdose angeschlossen werden und muss nicht mit der Kamera verbunden sein. Die integrierte Dämmerungsschaltung aktiviert die IR LEDs, sobald es dunkel wird ...</p>
+                          </div>
+                          <!-- /articleImage -->
+                        </div>
+                        <!-- /articleListItem -->
+                      </a>
+
+                      <hr>
+
+                      <a href="/Products/IN-Mikro/">
+                        <div class="articleListItem margin">
+                          <div class="articleImage">
+                            <amp-img height=100 width=100 layout=responsive src="/images/Landing_Tiles/Wiki_Tiles_P-IN-Mikro_white.png">
+                            </amp-img>
+                          </div>
+                          <!-- /articleImage -->
+                          <div class="articlePreview">
+                            <h4>IN-Mikro 380</h4>
+                            <p>Das IN-MIKRO 380 ist ein hochweriges Aktivmikrofon, welches Sie einfach mit dem Audioeingang Ihrer Kamera verbinden können. Das Mikrofon kann direkt mit dem Netzteil Ihrer Kamera betrieben werden, oder über ein seperates externes Netzteil, um eine bessere Audioqualität zu gewährleisten ...</p>
+                          </div>
+                          <!-- /articleImage -->
+                        </div>
+                        <!-- /articleListItem -->
+                      </a>
+
+                    </div>
+                    <!-- /row mobile-down -->
                 </div>
+                <!-- /container -->
+            </section>
+            <!-- /Accessories -->
 
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Outdoor_Cameras"><img src="/images/Wiki_Tiles_P-Outdoor.jpg" alt="Outdoor Cameras" class="img-fluid"></a>
-                </div>
+            <!-- ########################## InstarVision ############################### -->
 
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/Lenses"><img src="/images/Wiki_Tiles_P-Lenses.jpg" alt="Camera Lenses" class="img-fluid"></a>
-                </div>
+            <% include ../_partials/amp/_ampInstarVision.ejs %>
 
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Software"><img src="/images/Wiki_Tiles_P-Software.jpg" alt="Software" class="img-fluid"></a>
-                </div>
+            <!-- ########################## Social ############################### -->
 
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Downloads/"><img src="/images/Wiki_Tiles_P-Downloads.jpg" alt="Downloads" class="img-fluid"></a>
-                </div>
+            <% include ../_partials/amp/_ampSocial.ejs %>
 
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/Usermanuals"><img src="/images/Wiki_Tiles_P-Usermanuals.jpg" alt="Downloads" class="img-fluid"></a>
-                </div>
+            <!-- ########################## Footer ############################### -->
 
-            </div>
-        </section>
-        <!-- /Cameras -->
-
-        <section class="webui mb"><% include ../_partials/content/_webui.ejs %></section>
-        <!-- /webui -->
-
-        <!-- ##########################  Networking Accessories ########################## -->
-
-        <section class="container mb">
-
-          <div class="row justify-content-center mt">
-            <div class="col-12 centered mb">
-                  <hr>
-                  <h4>
-                      <span class="text-muted">Netzwerkzubehör</span>
-                  </h4>
-              </div>
-          </div>
-
-            <div class="row justify-content-between mt grid">
-
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/IN-LAN"><img src="/images/Wiki_Tiles_P-IN-LAN.jpg" alt="IN-LAN Powerline Products" class="img-fluid"></a>
-                </div>
-
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/Power_over_Ethernet"><img src="/images/Wiki_Tiles_P-IN-PoE.jpg" alt="Power-over-Ethernet Products" class="img-fluid"></a>
-                </div>
-
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/IN-Route"><img src="/images/Wiki_Tiles_P-IN-Route.jpg" alt="IN-Route P52" class="img-fluid"></a>
-                </div>
-
-            </div>
-
-
-
-        </section>
-        <!-- /Cameras -->
-
-        <!-- #################################  Accessories ################################# -->
-
-        <section class="container mb">
-
-          <div class="row justify-content-center mt">
-            <div class="col-12 centered mb">
-                  <hr>
-                  <h4>
-                      <span class="text-muted">Zubehör</span>
-                  </h4>
-              </div>
-          </div>
-
-            <div class="row centered mt grid">
-
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/IN-Motion"><img src="/images/Wiki_Tiles_P-IN-Motion.jpg" alt="IN-Motion Products" class="img-fluid"></a>
-                </div>
-
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/IR_Lighting"><img src="/images/Wiki_Tiles_P-IN-Frared.jpg" alt="IR Lighting Products" class="img-fluid"></a>
-                </div>
-
-                <div class="col-6 col-lg-4 mb">
-                    <a href="/Products/IN-Mikro"><img src="/images/Wiki_Tiles_P-IN-Mikro.jpg" alt="IN-Mikro Products" class="img-fluid"></a>
-                </div>
-
-            </div>
-
-
-
-        </section>
-        <!-- /Cameras -->
-
-        <section class="instarvision"><% include ../_partials/content/_instarvision.ejs %></section>
-        <!-- /webui -->
-
-        <section class="social"><% include ../_partials/template/_social.ejs %></section>
-        <!-- /social -->
-
-        <!-- ################################### Footer ################################### -->
-
-        <footer><% include ../_partials/template/_footer.ejs %></footer>
-
-        <% include ../_partials/template/_jsdefaults.ejs %>
+            <footer class="desktop-up">
+              <% include ../_partials/amp/_amp-footer.ejs %>
+            </footer>
 
         </div>
+    </div>
 
-    </body>
+</body>
 
 </html>
