@@ -8,17 +8,23 @@
 
 <body class="home">
 
-  <% include ../_partials/amp/_amp-header.ejs %>
+  <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+      <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+  </amp-sidebar>
+
+  <header class="header fixed">
+    <% include ../_partials/amp/_amp-header.ejs %>
+  </header>
 
   <div class="wrap">
       <div class="container main">
 
-        <% include ../_partials/content/_bluenav-9008.ejs %>
+        <% include ../_partials/content/_bluenav-usermanual.ejs %>
 
-                <section class="blade get-started">
+                <section class="blade wrapper content">
                     <div class="container">
 
-                      <div class="margin">
+                      <div>
                         <table>
                           <tr>
                             <td>
@@ -26,7 +32,7 @@
                               <h4>Ethernet + Power + Audio-Out</h4>
                             </td>
                             <td>
-                              <a href="/Outdoor_Cameras/IN-9008_HD/Quick_Installation/"><button class="navGoRed">Section I</button></a>
+                              <a href="/Outdoor_Cameras/IN-9008_HD/Quick_Installation/"><button class="navGo navGoRed">Section I</button></a>
                             </td>
                           </tr>
                         </table>
@@ -108,7 +114,7 @@
                                     <amp-img noloading height=450 width=600 layout=responsive src="/images/Quickinstallation_Tile_9008_Step_09.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="text-justify">Connect the cameras network cable to a free LAN port on your internet router.</p>
+                                    <p class="text-justify">Connect the cameras network cable to a free LAN port on your internet router.<br><br></p>
                                 </div>
                             </div>
                             <div class="twocard">
@@ -134,7 +140,7 @@
                                     <amp-img noloading height=450 width=600 layout=responsive src="/images/Quickinstallation_Tile_9008_Step_11.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="text-justify">The default administrator login is User/Password: <strong>admin / instar</strong>. Our <a href="http://install.instar.de">Installation Wizard</a> will lead you through the rest of the installation process.<br/><br/><br/></p>
+                                    <p class="text-justify">The default administrator login is User/Password: <strong>admin / instar</strong>. Our <a href="http://install.instar.de">Installation Wizard</a> will lead you through the rest of the installation process.</p>
                                 </div>
                             </div>
                             <div class="twocard">
@@ -145,7 +151,7 @@
                                     <amp-img noloading height=450 width=600 layout=responsive src="/images/Quickinstallation_Tile_9008_Step_12.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="text-justify">You need to install the <a href="/Quick_Installation/Live_Video">Adobe Flash Plugin</a> to display your cameras h.264 video stream. You can use to <a href="/Web_User_Interface/1080p_Series/Multimedia/Video/">MJPEG stream</a> in case you are not allowed to install Browser plugins on your machine.<br><br></p>
+                                    <p class="text-justify">You need to install the <a href="/Quick_Installation/Live_Video">Adobe Flash Plugin</a> to display your cameras h.264 video stream. You can use to <a href="/Web_User_Interface/1080p_Series/Multimedia/Video/">MJPEG stream</a> in case you are not allowed to install Browser plugins on your machine.</p>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +188,7 @@
                                     <amp-img noloading height=450 width=600 layout=responsive src="/images/Quickinstallation_Tile_9008_Step_19.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="text-justify">Now you can enter your camera´s DDNS information to our free <a href="/Software/Windows/InstarVision/Windows_Phone/DDNS">Windows Phone</a>, <a href="/Software/Windows/InstarVision/Metro/DDNS">Windows Metro</a>, <a href="/Software/Android/InstarVision/DDNS">Android</a>, <a href="/Software/iOS/InstarVision/iPhone/DDNS">iPhone</a>, <a href="/Software/iOS/InstarVision/iPad/DDNS">iPad</a> or <a href="/Software/Other_Platforms/InstarVision_Blackberry">Blackberry</a> App.<br><br></p>
+                                    <p class="text-justify">Now you can enter your camera´s DDNS information to our free <a href="/Software/Windows/InstarVision/Windows_Phone/DDNS">Windows Phone</a>, <a href="/Software/Windows/InstarVision/Metro/DDNS">Windows Metro</a>, <a href="/Software/Android/InstarVision/DDNS">Android</a>, <a href="/Software/iOS/InstarVision/iPhone/DDNS">iPhone</a>, <a href="/Software/iOS/InstarVision/iPad/DDNS">iPad</a> or <a href="/Software/Other_Platforms/InstarVision_Blackberry">Blackberry</a> App.<br><br><br></p>
                                 </div>
                             </div>
                             <div class="twocard">
@@ -252,77 +258,7 @@
         </div>
         <!-- /wrap-->
 
-        <section class="blade blog mobile-down">
-
-            <div class="container wider">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1>Table of Topics</h1>
-                    </div>
-                </div>
-
-                <div class="tab-container">
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Safety_Warnings">
-                        <h3>Safety Warnings</h3>
-                        <div class="subtitle">Intermediate</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Product_Features">
-                        <h3>Product Features</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Quick_Installation">
-                        <h3>Quick Installation</h3>
-                        <div class="subtitle">Advanced</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Point2Point">
-                        <h3>P2P &amp; WPS</h3>
-                        <div class="subtitle">Intermediate</div>
-                    </a>
-
-                    <a class="tab" href="/Web_User_Interface/720p_Series">
-                        <h3>Web User Interface</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
-                        <h3>Software Update</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Video_Streaming">
-                        <h3>Video Streaming</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Camera_Reset">
-                        <h3>Camera Reset</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Lense_Adjustment">
-                        <h3>Lense Adjustment</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Technical_Specifications">
-                        <h3>Technical Specifications</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Warranty">
-                        <h3>Warranty &amp; Disposal</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-                </div>
-
-                <a href="/Products/Usermanuals" target="_blank">VIEW MORE</a>
-
-            </div>
-        </section>
+        <% include ../_partials/content/_bluenav-usermanual-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

@@ -7,125 +7,110 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
+
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
-        <section class="blade get-started">
-            <div class="container">
-                <div class="row">
-                    <div class="twelve columns">
-                      <h1>Leeren des Browser-Verlaufs</h1>
-                      <h4>Alte Daten des Browsers nach einem WebUI-Update löschen</h4>
-                      <p class="justify">Manchmal verhält sich die Weboberfläche der Kamera nicht so wie sie soll. Sie haben Ihre Kamerasoftware aktualisiert, aber die Oberfläche zeigt immer noch die alte Versionsnummer an? Ein Update sollte neue Funktionen hinzufügen, aber diese können Sie nirgens finden? Oder lassen sich bestimmte Funktionen einfach nicht mehr einstellen? In diesem Fall kann es sein, dass Ihr Browser alte Teile der Weboberfläche gespeichert (cached) hat und sich einfach weigert diese noch einmal neu von der Kamera zu laden. Hier finden Sie Anleitungen für eine Zahl gängiger Browser, wie Sie diese veralteten Dateien entfernen und ggf. den Cache des Browsers auch gleich ganz deaktivieren können:</p>
-                    </div>
-                </div>
+      <div class="wrap">
+          <div class="container main">
 
-                <div class="card-container">
-                    <div class="card">
-                        <div class="image">
-                            <amp-img noloading height=256 width=256 layout=responsive src="/images/Icon_Internet-Explorer-10.png"></amp-img>
-                        </div>
-                        <div class="content">
-                            <p>Wie leert man den Cache im Internet-Explorer</p>
-                        </div>
-                        <div class="action">
-                            <a href="/Quick_Installation/How_To_Clear_Your_Browsing_History/Internet_Explorer">Mehr lesen</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="image">
-                            <amp-img noloading height=256 width=256 layout=responsive src="/images/Icon_Firefox.png"></amp-img>
-                        </div>
-                        <div class="content">
-                            <p>Wie leert man den Cache in Mozilla Firefox</p>
-                        </div>
-                        <div class="action">
-                            <a href="/Quick_Installation/How_To_Clear_Your_Browsing_History/Mozilla_Firefox">Mehr lesen</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="image">
-                            <amp-img noloading height=256 width=256 layout=responsive src="/images/Icon_Chromium.png"></amp-img>
-                        </div>
-                        <div class="content">
-                            <p>Wie leert man den Cache in Google Chromium</p>
-                        </div>
-                        <div class="action">
-                            <a href="/Quick_Installation/How_To_Clear_Your_Browsing_History/Google_Chromium">Mehr lesen</a>
-                        </div>
-                    </div>
-                </div>
+            <% include ../_partials/content/_bluenav-general.ejs %>
 
-                <!-- Card Container -->
+                <article class="blade wrapper content">
 
-                <div class="card-container">
-                    <div class="card">
-                        <div class="image">
-                            <amp-img noloading height=256 width=256 layout=responsive src="/images/Icon_Opera.png"></amp-img>
-                        </div>
-                        <div class="content">
-                            <p>Wie leert man den Cache in Opera</p>
-                        </div>
-                        <div class="action">
-                            <a href="/Quick_Installation/How_To_Clear_Your_Browsing_History/Opera">Mehr lesen</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="image">
-                            <amp-img noloading height=256 width=256 layout=responsive src="/images/Icon_Edge.png"></amp-img>
-                        </div>
-                        <div class="content">
-                            <p>Wie leert man den Cache in Edge</p>
-                        </div>
-                        <div class="action">
-                            <a href="/Quick_Installation/How_To_Clear_Your_Browsing_History/Microsoft_Edge">Mehr lesen</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="image">
-                            <amp-img noloading height=256 width=256 layout=responsive src="/images/Icon_Vivaldi.png"></amp-img>
-                        </div>
-                        <div class="content">
-                            <p>Wie leert man den Cache in Vivaldi</p>
-                        </div>
-                        <div class="action">
-                            <a href="/Quick_Installation/How_To_Clear_Your_Browsing_History/Vivaldi">Mehr lesen</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card Container -->
+              <div class="row">
+                  <div class="twelve columns">
+                    <h1>Clear your Borwser History</h1>
+                    <h4>Flush old parts of the web user interface after a WebUI update</h4>
+                    <p class="justify">Sometimes your camera´s WebUI might not behave the way you want. You updated your camera´s software, but it still shows you the old version? An update should bring new functions to the user interface - but they are nowhere to be seen? Or you simply cannot change a setting? Your Browser might have cached old parts of the user interface and refuses to reload the new or updated files. Here is how you can get rid of your browsers browsing history in several common browsers:</p>
+                  </div>
+              </div>
 
-            </div>
-        </section>
+              <div class="card-container">
+                  <div class="twocard">
+                      <div class="image">
+                        <a href="/Quick_Installation/How_To_Clear_Your_Browsing_History/Internet_Explorer">
+                          <amp-img noloading height=256 width=256 layout=responsive src="/images/Icon_Internet-Explorer-10.png"></amp-img>
+                        </a>
+                      </div>
+                      <div class="action">
+                          <p>Wie leert man den Cache in Internet Explorer</p>
+                      </div>
+                  </div>
+                  <div class="twocard">
+                      <div class="image">
+                        <a href="/Quick_Installation/How_To_Clear_Your_Browsing_History/Mozilla_Firefox">
+                          <amp-img noloading height=256 width=256 layout=responsive src="/images/Icon_Firefox.png"></amp-img>
+                        </a>
+                      </div>
+                      <div class="action">
+                          <p>Wie leert man den Cache in Mozilla Firefox</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Card Container -->
 
-        <section class="blade blog mobile-down">
+              <div class="card-container">
+                  <div class="twocard">
+                      <div class="image">
+                        <a href="/Quick_Installation/How_To_Clear_Your_Browsing_History/Google_Chromium">
+                          <amp-img noloading height=256 width=256 layout=responsive src="/images/Icon_Chromium.png"></amp-img>
+                        </a>
+                      </div>
+                      <div class="action">
+                          <p>Wie leert man den Cache in Chrome</p>
+                      </div>
+                  </div>
+                  <div class="twocard">
+                      <div class="image">
+                        <a href="/Quick_Installation/How_To_Clear_Your_Browsing_History/Opera">
+                          <amp-img noloading height=256 width=256 layout=responsive src="/images/Icon_Opera.png"></amp-img>
+                        </a>
+                      </div>
+                      <div class="action">
+                          <p>Wie leert man den Cache in Opera</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Card Container -->
 
-            <div class="container wider">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1>Verwandte Themen:</h1>
-                    </div>
-                </div>
+              <div class="card-container">
+                  <div class="twocard">
+                      <div class="image">
+                        <a href="/Quick_Installation/How_To_Clear_Your_Browsing_History/Microsoft_Edge">
+                          <amp-img noloading height=256 width=256 layout=responsive src="/images/Icon_Edge.png"></amp-img>
+                        </a>
+                      </div>
+                      <div class="action">
+                          <p>Wie leert man den Cache in Edge</p>
+                      </div>
+                  </div>
+                  <div class="twocard">
+                      <div class="image">
+                        <a href="/Quick_Installation/How_To_Clear_Your_Browsing_History/Vivaldi">
+                          <amp-img noloading height=256 width=256 layout=responsive src="/images/Icon_Vivaldi.png"></amp-img>
+                        </a>
+                      </div>
+                      <div class="action">
+                          <p>Wie leert man den Cache in Vivaldi</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Card Container -->
 
-                <div class="tab-container">
-
-                    <a class="tab" href="/Quick_Installation/First_Steps">
-                        <h3>Erste Schritte um Ihre INSTAR Kamera zu installieren</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-					          <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
-						            <h3>Wie Sie die Firmware und Benutzeroberfläche Ihrer Kamera ändern können</h3>
-						            <div class="subtitle">Mittel</div>
-					          </a>
-
-                </div>
-
-                <a href="/Quick_Installation/" target="_blank">Mehr ansehen</a>
+            </article>
+            <!-- /Wrapper -->
 
             </div>
-        </section>
+            <!-- /Container -->
+        </div>
+        <!-- /wrap -->
+
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

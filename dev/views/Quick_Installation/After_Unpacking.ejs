@@ -2,21 +2,25 @@
 <html ⚡>
     <head>
         <% include ../_partials/amp/_amp-head.ejs %>
-        <link rel="canonical" href="/Quick-Installation/How_Does_An_IP_Camera_Work">
+        <link rel="canonical" href="/Quick-Installation/After_Unpacking">
     </head>
 
     <body class="home">
 
-      <header class="fixed">
-            <% include ../_partials/amp/_amp-header.ejs %>
-        </header>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
 
-        <div class="wrap">
-            <div class="container main">
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
+      </header>
 
-                <% include ../_partials/content/_bluenav-qi.ejs %>
+      <div class="wrap">
+          <div class="container main">
 
-                <article class="content">
+            <% include ../_partials/content/_bluenav-general.ejs %>
+
+                <article class="content blade wrapper">
                     <!-- article -->
 
                     <div class="margin">
@@ -26,7 +30,7 @@
                             <h2 class="inlineHeader">Schnellinstallation Assistent&nbsp;&nbsp;&nbsp;</h2>
                           </td>
                           <td>
-                            <a href="http://install.instar.de" target="_blank"><button class="navGoRed">Start!</button></a>
+                            <a href="http://install.instar.de" target="_blank"><button class="navGo navGoRed">Start!</button></a>
                           </td>
                         </tr>
                       </table>
@@ -75,9 +79,8 @@
             </div>
             <!-- /container main -->
         </div>
-        <!-- /wrap-->
 
-        <% include ../_partials/content/_bluenav-qi-mobile.ejs %>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>
