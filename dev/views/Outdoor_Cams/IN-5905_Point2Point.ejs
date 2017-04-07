@@ -8,17 +8,21 @@
 
 <body class="home">
 
-  <header class="fixed">
-      <% include ../_partials/amp/_amp-header.ejs %>
+  <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+      <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+  </amp-sidebar>
+
+  <header class="header fixed">
+    <% include ../_partials/amp/_amp-header.ejs %>
   </header>
 
-    <body>
+  <div class="wrap">
+      <div class="container main">
 
-        <div class="wrap">
-            <div class="container main">
-                <% include ../_partials/content/_bluenav-5905.ejs %>
+        <% include ../_partials/content/_bluenav-usermanual.ejs %>
 
-                <section class="blade get-started">
+                <section class="blade wrapper content">
+
                     <div class="container">
 
                         <h1 class="post-title">IN-5905 HD Point2Point Einrichtung</h1>
@@ -29,7 +33,7 @@
                                     <amp-img noloading height=500 width=500 layout=responsive src="/images/WPS-P2P_IN-5905_01.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="justify">Verbinden Sie die Antenne mit der SMA Buchse in der Rückenplatte der Kamera.</p>
+                                    <p class="justify">Verbinden Sie die Antenne mit der SMA Buchse in der Rückenplatte der Kamera.<br><br></p>
                                 </div>
                             </div>
                             <div class="twocard">
@@ -37,7 +41,7 @@
                                     <amp-img noloading height=500 width=500 layout=responsive src="/images/WPS-P2P_IN-5905_02.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="justify">Verbinden Sie das Netzteil mit dem Anschluss am Kabelbaum der Kamera um Ihre Kamera zu starten.<br><br></p>
+                                    <p class="justify">Verbinden Sie das Netzteil mit dem Anschluss am Kabelbaum der Kamera um Ihre Kamera zu starten.</p>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +53,7 @@
                                     <amp-img noloading height=500 width=500 layout=responsive src="/images/WPS-P2P_IN-5905_03.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="justify">Wenn Ihr Router eine WPS (Wireless Protected Setup) Funktion hat, können Sie auch die WPS Taste am Router drücken (siehe Beispiele oben).<br><br></p>
+                                    <p class="justify">Wenn Ihr Router eine WPS (Wireless Protected Setup) Funktion hat, können Sie auch die WPS Taste am Router drücken (siehe Beispiele oben).<br></p>
                                 </div>
                             </div>
                             <div class="twocard">
@@ -77,7 +81,7 @@
                                     <amp-img noloading height=500 width=500 layout=responsive src="/images/WPS-P2P_IN-5905_06.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="justify">Der QR Code beinhaltet alle Informationen zum Einbinden der Kamera. Bitte beachten Sie, dass hierbei die Standard Login Daten verwendet werden.</p>
+                                    <p class="justify">Der QR Code beinhaltet alle Informationen zum Einbinden der Kamera. Bitte beachten Sie, dass hierbei die Standard Login Daten verwendet werden.<br><br><br></p>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +93,7 @@
                                     <amp-img noloading height=500 width=500 layout=responsive src="/images/WPS-P2P_IN-5905_07.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="justify">Das Standard Kennwort kann nur über die Weboberfläche der Kamera geändert werden. Der QR Code in der Weboberfläche beinhaltet immer die aktuellen Daten.<br><br></p>
+                                    <p class="justify">Das Standard Kennwort kann nur über die Weboberfläche der Kamera geändert werden. Der QR Code in der Weboberfläche beinhaltet immer die aktuellen Daten.</p>
                                 </div>
                             </div>
                             <div class="twocard">
@@ -97,7 +101,7 @@
                                     <amp-img noloading height=500 width=500 layout=responsive src="/images/WPS-P2P_IN-5905_08.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="justify">Die App wird jetzt den Live Stream der Kamera abgreifen können und Ihnen die Möglichkeit geben die Kamera zu schwenken, den Audiostream zu aktivieren und einen Schnappschuss zu speichern.<br><br><br></p>
+                                    <p class="justify">Die App wird jetzt den Live Stream der Kamera abgreifen können und Ihnen die Möglichkeit geben die Kamera zu schwenken, den Audiostream zu aktivieren und einen Schnappschuss zu speichern.</p>
                                 </div>
                             </div>
                         </div>
@@ -126,77 +130,7 @@
         </div>
         <!-- /wrap-->
 
-        <section class="blade blog mobile-down">
-
-            <div class="container wider">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1>Verwandte Themen</h1>
-                    </div>
-                </div>
-
-                <div class="tab-container">
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Safety_Warnings">
-                        <h3>Safety Warnings</h3>
-                        <div class="subtitle">Intermediate</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Product_Features">
-                        <h3>Product Features</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Quick_Installation">
-                        <h3>Quick Installation</h3>
-                        <div class="subtitle">Advanced</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Point2Point">
-                        <h3>P2P &amp; WPS</h3>
-                        <div class="subtitle">Intermediate</div>
-                    </a>
-
-                    <a class="tab" href="/Web_User_Interface/720p_Series">
-                        <h3>Web User Interface</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
-                        <h3>Software Update</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Video_Streaming">
-                        <h3>Video Streaming</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Camera_Reset">
-                        <h3>Camera Reset</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Lense_Adjustment">
-                        <h3>Lense Adjustment</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Technical_Specifications">
-                        <h3>Technical Specifications</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Warranty">
-                        <h3>Warranty &amp; Disposal</h3>
-                        <div class="subtitle">Easy</div>
-                    </a>
-                </div>
-
-                <a href="/Products/Usermanuals" target="_blank">VIEW MORE</a>
-
-            </div>
-        </section>
+        <% include ../_partials/content/_bluenav-usermanual-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

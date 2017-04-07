@@ -8,14 +8,20 @@
 
 <body class="home">
 
-  <% include ../_partials/amp/_amp-header.ejs %>
+  <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+      <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+  </amp-sidebar>
+
+  <header class="header fixed">
+    <% include ../_partials/amp/_amp-header.ejs %>
+  </header>
 
   <div class="wrap">
       <div class="container main">
 
-        <% include ../_partials/content/_bluenav-9008.ejs %>
+        <% include ../_partials/content/_bluenav-usermanual.ejs %>
 
-                <section class="blade get-started">
+                <section class="blade wrapper content">
 
                     <h1 class="post-title">IN-9008 HD</h1>
                     <h2>Produkt Features</h2>
@@ -75,8 +81,7 @@
                                     <tr>
                                       <th scope="row">8</th>
                                       <td>Reset / WPS Button</td>
-                                      <p><strong>3s</strong> aktiviert WPS (<a href="/Outdoor_Cameras/IN-9008_HD/Point2Point/">Wireless Protected Setup</a>)</p>
-                                      <p><strong>10s</strong> setzt Kamera auf Werkseinstellungen zurücksetzen</p>
+                                      <td><strong>3s</strong> aktiviert WPS (<a href="/Outdoor_Cameras/IN-9008_HD/Point2Point/">Wireless Protected Setup</a>)<br><strong>10s</strong> setzt Kamera auf Werkseinstellungen zurücksetzen</td>
                                     </tr>
                                     <tr>
                                       <th scope="row">9</th>
@@ -113,73 +118,7 @@
         </div>
         <!-- /wrap-->
 
-        <section class="blade blog mobile-down">
-
-            <div class="container wider">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1>Themen</h1>
-                    </div>
-                </div>
-
-                <div class="tab-container">
-
-                <section class="blade blog mobile-down">
-
-                    <div class="container wider">
-                        <div class="row">
-                            <div class="twelve columns">
-                                <h1>Verwandte Themen</h1>
-                            </div>
-                        </div>
-
-                        <div class="tab-container">
-
-                            <a class="tab" href="/Outdoor_Cameras/IN-9008_HD/Safety_Warnings">
-                                <h3>Sicherheitswarnungen</h3>
-                            </a>
-
-                            <a class="tab" href="/Outdoor_Cameras/IN-9008_HD/Product_Features">
-                                <h3>Produkt Features</h3>
-                            </a>
-
-                            <a class="tab" href="/Outdoor_Cameras/IN-9008_HD/Quick_Installation">
-                                <h3>Schnellinstallation</h3>
-                            </a>
-
-                            <a class="tab" href="/Web_User_Interface/1080p_Series">
-                                <h3>Weboberfläche</h3>
-                            </a>
-
-                            <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
-                                <h3>Software Update</h3>
-                            </a>
-
-                            <a class="tab" href="/Outdoor_Cameras/IN-9008_HD/Video_Streaming">
-                                <h3>Video Streaming</h3>
-                            </a>
-
-                            <a class="tab" href="/Outdoor_Cameras/IN-9008_HD/Camera_Reset">
-                                <h3>Kamera Reset</h3>
-                            </a>
-
-                            <a class="tab" href="/Outdoor_Cameras/IN-9008_HD/Lense_Adjustment">
-                                <h3>Objektivjustage</h3>
-                            </a>
-
-                            <a class="tab" href="/Outdoor_Cameras/IN-9008_HD/Technical_Specifications">
-                                <h3>Technische Spezifikationen</h3>
-                            </a>
-
-                            <a class="tab" href="/Outdoor_Cameras/IN-9008_HD/Warranty">
-                                <h3>Garantie &amp; Gewährleistung</h3>
-                            </a>
-                        </div>
-
-                        <a href="/Products/Usermanuals" target="_blank">MEHR ANSEHEN</a>
-
-                    </div>
-                </section>
+        <% include ../_partials/content/_bluenav-usermanual-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

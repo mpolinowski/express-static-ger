@@ -8,17 +8,24 @@
 
 <body class="home">
 
-  <% include ../_partials/amp/_amp-header.ejs %>
+  <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+      <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+  </amp-sidebar>
+
+  <header class="header fixed">
+    <% include ../_partials/amp/_amp-header.ejs %>
+  </header>
 
   <div class="wrap">
       <div class="container main">
 
-        <% include ../_partials/content/_bluenav-9008.ejs %>
+        <% include ../_partials/content/_bluenav-usermanual.ejs %>
 
-                <section class="blade get-started">
+          <section class="blade wrapper content">
+
                     <div class="container">
 
-                      <div class="margin">
+                      <div>
                         <table>
                           <tr>
                             <td>
@@ -121,7 +128,7 @@
                                   </a>
                               </div>
                               <div class="action">
-                                  <a href="/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi"><button class="btnPrimary">nur WiFi</button></a>
+                                  <a href="/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi"><button class="btn btnPrimary">NUR WLAN</button></a>
                               </div>
                           </div>
                           <!-- /card -->
@@ -132,7 +139,7 @@
                                   </a>
                               </div>
                               <div class="action">
-                                  <a href="/Outdoor_Cameras/IN-9008_HD/Quick_Installation/Ethernet"><button class="btnPrimary">Ethernet</button></a>
+                                  <a href="/Outdoor_Cameras/IN-9008_HD/Quick_Installation/Ethernet"><button class="btn btnPrimary">LAN</button></a>
                               </div>
                           </div>
                           <!-- /card -->
@@ -143,7 +150,7 @@
                                   </a>
                               </div>
                               <div class="action">
-                                  <a href="/Outdoor_Cameras/IN-9008_HD/Quick_Installation/Ethernet_and_Audio-Out"><button class="btnPrimary">Ethernet &amp; Audio-Ausgang</button></a>
+                                  <a href="/Outdoor_Cameras/IN-9008_HD/Quick_Installation/Ethernet_and_Audio-Out"><button class="btn btnPrimary">LAN &amp; Audio</button></a>
                               </div>
                           </div>
                           <!-- /card -->
@@ -159,77 +166,7 @@
         </div>
         <!-- /wrap-->
 
-        <section class="blade blog mobile-down">
-
-            <div class="container wider">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1>Verwandte Themen</h1>
-                    </div>
-                </div>
-
-                <div class="tab-container">
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Safety_Warnings">
-                        <h3>Sicherheitshinweise</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Product_Features">
-                        <h3>Produktübersicht</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Quick_Installation">
-                        <h3>Schnellinstallation</h3>
-                        <div class="subtitle">Erweitert</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Point2Point">
-                        <h3>P2P &amp; WPS</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                    <a class="tab" href="/Web_User_Interface/720p_Series">
-                        <h3>Weboberfläche</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
-                        <h3>Software Update</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Video_Streaming">
-                        <h3>Video Streaming</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Camera_Reset">
-                        <h3>Kamera Reset</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Lense_Adjustment">
-                        <h3>Objektiv einstellen</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Technical_Specifications">
-                        <h3>Technische Spezifikationen</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Warranty">
-                        <h3>Garantie &amp; Entsorgung</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-                </div>
-
-                <a href="/Products/Usermanuals" target="_blank">MEHR LESEN</a>
-
-            </div>
-        </section>
+        <% include ../_partials/content/_bluenav-usermanual-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

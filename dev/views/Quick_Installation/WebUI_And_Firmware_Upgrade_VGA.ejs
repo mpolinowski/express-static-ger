@@ -7,17 +7,23 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
+
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
-        <div class="wrap">
-            <div class="container main">
-                <% include ../_partials/content/_bluenav-qi.ejs %>
+      <div class="wrap">
+          <div class="container main">
 
-                <article class="content">
+            <% include ../_partials/content/_bluenav-general.ejs %>
+
+                <article class="blade wrapper content">
                     <!-- article -->
-                    <div class="margin">
+
+                    <div>
                         <h1>Software Update (VGA Cameras)</h1>
                         <amp-youtube data-videoid="9s3P1TTj0Lc" layout="responsive" width="480" height="270" class="shadow"></amp-youtube>
                     </div>
@@ -93,7 +99,7 @@
         </div>
         <!-- /wrap-->
 
-          <% include ../_partials/content/_bluenav-qi-mobile.ejs %>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

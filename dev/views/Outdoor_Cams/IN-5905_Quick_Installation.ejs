@@ -8,20 +8,36 @@
 
 <body class="home">
 
-  <header class="fixed">
-      <% include ../_partials/amp/_amp-header.ejs %>
+  <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+      <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+  </amp-sidebar>
+
+  <header class="header fixed">
+    <% include ../_partials/amp/_amp-header.ejs %>
   </header>
 
-    <body>
+  <div class="wrap">
+      <div class="container main">
 
-        <div class="wrap">
-            <div class="container main">
-                <% include ../_partials/content/_bluenav-5905.ejs %>
+        <% include ../_partials/content/_bluenav-usermanual.ejs %>
 
-                <section class="blade get-started">
+                <section class="blade wrapper content">
+
                     <div class="container">
 
-                        <h1 class="post-title">IN-5905 HD Quick Installation</h1>
+                        <div>
+                          <table>
+                            <tr>
+                              <td>
+                                <h1 class="inlineHeader">IN-5905 HD Schnellinstallation&nbsp;&nbsp;&nbsp;</h1>
+                              </td>
+                              <td>
+                                <a href="/Outdoor_Cameras/IN-5905_HD/Point2Point/" target="_blank"><button class="navGo navGoRed">Abkürzung</button></a>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- /margin -->
 
                         <div class="card-container">
                             <div class="twocard">
@@ -29,7 +45,7 @@
                                     <amp-img noloading height=450 width=600 layout=responsive src="/images/Quickinstallation_IN-5905_01.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="justify">Schrauben Sie die WLAN Antenne auf den SMA Anschluß im hinteren Teil der Kamera um später eine WLAN Verbindung aufbauen zu können.<br><br></p>
+                                    <p class="justify">Schrauben Sie die WLAN Antenne auf den SMA Anschluß im hinteren Teil der Kamera um später eine WLAN Verbindung aufbauen zu können.</p>
                                 </div>
                             </div>
                             <div class="twocard">
@@ -37,7 +53,7 @@
                                     <amp-img noloading height=450 width=600 layout=responsive src="/images/Quickinstallation_IN-5905_02.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="justify">Stecken Sie das Kabel des Netzteils in den DC Anschluß am Kabelbaum der Kamera, um diese mit Strom zu versorgen.</p>
+                                    <p class="justify">Stecken Sie das Kabel des Netzteils in den DC Anschluß am Kabelbaum der Kamera, um diese mit Strom zu versorgen.<br><br></p>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +65,7 @@
                                     <amp-img noloading height=450 width=600 layout=responsive src="/images/Quickinstallation_03.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="justify">In Ihrem WLAN Router ist es empfohlen einen Kanal im Bereich von 1-6 (802.11bgn) eizustellen, sowie die WPA2/AES (CCMP) Verschlüsselung.<br><br><br><br><br><br><br></p>
+                                    <p class="justify">In Ihrem WLAN Router ist es empfohlen einen Kanal im Bereich von 1-6 (802.11bgn) eizustellen, sowie die WPA2/AES (CCMP) Verschlüsselung.<br><br><br><br></p>
                                 </div>
                             </div>
                             <div class="twocard">
@@ -79,7 +95,7 @@
                                     <amp-img noloading height=450 width=600 layout=responsive src="/images/Quickinstallation_06.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="justify">Stecken Sie das andere Ende des Netzwerkkabel in einen freien LAN Port Ihres Internet Routers.</p>
+                                    <p class="justify">Stecken Sie das andere Ende des Netzwerkkabel in einen freien LAN Port Ihres Internet Routers.<br><br><br></p>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +107,7 @@
                                     <amp-img noloading height=450 width=600 layout=responsive src="/images/Quickinstallation_07.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="justify">Starten Sie das IP Camera Tool von der Software CD und führen Sie einen Doppelklick auf den Namen der Kamera aus.<br><br></p>
+                                    <p class="justify">Starten Sie das IP Camera Tool von der Software CD und führen Sie einen Doppelklick auf den Namen der Kamera aus.<br></p>
                                 </div>
                             </div>
                             <div class="twocard">
@@ -111,7 +127,7 @@
                                     <amp-img noloading height=450 width=600 layout=responsive src="/images/Quickinstallation_09.png"></amp-img>
                                 </div>
                                 <div class="action">
-                                    <p class="justify">Aktivieren Sie das WLAN der Kamera in der Weboberfläche mittles des WLAN- Scanners. Nach der Eingabe und Speicherung des WLAN Passwortes muss das LAN Kabel gezogen und die Kamera neugestartet werden.<br><br></p>
+                                    <p class="justify">Aktivieren Sie das WLAN der Kamera in der Weboberfläche mittles des WLAN- Scanners. Nach der Eingabe und Speicherung des WLAN Passwortes muss das LAN Kabel gezogen und die Kamera neugestartet werden.<br><br><br></p>
                                 </div>
                             </div>
                             <div class="twocard">
@@ -131,7 +147,7 @@
                                   <amp-img noloading height=450 width=600 layout=responsive src="/images/Quickinstallation_13.png"></amp-img>
                               </div>
                               <div class="action">
-                                  <p class="justify">Um Ihre Kamera über Ihr Android, Windows Phone oder iOS Smartphone zu steuern, laden Sie sich bitte die InstarVision® App aus dem App Store herunter.<br><br><br><br><br></p>
+                                  <p class="justify">Um Ihre Kamera über Ihr Android, Windows Phone oder iOS Smartphone zu steuern, laden Sie sich bitte die InstarVision® App aus dem App Store herunter.<br><br><br><br></p>
                               </div>
                             </div>
                             <div class="twocard">
@@ -154,77 +170,7 @@
         </div>
         <!-- /wrap-->
 
-        <section class="blade blog mobile-down">
-
-            <div class="container wider">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1>Verwandte Themen</h1>
-                    </div>
-                </div>
-
-                <div class="tab-container">
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Safety_Warnings">
-                        <h3>Sicherheitswarnungen</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Product_Features">
-                        <h3>Produkt Features</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Quick_Installation">
-                        <h3>Schnellinstallation</h3>
-                        <div class="subtitle">Erweitert</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Point2Point">
-                        <h3>P2P &amp; WPS</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                    <a class="tab" href="/Web_User_Interface/720p_Series">
-                        <h3>Weboberfläche</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Quick_Installation/WebUI_And_Firmware_Upgrade">
-                        <h3>Software Update</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Video_Streaming">
-                        <h3>Video Streaming</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Camera_Reset">
-                        <h3>Kamera Reset</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Lense_Adjustment">
-                        <h3>Linse einstellen</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Technical_Specifications">
-                        <h3>Technische Spezifikationen</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-
-                    <a class="tab" href="/Outdoor_Cameras/IN-5905_HD/Warranty">
-                        <h3>Garantie &amp; Rückgabe</h3>
-                        <div class="subtitle">Einfach</div>
-                    </a>
-                </div>
-
-                <a href="/Products/Usermanuals" target="_blank">VIEW MORE</a>
-
-            </div>
-        </section>
+        <% include ../_partials/content/_bluenav-usermanual-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>
