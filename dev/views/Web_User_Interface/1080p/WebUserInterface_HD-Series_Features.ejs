@@ -7,14 +7,21 @@
 
     <body class="home">
 
-      <% include ../../_partials/amp/_amp-header.ejs %>
+        <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+            <% include ../../_partials/amp/_ampLandingSidebar.ejs %>
+        </amp-sidebar>
 
-      <div class="wrap">
-          <div class="container main">
+        <header class="header fixed">
+            <% include ../../_partials/amp/_amp-header.ejs %>
+        </header>
 
-              <% include ../../_partials/content/_bluenav-1080p-webUI.ejs %>
+            <div class="wrap">
+                <div class="container main">
 
-            <section class="blade get-started">
+                    <% include ../../_partials/content/_bluenav-general.ejs %>
+
+                        <article class="blade wrapper content">
+
                 <div class="container">
                     <div class="row">
                         <div class="twelve columns">
@@ -31,12 +38,9 @@
                                 <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Features_IR_LEDs.png"></amp-img>
                               </a>
                             </div>
-                            <div class="content">
-                                <hr>
-                                <p>Die IR LEDs Ihrer Kamera werden automatisch durch einen internen Helligkeitssensor bei Dunkelheit aktiviert und wieder deaktiviert, sobald es wieder hell wird. Wenn Sie die Kamera hinter einer reflektierenden Scheibe verwenden möchten, oder z.B. die Kamera als Wetter-Cam in den Himmel richten und somit keine Nachtausleuchtung benötigen, können Sie die LEDs hier einfach deaktivieren. Beachten Sie bitte, dass der IRcut Filter damit permanent vor dem Objektiv steht und Sie somit auch keine externen IR Scheinwerfer einsetzen können.</p>
-                            </div>
                             <div class="action">
-                                <a href="/Web_User_Interface/1080p_Series/Features/IR_LEDs/">IR LEDs</a>
+                                <hr>
+                                <p>Die IR LEDs Ihrer Kamera werden automatisch durch einen internen Helligkeitssensor bei Dunkelheit aktiviert und wieder deaktiviert, sobald es wieder hell wird. Wenn Sie die Kamera hinter einer reflektierenden Scheibe verwenden möchten, oder z.B. die Kamera als Wetter-Cam in den Himmel richten und somit keine Nachtausleuchtung benötigen, können Sie die LEDs hier einfach deaktivieren. Beachten Sie bitte, dass der IRcut Filter damit permanent vor dem Objektiv steht und Sie somit auch keine externen IR Scheinwerfer einsetzen können.<br><br><br><br><br></p>
                             </div>
                         </div>
                         <!-- /Card -->
@@ -45,16 +49,12 @@
 
                         <div class="twocard">
                             <div>
-                              <a href="/Web_User_Interface/1080p_Series/Features/PTZ/">
-                                <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Features_PTZ.png"></amp-img>
+                              <a href="/Web_User_Interface/1080p_Series/Features/SD_Card/">
+                                <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Features_SD_Card.png"></amp-img>
                               </a>
                             </div>
-                            <div class="content">
-                                <hr>
-                                <p>Aktivieren/Deaktivieren Sie hier die Kalibrierungsfahrt, die die Kamera beim Neustart durchführt. Lassen Sie Ihre Kamera eine gespeicherte Position anfahren oder die Reichweite der Dreh- und Neigbewegung einschränken.</p>
-                            </div>
                             <div class="action">
-                                <a href="/Web_User_Interface/1080p_Series/Features/PTZ/">Menü PTZ</a>
+                                <p>Wählen Sie ob Sie die SD Karte auswerfen oder Formatieren möchten und bestätigen Sie die Eingabe. Es ist immer empfohlen die SD Karte zuerst auszuwerfen, bevor Sie sie aus der Kamera entfernen. Gerade wenn die Kamera eine Aufnahme durchführt während die Stromversorgung gekappt wird, kann es zu Fehlern im Dateisystem kommen. Sollte die SD Karte beschädigt werden, wird das Betriebsysstem versuchen die SD Karte zu reparieren und es kann einige Minuten dauern, bis die SD Karte wieder verfügbar ist. Sollte die SD Karte auch nach einiger Zeit noch nicht erreichbar sein, können Sie probieren die Karte zu formatieren. Sollte die Karte ausgeworfen werden, wird das Betriebssystem versuchen Sie nach einiger Zeit wieder automatisch zu mounten.</p>
                             </div>
                         </div>
                         <!-- /Card -->
@@ -70,12 +70,8 @@
                                   <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Features_PTZ_Tour.png"></amp-img>
                                 </a>
                               </div>
-                              <div class="content">
-                                  <hr>
-                                  <p>Aktivieren/Deaktivieren Sie hier die Kalibrierungsfahrt, die die Kamera beim Neustart durchführt. Lassen Sie Ihre Kamera eine gespeicherte Position anfahren oder die Reichweite der Dreh- und Neigbewegung einschränken.</p>
-                              </div>
                               <div class="action">
-                                  <a href="/Web_User_Interface/1080p_Series/Features/PTZ_Tour/">Menü PTZ Tour</a>
+                                  <p>Aktivieren/Deaktivieren Sie hier die Kalibrierungsfahrt, die die Kamera beim Neustart durchführt. Lassen Sie Ihre Kamera eine gespeicherte Position anfahren oder die Reichweite der Dreh- und Neigbewegung einschränken.</p>
                               </div>
                           </div>
                           <!-- /Card -->
@@ -84,16 +80,12 @@
 
                           <div class="twocard">
                               <div>
-                                <a href="/Web_User_Interface/1080p_Series/Features/SD_Card/">
-                                  <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Features_SD_Card.png"></amp-img>
+                                <a href="/Web_User_Interface/1080p_Series/Features/PTZ/">
+                                  <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Features_PTZ.png"></amp-img>
                                 </a>
                               </div>
-                              <div class="content">
-                                  <hr>
-                                  <p>Wählen Sie ob Sie die SD Karte auswerfen oder Formatieren möchten und bestätigen Sie die Eingabe. Es ist immer empfohlen die SD Karte zuerst auszuwerfen, bevor Sie sie aus der Kamera entfernen. Gerade wenn die Kamera eine Aufnahme durchführt während die Stromversorgung gekappt wird, kann es zu Fehlern im Dateisystem kommen. Sollte die SD Karte beschädigt werden, wird das Betriebsysstem versuchen die SD Karte zu reparieren und es kann einige Minuten dauern, bis die SD Karte wieder verfügbar ist. Sollte die SD Karte auch nach einiger Zeit noch nicht erreichbar sein, können Sie probieren die Karte zu formatieren. Sollte die Karte ausgeworfen werden, wird das Betriebssystem versuchen Sie nach einiger Zeit wieder automatisch zu mounten.</p>
-                              </div>
                               <div class="action">
-                                  <a href="/Web_User_Interface/1080p_Series/Features/SD_Card/">Menü SD Karte</a>
+                                  <p>Aktivieren/Deaktivieren Sie hier die Kalibrierungsfahrt, die die Kamera beim Neustart durchführt. Lassen Sie Ihre Kamera eine gespeicherte Position anfahren oder die Reichweite der Dreh- und Neigbewegung einschränken.</p>
                               </div>
                           </div>
                           <!-- /Card -->
@@ -109,12 +101,8 @@
                                     <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Features_Status_LED.png"></amp-img>
                                   </a>
                                 </div>
-                                <div class="content">
-                                    <hr>
-                                    <p>Hat Ihr Kameramodell eine Status-LED die durchgehend blinkend die Netzwerkverbindung signalisiert? Dies ist sehr sinnvoll während der Einrichtung. Kann aber sehr schnell störend werden - besonders wenn es dunkel wird. Wenn Sie die LED nicht benötigen um Ihre Netzwerkverbindung zu troubelshooten oder um Personen darauf aufmerksam zu machen, dass sie aufgenommen werden, können Sie die LED hier einfach deaktivieren.</p>
-                                </div>
                                 <div class="action">
-                                    <a href="/Web_User_Interface/1080p_Series/Features/Status_LED/">Menü Status LED</a>
+                                    <p>Hat Ihr Kameramodell eine Status-LED die durchgehend blinkend die Netzwerkverbindung signalisiert? Dies ist sehr sinnvoll während der Einrichtung. Kann aber sehr schnell störend werden - besonders wenn es dunkel wird. Wenn Sie die LED nicht benötigen um Ihre Netzwerkverbindung zu troubelshooten oder um Personen darauf aufmerksam zu machen, dass sie aufgenommen werden, können Sie die LED hier einfach deaktivieren.</p>
                                 </div>
                             </div>
                             <!-- /Card -->
@@ -135,7 +123,7 @@
       </div>
       <!-- /wrap-->
 
-      <% include ../../_partials/content/_bluenav-1080p-webUI-mobile.ejs %>
+      <% include ../../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../../_partials/amp/_amp-footer.ejs %>

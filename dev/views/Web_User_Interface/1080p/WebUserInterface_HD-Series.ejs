@@ -7,7 +7,13 @@
 
     <body class="home">
 
-      <% include ../../_partials/amp/_amp-header.ejs %>
+        <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+            <% include ../../_partials/amp/_ampLandingSidebar.ejs %>
+        </amp-sidebar>
+
+        <header class="header fixed">
+            <% include ../../_partials/amp/_amp-header.ejs %>
+        </header>
 
           <div class="wrap mobile-down">
               <div class="content">
@@ -31,12 +37,12 @@
           </div>
           <!-- /Wrap -->
 
-        <div class="wrap">
-            <div class="container main">
+              <div class="wrap">
+                  <div class="container main">
 
-              <% include ../../_partials/content/_bluenav-1080p-webUI.ejs %>
+                      <% include ../../_partials/content/_bluenav-general.ejs %>
 
-                <article>
+                          <article class="blade wrapper content">
                     <!-- article -->
 
                     <div class="row margin">
@@ -51,7 +57,7 @@
                                     <amp-img src="/images/QL-Box_WebUI_Multimedia.png" width="100" height="100" noloading class="quote-image shadow"></amp-img>
                                 </div>
                                 <div class="four columns">
-                                    <p class="quote-copy">Stellen Sie die Videoqualität und die Audiolautstärke Ihrer Kamera ein. Die Bildeinstellungen erlauben es, den Kontrast, die Sättigung und die Helligkeit Ihrer Kamera einzustellen.</p>
+                                    <p class="text-reset">Stellen Sie die Videoqualität und die Audiolautstärke Ihrer Kamera ein. Die Bildeinstellungen erlauben es, den Kontrast, die Sättigung und die Helligkeit Ihrer Kamera einzustellen.</p>
 
                                     <p class="quote-source">
                                         <strong>Menü Multimedia</strong><br/>
@@ -70,7 +76,7 @@
                                     <amp-img src="/images/QL-Box_WebUI_Alarm.png" width="100" height="100" noloading class="quote-image shadow"></amp-img>
                                 </div>
                                 <div class="four columns">
-                                    <p class="quote-copy">Aktivieren Sie die Bewegungs- oder Audioerkennung der Kamera und Aktionen, die im Alarmfall ausgelöst werden sollen - wie zum Beispiel Videoaufnahmen, E-Mail Benachrichtigungen oder FTP Uploads.</p>
+                                    <p class="text-reset">Aktivieren Sie die Bewegungs- oder Audioerkennung der Kamera und Aktionen, die im Alarmfall ausgelöst werden sollen - wie zum Beispiel Videoaufnahmen, E-Mail Benachrichtigungen oder FTP Uploads.</p>
 
                                     <p class="quote-source">
                                         <strong>Alarm Menü</strong><br/>
@@ -94,7 +100,7 @@
                                     <amp-img src="/images/QL-Box_WebUI_Recording.png" width="100" height="100" noloading class="quote-image shadow"></amp-img>
                                 </div>
                                 <div class="four columns">
-                                    <p class="quote-copy">Alle HD Kameras sind mit einer erweiterteren SD Karte ausgestattet (bis zu 32 GB), die genutzt werden kann um Fotoserien und Videoaufnahmen zu speichern.</p>
+                                    <p class="text-reset">Alle HD Kameras sind mit einer erweiterteren SD Karte ausgestattet (bis zu 32 GB), die genutzt werden kann um Fotoserien und Videoaufnahmen zu speichern.</p>
 
                                     <p class="quote-source">
                                         <strong>Geplante Aufgaben</strong><br/>
@@ -112,7 +118,7 @@
                                     <amp-img src="/images/QL-Box_WebUI_Network.png" width="100" height="100" noloading class="quote-image shadow"></amp-img>
                                 </div>
                                 <div class="four columns">
-                                    <p class="quote-copy">Ändern Sie die IP Konfigurationen oder WLAN Einstellungen, oder verbinden Sie Ihr Smartphone durch Scannen des DDNS, P2P oder Push Service QR Codes mit unserer Smartphone App.</p>
+                                    <p class="text-reset">Ändern Sie die IP Konfigurationen oder WLAN Einstellungen, oder verbinden Sie Ihr Smartphone durch Scannen des DDNS, P2P oder Push Service QR Codes mit unserer Smartphone App.</p>
 
                                     <p class="quote-source">
                                         <strong>Netzwerk Menü</strong><br/>
@@ -138,7 +144,7 @@
                                     <amp-img src="/images/QL-Box_WebUI_Features.png" width="100" height="100" noloading class="quote-image shadow"></amp-img>
                                 </div>
                                 <div class="four columns">
-                                    <p class="quote-copy">Ändern Sie die Systemeinstellungen der Kamera, stellen Sie die Status LED und IR LEDs, oder die Schwenk-, Neig- und Zoomfunktion, Ihrer Kamera ein.</p>
+                                    <p class="text-reset">Ändern Sie die Systemeinstellungen der Kamera, stellen Sie die Status LED und IR LEDs, oder die Schwenk-, Neig- und Zoomfunktion, Ihrer Kamera ein.</p>
 
                                     <p class="quote-source">
                                         <strong>Features Menü</strong><br/>
@@ -160,7 +166,7 @@
                                   <amp-img src="/images/QL-Box_WebUI_System.png" width="100" height="100" noloading class="quote-image shadow"></amp-img>
                               </div>
                                 <div class="four columns">
-                                    <p class="quote-copy">Ändern Sie die Sprache der Weboberfläche, starten Sie die Kamera neu, führen Sie einen Werksreset durch oder updaten Sie die Firmware und Weboberfläche Ihrer Kamera.</p>
+                                    <p class="text-reset">Ändern Sie die Sprache der Weboberfläche, starten Sie die Kamera neu, führen Sie einen Werksreset durch oder updaten Sie die Firmware und Weboberfläche Ihrer Kamera.</p>
                                     <p class="quote-source">
                                         <strong>System Menü</strong><br/>
                                         <a href="/Web_User_Interface/1080p_Series/System/Info/">Info</a>,
@@ -189,7 +195,7 @@
                                   <amp-img src="/images/QL-Box_WebUI_Cloud.png" width="100" height="100" noloading class="quote-image shadow"></amp-img>
                               </div>
                               <div class="four columns">
-                                  <p class="quote-copy">Die Menüleiste befindet sich über dem Live Video und erlaubt den Schnellzugriff auf die SD-Karte, Snapshots zu erstellen, eine Aufnahme zu starten oder die Bewegungserkennung der Kamera zu aktivieren.</p>
+                                  <p class="text-reset">Die Menüleiste befindet sich über dem Live Video und erlaubt den Schnellzugriff auf die SD-Karte, Snapshots zu erstellen, eine Aufnahme zu starten oder die Bewegungserkennung der Kamera zu aktivieren.</p>
 
                                   <p class="quote-source">
                                       <strong>Cloud Menü</strong><br/>
@@ -211,7 +217,7 @@
         </div>
         <!-- /Wrapper -->
 
-        <% include ../../_partials/content/_bluenav-1080p-webUI-mobile.ejs %>
+        <% include ../../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../../_partials/amp/_amp-footer.ejs %>

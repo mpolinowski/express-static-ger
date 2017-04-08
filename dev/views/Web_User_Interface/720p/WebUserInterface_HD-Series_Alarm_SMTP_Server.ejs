@@ -7,9 +7,13 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../../_partials/amp/_amp-header.ejs %>
-      </header>
+        <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+            <% include ../../_partials/amp/_ampLandingSidebar.ejs %>
+        </amp-sidebar>
+
+        <header class="header fixed">
+            <% include ../../_partials/amp/_amp-header.ejs %>
+        </header>
 
         <div class="wrap mobile-down">
             <div class="content">
@@ -33,14 +37,15 @@
         </div>
         <!-- /Wrap -->
 
-        <div class="wrap">
-            <div class="container main">
-              <% include ../../_partials/content/_bluenav-720p-webUI.ejs %>
+            <div class="wrap">
+                <div class="container main">
 
-                <article>
-                    <!-- article -->
+                    <% include ../../_partials/content/_bluenav-general.ejs %>
 
-                    <div class="margin">
+                        <article class="blade wrapper content">
+                        <!-- article -->
+
+                    <div>
                         <h2 class="post-title">Geben Sie einen Server für die ausgehenden Emails an.</h2>
                     </div>
                     <!-- /margin -->
@@ -118,7 +123,7 @@
             </div>
         </div>
 
-        <% include ../../_partials/content/_bluenav-720p-webUI-mobile.ejs %>
+        <% include ../../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../../_partials/amp/_amp-footer.ejs %>

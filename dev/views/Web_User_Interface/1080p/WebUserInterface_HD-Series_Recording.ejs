@@ -7,14 +7,21 @@
 
     <body class="home">
 
-      <% include ../../_partials/amp/_amp-header.ejs %>
+        <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+            <% include ../../_partials/amp/_ampLandingSidebar.ejs %>
+        </amp-sidebar>
 
-        <div class="wrap">
-            <div class="container main">
+        <header class="header fixed">
+            <% include ../../_partials/amp/_amp-header.ejs %>
+        </header>
 
-                <% include ../../_partials/content/_bluenav-1080p-webUI.ejs %>
+            <div class="wrap">
+                <div class="container main">
 
-            <section class="blade get-started">
+                    <% include ../../_partials/content/_bluenav-general.ejs %>
+
+                        <article class="blade wrapper content">
+
                 <div class="container">
                     <div class="row">
                         <div class="twelve columns">
@@ -32,12 +39,8 @@
                                   src="/images/1080p_webUI/QL-Box_WebUI_1080p_Recording_Video.png"></amp-img>
                               </a>
                           </div>
-                          <div class="content">
-                              <hr>
-                              <p>Aktivieren Sie hier die geplante Videoaufnahme. Der oben definierte Zeitplan bestimmt dabei zu welchen Zeiten die Kamera Aufnahmen durchführt. Legen Sie hier die Auflösung, Länge pro Datei und die maximale Länge einer manuellen Aufnahme fest.</p>
-                          </div>
                           <div class="action">
-                              <a href="/Web_User_Interface/1080p_Series/Recording/Video/">Menü Video</a>
+                              <p>Aktivieren Sie hier die geplante Videoaufnahme. Der oben definierte Zeitplan bestimmt dabei zu welchen Zeiten die Kamera Aufnahmen durchführt. Legen Sie hier die Auflösung, Länge pro Datei und die maximale Länge einer manuellen Aufnahme fest.</p>
                           </div>
                       </div>
                       <!-- /Card -->
@@ -50,12 +53,8 @@
                                   <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Recording_Photoseries.png"></amp-img>
                                 </a>
                             </div>
-                            <div class="content">
-                                <hr>
-                                <p>Nehmen Sie Schnappschüsse im Zeitintervall auf und setzen Sie die Bilder über einen Drittanbietersoftware zu einem Zeitraffervideo zusammen. Alternativ kann die Funktion auch Einzelbilder mit einem festgelegten Bildnamen auf einen FTP Server hochladen. Dies bietet Ihnen eine einfache Möglichkeit ein quasi-Livebild der Kamera auf Ihrer Webseite einzubinden.</p>
-                            </div>
                             <div class="action">
-                                <a href="/Web_User_Interface/1080p_Series/Recording/Photoseries/">Menü Fotoserie</a>
+                                <p>Nehmen Sie Schnappschüsse im Zeitintervall auf und setzen Sie die Bilder über einen Drittanbietersoftware zu einem Zeitraffervideo zusammen. Alternativ kann die Funktion auch Einzelbilder mit einem festgelegten Bildnamen auf einen FTP Server hochladen. Dies bietet Ihnen eine einfache Möglichkeit ein quasi-Livebild der Kamera auf Ihrer Webseite einzubinden.</p>
                             </div>
                         </div>
                         <!-- /Card -->
@@ -71,7 +70,7 @@
       </div>
       <!-- /wrap-->
 
-      <% include ../../_partials/content/_bluenav-1080p-webUI-mobile.ejs %>
+      <% include ../../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../../_partials/amp/_amp-footer.ejs %>
