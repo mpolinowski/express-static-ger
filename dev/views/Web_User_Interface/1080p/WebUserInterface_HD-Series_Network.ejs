@@ -7,14 +7,21 @@
 
     <body class="home">
 
-      <% include ../../_partials/amp/_amp-header.ejs %>
+        <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+            <% include ../../_partials/amp/_ampLandingSidebar.ejs %>
+        </amp-sidebar>
 
-      <div class="wrap">
-          <div class="container main">
+        <header class="header fixed">
+            <% include ../../_partials/amp/_amp-header.ejs %>
+        </header>
 
-              <% include ../../_partials/content/_bluenav-1080p-webUI.ejs %>
+            <div class="wrap">
+                <div class="container main">
 
-            <section class="blade get-started">
+                    <% include ../../_partials/content/_bluenav-general.ejs %>
+
+                        <article class="blade wrapper content">
+
                 <div class="container">
                     <div class="row">
                         <div class="twelve columns">
@@ -31,12 +38,8 @@
                                 <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Network_IP_Configuration.png"></amp-img>
                               </a>
                             </div>
-                            <div class="content">
-                                <hr>
-                                <p>Ändern Sie die IP Adresse, das Gateway und den DNS Server Ihrer Kamera - all diese Einstellungen werden in der Regel vom Installation Wizard gesetzt und müssen nicht mehr angepasst werden. Sie werden jedoch ggf. den HTTP Port der Kamera anpassen müssen, um diese über das Internet zu erreichen. Der hier aufgeführte RTSP Port ist der RTSP Streaming Port der Kamera.</p>
-                            </div>
                             <div class="action">
-                                <a href="/Web_User_Interface/1080p_Series/Network/IP_Configuration/">Menü IP Konfiguration</a>
+                                <p>Ändern Sie die IP Adresse, das Gateway und den DNS Server Ihrer Kamera - all diese Einstellungen werden in der Regel vom Installation Wizard gesetzt und müssen nicht mehr angepasst werden. Sie werden jedoch ggf. den HTTP Port der Kamera anpassen müssen, um diese über das Internet zu erreichen. Der hier aufgeführte RTSP Port ist der RTSP Streaming Port der Kamera.</p>
                             </div>
                         </div>
                         <!-- /Card -->
@@ -49,12 +52,8 @@
                                 <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Network_WiFi.png"></amp-img>
                               </a>
                             </div>
-                            <div class="content">
-                                <hr>
-                                <p>Die WLAN Verbindung kann sehr einfach per WPS eingerichtet werden oder über den Erstinstallation Assistenten. Für die manuelle Einrichtung steht Ihnen hier ein WLAN Scanner zur Verfügung. Der Scanner gibt Ihnen auch eine Übersicht über die Empfangsstärke des Signals und ermöglicht es Ihnen so einen optimalen Platz für Ihre Kamera zu finden.</p>
-                            </div>
                             <div class="action">
-                                <a href="/Web_User_Interface/1080p_Series/Network/WiFi/">Menü WiFi</a>
+                                <p>Die WLAN Verbindung kann sehr einfach per WPS eingerichtet werden oder über den Erstinstallation Assistenten. Für die manuelle Einrichtung steht Ihnen hier ein WLAN Scanner zur Verfügung. Der Scanner gibt Ihnen auch eine Übersicht über die Empfangsstärke des Signals und ermöglicht es Ihnen so einen optimalen Platz für Ihre Kamera zu finden.</p>
                             </div>
                         </div>
                         <!-- /Card -->
@@ -70,12 +69,8 @@
                                 <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Network_Remote_Access.png"></amp-img>
                               </a>
                             </div>
-                            <div class="content">
-                                <hr>
-                                <p>Sie haben 2 Möglichkeiten auf die Kamera über das Internet zuzugreifen - der einfach Weg nennt sich P2P. Der einzige Weg, der Ihnen einen Vollzugriff auf die Kamera gibt, nennt sich DDNS. Die DDNS oder Internet Adresse erlaubt Ihnen den Zugriff auf die WebUI der Kamera von unterwegs.</p>
-                            </div>
                             <div class="action">
-                                <a href="/Web_User_Interface/1080p_Series/Network/Remote_Access/">Fernzugriff</a>
+                                <p>Sie haben 2 Möglichkeiten auf die Kamera über das Internet zuzugreifen - der einfach Weg nennt sich P2P. Der einzige Weg, der Ihnen einen Vollzugriff auf die Kamera gibt, nennt sich DDNS. Die DDNS oder Internet Adresse erlaubt Ihnen den Zugriff auf die WebUI der Kamera von unterwegs.</p>
                             </div>
                         </div>
                         <!-- /Card -->
@@ -88,12 +83,8 @@
                                 <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Network_FTP.png"></amp-img>
                               </a>
                             </div>
-                            <div class="content">
-                                <hr>
-                                <p>Um den FTP Upload zu nutzen, müssen Sie zuerst einen FTP Server und Ihre Login Daten hinterlegen. Sie können z.B. Ihren Router als Empfänger des FTP Uploads einrichten - in diesem Fall können Sie einfach die Router IP Adresse (z.B. 192.168.178.1) als FTP Server Adresse eintragen. Der Standard FTP Port ist 21 und der Standard Modus ist passiv (PASV). Beachten Sie bitte, dass es manche FTP Server (z.B. Telekom Speedport) es nicht erlauben, für jeden Tag einen neunen Ordner anzulegen.</p>
-                            </div>
                             <div class="action">
-                                <a href="/Web_User_Interface/1080p_Series/Network/FTP/">Menü FTP</a>
+                                <p>Um den FTP Upload zu nutzen, müssen Sie zuerst einen FTP Server und Ihre Login Daten hinterlegen. Sie können z.B. Ihren Router als Empfänger des FTP Uploads einrichten - in diesem Fall können Sie einfach die Router IP Adresse (z.B. 192.168.178.1) als FTP Server Adresse eintragen. Der Standard FTP Port ist 21 und der Standard Modus ist passiv (PASV). Beachten Sie bitte, dass es manche FTP Server (z.B. Telekom Speedport) es nicht erlauben, für jeden Tag einen neunen Ordner anzulegen.</p>
                             </div>
                         </div>
                         <!-- /Card -->
@@ -109,12 +100,8 @@
                                 <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Network_UPnP.png"></amp-img>
                               </a>
                             </div>
-                            <div class="content">
-                                <hr>
-                                <p>Der UPnP Standard sollte unser Leben einfacher machen. Jeder Port der öffentlich verfügbar sein muss für den externen Zugriff, sollte automatisch durchgeleitet werden. Das würde den DDNS Zugriff sehr vereinfachen...doch funktioniert dieser Standard häufig nicht und wird von System Administratoren oft - aus gutem Grund - als gefährlich eingestuft. Wir empfehlen daher die manuelle Portweiterleitung für den DDNS Zugriff zu nutzen.</p>
-                            </div>
                             <div class="action">
-                                <a href="/Web_User_Interface/1080p_Series/Network/UPnP/">Menü UPnP</a>
+                                <p>Der UPnP Standard sollte unser Leben einfacher machen. Jeder Port der öffentlich verfügbar sein muss für den externen Zugriff, sollte automatisch durchgeleitet werden. Das würde den DDNS Zugriff sehr vereinfachen...doch funktioniert dieser Standard häufig nicht und wird von System Administratoren oft - aus gutem Grund - als gefährlich eingestuft. Wir empfehlen daher die manuelle Portweiterleitung für den DDNS Zugriff zu nutzen.</p>
                             </div>
                         </div>
                         <!-- /Card -->
@@ -127,12 +114,8 @@
                                 <amp-img noloading height=400 width=400 layout=responsive src="/images/1080p_webUI/QL-Box_WebUI_1080p_Network_ONVIF.png"></amp-img>
                               </a>
                             </div>
-                            <div class="content">
-                                <hr>
-                                <p>Die Industrie für IP Überwachungslösungen hat ein Standard Protokoll mit dem Namen ONVIF definiert, das es IP Überwachungskameras erlaubt mit Netzwerk Aufnahmegeräten (NVR) zu kommunizieren. Den dafür benötigten Service können Sie hier aktivieren oder deaktivieren, als auch den Netzwerk-Port für die Kommunikation festlegen.</p>
-                            </div>
                             <div class="action">
-                                <a href="/Web_User_Interface/1080p_Series/Network/ONVIF/">Menü ONVIF</a>
+                                <p>Die Industrie für IP Überwachungslösungen hat ein Standard Protokoll mit dem Namen ONVIF definiert, das es IP Überwachungskameras erlaubt mit Netzwerk Aufnahmegeräten (NVR) zu kommunizieren. Den dafür benötigten Service können Sie hier aktivieren oder deaktivieren, als auch den Netzwerk-Port für die Kommunikation festlegen.</p>
                             </div>
                         </div>
                         <!-- /Card -->
@@ -148,7 +131,7 @@
       </div>
       <!-- /wrap-->
 
-      <% include ../../_partials/content/_bluenav-1080p-webUI-mobile.ejs %>
+      <% include ../../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../../_partials/amp/_amp-footer.ejs %>

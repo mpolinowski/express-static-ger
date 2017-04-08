@@ -7,17 +7,23 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
-      </header>
+        <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+            <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+        </amp-sidebar>
+
+        <header class="header fixed">
+            <% include ../_partials/amp/_amp-header.ejs %>
+        </header>
 
         <div class="wrap">
             <div class="container main">
 
-                <article class="margin">
+              <% include ../_partials/content/_bluenav-general.ejs %>
+
+                    <article class="blade wrapper content">
                     <!-- article -->
 
-                    <div class="margin">
+                    <div>
                         <h1>iOS Software</h1>
                         <h2>IP Vision Pro</h2>
                         <p>
@@ -77,7 +83,7 @@
                                   <amp-img noloading height=960 width=640 layout=responsive src="/images/IP_Vision_Pro_(5).jpg"></amp-img>
                               </div>
                               <div class="action">
-                                  <p><strong>Fig5.</strong> Add your camera´s IP address, port and login. Then press Save.</p>
+                                  <p><strong>Fig5.</strong> Add your camera´s IP address, port and login. Then press Save.<br><br><br><br><br></p>
                               </div>
                           </div>
                           <div class="card">
@@ -85,7 +91,7 @@
                                   <amp-img noloading height=960 width=640 layout=responsive src="/images/IP_Vision_Pro_(6).jpg"></amp-img>
                               </div>
                               <div class="action">
-                                  <p><strong>Fig6.</strong> Continue adding more cameras or press Done and Back to return to the camera view.</p>
+                                  <p><strong>Fig6.</strong> Continue adding more cameras or press Done and Back to return to the camera view.<br><br><br><br></p>
                               </div>
                           </div>
                       </div>
@@ -118,7 +124,7 @@
                                   <amp-img noloading height=960 width=640 layout=responsive src="/images/IP_Vision_Pro_(8).jpg"></amp-img>
                               </div>
                               <div class="action">
-                                  <p><strong>Fig8.</strong> Click on your camera´s live video to access advanced functions.</p>
+                                  <p><strong>Fig8.</strong> Click on your camera´s live video to access advanced functions.<br><br><br></p>
                               </div>
                           </div>
                           <div class="card">
@@ -126,7 +132,7 @@
                                   <amp-img noloading height=960 width=640 layout=responsive src="/images/IP_Vision_Pro_(9).jpg"></amp-img>
                               </div>
                               <div class="action">
-                                  <p><strong>Fig9.</strong> Activate a video or snapshot recording to your local storage by pressing the corresponding buttons.</p>
+                                  <p><strong>Fig9.</strong> Activate a video or snapshot recording to your local storage by pressing the corresponding buttons.<br><br></p>
                               </div>
                           </div>
                           <div class="card">
@@ -149,7 +155,7 @@
         </div>
         <!-- /wrap -->
 
-        <% include ../_partials/content/_bluenav-p-mobile.ejs %>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

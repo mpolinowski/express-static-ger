@@ -2,24 +2,28 @@
 <html ⚡>
     <head>
         <% include ../_partials/amp/_amp-head.ejs %>
-        <link rel="canonical" href="/Software//Windows/Sighthound">
+        <link rel="canonical" href="/Software/Windows/Sighthound">
     </head>
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
-      </header>
+        <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+            <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+        </amp-sidebar>
+
+        <header class="header fixed">
+            <% include ../_partials/amp/_amp-header.ejs %>
+        </header>
 
         <div class="wrap">
             <div class="container main">
 
-              <% include ../_partials/content/_bluenav-p.ejs %>
+              <% include ../_partials/content/_bluenav-general.ejs %>
 
-                <article>
+                    <article class="blade wrapper content">
                     <!-- article -->
 
-                    <div class="margin">
+                    <div>
                         <h1>Windows &amp; macOS Software</h1>
                         <h2>Sighthound</h2>
                         <p class="justify">Sighthound Video ist eine Überwachungssoftware für zu Hause und Unternehmen, welche darauf angepasst wurde Menschen und Objekte zu erkennen. Die meisten Standard Überwachungsanwendungen in Verbraucherkreisen nutzen Bewegungserkennung um zu erkennen ob sich bewegende Objekte im Video auftauchen. Bewegungserkennung analysiert wie viele Pixel sich zwischen den einzelnen Bildern verändert haben. Wenn sich genug Pixel verändern, wird das Video aufgenommen und der Nutzer wird mit einem Bewegungs Event benachrichtigt.</p>
@@ -163,7 +167,7 @@
         </div>
         <!-- /wrap -->
 
-        <% include ../_partials/content/_bluenav-p-mobile.ejs %>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

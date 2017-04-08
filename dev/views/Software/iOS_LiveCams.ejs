@@ -7,17 +7,23 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
-      </header>
+        <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+            <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+        </amp-sidebar>
+
+        <header class="header fixed">
+            <% include ../_partials/amp/_amp-header.ejs %>
+        </header>
 
         <div class="wrap">
             <div class="container main">
 
-                <article class="margin">
+              <% include ../_partials/content/_bluenav-general.ejs %>
+
+                    <article class="blade wrapper content">
                     <!-- article -->
 
-                    <div class="margin">
+                    <div>
                         <h1>iOS Software</h1>
                         <h2>LiveCams</h2>
                         <p>
@@ -36,7 +42,7 @@
                                   <amp-img noloading height=960 width=640 layout=responsive src="/images/Live_Cams_(1).jpg"></amp-img>
                               </div>
                               <div class="action">
-                                  <p><strong>Fig1.</strong> Click on My Cameras.</p>
+                                  <p><strong>Fig1.</strong> Click on My Cameras.<br><br></p>
                               </div>
                           </div>
                           <div class="card">
@@ -62,7 +68,7 @@
                                   <amp-img noloading height=960 width=640 layout=responsive src="/images/Live_Cams_(3).jpg"></amp-img>
                               </div>
                               <div class="action">
-                                  <p><strong>Fig3.</strong> First choose your camera model from the 3 INSTAR profiles.</p>
+                                  <p><strong>Fig3.</strong> First choose your camera model from the 3 INSTAR profiles.<br><br></p>
                               </div>
                           </div>
                           <div class="card">
@@ -88,7 +94,7 @@
                                   <amp-img noloading height=960 width=640 layout=responsive src="/images/Live_Cams_(5).jpg"></amp-img>
                               </div>
                               <div class="action">
-                                  <p><strong>Fig5.</strong> Click on your camera´s live video to access advanced functions.</p>
+                                  <p><strong>Fig5.</strong> Click on your camera´s live video to access advanced functions.<br><br><br></p>
                               </div>
                           </div>
                           <div class="card">
@@ -104,7 +110,7 @@
                                   <amp-img noloading height=960 width=640 layout=responsive src="/images/Live_Cams_(7).jpg"></amp-img>
                               </div>
                               <div class="action">
-                                  <p><strong>Fig7.</strong> The snapshot and video recording function allows you to record directly to your iOS device.</p>
+                                  <p><strong>Fig7.</strong> The snapshot and video recording function allows you to record directly to your iOS device.<br><br></p>
                               </div>
                           </div>
                       </div>
@@ -119,7 +125,7 @@
         </div>
         <!-- /wrap -->
 
-        <% include ../_partials/content/_bluenav-p-mobile.ejs %>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>
