@@ -2,21 +2,29 @@
 <html ⚡>
     <head>
         <% include ../_partials/amp/_amp-head.ejs %>
-        <link rel="canonical" href="/Downloads/Indoor_Cameras/IN-6014">
+        <link rel="canonical" href="/Downloads/Outdoor_Cameras/IN-2905_V2/">
     </head>
 
     <body class="home">
 
-          <% include ../_partials/amp/_amp-header.ejs %>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
 
-        <div class="wrap">
-            <div class="container main">
-                <% include ../_partials/content/_bluenav-dl.ejs %>
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
+      </header>
 
-                <article>
-                    <!-- article -->
-                    <div class="margin">
-                        <h2>IN-2905V2</h2><br>
+      <div class="wrap">
+          <div class="container main">
+
+            <% include ../_partials/content/_bluenav-general.ejs %>
+
+                <section class="blade wrapper content">
+                    <!-- section -->
+
+                    <div>
+                        <h2>IN-2905v2</h2><br>
 
                       <div>
                         <h3><strong>Inhaltsverzeichnis</strong></h3>
@@ -198,17 +206,17 @@
 
                     </div>
 
-                </article>
+                </section>
                 <!-- /article -->
             </div>
             <!-- /container main -->
         </div>
         <!-- /wrap-->
 
-        <% include ../_partials/content/_bluenav-dl-mobile.ejs %>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>
         </footer>
     </body>
-</html>
+  </html>
