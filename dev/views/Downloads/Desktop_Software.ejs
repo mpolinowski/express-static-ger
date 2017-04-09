@@ -2,20 +2,28 @@
 <html ⚡>
     <head>
         <% include ../_partials/amp/_amp-head.ejs %>
-        <link rel="canonical" href="/Downloads/Desktop_Software">
+        <link rel="canonical" href="/Downloads/Desktop_Software/">
     </head>
 
     <body class="home">
 
-          <% include ../_partials/amp/_amp-header.ejs %>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
+
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
+      </header>
 
       <div class="wrap">
-          <div class="main">
-            <% include ../_partials/content/_bluenav-dl.ejs %>
+          <div class="container main">
 
-              <section class="container twelve columns">
+            <% include ../_partials/content/_bluenav-general.ejs %>
 
-                <div class="row margin">
+                <section class="blade wrapper content">
+                    <!-- section -->
+
+                <div>
                       <h1>Downloads unserer Desktop-Software</h1>
                 </div>
 
@@ -44,7 +52,7 @@
                 <div class="card-container">
                     <div class="twocard">
                         <div class="image">
-                          <a href="http://apps.microsoft.com/windows/de-de/app/instarvision/60ae2e78-1479-40a3-82b6-6faf885d7037">
+                          <a href="/Downloads/Desktop_Software/InstarVision_Metro/">
                             <amp-img noloading width=330 height=330 layout=responsive src="/images/IV-Windows_Shop.jpg"></amp-img>
                           </a>
                         </div>
