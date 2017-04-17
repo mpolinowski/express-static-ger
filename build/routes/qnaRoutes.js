@@ -1,0 +1,1 @@
+var express=require("express"),qnaRouter=express.Router();qnaRouter.route("/").get(function(e,r){r.render("./QnA/QnA_Tiddler",{title:"Fragen & Antworten — Häufig gestellte Kundenanfragen und Support Antworten",ampimg:"/images/Search/P_SearchThumb_Products.jpg",headline:"Fragen & Antworten"})}),module.exports=qnaRouter;
