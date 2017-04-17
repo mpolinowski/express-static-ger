@@ -19,6 +19,7 @@ var cgi720pRouter = require('./build/routes/cgi720pRoutes');
 var cgi1080pRouter = require('./build/routes/cgi1080pRoutes');
 var webUI720pRouter = require('./build/routes/webUI720pRoutes');
 var webUI1080pRouter = require('./build/routes/webUI1080pRoutes');
+var qnaRouter = require('./build/routes/qnaRoutes');
 var indexPHPRouter = require('./build/routes/indexPHPRoutes');
 
 var app = express();
@@ -51,6 +52,7 @@ app.use('/720p_Series_CGI_List/', cgi720pRouter);
 app.use('/1080p_Series_CGI_List/', cgi1080pRouter);
 app.use('/Web_User_Interface/720p_Series/', webUI720pRouter);
 app.use('/Web_User_Interface/1080p_Series/', webUI1080pRouter);
+app.use('/Fragen_und_Antworten/', qnaRouter);
 app.use('/index.php/', indexPHPRouter);
 
 // Catch 404 and forward to error handler
