@@ -2840,6 +2840,10 @@ footer .footer-text {
   line-height: 150%;
 }
 
+.no-highlight tr:hover {
+  background-color: inherit;
+}
+
 .inlineHeader {
     display: inline;
     margin: 0

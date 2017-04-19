@@ -7,13 +7,16 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
+
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
         <div class="wrap mobile-down">
             <div class="content">
-
                 <section class="hero altIP">
                     <div class="container">
                         <div class="row">
@@ -32,15 +35,18 @@
             <!-- /Content -->
           </div>
           <!-- /Wrap -->
-        <div class="wrap">
-          <div class="container main">
 
-            <% include ../_partials/content/_bluenav-md.ejs %>
+          <div class="wrap">
+              <div class="container main">
 
-                <article class="blade get-started">
+                <% include ../_partials/content/_bluenav-general.ejs %>
+
+                    <article class="blade wrapper content">
+                        <!-- article -->
+
                     <div class="container">
                         <div class="row">
-                            <div class="twelve columns margin">
+                            <div class="twelve columns">
                                 <h1>SD Karte Zugriff</h1>
                                 <p>Die Kameras der HD Serie benutzen eine (austauschbare) SD Karte bzw. Micro SD Karte um Videos, Alarmaufnahmen und Fotoserien zu speichern die z.B. im Zeitraffer genutzt werden können. Sie können direkt auf die Aufnahmen der SD Karte zugreifen indem Sie über die Weboberfläche die SD Karte öffnen oder aber komfortabler wie hier beschrieben mit einem FTP Client. Zwar ist die WebUI die schnellste Art auf die Aufnahmen zuzugreifen, jedoch ermöglichen FTP Clients eine komfortablere Art mehrere Aufnahmen gleichzeitig zu kopieren bzw. herunterzuladen. Bitte bedenken Sie bei der Auswahl eines FTP Clients das dieser das hyper text transfer protocol (HTTP) unterstützt welches zum Zugriff auf die SD Karte benötigt wird. Bitte seien Sie sich bewusst das Sie mit einem entsprechenden Client nur Aufnahmen herunterladen können - <strong>es ist nicht möglich über den FTP Client auf den SD Speicher zu SCHREIBEN!</strong> Untenstehend finden Sie eine kleine Auswahl an FTP Clients mit denen Sie auf die SD Karte Ihrer INSTAR IP Kamera zugreifen können.</p>
                                 <p>Bei Innenkameras können Sie jederzeit problemlos die SD Karte aus der Kamera entfernen um diese so mit einem Kartenleser direkt am PC zu lesen und schreiben.</p>
@@ -149,11 +155,8 @@
                                 <div class="image">
                                     <amp-img class="shadow" noloading height=232 width=335 layout=responsive src="/images/WebUI-SD_01.png"></amp-img>
                                 </div>
-                                <div class="content">
-                                    <p>Die Kameras der HD Serie ermöglichen es Ihnen Videoaufnahmen oder Bilder direkt auf die interne SD Karte zu speichern. Um die Aufnahmen schnell einzusehen, klicken Sie auf <strong>SD Karte</strong> oben links in der Weboberfläche Ihrer Kamera.</p>
-                                </div>
                                 <div class="action">
-                                    Weboberfläche
+                                    <p>Die Kameras der HD Serie ermöglichen es Ihnen Videoaufnahmen oder Bilder direkt auf die interne SD Karte zu speichern. Um die Aufnahmen schnell einzusehen, klicken Sie auf <strong>SD Karte</strong> oben links in der Weboberfläche Ihrer Kamera.<br><br><br><br><br></p>
                                 </div>
                             </div>
                              <!-- /Twocard -->
@@ -161,11 +164,8 @@
                                 <div class="image">
                                     <amp-img noloading height=232 width=335 layout=responsive src="/images/WebUI-SD_02.png"></amp-img>
                                 </div>
-                                <div class="content">
-                                    <p>Das Verzeichnis der SD Karte wird in einem neuen Tab geöffnet. Melden Sie sich ggbf. mit dem Benutzernamen und dem Passwort Ihrer Kamera an um die Aufnahmen einzusehen. Sollte die SD Karte nicht angezeigt werden, so kann durch das konstante Beschreiben ggf. ein Fehler in der Verzeichnisstruktur entstanden sein. In diesem Fall formatieren Sie am besten einmal die SD Karte oder entfernen Sie diese kurzzeitig aus der Kamera.</p>
-                                </div>
                                 <div class="action">
-                                    SD Karten Index
+                                    <p>Das Verzeichnis der SD Karte wird in einem neuen Tab geöffnet. Melden Sie sich ggbf. mit dem Benutzernamen und dem Passwort Ihrer Kamera an um die Aufnahmen einzusehen. Sollte die SD Karte nicht angezeigt werden, so kann durch das konstante Beschreiben ggf. ein Fehler in der Verzeichnisstruktur entstanden sein. In diesem Fall formatieren Sie am besten einmal die SD Karte oder entfernen Sie diese kurzzeitig aus der Kamera.</p>
                                 </div>
                             </div>
                              <!-- /Twocard -->
@@ -177,11 +177,8 @@
                                 <div class="image">
                                     <amp-img noloading height=232 width=335 layout=responsive src="/images/WebUI-SD_03.png"></amp-img>
                                 </div>
-                                <div class="content">
-                                    <p>Ihre Kamera generiert ein neues Verzeichnis für jeden Tag und ein neues <strong>recordXXX</strong> Unterverzeichnis für jeweils 200 Alarmaufnahmen dieses Tages. Jeder Alarm erzeugt eine *.avi Datei, die mit dem Großbuchstaben A beginnt - geplante Aufnahmen starten mit dem Buchstaben P und so weiter - gefolgt von dem Zeitcode des auslösenden Ereignis.</p>
-                                </div>
                                 <div class="action">
-                                    File System
+                                    <p>Ihre Kamera generiert ein neues Verzeichnis für jeden Tag und ein neues <strong>recordXXX</strong> Unterverzeichnis für jeweils 200 Alarmaufnahmen dieses Tages. Jeder Alarm erzeugt eine *.avi Datei, die mit dem Großbuchstaben A beginnt - geplante Aufnahmen starten mit dem Buchstaben P und so weiter - gefolgt von dem Zeitcode des auslösenden Ereignis.<br><br><br></p>
                                 </div>
                             </div>
                              <!-- /Twocard -->
@@ -189,11 +186,8 @@
                                 <div class="image">
                                     <amp-img noloading height=232 width=335 layout=responsive src="/images/WebUI-SD_04.png"></amp-img>
                                 </div>
-                                <div class="content">
-                                    <p>Das Standardverhalten der meisten Browser ist es, das Video - das Sie anklicken - herunterzuladen. Browser, wie z.B. der Mozilla Firefox Browsers, unterstützen das VLC plugin um das Video direkt im Browser-Fenster wiederzugeben. Stellen Sie dafür bei der Installation des VLC Players sicher, das Sie das Firefox Plugin aktivieren und starten Sie den Browser nach der Installation neu. Das VLC Web Plugin sollte danach in der Addons Liste unter Plugins aufgeführt sein.</p>
-                                </div>
                                 <div class="action">
-                                    Video Player Plugin
+                                    <p>Das Standardverhalten der meisten Browser ist es, das Video - das Sie anklicken - herunterzuladen. Browser, wie z.B. der Mozilla Firefox Browsers, unterstützen das VLC plugin um das Video direkt im Browser-Fenster wiederzugeben. Stellen Sie dafür bei der Installation des VLC Players sicher, das Sie das Firefox Plugin aktivieren und starten Sie den Browser nach der Installation neu. Das VLC Web Plugin sollte danach in der Addons Liste unter Plugins aufgeführt sein.</p>
                                 </div>
                             </div>
                              <!-- /Twocard -->
@@ -232,7 +226,7 @@
         </div>
         <!-- /Wrap -->
 
-        <% include ../_partials/content/_bluenav-md-mobile.ejs %>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>
