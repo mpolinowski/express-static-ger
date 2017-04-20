@@ -119,7 +119,7 @@ advancedUserRouter.get('/CGI_Commands/', function(req, res) {
         title: 'CGI Commands',
         ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration.jpg',
         headline: 'CGI Commands',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Advanced_User/">Advanced User</a></li><li class="breadcrumb-item"><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li>',
 		pacc: '',
 		ptab: 'hidden',
 		qiacc: '',
