@@ -57,14 +57,14 @@
                         <p class="justify">
                           In der traditionellen CCTV-Anwendung erfassen die Sicherheitskameras ein analoges Videosignal und übertragen es über Koaxialkabel an den digitalen Video Rekorder (DVR). Die Kamera wird entweder durch eine direkte Verbindung mit einer Stromquelle oder mittels einem RG59 Siamese Kabel, welches Video- und Stromkabel verbindet, betrieben. Der DVR konvertiert das analoge Signal in ein digitales, komprimiert und speichert es für spätere Zugriffe auf einer Festplatte. Der DVR bietet Funktionen wie die Planung von Aufnahmen, Bewegungserkennung und digitalen Zoom. Bildschirme zum Betrachten des Bildes sind ebenfalls daran angeschlossen oder können so eingerichtet werden, dass sie die Bilder über ein internes Netz an PCs senden. Der DVR kann außerdem das Internet für Übertragungen nutzen und auf Features wie zum Beispiel Passwortschutz zurückgreifen. Bei Übertragungen via Internet werden die Aufnahmen aller Kameras in einem Stream weitergeleitet (= eine IP Adresse). Daher ist diese Methode besonders effizient.
                         </p>
-                        <div>
-                            <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/01_diagram_analog_system.png" width="600" height="400" layout="responsive" class="shadow"></amp-img>
-                        </div>
-                        <amp-lightbox id="lightbox1" layout="nodisplay">
-                            <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
-                                <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/01_diagram_analog_system.png" width="600" height="400" layout="responsive" class="shadow"></amp-img>
-                            </div>
-                        </amp-lightbox>
+                    <div>
+                        <amp-img
+                            on="tap:01_diagram_analog_system"
+                            role="button"
+                            tabindex="0"
+                            src="/images/Advanced_User/01_diagram_analog_system.png" width="600" height="400" layout="responsive" class="shadow">
+                        </amp-img>
+                      </div>
                     </div>
                     <!-- /margin -->
 
@@ -85,13 +85,13 @@
                           Ein Netzwerk-Videorekorder (NVR) übernimmt die Funktionen seines DVR-Verwandten in der analogen Welt. Er empfängt das Signal der Kamera, komprimiert es und nimmt es auf. Der Hauptunterschied liegt darin, dass der Videofeed digital (und in viel höherer Auflösung) und nicht analog ist. Die im NVR verbaute Software verfügt über Features wie intelligente Suche &amp; Zoom, etc. . Ein NVR fügt die Videostreams der Kameras zusammen und wickelt die Übertragung über LAN und Internet für lokalen und entfernten Zugriff ab.
                         </p>
                         <div>
-                            <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/02_diagram_ip_system_new.png" width="600" height="400" layout="responsive" class="shadow"></amp-img>
+                          <amp-img
+                              on="tap:02_diagram_ip_system_new"
+                              role="button"
+                              tabindex="0"
+                              src="/images/Advanced_User/02_diagram_ip_system_new.png" width="600" height="400" layout="responsive" class="shadow">
+                          </amp-img>
                         </div>
-                        <amp-lightbox id="lightbox2" layout="nodisplay">
-                            <div class="lightbox" on="tap:lightbox2.close" tabindex="0" class="centered">
-                                <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/02_diagram_ip_system_new.png" width="600" height="400" layout="responsive" class="shadow"></amp-img>
-                            </div>
-                        </amp-lightbox>
                     </div>
                     <!-- /margin -->
 
@@ -150,13 +150,13 @@
                         <h3>IP / kabelloses Sicherheitskamerasystem</h3>
                         <br>
                         <div>
-                            <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/03_diagram_ip_system_wireless.png" width="600" height="400" layout="responsive" class="shadow"></amp-img>
+                          <amp-img
+                              on="tap:03_diagram_ip_system_wireless"
+                              role="button"
+                              tabindex="0"
+                              src="/images/Advanced_User/03_diagram_ip_system_wireless.png" width="600" height="400" layout="responsive" class="shadow">
+                          </amp-img>
                         </div>
-                        <amp-lightbox id="lightbox3" layout="nodisplay">
-                            <div class="lightbox" on="tap:lightbox3.close" tabindex="0" class="centered">
-                                <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/03_diagram_ip_system_wireless.png" width="600" height="400" layout="responsive" class="shadow"></amp-img>
-                            </div>
-                        </amp-lightbox>
                         <p class="justify">
                           Analoge kabellose Systeme funktionieren nicht gut. Das liegt daran, dass die Regierung reguliert bei welcher Frequenz analoge kabellose Geräte funktionieren und wie stark das Signal sein kann. Interferenzen von andern kabellosen Geräten wie Handys können das Kameravideo stören. Interferenzen sind besonders problematisch in Gebäuden mit fluoreszierendem Licht.
                         </p>
@@ -168,6 +168,13 @@
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="01_diagram_analog_system" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="02_diagram_ip_system_new" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="03_diagram_ip_system_wireless" layout="nodisplay"></amp-image-lightbox>
+                
             </div>
             <!-- /container -->
         </div>
