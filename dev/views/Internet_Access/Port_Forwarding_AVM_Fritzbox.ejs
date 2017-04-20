@@ -7,8 +7,12 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
+
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
         <div class="wrap mobile-down">
@@ -35,12 +39,14 @@
 
         <div class="wrap">
             <div class="container main">
-                <% include ../_partials/content/_bluenav-ia.ejs %>
 
-                <article>
-                    <!-- article -->
+              <% include ../_partials/content/_bluenav-general.ejs %>
 
-                    <div class="margin">
+                  <article class="blade wrapper content">
+                      <!-- article -->
+
+                    <div>
+                        <h1>Portweiterleitung :: AVM Fritzbox</h1>
                         <h3>Allgemeine Empfehlung</h3>
                         <p>Das Live Video von VGA Kameras kann nur über den HTTP Port (Standard 80) abgegriffen werden. Dieser Port wird auch für den Zugriff auf die Weboberfläche verwendet (WebUI). Sofern Sie eine INSTAR HD Kamera verwenden, gibt es auch die Möglichkeit den RTSP Port für die Übertragung des Videos zu nutzen. Dieser ist 554 in den Werkseinstellungen. Möchte man das Video per RTSP abgreifen, so muss man den RTSP Port weiterleiten und "zusätzlich" auch den HTTP Port. Bei den HD Kameras wären daher zwei Portweiterleitungen nötig. Man kann aber auch problemlos "nur" den HTTP Port verwenden.</p>
                     </div>
@@ -265,7 +271,7 @@
         </div>
         <!-- /wrap-->
 
-        <% include ../_partials/content/_bluenav-ia-mobile.ejs %>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

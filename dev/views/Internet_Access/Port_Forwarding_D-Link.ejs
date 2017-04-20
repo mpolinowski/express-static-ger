@@ -7,8 +7,12 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
+
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
         <div class="wrap mobile-down">
@@ -36,12 +40,14 @@
 
         <div class="wrap">
             <div class="container main">
-                <% include ../_partials/content/_bluenav-ia.ejs %>
 
-                <article>
-                    <!-- article -->
+              <% include ../_partials/content/_bluenav-general.ejs %>
 
-                    <div class="margin">
+                  <article class="blade wrapper content">
+                      <!-- article -->
+
+                    <div>
+                        <h1>Portweiterleitung :: D-Link Router</h1>
                         <h3>Schritt 1</h3>
                         <p>Um die Weboberfläche Ihres Routers zu erreichen, geben Sie bitte in der Adressleiste Ihres Browsers folgendes ein: <a href="http://192.168.0.1">192.168.0.1</a>. Der Standard-Login ist Benutzername = admin und kein Passwort. Navigieren Sie zu <em>Portweiterleitung</em> im <em>Erweitert</em> Menü (siehe unten).</p>
                     </div>
@@ -129,7 +135,7 @@
         </div>
         <!-- /wrap-->
 
-        <% include ../_partials/content/_bluenav-ia-mobile.ejs %>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>
