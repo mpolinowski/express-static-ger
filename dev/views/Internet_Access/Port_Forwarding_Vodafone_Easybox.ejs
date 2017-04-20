@@ -7,8 +7,12 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
+
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
         <div class="wrap mobile-down">
@@ -36,26 +40,26 @@
 
         <div class="wrap">
             <div class="container main">
-                <% include ../_partials/content/_bluenav-ia.ejs %>
 
-                <article>
-                    <!-- article -->
+              <% include ../_partials/content/_bluenav-general.ejs %>
 
-                    <div class="margin">
+                  <article class="blade wrapper content">
+                      <!-- article -->
+
+                    <div>
+                        <h1>Portweiterleitung in einer Vodafone Easybox</h1>
                         <h3>Schritt 1</h3>
                         <p>Sie können auf die Weboberfläche des Netgear Routers zugreifen indem Sie folgende Adresse in die Adresszeile Ihres Browsers eingeben: http://192.168.2.1 . Der Standard Login des Routers ist Benutzername = root und Kennwort = 123456. Gehen Sie unter dem Reiter Daten auf Port Mapping und klicken Sie hier auf das Einstellen Symbol (s. Screenshot unten).</p>
                     </div>
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Easybox_01en.jpg" width="680" height="257" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox1" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Easybox_01en.jpg" width="680" height="257" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Easybox_01en"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Easybox_01en.jpg" width="680" height="257" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -71,14 +75,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/Easybox_02en.jpg" width="680" height="280" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox2" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox2.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/Easybox_02en.jpg" width="680" height="280" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Easybox_02en"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Easybox_02en.jpg" width="680" height="280" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -94,14 +96,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/Easybox_03en.jpg" width="680" height="275" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox3" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox3.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/Easybox_03en.jpg" width="680" height="275" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Easybox_03en"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Easybox_03en.jpg" width="680" height="275" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -117,14 +117,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox4" role="button" tabindex="0" src="/images/Speedport_02en.jpg" width="480" height="169" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox4" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox4.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox4.close" role="button" tabindex="0" src="/images/Speedport_02en.jpg" width="480" height="169" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Speedport_02en"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Speedport_02en.jpg" width="480" height="169" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -147,12 +145,20 @@
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="Easybox_01en" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Easybox_02en" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Easybox_03en" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Speedport_02en" layout="nodisplay"></amp-image-lightbox>
+
             </div>
             <!-- /container main -->
         </div>
         <!-- /wrap-->
 
-        <% include ../_partials/content/_bluenav-ia-mobile.ejs %>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

@@ -7,8 +7,12 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
+
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
         <div class="wrap mobile-down">
@@ -35,12 +39,13 @@
 
         <div class="wrap">
             <div class="container main">
-                <% include ../_partials/content/_bluenav-ia.ejs %>
 
-                <article>
-                    <!-- article -->
+              <% include ../_partials/content/_bluenav-general.ejs %>
 
-                    <div class="margin">
+                  <article class="blade wrapper content">
+                      <!-- article -->
+
+                    <div>
                         <h4 class="post-title">Drei einfache Schritte für den externen Zugriff auf Ihre INSTAR IP Kamera über das Internet</h4>
                     </div>
                     <!-- /margin -->
@@ -52,14 +57,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Port_Forwarding_EN_01.jpg" width="620" height="206" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox1" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox1.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Port_Forwarding_EN_01.jpg" width="620" height="206" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Port_Forwarding_EN_01"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Port_Forwarding_EN_01.jpg" width="620" height="206" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -116,14 +119,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/Port_Forwarding_EN_02.jpg" width="620" height="329" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox2" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox2.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/Port_Forwarding_EN_02.jpg" width="620" height="329" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Port_Forwarding_EN_02"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Port_Forwarding_EN_02.jpg" width="620" height="329" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -134,14 +135,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/Nslookup_01.png" width="620" height="313" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox3" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox3.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/Nslookup_01.png" width="620" height="313" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Nslookup_01"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Nslookup_01.png" width="620" height="313" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -151,14 +150,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox4" role="button" tabindex="0" src="/images/Nslookup_02.png" width="620" height="313" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox4" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox4.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox4.close" role="button" tabindex="0" src="/images/Nslookup_02.png" width="620" height="313" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Nslookup_02"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Nslookup_02.png" width="620" height="313" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -168,14 +165,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox5" role="button" tabindex="0" src="/images/Nslookup_03.png" width="620" height="313" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox5" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox5.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox5.close" role="button" tabindex="0" src="/images/Nslookup_03.png" width="620" height="313" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Nslookup_03"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Nslookup_03.png" width="620" height="313" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -268,38 +263,21 @@
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="Port_Forwarding_EN_01" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Port_Forwarding_EN_02" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Nslookup_01" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Nslookup_02" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Nslookup_03" layout="nodisplay"></amp-image-lightbox>
+
             </div>
             <!-- /container main -->
         </div>
         <!-- /wrap-->
 
-        <section class="blade blog mobile-down">
-
-            <div class="container wider">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1>Verwandte Themen:</h1>
-                    </div>
-                </div>
-
-                <div class="tab-container">
-
-                    <a class="tab" href="/Internet_Access/DDNS_Provider">
-                        <h3>Allgemeine Infos zu DDNS Providern</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                    <a class="tab" href="/Internet_Access/Port_Forwarding">
-                        <h3>Allgemeine Infos zur Portweiterleitung</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                </div>
-
-                <a href="/Quick_Installation/" target="_blank">Mehr ansehen</a>
-
-            </div>
-        </section>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

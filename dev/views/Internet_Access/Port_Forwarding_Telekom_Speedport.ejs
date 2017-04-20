@@ -7,8 +7,12 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
+
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
         <div class="wrap mobile-down">
@@ -36,26 +40,26 @@
 
         <div class="wrap">
             <div class="container main">
-                <% include ../_partials/content/_bluenav-ia.ejs %>
 
-                <article>
-                    <!-- article -->
+              <% include ../_partials/content/_bluenav-general.ejs %>
 
-                    <div class="margin">
+                  <article class="blade wrapper content">
+                      <!-- article -->
+
+                    <div>
+                        <h1>Portweiterleitung in einem Telekom Speedport</h1>
                         <h3>Telekom Speedport (300er, 500er und 700er Serie)</h3>
                         <p>Gehen Sie im Speedport (http://192.168.2.1) auf Netzwerk und dann auf NAT & Portregeln. Wenn Sie jetzt einen W500V Speedport haben, dann stellen Sie sicher, dass Sie ein Neues Gerät hinzufügen unter den NAT & Portregeln. Hierfür ist es nötig, dass Sie die MAC Adresse Ihrer IP Kamera kennen. Diese können Sie überprüfen, indem Sie in Windows auf "Start" gehen, dann auf "Programme" - "Zubehör" und dort auf "Eingabeaufforderung". Es öffnet sich jetzt ein kleiner Dos Modus. Hier geben Sie bitte ein "arp -a". Danach bekommen Sie die IP Adressen zusammen mit der MAC Adresse aufgelistet. Suchen Sie die IP Ihrer Kamera und schreiben Sie sich die entsprechende MAC Adresse ab. Gehen Sie jetzt zurück in den Speedport und fügen Sie das Gerät hinzu. Bei allen anderen Speedport Routern benötigen Sie diesen Schritt normalerweise nicht.</p>
                     </div>
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Speedport1.jpg" width="797" height="556" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox1" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Speedport1.jpg" width="797" height="556" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Speedport1"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Speedport1.jpg" width="797" height="556" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -81,14 +85,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/Speedport_01en.jpg" width="480" height="335" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox2" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox2.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/Speedport_01en.jpg" width="480" height="335" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Speedport_01en"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Speedport_01en.jpg" width="480" height="335" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -99,14 +101,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/Speedport_02en.jpg" width="480" height="169" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox3" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox3.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/Speedport_02en.jpg" width="480" height="169" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Speedport_02en"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Speedport_02en.jpg" width="480" height="169" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -129,16 +129,20 @@
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="Speedport1" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Speedport_01en" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Speedport_02en" layout="nodisplay"></amp-image-lightbox>
+
             </div>
             <!-- /container main -->
         </div>
 
         <!-- /wrap-->
 
-        <!-- /wrap -->
-
-
-        <% include ../_partials/content/_bluenav-ia-mobile.ejs %>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

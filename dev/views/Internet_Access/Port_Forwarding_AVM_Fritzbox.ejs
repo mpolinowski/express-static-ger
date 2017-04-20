@@ -7,8 +7,12 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
+
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
         <div class="wrap mobile-down">
@@ -35,12 +39,14 @@
 
         <div class="wrap">
             <div class="container main">
-                <% include ../_partials/content/_bluenav-ia.ejs %>
 
-                <article>
-                    <!-- article -->
+              <% include ../_partials/content/_bluenav-general.ejs %>
 
-                    <div class="margin">
+                  <article class="blade wrapper content">
+                      <!-- article -->
+
+                    <div>
+                        <h1>Portweiterleitung :: AVM Fritzbox</h1>
                         <h3>Allgemeine Empfehlung</h3>
                         <p>Das Live Video von VGA Kameras kann nur über den HTTP Port (Standard 80) abgegriffen werden. Dieser Port wird auch für den Zugriff auf die Weboberfläche verwendet (WebUI). Sofern Sie eine INSTAR HD Kamera verwenden, gibt es auch die Möglichkeit den RTSP Port für die Übertragung des Videos zu nutzen. Dieser ist 554 in den Werkseinstellungen. Möchte man das Video per RTSP abgreifen, so muss man den RTSP Port weiterleiten und "zusätzlich" auch den HTTP Port. Bei den HD Kameras wären daher zwei Portweiterleitungen nötig. Man kann aber auch problemlos "nur" den HTTP Port verwenden.</p>
                     </div>
@@ -54,14 +60,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Portforwarding-Fritzbox-7490de_00.png" width="482" height="599" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox1" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Portforwarding-Fritzbox-7490de_00.png" width="482" height="599" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Portforwarding-Fritzbox-7490de_01"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Portforwarding-Fritzbox-7490de_00.png" width="482" height="599" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -71,14 +75,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/Portforwarding-Fritzbox-7490de_01.png" width="1000" height="617" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox2" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox2.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/Portforwarding-Fritzbox-7490de_01.png" width="1000" height="617" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Portforwarding-Fritzbox-7490de_02"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Portforwarding-Fritzbox-7490de_01.png" width="1000" height="617" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -89,14 +91,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/Portforwarding-Fritzbox-7490de_02.png" width="993" height="526" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox3" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox3.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/Portforwarding-Fritzbox-7490de_02.png" width="993" height="526" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Portforwarding-Fritzbox-7490de_03"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Portforwarding-Fritzbox-7490de_02.png" width="993" height="526" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -106,14 +106,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox4" role="button" tabindex="0" src="/images/Portforwarding-Fritzbox-7490de_03.png" width="994" height="420" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox4" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox4.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox4.close" role="button" tabindex="0" src="/images/Portforwarding-Fritzbox-7490de_03.png" width="994" height="420" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Portforwarding-Fritzbox-7490de_04"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Portforwarding-Fritzbox-7490de_03.png" width="994" height="420" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -132,14 +130,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox5" role="button" tabindex="0" src="/images/Portforwarding-Fritzbox-7490de_04.png" width="992" height="448" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox5" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox5.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox5.close" role="button" tabindex="0" src="/images/Portforwarding-Fritzbox-7490de_04.png" width="992" height="448" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Portforwarding-Fritzbox-7490de_05"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Portforwarding-Fritzbox-7490de_04.png" width="992" height="448" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -149,14 +145,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox6" role="button" tabindex="0" src="/images/Portforwarding-Fritzbox-7490de_05.png" width="990" height="559" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox6" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox6.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox6.close" role="button" tabindex="0" src="/images/Portforwarding-Fritzbox-7490de_05.png" width="990" height="559" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Portforwarding-Fritzbox-7490de_06"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Portforwarding-Fritzbox-7490de_05.png" width="990" height="559" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -191,14 +185,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox7" role="button" tabindex="0" src="/images/PC-Fritzbox-7490de_01.png" width="1000" height="617" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox7" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox7.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox7.close" role="button" tabindex="0" src="/images/PC-Fritzbox-7490de_01.png" width="1000" height="617" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Portforwarding-Fritzbox-7490de_07"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/PC-Fritzbox-7490de_01.png" width="1000" height="617" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -208,14 +200,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox8" role="button" tabindex="0" src="/images/PC-Fritzbox-7490de_02.png" width="993" height="526" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox8" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox8.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox8.close" role="button" tabindex="0" src="/images/PC-Fritzbox-7490de_02.png" width="993" height="526" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Portforwarding-Fritzbox-7490de_08"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/PC-Fritzbox-7490de_02.png" width="993" height="526" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -225,14 +215,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox9" role="button" tabindex="0" src="/images/PC-Fritzbox-7490de_03.png" width="994" height="420" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox9" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox9.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox9.close" role="button" tabindex="0" src="/images/PC-Fritzbox-7490de_03.png" width="994" height="420" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Portforwarding-Fritzbox-7490de_09"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/PC-Fritzbox-7490de_03.png" width="994" height="420" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -260,12 +248,25 @@
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="Portforwarding-Fritzbox-7490de_01" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Portforwarding-Fritzbox-7490de_02" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Portforwarding-Fritzbox-7490de_03" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Portforwarding-Fritzbox-7490de_04" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Portforwarding-Fritzbox-7490de_05" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Portforwarding-Fritzbox-7490de_06" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Portforwarding-Fritzbox-7490de_07" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Portforwarding-Fritzbox-7490de_08" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Portforwarding-Fritzbox-7490de_09" layout="nodisplay"></amp-image-lightbox>
+
             </div>
             <!-- /container main -->
         </div>
         <!-- /wrap-->
 
-        <% include ../_partials/content/_bluenav-ia-mobile.ejs %>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

@@ -40,6 +40,10 @@
 
                     <% include ../_partials/content/_bluenav-general.ejs %>
 
+                      <!-- ########################### Mobile Down ###################################### -->
+
+                      <section class="content blade wrapper">
+
                     <div class="container">
                         <div class="row">
                             <div class="twelve columns margin">
@@ -58,12 +62,35 @@
                         <div class="card-container margin">
                             <div class="onecard">
                                 <div class="image">
-                                    <amp-img class="shadow" noloading height=375 width=622 layout=responsive src="/images/INSTAR_Camera_Tool-SD_Card.png"></amp-img>
+                                    <amp-img
+                                        on="tap:INSTAR_Camera_Tool-SD_Card"
+                                        role="button"
+                                        tabindex="0"
+                                        src="/images/Quick_Installation/INSTAR_Camera_Tool-SD_Card.png" width=622 height=375 layout="responsive" class="shadow">
+                                    </amp-img>
                                 </div>
                             </div>
                            <!-- /card -->
                         </div>
                          <!-- /Card-Container -->
+
+                               <div class="margin">
+                                 <div class="twelve columns">
+                                     <h3>SD Karten Zugriff</h3>
+                                 </div>
+                               </div>
+
+                               <div class="card-container margin">
+                                 <div class="onecard twelve columns">
+                                   <amp-youtube data-videoid="PESNN3KxKNU" layout="responsive" width="480" height="270" class="shadow"></amp-youtube>
+                                 </div>
+                               </div>
+
+                               <div class="card-container margin">
+                                 <div class="onecard twelve columns">
+                                   <amp-youtube data-videoid="CG0h7wD0spM" layout="responsive" width="480" height="270" class="shadow"></amp-youtube>
+                                 </div>
+                               </div>
 
                          <div class="margin">
                            <h2>Alternative IP-Scanner</h2>
@@ -75,7 +102,7 @@
                         <div class="card-container margin">
                             <div class="twocard">
                                 <div class="image">
-                                    <amp-img class="shadow" noloading height=190 width=297 layout=responsive src="/images/angryIP.jpg"></amp-img>
+                                    <amp-img class="shadow" noloading height=190 width=297 layout=responsive src="/images/Quick_Installation/angryIP.jpg"></amp-img>
                                     <span class="title">Angry IP Scanner</span>
                                 </div>
                                 <div class="content">
@@ -87,7 +114,7 @@
                             </div>
                             <div class="twocard">
                                 <div class="image">
-                                    <amp-img class="shadow" noloading height=190 width=297 layout=responsive src="/images/fingCLI.jpg"></amp-img>
+                                    <amp-img class="shadow" noloading height=190 width=297 layout=responsive src="/images/Quick_Installation/fingCLI.jpg"></amp-img>
                                     <span class="title">Fing CLI</span>
                                 </div>
                                 <div class="content">
@@ -102,7 +129,7 @@
                         <div class="card-container">
                             <div class="twocard">
                                 <div class="image">
-                                    <amp-img class="shadow" noloading height=190 width=297 layout=responsive src="/images/fingAndroid.jpg"></amp-img>
+                                    <amp-img class="shadow" noloading height=190 width=297 layout=responsive src="/images/Quick_Installation/fingAndroid.jpg"></amp-img>
                                     <span class="title">Fing Mobile</span>
                                 </div>
                                 <div class="content">
@@ -118,6 +145,11 @@
 
                     </div>
                 </section>
+
+                      <!-- ###################### Lightboxes ######################## -->
+
+                      <amp-image-lightbox id="INSTAR_Camera_Tool-SD_Card" layout="nodisplay"></amp-image-lightbox>
+
             </div>
           </div>
 

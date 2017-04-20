@@ -7,12 +7,16 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
+
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
         <div class="wrap mobile-down">
-            <div class="content">
+            <div class="action">
                 <section class="hero internetAccess">
                     <div class="container">
                         <div class="row">
@@ -36,10 +40,12 @@
         <div class="wrap">
             <div class="container main">
 
-                <article>
-                    <!-- article -->
+              <% include ../_partials/content/_bluenav-general.ejs %>
 
-                    <div class="margin">
+                  <article class="blade wrapper content">
+                      <!-- article -->
+
+                    <div>
                         <h3>Verbinden Sie sich mit Ihrer Kamera über das Internet</h3>
                         <p>Software-Ports sind nummeriert Verbindungen, die ein Computer verwendet, um Arten von Netzwerkverkehr zu sortieren. Ein paar Dienste, wie z.B. FTP auf Port 21 und HTTP auf Port 80, sind bereits fest mit entsprechenden Ports verankert. Viele Betriebssysteme nutzen für die jeweiligen Dienste automatisch die entsprechenden Ports. Wenn ein Port geöffnet wird im Router, wird diesem ein Service zugewiesen wie z.B. die Weboberfläche der IP Kamera. Zur Sicherheit sind Standardmäßig alle Ports im Router aus dem Internet geschlossen damit so niemand über das Internet zugreifen kann. <strong>Weshalb Sie nicht ohne Portweiterleitung auf Ihre Kamera per (DDNS) Adresse zugreifen können</strong>.
 						            </p>
@@ -58,14 +64,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Portforwarding_01.png" width="676" height="167" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox1" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Portforwarding_01.png" width="676" height="167" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Portforwarding_01"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Portforwarding_01.png" width="676" height="167" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -81,14 +85,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/Portforwarding_02.png" width="676" height="163" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox2" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox2.close" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/Portforwarding_02.png" width="676" height="163" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Portforwarding_02"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/Portforwarding_02.png" width="676" height="163" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -113,6 +115,98 @@
                     </div>
                     <!-- /margin -->
 
+                    <div class="margin">
+                        <h1>Portweiterleitung</h1>
+                        <p>
+                          Die Schritte zur Portweiterleitung sind bei jedem Router fast die gleichen. Im folgenden zeigen wir Beispiele von häufig verwendeten Router-Herstellern.
+                        </p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="card-container margin">
+                        <div class="twocard">
+                            <div class="image">
+                                <a href="/Internet_Access/Port_Forwarding/AVM_Fritzbox/">
+                                  <amp-img noloading height=150 width=200 layout=responsive src="/images/Internet_Access/Forwarding_AVM_Fritzbox.jpg"></amp-img>
+                                </a>
+                            </div>
+                            <div class="action">
+                                <h4>AVM Fritzbox</h4>
+                            </div>
+                        </div>
+                        <div class="twocard">
+                            <div class="image">
+                                <a href="/Internet_Access/Port_Forwarding/Telekom_Speedport/">
+                                  <amp-img noloading height=150 width=200 layout=responsive src="/images/Internet_Access/Forwarding_Telekom_Speedport.jpg"></amp-img>
+                                </a>
+                            </div>
+                            <div class="action">
+                                <h4>Telekom Speedport</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container margin">
+                        <div class="twocard">
+                            <div class="image">
+                                <a href="/Internet_Access/Port_Forwarding/D-Link/">
+                                  <amp-img noloading height=150 width=200 layout=responsive src="/images/Internet_Access/Forwarding_D-Link.jpg"></amp-img>
+                                </a>
+                            </div>
+                            <div class="action">
+                                <h4>D-Link</h4>
+                            </div>
+                        </div>
+                        <div class="twocard">
+                            <div class="image">
+                                <a href="/Internet_Access/Port_Forwarding/Netgear/">
+                                  <amp-img noloading height=150 width=200 layout=responsive src="/images/Internet_Access/Forwarding_Netgear.jpg"></amp-img>
+                                </a>
+                            </div>
+                            <div class="action">
+                                <h4>Netgear</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="twocard">
+                            <div class="image">
+                                <a href="/Internet_Access/Port_Forwarding/Vodafone_Easybox/">
+                                  <amp-img noloading height=150 width=200 layout=responsive src="/images/Internet_Access/Forwarding_Vodafone_Easybox.jpg"></amp-img>
+                                </a>
+                            </div>
+                            <div class="action">
+                                <h4>Vodafone Easybox</h4>
+                            </div>
+                        </div>
+                        <div class="twocard">
+                            <div class="image">
+                                <a href="/Internet_Access/Port_Forwarding/TP-Link/">
+                                  <amp-img noloading height=150 width=200 layout=responsive src="/images/Internet_Access/Forwarding_TP-Link.png"></amp-img>
+                                </a>
+                            </div>
+                            <div class="action">
+                                <h4>TP-Link</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="twocard">
+                            <div class="image">
+                                <a href="/Internet_Access/Port_Forwarding/Pirelli/">
+                                  <amp-img noloading height=150 width=200 layout=responsive src="/images/Internet_Access/Forwarding_Pirelli.jpg"></amp-img>
+                                </a>
+                            </div>
+                            <div class="action">
+                                <h4>Pirelli Router (A1 Austria)</h4>
+                            </div>
+                        </div>
+                        <div class="twocard invisible">
+                        </div>
+                    </div>
+
                 </article>
                 <!-- /article -->
             </div>
@@ -120,178 +214,7 @@
         </div>
         <!-- /wrap-->
 
-        <section class="blade get-started">
-            <div class="container">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1>Portweiterleitung</h1>
-                        <p>
-                          Die Schritte zur Portweiterleitung sind bei jedem Router fast die gleichen. Im folgenden zeigen wir Beispiele von häufig verwendeten Router-Herstellern.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card-container">
-                    <div class="card">
-                        <div class="image">
-                            <a href="/Internet_Access/Port_Forwarding/AVM_Fritzbox/">
-                              <amp-img noloading height=150 width=200 layout=responsive src="/images/Forwarding_AVM_Fritzbox.jpg"></amp-img>
-                            </a>
-                        </div>
-                        <div class="content">
-                            <h4>AVM Fritzbox</h4>
-                        </div>
-                        <div class="action">
-                            <a href="/Internet_Access/Port_Forwarding/AVM_Fritzbox/">Lesen Sie Mehr</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="image">
-                            <a href="/Internet_Access/Port_Forwarding/Telekom_Speedport/">
-                              <amp-img noloading height=150 width=200 layout=responsive src="/images/Forwarding_Telekom_Speedport.jpg"></amp-img>
-                            </a>
-                        </div>
-                        <div class="content">
-                            <h4>Telekom Speedport</h4>
-                        </div>
-                        <div class="action">
-                            <a href="/Internet_Access/Port_Forwarding/Telekom_Speedport/">Lesen Sie Mehr</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="image">
-                            <a href="/Internet_Access/Port_Forwarding/D-Link/">
-                              <amp-img noloading height=150 width=200 layout=responsive src="/images/Forwarding_D-Link.jpg"></amp-img>
-                            </a>
-                        </div>
-                        <div class="content">
-                            <h4>D-Link</h4>
-                        </div>
-                        <div class="action">
-                            <a href="/Internet_Access/Port_Forwarding/D-Link/">Lesen Sie Mehr</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card-container">
-                    <div class="card">
-                        <div class="image">
-                            <a href="/Internet_Access/Port_Forwarding/Netgear/">
-                              <amp-img noloading height=150 width=200 layout=responsive src="/images/Forwarding_Netgear.jpg"></amp-img>
-                            </a>
-                        </div>
-                        <div class="content">
-                            <h4>Netgear</h4>
-                        </div>
-                        <div class="action">
-                            <a href="/Internet_Access/Port_Forwarding/Netgear/">Lesen Sie Mehr</a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="image">
-                            <a href="/Internet_Access/Port_Forwarding/Vodafone_Easybox/">
-                              <amp-img noloading height=150 width=200 layout=responsive src="/images/Forwarding_Vodafone_Easybox.jpg"></amp-img>
-                            </a>
-                        </div>
-                        <div class="content">
-                            <h4>Vodafone Easybox</h4>
-                        </div>
-                        <div class="action">
-                            <a href="/Internet_Access/Port_Forwarding/Vodafone_Easybox/">Lesen Sie Mehr</a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="image">
-                            <a href="/Internet_Access/Port_Forwarding/Pirelli/">
-                              <amp-img noloading height=150 width=200 layout=responsive src="/images/Forwarding_Pirelli.jpg"></amp-img>
-                            </a>
-                        </div>
-                        <div class="content">
-                            <h4>Pirelli Router (A1 Austria)</h4>
-                        </div>
-                        <div class="action">
-                            <a href="/Internet_Access/Port_Forwarding/Pirelli/">Lesen Sie Mehr</a>
-                        </div>
-                    </div>
-            </div>
-
-              <div class="card-container">
-
-                  <div class="card">
-                      <div class="image">
-                          <a href="/Internet_Access/Port_Forwarding/TP-Link/">
-                            <amp-img noloading height=150 width=200 layout=responsive src="/images/Forwarding_TP-Link.png"></amp-img>
-                          </a>
-                      </div>
-                      <div class="content">
-                          <h4>TP-Link</h4>
-                      </div>
-                      <div class="action">
-                          <a href="/Internet_Access/Port_Forwarding/TP-Link/">Lesen Sie Mehr</a>
-                      </div>
-                  </div>
-
-                  <div class="card invisible">
-                  </div>
-
-                  <div class="card ivisible">
-                  </div>
-
-              </div>
-
-            </div>
-        </section>  <!-- /Cards -->
-
-        <section class="blade blog mobile-down">
-
-            <div class="container wider">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1>Verwandte Themen:</h1>
-                    </div>
-                </div>
-
-                <div class="tab-container">
-
-                    <a class="tab" href="/Internet_Access/Port_Forwarding_AVM_Fritzbox">
-                        <h3>Portweiterleitung in einer Fritzbox einrichten</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                    <a class="tab" href="/Internet_Access/Port_Forwarding_D-Link">
-                        <h3>Portweiterleitung in einem D-Link einrichten</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                    <a class="tab" href="/Internet_Access/Port_Forwarding_Netgear">
-                        <h3>Portweiterleitung in einem Netgear einrichten</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                    <a class="tab" href="/Internet_Access/Port_Forwarding_Pirelli">
-                        <h3>Portweiterleitung in einem Pirelli einrichten</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                    <a class="tab" href="/Internet_Access/Port_Forwarding_Telekom_Speedport">
-                        <h3>Portweiterleitung in einem Telekom Speedport einrichten</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                    <a class="tab" href="/Internet_Access/Port_Forwarding_Vodafone_Easybox">
-
-                        <h3>Portweiterleitung in einer Vodafone Easybox einrichten</h3>
-                        <div class="subtitle">Mittel</div>
-                    </a>
-
-                </div>
-
-                <a href="/Quick_Installation/" target="_blank">Mehr ansehen</a>
-
-            </div>
-        </section>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

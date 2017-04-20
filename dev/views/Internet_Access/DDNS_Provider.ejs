@@ -7,8 +7,12 @@
 
     <body class="home">
 
-      <header class="fixed">
-          <% include ../_partials/amp/_amp-header.ejs %>
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
+
+      <header class="header fixed">
+        <% include ../_partials/amp/_amp-header.ejs %>
       </header>
 
         <div class="wrap mobile-down">
@@ -35,26 +39,25 @@
 
         <div class="wrap">
             <div class="container main">
-                <% include ../_partials/content/_bluenav-ia.ejs %>
 
-                <article>
-                    <!-- article -->
+              <% include ../_partials/content/_bluenav-general.ejs %>
 
-                    <div class="margin">
+                  <article class="blade wrapper content">
+                      <!-- article -->
+
+                    <div>
                         <h3>Worum geht es bei DDNS ?</h3>
                         <p>Warum halten wir die wirklichen Adressen unserer Webseiten hinter Domain-Namen? Erstens, die IP-Adressen sind für das menschliche Gehirn eher schwer zu merken. Und zweitens, die IP-Adresse einer Webseite wird sich nach einer Zeit ändern. Dieser Punkt ist ein kleineres Problem für Google, welche für die IP-Adressen bezahlen und Sie dafür eine bestimmte Zeit lang halten. Für eine IP-Kamera zuhause (oder generell ein Webserver) ist es ein größeres Problem. Ihr Router hat von Ihrem Internet Provider eine WAN (Wide Area Network) IP-Adresse zugewiesen bekommen. Das ist Ihre Telefonnummer, die es erlaubt zu Hause anzurufen, wenn Sie auf der Arbeit sind. Sie können Ihre WAN IP anzeigen lassen, indem Sie die Webseite <a href="http://wieistmeineip.de/">wieistmeineip.de</a>.</p> öffnen.</p>
                     </div>
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/ThirdpartyDDNS_01.png" width="500" height="163" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox1" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox1.close" tabindex="0" role="button" class="centered">
-                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/ThirdpartyDDNS_01.png" width="500" height="163" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:ThirdpartyDDNS_01"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/ThirdpartyDDNS_01.png" width="500" height="163" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -75,14 +78,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/ThirdpartyDDNS_02.png" width="500" height="233" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox2" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox2.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/ThirdpartyDDNS_02.png" width="500" height="233" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:ThirdpartyDDNS_02"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Internet_Access/ThirdpartyDDNS_02.png" width="500" height="233" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -116,7 +117,7 @@
                           <div class="twocard">
                               <div class="image">
                                   <a href="/Internet_Access/DDNS_Provider/NoIP/">
-                                    <amp-img noloading height=150 width=200 layout=responsive src="/images/DDNS_No-IP.png"></amp-img>
+                                    <amp-img noloading height=150 width=200 layout=responsive src="/images/Internet_Access/DDNS_No-IP.png"></amp-img>
                                   </a>
                               </div>
                               <div class="action">
@@ -126,7 +127,7 @@
                           <div class="twocard">
                               <div class="image">
                                   <a href="/Internet_Access/DDNS_Provider/Selfhost/">
-                                    <amp-img noloading height=150 width=200 layout=responsive src="/images/DDNS_Selfhost.png"></amp-img>
+                                    <amp-img noloading height=150 width=200 layout=responsive src="/images/Internet_Access/DDNS_Selfhost.png"></amp-img>
                                   </a>
                               </div>
                               <div class="action">
@@ -140,7 +141,7 @@
                           <div class="twocard">
                               <div class="image">
                                   <a href="/Internet_Access/DDNS_Provider/DDNSS/">
-                                    <amp-img noloading height=150 width=200 layout=responsive src="/images/DDNS_DDNSS.png"></amp-img>
+                                    <amp-img noloading height=150 width=200 layout=responsive src="/images/Internet_Access/DDNS_DDNSS.png"></amp-img>
                                   </a>
                               </div>
                               <div class="action">
@@ -161,7 +162,7 @@
         </div>
         <!-- /wrap-->
 
-        <% include ../_partials/content/_bluenav-ia-mobile.ejs %>
+        <% include ../_partials/content/_bluenav-general-mobile.ejs %>
 
         <footer>
             <% include ../_partials/amp/_amp-footer.ejs %>

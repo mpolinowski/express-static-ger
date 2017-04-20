@@ -39,7 +39,13 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                        <amp-img src="/images/Download_WebUI_Firmware_en.png" width=1000 height=626 layout="responsive" class="shadow"></amp-img>
+                      <amp-img
+                          on="tap:Download_WebUI_Firmware_en"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Quick_Installation/Download_WebUI_Firmware_en.png" width=1000 height=626 layout="responsive" class="shadow">
+                      </amp-img>
+
                         <p>Laden Sie die neueste Firmware und WebUI herunter auf <a href="http://download.instar.com">download.instar.com</a></p>
                     </div>
                     <!-- /margin -->
@@ -55,7 +61,12 @@
                         <h2>Update über die Weboberfläche</h2>
                         <p class="text-justify">
                             Um das Update über die <a href="http://wiki.instar.com/index.php/HD_Manual_WebUI_Software">Weboberfläche</a> der Kamera aufzuspielen, gehen Sie einfach auf Sytem/Update und klicken dort auf Durchsuchen und wählen Sie die pkg Datei die Sie zuvor heruntergeladen haben. Nachdem Sie die Datei aufgewählt haben klicken Sie auf "Bestätigen" um das Update zu starten. Bitte warten Sie bis die Kamera neu gestartet ist und die Weboberfläche neu geladen wurde. <strong>Entfernen Sie niemals die Stromzufuhr während dem Update!</strong>
-                            <amp-img src="/images/Update-WebUI-HD-01.png" width=432 height=364 layout="responsive" class="shadow"></amp-img>
+                            <amp-img
+                                on="tap:Update-WebUI-HD-01"
+                                role="button"
+                                tabindex="0"
+                                src="/images/Quick_Installation/Update-WebUI-HD-01.png" width=432 height=364 layout="responsive" class="shadow">
+                            </amp-img>
                             <p>Wählen Sie die pkg Datei die Sie zuvor heruntergeladen haben und spielen Sie das Update auf.</p>
                         </p>
                     </div>
@@ -63,31 +74,61 @@
 
                     <div class="margin">
                         <h2>Update über das Kamera Tool</h2>
-                        <amp-img src="/images/Update-CamTool-01.png" width=641 height=386 layout="responsive" class="shadow"></amp-img>
+                        <amp-img
+                            on="tap:Update-CamTool-01"
+                            role="button"
+                            tabindex="0"
+                            src="/images/Quick_Installation/Update-CamTool-01.png" width=641 height=386 layout="responsive" class="shadow">
+                        </amp-img>
                         <p>Öffnen Sie das INSTAR Camera Tool und wählen Sie oben aus den Reitern <em>Update</em> aus.</p>
                     </div>
                     <!-- /margin -->
 
                     <div class="margin">
-                        <amp-img src="/images/Update-CamTool-02.png" width=641 height=383 layout="responsive" class="shadow"></amp-img>
+                      <amp-img
+                          on="tap:Update-CamTool-02"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Quick_Installation/Update-CamTool-02.png" width=641 height=383 layout="responsive" class="shadow">
+                      </amp-img>
                         <p>Selektieren Sie jetzt die Kamera auf welcher Sie ein Update durchführen möchten. Sie werden aufgefordert Benutzernamen und Passwort der Kamera einzutragen..</p>
                     </div>
                     <!-- /margin -->
 
                     <div class="margin">
-                        <amp-img src="/images/Update-CamTool-03.png" width=642 height=608 layout="responsive" class="shadow"></amp-img>
+                      <amp-img
+                          on="tap:Update-CamTool-03"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Quick_Installation/Update-CamTool-03.png" width=642 height=608 layout="responsive" class="shadow">
+                      </amp-img>
                         <p>Klicken Sie auf <em>Durchsuchen</em> und wählen Sie die Firmware/WebUI Datei update.pkg welche Sie zuvor heruntergeladen haben.</p>
                     </div>
                     <!-- /margin -->
 
                     <div class="margin">
-                        <amp-img src="/images/Update-CamTool-04.png" width=639 height=381 layout="responsive" class="shadow"></amp-img>
+                      <amp-img
+                          on="tap:Update-CamTool-04"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Quick_Installation/Update-CamTool-04.png" width=639 height=381 layout="responsive" class="shadow">
+                      </amp-img>
                         <p>Klicken Sie auf <em>Submit</em> um die Firmware/WebUI pkg Datei auf die Kamera aufzuspielen. Bitte warten Sie bis die Datei auf die Kamera aufgespielt wurde. Dies wird ca. 6min dauern -<strong>entfernen Sie niemals die Stromzufuhr während das Update auf die Kamera aufgespielt wird!</strong></p>
                     </div>
                     <!-- /margin -->
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="Download_WebUI_Firmware_en" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Update-WebUI-HD-01" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Update-CamTool-01" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Update-CamTool-02" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Update-CamTool-03" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Update-CamTool-04" layout="nodisplay"></amp-image-lightbox>
+
             </div>
             <!-- /container main -->
         </div>
