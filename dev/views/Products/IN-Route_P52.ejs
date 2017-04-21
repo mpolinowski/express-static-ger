@@ -2,6 +2,10 @@
 <html ⚡>
     <head>
         <% include ../_partials/amp/_amp-head.ejs %>
+        <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+        <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+        <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+        <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
         <link rel="canonical" href="/Products/IN-Route">
     </head>
 
@@ -46,9 +50,8 @@
                           on="tap:lightbox1"
                           role="button"
                           tabindex="0"
-                          src="/images/IN-Route_P52_00.png" width="1000" height="515" layout="responsive" class="shadow">
+                          src="/images/Products/IN-Route_P52_00.png" width="1000" height="515" layout="responsive" class="shadow">
                       </amp-img>
-                      <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
                     </div>
                     <!-- /margin -->
 
@@ -73,9 +76,8 @@
                                   on="tap:lightbox2"
                                   role="button"
                                   tabindex="0"
-                                  src="/images/IN-Route_Inside-the-Box.png" width="1000" height="243" layout="responsive" class="shadow">
+                                  src="/images/Products/IN-Route_Inside-the-Box.png" width="1000" height="243" layout="responsive" class="shadow">
                               </amp-img>
-                              <amp-image-lightbox id="lightbox2" layout="nodisplay"></amp-image-lightbox>
                             </div>
                             <!-- /margin -->
 
@@ -92,7 +94,7 @@
                           <div class="twocard">
                               <div class="image">
                                 <a href="/Products/IN-Route/First_Steps">
-                                  <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_FirstSteps.png"></amp-img>
+                                  <amp-img noloading height=480 width=640 layout=responsive src="/images/Products/IN-Route_Card_FirstSteps.png"></amp-img>
                                 </a>
                               </div>
                               <div class="action">
@@ -105,11 +107,11 @@
                           <div class="twocard">
                               <div class="image">
                                 <a href="/Products/IN-Route/Overview">
-                                  <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_Overview.png"></amp-img>
+                                  <amp-img noloading height=480 width=640 layout=responsive src="/images/Products/IN-Route_Card_Overview.png"></amp-img>
                                 </a>
                               </div>
                               <div class="action">
-                                  <h3>Weboberfläche :: Überblick</h3>
+                                  <h3>Überblick</h3>
                                   <p>Überblick über die Oberfläche</p>
                                   <br><br>
                                   <a href="/Products/IN-Route/Overview">Mehr lesen</a>
@@ -122,11 +124,11 @@
                         <div class="twocard">
                             <div class="image">
                               <a href="/Products/IN-Route/Network">
-                                <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_Network.png"></amp-img>
+                                <amp-img noloading height=480 width=640 layout=responsive src="/images/Products/IN-Route_Card_Network.png"></amp-img>
                               </a>
                             </div>
                             <div class="action">
-                                <h3>Weboberfläche :: Netzwerk</h3>
+                                <h3>Interface :: Netzwerk</h3>
                                 <p>Überblick über das Netzwerk-Menü</p>
                                 <br><br>
                                 <a href="/Products/IN-Route/Network">Mehr lesen</a>
@@ -135,7 +137,7 @@
                         <div class="twocard">
                             <div class="image">
                               <a href="/Products/IN-Route/Firewall">
-                                <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_Firewall.png"></amp-img>
+                                <amp-img noloading height=480 width=640 layout=responsive src="/images/Products/IN-Route_Card_Firewall.png"></amp-img>
                               </a>
                             </div>
                             <div class="action">
@@ -152,7 +154,7 @@
                         <div class="twocard">
                             <div class="image">
                               <a href="/Products/IN-Route/System">
-                                <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_System.png"></amp-img>
+                                <amp-img noloading height=480 width=640 layout=responsive src="/images/Products/IN-Route_Card_System.png"></amp-img>
                               </a>
                             </div>
                             <div class="action">
@@ -165,7 +167,7 @@
                         <div class="twocard">
                             <div class="image">
                               <a href="/Products/IN-Route/Help">
-                                <amp-img noloading height=480 width=640 layout=responsive src="/images/IN-Route_Card_Help.png"></amp-img>
+                                <amp-img noloading height=480 width=640 layout=responsive src="/images/Products/IN-Route_Card_Help.png"></amp-img>
                               </a>
                             </div>
                             <div class="action">
@@ -179,17 +181,14 @@
                     <!-- /Card Container -->
 
 
-                <div class="container main">
-
-                    <article>
-                        <!-- article -->
+                <div class="margin">
 
                         <h3>Technische Spezifikationen</h3>
 
                         <div class="margin">
                             <table>
                               <tr>
-                                  <td><strong>IN-Route Modell</strong></td>
+                                  <td width="30%"><strong>IN-Route Modell</strong></td>
                                   <td><strong>INSTAR IN-Route P52 Powerbank &amp; Wireless AP</strong></td>
                                 </tr>
                                 <tr>
@@ -292,15 +291,19 @@
                         </div>
                         <!-- /margin -->
 
-                    </article>
-                    <!-- /article -->
                 </div>
-                <!-- /Container -->
+                <!-- /margin -->
 
                 </div>
                 <!-- /Container -->
               </section>
               <!-- /blade -->
+
+              <!-- ################ Lightboxes ##################### -->
+
+              <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
+              <amp-image-lightbox id="lightbox2" layout="nodisplay"></amp-image-lightbox>
+
             </div>
             <!-- /Content -->
           </div>
