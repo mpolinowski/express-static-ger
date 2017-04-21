@@ -2,6 +2,10 @@
 <html ⚡>
     <head>
         <% include ../_partials/amp/_amp-head.ejs %>
+        <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+        <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+        <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+        <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
         <link rel="canonical" href="/Motion_Detection/Alarm_Notification/">
     </head>
 
@@ -76,12 +80,11 @@
 
                     <div class="margin">
                       <amp-img
-                          on="tap:lightbox00"
+                          on="tap:Alarm_Notification_1080p_01"
                           role="button"
                           tabindex="0"
-                          src="/images/Alarm_Notification_1080p_01.png" width="600" height="539" layout="responsive" class="shadow">
+                          src="/images/Motion_Detection/Alarm_Notification_1080p_01.png" width="600" height="539" layout="responsive" class="shadow">
                       </amp-img>
-                      <amp-image-lightbox id="lightbox00" layout="nodisplay"></amp-image-lightbox>
                     </div>
                     <!-- /margin -->
 
@@ -101,12 +104,11 @@
 
                     <div class="margin">
                       <amp-img
-                          on="tap:lightbox01"
+                          on="tap:Alarm_Notification_1080p_02"
                           role="button"
                           tabindex="0"
-                          src="/images/Alarm_Notification_1080p_02.png" width="600" height="519" layout="responsive" class="shadow">
+                          src="/images/Motion_Detection/Alarm_Notification_1080p_02.png" width="600" height="519" layout="responsive" class="shadow">
                       </amp-img>
-                      <amp-image-lightbox id="lightbox01" layout="nodisplay"></amp-image-lightbox>
                     </div>
                     <!-- /margin -->
 
@@ -124,6 +126,12 @@
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="Alarm_Notification_1080p_01" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Alarm_Notification_1080p_02" layout="nodisplay"></amp-image-lightbox>
+
             </div>
             <!-- /container -->
         </div>

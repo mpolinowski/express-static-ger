@@ -2,6 +2,10 @@
 <html ⚡>
     <head>
         <% include ../_partials/amp/_amp-head.ejs %>
+        <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+        <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+        <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+        <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
         <link rel="canonical" href="/Motion_Detection/Alarm_Notification/">
     </head>
 
@@ -76,14 +80,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox6" role="button" tabindex="0" src="/images/Gmail-UnsecureApps_en.png" width="500" height="300" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox6" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox6.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox6.close" role="button" tabindex="0" src="/images/Gmail-UnsecureApps_en.png" width="500" height="300" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Gmail-UnsecureApps_en"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Motion_Detection/Gmail-UnsecureApps_en.png" width="500" height="300" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -100,14 +102,12 @@
                       <!-- /margin -->
 
                       <div class="margin">
-                        <div>
-                            <amp-img on="tap:lightbox7" role="button" tabindex="0" src="/images/01_MailAbuse-en.png" width="700" height="421" layout="responsive" class="shadow"></amp-img>
-                        </div>
-                        <amp-lightbox id="lightbox7" layout="nodisplay">
-                            <div class="lightbox" on="tap:lightbox7.close" role="button" tabindex="0" class="centered">
-                                <amp-img on="tap:lightbox7.close" role="button" tabindex="0" src="/images/01_MailAbuse-en.png" width="700" height="421" layout="responsive" class="shadow"></amp-img>
-                            </div>
-                        </amp-lightbox>
+                        <amp-img
+                            on="tap:01_MailAbuse-en"
+                            role="button"
+                            tabindex="0"
+                            src="/images/Motion_Detection/01_MailAbuse-en.png" width="700" height="421" layout="responsive" class="shadow">
+                        </amp-img>
                       </div>
                       <!-- /margin -->
 
@@ -124,14 +124,12 @@
                       <!-- /margin -->
 
                       <div class="margin">
-                        <div>
-                            <amp-img on="tap:lightbox7" role="button" tabindex="0" src="/images/Telekom-Mail_01.png" width="800" height="500" layout="responsive" class="shadow"></amp-img>
-                        </div>
-                        <amp-lightbox id="lightbox7" layout="nodisplay">
-                            <div class="lightbox" on="tap:lightbox7.close" role="button" tabindex="0" class="centered">
-                                <amp-img on="tap:lightbox7.close" role="button" tabindex="0" src="/images/Telekom-Mail_01.png" width="800" height="500" layout="responsive" class="shadow"></amp-img>
-                            </div>
-                        </amp-lightbox>
+                        <amp-img
+                            on="tap:Telekom-Mail_01"
+                            role="button"
+                            tabindex="0"
+                            src="/images/Motion_Detection/Telekom-Mail_01.png" width="800" height="500" layout="responsive" class="shadow">
+                        </amp-img>
                       </div>
                       <!-- /margin -->
 
@@ -141,14 +139,12 @@
                       <!-- /margin -->
 
                       <div class="margin">
-                        <div>
-                            <amp-img on="tap:lightbox7" role="button" tabindex="0" src="/images/Telekom-Mail_02.png" width="800" height="400" layout="responsive" class="shadow"></amp-img>
-                        </div>
-                        <amp-lightbox id="lightbox7" layout="nodisplay">
-                            <div class="lightbox" on="tap:lightbox7.close" role="button" tabindex="0" class="centered">
-                                <amp-img on="tap:lightbox7.close" role="button" tabindex="0" src="/images/Telekom-Mail_02.png" width="800" height="400" layout="responsive" class="shadow"></amp-img>
-                            </div>
-                        </amp-lightbox>
+                        <amp-img
+                            on="tap:Telekom-Mail_02"
+                            role="button"
+                            tabindex="0"
+                            src="/images/Motion_Detection/Telekom-Mail_02.png" width="800" height="400" layout="responsive" class="shadow">
+                        </amp-img>
                       </div>
                       <!-- /margin -->
 
@@ -165,19 +161,26 @@
                       <!-- /margin -->
 
                       <div class="margin">
-                        <div>
-                            <amp-img on="tap:lightbox8" role="button" tabindex="0" src="/images/GMX_SMTP_Fix.png" width="800" height="510" layout="responsive" class="shadow"></amp-img>
-                        </div>
-                        <amp-lightbox id="lightbox8" layout="nodisplay">
-                            <div class="lightbox" on="tap:lightbox8.close" tabindex="0" class="centered" role="button">
-                                <amp-img on="tap:lightbox8.close" role="button" tabindex="0" src="/images/GMX_SMTP_Fix.png" width="800" height="510" layout="responsive" class="shadow"></amp-img>
-                            </div>
-                        </amp-lightbox>
+                        <amp-img
+                            on="tap:GMX_SMTP_Fix"
+                            role="button"
+                            tabindex="0"
+                            src="/images/Motion_Detection/GMX_SMTP_Fix.png" width="800" height="510" layout="responsive" class="shadow">
+                        </amp-img>
                       </div>
                       <!-- /margin -->
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="Gmail-UnsecureApps_en" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="01_MailAbuse-en" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Telekom-Mail_01" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Telekom-Mail_02" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="GMX_SMTP_Fix" layout="nodisplay"></amp-image-lightbox>
+
             </div>
             <!-- /container -->
         </div>
