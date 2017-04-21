@@ -43,7 +43,7 @@
 
                     <% include ../../_partials/content/_bluenav-general.ejs %>
 
-                        <article class="blade wrapper content">
+                    <article class="blade wrapper content">
                     <!-- article -->
 
                     <div>
@@ -53,18 +53,14 @@
 
                     <div class="margin">
 
-                      <div>
-                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/WebUI-Software_Language.png" width="537" height="560" layout="responsive" class="shadow"></amp-img>
+                      <amp-img
+                        on="tap:lightbox_01"
+                        role="button"
+                        tabindex="0"
+                        src="/images/720p_webUI/WebUI-Software_Language.png" width="716" height="746" layout="responsive" class="shadow">
+                      </amp-img>
 
-                          <p>Hier können Sie die Sprache der Weboberfläche auswählen. Nachdem Sie bestätigt haben, wird sich die Weboberfläche neu laden.</p>
-                      </div>
-
-                        <amp-lightbox id="lightbox1" layout="nodisplay">
-                            <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
-                                <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/WebUI-Software_Language.png" width="716" height="746" layout="responsive" class="shadow"></amp-img>
-                            </div>
-                        </amp-lightbox>
-
+                      <p>Hier können Sie die Sprache der Weboberfläche auswählen. Nachdem Sie bestätigt haben, wird sich die Weboberfläche neu laden.</p>
                     </div>
                     <!-- /margin -->
 
@@ -100,6 +96,11 @@
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="lightbox_01" layout="nodisplay"></amp-image-lightbox>
+
             </div>
         </div>
 

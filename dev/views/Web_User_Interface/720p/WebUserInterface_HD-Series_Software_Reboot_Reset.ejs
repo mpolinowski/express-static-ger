@@ -52,17 +52,14 @@
 
                     <div class="margin">
 
-                      <div>
-                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/WebUI-Software_Reboot.png" width="537" height="560" layout="responsive" class="shadow"></amp-img>
+                          <amp-img
+                              on="tap:lightbox_01"
+                              role="button"
+                              tabindex="0"
+                              src="/images/720p_webUI/WebUI-Software_Reboot.png" width="537" height="560" layout="responsive" class="shadow">
+                          </amp-img>
 
                           <p>Sie können Software Updates für Ihre Kamera von <a href="http://download.instar.de">download.instar.com</a> herunterladen. Wenn Sie die Datei heruntergeladen und entpackt haben, können Sie mit dem Browse Button die Datei aussuchen und auf Bestätigen klicken, um die Datei auf die Kamera zu laden. Verwenden Sie die Update Funktion nur, wenn die Kamera über ein LAN-Kabel verbunden ist!</p>
-                      </div>
-
-                        <amp-lightbox id="lightbox1" layout="nodisplay">
-                            <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
-                                <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/WebUI-Software_Reboot.png" width="716" height="746" layout="responsive" class="shadow"></amp-img>
-                            </div>
-                        </amp-lightbox>
 
                     </div>
                     <!-- /margin -->
@@ -105,6 +102,11 @@
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="lightbox_01" layout="nodisplay"></amp-image-lightbox>
+
             </div>
         </div>
 
