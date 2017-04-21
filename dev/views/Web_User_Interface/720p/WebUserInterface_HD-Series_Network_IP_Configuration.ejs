@@ -52,19 +52,18 @@
                     <div class="margin">
 
                       <div>
-                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/WebUI-Network_IP-Config.png" width="537" height="560" layout="responsive" class="shadow"></amp-img>
+                          <amp-img
+                              on="tap:lightbox_01"
+                              role="button"
+                              tabindex="0"
+                              src="/images/720p_webUI/WebUI-Network_IP-Config.png" width="716" height="746" layout="responsive" class="shadow">
+                          </amp-img>
 
                           <p>Sie können einstellen, ob die Kamera eine IP-Adresse durch Ihren Router erhält (DHCP), oder ob Sie eine manuelle fixe Adresse eingeben möchten. Grundsätzlich empfehlen wir, den automatischen Modus (DHCP) zu reaktiveren
                              und eine manuelle IP zu vergeben, um Probleme mit Ihrem Remote-Zugang zu vermeiden.
                              Für den RTSP Port verweisen Sie bitte auf RTSP Streaming für Details zur Benutzung des Videostreams der Kamera. Denken Sie daran, den RTSP Port weiterzuleiten, wenn Sie den RTSP Stream über das Internet mit Ihrer DDNS Adresse erreichen möchten.
                              Der RTMP Port wird vom Flash Plugin in der Weboberfläche Ihrer Kamera verwendet. Denken Sie daran den RTMP Port (neben Ihrem LAN Port!) weiterzuleiten, wenn Sie die Weboberfläche über das Internet mit Ihrer DDNS Adresse erreichen möchten.</p>
                       </div>
-
-                        <amp-lightbox id="lightbox1" layout="nodisplay">
-                            <div class="lightbox" on="tap:lightbox1.close" tabindex="0" class="centered">
-                                <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/WebUI-Network_IP-Config.png" width="716" height="746" layout="responsive" class="shadow"></amp-img>
-                            </div>
-                        </amp-lightbox>
 
                     </div>
                     <!-- /margin -->
@@ -125,6 +124,11 @@
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="lightbox_01" layout="nodisplay"></amp-image-lightbox>
+
             </div>
         </div>
 

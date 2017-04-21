@@ -59,15 +59,10 @@
 
                     <div class="margin">
                       <div>
-                          <amp-img srcset="/images/1080p_webUI/1080p_Settings_Network_IP_Configuration.jpg 100w, /images/1080p_webUI/1080p_Settings_Network_IP_Configuration.png 1500w" width="1371" height="949" layout="responsive" class="shadow" on="tap:netFTP" role="button" tabindex="0"></amp-img>
+                          <amp-img srcset="/images/1080p_webUI/1080p_Settings_Network_IP_Configuration.jpg 100w, /images/1080p_webUI/1080p_Settings_Network_IP_Configuration.png 1500w" width="1371" height="949" layout="responsive" class="shadow" on="tap:netIP" role="button" tabindex="0"></amp-img>
                       </div>
                     </div>
                     <!-- /margin -->
-                    <amp-lightbox id="netFTP" layout="nodisplay">
-                      <div class="lightbox">
-                        <amp-img src="/images/1080p_webUI/1080p_Settings_Network_IP_Configuration.jpg" width="800" height="550" on="tap:netFTP.close" role="button" tabindex="1">
-                      </div>
-                    </amp-lightbox>
 
                     <div class="margin">
                         <table>
@@ -127,6 +122,12 @@
 
                 </article>
                 <!-- /article -->
+
+                <amp-lightbox id="netIP" layout="nodisplay">
+                  <div class="lightbox">
+                    <amp-img src="/images/1080p_webUI/1080p_Settings_Network_IP_Configuration.jpg" width="800" height="550" on="tap:netFTP.close" role="button" tabindex="1">
+                  </div>
+                </amp-lightbox>
 
               </div>
               <!-- /container main -->
