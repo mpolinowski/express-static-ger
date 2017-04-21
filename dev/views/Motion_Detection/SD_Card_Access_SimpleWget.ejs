@@ -55,14 +55,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/SimpleWget_Step2_EN.png" width="491" height="226" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox2" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox2.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/SimpleWget_Step2_EN.png" width="491" height="226" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:SimpleWget_Step2_EN"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Motion_Detection/SimpleWget_Step2_EN.png" width="491" height="226" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -76,6 +74,12 @@
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="SimpleWget_Step1_EN" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="SimpleWget_Step2_EN" layout="nodisplay"></amp-image-lightbox>
+
             </div>
             <!-- /container -->
         </div>
