@@ -2,6 +2,10 @@
 <html ⚡>
     <head>
         <% include ../_partials/amp/_amp-head.ejs %>
+        <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+        <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+        <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+        <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
         <link rel="canonical" href="/Motion_Detection/Alarm_Notification/">
     </head>
 
@@ -74,14 +78,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_01_EN.jpg" width="700" height="397" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox1" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox1.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_01_EN.jpg" width="700" height="397" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Email_Einstellungen_HD_01_EN"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Motion_Detection/Email_Einstellungen_HD_01_EN.jpg" width="700" height="397" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -100,14 +102,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox2" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_02_EN.jpg" width="470" height="580" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox2" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox2.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox2.close" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_02_EN.jpg" width="470" height="580" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Email_Einstellungen_HD_02_EN"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Motion_Detection/Email_Einstellungen_HD_02_EN.jpg" width="470" height="580" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -120,14 +120,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox3" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_03_EN.jpg" width="700" height="397" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox3" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox3.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox3.close" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_03_EN.jpg" width="700" height="397" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Email_Einstellungen_HD_03_EN"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Motion_Detection/Email_Einstellungen_HD_03_EN.jpg" width="700" height="397" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -144,14 +142,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox4" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_04_EN.jpg" width="470" height="580" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox4" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox4.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox4.close" role="button" tabindex="0" src="/images/Email_Einstellungen_HD_04_EN.jpg" width="470" height="580" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Email_Einstellungen_HD_04_EN"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Motion_Detection/Email_Einstellungen_HD_04_EN.jpg" width="470" height="580" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -165,6 +161,14 @@
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="Email_Einstellungen_HD_01_EN" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Email_Einstellungen_HD_02_EN" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Email_Einstellungen_HD_03_EN" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Email_Einstellungen_HD_04_EN" layout="nodisplay"></amp-image-lightbox>
+
             </div>
             <!-- /container -->
         </div>

@@ -391,7 +391,7 @@ productRouter.route('/Power_over_Ethernet')
       title: 'IN-PoE 1000 Power over Ethernet',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Power_over_Ethernet/">Power_over_Ethernet</a></li>',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Power_over_Ethernet/">Power over Ethernet</a></li>',
 		pacc: 'expanded',
 		ptab: '',
 		qiacc: '',

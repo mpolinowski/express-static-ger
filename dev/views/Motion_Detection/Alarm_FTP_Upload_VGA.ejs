@@ -2,6 +2,10 @@
 <html ⚡>
     <head>
         <% include ../_partials/amp/_amp-head.ejs %>
+        <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+        <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+        <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+        <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
         <link rel="canonical" href="/Motion_Detection/Alarm_FTP_Upload">
     </head>
 
@@ -50,14 +54,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Email_Einstellungen_MJPEG_01_EN.jpg" width="700" height="415" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox1" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox1.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Email_Einstellungen_MJPEG_01_EN.jpg" width="700" height="415" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Email_Einstellungen_MJPEG_01_EN"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Motion_Detection/Email_Einstellungen_MJPEG_01_EN.jpg" width="700" height="415" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -93,14 +95,12 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                      <div>
-                          <amp-img on="tap:lightbox1" role="button" tabindex="0" src="/images/Email_Einstellungen_MJPEG_02_EN.jpg" width="700" height="415" layout="responsive" class="shadow"></amp-img>
-                      </div>
-                      <amp-lightbox id="lightbox1" layout="nodisplay">
-                          <div class="lightbox" on="tap:lightbox1.close" role="button" tabindex="0" class="centered">
-                              <amp-img on="tap:lightbox1.close" role="button" tabindex="0" src="/images/Email_Einstellungen_MJPEG_02_EN.jpg" width="700" height="415" layout="responsive" class="shadow"></amp-img>
-                          </div>
-                      </amp-lightbox>
+                      <amp-img
+                          on="tap:Email_Einstellungen_MJPEG_02_EN"
+                          role="button"
+                          tabindex="0"
+                          src="/images/Motion_Detection/Email_Einstellungen_MJPEG_02_EN.jpg" width="700" height="415" layout="responsive" class="shadow">
+                      </amp-img>
                     </div>
                     <!-- /margin -->
 
@@ -114,6 +114,12 @@
 
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="Email_Einstellungen_MJPEG_01_EN" layout="nodisplay"></amp-image-lightbox>
+                <amp-image-lightbox id="Email_Einstellungen_MJPEG_02_EN" layout="nodisplay"></amp-image-lightbox>
+
             </div>
             <!-- /container -->
         </div>
