@@ -2,6 +2,9 @@
 <html ⚡>
     <head>
         <% include ../../_partials/amp/_amp-head.ejs %>
+        <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+        <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+        <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
         <link rel="canonical" href="/Web_User_Interface/720p_Series/Alarm">
     </head>
 
@@ -37,9 +40,11 @@
                     <div class="card-container margin">
 
                         <div class="twocard">
+                            <a href="/Web_User_Interface/720p_Series/Alarm/Privacy_Mask/">
                             <div class="image"on=" tap:areas-lightbox.close">
                                 <amp-img noloading height=400 width=400 layout=responsive src="/images/720p_webUI/QL-Box_WebUI_Alarm_Areas_mouseOver.png"></amp-img>
                             </div>
+                            </a>
                             <div class="action">
                                 <p>Die Alarmbereiche bestimmen die Bildbereiche, die für die interne, softwarebasierte Bewegungserkennung der Kamera herangezogen wird. Sie können bis zu vier Alarmbereiche einzeichnen - aktivieren Sie einfach einen der 4 Bereiche und zeichnen sie diesen in den gewünschten Bildausschnitt ein, indem Sie die linke Maustaste gedrückt halten und die Maus bewegen. Der Schwellenwert für ein Alarmereignis kann über die Empfindlichkeit festgelegt werden - von sehr unempfindlich (Wert = 0) bis sehr empfindl ich (Wert = 100). Die Empfindlichkeit wird darüber hinaus von der Größe des Bereiches bestimmt. Je kleiner der Bereich, desto mehr Fläche nimmt eine Änderung im Bild prozentual ein. Wenn Sie eine hohe Empfindlichkeit brauchen, setzten Sie viele kleine Alarmbereiche. Wenn Sie zu viele Fehlalarme erhalten, ist es besser einen großen Bereich aufzuziehen.</p>
                             </div>
