@@ -282,7 +282,7 @@ h3 {
 
 .centered {
     text-align: center;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 p img {
@@ -448,13 +448,6 @@ section.hero:before {
 }
 
 .btn {
-    -moz-transition: .3s;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s
-}
-
-.btn {
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
     transition: all ease-in-out 100ms;
     background-color: #0275d8;
@@ -466,6 +459,14 @@ section.hero:before {
     font-weight: 500;
     padding: 15px 20px;
     text-transform: uppercase
+}
+
+.btnSmall {
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.4);
+    font-size: 10px;
+    font-weight: 200;
+    padding: 7px 10px;
+    text-transform: none;
 }
 
 .btnRed {
@@ -1306,7 +1307,8 @@ amp-sidebar .return-button::before {
 
 th, td {
     border-bottom: 1px solid #ddd;
-    padding: 15px
+    padding: 15px;
+    text-align: inherit;
 }
 
 tr:hover {
