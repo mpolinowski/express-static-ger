@@ -41,9 +41,9 @@ motionDetectionRouter.route('/Alarm_Notification/Troubleshooting/')
     res.status(301).redirect('/Bewegungserkennung/Alarmbenachrichtigung/Fehlerbehebung/');
 });
 
-motionDetectionRouter.route('/Alarm_Notification/SMTP_Server/')
+motionDetectionRouter.route('/Alarm_Notification/SMTP_Servers/')
   .get(function(req, res) {
-    res.status(301).redirect('/Bewegungserkennung/Alarmbenachrichtigung/Fehlerbehebung/');
+    res.status(301).redirect('/Bewegungserkennung/Alarmbenachrichtigung/SMTP_Server/');
 });
 
 motionDetectionRouter.route('/Alarm_Recording/')
