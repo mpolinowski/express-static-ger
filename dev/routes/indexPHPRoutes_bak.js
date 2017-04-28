@@ -18,17 +18,7 @@ indexPHPRouter.route('/How_does_an_IP-Camera-Network_work%3F')
     res.status(301).redirect('/Quick_Installation/How_Does_An_IP_Camera_Work');
 });
 
-indexPHPRouter.route('/Wie_arbeitet_eine_IP_Kamera%3F')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/How_Does_An_IP_Camera_Work');
-});
-
 indexPHPRouter.route('/First_Steps')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/First_Steps');
-});
-
-indexPHPRouter.route('/Erste_Schritte')
   .get(function(req, res) {
     res.status(301).redirect('/Quick_Installation/First_Steps');
 });
@@ -38,27 +28,12 @@ indexPHPRouter.route('/After_unpacking_your_INSTAR_IP_Camera')
     res.status(301).redirect('/Quick_Installation/After_Unpacking');
 });
 
-indexPHPRouter.route('/Nach_dem_Auspacken_Ihrer_IP_Kamera')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/After_Unpacking');
-});
-
 indexPHPRouter.route('/Direct_LAN_connection_with_your_IP_camera')
   .get(function(req, res) {
     res.status(301).redirect('/Quick_Installation/Direct_LAN_Connection');
 });
 
-indexPHPRouter.route('/Direkte_Verbindung_mit_einem_PC_oder_Notebook')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Direct_LAN_Connection');
-});
-
 indexPHPRouter.route('/Finding_your_IP_camera_in_the_network_if_the_IP_Camera_Tool_is_not_working')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Alternative_IP_Scanner');
-});
-
-indexPHPRouter.route('/Wie_Sie_Ihrer_IP_Kamera_mit_einem_alternativen_IP_Scanner_finden')
   .get(function(req, res) {
     res.status(301).redirect('/Quick_Installation/Alternative_IP_Scanner');
 });
@@ -83,17 +58,7 @@ indexPHPRouter.route('/Exception_for_your_IP_camera_in_Avast_Internet_Security')
     res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/Avast');
 });
 
-indexPHPRouter.route('/Notwendige_Einstellungen_bei_Avast_Internet_Security')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/Avast');
-});
-
 indexPHPRouter.route('/Exception_for_your_IP_camera_in_GDATA_Internet_Security_2016')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/GDATA');
-});
-
-indexPHPRouter.route('/Notwendige_Einstellungen_in_GDATA_Internet_Security_2016')
   .get(function(req, res) {
     res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/GDATA');
 });
@@ -103,17 +68,7 @@ indexPHPRouter.route('/Exception_for_your_IP_camera_in_Kaspersky_Internet_Securi
     res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/Kaspersky_2013');
 });
 
-indexPHPRouter.route('/Notwendige_Einstellungen_bei_Kaspersky_Internet_Security')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/Kaspersky_2013');
-});
-
 indexPHPRouter.route('/Exception_for_your_IP_camera_in_Kaspersky_Internet_Security_2014')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/Kaspersky_2014');
-});
-
-indexPHPRouter.route('/Notwendige_Einstellungen_bei_Kaspersky_Internet_Security_2014')
   .get(function(req, res) {
     res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/Kaspersky_2014');
 });
@@ -123,17 +78,7 @@ indexPHPRouter.route('/Exception_for_your_IP_camera_in_Kaspersky_Internet_Securi
     res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/Kaspersky_2017');
 });
 
-indexPHPRouter.route('/Notwendige_Einstellungen_in_Bitdefender_Internet_Security_2016')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/Kaspersky_2017');
-});
-
 indexPHPRouter.route('/Exception_for_your_IP_camera_in_AVG_Internet_Security')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/AVG');
-});
-
-indexPHPRouter.route('/Notwendige_Einstellungen_bei_AVG_Internet_Security')
   .get(function(req, res) {
     res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/AVG');
 });
@@ -143,18 +88,7 @@ indexPHPRouter.route('/Exception_for_your_IP_camera_in_AVIRA_Antivirus_Pro')
     res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/AVIRA');
 });
 
-indexPHPRouter.route('/Notwendige_Einstellungen_bei_AVIRA_Antivirus_Pro')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/AVIRA');
-});
-
-
 indexPHPRouter.route('/Exception_for_your_IP_camera_in_F-Secure_Internet_Security')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/F-Secure');
-});
-
-indexPHPRouter.route('/Notwendige_Einstellungen_bei_F-Secure_Internet_Security')
   .get(function(req, res) {
     res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/F-Secure');
 });
@@ -169,17 +103,7 @@ indexPHPRouter.route('/Language_Selection')
     res.status(301).redirect('/Quick_Installation/Language_Selection');
 });
 
-indexPHPRouter.route('/Sprachauswahl_in_der_IP_Kamera')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Language_Selection');
-});
-
 indexPHPRouter.route('/Creating_User_Accounts')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Creating_User_Accounts');
-});
-
-indexPHPRouter.route('/Benutzer_Erstellen_und_Verwalten')
   .get(function(req, res) {
     res.status(301).redirect('/Quick_Installation/Creating_User_Accounts');
 });
@@ -194,17 +118,7 @@ indexPHPRouter.route('/How_to_upgrade_to_a_new_WebUI_or_Firmware_(HD_Cameras)')
     res.status(301).redirect('/Quick_Installation/WebUI_And_Firmware_Upgrade/HD_Cameras');
 });
 
-indexPHPRouter.route('/Wie_spiele_ich_eine_neue_WebUI_bzw._Firmware_auf_(HD_Kameras)')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/WebUI_And_Firmware_Upgrade/HD_Cameras');
-});
-
 indexPHPRouter.route('/How_to_upgrade_to_a_new_WebUI_or_Firmware_(VGA_Cameras)')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/WebUI_And_Firmware_Upgrade/VGA_Cameras');
-});
-
-indexPHPRouter.route('/Wie_spiele_ich_eine_neue_WebUI_bzw._Firmware_auf_(VGA_Kameras)')
   .get(function(req, res) {
     res.status(301).redirect('/Quick_Installation/WebUI_And_Firmware_Upgrade/VGA_Cameras');
 });
@@ -214,17 +128,7 @@ indexPHPRouter.route('/Clear_Browsing_History')
     res.status(301).redirect('/Quick_Installation/How_To_Clear_Your_Browsing_History');
 });
 
-indexPHPRouter.route('/Leeren_des_Browser_Verlaufs')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/How_To_Clear_Your_Browsing_History');
-});
-
 indexPHPRouter.route('/First_steps_to_set_up_a_Wifi_connection')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Set_Up_A_Wireless_Connection');
-});
-
-indexPHPRouter.route('/Wie_stelle_ich_eine_WLAN_Verbindung_her')
   .get(function(req, res) {
     res.status(301).redirect('/Quick_Installation/Set_Up_A_Wireless_Connection');
 });
@@ -238,17 +142,7 @@ indexPHPRouter.route('/Access_over_the_Internet')
     res.status(301).redirect('/Internet_Access');
 });
 
-indexPHPRouter.route('/Zugriff_über_das_Internet')
-  .get(function(req, res) {
-    res.status(301).redirect('/Internet_Access');
-});
-
 indexPHPRouter.route('/The_DDNS_Service')
-  .get(function(req, res) {
-    res.status(301).redirect('/Internet_Access/The_DDNS_Service');
-});
-
-indexPHPRouter.route('/Der_DDNS_Service')
   .get(function(req, res) {
     res.status(301).redirect('/Internet_Access/The_DDNS_Service');
 });
@@ -258,21 +152,10 @@ indexPHPRouter.route('/Port_Forwarding')
     res.status(301).redirect('/Internet_Access/Port_Forwarding');
 });
 
-indexPHPRouter.route('/Portweiterleitung')
-  .get(function(req, res) {
-    res.status(301).redirect('/Internet_Access/Port_Forwarding');
-});
-
 indexPHPRouter.route('/AVM_Fritzbox')
   .get(function(req, res) {
     res.status(301).redirect('/Internet_Access/Port_Forwarding/AVM_Fritzbox');
 });
-
-indexPHPRouter.route('/AVM_Fritzbox')
-  .get(function(req, res) {
-    res.status(301).redirect('/Internet_Access/Port_Forwarding/AVM_Fritzbox');
-});
-
 
 indexPHPRouter.route('/Telekom_Speedport')
   .get(function(req, res) {
@@ -304,11 +187,6 @@ indexPHPRouter.route('/Third_Party_DDNS_Addresses')
     res.status(301).redirect('/Internet_Access/DDNS_Provider');
 });
 
-indexPHPRouter.route('/Drittanbieter_Programme')
-  .get(function(req, res) {
-    res.status(301).redirect('/Internet_Access/DDNS_Provider');
-});
-
 indexPHPRouter.route('/Www.noip.com')
   .get(function(req, res) {
     res.status(301).redirect('/Internet_Access/DDNS_Provider/NoIP');
@@ -333,17 +211,7 @@ indexPHPRouter.route('/Motion_Detection_Setup')
     res.status(301).redirect('/Motion_Detection/Setup');
 });
 
-indexPHPRouter.route('/Einrichtung_der_Bewegungserkennung')
-  .get(function(req, res) {
-    res.status(301).redirect('/Motion_Detection/Setup');
-});
-
 indexPHPRouter.route('/Email%20Setup_/Alarm%20Notification')
-  .get(function(req, res) {
-    res.status(301).redirect('/Motion_Detection/Alarm_Notification');
-});
-
-indexPHPRouter.route('/Email_Einstellungen_/_Alarm_Benachrichtigungen')
   .get(function(req, res) {
     res.status(301).redirect('/Motion_Detection/Alarm_Notification');
 });
@@ -353,17 +221,7 @@ indexPHPRouter.route('/Alarm_Recording')
     res.status(301).redirect('/Motion_Detection/Alarm_Recording');
 });
 
-indexPHPRouter.route('/Alarmaufnahme')
-  .get(function(req, res) {
-    res.status(301).redirect('/Motion_Detection/Alarm_Recording');
-});
-
 indexPHPRouter.route('/How_to_Access_your_SD_Card')
-  .get(function(req, res) {
-    res.status(301).redirect('/Motion_Detection/SD_Card_Access');
-});
-
-indexPHPRouter.route('/Wie_greift_man_auf_die_SD_Karte_zu')
   .get(function(req, res) {
     res.status(301).redirect('/Motion_Detection/SD_Card_Access');
 });
@@ -373,17 +231,7 @@ indexPHPRouter.route('/Alarm_Upload_/_FTP%20Settings')
     res.status(301).redirect('/Motion_Detection/Alarm_FTP_Upload');
 });
 
-indexPHPRouter.route('/Alarm_Upload_/_FTP_Einstellungen')
-  .get(function(req, res) {
-    res.status(301).redirect('/Motion_Detection/Alarm_FTP_Upload');
-});
-
 indexPHPRouter.route('/FTP_Server_Setup')
-  .get(function(req, res) {
-    res.status(301).redirect('/Motion_Detection/FTP_Server_Setup');
-});
-
-indexPHPRouter.route('/FTP_Server_Einrichtung')
   .get(function(req, res) {
     res.status(301).redirect('/Motion_Detection/FTP_Server_Setup');
 });
@@ -393,17 +241,7 @@ indexPHPRouter.route('/Router_as_a_FTP_Server')
     res.status(301).redirect('/Motion_Detection/Router_as_a_FTP_Server');
 });
 
-indexPHPRouter.route('/Nutzen_Sie_Ihren_Router_als_FTP_Server')
-  .get(function(req, res) {
-    res.status(301).redirect('/Motion_Detection/Router_as_a_FTP_Server');
-});
-
 indexPHPRouter.route('/Alarm_Server_Function')
-  .get(function(req, res) {
-    res.status(301).redirect('/Motion_Detection/Alarm_Server');
-});
-
-indexPHPRouter.route('/Alarm_Server_Funktion')
   .get(function(req, res) {
     res.status(301).redirect('/Motion_Detection/Alarm_Server');
 });
@@ -427,17 +265,7 @@ indexPHPRouter.route('/Website_Integration')
     res.status(301).redirect('/Advanced_User/Website_Integration');
 });
 
-indexPHPRouter.route('/Integration_in_eine_Webseite')
-  .get(function(req, res) {
-    res.status(301).redirect('/Advanced_User/Website_Integration');
-});
-
 indexPHPRouter.route('/Website_Integration_(HD_Cameras)')
-  .get(function(req, res) {
-    res.status(301).redirect('/Advanced_User/Website_Integration/HD_Camera_Integration');
-});
-
-indexPHPRouter.route('/Webseiten_Integration_(HD_Kameras)')
   .get(function(req, res) {
     res.status(301).redirect('/Advanced_User/Website_Integration/HD_Camera_Integration');
 });
@@ -457,27 +285,12 @@ indexPHPRouter.route('/CGI_Commands')
     res.status(301).redirect('/Advanced_User/CGI_Commands');
 });
 
-indexPHPRouter.route('/CGI_Befehle')
-  .get(function(req, res) {
-    res.status(301).redirect('/Advanced_User/CGI_Commands');
-});
-
 indexPHPRouter.route('/List_of_CGI_commands_(HD)')
   .get(function(req, res) {
     res.status(301).redirect('/720p_Series_CGI_List/');
 });
 
-indexPHPRouter.route('/HD_Kamera_CGI_Liste')
-  .get(function(req, res) {
-    res.status(301).redirect('/720p_Series_CGI_List/');
-});
-
 indexPHPRouter.route('/List_of_CGI_commands_(VGA)')
-  .get(function(req, res) {
-    res.status(301).redirect('/Advanced_User/CGI_Commands/VGA_Series_CGI_List/');
-});
-
-indexPHPRouter.route('/VGA_Kamera_CGI_Liste')
   .get(function(req, res) {
     res.status(301).redirect('/Advanced_User/CGI_Commands/VGA_Series_CGI_List/');
 });
@@ -492,25 +305,16 @@ indexPHPRouter.route('/Restore_your_Camera_after_a_faulty_Firmware_Upgrade')
     res.status(301).redirect('/Advanced_User/Restore_Firmware');
 });
 
-indexPHPRouter.route('/Wiederherstellen_der_Kamera_nach_einem_fehlerhaften_Firmware_Update')
-  .get(function(req, res) {
-    res.status(301).redirect('/Advanced_User/Restore_Firmware');
-});
-
 indexPHPRouter.route('/IP_vs_CCTV')
   .get(function(req, res) {
     res.status(301).redirect('/Advanced_User/CCTV_vs_IP');
 });
 
 
+
 /* ########################################## Products Indoor Cameras ########################################## */
 
 indexPHPRouter.route('/Indoor_Cameras')
-  .get(function(req, res) {
-    res.status(301).redirect('/Indoor_Cameras/');
-});
-
-indexPHPRouter.route('/IP_Innenkameras')
   .get(function(req, res) {
     res.status(301).redirect('/Indoor_Cameras/');
 });
@@ -525,17 +329,7 @@ indexPHPRouter.route('/Usermanual_IN-6014_HD')
     res.status(301).redirect('/Indoor_Cameras/IN-6014_HD');
 });
 
-indexPHPRouter.route('/Handbuch_IN-6014_HD')
-  .get(function(req, res) {
-    res.status(301).redirect('/Indoor_Cameras/IN-6014_HD');
-});
-
 indexPHPRouter.route('/IN-6014_Technical_Specifications')
-  .get(function(req, res) {
-    res.status(301).redirect('/Indoor_Cameras/IN-6014_HD/Technical_Specifications/');
-});
-
-indexPHPRouter.route('/IN-6014_Technische_Spezifikationen')
   .get(function(req, res) {
     res.status(301).redirect('/Indoor_Cameras/IN-6014_HD/Technical_Specifications/');
 });
@@ -550,21 +344,10 @@ indexPHPRouter.route('/Usermanual_IN-6012_HD')
     res.status(301).redirect('/Indoor_Cameras/IN-6012_HD');
 });
 
-indexPHPRouter.route('/Handbuch_IN-6012_HD')
-  .get(function(req, res) {
-    res.status(301).redirect('/Indoor_Cameras/IN-6012_HD');
-});
-
 indexPHPRouter.route('/IN-6012_Technical_Specifications')
   .get(function(req, res) {
     res.status(301).redirect('/Indoor_Cameras/IN-6012_HD/Technical_Specifications/');
 });
-
-indexPHPRouter.route('/IN-6012_Technische_Spezifikationen')
-  .get(function(req, res) {
-    res.status(301).redirect('/Indoor_Cameras/IN-6012_HD/Technical_Specifications/');
-});
-
 
 indexPHPRouter.route('/IN-6001')
   .get(function(req, res) {
@@ -576,17 +359,7 @@ indexPHPRouter.route('/Usermanual_IN-6001_HD')
     res.status(301).redirect('/Indoor_Cameras/IN-6001_HD');
 });
 
-indexPHPRouter.route('/Handbuch_IN-6001_HD')
-  .get(function(req, res) {
-    res.status(301).redirect('/Indoor_Cameras/IN-6001_HD');
-});
-
 indexPHPRouter.route('/IN-6001_Technical_Specifications')
-  .get(function(req, res) {
-    res.status(301).redirect('/Indoor_Cameras/IN-6001_HD/Technical_Specifications/');
-});
-
-indexPHPRouter.route('/IN-6001_Technische_Spezifikationen')
   .get(function(req, res) {
     res.status(301).redirect('/Indoor_Cameras/IN-6001_HD/Technical_Specifications/');
 });
@@ -601,21 +374,11 @@ indexPHPRouter.route('/IN-3011_Technical_Specifications')
     res.status(301).redirect('/Indoor_Cameras/IN-3011/Technical_Specifications/');
 });
 
-indexPHPRouter.route('/IN-3011_Technische_Spezifikationen')
-  .get(function(req, res) {
-    res.status(301).redirect('/Indoor_Cameras/IN-3011/Technical_Specifications/');
-});
-
 
 
 /* ########################################## Products Outdoor Cameras ########################################## */
 
 indexPHPRouter.route('/Outdoor_Cameras')
-  .get(function(req, res) {
-    res.status(301).redirect('/Outdoor_Cameras/');
-});
-
-indexPHPRouter.route('/IP_Außenkameras')
   .get(function(req, res) {
     res.status(301).redirect('/Outdoor_Cameras/');
 });
@@ -630,17 +393,7 @@ indexPHPRouter.route('/Usermanual_IN-7011_HD')
     res.status(301).redirect('/Outdoor_Cameras/IN-7011_HD');
 });
 
-indexPHPRouter.route('/Handbuch_IN-7011_HD')
-  .get(function(req, res) {
-    res.status(301).redirect('/Outdoor_Cameras/IN-7011_HD');
-});
-
 indexPHPRouter.route('/IN-7011_Technical_Specifications')
-  .get(function(req, res) {
-    res.status(301).redirect('/Outdoor_Cameras/IN-7011_HD/Technical_Specifications/');
-});
-
-indexPHPRouter.route('/IN-7011_Technische_Spezifikationen')
   .get(function(req, res) {
     res.status(301).redirect('/Outdoor_Cameras/IN-7011_HD/Technical_Specifications/');
 });
@@ -655,17 +408,7 @@ indexPHPRouter.route('/Usermanual_IN-5907_HD')
     res.status(301).redirect('/Outdoor_Cameras/IN-5907_HD');
 });
 
-indexPHPRouter.route('/Handbuch_IN-5907_HD')
-  .get(function(req, res) {
-    res.status(301).redirect('/Outdoor_Cameras/IN-5907_HD');
-});
-
 indexPHPRouter.route('/IN-5907_Technical_Specifications')
-  .get(function(req, res) {
-    res.status(301).redirect('/Outdoor_Cameras/IN-5907_HD/Technical_Specifications/');
-});
-
-indexPHPRouter.route('/IN-5907_Technische_Spezifikationen')
   .get(function(req, res) {
     res.status(301).redirect('/Outdoor_Cameras/IN-5907_HD/Technical_Specifications/');
 });
@@ -680,17 +423,7 @@ indexPHPRouter.route('/Usermanual_IN-5905_HD')
     res.status(301).redirect('/Outdoor_Cameras/IN-5905_HD');
 });
 
-indexPHPRouter.route('/Handbuch_IN-5905_HD')
-  .get(function(req, res) {
-    res.status(301).redirect('/Outdoor_Cameras/IN-5905_HD');
-});
-
 indexPHPRouter.route('/IN-5905_Technical_Specifications')
-  .get(function(req, res) {
-    res.status(301).redirect('/Outdoor_Cameras/IN-5907_HD/Technical_Specifications/');
-});
-
-indexPHPRouter.route('/IN-5905_Technische_Spezifikationen')
   .get(function(req, res) {
     res.status(301).redirect('/Outdoor_Cameras/IN-5907_HD/Technical_Specifications/');
 });
@@ -705,22 +438,12 @@ indexPHPRouter.route('/IN-4011_Technical_Specifications')
     res.status(301).redirect('/Outdoor_Cameras/IN-4011/Technical_Specifications/');
 });
 
-indexPHPRouter.route('/IN-4011_Technische_Spezifikationen')
-  .get(function(req, res) {
-    res.status(301).redirect('/Outdoor_Cameras/IN-4011/Technical_Specifications/');
-});
-
 indexPHPRouter.route('/IN-4010')
   .get(function(req, res) {
     res.status(301).redirect('/Outdoor_Cameras/IN-4010_V2');
 });
 
 indexPHPRouter.route('/IN-4010_Technical_Specifications')
-  .get(function(req, res) {
-    res.status(301).redirect('/Outdoor_Cameras/IN-4010_V2/Technical_Specifications/');
-});
-
-indexPHPRouter.route('/IN-4010_Technische_Spezifikationen')
   .get(function(req, res) {
     res.status(301).redirect('/Outdoor_Cameras/IN-4010_V2/Technical_Specifications/');
 });
@@ -735,22 +458,12 @@ indexPHPRouter.route('/IN-2908_Technical_Specifications')
     res.status(301).redirect('/Outdoor_Cameras/IN-2908/Technical_Specifications/');
 });
 
-indexPHPRouter.route('/IN-2908_Technische_Spezifikationen')
-  .get(function(req, res) {
-    res.status(301).redirect('/Outdoor_Cameras/IN-2908/Technical_Specifications/');
-});
-
 indexPHPRouter.route('/IN-2905')
   .get(function(req, res) {
     res.status(301).redirect('/Outdoor_Cameras/IN-2905_V2');
 });
 
 indexPHPRouter.route('/IN-2905_Technical_Specifications')
-  .get(function(req, res) {
-    res.status(301).redirect('/Outdoor_Cameras/IN-2905_V2/Technical_Specifications/');
-});
-
-indexPHPRouter.route('/IN-2905_Technische_Spezifikationen')
   .get(function(req, res) {
     res.status(301).redirect('/Outdoor_Cameras/IN-2905_V2/Technical_Specifications/');
 });
@@ -942,17 +655,7 @@ indexPHPRouter.route('/HD_Manual_WebUI_Software')
     res.status(301).redirect('/Web_User_Interface/720p_Series/Software/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Software')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Software/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Software_Language')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Software/Language/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Software_Language')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Software/Language/');
 });
@@ -962,27 +665,12 @@ indexPHPRouter.route('/HD_Manual_WebUI_Software_Reboot')
     res.status(301).redirect('/Web_User_Interface/720p_Series/Software/Reboot_Reset/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Software_Neustart')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Software/Reboot_Reset/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Software_Backup')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Software/Backup/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Software_Sicherung')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Software/Backup/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Software_Update')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Software/Update/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Software_Update')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Software/Update/');
 });
@@ -994,17 +682,7 @@ indexPHPRouter.route('/HD_Manual_WebUI_Network')
     res.status(301).redirect('/Web_User_Interface/720p_Series/Network/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Netzwerk')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Network/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Network_IP_Configuration')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Network/IP_Configuration');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Netzwerk_IP_Konfiguration')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Network/IP_Configuration');
 });
@@ -1014,17 +692,7 @@ indexPHPRouter.route('/HD_Manual_WebUI_Network_WiFi')
     res.status(301).redirect('/Web_User_Interface/720p_Series/Network/WiFi');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Netzwerk_WLAN')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Network/WiFi');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Network_DDNS')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Network/DDNS');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Netzwerk_DDNS')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Network/DDNS');
 });
@@ -1034,27 +702,12 @@ indexPHPRouter.route('/HD_Manual_WebUI_Network_P2P')
     res.status(301).redirect('/Web_User_Interface/720p_Series/Network/P2P');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Netzwerk_P2P')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Network/P2P');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Network_UPnP')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Network/UPnP');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Netzwerk_UPnP')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Network/UPnP');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Network_Push_Service')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Network/Push_Service');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Netzwerk_Push_Dienst')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Network/Push_Service');
 });
@@ -1066,17 +719,7 @@ indexPHPRouter.route('/HD_Manual_WebUI_System')
     res.status(301).redirect('/Web_User_Interface/720p_Series/System/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_System')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/System/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_System_Info')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/System/Info/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_System_Info')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/System/Info/');
 });
@@ -1086,17 +729,7 @@ indexPHPRouter.route('/HD_Manual_WebUI_System_Date-Time')
     res.status(301).redirect('/Web_User_Interface/720p_Series/System/Date_Time/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_System_Datum_Uhrzeit')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/System/Date_Time/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_System_User')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/System/User/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_System_Benutzer')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/System/User/');
 });
@@ -1106,17 +739,7 @@ indexPHPRouter.route('/HD_Manual_WebUI_System_Status_LED')
     res.status(301).redirect('/Web_User_Interface/720p_Series/System/Status_LED/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_System_Status_LED')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/System/Status_LED/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_System_IR_LEDs')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/System/IR_LED/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_System_IR_LEDs')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/System/IR_LED/');
 });
@@ -1126,17 +749,7 @@ indexPHPRouter.route('/HD_Manual_WebUI_System_ONVIF')
     res.status(301).redirect('/Web_User_Interface/720p_Series/System/ONVIF/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_System_ONVIF')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/System/ONVIF/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_System_PTZ')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/System/PTZ/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_System_PTZ')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/System/PTZ/');
 });
@@ -1146,17 +759,7 @@ indexPHPRouter.route('/HD_Manual_WebUI_System_PTZ_Tour')
     res.status(301).redirect('/Web_User_Interface/720p_Series/System/PTZ_Tour/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_System_PTZ_Tour')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/System/PTZ_Tour/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_System_Log')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/System/System_Log/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_System_Logbuch')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/System/System_Log/');
 });
@@ -1168,17 +771,7 @@ indexPHPRouter.route('/HD_Manual_WebUI_Multimedia')
     res.status(301).redirect('/Web_User_Interface/720p_Series/Multimedia/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Multimedia')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Multimedia/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Multimedia_Audio')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Multimedia/Audio/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Multimedia_Audio')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Multimedia/Audio/');
 });
@@ -1188,17 +781,7 @@ indexPHPRouter.route('/HD_Manual_WebUI_Multimedia_Video')
     res.status(301).redirect('/Web_User_Interface/720p_Series/Multimedia/Video/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Multimedia_Video')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Multimedia/Video/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Multimedia_Image')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Multimedia/Image/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Multimedia_Bild')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Multimedia/Image/');
 });
@@ -1210,61 +793,27 @@ indexPHPRouter.route('/HD_Manual_WebUI_Alarm')
     res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Alarm')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Alarm_Areas')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/Areas/');
 });
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Alarm_Bereiche')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/Areas/');
-});
-
 
 indexPHPRouter.route('/HD_Manual_WebUI_Alarm_Privacy_Mask')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/Privacy_Mask/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Alarm_Privatsphäre')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/Privacy_Mask/');
-});
-
-
 indexPHPRouter.route('/HD_Manual_WebUI_Alarm_Actions')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/Actions/');
 });
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Alarm_Aktionen')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/Actions/');
-});
-
 
 indexPHPRouter.route('/HD_Manual_WebUI_Alarm_Schedule')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/Schedule/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Alarm_Zeitplan')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/Schedule/');
-});
-
-
 indexPHPRouter.route('/HD_Manual_WebUI_Alarm_SMTP_Server')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/SMTP_Server/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Alarm_SMTP_Server')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/SMTP_Server/');
 });
@@ -1274,17 +823,7 @@ indexPHPRouter.route('/HD_Manual_WebUI_Alarm_EMAIL')
     res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/Email/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Alarm_EMAIL')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/Email/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Alarm_FTP')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/FTP/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Alarm_FTP')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/FTP/');
 });
@@ -1294,30 +833,14 @@ indexPHPRouter.route('/HD_Manual_WebUI_Alarm_Audio_Alarm')
     res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/Audio_Alarm/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Alarm_Audio_Alarm')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/Audio_Alarm/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Alarm_SD_Card')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/SD_Card/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Alarm_SD_Karte')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Alarm/SD_Card/');
-});
-
-
 
 
 indexPHPRouter.route('/HD_Manual_WebUI_Recording')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Recording/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Aufnahme')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Recording/');
 });
@@ -1327,27 +850,12 @@ indexPHPRouter.route('/HD_Manual_WebUI_Recording_Schedule')
     res.status(301).redirect('/Web_User_Interface/720p_Series/Recording/Schedule/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Aufnahme_Zeitplan')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Recording/Schedule/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Recording_Video')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Recording/Video/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Aufnahme_Video')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Recording/Video/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Recording_Photoseries')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Recording/Photoseries/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Aufnahme_Fotoserie')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Recording/Photoseries/');
 });
@@ -1359,17 +867,7 @@ indexPHPRouter.route('/HD_Manual_WebUI_Menu_Bar')
     res.status(301).redirect('/Web_User_Interface/720p_Series/Menu_Bar/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Menüleiste')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Menu_Bar/');
-});
-
 indexPHPRouter.route('/HD_Manual_WebUI_Video_Menu_Bar')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/Video_Menu_Bar/');
-});
-
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_Video_Menüleiste')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/720p_Series/Video_Menu_Bar/');
 });
@@ -1379,10 +877,7 @@ indexPHPRouter.route('/HD_Manual_WebUI_PTZ_Control')
     res.status(301).redirect('/Web_User_Interface/720p_Series/PTZ_Control/');
 });
 
-indexPHPRouter.route('/HD_Handbuch_Weboberfläche_PTZ_Kontrolle')
-  .get(function(req, res) {
-    res.status(301).redirect('/Web_User_Interface/720p_Series/PTZ_Control/');
-});
+
 
 
 
