@@ -63,6 +63,19 @@ indoorCamsRouter.route('/IN-8015_HD/Technical_Specifications/')
     res.status(301).redirect('/Innenkameras/IN-8015_HD/Technische_Spezifikationen/');
 });
 
+indoorCamsRouter.route('')
+  .get(function(req, res) {
+    res.status(301).redirect('/Innenkameras/IN-8015_HD/Technische_Spezifikationen/');
+});
+
+indoorCamsRouter.route('/IN-8015_HD/Technical_Specifications/Power_Graph')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-8015_Tech_Specs_Power_Graph', {
+          title: 'IN-8015 HD Power Consumption',
+        });
+    });
+
+
 /* ###################################################### IN-6014 HD ###################################################### */
 
 indoorCamsRouter.route('/IN-6014_HD/Safety_Warnings/')
