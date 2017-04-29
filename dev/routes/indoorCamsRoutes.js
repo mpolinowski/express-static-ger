@@ -75,6 +75,20 @@ indoorCamsRouter.route('/IN-8015_HD/Technical_Specifications/Power_Graph')
         });
     });
 
+indoorCamsRouter.route('/IN-8015_HD/Technical_Specifications/4-2mm_Lense_Graph')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-8015_Tech_Specs_4-2mm_Lense_Graph', {
+          title: 'IN-8015 HD 4.2mm Wideangle Lense',
+        });
+    });
+
+indoorCamsRouter.route('/IN-8015_HD/Technical_Specifications/Image_Width_Graph')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-8015_Tech_Specs_Image_Width_Graph', {
+          title: 'IN-8015 HD Image Width Comparison',
+        });
+    });
+
 
 /* ###################################################### IN-6014 HD ###################################################### */
 
