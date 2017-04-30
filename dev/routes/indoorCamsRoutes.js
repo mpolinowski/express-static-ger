@@ -33,6 +33,20 @@ indoorCamsRouter.route('/IN-8015_HD/')
     res.status(301).redirect('/Innenkameras/IN-8015_HD/');
 });
 
+indoorCamsRouter.route('/IN-8015_HD/Nightvision_Graph/')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-8015_Overview_Nightvision_Graph', {
+          title: 'IN-8015 HD Nightvision Comparison',
+        });
+    });
+
+indoorCamsRouter.route('/IN-8015_HD/Angle_Graph/')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-8015_Overview_Angle_Graph', {
+          title: 'IN-8015 HD Angle of View Comparison',
+        });
+    });
+
 indoorCamsRouter.route('/IN-8015_HD/Usermanual/')
   .get(function(req, res) {
     res.status(301).redirect('/Innenkameras/IN-8015_HD/Handbuch/');
