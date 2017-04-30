@@ -2,7 +2,7 @@ var ctx = document.getElementById('angleofview8015');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['IN-8015 HD', 'IN-6012 HD', 'IN-3011', 'IN-9008 HD', 'IN-5907 HD', 'IN-5905 HD'],
+        labels: ['IN-8015HD', 'IN-6012HD', 'IN-3011', 'IN-9008HD', 'IN-5907HD', 'IN-5905HD'],
         datasets: [
             {
                 type: 'bar',
