@@ -6,13 +6,13 @@ var myChart = new Chart(ctx, {
         datasets: [
             {
                 type: 'bar',
-                label: 'Nightvision min. [m]',
+                label: 'Nachtsicht min. [m]',
                 data: [12, 5, 8, 18, 8, 12],
                 backgroundColor: 'rgba(2, 117, 216, 1)',
               },
             {
                 type: 'bar',
-                label: 'Nightvision max. [m]',
+                label: 'Nachtsicht max. [m]',
                 data: [20, 10, 12, 25, 12, 20],
                 backgroundColor: 'rgba(240, 173, 78, 1)',
               },

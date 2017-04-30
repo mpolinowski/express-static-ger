@@ -2,7 +2,7 @@ var ctx = document.getElementById('radar6014_8015');
 var myChart = new Chart(ctx, {
       type: 'radar',
       data: {
-        labels: ['Nightvision [m]', 'Megapixel', 'Power Consumptions [W]', 'IR LEDs', 'Focal Length [mm]'],
+        labels: ['Nachtsicht [m]', 'Megapixel', 'Leistungsaufnahme [W]', 'IR LEDs', 'Brennweite [mm]'],
         datasets: [{
           label: 'IN-6014 HD',
           backgroundColor: 'rgba(2, 117, 216, 0.5)',

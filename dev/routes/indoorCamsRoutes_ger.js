@@ -220,7 +220,7 @@ indoorCamsGerRouter.route('/IN-8015_HD/Technische_Spezifikationen')
       uplink: '/Innenkameras/IN-8015_HD/',
       ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
       headline: 'INSTAR Produkte IP Innenkameras',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/Products">Products</a></li><li class="breadcrumb-item"><a href="/Innenkameras/">Innenkameras</a></li><li class="breadcrumb-item"><a href="/Innenkameras/IN-8015_HD/">IN-8015 HD</a></li><li class="breadcrumb-item"><a href="/Innenkameras/IN-8015_HD/Technische_Spezifikationen/">Technische Spezifikationen</a></li>',
+      breadcrumbs: '<li><a href="/Innenkameras/">Innenkameras</a></li><li><a href="/Innenkameras/IN-8015_HD/">IN-8015 HD</a></li><li><a href="/Innenkameras/IN-8015_HD/Technische_Spezifikationen/">Technische Spezifikationen</a></li>',
 		  pacc: '',
 		  qiacc: '',
 		  mdacc: '',
