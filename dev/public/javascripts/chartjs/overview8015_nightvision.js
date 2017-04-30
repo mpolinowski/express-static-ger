@@ -2,7 +2,7 @@ var ctx = document.getElementById('nightvision8015');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['IN-8015HD', 'IN-6012HD', 'IN-3011', 'IN-9008HD', 'IN-5907HD', 'IN-5905HD'],
+        labels: ['IN-8015', 'IN-6012', 'IN-3011', 'IN-9008', 'IN-5907', 'IN-5905'],
         datasets: [
             {
                 type: 'bar',

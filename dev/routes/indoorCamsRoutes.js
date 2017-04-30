@@ -47,6 +47,20 @@ indoorCamsRouter.route('/IN-8015_HD/Angle_Graph/')
         });
     });
 
+indoorCamsRouter.route('/IN-8015_HD/8015v6012/')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-8015_Overview_8015v6012_Graph', {
+          title: 'IN-8015 HD vs IN-6012 HD',
+        });
+    });
+
+indoorCamsRouter.route('/IN-8015_HD/8015v3011/')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-8015_Overview_8015v3011_Graph', {
+          title: 'IN-8015 HD vs IN-3011',
+        });
+    });
+
 indoorCamsRouter.route('/IN-8015_HD/Usermanual/')
   .get(function(req, res) {
     res.status(301).redirect('/Innenkameras/IN-8015_HD/Handbuch/');
