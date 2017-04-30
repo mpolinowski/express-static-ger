@@ -299,7 +299,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Technische_Spezifikationen')
   	  uplink: '/Aussenkameras/IN-9008_HD/Handbuch',
       ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
       headline: 'INSTAR IP Aussenkameras',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/Produkte/">Produkte</a></li><li class="breadcrumb-item"><a href="/Aussenkameras">Aussenkameras</a></li><li class="breadcrumb-item"><a href="/Aussenkameras/IN-9008_HD/">IN-9008 HD</a></li><li class="breadcrumb-item"><a href="/Aussenkameras/IN-9008_HD/Handbuch">Handbuch</a></li><li class="breadcrumb-item"><a href="/Aussenkameras/IN-9008_HD/Technische_Spezifikationen/">Technische Spezifikationen</a></li>',
+      breadcrumbs: '<li><a href="/Aussenkameras">Aussenkameras</a></li><li><a href="/Aussenkameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Aussenkameras/IN-9008_HD/Handbuch">Handbuch</a></li><li><a href="/Aussenkameras/IN-9008_HD/Technische_Spezifikationen/">Technische Spezifikationen</a></li>',
 		  pacc: '',
 		  qiacc: '',
 		  mdacc: '',

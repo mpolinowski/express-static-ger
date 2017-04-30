@@ -81,6 +81,27 @@ outdoorCamsRouter.route('/IN-9008_HD/Technical_Specifications/')
     res.status(301).redirect('/Aussenkameras/IN-9008_HD/Technische_Spezifikationen/');
 });
 
+outdoorCamsRouter.route('/IN-9008_HD/Technical_Specifications/Power_Graph')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-9008_Tech_Specs_Power_Graph', {
+          title: 'IN-9008 HD Power Consumption',
+        });
+    });
+
+outdoorCamsRouter.route('/IN-9008_HD/Technical_Specifications/4-2mm_Lense_Graph')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-9008_Tech_Specs_4-2mm_Lense_Graph', {
+          title: 'IN-9008 HD 4.2mm Wideangle Lense',
+        });
+    });
+
+outdoorCamsRouter.route('/IN-9008_HD/Technical_Specifications/Image_Width_Graph')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-9008_Tech_Specs_Image_Width_Graph', {
+          title: 'IN-9008 HD Image Width Comparison',
+        });
+    });
+
 
 /* ###################################################### IN-7011 HD ###################################################### */
 

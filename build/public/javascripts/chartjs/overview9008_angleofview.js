@@ -6,19 +6,19 @@ var myChart = new Chart(ctx, {
         datasets: [
             {
                 type: 'bar',
-                label: 'Diagonal Angle [°]',
+                label: 'Diagonal Winkel [°]',
                 data: [72.3, 75.3, 45.9, 44.1, 56.8, 78.1],
                 backgroundColor: '#373a3c',
               },
 							{
                 type: 'bar',
-                label: 'Horizontal Angle [°]',
+                label: 'Horizontal Winkel [°]',
                 data: [61.4, 64.0, 36.8, 37.5, 48.2, 66.3],
                 backgroundColor: 'rgba(2, 117, 216, 1)',
               },
             	{
                 type: 'bar',
-                label: 'Vertical Angle [°]',
+                label: 'Vertical Winkel [°]',
                 data: [38.1, 39.7, 28.4, 23.3, 29.9, 41.2],
                 backgroundColor: 'rgba(240, 173, 78, 1)',
               },
