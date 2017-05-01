@@ -333,6 +333,34 @@ outdoorCamsRouter.route('/IN-5905_HD/')
     res.status(301).redirect('/Aussenkameras/IN-5905_HD/');
 });
 
+outdoorCamsRouter.route('/IN-5905_HD/Nightvision_Graph/')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-5905_Overview_Nightvision_Graph', {
+          title: 'IN-5905 HD Nightvision Comparison',
+        });
+    });
+
+outdoorCamsRouter.route('/IN-5905_HD/Angle_Graph/')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-5905_Overview_Angle_Graph', {
+          title: 'IN-5905 HD Angle of View Comparison',
+        });
+    });
+
+outdoorCamsRouter.route('/IN-5905_HD/5905v9008/')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-5905_Overview_5905v9008_Graph', {
+          title: 'IN-5905 HD vs IN-9008 HD',
+        });
+    });
+
+outdoorCamsRouter.route('/IN-5905_HD/5905v2905/')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-5905_Overview_5905v2905_Graph', {
+          title: 'IN-5905 HD vs IN-2905',
+        });
+    });
+
 outdoorCamsRouter.route('/IN-5905_HD/Usermanual/')
   .get(function(req, res) {
     res.status(301).redirect('/Aussenkameras/IN-5905_HD/Handbuch/');
