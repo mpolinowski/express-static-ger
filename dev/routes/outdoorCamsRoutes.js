@@ -31,6 +31,34 @@ outdoorCamsRouter.route('/IN-9008_HD/')
     res.status(301).redirect('/Aussenkameras/IN-9008_HD/');
 });
 
+indoorCamsRouter.route('/IN-9008_HD/Nightvision_Graph/')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-9008_Overview_Nightvision_Graph', {
+          title: 'IN-9008 HD Nightvision Comparison',
+        });
+    });
+
+indoorCamsRouter.route('/IN-9008_HD/Angle_Graph/')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-9008_Overview_Angle_Graph', {
+          title: 'IN-9008 HD Angle of View Comparison',
+        });
+    });
+
+indoorCamsRouter.route('/IN-9008_HD/9008v5907/')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-9008_Overview_9008v5907_Graph', {
+          title: 'IN-9008 HD vs IN-5907 HD',
+        });
+    });
+
+indoorCamsRouter.route('/IN-9008_HD/9008v2905/')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-9008_Overview_9008v2905_Graph', {
+          title: 'IN-9008 HD vs IN-2905',
+        });
+    });
+
 outdoorCamsRouter.route('/IN-9008_HD/Usermanual/')
   .get(function(req, res) {
     res.status(301).redirect('/Aussenkameras/IN-9008_HD/Handbuch/');
