@@ -159,14 +159,14 @@ indoorCamsRouter.route('/IN-6014_HD/Angle_Graph/')
         });
     });
 
-indoorCamsRouter.route('/IN-6014_HD/8015v6012/')
+indoorCamsRouter.route('/IN-6014_HD/6014v8015/')
   .get(function(req, res) {
       res.render('./Indoor_Cams/IN-6014_Overview_6014v8015_Graph', {
           title: 'IN-6014 HD vs IN-8015 HD',
         });
     });
 
-indoorCamsRouter.route('/IN-6014_HD/8015v3011/')
+indoorCamsRouter.route('/IN-6014_HD/6014v3011/')
   .get(function(req, res) {
       res.render('./Indoor_Cams/IN-6014_Overview_6014v3011_Graph', {
           title: 'IN-6014 HD vs IN-3011',
