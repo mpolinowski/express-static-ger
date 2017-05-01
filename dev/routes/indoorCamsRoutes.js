@@ -230,6 +230,34 @@ indoorCamsRouter.route('/IN-6012_HD/')
     res.status(301).redirect('/Innenkameras/IN-6012_HD/');
 });
 
+indoorCamsRouter.route('/IN-6012_HD/Nightvision_Graph/')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-6012_Overview_Nightvision_Graph', {
+          title: 'IN-6012 HD Nightvision Comparison',
+        });
+    });
+
+indoorCamsRouter.route('/IN-6012_HD/Angle_Graph/')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-6012_Overview_Angle_Graph', {
+          title: 'IN-6012 HD Angle of View Comparison',
+        });
+    });
+
+indoorCamsRouter.route('/IN-6012_HD/6012v8015/')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-6012_Overview_6012v8015_Graph', {
+          title: 'IN-6012 HD vs IN-8015 HD',
+        });
+    });
+
+indoorCamsRouter.route('/IN-6012_HD/6012v3011/')
+  .get(function(req, res) {
+      res.render('./Indoor_Cams/IN-6012_Overview_6012v3011_Graph', {
+          title: 'IN-6012 HD vs IN-3011',
+        });
+    });
+
 indoorCamsRouter.route('/IN-6012_HD/Usermanual/')
   .get(function(req, res) {
     res.status(301).redirect('/Innenkameras/IN-6012_HD/Handbuch/');
