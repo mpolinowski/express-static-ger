@@ -324,7 +324,7 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">PIR Erkennungsreichweite</th>
-                                    <td>25 Meter
+                                    <td>bis zu 25 Meter
                                     &nbsp;&nbsp;
                                     <button on="tap:pir-sensor-caution" class="btn btnSmall btnRed">Achtung</button></td>
                                 </tr>
@@ -395,23 +395,9 @@
                             </tbody>
                         </table>
 
-                        <div class="desktop-up">
-
+                        <div class="desktop-up margin">
                             <h3>Leistungsaufnahme</h3>
                             <p>IN-9008 HD (blau) vs. <a href="/Outdoor_Cameras/IN-5905_HD" target="_blank">IN-5905 HD</a> (orange) vs. <a href="/Outdoor_Cameras/IN-2905_V2" target="_blank">IN-2905 V2</a> (schwarz) vs. <a href="/Outdoor_Cameras/IN-5907_HD" target="_blank">IN-5907 HD</a> (rot) in [W]</p>
-                            <h4>Leistungsaufnahme unter verschiedenen Betriebsbedingungen</h4>
-
-                            <ol>
-                              <li><p>Boot Vorgang (minimale Aufnahme)</p></li>
-                              <li><p>Boot Vorgang (maximale Aufnahme)</p></li>
-                              <li><p>Bootvorgang mit aktiven IR LEDs (max. Aufnahme)</p></li>
-                              <li><p>Leerlauf</p></li>
-                              <li><p>Leerlauf mit aktiven IR LEDs</p></li>
-                              <li><p>Leerlauf mit aktiven IR LEDs im WLAN Betrieb</p></li>
-                              <li><p>Leerlauf bei aktiver Videoaufnahme</p></li>
-                              <li><p>Leerlauf bei aktiver Videoaufnahme mit aktiven IR LEDs</p></li>
-                            </ol>
-
                             <amp-iframe width=920 height=700
                                 sandbox="allow-scripts allow-same-origin"
                                 layout="responsive"
@@ -419,8 +405,12 @@
                                 src="https://diedatenstrategen.de/Outdoor_Cameras/IN-9008_HD/Technical_Specifications/Power_Graph/">
                                 <amp-img layout="fill" src="/images/Usermanuals/placeholder_power_consumption.jpg" placeholder></amp-img>
                             </amp-iframe>
-
+                            <div>
+                                <h4>Leistungsaufnahme unter verschiedenen Betriebsbedingungen</h4>
+                                <p class="justify"><strong>1.)</strong> Boot Vorgang (minimale Aufnahme), <strong>2.)</strong> Boot Vorgang (maximale Aufnahme), <strong>3.)</strong>  Bootvorgang mit aktiven IR LEDs (maximale Aufnahme), <strong>4.)</strong> Leerlauf, <strong>5.)</strong> Leerlauf mit aktiven IR LEDs, <strong>6.)</strong> Leerlauf mit aktiven IR LEDs im WLAN Betrieb, <strong>7.)</strong> Leerlauf bei aktiver Videoaufnahme, <strong>8.)</strong> Leerlauf bei aktiver Videoaufnahme mit aktiven IR LEDs</p>
+                            </div>
                         </div>
+                        <!-- /margin -->
 
                         <h3>Software Spezifikationen</h3>
 
@@ -705,7 +695,7 @@
                                 <h3 class="inlineHeader">Panasonic PaPIR EKMC16 Technische Spezifikationen&nbsp;&nbsp;&nbsp;</h3>
                               </td>
                               <td class="align-right">
-                                <button class="navGo navGoRed" on="tap:lense-specifications.close">Schließen</button>
+                                <button class="navGo navGoRed" on="tap:pir-sensor.close">Schließen</button>
                               </td>
                             </tr>
                           </table>
@@ -720,6 +710,8 @@
                     <div class="card-container">
                       <div class="onecard">
                         <div class="content">
+                          <h3>Algemeine Berücksichtigungen</h3>
+                          <h4>PANASONIC PAPIR EKMC16 pyroelektrischer Bewegungsmelder</h4>
                           <p class="justify">PaPIRs are pyroelectric infrared sensors that detect variations in infrared rays. However, detection may not be successful in the following cases: lack of movement or no temperature change in the heat source. They could also detect the presence of heat sources other than a human body. Efficiency and reliability of the system may vary depending on the actual operating conditions:</p>
                           <ul>
                             <li>Detecting heat sources other than the human body, such as:</li>
@@ -747,11 +739,8 @@
                         <div class="action">
                           <table class="twelve columns no-highlight">
                             <tr>
-                              <td>
-                                <h3 class="inlineHeader">Allgemeine Berücksichtigungen&nbsp;&nbsp;&nbsp;</h3>
-                              </td>
                               <td class="align-right">
-                                <button class="navGo navGoRed" on="tap:lense-specifications.close">Schließen</button>
+                                <button class="navGo navGoRed" on="tap:pir-sensor-caution.close">Schließen</button>
                               </td>
                             </tr>
                           </table>
