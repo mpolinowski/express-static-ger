@@ -159,6 +159,34 @@ outdoorCamsRouter.route('/IN-7011_HD/')
     res.status(301).redirect('/Aussenkameras/IN-7011_HD/');
 });
 
+outdoorCamsRouter.route('/IN-7011_HD/Nightvision_Graph/')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-7011_Overview_Nightvision_Graph', {
+          title: 'IN-7011 HD Nightvision Comparison',
+        });
+    });
+
+outdoorCamsRouter.route('/IN-7011_HD/Angle_Graph/')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-7011_Overview_Angle_Graph', {
+          title: 'IN-7011 HD Angle of View Comparison',
+        });
+    });
+
+outdoorCamsRouter.route('/IN-7011_HD/7011v9008/')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-7011_Overview_7011v9008_Graph', {
+          title: 'IN-7011 HD vs IN-9008 HD',
+        });
+    });
+
+outdoorCamsRouter.route('/IN-7011_HD/7011v2905/')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-7011_Overview_7011v2905_Graph', {
+          title: 'IN-7011 HD vs IN-2905',
+        });
+    });
+
 outdoorCamsRouter.route('/IN-7011_HD/Usermanual/')
   .get(function(req, res) {
     res.status(301).redirect('/Aussenkameras/IN-7011_HD/Handbuch/');
