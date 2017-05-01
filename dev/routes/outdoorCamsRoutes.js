@@ -246,6 +246,34 @@ outdoorCamsRouter.route('/IN-5907_HD/')
     res.status(301).redirect('/Aussenkameras/IN-5907_HD/');
 });
 
+outdoorCamsRouter.route('/IN-5907_HD/Nightvision_Graph/')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-5907_Overview_Nightvision_Graph', {
+          title: 'IN-5907 HD Nightvision Comparison',
+        });
+    });
+
+outdoorCamsRouter.route('/IN-5907_HD/Angle_Graph/')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-5907_Overview_Angle_Graph', {
+          title: 'IN-5907 HD Angle of View Comparison',
+        });
+    });
+
+outdoorCamsRouter.route('/IN-5907_HD/5907v9008/')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-5907_Overview_5907v9008_Graph', {
+          title: 'IN-5907 HD vs IN-9008 HD',
+        });
+    });
+
+outdoorCamsRouter.route('/IN-5907_HD/5907v2905/')
+  .get(function(req, res) {
+      res.render('./Outdoor_Cams/IN-5907_Overview_5907v2905_Graph', {
+          title: 'IN-5907 HD vs IN-2905',
+        });
+    });
+
 outdoorCamsRouter.route('/IN-5907_HD/Usermanual/')
   .get(function(req, res) {
     res.status(301).redirect('/Aussenkameras/IN-5907_HD/Handbuch/');
