@@ -25,7 +25,9 @@ var advancedUserGerRouter = require('./build/routes/advancedUserRoutes_ger');
 var cgi720pRouter = require('./build/routes/cgi720pRoutes');
 var cgi1080pRouter = require('./build/routes/cgi1080pRoutes');
 var webUI720pRouter = require('./build/routes/webUI720pRoutes');
+var webUI720pGerRouter = require('./build/routes/webUI720pRoutes_ger');
 var webUI1080pRouter = require('./build/routes/webUI1080pRoutes');
+var webUI1080pGerRouter = require('./build/routes/webUI1080pRoutes_ger');
 var qnaRouter = require('./build/routes/qnaRoutes');
 var indexPHPRouter = require('./build/routes/indexPHPRoutes');
 
@@ -65,7 +67,9 @@ app.use('/Erweitert/', advancedUserGerRouter);
 app.use('/720p_Series_CGI_List/', cgi720pRouter);
 app.use('/1080p_Series_CGI_List/', cgi1080pRouter);
 app.use('/Web_User_Interface/720p_Series/', webUI720pRouter);
+app.use('/Web_User_Interface/720p_Serie/', webUI720pGerRouter);
 app.use('/Web_User_Interface/1080p_Series/', webUI1080pRouter);
+app.use('/Web_User_Interface/1080p_Serie/', webUI1080pGerRouter);
 app.use('/Fragen_und_Antworten/', qnaRouter);
 app.use('/index.php/', indexPHPRouter);
 
