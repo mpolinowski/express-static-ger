@@ -63,6 +63,16 @@ indexPHPRouter.route('/Wie_Sie_Ihrer_IP_Kamera_mit_einem_alternativen_IP_Scanner
     res.status(301).redirect('/Quick_Installation/Alternative_IP_Scanner');
 });
 
+indexPHPRouter.route('/Language_Selection/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Quick_Installation/Language_Selection');
+});
+
+indexPHPRouter.route('/Sprachauswahl_in_der_IP_Kamera/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Quick_Installation/Language_Selection');
+});
+
 indexPHPRouter.route('/ONVIF')
   .get(function(req, res) {
     res.status(301).redirect('/Quick_Installation/ONVIF');
@@ -148,7 +158,6 @@ indexPHPRouter.route('/Notwendige_Einstellungen_bei_AVIRA_Antivirus_Pro')
     res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/AVIRA');
 });
 
-
 indexPHPRouter.route('/Exception_for_your_IP_camera_in_F-Secure_Internet_Security')
   .get(function(req, res) {
     res.status(301).redirect('/Quick_Installation/Live_Video/Troubleshooting/F-Secure');
@@ -162,16 +171,6 @@ indexPHPRouter.route('/Notwendige_Einstellungen_bei_F-Secure_Internet_Security')
 indexPHPRouter.route('/Live_Video_in_Microsoft_Edge')
   .get(function(req, res) {
     res.status(301).redirect('/Quick_Installation/Live_Video');
-});
-
-indexPHPRouter.route('/Language_Selection')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Language_Selection');
-});
-
-indexPHPRouter.route('/Sprachauswahl_in_der_IP_Kamera')
-  .get(function(req, res) {
-    res.status(301).redirect('/Quick_Installation/Language_Selection');
 });
 
 indexPHPRouter.route('/Creating_User_Accounts')

@@ -8,15 +8,14 @@ This App was created in several steps:
 
 1. [Install Node.js and Express.js to develop our Web Application](#1-install-nodejs-and-expressjs-to-serve-our-web-application)
 2. [Preparing the Site Structure](#2-preparing-the-site-structure)
-3. [Import JSON Elements](#3-import-json-elements)
-4. [Install and Configure Gulp.js](#4-install-and-configure-gulpjs)
-5. [Install NGINX on CentOS](#5-install-nginx-on-a-centos-7-web-server)
-6. [Install Node.js on CentOS](#6-install-nodejs-on-a-centos-7-web-server)
-7. [Clone Repo from Git](#7-clone-repo-from-git)
-8. [Run the app as a service (PM2)](#8-run-the-app-as-a-service-pm2)
-9. [Install Java](#9-install-java)
-10. [Install Elasticsearch](#10-install-elasticsearch)
-11. [Install Kibana](#11-install-kibana)
+3. [Install and Configure Gulp.js](#3-install-and-configure-gulpjs)
+4. [Install NGINX on CentOS](#4-install-nginx-on-a-centos-7-web-server)
+5. [Install Node.js on CentOS](#5-install-nodejs-on-a-centos-7-web-server)
+6. [Clone Repo from Git](#6-clone-repo-from-git)
+7. [Run the app as a service (PM2)](#7-run-the-app-as-a-service-pm2)
+8. [Install Java](#8-install-java)
+9. [Install Elasticsearch](#9-install-elasticsearch)
+10. [Install Kibana](#10-install-kibana)
 
 
 ### 1 Install Node.js and Express.js to develop our Web Application
@@ -45,75 +44,7 @@ The following folders and files will be created in the **dev** folder. Later [Gu
 * Repeat with other partials that you might want to reuse on other pages!
 * Copy all your websites (EJS files) pages into the content folder
 
-
-### 3 Import JSON Elements
-___
-
-**index.js**
-
-Let´s add data from the *gallery.json* file to our index.ejs page. First we have to reference the JSON document in the *index.js* route. We also specify which elemts we want to extract from the file, so we can later create a for-loop over it inside the gallery-xxx.ejs partials.
-
-```javascript
-var express = require('express');
-var router = express.Router();
-var appdata = require('../views/partials/data/gallery.json'); /* Reference the JSON file (can later be subtitued by a database) */
-
-/* GET home page. */
-router.get('/', function(req, res, next) {
-
-    var qiPicture = []; /* Create arrays  */
-    var qiPictureAlt = [];
-    var qiHref = [];
-    var iaPicture = [];
-    var iaPictureAlt = [];
-    var iaHref = [];
-    var mdPicture = [];
-    var mdPictureAlt = [];
-    var mdHref = [];
-    appdata.articles.forEach(function(item) { /* Add all elements from gallery.json for the gallery */
-        qiPicture = qiPicture.concat(item.qiPic);
-        qiPictureAlt = qiPictureAlt.concat(item.qiPicAlt);
-        qiHref = qiHref.concat(item.qiUrl);
-        iaPicture = iaPicture.concat(item.iaPic);
-        iaPictureAlt = iaPictureAlt.concat(item.iaPicAlt);
-        iaHref = iaHref.concat(item.iaUrl);
-        mdPicture = mdPicture.concat(item.mdPic);
-        mdPictureAlt = mdPictureAlt.concat(item.mdPicAlt);
-        mdHref = mdHref.concat(item.mdUrl);
-      });
-
-    res.render('index', {  /* Make arrays available in index.ejs */
-        title: 'INSTAR Wiki',
-        qiPic: qiPicture,
-        qiPicAlt: qiPictureAlt,
-        qiUrl: qiHref,
-        iaPic: iaPicture,
-        iaPicAlt: iaPictureAlt,
-        iaUrl: iaHref,
-        mdPic: mdPicture,
-        mdPicAlt: mdPictureAlt,
-        mdUrl: mdHref,
-      });
-  });
-
-module.exports = router;
-```
-
-**gallery-xxx.ejs**
-
-Now we can for-loop over all required elements in our gallery partials:
-
-```javascript
-<% if (mdPic.length > 0) { %>
-    <% for (i=1; i<mdPic.length; i++) { %>
-        <div class="col-xs-6 col-lg-4 mb">
-            <a href="http://loxalhost:3000/<%= mdUrl[i] %>"><img src="<%= mdPic[i] %>" alt="<%= mdPicAlt[i] %>" class="img-fluid"></a>
-        </div>
-    <% } %>
-<% } %>
-```
-
-### 4 Install and Configure Gulp.js
+### 3 Install and Configure Gulp.js
 ___
 
 * **Step One** — Install [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) globally:
@@ -286,7 +217,7 @@ This task will grab all files from the dev folder, minify/compress them and save
 
 
 
-### 5 Install NGINX on a CentOS 7 web server
+### 4 Install NGINX on a CentOS 7 web server
 ___
 
 * **Step One** — Add Nginx Repository
@@ -327,13 +258,8 @@ To restart the Nginx service, enter the following command:
  service nginx restart
 ```
 
-Check Nginx version:
-```
- nginx -V
-```
 
-
-### 6 Install Node.js on a CentOS 7 web server
+### 5 Install Node.js on a CentOS 7 web server
 ___
 
 * **Step One** — Download the Node.js Source
@@ -354,7 +280,7 @@ Then install, as root:
 ```
 
 
-### 7 Clone Repo from Git
+### 6 Clone Repo from Git
 ___
 
 * **Step One** — Install Git
@@ -380,7 +306,7 @@ Update an existing repo by cd into directory and:
 ```
 
 
-### 8 Run the app as a service (PM2)
+### 7 Run the app as a service (PM2)
 ___
 
 * **Step One** — Demonization
@@ -392,7 +318,7 @@ We will use Node Packaged Modules (NPM), which is basically a package manager fo
  sudo npm install pm2@latest -g
 ```
 
-To update PM2 in memory
+To update PM2 to the latest version and update version in memory
 ```
  sudo npm install pm2@latest -g
 
@@ -413,23 +339,32 @@ This also adds your application to PM2's process list, which is outputted every 
 | ------------- |:-------------:| :-----:| :-----:| :-----:| :-----:| :-----:| :-----:| -----:|
 | app      | 0 | fork | 9495 | online | 0 | 0s | 36.4 MB | disabled |
 
-Type the following to save your app list:
-```
- pm2 save
-```
-
 Applications that are running under PM2 will be restarted automatically if the application crashes or is killed, but an additional step needs to be taken to get the application to launch on system startup (boot or reboot). Luckily, PM2 provides an easy way to do this, the startup subcommand.
 
-Once you started all apps, type the following to make sure that they restart after a server restart:
+Once you started all apps, type the following to make sure that they restart after a server restart. You must also specify the init system you are running on, which is centos, in our case:
 ```
  pm2 startup [ubuntu | ubuntu14 | ubuntu12 | centos | centos6 | arch | oracle | amazon | macos | darwin | freesd | systemd | systemv | upstart | launchd | rcd]
 ```
 
-The startup subcommand generates and configures a startup script to launch PM2 and its managed processes on server boots. You must also specify the init system you are running on, which is centos, in our case:
+The startup subcommand generates and configures a startup script to launch PM2 and its managed processes on server boots. We won´t specify our OS and let pm2 decide what to do:
 ```
- sudo pm2 startup centos
+ sudo pm2 startup
 ```
 
+Bring back previously saved processes (via pm2 save):
+```
+ pm2 save
+```
+
+Disabling startup system
+```
+pm2 resurrect
+```
+
+Disabling startup system
+```
+pm2 unstartup
+```
 
 * **Step Three** — Other PM2 Commands (Optional)
 
@@ -469,7 +404,7 @@ The PM2 process monitor can be pulled up with the monit subcommand. This display
 ```
 
 
-### 9 Install Java
+### 8 Install Java
 ___
 
 * **Step One** — Public Signing Key
@@ -492,7 +427,7 @@ rm ~/jdk-8u*-linux-x64.rpm
 
 
 
-### 10 Install Elasticsearch
+### 9 Install Elasticsearch
 ___
 
 * **Step One** — Public Signing Key
@@ -504,12 +439,14 @@ Download and install the public signing key:
 
 Add the following in your /etc/yum.repos.d/ directory in a file with a .repo suffix, for example elasticsearch.repo
 ```
-[elasticsearch-2.x]
-name=Elasticsearch repository for 2.x packages
-baseurl=https://packages.elastic.co/elasticsearch/2.x/centos
+[elasticsearch-5.x]
+name=Elasticsearch repository for 5.x packages
+baseurl=https://artifacts.elastic.co/packages/5.x/yum
 gpgcheck=1
-gpgkey=https://packages.elastic.co/GPG-KEY-elasticsearch
+gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch
 enabled=1
+autorefresh=1
+type=rpm-md
 ```
 
 * **Step Two**  - Install Elasticsearch with this command:
@@ -524,14 +461,16 @@ sudo vi /etc/elasticsearch/elasticsearch.yml
 -> network.host: localhost
 ```
 
-* **Step Four** - Now start Elasticsearch:
+* **Step Four** - To configure Elasticsearch to start automatically when the system boots up, run the following commands::
 ```
-sudo systemctl start elasticsearch
+sudo /bin/systemctl daemon-reload
+sudo /bin/systemctl enable elasticsearch.service
 ```
 
-Run the following command to start Elasticsearch automatically on boot up:
+Elasticsearch can be started and stopped as follows:
 ```
-sudo systemctl enable elasticsearch
+sudo systemctl start elasticsearch.service
+sudo systemctl stop elasticsearch.service
 ```
 
 
@@ -545,17 +484,12 @@ sudo systemctl enable elasticsearch
 | logs | Log files location | /var/log/elasticsearch |
 | plugins | Plugin files location. Each plugin will be contained in a subdirectory. | /usr/share/elasticsearch/plugins |
 | repo | Shared file system repository locations. | Not configured |
-| script | Location of script files. | /etc/elasticsearch/scripts |```
-
-Check Elasticsearch Version:
-```
-curl -XGET 'localhost:9200'
-```
+| script | Location of script files. | /etc/elasticsearch/scripts |
 
 
 
 
-### 11 Install Kibana
+### 10 Install Kibana
 ___
 
 * **Step One** — Create and edit a new yum repository file for Kibana:
@@ -565,36 +499,47 @@ ___
 
 Add the following repository configuration:
 ```
-[kibana-4.5]
-name=Kibana repository for 4.5.x packages
-baseurl=http://packages.elastic.co/kibana/4.5/centos
+[kibana-5.x]
+name=Kibana repository for 5.x packages
+baseurl=https://artifacts.elastic.co/packages/5.x/yum
 gpgcheck=1
-gpgkey=http://packages.elastic.co/GPG-KEY-elasticsearch
+gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch
 enabled=1
+autorefresh=1
+type=rpm-md
 ```
 
-* **Step Two** - Restrict outside access to Kibana:
+* **Step Two**  - Install Kibana with this command:
+```
+sudo yum install kibana
+```
+
+* **Step Three** - Set Elasticsearch Connection URL:
 ```
 sudo vi /opt/kibana/config/kibana.yml
 
--> server.host: "localhost"
+-> elasticsearch.url: "http://localhost:9200"
 ```
 
-* **Step Three** - Now start the Kibana service, and enable it:
+* **Step Four** - To configure Kibana to start automatically when the system boots up, run the following commands:
 ```
-sudo systemctl start kibana
-sudo chkconfig kibana on
+sudo /bin/systemctl daemon-reload
+sudo /bin/systemctl enable kibana.service
 ```
-Type sudo systemctl stop kibana to stop the service.
+Kibana can be started and stopped as follows:
+```
+sudo systemctl start kibana.service
+sudo systemctl stop kibana.service
+```
 
-* **Step Four** - Use NGINX to securely access Kibana and use htpasswd to create an admin user:
+* **Step Five** - Use NGINX to securely access Kibana and use htpasswd to create an admin user:
 ```
 sudo yum -y install httpd-tools
 sudo htpasswd -c /etc/nginx/htpasswd.users admin
 ```
 Add your password.
 
-* **Step Five** - Securing Kibana in a Nginx server block:
+* **Step Six** - Securing Kibana in a Nginx server block:
 ```
 sudo vi /etc/nginx/nginx.conf
 ```
@@ -637,7 +582,7 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 ```
 
-* **Step Six** - Once Kibana is installed, you can install Sense running the following command from your /opt/kibana folder:
+* **Step Seven** - Once Kibana is installed, you can install Sense running the following command from your /opt/kibana folder:
 ```
 ./bin/kibana plugin --install elastic/sense
 ```
