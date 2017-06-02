@@ -1,30 +1,30 @@
 {
-  "name": "express-static-ger",
+  "name": "wiki2_de",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./build/bin/wiki2_de"
   },
   "dependencies": {
-    "body-parser": "~1.16.0",
+    "body-parser": "^1.17.2",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.6.0",
+    "debug": "^2.6.8",
     "ejs": "~2.5.1",
-    "elasticsearch": "~12.1.0",
-    "express": "~4.14.1",
-    "morgan": "~1.8.0"
+    "elasticsearch": "^13.0.1",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
   },
   "devDependencies": {
-    "babel-preset-es2015": "^6.22.0",
-    "babel-register": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
     "del": "^2.2.2",
-    "gulp-pre": "^4.0.0-alpha.5",
+    "gulp": "github:gulpjs/gulp#4.0",
     "gulp-babel": "^6.1.2",
-    "gulp-clean-css": "^3.0.2",
-    "gulp-htmlclean": "^2.7.9",
-    "gulp-imagemin": "^3.1.1",
+    "gulp-clean-css": "^3.4.1",
+    "gulp-htmlclean": "^2.7.14",
+    "gulp-imagemin": "~3.2.0",
     "gulp-newer": "^1.3.0",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.0.1"
+    "gulp-uglify": "^3.0.0"
   }
 }
