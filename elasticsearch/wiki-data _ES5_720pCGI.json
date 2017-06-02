@@ -9,7 +9,7 @@ POST /wiki2_en/article
     "title2": "The Language Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Language Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Language Menu"
 }
 POST /wiki2_en/article
@@ -23,7 +23,7 @@ POST /wiki2_en/article
     "title2": "The Reboot&Reset Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Reboot&Reset Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Reboot&Reset Menu"
 }
 POST /wiki2_en/article
@@ -37,7 +37,7 @@ POST /wiki2_en/article
     "title2": "The Backup&Restore Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Backup&Restore Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Backup&Restore Menu"
 }
 POST /wiki2_en/article
@@ -51,7 +51,7 @@ POST /wiki2_en/article
     "title2": "The Update Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Update Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Update Menu"
 }
 POST /wiki2_en/article
@@ -65,7 +65,7 @@ POST /wiki2_en/article
     "title2": "The IP Config Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The IP Config Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the IP Config Menu"
 }
 POST /wiki2_en/article
@@ -79,7 +79,7 @@ POST /wiki2_en/article
     "title2": "The DDNS Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The DDNS Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the DDNS Menu"
 }
 POST /wiki2_en/article
@@ -93,7 +93,7 @@ POST /wiki2_en/article
     "title2": "The WiFi Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The WiFi Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the WiFi Menu"
 }
 POST /wiki2_en/article
@@ -107,7 +107,7 @@ POST /wiki2_en/article
     "title2": "The P2P Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The P2P Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the P2P Menu"
 }
 POST /wiki2_en/article
@@ -121,7 +121,7 @@ POST /wiki2_en/article
     "title2": "The UPnP Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The UPnP Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the UPnP Menu"
 }
 POST /wiki2_en/article
@@ -135,7 +135,7 @@ POST /wiki2_en/article
     "title2": "The Push Service Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Push Service Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Push Service Menu"
 }
 POST /wiki2_en/article
@@ -149,7 +149,7 @@ POST /wiki2_en/article
     "title2": "The Info Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Info Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Info Menu"
 }
 POST /wiki2_en/article
@@ -163,7 +163,7 @@ POST /wiki2_en/article
     "title2": "The Date&Time Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Date&Time Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Date&Time Menu"
 }
 POST /wiki2_en/article
@@ -177,7 +177,7 @@ POST /wiki2_en/article
     "title2": "The User Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The User Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the User Menu"
 }
 POST /wiki2_en/article
@@ -191,7 +191,7 @@ POST /wiki2_en/article
     "title2": "The Status LED Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Status LED Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Status LED Menu"
 }
 POST /wiki2_en/article
@@ -205,7 +205,7 @@ POST /wiki2_en/article
     "title2": "The IR LEDs Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The IR LEDs Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the IR LEDs Menu"
 }
 POST /wiki2_en/article
@@ -219,7 +219,7 @@ POST /wiki2_en/article
     "title2": "The ONVIF Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The ONVIF Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the ONVIF Menu"
 }
 POST /wiki2_en/article
@@ -233,7 +233,7 @@ POST /wiki2_en/article
     "title2": "The PTZ Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The PTZ Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the PTZ Menu"
 }
 POST /wiki2_en/article
@@ -247,7 +247,7 @@ POST /wiki2_en/article
     "title2": "The PTZ Tour Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The PTZ Tour Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the PTZ Tour Menu"
 }
 POST /wiki2_en/article
@@ -261,7 +261,7 @@ POST /wiki2_en/article
     "title2": "The Log Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Log Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Log Menu"
 }
 POST /wiki2_en/article
@@ -275,7 +275,7 @@ POST /wiki2_en/article
     "title2": "The Audio Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Audio Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Audio Menu"
 }
 POST /wiki2_en/article
@@ -289,7 +289,7 @@ POST /wiki2_en/article
     "title2": "The Video Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Video Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Video Menu"
 }
 POST /wiki2_en/article
@@ -303,7 +303,7 @@ POST /wiki2_en/article
     "title2": "The Image Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Image Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Image Menu"
 }
 POST /wiki2_en/article
@@ -317,7 +317,7 @@ POST /wiki2_en/article
     "title2": "The Areas Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Areas Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Areas Menu"
 }
 POST /wiki2_en/article
@@ -331,7 +331,7 @@ POST /wiki2_en/article
     "title2": "The Privacy Mask Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Privacy Mask Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Privacy Mask Menu"
 }
 POST /wiki2_en/article
@@ -345,7 +345,7 @@ POST /wiki2_en/article
     "title2": "The Actions Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Actions Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Actions Menu"
 }
 POST /wiki2_en/article
@@ -359,7 +359,7 @@ POST /wiki2_en/article
     "title2": "The Schedule Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Schedule Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Schedule Menu"
 }
 POST /wiki2_en/article
@@ -373,7 +373,7 @@ POST /wiki2_en/article
     "title2": "The SMTP Server Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The SMTP Server Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the SMTP Server Menu"
 }
 POST /wiki2_en/article
@@ -387,7 +387,7 @@ POST /wiki2_en/article
     "title2": "The Email Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Email Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Email Menu"
 }
 POST /wiki2_en/article
@@ -401,7 +401,7 @@ POST /wiki2_en/article
     "title2": "The FTP Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The FTP Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the FTP Menu"
 }
 POST /wiki2_en/article
@@ -415,7 +415,7 @@ POST /wiki2_en/article
     "title2": "The Alarm Server Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Alarm Server Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Alarm Server Menu"
 }
 POST /wiki2_en/article
@@ -429,7 +429,7 @@ POST /wiki2_en/article
     "title2": "The Audio Alarm Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Audio Alarm Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Audio Alarm Menu"
 }
 POST /wiki2_en/article
@@ -443,7 +443,7 @@ POST /wiki2_en/article
     "title2": "The SD Card Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The SD Card Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the SD Card Menu"
 }
 POST /wiki2_en/article
@@ -457,7 +457,7 @@ POST /wiki2_en/article
     "title2": "The Recording Schedule Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Recording Schedule Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Recording Schedule Menu"
 }
 POST /wiki2_en/article
@@ -471,7 +471,7 @@ POST /wiki2_en/article
     "title2": "The Video Recording Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Video Recording Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Recording Schedule Menu"
 }
 POST /wiki2_en/article
@@ -485,6 +485,6 @@ POST /wiki2_en/article
     "title2": "The Photoseries Menu",
     "chapter": "720p Series CGI List",
     "tags": ["The Photoseries Menu", "CGI", "720p series", "commands", "programming", "interface"],
-    "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
+    "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Photoseries Menu"
 }

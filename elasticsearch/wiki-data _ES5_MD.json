@@ -3,13 +3,13 @@ POST /wiki2_en/article
     "title2": "Motion Detection Setup",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
     "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
-    "description": "1080p Modelle Öffnen Sie bitte die Weboberfläche Ihrer INSTAR HD IP Kamera und gehen Sie auf den Menüpunkt Alarm / Bereiche. Im Fenster Bereiche können Sie jetzt festlegen welcher Bildbereich im Video überwacht werden soll. Dazu wählen Sie bitte auf der rechten Seite den jeweiligen Bereich aus den Sie einstellen möchten und setzen Sie dann rechts daneben den Haken für Aktiv. Wechseln Sie danach in das Alarm / Aktionen Menü um einzustellen, was im Falle eines Alarms getan werden soll. Um die Email Benachrichtigung zu nutzen, müssen Sie zuerst Ihre Email Nutzerdaten im System / Email Menü hinterlegen. Folgen Sie dafür einfach unserer Alarm Benachrichtigung Anleitung. Alle Video und Schnappschuss Aufnahmen auf der SD Karte Ihrer Kamera, können mit unserer kostenlosen App für Windows Phone, Windows Metro, Android, iPhone und iPad verwaltet werden. Alternativ lassen sich die Dateien auch direkt herunterladen und dann lokal auf Ihrem Computer bearbeiten. Wenn Sie den FTP Upload nutzen möchten, müssen Sie zuerst Ihre FTP Server Zugangsdaten im Network / FTP Menü hinterlegen. Sie können z.B. Ihren Router oder Ihr NAS als FTP Server nutzen. Oder einen FTP Server auf Ihrem Windows PC installieren. Es wird empfohlen, dass Sie den integrierten Passiven Infrarot Sensor (PIR) in Kombination (Mit Bereiche Koppeln) mit den Alarmbereichen einsetzen, um Fehlalarme durch z.B. Schnee, Regen, Nebel oder Änderungen in den Lichtverhältnissen zu vermeiden. In seltenen Einsatzbereichen ist es auch sinnvoll die Bereiche gänzlich zu deaktivieren und nur den PIR Sensor zur Erkennung von Bewegung zu nutzen. Achtung: Wenn Sie Probleme mit zu vielen Alarmen haben, dann können Sie dies durch andere Einstellungen verbessern. Stellen Sie die Empfindlichkeit immer so ein, dass die von Ihnen gewünschte Bewegung registriert wird. In der Regel sind dies Personen. Stellen Sie dabei einfach einen Wert für die Empfindlichkeit ein, so dass die von Ihnen vermutete (Personen)-Bewegung noch ausreicht um einen Alarm auszulösen. Ist dieser Wert für die Sensibilität z.B. 50, so empfehlen wir einen Wert von 60 für Ihre endgültige Konfiguration. Sie können so sehr einfach den kleinsten möglichen Wert finden der für Ihre Anforderungen verlässlich arbeitet. Um Alarme durch unerwünschte Bewegungen zu vermeiden, sollten Sie den Bildausschnitt so auswählen, dass Bereiche wie z.B. der Himmel, Straßen im Hintergrund, stark reflektierende Flächen etc. nicht und/oder so gering wie möglich im Bildbereich sind. Die Wahl des richtigen Bildausschnittes kann durch andere Objektive und/oder einfach durch eine andere Kameraausrichtung erreicht werden. Dies kann die Anzahl der unerwünschten Alarme deutlich reduzieren. Es wird empfohlen den integrierten PIR Sensor der Kamera mit den Alarmbereichen zu koppeln.",
+    "description": "1080p 1080p Modelle Öffnen Sie bitte die Weboberfläche Ihrer INSTAR HD IP Kamera und gehen Sie auf den Menüpunkt Alarm / Bereiche. Im Fenster Bereiche können Sie jetzt festlegen welcher Bildbereich im Video überwacht werden soll. Dazu wählen Sie bitte auf der rechten Seite den jeweiligen Bereich aus den Sie einstellen möchten und setzen Sie dann rechts daneben den Haken für Aktiv. Wechseln Sie danach in das Alarm / Aktionen Menü um einzustellen, was im Falle eines Alarms getan werden soll. Um die Email Benachrichtigung zu nutzen, müssen Sie zuerst Ihre Email Nutzerdaten im System / Email Menü hinterlegen. Folgen Sie dafür einfach unserer Alarm Benachrichtigung Anleitung. Alle Video und Schnappschuss Aufnahmen auf der SD Karte Ihrer Kamera, können mit unserer kostenlosen App für Windows Phone, Windows Metro, Android, iPhone und iPad verwaltet werden. Alternativ lassen sich die Dateien auch direkt herunterladen und dann lokal auf Ihrem Computer bearbeiten. Wenn Sie den FTP Upload nutzen möchten, müssen Sie zuerst Ihre FTP Server Zugangsdaten im Network / FTP Menü hinterlegen. Sie können z.B. Ihren Router oder Ihr NAS als FTP Server nutzen. Oder einen FTP Server auf Ihrem Windows PC installieren. Es wird empfohlen, dass Sie den integrierten Passiven Infrarot Sensor (PIR) in Kombination (Mit Bereiche Koppeln) mit den Alarmbereichen einsetzen, um Fehlalarme durch z.B. Schnee, Regen, Nebel oder Änderungen in den Lichtverhältnissen zu vermeiden. In seltenen Einsatzbereichen ist es auch sinnvoll die Bereiche gänzlich zu deaktivieren und nur den PIR Sensor zur Erkennung von Bewegung zu nutzen. Achtung: Wenn Sie Probleme mit zu vielen Alarmen haben, dann können Sie dies durch andere Einstellungen verbessern. Stellen Sie die Empfindlichkeit immer so ein, dass die von Ihnen gewünschte Bewegung registriert wird. In der Regel sind dies Personen. Stellen Sie dabei einfach einen Wert für die Empfindlichkeit ein, so dass die von Ihnen vermutete (Personen)-Bewegung noch ausreicht um einen Alarm auszulösen. Ist dieser Wert für die Sensibilität z.B. 50, so empfehlen wir einen Wert von 60 für Ihre endgültige Konfiguration. Sie können so sehr einfach den kleinsten möglichen Wert finden der für Ihre Anforderungen verlässlich arbeitet. Um Alarme durch unerwünschte Bewegungen zu vermeiden, sollten Sie den Bildausschnitt so auswählen, dass Bereiche wie z.B. der Himmel, Straßen im Hintergrund, stark reflektierende Flächen etc. nicht und/oder so gering wie möglich im Bildbereich sind. Die Wahl des richtigen Bildausschnittes kann durch andere Objektive und/oder einfach durch eine andere Kameraausrichtung erreicht werden. Dies kann die Anzahl der unerwünschten Alarme deutlich reduzieren. Es wird empfohlen den integrierten PIR Sensor der Kamera mit den Alarmbereichen zu koppeln.",
     "description2": "1080p Camera Series - To activate the motion detection, open the web interface of your INSTAR HD IP camera and click on the menu Alarm / Areas. Now that we set the motion detection areas, we can continue with adding actions, the camera has to take, in case of an detection event. Open the Alarm Actions menu to configure the alarm actions. To use the email notification, you first have to set your email login credentials inside the System Email. Please follow our Alarm Notification Guide. All video and snapshot recordings to SD card, can be accessed by our free app for Windows Phone, Windows Metro, Android, iPhone and iPad. Alternatively, you can download all files to your computer. To use the FTP server upload, you first have to set your server information inside the Network FTP menu. You can, for example, use your Router or NAS as FTP Server. Or run a FTP Server on your Windows PC. It is recommended to use the integrated Passive Infrared Sensor (PIR) in combination (Link with Areas) with your motion detection areas, to filter out false alerts caused by e.g. rain, snow or changes in the lighting condition. You can also deactivate the detection areas and use the PIR sensor by itself. Attention: If you have problems by receiving to many alarms you can solve that by changing your settings. Always set the sensitivity so that the motion you want to detect is detected by the camera - simply test it by walking in front of your camera. If this does not trigger an alert, you can either increase the sensitivity of the detection, or decrease the size of the detection area - the smaller the area, the higher, procentually, is the change of pixels inside the area by the event. On the other hand, if you have to increase the detection area, you also have to increase the sensitivity of the detection. To avoid unwanted motion detection please avoid covering areas like the sky with moving clouds, busy streets in the background or big reflecting areas. To find the right camera position you can change the viewing angle a little bit or mount the camera on a different area which suits better to protects you home. It is usually recommended to combine the software-based detection with the integrated PIR sensor of your camera.",
     "link": "/Motion_Detection/Setup/",
     "title": "Aktivieren Sie die Bewegungserkennung Ihrer Kamera",
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
-    "image": "/images/Search/MD_SearchThumb_MDSetup.jpg",
+    "image": "/images/Search/MD_SearchThumb_MDSetup_1080p.jpg",
     "abstract": "Set up the Motion Detection 1080p"
 }
 POST /wiki2_en/article
@@ -23,7 +23,7 @@ POST /wiki2_en/article
     "title": "Aktivieren Sie die Bewegungserkennung Ihrer Kamera",
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
-    "image": "/images/Search/MD_SearchThumb_MDSetup.jpg",
+    "image": "/images/Search/MD_SearchThumb_MDSetup_720p.jpg",
     "abstract": "Set up the Motion Detection 720p"
 }
 POST /wiki2_en/article
@@ -37,7 +37,7 @@ POST /wiki2_en/article
     "title": "Aktivieren Sie die Bewegungserkennung Ihrer Kamera",
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
-    "image": "/images/Search/MD_SearchThumb_MDSetup.jpg",
+    "image": "/images/Search/MD_SearchThumb_MDSetup_VGA.jpg",
     "abstract": "Set up the Motion Detection Function"
 }
 POST /wiki2_en/article
@@ -51,7 +51,7 @@ POST /wiki2_en/article
     "title": "Lassen Sie sich von Ihrer Kamera alarmieren",
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
-    "image": "/images/Search/MD_SearchThumb_AlarmNotification.jpg",
+    "image": "/images/Search/MD_SearchThumb_AlarmNotification_1080p.jpg",
     "abstract": "Set up the Alarm Notification"
 }
 POST /wiki2_en/article
@@ -65,7 +65,7 @@ POST /wiki2_en/article
     "title": "Lassen Sie sich von Ihrer Kamera alarmieren",
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
-    "image": "/images/Search/MD_SearchThumb_AlarmNotification.jpg",
+    "image": "/images/Search/MD_SearchThumb_AlarmNotification_720p.jpg",
     "abstract": "Set up the Alarm Notification"
 }
 POST /wiki2_en/article
@@ -79,7 +79,7 @@ POST /wiki2_en/article
     "title": "Lassen Sie sich von Ihrer Kamera alarmieren",
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
-    "image": "/images/Search/MD_SearchThumb_AlarmNotification.jpg",
+    "image": "/images/Search/MD_SearchThumb_AlarmNotification_VGA.jpg",
     "abstract": "Set up the Alarm Notification"
 }
 POST /wiki2_en/article
@@ -93,7 +93,7 @@ POST /wiki2_en/article
     "title": "Lassen Sie sich von Ihrer Kamera alarmieren",
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
-    "image": "/images/Search/MD_SearchThumb_AlarmNotification.jpg",
+    "image": "/images/Search/MD_SearchThumb_AlarmNotification_Troubleshooting.jpg",
     "abstract": "Set up the Alarm Notification"
 }
 POST /wiki2_en/article
@@ -135,7 +135,7 @@ POST /wiki2_en/article
     "title": "Der SD Karten Zugriff mit Bitkinex",
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "bitkinex"],
-    "image": "/images/Search/MD_SearchThumb_SDCardAccess.jpg",
+    "image": "/images/Search/MD_SearchThumb_SDCardAccess_Bitkinex.jpg",
     "abstract": "How to access the SD Card with Bitkinex"
 }
 POST /wiki2_en/article
@@ -149,7 +149,7 @@ POST /wiki2_en/article
     "title": "Der SD Karten Zugriff mit Bitkinex",
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "CuteFTP"],
-    "image": "/images/Search/MD_SearchThumb_SDCardAccess.jpg",
+    "image": "/images/Search/MD_SearchThumb_SDCardAccess_CuteFTP.jpg",
     "abstract": "How to access the SD Card with CuteFTP"
 }
 POST /wiki2_en/article
@@ -163,7 +163,7 @@ POST /wiki2_en/article
     "title": "Der SD Karten Zugriff mit DownThemAll!",
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "DownThemAll"],
-    "image": "/images/Search/MD_SearchThumb_SDCardAccess.jpg",
+    "image": "/images/Search/MD_SearchThumb_SDCardAccess_DTA.jpg",
     "abstract": "How to access the SD Card with DownThemAll!"
 }
 POST /wiki2_en/article
@@ -177,7 +177,7 @@ POST /wiki2_en/article
     "title": "Der SD Karten Zugriff mit Interarchy",
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "Interarchy"],
-    "image": "/images/Search/MD_SearchThumb_SDCardAccess.jpg",
+    "image": "/images/Search/MD_SearchThumb_SDCardAccess_Interachy.jpg",
     "abstract": "How to access the SD Card with Interarchy"
 }
 POST /wiki2_en/article
@@ -191,7 +191,7 @@ POST /wiki2_en/article
     "title": "Der SD Karten Zugriff mit DeepVacuum",
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "DeepVacuum"],
-    "image": "/images/Search/MD_SearchThumb_SDCardAccess.jpg",
+    "image": "/images/Search/MD_SearchThumb_SDCardAccess_DeepVacuum.jpg",
     "abstract": "How to access the SD Card with DeepVacuum"
 }
 POST /wiki2_en/article
@@ -205,7 +205,7 @@ POST /wiki2_en/article
     "title": "Der SD Karten Zugriff mit SiteSucker",
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "SiteSucker"],
-    "image": "/images/Search/MD_SearchThumb_SDCardAccess.jpg",
+    "image": "/images/Search/MD_SearchThumb_SDCardAccess_SiteSucker.jpg",
     "abstract": "How to access the SD Card with SiteSucker"
 }
 POST /wiki2_en/article
@@ -219,7 +219,7 @@ POST /wiki2_en/article
     "title": "Der SD Karten Zugriff mit SimpleWget",
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "SimpleWget"],
-    "image": "/images/Search/MD_SearchThumb_SDCardAccess.jpg",
+    "image": "/images/Search/MD_SearchThumb_SDCardAccess_SimpleWget.jpg",
     "abstract": "How to access the SD Card with SimpleWget"
 }
 POST /wiki2_en/article
@@ -233,7 +233,7 @@ POST /wiki2_en/article
     "title": "Alarm Upload & FTP Einstellungen",
     "chapter": "Motion Detection",
     "tags": ["FTP", "motion detection", "alarm", "photoseries", "upload"],
-    "image": "/images/Search/MD_SearchThumb_FTPSettingsAlarmUpload.jpg",
+    "image": "/images/Search/MD_SearchThumb_FTPSettingsAlarmUpload_1080p.jpg",
     "abstract": "Upload Snapshots or Videos to an FTP Server"
 }
 POST /wiki2_en/article
@@ -247,7 +247,7 @@ POST /wiki2_en/article
     "title": "Alarm Upload & FTP Einstellungen",
     "chapter": "Motion Detection",
     "tags": ["FTP", "motion detection", "alarm", "photoseries", "upload"],
-    "image": "/images/Search/MD_SearchThumb_FTPSettingsAlarmUpload.jpg",
+    "image": "/images/Search/MD_SearchThumb_FTPSettingsAlarmUpload_720p.jpg",
     "abstract": "Upload Snapshots or Videos to an FTP Server"
 }
 POST /wiki2_en/article
@@ -261,7 +261,7 @@ POST /wiki2_en/article
     "title": "Alarm Upload & FTP Einstellungen",
     "chapter": "Motion Detection",
     "tags": ["FTP", "motion detection", "alarm", "photoseries", "upload"],
-    "image": "/images/Search/MD_SearchThumb_FTPSettingsAlarmUpload.jpg",
+    "image": "/images/Search/MD_SearchThumb_FTPSettingsAlarmUpload_VGA.jpg",
     "abstract": "Upload Snapshots or Videos to an FTP Server"
 }
 POST /wiki2_en/article
@@ -289,7 +289,7 @@ POST /wiki2_en/article
     "title": "Nutzen Sie Ihre AVM Fritzbox als FTP Server",
     "chapter": "Motion Detection",
     "tags": ["NAS", "Router", "local server", "upload", "FTP", "AVM", "Fritzbox"],
-    "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer.jpg",
+    "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_Fritzbox.jpg",
     "abstract": "AVM Fritzbox as FTP Server"
 }
 POST /wiki2_en/article
@@ -303,7 +303,7 @@ POST /wiki2_en/article
     "title": "Nutzen Sie Ihren Telekom Speedport als FTP Server",
     "chapter": "Motion Detection",
     "tags": ["NAS", "Router", "local server", "upload", "FTP", "Telekom", "Speedport"],
-    "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer.jpg",
+    "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_Speedport.jpg",
     "abstract": "Configure your Telekom Speedport as a FTP Server"
 }
 POST /wiki2_en/article
@@ -317,7 +317,7 @@ POST /wiki2_en/article
     "title": "Nutzen Sie Ihre QNAP NAS als FTP Server",
     "chapter": "Motion Detection",
     "tags": ["NAS", "Router", "local server", "upload", "QNAP"],
-    "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer.jpg",
+    "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_QNAP.jpg",
     "abstract": "Configure your QNAP as a FTP Server"
 }
 POST /wiki2_en/article
@@ -331,7 +331,7 @@ POST /wiki2_en/article
     "title": "Nutzen Sie Ihre Synology NAS als FTP Server",
     "chapter": "Motion Detection",
     "tags": ["NAS", "Router", "local server", "upload", "Synology"],
-    "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer.jpg",
+    "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_Synology.jpg",
     "abstract": "Configure your Synology as a FTP Server"
 }
 POST /wiki2_en/article
@@ -345,7 +345,7 @@ POST /wiki2_en/article
     "title": "Nutzen Sie Ihre WD MyCloud als FTP Server",
     "chapter": "Motion Detection",
     "tags": ["NAS", "Router", "local server", "upload", "Western Digital", "MyCloud"],
-    "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer.jpg",
+    "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_WD.jpg",
     "abstract": "Configure your WD MyCloud as a FTP Server"
 }
 POST /wiki2_en/article
@@ -401,7 +401,7 @@ POST /wiki2_en/article
     "title": "Cloud Benutzer erstellen",
     "chapter": "Motion Detection",
     "tags": ["cloud storage", "motion detection", "FTP Upload", "Alarm Recording"],
-    "image": "/images/Search/MD_SearchThumb_Cloud.jpg",
+    "image": "/images/Search/MD_SearchThumb_Cloud_Create.jpg",
     "abstract": "INSTAR Cloud User Management"
 }
 POST /wiki2_en/article
@@ -410,11 +410,11 @@ POST /wiki2_en/article
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
     "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
     "description": "Nutzen Sie die INSTAR Cloud als Speicherort Ihrer Alarmaufnahmen. Ein Überblick über die neue Online Aufnahmeplattform für IP Kameras von INSTAR",
-    "description2": "Cloud - Speicherplatz hinzubuchen Jeder neu angelegte Cloud Account erhält standardmäßig einen 1GB Speicher für 14 Tage um die Cloud ausgiebig testen zu können. Sofern Ihnen die INSTAR Cloud gefällt, würden wir uns natürlich freuen, wenn Sie Ihren Speicherplatz entsprechend erweitern. Dies können Sie ganz einfach durch Gutscheincodes tun, welche Sie direkt auf der INSTAR Webseite erwerben können. Siehe: INSTAR Webseite Mehr Speicherplatz buchen Schritt 1 Melden Sie sich mit Ihrem Cloud Account an und gehen Sie dort auf „Administration – Speicherplan“. Hier sehen Sie Ihren aktuellen Speicherplatz sowie die Laufzeit für welche dieser gültig ist. Schritt 2 Um jetzt Ihren Speicherplatz zu verlängern bzw. zu vergrößern, kaufen Sie zuerst entsprechenden Speicherplatz über die INSTAR Webseite. Der Speicherplatz ist immer in Einheiten von 10GB. Sollten Sie z.B. 20GB kaufen, dann können Sie im ersten Schritt 10GB Ihrem Account hinzufügen und im zweiten Schritt können Sie die zweiten 10GB entweder zur Verlängerung Ihrer Laufzeit verwenden oder um den Speicherplatz zu vergrößern auf 20GB. Dies können Sie frei wählen. Kopieren Sie den Gutscheincode für Ihre Speichereinheit den Sie von uns nach dem Kauf per Email erhalten und fügen Sie den Gutscheincode in Ihrem Cloud Account ein und wählen Sie dann „Gutschein prüfen“. Schritt 3 Sofern der Gutscheincode gültig ist, wird Ihr Account jetzt auf 10GB erweitert. Eine 10GB Einheit hat immer eine Laufzeit von 365 Tagen welches Sie in Ihrem Account dann auch entsprechend angezeigt bekommen. Schritt 4 Sollten Sie sich dazu entscheiden eine zweite 10GB Einheit Ihrem Account hinzuzufügen, dann können Sie wie zuvor erwähnt wählen, ob Sie den Speicherplatz erweitern oder die Laufzeit verlängern möchten. In unserem Beispiel erweitern wir einmal den Speicherplatz. Schritt 5 Unter dem Punkt „Warnen bei benutztem Speicherplatz von:“ können Sie einstellen ab welchem Zeitpunkt Sie eine Warnung erhalten möchten. Wenn Sie z.B. mehrere Kameras in der Cloud hinzugefügt haben und der Speicherplatz fast voll ist, dann können Sie einstellen ab welchem Zeitpunkt Sie eine Email erhalten möchten mit dem Hinweis das entweder Videos gelöscht werden müssen oder der Speicherplatz erweitert werden muss. Sie haben zudem die Möglichkeit unter „Administration – Alarme“ das automatische löschen zu aktivieren. Dies erklären wir Ihnen im Punkt 4. Administration und Übersicht der möglichen Einstellmöglichkeiten. Allgemeine Info Sie müssen in der INSTAR Cloud lediglich schauen, das Sie genügend Speicherplatz zur Verfügung haben. Wie viele Kameras Sie in Ihrem Cloud Account hinzufügen, ist und egal. So können Sie eine 10GB Einheit z.B. auch problemlos mit 4 Kameras verwenden. Dies ist natürlich davon abhängig wie viele Alarme stattfinden und wie lange Sie die Aufnahmen speichern möchten. Die Größe Ihrer Alarmvideos ist von einigen Faktoren abhängig. Um die Größe jedoch gering zu halten ohne größere Qualitätsverluste, empfehlen wir Ihnen in Ihrer Kamera direkt (über die Weboberfläche Ihrer Kamera) folgende Werte unter Multimedia – Video einzustellen: Kanal: 1 Bitrate: 1024 Frames: 25 Variable Bitrate: Qualität: 5 (keine Sorge, Sie werden den Unterschied an sich nicht sehen) Keyframe: 40", 
+    "description2": "Cloud - Speicherplatz hinzubuchen Jeder neu angelegte Cloud Account erhält standardmäßig einen 1GB Speicher für 14 Tage um die Cloud ausgiebig testen zu können. Sofern Ihnen die INSTAR Cloud gefällt, würden wir uns natürlich freuen, wenn Sie Ihren Speicherplatz entsprechend erweitern. Dies können Sie ganz einfach durch Gutscheincodes tun, welche Sie direkt auf der INSTAR Webseite erwerben können. Siehe: INSTAR Webseite Mehr Speicherplatz buchen Schritt 1 Melden Sie sich mit Ihrem Cloud Account an und gehen Sie dort auf „Administration – Speicherplan“. Hier sehen Sie Ihren aktuellen Speicherplatz sowie die Laufzeit für welche dieser gültig ist. Schritt 2 Um jetzt Ihren Speicherplatz zu verlängern bzw. zu vergrößern, kaufen Sie zuerst entsprechenden Speicherplatz über die INSTAR Webseite. Der Speicherplatz ist immer in Einheiten von 10GB. Sollten Sie z.B. 20GB kaufen, dann können Sie im ersten Schritt 10GB Ihrem Account hinzufügen und im zweiten Schritt können Sie die zweiten 10GB entweder zur Verlängerung Ihrer Laufzeit verwenden oder um den Speicherplatz zu vergrößern auf 20GB. Dies können Sie frei wählen. Kopieren Sie den Gutscheincode für Ihre Speichereinheit den Sie von uns nach dem Kauf per Email erhalten und fügen Sie den Gutscheincode in Ihrem Cloud Account ein und wählen Sie dann „Gutschein prüfen“. Schritt 3 Sofern der Gutscheincode gültig ist, wird Ihr Account jetzt auf 10GB erweitert. Eine 10GB Einheit hat immer eine Laufzeit von 365 Tagen welches Sie in Ihrem Account dann auch entsprechend angezeigt bekommen. Schritt 4 Sollten Sie sich dazu entscheiden eine zweite 10GB Einheit Ihrem Account hinzuzufügen, dann können Sie wie zuvor erwähnt wählen, ob Sie den Speicherplatz erweitern oder die Laufzeit verlängern möchten. In unserem Beispiel erweitern wir einmal den Speicherplatz. Schritt 5 Unter dem Punkt „Warnen bei benutztem Speicherplatz von:“ können Sie einstellen ab welchem Zeitpunkt Sie eine Warnung erhalten möchten. Wenn Sie z.B. mehrere Kameras in der Cloud hinzugefügt haben und der Speicherplatz fast voll ist, dann können Sie einstellen ab welchem Zeitpunkt Sie eine Email erhalten möchten mit dem Hinweis das entweder Videos gelöscht werden müssen oder der Speicherplatz erweitert werden muss. Sie haben zudem die Möglichkeit unter „Administration – Alarme“ das automatische löschen zu aktivieren. Dies erklären wir Ihnen im Punkt 4. Administration und Übersicht der möglichen Einstellmöglichkeiten. Allgemeine Info Sie müssen in der INSTAR Cloud lediglich schauen, das Sie genügend Speicherplatz zur Verfügung haben. Wie viele Kameras Sie in Ihrem Cloud Account hinzufügen, ist und egal. So können Sie eine 10GB Einheit z.B. auch problemlos mit 4 Kameras verwenden. Dies ist natürlich davon abhängig wie viele Alarme stattfinden und wie lange Sie die Aufnahmen speichern möchten. Die Größe Ihrer Alarmvideos ist von einigen Faktoren abhängig. Um die Größe jedoch gering zu halten ohne größere Qualitätsverluste, empfehlen wir Ihnen in Ihrer Kamera direkt (über die Weboberfläche Ihrer Kamera) folgende Werte unter Multimedia – Video einzustellen: Kanal: 1 Bitrate: 1024 Frames: 25 Variable Bitrate: Qualität: 5 (keine Sorge, Sie werden den Unterschied an sich nicht sehen) Keyframe: 40",
     "link": "/Motion_Detection/INSTAR_Cloud/Storage",
     "title": "Cloud Speicherplatz hinzubuchen",
     "chapter": "Motion Detection",
     "tags": ["cloud storage", "motion detection", "FTP Upload", "Alarm Recording"],
-    "image": "/images/Search/MD_SearchThumb_Cloud.jpg",
+    "image": "/images/Search/MD_SearchThumb_Cloud_Storage.jpg",
     "abstract": "INSTAR Cloud User Management"
 }
