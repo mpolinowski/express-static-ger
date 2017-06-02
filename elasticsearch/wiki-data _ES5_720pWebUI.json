@@ -9,7 +9,7 @@ POST /wiki2_en/article
     "title1": "Die Weboberfläche der HD Serie",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "software", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Configure your HD Camera over the Web User Interface"
 }
 POST /wiki2_en/article
@@ -23,7 +23,7 @@ POST /wiki2_en/article
     "title": "Software Menue der HD Weboberfläche",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "software", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Configure your HD Camera over the Web User Interface"
 }
 POST /wiki2_en/article
@@ -37,7 +37,7 @@ POST /wiki2_en/article
     "title": "Das Language Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "software", "language", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Software_Language.jpg",
     "abstract": "Set the Language used by the User Interface"
 }
 POST /wiki2_en/article
@@ -51,7 +51,7 @@ POST /wiki2_en/article
     "title": "Das Backup Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "software", "backup", "language", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Software_Backup.jpg",
     "abstract": "Backup and Restore your Camera Settings"
 }
 POST /wiki2_en/article
@@ -65,7 +65,7 @@ POST /wiki2_en/article
     "title": "Das Update Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "software", "update", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Software_Update.jpg",
     "abstract": "Update your Cameras User Interface and Firmware"
 }
 POST /wiki2_en/article
@@ -79,7 +79,7 @@ POST /wiki2_en/article
     "title": "Das Reboot & Reset Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "software", "reboot", "reset", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Software_Reboot_Reset.jpg",
     "abstract": "Reboot or Reset your Camera"
 }
 POST /wiki2_en/article
@@ -93,7 +93,7 @@ POST /wiki2_en/article
     "title": "Das Netzwerk Menue",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Adjust zour Camera's Network Configuration"
 }
 POST /wiki2_en/article
@@ -107,7 +107,7 @@ POST /wiki2_en/article
     "title": "Das IP Konfiguration Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "LAN", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Network_IP_Configuration.jpg",
     "abstract": "Configure your Camera's Network Settings"
 }
 POST /wiki2_en/article
@@ -121,7 +121,7 @@ POST /wiki2_en/article
     "title": "Das WLAN Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "WLAN", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Network_WLAN.jpg",
     "abstract": "Connect your Camera to the WiFi Network"
 }
 POST /wiki2_en/article
@@ -135,7 +135,7 @@ POST /wiki2_en/article
     "title": "Das DDNS Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "DDNS", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Network_DDNS.jpg",
     "abstract": "Access your Camera over the Internet"
 }
 POST /wiki2_en/article
@@ -149,7 +149,7 @@ POST /wiki2_en/article
     "title": "Das P2P Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "P2P", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Network_P2P.jpg",
     "abstract": "Access your Camera over the Internet (P2P)"
 }
 POST /wiki2_en/article
@@ -163,7 +163,7 @@ POST /wiki2_en/article
     "title": "Das UPnP Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "UPnP", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Network_UPnP.jpg",
     "abstract": "Universal Plug &amp; Play"
 }
 POST /wiki2_en/article
@@ -177,7 +177,7 @@ POST /wiki2_en/article
     "title": "Das Push Service Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "Push", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Network_Push.jpg",
     "abstract": "Get a Push Notification in Case of an Alert"
 }
 POST /wiki2_en/article
@@ -191,7 +191,7 @@ POST /wiki2_en/article
     "title": "Das System Menue",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Adjust your Camera Settings in the System Menu"
 }
 POST /wiki2_en/article
@@ -205,7 +205,7 @@ POST /wiki2_en/article
     "title": "Das Info Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "System", "Info", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_System_Info.jpg",
     "abstract": "Information about your Camera's Operations"
 }
 POST /wiki2_en/article
@@ -219,7 +219,7 @@ POST /wiki2_en/article
     "title": "Das Datum und Uhrzeit Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "date", "time", "zone", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_System_Date_Time.jpg",
     "abstract": "Set your Camera's Time and Date"
 }
 POST /wiki2_en/article
@@ -233,7 +233,7 @@ POST /wiki2_en/article
     "title": "Das Benutzer Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "user", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_System_User.jpg",
     "abstract": "Multi-level User Management"
 }
 POST /wiki2_en/article
@@ -247,7 +247,7 @@ POST /wiki2_en/article
     "title": "Das Status LED Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "status", "LED", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_System_Status_LED.jpg",
     "abstract": "Activate or Deactivate the Network Status LED"
 }
 POST /wiki2_en/article
@@ -261,7 +261,7 @@ POST /wiki2_en/article
     "title": "Das IR LED Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "IR", "Infrared", "LED", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_System_IR_LEDs.jpg",
     "abstract": "Adjust the Behaviour of the Infrared LEDs"
 }
 POST /wiki2_en/article
@@ -275,7 +275,7 @@ POST /wiki2_en/article
     "title": "Das ONVIF Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "ONVIF", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_System_ONVIF.jpg",
     "abstract": "Connect your Camera over the ONVIF Protocol"
 }
 POST /wiki2_en/article
@@ -289,7 +289,7 @@ POST /wiki2_en/article
     "title": "Das PTZ Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "PTZ", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_System_PTZ.jpg",
     "abstract": "Ajust your Cameras PTZ Function"
 }
 POST /wiki2_en/article
@@ -303,7 +303,7 @@ POST /wiki2_en/article
     "title": "Das PTZ Tour Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "PTZ", "Tour", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_System_PTZ_Tour.jpg",
     "abstract": "Program a PTZ Tour for your Camera"
 }
 POST /wiki2_en/article
@@ -313,11 +313,11 @@ POST /wiki2_en/article
     "models": ["IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
     "description": "Halten Sie ein Auge auf den Kamerabetrieb ipc_server start Zeit des letzten Systemstarts. Beachten Sie, dass der System Log bei jedem Neustart gelöscht wird. -- empty entry -- Loggen Sie sich in das Live Video über das Flash Video Plugin ein. Benutzer(admin, user oder guest) Login für Live Stream Loggen Sie sich über den admin, user oder guest zum Live Video Stream ein (es sei denn Sie sind über das Flash Plugin s.o. eingeloggt). Bewegungserkennung(Bereich = 1,2,3 oder 4) Alarm Zeit einer Bewegungserkennung im Alarm Bereich 1, 2, 3 oder 4. Eingangsalarm Zeit des ausgelösten Alarms durch den Alarmeingang - z.B. durch einen externen Sensor oder den internen PIR Sensor (im Fall der IN-6014 HD). Audio Alarm Zeit eines Alarm Events durch den Audio Alarm Ihrer Kamera. Alarm Event: Alarm zu Email (snap) Das Alarm Event, dass eine Benachrichtigung per Email auslöst, gemäß Ihren Einstellungen im Menü Alarm Aktionen. Alarm Event: Alarm auf FTP (snap oder video) Das Alarm Event, dass ein Video oder Snapshot per FTP hochlädt, gemäß Ihren Einstellungen im Menü Alarm Aktionen, auf Ihren FTP Server. Alarm Event: Alarm auf SD SD (snap oder video) Das Alarm Event, dass ein Video oder Snapshot auf Ihre SD Karte aufnimmt, gemäß Ihren Einstellungen im Menü Alarm Aktionen. Löschen Löschen des System Logs. Beachten Sie, dass der System Log bei jedem Neustart gelöscht wird. Aktualisieren Der Log wird sich nicht aktualisieren, wenn das Menü noch offen ist. Klicken Sie auf Aktualisieren um es manuell durchzuführen.",
     "description2": "System Log Overlay - Something doesn´t work anymore? Check the system log file for information. You don´t receive Alarm Emails anymore but your SMTP settings look fine? Check the log if there are still motion trigger events. Or you get spammed with Alarm Emails but motion detection is already deactivated? Check your log - maybe the events are triggered by the Audio Alarm or an external trigger. Keep an eye on your Camera´s Operation. ipc_server start: Time of the last system boot process. Be aware, that the system log will be deleted with every restart. -- empty entyry --: Login to the live video via the Flash Video Plugin. user(admin, user or guest) login for live stream: Login of the admin, user or guest to the live video stream (unless logged in over the Flash Plugin s. above). motion detection(area= 1,2,3 or 4) alarm: Time of a motion detection event in alarm area 1, 2, 3 or 4. input alarm: Time of the trigger alert by the alarm input - e.g. by an external sensor or the internal PIR sensor (in case of the IN-6014 HD). audio alarm: Time of an alarm event by the audio alarm of your camera. alarm event: alarm to email (snap) The alarm event triggered an alarm notification by email, according to your settings in the Alarm Actions Menu. alarm event: alarm to ftp (snap oder video) The alarm event triggered a video or snapshot upload by FTP, according to your settings in the Alarm Actions Menu, to your FTP Server. alarm event: alarm to SD (snap oder video): The alarm event triggered a video or snapshot recording on your SD Card, according to your settings in the Alarm Actions Menu. Delete: Delete the system log. Be aware, that the system log will be deleted with every restart. Refresh The log does not refresh as long as the menu is kept open. Click refresh to do it manually.Time of the last system boot process. Be aware, that the system log will be deleted with every restart. -- empty entyry --: Login to the live video via the Flash Video Plugin. user(admin, user or guest) login for live stream: Login of the admin, user or guest to the live video stream (unless logged in over the Flash Plugin s. above). motion detection(area= 1,2,3 or 4) alarm: Time of a motion detection event in alarm area 1, 2, 3 or 4. input alarm: Time of the trigger alert by the alarm input - e.g. by an external sensor or the internal PIR sensor (in case of the IN-6014 HD). audio alarm Time of an alarm event by the audio alarm of your camera. alarm event: alarm to email (snap): The alarm event triggered an alarm notification by email, according to your settings in the Alarm Actions Menu. alarm event: alarm to ftp (snap oder video): The alarm event triggered a video or snapshot upload by FTP, according to your settings in the Alarm Actions Menu, to your FTP Server. alarm event: alarm to SD (snap oder video): The alarm event triggered a video or snapshot recording on your SD Card, according to your settings in the Alarm Actions Menu. Delete Delete the system log. Be aware, that the system log will be deleted with every restart. Refresh: The log does not refresh as long as the menu is kept open. Click refresh to do it manually.",
-    "link": "/Web_User_Interface/720p_Series/System/PTZ_Tour/",
+    "link": "/Web_User_Interface/720p_Series/System/System_Log/",
     "title": "Das System Logbuch Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "log", "network", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_System_Log.jpg",
     "abstract": "System Log - Keep an eye on your Camera´s Operation"
 }
 POST /wiki2_en/article
@@ -331,7 +331,7 @@ POST /wiki2_en/article
     "title": "Das Multimedia Menü",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "multimedia", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Adjust your Camera Video and Audio Settings"
 }
 POST /wiki2_en/article
@@ -345,7 +345,7 @@ POST /wiki2_en/article
     "title": "Das Audio Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "multimedia", "audio", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Multimedia_Audio.jpg",
     "abstract": "Adjust your Camera's Audio Volume"
 }
 POST /wiki2_en/article
@@ -359,7 +359,7 @@ POST /wiki2_en/article
     "title": "Das Video Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "multimedia", "video", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Multimedia_Video.jpg",
     "abstract": "Adjust your Camera's Video Quality"
 }
 POST /wiki2_en/article
@@ -369,12 +369,26 @@ POST /wiki2_en/article
     "models": ["IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
     "description": "Bildeinstellungen einrichten Reset Dieser Button setzt die Bildeinstellungen auf ihre Standardwerte zurück. Helligkeit Stellen Sie die Helligkeit des Videobilds ein. Sättigkeit Stellen Sie die Sättigkeit des Videobilds ein. Kontrast Stellen Sie den Kontrast des Videobilds ein. Exposition Stellen Sie die Expositons-Zeit des Bildsensors ein. Schärfe Stellen Sie die Schärfe des Videobilds ein. Drehen & Spiegeln Wenn Sie Ihre Kamera Überkopf installiert haben, können Sie hier das Videobild einfach drehen und spiegeln Zeitstempel zeigen Einstellen, wenn Sie die Kamerazeit auf dem Videobild angezeigt bekommen möchten. Der Zeitstempel wird auch in Videoaufnahmen sichtbar sein. Kameraname zeigen Einstellen, wenn Sie den Kameranamen auf dem Videobild angezeigt bekommen möchten. Der Kameraname wird auch in Videoaufnahmen sichtbar sein. Sie können den Kameranamen unten eintragen. Bitte beachten Sie, dass Sie den Kameranamen nicht leer lassen können. Manche Drittanbieter-Software (QNAP) bestimmt das Kameramodell über den Kameranamen und wird kein unknown models zulassen. In diesem Fall müssen Sie den Kamernamen zum Standardwert zurücksetzen - z.B. IN-6012HD. Hier können Sie die Bildparameter Helligkeit, Sättigkeit, Kontrast, Exposition und Schärfe einstellen. Sie können das Videobild drehen und spiegeln, einen Zeitstempel anzeigen oder der Kamera einen Namen geben und diesen ebenfalls anzeigen lassen. Die dargestellten Parameter sind im Bild eingebrannt. Sie müssen die Kamera neustarten, nachdem Sie den Namen geändert haben.",
     "description2": "Image Overlay - Here you can adjust the image parameters brightness, saturation, contrast, exposure (shutter) and sharpness. You can flip and mirror the video image, can display a timestamp and set a camera name and display it as well. The displayed parameters are burnt into the camera image. Please make sure to restart the camera after changing the name. Adjust the Image Settings. Reset: This button resets the image settings to their default values. Brightness: Ajust the brightness of the video image. Saturation: Ajust the saturation of the video image. Contrast: Ajust the contrast of the video image. Exposure: Ajust the exposure time (shutter) of the image sensor. Sharpness: Ajust the sharpness of the video image. Flip & Mirror: If you installed your camera over-head, simply flip and mirror the video to see it upright again. Show Timestamp: Set if you want your camera time to be displayed inside the video frame. The timestamp will also be visible in video recordings. Show Camera Name: Set if you want your camera name to be displayed inside the video frame. The camera name will also be visible in video recordings. You can type in a camera name in the input field below. Please be aware, that you cannot leave the camera name empty. Some Thirdparty Application (QNAP) determine the camera model by their camera name and won´t allow unknown models to be used with the INSTAR profile. In this case, you will have to reset your camera name back to it´s default - e.g. IN-6012HD. Here you can adjust the image parameters brightness, saturation, contrast, exposure (shutter) and sharpness. You can flip and mirror the video image, can display a timestamp and set a camera name and display it as well. The displayed parameters are burnt into the camera image. Please make sure to restart the camera after changing the name.",
-    "link": "/Web_User_Interface/720p_Series/Multimedia/Image/QI_SearchThumb_WebUI.jpg",
+    "link": "/Web_User_Interface/720p_Series/Multimedia/Image/",
     "title": "Das Bild Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "multimedia", "image", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Multimedia_Image.jpg",
     "abstract": "Adjust your Camera's Image Quality"
+}
+POST /wiki2_en/article
+{
+    "title2": "Privacy Mask Overlay",
+    "series": ["HD", "Indoor", "Outdoor"],
+    "models": ["IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
+    "description": "Privatsphäre Maske Bereiche Klicken Sie auf den Radio Button hinter einem Bereich (1-4), den Sie editieren wollen. Bewegen Sie den Mauszeiger über das Bild und halten Sie die linke Maustaste gedrückt, um ihre Maske zu zeichnen. Um eine weitere Maske einzuzeichen, aktivieren Sie den Bereich 2 und wiederholen Sie den Schritt. Aktiv Checken Sie die Aktiv-Box um den jeweiligen Bereich zu aktivieren. Der Bereich wird im Live-Video, in die Videoaufnahmen als auch in den Snapshots ausgeschwärzt. Ganzer Bereich Maximiert den ausgewählten Bereich auf die volle Bildgröße. Reset Setzt alle Bereich auf die Standardeinstellungen zurück. Bereiche Ihrer Überwachung ausschwärzen. Das Menü Privatsphäre erlaubt Ihnen Bereiche aus Ihrer Überwachung auszuschwärzen. Zum Beispiel wenn Sie auf den Videos noch einen Teil der öffentlichen Straße sehen, Sie die Kamera aber nicht mehr weiter drehen können. Sie können jetzt bis zu 4 Masken einstellen um zu verhindern, dass die Straße in Ihren Überwachungsaufnahmen angezeigt wird - aktivieren Sie dazu einfach einen Bereich und zeichnen Sie ihn im Bild ein. Drehen und Spiegeln Beachten Sie bitte, dass die Privatsphären Maske nicht von der Funktion zum Drehen und Spiegeln des Videobildes erfasst wird. Wenn Sie Ihre Kamera über Kopf montiert haben, müssen Sie zuerst das Bild wieder richtig herum drehen und spiegeln, die Masken einzeichnen und das Bild danach wieder aufrichten.",
+    "description2": "Privacy Mask Overlay - The Privacy Mask Menu allows you to black out areas from your surveillance. E.g. you can still see a part of the public street in front of your house on your surveillance videos. But you can not adjust the camera angle any more. Now you can setup up to 4 masks to prevent the street from showing up in your surveillance footage - just activate an area and draw it’s shape onto the image. Mask Private Areas. Areas: Click the radio button behind the area (1-4) that you want to edit. Move your mouse pointer over the image hold the left mouse button to draw your privacy mask. To draw a second mask, activate area 2 and repeat the step. Active: Check the Active box to activate the corresponding Area. The area will be masked inside the live video, video recordings as well as in snapshots. Full Area: Maximize the selected area to the full size of the frame. Reset: Return all areas to their default positions. Black out Areas from your Surveillance. The Privacy Mask Menu allows you to black out areas from your surveillance. E.g. you can still see a part of the public street in front of your house on your surveillance videos. But you can not adjust the camera angle any more. Now you can setup up to 4 masks to prevent the street from showing up in your surveillance footage - just activate an area and draw it’s shape onto the image. Flip & Mirror: Please be aware, that the privacy mask is not affected by the function to Flip & Mirror the camera image. If you installed your camera over head, first uncheck the flip & mirror boxes, mask the areas you want to hide and the turn the image upright again.",
+    "link": "/Web_User_Interface/720p_Series/Alarm/Privacy_Mask/",
+    "title": "Das Privatsphaeren Maske Overlay",
+    "chapter": "Web User Interface",
+    "tags": ["webUI", "interface", "UI", "alarm", "privacy", "mask", "configuration", "browser"],
+    "image": "/images/Search/WebUI_720p_SearchThumb_Multimedia_Privat.jpg",
+    "abstract": "Black out Parts of the Image Sensor"
 }
 POST /wiki2_en/article
 {
@@ -387,7 +401,7 @@ POST /wiki2_en/article
     "title": "Das Alarm Menue",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Set your Camera Alarm Actions"
 }
 POST /wiki2_en/article
@@ -401,22 +415,8 @@ POST /wiki2_en/article
     "title": "Das Alarm Bereiche Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "areas", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Areas.jpg",
     "abstract": "Set the Detection Areas for Motion Detection"
-}
-POST /wiki2_en/article
-{
-    "title2": "Privacy Mask Overlay",
-    "series": ["HD", "Indoor", "Outdoor"],
-    "models": ["IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
-    "description": "Privatsphäre Maske Bereiche Klicken Sie auf den Radio Button hinter einem Bereich (1-4), den Sie editieren wollen. Bewegen Sie den Mauszeiger über das Bild und halten Sie die linke Maustaste gedrückt, um ihre Maske zu zeichnen. Um eine weitere Maske einzuzeichen, aktivieren Sie den Bereich 2 und wiederholen Sie den Schritt. Aktiv Checken Sie die Aktiv-Box um den jeweiligen Bereich zu aktivieren. Der Bereich wird im Live-Video, in die Videoaufnahmen als auch in den Snapshots ausgeschwärzt. Ganzer Bereich Maximiert den ausgewählten Bereich auf die volle Bildgröße. Reset Setzt alle Bereich auf die Standardeinstellungen zurück. Bereiche Ihrer Überwachung ausschwärzen. Das Menü Privatsphäre erlaubt Ihnen Bereiche aus Ihrer Überwachung auszuschwärzen. Zum Beispiel wenn Sie auf den Videos noch einen Teil der öffentlichen Straße sehen, Sie die Kamera aber nicht mehr weiter drehen können. Sie können jetzt bis zu 4 Masken einstellen um zu verhindern, dass die Straße in Ihren Überwachungsaufnahmen angezeigt wird - aktivieren Sie dazu einfach einen Bereich und zeichnen Sie ihn im Bild ein. Drehen und Spiegeln Beachten Sie bitte, dass die Privatsphären Maske nicht von der Funktion zum Drehen und Spiegeln des Videobildes erfasst wird. Wenn Sie Ihre Kamera über Kopf montiert haben, müssen Sie zuerst das Bild wieder richtig herum drehen und spiegeln, die Masken einzeichnen und das Bild danach wieder aufrichten.",
-    "description2": "Privacy Mask Overlay - The Privacy Mask Menu allows you to black out areas from your surveillance. E.g. you can still see a part of the public street in front of your house on your surveillance videos. But you can not adjust the camera angle any more. Now you can setup up to 4 masks to prevent the street from showing up in your surveillance footage - just activate an area and draw it’s shape onto the image. Mask Private Areas. Areas: Click the radio button behind the area (1-4) that you want to edit. Move your mouse pointer over the image hold the left mouse button to draw your privacy mask. To draw a second mask, activate area 2 and repeat the step. Active: Check the Active box to activate the corresponding Area. The area will be masked inside the live video, video recordings as well as in snapshots. Full Area: Maximize the selected area to the full size of the frame. Reset: Return all areas to their default positions. Black out Areas from your Surveillance. The Privacy Mask Menu allows you to black out areas from your surveillance. E.g. you can still see a part of the public street in front of your house on your surveillance videos. But you can not adjust the camera angle any more. Now you can setup up to 4 masks to prevent the street from showing up in your surveillance footage - just activate an area and draw it’s shape onto the image. Flip & Mirror: Please be aware, that the privacy mask is not affected by the function to Flip & Mirror the camera image. If you installed your camera over head, first uncheck the flip & mirror boxes, mask the areas you want to hide and the turn the image upright again.",
-    "link": "/Web_User_Interface/720p_Series/Alarm/Privacy_Mask/",
-    "title": "Das Privatsphaeren Maske Overlay",
-    "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "alarm", "privacy", "mask", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
-    "abstract": "Black out Parts of the Image Sensor"
 }
 POST /wiki2_en/article
 {
@@ -429,7 +429,7 @@ POST /wiki2_en/article
     "title2": "Das Alarm Zeitplan Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "actions", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Actions.jpg",
     "abstract": "Configure Actions to be taken in case of an Alarm"
 }
 POST /wiki2_en/article
@@ -443,7 +443,7 @@ POST /wiki2_en/article
     "title": "Das Alarm Zeitplan Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "schedule", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Schedule.jpg",
     "abstract": "Configure a Time Schedule for the Alarm Function"
 }
 POST /wiki2_en/article
@@ -457,7 +457,7 @@ POST /wiki2_en/article
     "title": "Das SMTP Server Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "smtp", "server", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_SMTP_Server.jpg",
     "abstract": "Set a Server for Outgoing Alarm Emails"
 }
 POST /wiki2_en/article
@@ -471,7 +471,7 @@ POST /wiki2_en/article
     "title": "Das Email Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "email", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Email.jpg",
     "abstract": "Set an Email Receiver for the Alarm Notification"
 }
 POST /wiki2_en/article
@@ -485,7 +485,7 @@ POST /wiki2_en/article
     "title": "Das FTP Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "FTP", "server", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_FTP.jpg",
     "abstract": "Set a FTP Server for the Alarm Upload"
 }
 POST /wiki2_en/article
@@ -499,7 +499,7 @@ POST /wiki2_en/article
     "title": "Das Email Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "audio", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Audio_Alarm.jpg",
     "abstract": "Set an Email Receiver for the Alarm Notification"
 }
 POST /wiki2_en/article
@@ -513,7 +513,7 @@ POST /wiki2_en/article
     "title": "Das SD Karten Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "SD card", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_SD_Card.jpg",
     "abstract": "Open, format or unmount your SD Card"
 }
 POST /wiki2_en/article
@@ -527,7 +527,7 @@ POST /wiki2_en/article
     "title": "Das Aufnahme Menue",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "recording", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Set your Camera to automatically Record"
 }
 POST /wiki2_en/article
@@ -541,7 +541,7 @@ POST /wiki2_en/article
     "title": "Das Aufnahme Zeitplan Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "recording", "schedule", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Recording_Schedule.jpg",
     "abstract": "Set a Schedule for the automated Recording"
 }
 POST /wiki2_en/article
@@ -555,7 +555,7 @@ POST /wiki2_en/article
     "title": "Das Video Aufnahme Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "recording", "video", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Recording_Video.jpg",
     "abstract": "Set Parameters for the automated Recording"
 }
 POST /wiki2_en/article
@@ -569,7 +569,7 @@ POST /wiki2_en/article
     "title": "Das Fotoserie Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "recording", "photoseries", "timelapse", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/WebUI_720p_SearchThumb_Recording_Photoseries.jpg",
     "abstract": "Set Parameters for the automated Photoseries"
 }
 POST /wiki2_en/article
@@ -577,13 +577,13 @@ POST /wiki2_en/article
     "title2": "Menu Bar",
     "series": ["HD", "Indoor", "Outdoor"],
     "models": ["IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
-    "description": "Die Menü Leiste finden Sie über dem Live Video. Sie erlaubt Ihnen einen schnellen Zugriff auf die SD Karte der Kamera, die Aufnahme von Schnappscüssen und Videos und das Aktivieren der 4 Bewegungserkennungsbereiche.",
+    "description": "SD-Karte - Verzeichnis der SD-Karte öffnen Klicken Sie auf die SD-Karte um das Verzeichnis der SD-Karte in einem neuen Browser-Tab zu öffnen - alle Ihre Snapshots und Videos werden aufgelistet. Nutzen Sie als Zugangsdaten Ihren Admin-Login. Sie können die SD-Karte auch mit Drittanbieter-Software aufrufen. Snapshot auf SD - Machen Sie einen Snapshot und speichern ihn auf die interne SD-Karte Klicken Sie auf Snapshot um einen einzelnen JPG Snapshot des aktuellen Videobilds auf die interne SD KARTE zu speichern. Wenn Sie das ACTIVEX VIDEO PLUGIN nutzen, wird der Snapshot lokal im Unterordner Snap unter dem AUFNAHME PFAD gespeichert (nur ActiveX Video Plugin). Andernfalls wird der Snapshot in einem neuen Browser-Tab geöffnet und kann dort abgespeichert werden. Möglicherweise müssen Sie die Adresse der Kamera (IP oder DDNS Adresse) als Vertrauenswürdige Seite in den Einstellungen Ihres Internet Explorers hinzufügen, um Schreibrechte auf die Festplatte zu gewährleisten! h.264 / MJEPEG - Wechseln Sie zwischen dem h.264 Stream und dem plugin-freien MJPEG Stream Hier können Sie zwischen dem h.264 und MJPEG Videostream der Kamera wechseln - der aktive Modus wird in Rot dargestellt. Dies ist ein Schnellzugriff für den Videostream der im VIDEO MENÜ gefunden werden kann. Im Allgemeinen ist die benötigte Bandbreite für den MJPEG Stream höher und bei schlechter Verbindung wird der Stream einige Frames verlieren. Der h.264 Stream hat eine viel höhere Komprimierung (abhängig von Ihren Einstellungen im Video Menü) - was weniger Bandbreite benötigt. Der h.264 Stream benötigt zusätzlich ein Video Plugin um dargestellt zu werden - bitten wählen Sie im Videomenü zwischen dem ActiveX-, Quicktime- oder Flash-Plugin. Hilfe - Direktlink zu unserer Online Dokumentation Durch einen Klick auf Hilfe gelangen Sie zu unserer kontinuierlich weiterentwickelten ONLINE FAQ SEITEauf Instar.de Aufnahme auf SD - Starten Sie eine manuelle Aufnahme und speichern Sie es auf der interen SD-Karte Klicken Sie auf Aufnahme um eine manuelle Videoaufnahme zu starten. Das Video wird im Unterordner Aufnahmen unter dem AUFNAHME VERZEICHNIS (nur ACTIVEX VIDEO PLUGIN) gespeichert. Sie erkennen am roten Indikator, dass die Kamera gerade aufnimmt. Möglicherweise müssen Sie die Adresse der Kamera (IP oder DDNS Adresse) als Vertrauenswürdige Seite in den Einstellungen Ihres Internet Explorers hinzufügen, um Schreibrechte auf die Festplatte zu gewährleisten! Andere Browser erlauben es Ihnen Videoaufnahmen direkt auf der SD-Karte zu speichern. Alarmbereiche - Aktiveren/Deaktiveren Sie Alarmbereiche für die Bewegungserkennung Klicken Sie auf Alarm um die ALARMBEREICH EINSTELLUNGEN zu aktiveren/deaktivieren",
     "description2": "Menu Bar - The Menu Bar is located above the live video and allows you to quickly access the SD card, take snapshots or start recordings or activate the motion detection of your camera. SD Card - Open your cameras SD card directory: Click on the SD Card to open the SD cards directory in a new browser window or tab - all your snapshots and videos will be listed. Use your camera admin login to access the directory. You can also access your SD card with thirdparty software. Snapshot to SD - Take a Snapshot and save it to the Internal SD Card: Click on Snapshot to save a single JPG snapshot of the current video frame to the internal SD card. When you are using the ActiveX Video Plugin the snapshot will be saved locally in the subfolder Snap under the Record Path (only ActiveX Video Plugin). Otherwise the snapshot will be opened in a new browser window or tab and can be saved from there. You might have to set the cameras address (local IP or DDNS address) as a trusted site inside the Internet Options of your Internet Explorer to allow write access to your harddisk! h.264 MJEPEG - Switch between the cameras h.264 stream and the plugin-free MJPEG stream: Here you can switch between the cameras h.264 and MJPEG videostream - the active mode will be displayed in red. This is a quick-access button for the video stream toggle found in the Video Menu. In general, the bandwidth requirements for the MJPEG stream will be higher and in low connectivity situations, the stream might drop some frames. The h.264 stream can have a much higher compression (depending on your settings in the Video Menu) - leading to lower bandwidth requirements. It also needs a video plugin to be displayed - please check the video menu to switch between the ActiveX, Quicktime and Flash plugin. Help - Direct Link to our Online Documentation: Clicking on Help will bring you to our constantly expanding Online FAQ Section Instar.com. Recording to SD - Start a Manual Video Recording and Save it to the Internal SD Card: Click on Record to manually start a video recording. The video will be saved in the subfolder Record under the set Record Path (only ActiveX Video Plugin). You will see the red indicator in the video menu when the camera is recording. You might have to set the cameras address (local IP or DDNS address) as a trusted site inside the Internet Options of your Internet Explorer to be give write access to your harddisk! Other browsers allow you to record videos directly to the internal SD Card. Alarm Areas - Activate Deactivate your Alarm Areas used for the Motion Detection. Clicking on Alarm activates or deactivates the Alarm Areas Settings. If the motion detection is armed the number will be displayed in red.",
     "link": "/Web_User_Interface/720p_Series/Menu_Bar/",
     "title": "Die Menueleiste",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "bar", "MJPEG", "h.264", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Quick-Access Bar above the Live Video"
 }
 POST /wiki2_en/article
@@ -597,7 +597,7 @@ POST /wiki2_en/article
     "title": "Die Video Menueleiste",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "video", "bar", "ActiveX", "Internet Explorer", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Video Options available with the ActiveX Plugin"
 }
 POST /wiki2_en/article
@@ -611,6 +611,6 @@ POST /wiki2_en/article
     "title": "Pan, Tilt und Zoom Kontrollen",
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "pan tilt zoom", "PTZ", "configuration", "browser"],
-    "image": "/images/Search/QI_SearchThumb_WebUI.jpg",
+    "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Pan, Tilt & Zoom Controls"
 }

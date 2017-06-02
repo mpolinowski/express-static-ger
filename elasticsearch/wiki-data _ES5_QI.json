@@ -79,7 +79,7 @@ POST /wiki2_en/article
     "title": "Wie Sie Ihrer IP Kamera mit einem alternativen IP Scanner finden",
     "chapter": "Quick Installation",
     "tags": ["Introduction", "Quickinstallation", "Network"],
-    "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_eng.jpg",
+    "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_Angry_eng.jpg",
     "abstract": "Use the Angry IP Scanner to Find your Camera"
 }
 POST /wiki2_en/article
@@ -93,7 +93,7 @@ POST /wiki2_en/article
     "title": "Wie Sie Ihrer IP Kamera mit einem alternativen IP Scanner finden",
     "chapter": "Quick Installation",
     "tags": ["Introduction", "Quickinstallation", "Network"],
-    "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_eng.jpg",
+    "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_FingCLI_eng.jpg",
     "abstract": "Use the Fing Command Line Interface to Find your Camera"
 }
 POST /wiki2_en/article
@@ -107,7 +107,7 @@ POST /wiki2_en/article
     "title": "Wie Sie Ihrer IP Kamera mit einem alternativen IP Scanner finden",
     "chapter": "Quick Installation",
     "tags": ["Introduction", "Quickinstallation", "Network"],
-    "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_eng.jpg",
+    "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_FingMobile_eng.jpg",
     "abstract": "Use the Fing Mobile App to Find your Camera"
 }
 POST /wiki2_en/article
@@ -149,7 +149,7 @@ POST /wiki/article
     "title": "Das ActiveX Videoplugin",
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "ActiveX", "video Plugin"],
-    "image": "/images/Search/QI_SearchThumb_LiveVideo.jpg",
+    "image": "/images/Search/QI_SearchThumb_LiveVideo_ActiveX.jpg",
     "abstract": "Access your Camera´s Live Video using the ActiveX plugin"
 }
 POST /wiki/article
@@ -163,7 +163,7 @@ POST /wiki/article
     "title": "Das QuickTime Videoplugin",
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "video Plugin"],
-    "image": "/images/Search/QI_SearchThumb_LiveVideo.jpg",
+    "image": "/images/Search/QI_SearchThumb_LiveVideo_QuickTime.jpg",
     "abstract": "Access your Camera´s Live Video"
 }
 POST /wiki/article
@@ -177,7 +177,7 @@ POST /wiki/article
     "title": "Der MJPEG Videostream",
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "video Plugin", "Microsoft Edge"],
-    "image": "/images/Search/QI_SearchThumb_LiveVideo.jpg",
+    "image": "/images/Search/QI_SearchThumb_LiveVideo_MJPEG.jpg",
     "abstract": "Access your Camera´s Live Video"
 }
 POST /wiki/article
@@ -191,7 +191,7 @@ POST /wiki/article
     "title": "Avast Internet Security",
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
-    "image": "/images/Search/QI_SearchThumb_LiveVideo.jpg",
+    "image": "/images/Search/QI_SearchThumb_LiveVideo_Avast.jpg",
     "abstract": "Access your Camera´s Live Video"
 }
 POST /wiki/article
@@ -205,7 +205,7 @@ POST /wiki/article
     "title": "Kaspersky Internet Security 2013",
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
-    "image": "/images/Search/QI_SearchThumb_LiveVideo.jpg",
+    "image": "/images/Search/QI_SearchThumb_LiveVideo_Kaspersky13.jpg",
     "abstract": "Access your Camera´s Live Video"
 }
 POST /wiki/article
@@ -220,7 +220,7 @@ POST /wiki/article
     "title": "Kaspersky Internet Security 2014",
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
-    "image": "/images/Search/QI_SearchThumb_LiveVideo.jpg",
+    "image": "/images/Search/QI_SearchThumb_LiveVideo_Kaspersky14.jpg",
     "abstract": "Access your Camera´s Live Video"
 }
 POST /wiki/article
@@ -234,7 +234,7 @@ POST /wiki/article
     "title": "Kaspersky Internet Security 2017",
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
-    "image": "/images/Search/QI_SearchThumb_LiveVideo.jpg",
+    "image": "/images/Search/QI_SearchThumb_LiveVideo_Kaspersky17.jpg",
     "abstract": "Access your Camera´s Live Video"
 }
 POST /wiki/article
@@ -243,12 +243,12 @@ POST /wiki/article
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
     "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
     "description": "AVG Internet Security Ausnahmeregel für Ihre IP Kamera In manchen Fällen kann es dazu kommen, dass der Virenscanner AVG den Videostream Ihrer Kamera blockt. Eigentlich blockt es das ActiveX und das Quicktime Plugin beim Empfangen des Videostreams. In diesem Fall müssen Sie eine Ausnahme in AVG eintragen, damit es den Videostream nicht mehr blockt. Schritt 1: Bitte starten Sie das AVG Kontrollpanel. Schritt 2: Klicken Sie auf Optionen und Erweiterte Einstellungen. Schritt 3: Klicken Sie auf Ausnahmen und fügen Sie eine Ausnahme für die betroffenen Plugins hinzu. Das ActiveX Plugin für die HD Kamera können Sie unter C: Windows SystemWOW64 (oder System32) und heißt SEWebClientPlus.ocx für die HD Kameras (oder DVM_IPCam2.ocx in C:Windows Downloaded Program Files für die VGA Kameras). Für den Fall, dass das Video der HD Kamera funktioniert aber Sie den integrierten Mediaplayer nicht starten können müssen Sie zusätzlich eine Ausnahme für die Datei SEPlayerPlus.exe, die ebenfalls unter C: Windows SystemWOW64 (oder System32) liegt, eintragen. Wenn Sie auf Probleme während der Einstellungen treffen, können Sie sich jederzeit innerhalb unserer Bürozeiten bei uns melden. Wir versuchen, dass Problem so schnell wie möglich zu lösen.",
-    "description2": "AVG Internet Security. Set an Exception for your IP Camera. In some cases it can be that the virus scanner AVG is blocking the video stream of your IP camera. Actually it blocks the ActiveX and Quicktime Plugin from receiving the cameras video stream. In this case you will need to set an exception in AVG so it does not block the camera any more. Step 1: Please start the AVG control panel. Step 2: Go to Options (Optionen) and Advanced Settings (Erweiterte Einstellungen). Step 3: Click on Exceptions (Ausnahmen) and add an exception for the affected plugins. The ActiveX plugin for the HD camera can be found in Windows SystemWOW64 (or System32) and is called SEWebClientPlus.ocx for the HD cameras (or DVM_IPCam2.ocx in C:\Windows\Downloaded Program Files for the VGA cameras). In case that the HD camera´s video is working but you cannot start the integrated media player - you will need an exception for the file SEPlayerPlus.exe that is also located in Windows SystemWOW64 (or System32). If you encounter any problems during the settings please feel free to contact us any time during our office hours. We will try everything to solve the problem as fast as possible.",
+    "description2": "AVG Internet Security. Set an Exception for your IP Camera. In some cases it can be that the virus scanner AVG is blocking the video stream of your IP camera. Actually it blocks the ActiveX and Quicktime Plugin from receiving the cameras video stream. In this case you will need to set an exception in AVG so it does not block the camera any more. Step 1: Please start the AVG control panel. Step 2: Go to Options (Optionen) and Advanced Settings (Erweiterte Einstellungen). Step 3: Click on Exceptions (Ausnahmen) and add an exception for the affected plugins. The ActiveX plugin for the HD camera can be found in Windows SystemWOW64 (or System32) and is called SEWebClientPlus.ocx for the HD cameras (or DVM_IPCam2.ocx in C: Windows Downloaded Program Files for the VGA cameras). In case that the HD camera´s video is working but you cannot start the integrated media player - you will need an exception for the file SEPlayerPlus.exe that is also located in Windows SystemWOW64 (or System32). If you encounter any problems during the settings please feel free to contact us any time during our office hours. We will try everything to solve the problem as fast as possible.",
     "link": "/Quick_Installation/Live_Video/Troubleshooting/AVG/",
     "title": "AVG Internet Security",
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
-    "image": "/images/Search/QI_SearchThumb_LiveVideo.jpg",
+    "image": "/images/Search/QI_SearchThumb_LiveVideo_AVG.jpg",
     "abstract": "Access your Camera´s Live Video"
 }
 POST /wiki/article
@@ -262,7 +262,7 @@ POST /wiki/article
     "title": "AVIRA Antivirus Pro",
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
-    "image": "/images/Search/QI_SearchThumb_LiveVideo.jpg",
+    "image": "/images/Search/QI_SearchThumb_LiveVideo_Avira.jpg",
     "abstract": "Access your Camera´s Live Video"
 }
 POST /wiki/article
@@ -276,7 +276,7 @@ POST /wiki/article
     "title": "F-Secure Internet Security",
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
-    "image": "/images/Search/QI_SearchThumb_LiveVideo.jpg",
+    "image": "/images/Search/QI_SearchThumb_LiveVideo_F-Secure.jpg",
     "abstract": "Access your Camera´s Live Video"
 }
 POST /wiki2_en/article
@@ -304,7 +304,7 @@ POST /wiki2_en/article
     "title": "WebUI / Firmware Upgrade",
     "chapter": "Quick Installation",
     "tags": ["update", "installation", "web user interface", "webui", "software", "interface", "firmware"],
-    "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade.jpg",
+    "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_1080p.jpg",
     "abstract": "Update your Cameras Web User Interface and Firmware"
 }
 POST /wiki2_en/article
@@ -318,7 +318,7 @@ POST /wiki2_en/article
     "title": "WebUI / Firmware Upgrade",
     "chapter": "Quick Installation 720p",
     "tags": ["update", "installation", "web user interface", "webui", "software", "interface", "firmware"],
-    "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade.jpg",
+    "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_720p.jpg",
     "abstract": "Update your Cameras Web User Interface and Firmware"
 }
 POST /wiki2_en/article
@@ -332,7 +332,7 @@ POST /wiki2_en/article
     "title": "WebUI / Firmware Upgrade VGA",
     "chapter": "Quick Installation",
     "tags": ["update", "installation", "web user interface", "webui", "software", "interface", "firmware"],
-    "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade.jpg",
+    "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_VGA.jpg",
     "abstract": "Update your Cameras Web User Interface and Firmware"
 }
 POST /wiki2_en/article
@@ -360,7 +360,7 @@ POST /wiki2_en/article
     "title": "Wie leert man den Cache (Historie/Verlauf) des Browsers nach dem Update",
     "chapter": "Quick Installation",
     "tags": ["browser", "web user interface", "webui", "update", "history", "internet explorer"],
-    "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory.jpg",
+    "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_IE.jpg",
     "abstract": "Clear your Borwser History in Internet Explorer"
 }
 POST /wiki2_en/article
@@ -374,7 +374,7 @@ POST /wiki2_en/article
     "title": "Wie leert man den Cache (Historie/Verlauf) des Browsers nach dem Update",
     "chapter": "Quick Installation",
     "tags": ["browser", "web user interface", "webui", "update", "history", "mozilla", "firefox"],
-    "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory.jpg",
+    "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Firefox.jpg",
     "abstract": "Clear your Borwser History in Mozilla Firefox"
 }
 POST /wiki2_en/article
@@ -388,7 +388,7 @@ POST /wiki2_en/article
     "title": "Wie leert man den Cache (Historie/Verlauf) des Browsers nach dem Update",
     "chapter": "Quick Installation",
     "tags": ["browser", "web user interface", "webui", "update", "history"],
-    "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory.jpg",
+    "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Chrome.jpg",
     "abstract": "Clear your Borwser History in Google Chrome"
 }
 POST /wiki2_en/article
@@ -402,7 +402,7 @@ POST /wiki2_en/article
     "title": "Wie leert man den Cache (Historie/Verlauf) des Browsers nach dem Update",
     "chapter": "Quick Installation",
     "tags": ["browser", "web user interface", "webui", "update", "history", "opera"],
-    "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory.jpg",
+    "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Opera.jpg",
     "abstract": "Clear your Borwser History in Opera after a Software Update"
 }
 POST /wiki2_en/article
@@ -416,7 +416,7 @@ POST /wiki2_en/article
     "title": "Wie leert man den Cache (Historie/Verlauf) des Browsers nach dem Update",
     "chapter": "Quick Installation",
     "tags": ["browser", "web user interface", "webui", "update", "history", "microsoft", "edge"],
-    "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory.jpg",
+    "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Edge.jpg",
     "abstract": "Clear your Borwser History in Microsoft Edge after a Software Update"
 }
 POST /wiki2_en/article
@@ -430,7 +430,7 @@ POST /wiki2_en/article
     "title": "Wie leert man den Cache (Historie/Verlauf) des Browsers nach dem Update",
     "chapter": "Quick Installation",
     "tags": ["browser", "web user interface", "webui", "update", "history", "vivaldi"],
-    "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory.jpg",
+    "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Vivaldi.jpg",
     "abstract": "Clear your Borwser History in Vivaldi after a Software Update"
 }
 POST /wiki2_en/article
@@ -458,6 +458,6 @@ POST /wiki2_en/article
     "title": "ONVIF",
     "chapter": "Quick Installation",
     "tags": ["ONVIF", "network", "connection"],
-    "image": "/images/Search/QI_SearchThumb_WLAN.jpg",
+    "image": "/images/Search/QI_SearchThumb_ONVIF.jpg",
     "abstract": "Connect your Camera over the ONVIF Protocol"
 }
