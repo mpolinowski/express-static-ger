@@ -1,4 +1,4 @@
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-9008 HD",
     "series": ["1080p", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-9008HD.jpg",
     "abstract": "IN-9008 HD - Product Overview"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-9008 HD Technical Specifications",
     "series": ["1080p", "Outdoor"],
@@ -26,7 +26,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-9008HD_Technical_Specifications.jpg",
     "abstract": "IN-9008 HD Technical Specifications Table"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Product Features",
     "series": ["1080p", "Outdoor"],
@@ -40,7 +40,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-9008HD_Features.jpg",
     "abstract": "IN-9008 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Quick Installation Guide",
     "series": ["1080p", "Outdoor"],
@@ -54,7 +54,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-9008HD_Quick_Installation.jpg",
     "abstract": "IN-9008 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-7011 HD",
     "series": ["720p", "Outdoor"],
@@ -68,7 +68,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-7011HD.jpg",
     "abstract": "IN-7011 HD - Product Overview"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-7011 HD Technical Specifications",
     "series": ["720p", "Outdoor"],
@@ -82,7 +82,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Technical_Specification.jpg",
     "abstract": "IN-7011 HD Technical Specifications Table"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Product Features",
     "series": ["720p", "Outdoor"],
@@ -96,7 +96,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Features.jpg",
     "abstract": "IN-7011 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Quick Installation Guide",
     "series": ["720p", "Outdoor"],
@@ -110,7 +110,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Quick_Installation.jpg",
     "abstract": "IN-7011 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Point2Point Setup",
     "series": ["720p", "Outdoor"],
@@ -124,7 +124,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Quick_Installation.jpg",
     "abstract": "IN-7011 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Manual Lense Adjustment",
     "series": ["720p", "Outdoor"],
@@ -138,7 +138,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Lense_Adjust.jpg",
     "abstract": "IN-7011 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-5907 HD",
     "series": ["720p", "Outdoor"],
@@ -152,7 +152,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-5907HD.jpg",
     "abstract": "IN-5907 HD - Product Overview"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
 	"title2": "IN-5907 Technical Specifications",
 	"series": ["720p", "Outdoor"],
@@ -166,7 +166,7 @@ POST /wiki2_en/article
 	"image": "/images/Search/P_SearchThumb_IN-5907HD_Technical_Specifications.jpg",
 	"abstract": "IN-5907 HD Technical Specifications Table"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Product Features",
     "series": ["720p", "Outdoor"],
@@ -180,7 +180,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Features.jpg",
     "abstract": "IN-5907 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Quick Installation Guide",
     "series": ["720p", "Outdoor"],
@@ -194,7 +194,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Quick_Installation.jpg",
     "abstract": "IN-5907 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Point2Point Setup",
     "series": ["720p", "Outdoor"],
@@ -208,7 +208,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Quick_Installation.jpg",
     "abstract": "IN-5907 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Manual Lense Adjustment",
     "series": ["720p", "Outdoor"],
@@ -222,7 +222,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Lense_Adjust.jpg",
     "abstract": "IN-5907 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-5905 HD",
     "series": ["720p", "Outdoor"],
@@ -236,7 +236,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-5905HD.jpg",
     "abstract": "IN-5905 HD - Product Overview"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-5905 Technical Specifications",
     "series": ["720p", "Outdoor"],
@@ -250,7 +250,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Technical_Specifications.jpg",
     "abstract": "IN-5905 HD Technical Specifications Table"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Product Features",
     "series": ["720p", "Outdoor"],
@@ -264,7 +264,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Features.jpg",
     "abstract": "IN-5905 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Quick Installation Guide",
     "series": ["720p", "Outdoor"],
@@ -278,7 +278,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Quick_Installation.jpg",
     "abstract": "IN-5905 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Point2Point Setup",
     "series": ["720p", "Outdoor"],
@@ -292,7 +292,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Quick_Installation.jpg",
     "abstract": "IN-5905 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Manual Lense Adjustment",
     "series": ["720p", "Outdoor"],
@@ -306,7 +306,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Lense_adjust.jpg",
     "abstract": "IN-5905 HD Usermanual"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-4011",
     "series": ["VGA", "Outdoor"],
@@ -320,7 +320,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-4011.jpg",
     "abstract": "IN-4011 - Product Overview"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-4011 Technical Specifications",
     "series": ["VGA", "Outdoor"],
@@ -334,7 +334,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-4011_Technical_Specifications.jpg",
     "abstract": "IN-4011 Technical Specifications Table"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-4010 V2",
     "series": ["VGA", "Outdoor"],
@@ -348,7 +348,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-4010.jpg",
     "abstract": "IN-4010 V2 - Product Overview"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-4010 V2 Technical Specifications",
     "series": ["VGA", "Outdoor"],
@@ -362,7 +362,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-4010_Technical_Specifications.jpg",
     "abstract": "IN-4010 V2 Technical Specifications Table"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-2908",
     "series": ["VGA", "Outdoor"],
@@ -376,7 +376,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-2908.jpg",
     "abstract": "IN-2908 - Product Overview"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-2908 Technical Specifications",
     "series": ["VGA", "Outdoor"],
@@ -390,7 +390,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-2908_Technical_Specifications.jpg",
     "abstract": "IN-2908 Technical Specifications Table"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-2905 V2",
     "series": ["VGA", "Outdoor"],
@@ -404,7 +404,7 @@ POST /wiki2_en/article
     "image": "/images/Search/P_SearchThumb_IN-2905.jpg",
     "abstract": "IN-2905 V2 - Product Overview"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "IN-2905 V2 Technical Specifications",
     "series": ["VGA", "Outdoor"],

@@ -1,4 +1,4 @@
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "How Does An IP Camera Work?",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_HowDoesAnIPCameraWork.jpg",
     "abstract": "How do IP Cameras work in my Network"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "First Steps",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -26,7 +26,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_FirstStepsWithYourIPCamera.jpg",
     "abstract": "First Steps to set up your Camera"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "After Unpacking",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -40,7 +40,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_AfterUnpackingYourIPCamera.jpg",
     "abstract": "After Unpacking your Camera"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Direct LAN Connection",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -54,7 +54,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_DirectConnectionWithYourPC.jpg",
     "abstract": "Direct Connection between your Computer and your Camera"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Alternative Scanner to Find your Camera",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -68,7 +68,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_eng.jpg",
     "abstract": "Angry IP Scanner, Fing, Fing Mobile"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Angry IP Scanner",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -82,7 +82,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_Angry_eng.jpg",
     "abstract": "Use the Angry IP Scanner to Find your Camera"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Fing CLI",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -96,7 +96,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_FingCLI_eng.jpg",
     "abstract": "Use the Fing Command Line Interface to Find your Camera"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Fing Mobile",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -110,7 +110,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_FingMobile_eng.jpg",
     "abstract": "Use the Fing Mobile App to Find your Camera"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Language Selection",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -215,7 +215,6 @@ POST /wiki/article
     "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
     "description": "Kaspersky Internet Security 2014 Eine Ausnahme für Ihre IP-Kamera hinzufügen In manchen Fällen kann es dazu kommen, dass der Virenscanner Kaspersky den Videostream Ihrer Kamera blockt. Eigentlich blockt es das ActiveX und das Quicktime Plugin beim Empfangen des Videostreams. In diesem Fall müssen Sie eine Ausnahme in Kaspersky eintragen, damit es den Videostream nicht mehr blockt. Wenn das Video Ihrer Kamera nicht lädt, müssen Sie möglicherweise Kaspersky mitteilen, der Webseite zu vertrauen. Schritt 1: Bitte öffnen Sie Kaspersky durch Klicken auf das Kaspersky Symbol auf der rechten Seite der Windows Taskleiste. Ein anderer Weg ist Kaspersky direkt über das Startmenü zu öffnen. Nachdem Sie Kaspersky geöffnet haben, klicken Sie bitte auf Einstellungen. Schritt 2: Im Fenster Schutz klicken Sie bitte auf die Einstellungen Web Anti-Virus. Schritt 3: Unter den Anti-Virus Einstellungen klicken Sie bitte auf Erweiterte Einstellungen. Schritt 4: Bitte klicken Sie auf Vertrauenswürdige Webseiten konfigurieren. Schritt  5: Im folgenden Fenster klicken Sie bitte auf Hinzufügen. Schritt 6: Bitte geben Sie die IP-Adresse Ihrer Kamera ein. Es ist sehr wichtig ein http: vor und eine Wildcard nach der IP-Adresse einzugeben. Schritt 7: Zum Schluss laden Sie bitte die Weboberfläche Ihrer IP-Kamera neu. Dies kann entweder durch den Refresh-Button neben der Adressleiste Ihres Browsers gemacht werden oder durch Schließen und Neustarten des Webbrowsers mit anschließend erneuter Eingabe der IP-Adresse in die Adressleiste.",
     "description2": "Kaspersky Internet Security 2014. Set an Exception for your IP Camera. In some cases it can be that the virus scanner Kaspersky is blocking the video stream of the camera. Actually it blocks the ActiveX and Quicktime Plugin from receiving the cameras video stream. In this case you will need to set an exception in Kaspersky so it does not block the camera any more. If your camera´s video does not load, you might have to tell Kaspersky to trust the website. Step 1: Please open the program Kaspersky by clicking the Kaspersky symbol on the right side of the windows task bar. Another way is to open the start menu and to choose the program directly. Once opened please click Settings. Step 2: In the window Protection please select the setting Web Anti-Virus. Step 3: In the Web Anti-Virus settings please click on Advanced Settings. Step 4: Please click on Configure trusted web pages. Step 5: In the following window click on Add. Step 6: Please type in the IP address of your camera. It is very important to set a the http: before and the wildcard after the IP address. Step 7: Finally please reload the web interface of your IP camera. This can be done by either clicking the refresh button next to the address bar of your web browser or you can close your web browser and type in the IP address of your IP camera again.",
-    "description": "XXXXXX",
     "link": "/Quick_Installation/Live_Video/Troubleshooting/Kaspersky_2014/",
     "title": "Kaspersky Internet Security 2014",
     "chapter": "Quick Installation",
@@ -257,7 +256,7 @@ POST /wiki/article
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
     "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
     "description": "AVIRA Antivirus Pro Eine Ausnahme für Ihre IP-Kamera hinzufügen Avira Antivirus Pro kann möglicherweise den Videostream blockieren, wenn Sie das erste Mal mit dem Internet Explorer auf Ihre IP-Kamera zugreifen (andere Browser sind nicht betroffen). Das Problem wird durch den Avira Echtzeitscanner verursacht, der das Active X Control, dass von den Kameras genutzt wird (SEWebClientPlus.ocx für die HD Kameras oder DVM_IPCam2.ocx für VGA Kameras). Bitte deaktivieren Sie den Echtzeitscanner und laden Sie die Weboberfläche innerhalb Ihres Internet Explorers neu. Sie werden gefragt, ob Sie das ActiveX Plugin installieren wollen - bestätigen Sie einfach den Installationsprozess, danach reaktivieren Sie den Antivirus Schutz. Laden Sie die Weboberfläche neu - das Video sollte nun automatisch laden. Öffnen Sie das Konfigurationsmenü Bitte klicken Sie mit einem Rechtsklick auf das Avira Regenschirm Icon unten rechts in der Taskleiste. Deaktivieren Sie den Echtzeitscanner Auswählen, um den Echtzeitscanner zu deaktiveren und das ActiveX Plugin zu installieren. Reaktivieren Sie den Scanner danach wieder. Das ActiveX Plugin für die HD Kamera können Sie unter C: Windows SystemWOW64 (oder System32) und heißt SEWebClientPlus.ocx für die HD Kameras (oder DVM_IPCam2.ocx in C: Windows Downloaded Program Files für die VGA Kameras). Für den Fall, dass das Video der HD Kamera funktioniert aber Sie den integrierten Mediaplayer nicht starten können müssen Sie zusätzlich eine Ausnahme für die Datei SEPlayerPlus.exe, die ebenfalls unter C: Windows SystemWOW64 (oder System32) liegt, eintragen. Wenn Sie auf Probleme während der Einstellungen treffen, können Sie sich jederzeit innerhalb unserer Bürozeiten bei uns melden. Wir versuchen, dass Problem so schnell wie möglich zu lösen.",
-    "description2": "AVIRA Antivirus Pro. Set an Exception for your IP Camera. Avira Antivirus Pro might cause prevent you from displaying the video stream when you access our IP cameras for the first time with Internet Explorer (other browsers are not affected). The problem is caused by Avira´s real-time scanner blocking the ActiveX control used by the camera (SEWebClientPlus.ocx for the HD cameras or DVM_IPCam2.ocx for VGA cameras). Please deactivate the real-time scanner and reload the camera WebUI inside your Internet Explorer. You will be asked to install the ActiveX again - simply confirm the installation process, then reactivate your Antivirus protection. Reload the WebUI - the video should now load automatically. Open the Configuration Menu. Please right-click the Avira Umbrella Icon in the taskbar systray next to the system clock. Deactivate the Real-Time Scanner. Choose to deactivate the real-time scanner and install the ActiveX plug in. Reactivate the scanner afterwards. The ActiveX plugin for the HD camera can be found in Windows SystemWOW64 (or System32) and is called SEWebClientPlus.ocx for the HD cameras (or DVM_IPCam2.ocx in C:\Windows\Downloaded Program Files for the VGA cameras). In case that the HD camera´s video is working but you cannot start the integrated media player - you will need an exception for the file SEPlayerPlus.exe that is also located in Windows SystemWOW64 (or System32).",
+    "description2": "AVIRA Antivirus Pro. Set an Exception for your IP Camera. Avira Antivirus Pro might cause prevent you from displaying the video stream when you access our IP cameras for the first time with Internet Explorer (other browsers are not affected). The problem is caused by Avira´s real-time scanner blocking the ActiveX control used by the camera (SEWebClientPlus.ocx for the HD cameras or DVM_IPCam2.ocx for VGA cameras). Please deactivate the real-time scanner and reload the camera WebUI inside your Internet Explorer. You will be asked to install the ActiveX again - simply confirm the installation process, then reactivate your Antivirus protection. Reload the WebUI - the video should now load automatically. Open the Configuration Menu. Please right-click the Avira Umbrella Icon in the taskbar systray next to the system clock. Deactivate the Real-Time Scanner. Choose to deactivate the real-time scanner and install the ActiveX plug in. Reactivate the scanner afterwards. The ActiveX plugin for the HD camera can be found in Windows SystemWOW64 (or System32) and is called SEWebClientPlus.ocx for the HD cameras (or DVM_IPCam2.ocx in C: Windows Downloaded Program Files for the VGA cameras). In case that the HD camera´s video is working but you cannot start the integrated media player - you will need an exception for the file SEPlayerPlus.exe that is also located in Windows SystemWOW64 (or System32).",
     "link": "/Quick_Installation/Live_Video/Troubleshooting/AVIRA/",
     "title": "AVIRA Antivirus Pro",
     "chapter": "Quick Installation",
@@ -279,7 +278,7 @@ POST /wiki/article
     "image": "/images/Search/QI_SearchThumb_LiveVideo_F-Secure.jpg",
     "abstract": "Access your Camera´s Live Video"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "User Account Management",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -293,7 +292,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_CreatingUserAccounts.jpg",
     "abstract": "User Account Management"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Software Update",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -307,7 +306,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_1080p.jpg",
     "abstract": "Update your Cameras Web User Interface and Firmware"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Software Update 720p",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -321,7 +320,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_720p.jpg",
     "abstract": "Update your Cameras Web User Interface and Firmware"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Software Update VGA",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -335,7 +334,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_VGA.jpg",
     "abstract": "Update your Cameras Web User Interface and Firmware"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Clear your Borwser History",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -349,7 +348,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory.jpg",
     "abstract": "Clear your History after a Software Update"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Erase your Browsing History in Internet Explorer",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -363,7 +362,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_IE.jpg",
     "abstract": "Clear your Borwser History in Internet Explorer"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Erase your Browsing History in Mozilla Firfox",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -377,7 +376,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Firefox.jpg",
     "abstract": "Clear your Borwser History in Mozilla Firefox"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Erase your Browsing History in Chromium",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -391,7 +390,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Chrome.jpg",
     "abstract": "Clear your Borwser History in Google Chrome"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Erase your Browsing History in Opera",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -405,7 +404,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Opera.jpg",
     "abstract": "Clear your Borwser History in Opera after a Software Update"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Erase your Browsing History in Microsoft Edge",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -419,7 +418,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Edge.jpg",
     "abstract": "Clear your Borwser History in Microsoft Edge after a Software Update"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Erase your Browsing History in Vivaldi",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -433,7 +432,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Vivaldi.jpg",
     "abstract": "Clear your Borwser History in Vivaldi after a Software Update"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Wireless Connection",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -447,7 +446,7 @@ POST /wiki2_en/article
     "image": "/images/Search/QI_SearchThumb_WLAN.jpg",
     "abstract": "Connect your Camera to your WiFi Router"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "ONVIF",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
