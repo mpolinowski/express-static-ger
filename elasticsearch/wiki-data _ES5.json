@@ -38,7 +38,7 @@
     }
   }
 }
-    
+
 
 Out the box, elasticsearch uses the default standard analyzer. We extend the default analyzer to offer word delimiter, html strip and char mapping.
 
@@ -50,11 +50,11 @@ Often you will want a field to be both searchable and appear as filters. A field
   "article" : {
     "properties" : {
       "chapters" : {
-        "type" : "string",
-        "fields" : {          
+        "type": "text",
+        "fields" : {
           "raw" : {
-            "type" : "string",
-            "index" : "not_analyzed"
+            "type": "text",
+            "index": "false"
           }
         }
       }
@@ -77,7 +77,7 @@ Using the field for searching using prefix:
 
 ################################################################ PUT with Kibana
 
-PUT /wiki2_en
+PUT /wiki2_de
 {
   "analysis": {
     "char_filter": {
@@ -119,57 +119,59 @@ PUT /wiki2_en
     "article": {
       "properties": {
         "title": {
-          "type": "string"
+          "type": "text"
         },
         "series": {
-          "type": "string",
-          "index" : "not_analyzed"
+          "type": "text",
+          "index": "false"
         },
         "models": {
-          "type": "string",
-          "index" : "not_analyzed"
+          "type": "text",
+          "index": "false"
         },
         "description": {
-          "type": "string",
-          "analyzer": "german"
+          "type": "text",
+          "analyzer": "german",
+          "index": "true"
         },
         "description2": {
-          "type": "string",
-          "analyzer": "english"
+          "type": "text",
+          "analyzer": "english",
+          "index": "true"
         },
         "link": {
-          "type": "string",
-          "index" : "not_analyzed"
+          "type": "text",
+          "index": "false"
         },
         "title2": {
-          "type": "string"
+          "type": "text"
         },
         "chapters" : {
-        "type" : "string",
-        "fields" : {          
+        "type": "text",
+        "fields" : {
           "raw" : {
-            "type" : "string",
-            "index" : "not_analyzed"
+            "type": "text",
+            "index": "false"
             }
           }
         },
         "tags": {
-          "type": "string",
-          "analyzer": "keyword",
-          "fields" : {          
+          "type": "keyword",
+          "fields" : {
           "raw" : {
-            "type" : "string",
-            "index" : "not_analyzed"
+            "type": "text",
+            "index": "false"
             }
           }
         },
         "image": {
-          "type": "string",
-          "index" : "not_analyzed"
+          "type": "text",
+          "index": "false"
         },
         "abstract": {
-          "type": "string",
-          "analyzer": "english"
+          "type": "text",
+          "analyzer": "german",
+          "index": "true"
         }
       }
     }

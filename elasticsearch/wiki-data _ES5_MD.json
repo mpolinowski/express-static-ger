@@ -1,4 +1,4 @@
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Motion Detection Setup",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_MDSetup_1080p.jpg",
     "abstract": "Set up the Motion Detection 1080p"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Motion Detection Setup",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -26,7 +26,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_MDSetup_720p.jpg",
     "abstract": "Set up the Motion Detection 720p"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Motion Detection Setup",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -40,7 +40,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_MDSetup_VGA.jpg",
     "abstract": "Set up the Motion Detection Function"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Alarm Notification 1080p",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -54,7 +54,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_AlarmNotification_1080p.jpg",
     "abstract": "Set up the Alarm Notification"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Alarm Notification 720p",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -68,7 +68,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_AlarmNotification_720p.jpg",
     "abstract": "Set up the Alarm Notification"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Alarm Notification VGA",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -82,7 +82,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_AlarmNotification_VGA.jpg",
     "abstract": "Set up the Alarm Notification"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Alarm Notification Troubleshooting",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -96,7 +96,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_AlarmNotification_Troubleshooting.jpg",
     "abstract": "Set up the Alarm Notification"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Alarm Recording",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -110,7 +110,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_AlarmRecording.jpg",
     "abstract": "Set up the Alarm Recording"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "SD Card Access",
     "series": ["VGA", "Indoor", "Outdoor"],
@@ -124,7 +124,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_SDCardAccess.jpg",
     "abstract": "How to access the SD Card"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "SD Card Access with Bitkinex",
     "series": ["VGA", "Indoor", "Outdoor"],
@@ -138,7 +138,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_Bitkinex.jpg",
     "abstract": "How to access the SD Card with Bitkinex"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "SD Card Access with CuteFTP",
     "series": ["VGA", "Indoor", "Outdoor"],
@@ -152,7 +152,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_CuteFTP.jpg",
     "abstract": "How to access the SD Card with CuteFTP"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "SD Card Access with DownThemAll!",
     "series": ["VGA", "Indoor", "Outdoor"],
@@ -166,7 +166,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_DTA.jpg",
     "abstract": "How to access the SD Card with DownThemAll!"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "SD Card Access with Interarchy",
     "series": ["VGA", "Indoor", "Outdoor"],
@@ -180,7 +180,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_Interachy.jpg",
     "abstract": "How to access the SD Card with Interarchy"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "SD Card Access with DeepVacuum",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -194,7 +194,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_DeepVacuum.jpg",
     "abstract": "How to access the SD Card with DeepVacuum"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "SD Card Access with SiteSucker",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -208,7 +208,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_SiteSucker.jpg",
     "abstract": "How to access the SD Card with SiteSucker"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "SD Card Access with SimpleWget",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -222,7 +222,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_SimpleWget.jpg",
     "abstract": "How to access the SD Card with SimpleWget"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Alarm Upload 1080p",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -236,7 +236,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_FTPSettingsAlarmUpload_1080p.jpg",
     "abstract": "Upload Snapshots or Videos to an FTP Server"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Alarm Upload 720p",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -250,7 +250,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_FTPSettingsAlarmUpload_720p.jpg",
     "abstract": "Upload Snapshots or Videos to an FTP Server"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Alarm Upload VGA",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -264,7 +264,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_FTPSettingsAlarmUpload_VGA.jpg",
     "abstract": "Upload Snapshots or Videos to an FTP Server"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Use your Router or NAS as a FTP Server",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -278,7 +278,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer.jpg",
     "abstract": "Use your Router or NAS as a FTP Server"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "AVM Fritzbox as FTP Server",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -292,7 +292,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_Fritzbox.jpg",
     "abstract": "AVM Fritzbox as FTP Server"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Use your Speedport as a FTP Server",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -306,7 +306,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_Speedport.jpg",
     "abstract": "Configure your Telekom Speedport as a FTP Server"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "QNAP NAS as FTP Server",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -320,7 +320,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_QNAP.jpg",
     "abstract": "Configure your QNAP as a FTP Server"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Synology NAS as FTP Server",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -334,7 +334,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_Synology.jpg",
     "abstract": "Configure your Synology as a FTP Server"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "WD MyCloud as FTP Server",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -348,7 +348,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_WD.jpg",
     "abstract": "Configure your WD MyCloud as a FTP Server"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "FTP Server Setup",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -362,7 +362,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_FTPServerSetup.jpg",
     "abstract": "Set up a local FTP Server"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Alarm Server Function",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -376,7 +376,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_AlarmServer.jpg",
     "abstract": "Alarm Server Function"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "INSTAR Cloud",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -390,7 +390,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_Cloud.jpg",
     "abstract": "Use the INSTAR Cloud as Online Storage for your Alarm Recordings"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Create a User Account",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -404,7 +404,7 @@ POST /wiki2_en/article
     "image": "/images/Search/MD_SearchThumb_Cloud_Create.jpg",
     "abstract": "INSTAR Cloud User Management"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Add Storage",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],

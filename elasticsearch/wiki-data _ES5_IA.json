@@ -1,4 +1,4 @@
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "The DDNS Service",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2_en/article
     "image": "/images/Search/IA_SearchThumb_DDNSService.jpg",
     "abstract": "Access your Camera over it's Internet Address"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Thirdparty DDNS",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -26,7 +26,7 @@ POST /wiki2_en/article
     "image": "/images/Search/IA_SearchThumb_ThirdPartyDDNS.jpg",
     "abstract": "Alternative Ways to Access your Camera"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "No-IP DDNS Address",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -40,7 +40,7 @@ POST /wiki2_en/article
     "image": "/images/Search/IA_SearchThumb_ThirdPartyDDNS_noIP.jpg",
     "abstract": "Use a No-IP Address to Access your Camera"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Selfhost DDNS Address",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -54,7 +54,7 @@ POST /wiki2_en/article
     "image": "/images/Search/IA_SearchThumb_ThirdPartyDDNS_selfhost.jpg",
     "abstract": "Use a Selfhost Address to Access your Camera"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "DDDNSS Address",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -68,7 +68,7 @@ POST /wiki2_en/article
     "image": "/images/Search/IA_SearchThumb_ThirdPartyDDNS_ddnss.jpg",
     "abstract": "Use a DDNSS Address to Access your Camera"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Port Forwarding",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -82,7 +82,7 @@ POST /wiki2_en/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding.jpg",
     "abstract": "Forward a Port to Your Camera"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Port Forwarding :: AVM Fritzbox",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -96,12 +96,12 @@ POST /wiki2_en/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Fritzbox.jpg",
     "abstract": "Forward a Port in your AVM Fritzbox"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Port Forwarding :: Telekom Speedport",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
     "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
-    "description": "Telekom Speedport (300er, 500er und 700er Serie) Gehen Sie im Speedport (http: 192.168.2.1) auf Netzwerk und dann auf NAT & Portregeln. Wenn Sie jetzt einen W500V Speedport haben, dann stellen Sie sicher, dass Sie ein Neues Gerät hinzufügen unter den NAT & Portregeln. Hierfür ist es nötig, dass Sie die MAC Adresse Ihrer IP Kamera kennen. Diese können Sie überprüfen, indem Sie in Windows auf Start gehen, dann auf Programme - Zubehör und dort auf Eingabeaufforderung. Es öffnet sich jetzt ein kleiner Dos Modus. Hier geben Sie bitte ein arp -a. Danach bekommen Sie die IP Adressen zusammen mit der MAC Adresse aufgelistet. Suchen Sie die IP Ihrer Kamera und schreiben Sie sich die entsprechende MAC Adresse ab. Gehen Sie jetzt zurück in den Speedport und fügen Sie das Gerät hinzu. Bei allen anderen Speedport Routern benötigen Sie diesen Schritt normalerweise nicht. Gehen Sie auf Netzwerk/NAT und Portregeln um eine neue Portweiterleitung für Ihre Netzwerkkamera einzurichten. Auswahl: Hier wählen Sie bitte nichts aus. Ggbf. kann hier aber HTTP Server gewählt werden wenn der Port 80 verwendet wird. Bezeichnung: Geben Sie hier eine Bezeichnung Ihrer Wahl ein. Zum Beispiel IP Kamera oder InstarVision. Gültig für Gerät: Wählen Sie hier das Gerät bzw. die IP Adresse Ihrer IP Kamera aus. Dies ist die Adresse die Sie nutzen um Ihrer IP Kamera im Browser anzeigen zu lassen. Die IP Adresse startet meist mit 192.168.2.x Umgeleitete Ports - Öffentlich: Tragen Sie hier 80 ein. Wenn Sie nicht Port 80 verwenden möchten dann müssen Sie später entsprechend hinter Ihre Internetadresse einen ":" schreiben und die Portnummer. z.B. xxx.ddns-instar.com:87 Umgeleitete Ports - Private Client: Tragen Sie hier standardmäßig 80 ein wenn Sie bei InstarVision den Port für den Webserver nicht verändert haben. Telekom Speedport (900er Serie) Sie können auf die Weboberfläche des Speedport Routers zugreifen indem Sie folgende Adresse in die Adresszeile Ihres Browsers eingeben: http: 192.168.2.1 . Das Login des Routers auf dem Aufkleber auf der Rückseite des Gerätes. Gehen Sie unter dem Reiter Internet auf Portfreischaltung. Klicken Sie hier bei der TCP Umleitung auf Weitere TCP Umleitung anlegen und wählen die IP Adresse der Kamera aus dem drop-down Menü aus. Die IP Adresse der Kamera ist die, die Ihnen das IP Camera Tool anzeigt. Tragen Sie in die drei davor liegenden Felder den Kameraport ein. Der Standardport der Kamera ist der Port 80. Klicken Sie anschließend auf Speichern um die Regel zu aktivieren. Gehen Sie auf Internet/Portfreischaltung um eine neue Portweiterleitung für Ihre Netzwerkkamera anzulegen. Die Kamera ist jetzt über die ddns Adresse, die Sie unter System/Info in der Weboberfläche der Kamera nachsehen können, aus dem Internet erreichbar. Sollten Sie die Kamera erst kurz im Betrieb haben kann es sein das der Zugriff nicht auf anhieb erfolgreich ist. Geben Sie der Kamera daher einfach etwas Zeit den DNS Eintrag zu tätigen. Sollte es danach immer noch nicht funktionieren kann es sein das der Port 80 in Ihrem Netzwerk durch einen anderen Service belegt ist. In diesem Fall ändern Sie einfach den http Port in der Weboberfläche der Kamera (unter Netzwerk/IP Konfiguration) und passen die Portweiterleitung in Ihrem Router entsprechend an. Erfahrungsgemäß hat man mit dem Port 85 keine Probleme. Nutzen Sie die eindeutige DDNS Adresse Ihrer Kamera die Sie unter System/Info in der Weboberfläche Ihrer Kamera finden. Mehrere Kameras Sollten Sie noch eine zweite Kamera einrichten so müssen Sie für diese eine neue Portweiterleitung einrichten. Bitte beachten Sie hier das sich der öffentliche Port unterscheiden muss. Wir empfehlen diesen um 1 zu erhöhen. Wenn Ihre erste Kamera zum Beispiel den öffentlichen Port 80 hat dann würde Ihre zweite Kamera den Port 81 bekommen. Dadurch würden Sie dann die Kameras wie folgt aufrufen: Kamera 1: ab1234.ddns-instar.com:8081 Kamera 2: ab1234.ddns-instar.com:8082 und so weiter...",
+    "description": "Telekom Speedport (300er, 500er und 700er Serie) Gehen Sie im Speedport (http: 192.168.2.1) auf Netzwerk und dann auf NAT & Portregeln. Wenn Sie jetzt einen W500V Speedport haben, dann stellen Sie sicher, dass Sie ein Neues Gerät hinzufügen unter den NAT & Portregeln. Hierfür ist es nötig, dass Sie die MAC Adresse Ihrer IP Kamera kennen. Diese können Sie überprüfen, indem Sie in Windows auf Start gehen, dann auf Programme - Zubehör und dort auf Eingabeaufforderung. Es öffnet sich jetzt ein kleiner Dos Modus. Hier geben Sie bitte ein arp -a. Danach bekommen Sie die IP Adressen zusammen mit der MAC Adresse aufgelistet. Suchen Sie die IP Ihrer Kamera und schreiben Sie sich die entsprechende MAC Adresse ab. Gehen Sie jetzt zurück in den Speedport und fügen Sie das Gerät hinzu. Bei allen anderen Speedport Routern benötigen Sie diesen Schritt normalerweise nicht. Gehen Sie auf Netzwerk/NAT und Portregeln um eine neue Portweiterleitung für Ihre Netzwerkkamera einzurichten. Auswahl: Hier wählen Sie bitte nichts aus. Ggbf. kann hier aber HTTP Server gewählt werden wenn der Port 80 verwendet wird. Bezeichnung: Geben Sie hier eine Bezeichnung Ihrer Wahl ein. Zum Beispiel IP Kamera oder InstarVision. Gültig für Gerät: Wählen Sie hier das Gerät bzw. die IP Adresse Ihrer IP Kamera aus. Dies ist die Adresse die Sie nutzen um Ihrer IP Kamera im Browser anzeigen zu lassen. Die IP Adresse startet meist mit 192.168.2.x Umgeleitete Ports - Öffentlich: Tragen Sie hier 80 ein. Wenn Sie nicht Port 80 verwenden möchten dann müssen Sie später entsprechend hinter Ihre Internetadresse einen Doppelpunkt schreiben und die Portnummer. z.B. xxx.ddns-instar.com:87 Umgeleitete Ports - Private Client: Tragen Sie hier standardmäßig 80 ein wenn Sie bei InstarVision den Port für den Webserver nicht verändert haben. Telekom Speedport (900er Serie) Sie können auf die Weboberfläche des Speedport Routers zugreifen indem Sie folgende Adresse in die Adresszeile Ihres Browsers eingeben: http: 192.168.2.1 . Das Login des Routers auf dem Aufkleber auf der Rückseite des Gerätes. Gehen Sie unter dem Reiter Internet auf Portfreischaltung. Klicken Sie hier bei der TCP Umleitung auf Weitere TCP Umleitung anlegen und wählen die IP Adresse der Kamera aus dem drop-down Menü aus. Die IP Adresse der Kamera ist die, die Ihnen das IP Camera Tool anzeigt. Tragen Sie in die drei davor liegenden Felder den Kameraport ein. Der Standardport der Kamera ist der Port 80. Klicken Sie anschließend auf Speichern um die Regel zu aktivieren. Gehen Sie auf Internet/Portfreischaltung um eine neue Portweiterleitung für Ihre Netzwerkkamera anzulegen. Die Kamera ist jetzt über die ddns Adresse, die Sie unter System/Info in der Weboberfläche der Kamera nachsehen können, aus dem Internet erreichbar. Sollten Sie die Kamera erst kurz im Betrieb haben kann es sein das der Zugriff nicht auf anhieb erfolgreich ist. Geben Sie der Kamera daher einfach etwas Zeit den DNS Eintrag zu tätigen. Sollte es danach immer noch nicht funktionieren kann es sein das der Port 80 in Ihrem Netzwerk durch einen anderen Service belegt ist. In diesem Fall ändern Sie einfach den http Port in der Weboberfläche der Kamera (unter Netzwerk/IP Konfiguration) und passen die Portweiterleitung in Ihrem Router entsprechend an. Erfahrungsgemäß hat man mit dem Port 85 keine Probleme. Nutzen Sie die eindeutige DDNS Adresse Ihrer Kamera die Sie unter System/Info in der Weboberfläche Ihrer Kamera finden. Mehrere Kameras Sollten Sie noch eine zweite Kamera einrichten so müssen Sie für diese eine neue Portweiterleitung einrichten. Bitte beachten Sie hier das sich der öffentliche Port unterscheiden muss. Wir empfehlen diesen um 1 zu erhöhen. Wenn Ihre erste Kamera zum Beispiel den öffentlichen Port 80 hat dann würde Ihre zweite Kamera den Port 81 bekommen. Dadurch würden Sie dann die Kameras wie folgt aufrufen: Kamera 1: ab1234.ddns-instar.com:8081 Kamera 2: ab1234.ddns-instar.com:8082 und so weiter...",
     "description2": "Port Forwarding: Setting up port forwarding in your Telekom Speedport: To access your camera through the internet you will need a portforwarding service inside your router. For more general information about the ddns access please refer to HERE. Telekom Speedport (300, 500 and 700 Series): In your router please click on Netzwerk and then choose NAT & Portregeln. If you have a W500V Speedport router then you have to also choose Neues Gerät hinzufügen at NAT & Portregeln so you add the camera as a new device in the router. Therefor you need to know the MAC address of your IP camera. You can check the cameras MAC address by opening the command line in windows which you find at Start - Programs - Accessories - Command. This will open a small window in Dos Mode. Here you can simply type in arp - a. This will list you all IP addresses that your computer is connected with including the MAC address. Search for your cameras IP and write down the MAC address of the camera. Now please go back in the Speedport router and add the device. All other Speedport routers normally do not need this setting. Go to Netzwerk NAT und Portregeln to set a new port forwarding rule for your camera. Auswahl: Here please do not choose anything. Or you could choose HTTP Server which will use the default web port 80. Bezeichnung: Here please choose a name for the forwarding rule. For example IP Camera or Instar. Gültig für Gerät: Now please choose the device name or the IP address of your IP camera. This should be the same address that you are using in order to open your IP camera in the web browser. Mostly this address should start with 192.168.2.x. Umgeleitete Ports - Öffentlich: Please choose 80 as your port. If you do not want to choose Port 80 you have to make sure that later when you try to access the camera that you also have to type in the Port in the address bar with : for example xxx.ddns-instar.com:87 in case you are using Port 87. Umgeleitete Ports - Private Client: As default you can fill in 80. If you are using InstarVision and you want to do Portforwarding to the integrated web server you also have to fill in 80 if you didnt change the Port inside the software. Telekom Speedport (900 Series): To access the user interface of your router open the following address with your internet browser 192.168.2.1. The default login can be found on a sticker on the back of the router. Navigate to the Portfreischaltung in the Internet tab. Click on Weitere TCP Umleitung anlegen and pick your cameras IP address from the drop-down menu. You can find your cameras IP address using our IP Camera Tool. Type your cameras port - the default port is 80 - into all 3 fields and click Speichern to save the service. Go to Internet Portfreischaltung to set a new port forwarding rule for your camera. Your camera can now be reached via the ddns address that can be found under System Info in your cameras user interface (s. above). In case the port 80 is already taken in your network you will have to change the camera port under Network Basic Network Settings and of course adjust the portforwarding service to the new port. Use your personal internet address under System Info in the cameras web user interface to your camera from the road. Adding More Cameras: If you are using more then one camera you have to also create another Port rule for each camera.Please make sure that the Öffentliche Port is always different for each port forwarding. For example if you are using Port 8081 for the first camera then the second camera should have the Port 8082 and the third camera Port 8083 and so on. To access each camera you would type in something like this: Camera 1: ab1234.ddns-instar.com:8081, Camera 2: ab1234.ddns-instar.com:8082, and so on...",
     "link": "/Internet_Access/Port_Forwarding/Telekom_Speedport/",
     "title": "Port Weiterleitung Telekom Speedport",
@@ -110,7 +110,7 @@ POST /wiki2_en/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Speedport.jpg",
     "abstract": "Forward a Port in your Telekom Speedport"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Port Forwarding :: D-Link",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -124,7 +124,7 @@ POST /wiki2_en/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding_DLink.jpg",
     "abstract": "Forward a Port in your D-Link"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Port Forwarding :: Netgear",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -138,7 +138,7 @@ POST /wiki2_en/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Netgear.jpg",
     "abstract": "Forward a Port in your Netgear"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Port Forwarding :: Vodafone Easybox",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -152,7 +152,7 @@ POST /wiki2_en/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Easybox.jpg",
     "abstract": "Forward a Port in your Vodafone Easybox"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Port Forwarding :: Pirelli Router",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -166,7 +166,7 @@ POST /wiki2_en/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Pirelli.jpg",
     "abstract": "Forward a Port in your Pirelli Router"
 }
-POST /wiki2_en/article
+POST /wiki2_de/article
 {
     "title2": "Port Forwarding :: TP-Link Router",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
