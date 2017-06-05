@@ -1,4 +1,4 @@
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "How Does An IP Camera Work?",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_HowDoesAnIPCameraWork.jpg",
     "abstract": "How do IP Cameras work in my Network"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "First Steps",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -26,7 +26,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_FirstStepsWithYourIPCamera.jpg",
     "abstract": "First Steps to set up your Camera"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "After Unpacking",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -40,7 +40,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_AfterUnpackingYourIPCamera.jpg",
     "abstract": "After Unpacking your Camera"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Direct LAN Connection",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -54,7 +54,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_DirectConnectionWithYourPC.jpg",
     "abstract": "Direct Connection between your Computer and your Camera"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Alternative Scanner to Find your Camera",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -68,7 +68,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_eng.jpg",
     "abstract": "Angry IP Scanner, Fing, Fing Mobile"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Angry IP Scanner",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -82,7 +82,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_Angry_eng.jpg",
     "abstract": "Use the Angry IP Scanner to Find your Camera"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Fing CLI",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -96,7 +96,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_FingCLI_eng.jpg",
     "abstract": "Use the Fing Command Line Interface to Find your Camera"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Fing Mobile",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -110,7 +110,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_FingMobile_eng.jpg",
     "abstract": "Use the Fing Mobile App to Find your Camera"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Language Selection",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -278,7 +278,7 @@ POST /wiki/article
     "image": "/images/Search/QI_SearchThumb_LiveVideo_F-Secure.jpg",
     "abstract": "Access your Camera´s Live Video"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "User Account Management",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -292,7 +292,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_CreatingUserAccounts.jpg",
     "abstract": "User Account Management"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Software Update",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -306,7 +306,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_1080p.jpg",
     "abstract": "Update your Cameras Web User Interface and Firmware"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Software Update 720p",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -320,7 +320,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_720p.jpg",
     "abstract": "Update your Cameras Web User Interface and Firmware"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Software Update VGA",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -334,7 +334,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_VGA.jpg",
     "abstract": "Update your Cameras Web User Interface and Firmware"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Clear your Borwser History",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -348,7 +348,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory.jpg",
     "abstract": "Clear your History after a Software Update"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Erase your Browsing History in Internet Explorer",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -362,7 +362,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_IE.jpg",
     "abstract": "Clear your Borwser History in Internet Explorer"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Erase your Browsing History in Mozilla Firfox",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -376,7 +376,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Firefox.jpg",
     "abstract": "Clear your Borwser History in Mozilla Firefox"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Erase your Browsing History in Chromium",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -390,7 +390,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Chrome.jpg",
     "abstract": "Clear your Borwser History in Google Chrome"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Erase your Browsing History in Opera",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -404,7 +404,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Opera.jpg",
     "abstract": "Clear your Borwser History in Opera after a Software Update"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Erase your Browsing History in Microsoft Edge",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -418,7 +418,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Edge.jpg",
     "abstract": "Clear your Borwser History in Microsoft Edge after a Software Update"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Erase your Browsing History in Vivaldi",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -432,7 +432,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Vivaldi.jpg",
     "abstract": "Clear your Borwser History in Vivaldi after a Software Update"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "Wireless Connection",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -446,7 +446,7 @@ POST /wiki2_de/article
     "image": "/images/Search/QI_SearchThumb_WLAN.jpg",
     "abstract": "Connect your Camera to your WiFi Router"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title2": "ONVIF",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],

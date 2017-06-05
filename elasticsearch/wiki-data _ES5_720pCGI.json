@@ -1,4 +1,4 @@
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Language Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Language Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Reboot&Reset Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -26,7 +26,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Reboot&Reset Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Backup&Restore Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -40,7 +40,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Backup&Restore Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Update Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -54,7 +54,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Update Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: IP Config Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -68,7 +68,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the IP Config Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: DDNS Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -82,7 +82,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the DDNS Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: WiFi Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -96,7 +96,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the WiFi Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: P2P Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -110,7 +110,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the P2P Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: UPnP Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -124,7 +124,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the UPnP Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Push Service Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -138,7 +138,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Push Service Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Info Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -152,7 +152,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Info Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Date&Time Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -166,7 +166,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Date&Time Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: User Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -180,7 +180,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the User Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Status LED Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -194,7 +194,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Status LED Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: IR LEDs Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -208,7 +208,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the IR LEDs Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: ONVIF Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -222,7 +222,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the ONVIF Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: PTZ Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -236,7 +236,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the PTZ Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: PTZ Tour Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -250,7 +250,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the PTZ Tour Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Log Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -264,7 +264,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Log Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Audio Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -278,7 +278,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Audio Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Video Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -292,7 +292,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Video Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Image Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -306,7 +306,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Image Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Areas Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -320,7 +320,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Areas Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Privacy Mask Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -334,7 +334,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Privacy Mask Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Actions Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -348,7 +348,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Actions Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Alarm Schedule Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -362,7 +362,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Schedule Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: SMTP Server Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -376,7 +376,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the SMTP Server Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Email Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -390,7 +390,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Email Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: FTP Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -404,7 +404,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the FTP Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Alarm Server Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -418,7 +418,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Alarm Server Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Audio Alarm Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -432,7 +432,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Audio Alarm Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: SD Card Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -446,7 +446,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the SD Card Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Recording Schedule Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -460,7 +460,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Recording Schedule Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Video Recording Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -474,7 +474,7 @@ POST /wiki2_de/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "All CGI Commands of the Recording Schedule Menu"
 }
-POST /wiki2_de/article
+POST /wiki2/article
 {
     "title": "720p CGI Commands :: Photoseries Menu",
     "series": ["HD", "Indoor", "Outdoor"],
