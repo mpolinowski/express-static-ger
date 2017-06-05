@@ -36,16 +36,7 @@
 
                     <div class="card-container margin">
 
-                      <div class="twocard">
-                          <a href="/Web_User_Interface/720p_Series/Multimedia/Image/">
-                          <div class="image">
-                              <amp-img noloading height=400 width=400 layout=responsive src="/images/720p_webUI/QL-Box_WebUI_Multimedia_Image_mouseOver.png"></amp-img>
-                          </div>
-                          </a>
-                          <div class="action">
-                              <p>Here you can adjust the image parameters brightness, saturation, contrast, exposure (shutter) and sharpness. You can flip and mirror the video image, can display a timestamp and set a camera name and display it as well. The displayed parameters are burnt into the camera image. Please make sure to restart the camera after changing the name.</p>
-                          </div>
-                      </div>
+
 
                         <!-- ##################################### Video ############################################ -->
 
@@ -56,7 +47,18 @@
                             </div>
                             </a>
                             <div class="action">
-                                <p>The video settings allow you to adjust the quality of all 3 videostreams of your camera. Please be adviced that high quality settings come with high requirements for your computer hardware and network bandwidth. Adjust the video quality to obtain a fluent video accordingly. Please refer to RTSP Streaming for accessing the cameras streams 2 and 3.</p>
+                                <p>Die Video Einstellungen erlauben Ihnen die Qualität der 3 h.264 Videostreams und des MJPG Streams der Kamera einzuregeln. Beachten Sie bitte, dass hohe Qualitätseinstellungen auch zu hohen Bandbreitenanforderungen führen und die Grafikkarte des Zugreifenden Rechners belasten. Die Einstellungen, die Sie hier wählen, sollten immer ein Kompromiss sein aus Bildqualität und der Anforderung, dass Sie zur jeder Zeit einen flüssigen Videostream erhalten möchten, wenn Sie auf die Kamera zugreifen. Sie haben hier noch die Möglichkeit das benutzte Video Plugin für die Videowiedergabe festzulegen und den MJPEG Stream zwischen einen vollwertigen MJPEG Stream und einem pseudo MJEPG Stream umzuschalten.<br><br><br><br><br><br><br></p>
+                            </div>
+                        </div>
+
+                        <div class="twocard">
+                            <a href="/Web_User_Interface/720p_Series/Multimedia/Audio/">
+                            <div class="image">
+                                <amp-img noloading height=400 width=400 layout=responsive src="/images/720p_webUI/QL-Box_WebUI_Multimedia_Audio_mouseOver.png"></amp-img>
+                            </div>
+                            </a>
+                            <div class="action">
+                                <p>Hier können Sie die Verstärkung des Audiosignals für den Audioeingang und Audioausgang festlegen. Dies betrifft entweder extern angeschlossene Mikrofone und Lautsprecher an der Kamera, oder, wenn Ihr Kameramodell über ein Mikrofon und Lautsprecher verfügt, die interne Hardware. Alternativ können Sie den Audiostream auch komplett deaktivieren. Der Alarmton ist eine Audiodatei, die abgespielt wird sobald eine Alarm ausgelöst wird. Dies ist nicht zu verwechseln mit dem Audio Alarm, der das Mikrofon der Kamera nutzt um einen Alarm auszulösen, sobald etwas lautes in der Nähe der Kamera geschieht. Beachten Sie bitte, dass die hier eingestellte Lautstärke für den Audioeingang (durch das Mikrofon an der Kamera) mit in die Empfindlichkeit des Audio Alarms einfließt - der Audioalarm ist umso empfindlicher, desto höher seine Empfindlichkeit im Audio Alarm Overlay eingestellt wird UND desto höher die Verstärkung des Audioeingangs hier gesetzt wird.</p>
                             </div>
                         </div>
 
@@ -68,15 +70,16 @@
                       <div class="card-container margin">
 
                         <div class="twocard">
-                            <a href="/Web_User_Interface/720p_Series/Multimedia/Audio/">
+                            <a href="/Web_User_Interface/720p_Series/Multimedia/Image/">
                             <div class="image">
-                                <amp-img noloading height=400 width=400 layout=responsive src="/images/720p_webUI/QL-Box_WebUI_Multimedia_Audio_mouseOver.png"></amp-img>
+                                <amp-img noloading height=400 width=400 layout=responsive src="/images/720p_webUI/QL-Box_WebUI_Multimedia_Image_mouseOver.png"></amp-img>
                             </div>
                             </a>
                             <div class="action">
-                                <p>Here you can adjust the amplification of the cameras microphones/audio-in as well as the volume of the audio-out signal.</p>
+                                <p>Hier können Sie die Bildparameter, wie Helligkeit, Sättigung, Kontrast, Belichtung (Shutter) und Schärfe, einstellen. Die Funktion zum Drehen&amp;Spiegeln erlaubt es Ihnen ein aufrechtes Bild zu erhalten, wenn Sie die Kamera über Kopf montieren. Der Kameraname und Zeitstempel, der Ihnen im Livevideo angezeigt wird, kann hier ebenfalls angepasst werden. Beachten Sie bitte, das ein Ändern des Kameranamen einen Neustart der Kamera benötigt.</p>
                             </div>
                         </div>
+
 
                           <div class="twocard invisible"></div>
                         <!-- /Card -->
