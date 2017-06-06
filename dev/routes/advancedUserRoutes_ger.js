@@ -5,7 +5,7 @@ var advancedUserGerRouter = express.Router();
 advancedUserGerRouter.get('/', function(req, res) {
     res.render('./Advanced_User/Advanced_User', {
         title: 'Erweitert',
-        ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration.jpg',
+        ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
         headline: 'Für Entwickler',
         canonical: '/Advanced_User/',
       });
@@ -41,7 +41,7 @@ advancedUserGerRouter.get('/Webseiten_Einbindung/', function(req, res) {
 advancedUserGerRouter.get('/Webseiten_Einbindung/Cambozola', function(req, res) {
     res.render('./Advanced_User/Cambozola', {
         title: 'Cambozola (JAVA Plugin)',
-        ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration.jpg',
+        ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration_Cambozola.jpg',
         headline: 'Webseiten Einbindung mit Cambozola',
         breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Webseiten_Einbindung/">Webseiten Einbindung</a></li><li><a href="/Erweitert/Webseiten_Einbindung/Cambozola/">Cambozola</a></li>',
         canonical: '/Advanced_User/Website_Integration/Cambozola/',
@@ -68,7 +68,7 @@ advancedUserGerRouter.get('/Webseiten_Einbindung/Cambozola', function(req, res) 
 advancedUserGerRouter.get('/Webseiten_Einbindung/Open_IP_Camera_Manager', function(req, res) {
     res.render('./Advanced_User/Open_IP_Camera_Manager', {
         title: 'Open IP Camera Manager (PHP)',
-        ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration.jpg',
+        ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration_OIPCM.jpg',
         headline: 'IP Camera Webseiten Einbindung with OICM',
         breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Webseiten_Einbindung/">Webseiten Einbindung</a></li><li><a href="/Erweitert/Webseiten_Einbindung/Open_IP_Camera_Manager/">OIPCM</a></li>',
         canonical: '/Advanced_User/Website_Integration/Open_IP_Camera_Manager/',
@@ -95,7 +95,7 @@ advancedUserGerRouter.get('/Webseiten_Einbindung/Open_IP_Camera_Manager', functi
 advancedUserGerRouter.get('/Webseiten_Einbindung/HD_Kamera_Einbindung', function(req, res) {
     res.render('./Advanced_User/HD_Camera_Integration', {
         title: 'HD Camera Webseiten Einbindung',
-        ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration.jpg',
+        ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration_HD_Cams.jpg',
         headline: 'H.264 IP Camera Webseiten Einbindung',
         breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Webseiten_Einbindung/">Webseiten Einbindung</a></li><li><a href="/Erweitert/Webseiten_Einbindung/HD_Kamera_Einbindung/">HD Kameras</a></li>',
         canonical: '/Advanced_User/Website_Integration/HD_Camera_Integration/',
@@ -122,7 +122,7 @@ advancedUserGerRouter.get('/Webseiten_Einbindung/HD_Kamera_Einbindung', function
 advancedUserGerRouter.get('/CGI_Befehle/', function(req, res) {
     res.render('./Advanced_User/CGI_Commands', {
         title: 'CGI Befehle',
-        ampimg: '/images/Search/AU_SearchThumb_WebsiteIntegration.jpg',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
         headline: 'CGI Commands',
         breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Erweitert/">Erweitert</a></li><li class="breadcrumb-item"><a href="/Erweitert/CGI_Befehle/">CGI Befehle</a></li>',
         canonical: '/Advanced_User/CGI_Commands/',
@@ -149,6 +149,7 @@ advancedUserGerRouter.get('/CGI_Befehle/', function(req, res) {
 advancedUserGerRouter.get('/CGI_Befehle/VGA_Serie_CGI_Befehle', function(req, res) {
     res.render('./Advanced_User/VGA_Series_CGI_List', {
         title: 'VGA Serie CGI Befehle',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands_VGA.jpg',
         breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Erweitert/">Erweitert</a></li><li class="breadcrumb-item"><a href="/Erweitert/CGI_Befehle/">CGI Befehle</a></li><li class="breadcrumb-item"><a href="/Erweitert/CGI_Befehle/VGA_Serie_CGI_Befehle/">VGA Serie</a></li>',
         canonical: '/Advanced_User/CGI_Commands/VGA_Series_CGI_List/',
 		pacc: '',
