@@ -745,7 +745,7 @@ downloadsGerRouter.route('/Innenkameras/IN-3001/')
     });
 });
 
-/* ###################################################### Aussenkameras ###################################################### */
+/* ###################################################### Außenkameras ###################################################### */
 
 downloadsGerRouter.route('/Outdoor_Cameras/IN-9008_HD/')
 .get(function(req, res) {
@@ -1006,7 +1006,7 @@ downloadsGerRouter.route('/Aussenkameras/IN-2904/')
       title: 'IN-2904 Downloads',
       ampimg: '/images/Search/P_SearchThumb_OutdoorCams.jpg',
       headline: 'INSTAR Produkte IN-2904',
-      breadcrumbs: '<li><a href="/Produkte/">Produkte</a></li><li><a href="/Downloadbereich/">Downloadbereich</a></li><li><a href="/Downloadbereich/Aussenkameras">Aussenkameras</a></li><li><a href="/Downloadbereich/Aussenkameras/IN-2904/">IN-2904</a></li>',
+      breadcrumbs: '<li><a href="/Produkte/">Produkte</a></li><li><a href="/Downloadbereich/">Downloadbereich</a></li><li><a href="/Downloadbereich/Aussenkameras">Aussenkameras</a></li><li><a href="/Downloadbereich/Aussenkameras/IN-2904/">IN-2904 </a></li>',
       canonical: '/Downloads/Outdoor_Cameras/IN-2904/',
 		pacc: '',
 		ptab: 'hidden',
@@ -1027,5 +1027,6 @@ downloadsGerRouter.route('/Aussenkameras/IN-2904/')
 		dltab: '',
     });
 });
+
 
 module.exports = downloadsGerRouter;
