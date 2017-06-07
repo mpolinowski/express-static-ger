@@ -521,6 +521,34 @@ downloadsGerRouter.get('/Desktop_Software/Instar_Kamera_Tool', function(req, res
 
 /* ###################################################### Innenkameras ###################################################### */
 
+downloadsRouter.route('/Indoor_Cameras/IN-8015_HD/')
+.get(function(req, res) {
+  res.render('./Downloads/Indoor_Cameras_8015', {
+      title: 'IN-8015 HD Downloads',
+      ampimg: '/images/Search/P_SearchThumb_IN-8015HD_Downloads.jpg',
+      headline: 'INSTAR Products IN-8015 HD',
+      breadcrumbs: '<li><a href="/Produkte/">Produkte</a></li><li><a href="/Downloadbereich/">Downloadbereich</a></li><li><a href="/Downloadbereich/Innenkameras">Innenkameras</a></li><li><a href="/Downloadbereich/Innenkameras/IN-8015_HD">IN-8015 HD</a></li>',
+      canonical: '/Downloads/Indoor_Cameras/IN-8015_HD/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: '',
+		dltab: '',
+    });
+});
+
 downloadsGerRouter.route('/Innenkameras/IN-6014_HD/')
 .get(function(req, res) {
   res.render('./Downloads/Indoor_Cameras_6014', {
@@ -718,6 +746,34 @@ downloadsGerRouter.route('/Innenkameras/IN-3001/')
 });
 
 /* ###################################################### Aussenkameras ###################################################### */
+
+downloadsRouter.route('/Outdoor_Cameras/IN-9008_HD/')
+.get(function(req, res) {
+  res.render('./Downloads/Outdoor_Cameras_9008', {
+      title: 'IN-9008 HD Downloads',
+      ampimg: '/images/Search/P_SearchThumb_IN-9008HD_Downloads.jpg',
+      headline: 'INSTAR Products IN-9008 HD',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Outdoor_Cameras">Outdoor Cameras</a></li><li><a href="/Downloads/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li>',
+      canonical: '/Downloads/Outdoor_Cameras/IN-9008_HD/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: '',
+		dltab: '',
+    });
+});
 
 downloadsGerRouter.route('/Aussenkameras/IN-7011_HD/')
 .get(function(req, res) {

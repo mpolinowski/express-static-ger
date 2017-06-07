@@ -349,7 +349,7 @@ productRouter.route('/IN-LAN')
 .get(function(req, res) {
   res.render('./Products/IN-LAN_500', {
       title: 'IN-LAN 500 Powerline Communication',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      ampimg: '/images/Search/P_SearchThumb_Powerline.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-LAN/">IN-LAN Powerline</a></li>',
       canonical: '/Products/IN-LAN/',
@@ -379,6 +379,7 @@ productRouter.route('/IR_Lighting')
 .get(function(req, res) {
   res.render('./Products/IR-Lighting', {
       title: 'INSTAR Infrared Spotlights',
+      ampimg: '/images/Search/P_SearchThumb_InfraredSpotlights.jpg',
       breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Products/IR_Lighting/">IR Lighting</a></li>',
       canonical: '/Products/IR_Lighting/',
 		pacc: 'expanded',
@@ -407,7 +408,7 @@ productRouter.route('/Power_over_Ethernet')
 .get(function(req, res) {
   res.render('./Products/IN-PoE_1000', {
       title: 'IN-PoE 1000 Power over Ethernet',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      ampimg: '/images/Search/P_SearchThumb_PowerOverEthernet.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/Power_over_Ethernet/">Power over Ethernet</a></li>',
       canonical: '/Products/Power_over_Ethernet/',
@@ -437,6 +438,7 @@ productRouter.route('/IN-Mikro')
 .get(function(req, res) {
   res.render('./Products/IN-Mikro', {
       title: 'IN-Mikro IP Camera Microphones',
+      ampimg: '/images/Search/P_SearchThumb_Microphones.jpg',
       breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Products/IN-Mikro/">IN-Mikro</a></li>',
       canonical: '/Products/IN-Mikro/',
 		pacc: 'expanded',
@@ -465,7 +467,7 @@ productRouter.route('/IN-Route')
 .get(function(req, res) {
   res.render('./Products/IN-Route_P52', {
       title: 'IN-Route P52 Travel Router',
-      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      ampimg: '/images/Search/P_SearchThumb_MobileRouter.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Products</a></li><li><a href="/Products/IN-Route/">IN-Route P52</a></li>',
       canonical: '/Products/IN-Route/',
