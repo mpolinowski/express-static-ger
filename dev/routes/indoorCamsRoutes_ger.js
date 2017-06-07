@@ -8,9 +8,19 @@ indoorCamsGerRouter.route('/')
   .get(function(req, res) {
       res.render('./Indoor_Cams/Indoor_Cameras', {
           title: 'INSTAR IP Innenkameras',
+          model: '8015',
+          type: 'Indoor',
           ampimg: '/images/Search/P_SearchThumb_Indoor_Cameras.jpg',
           headline: 'INSTAR Produkte IP Innenkameras',
+          breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products">Produkte</a></li><li><a href="/Innenkameras">Innenkameras</a></li><li><a href="/Innenkameras">Innenkameras</a></li>',
           canonical: '/Indoor_Cameras/',
+    		  pacc: '',
+    		  qiacc: '',
+    		  mdacc: '',
+    		  iaacc: '',
+    		  auacc: '',
+    		  fhdacc: '',
+    		  hdacc: 'hidden',
         });
     });
 

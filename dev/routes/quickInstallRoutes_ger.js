@@ -10,6 +10,23 @@ quickInstallGerRouter.route('/')
         headline: 'Schnell Installation',
         breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Schnell_Installation/">Schnell Installation</a></li>',
         canonical: '/Quick_Installation/',
+        pacc: '',
+        ptab: 'hidden',
+        qiacc: 'expanded',
+        qitab: '',
+        mdacc: '',
+        mdtab: 'hidden',
+        iaacc: '',
+        iatab: 'hidden',
+        auacc: '',
+        autab: 'hidden',
+        hdacc: 'hidden',
+        hdtab: 'hidden',
+        fhdacc: 'hidden',
+        fhdtab: 'hidden',
+        sacc: 'hidden',
+        dlacc: 'hidden',
+        dltab: 'hidden',
       });
   });
 
