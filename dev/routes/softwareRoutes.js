@@ -403,7 +403,6 @@ softwareRouter.route('/Windows/iSpy')
 .get(function(req, res) {
   res.render('./Software/Windows_iSpy', {
       title: 'iSpy Connect',
-	  uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_iSpy_Connect.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/iSpy/">iSpy</a></li>',
@@ -432,7 +431,6 @@ softwareRouter.route('/Windows/Sighthound')
 .get(function(req, res) {
   res.render('./Software/Windows_Sighthound', {
       title: 'Sighthound',
-	  uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Sighthound.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Sighthound/">Sighthound</a></li>',
@@ -461,7 +459,6 @@ softwareRouter.route('/Windows/P2P_Client')
 .get(function(req, res) {
   res.render('./Software/Windows_P2P_Client', {
       title: 'P2P Client',
-	  uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_P2P_Client.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/P2P_Client/">P2P Client</a></li>',
@@ -490,7 +487,6 @@ softwareRouter.route('/Windows/go1984')
 .get(function(req, res) {
   res.render('./Software/Windows_go1984', {
       title: 'Logiware go1984',
-	  uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_go1984.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/go1984/">go1984</a></li>',
@@ -519,7 +515,6 @@ softwareRouter.route('/Windows/VLC_Player')
 .get(function(req, res) {
   res.render('./Software/Windows_VLC', {
       title: 'VLC Player',
-	  uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_VLC.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/VLC_Player/">VLC Player</a></li>',
@@ -548,7 +543,6 @@ softwareRouter.route('/Windows/CCTV_Chrome_Plugin')
 .get(function(req, res) {
   res.render('./Software/Windows_CCTV_Plugin', {
       title: 'CCTV Plugin',
-	  uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_CCTV.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/CCTV_Chrome_Plugin/">CCTV Plugin</a></li>',
@@ -577,7 +571,6 @@ softwareRouter.route('/Windows/Blue_Iris')
 .get(function(req, res) {
   res.render('./Software/Windows_Blue_Iris', {
       title: 'Blue Iris',
-	  uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Blue_Iris.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Blue_Iris/">Blue Iris</a></li>',
@@ -606,7 +599,6 @@ softwareRouter.route('/Windows/YAW_Cam')
 .get(function(req, res) {
   res.render('./Software/Windows_YAW_Cam', {
       title: 'YAW Cam',
-	  uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_YAW_Cam.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/YAW_Cam/">YAW Cam</a></li>',
@@ -635,7 +627,6 @@ softwareRouter.route('/Windows/Zone_Trigger')
 .get(function(req, res) {
   res.render('./Software/Windows_Zone_Trigger', {
       title: 'Zone Trigger',
-	  uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Zone_Trigger.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Zone_Trigger/">Zone Trigger</a></li>',
@@ -664,7 +655,6 @@ softwareRouter.route('/Windows/Webcam_XP')
 .get(function(req, res) {
   res.render('./Software/Windows_Webcam_XP', {
       title: 'WebcamXP',
-	  uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_WebcamXP.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Webcam_XP/">Webcam XP</a></li>',
@@ -693,7 +683,6 @@ softwareRouter.route('/Windows/Webcam_Motion_Detector')
 .get(function(req, res) {
   res.render('./Software/Windows_Webcam_Motion_Detector', {
       title: 'Webcam Motion Detector',
-	  uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Webcam_MD.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Webcam_Motion_Detector/">Webcam Motion Detector</a></li>',
@@ -722,7 +711,6 @@ softwareRouter.route('/Windows/Zebra_Surveillance')
 .get(function(req, res) {
   res.render('./Software/Windows_Zebra_Surveillance', {
       title: 'Zebra Surveillance',
-	  uplink: '/Software/Windows/',
       ampimg: '/images/Search/P_SearchThumb_Zebra_Surveillance.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Windows/">Windows</a></li><li><a href="/Software/Windows/Zebra_Surveillance/">Zebra Surveillance</a></li>',
@@ -1189,7 +1177,6 @@ softwareRouter.route('/iOS/IP_Vision_Pro')
 .get(function(req, res) {
   res.render('./Software/iOS_IP_Vision_Pro', {
       title: 'IP VIsion Pro',
-	  uplink: '/Software/iOS/',
       ampimg: '/images/Search/P_SearchThumb_IP_VisionPro.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/iOS/">iOS</a></li><li><a href="/Software/iOS/IP_Vision_Pro/">IP Vision Pro</a></li>',
@@ -1218,7 +1205,6 @@ softwareRouter.route('/iOS/ICCAM')
 .get(function(req, res) {
   res.render('./Software/iOS_ICCAM', {
       title: 'ICCAM',
-	  uplink: '/Software/iOS/',
       ampimg: '/images/Search/P_SearchThumb_ICCAM.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/iOS/">iOS</a></li><li><a href="/Software/iOS/ICCAM/">ICCAM</a></li>',
@@ -1247,7 +1233,6 @@ softwareRouter.route('/iOS/IP_Cam_Viewer')
 .get(function(req, res) {
   res.render('./Software/Android_IP_CamViewer', {
       title: 'IP Cam Viewer',
-	  uplink: '/Software/iOS/',
       ampimg: '/images/Search/P_SearchThumb_IP_Cam_Viewer.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/iOS/">iOS</a></li><li><a href="/Software/iOS/IP_Cam_Viewer/">IP Cam Viewer</a></li>',
@@ -1276,7 +1261,6 @@ softwareRouter.route('/iOS/P2P_Cam_Live')
 .get(function(req, res) {
   res.render('./Software/iOS_P2P_Cam_Live', {
       title: 'P2P Cam Live',
-	  uplink: '/Software/iOS/',
       ampimg: '/images/Search/P_SearchThumb_P2P_CamLive.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/iOS/">iOS</a></li><li><a href="/Software/iOS/P2P_Cam_Live/">P2P Cam Live</a></li>',
@@ -1355,7 +1339,6 @@ softwareRouter.route('/Other_Platforms/Synology')
 .get(function(req, res) {
   res.render('./Software/Other_Platforms_Synology', {
       title: 'Synology',
-	  uplink: '/Software/Other_Platforms/',
       ampimg: '/images/Search/P_SearchThumb_Synology.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Other_Platforms/">Other</a></li><li><a href="/Software/Other_Platforms/Synology/">Synology</a></li>',
@@ -1384,7 +1367,6 @@ softwareRouter.route('/Other_Platforms/AVM_Fritzphone')
 .get(function(req, res) {
   res.render('./Software/Other_Platforms_AVM_Fritzphone', {
       title: 'AVM Fritzphone',
-	  uplink: '/Software/Other_Platforms/',
       ampimg: '/images/Search/P_SearchThumb_AVM.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Other_Platforms/">Other</a></li><li><a href="/Software/Other_Platforms/AVM_Fritzphone/">AVM Fritzphone</a></li>',
@@ -1413,7 +1395,6 @@ softwareRouter.route('/Other_Platforms/Domovea')
 .get(function(req, res) {
   res.render('./Software/Other_Platforms_Domovea', {
       title: 'Domovea',
-	  uplink: '/Software/Other_Platforms/',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
       headline: 'INSTAR Products',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Other_Platforms/">Other</a></li><li><a href="/Software/Other_Platforms/Domovea/">Domovea</a></li>',
