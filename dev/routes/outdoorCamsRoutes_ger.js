@@ -7,9 +7,19 @@ outdoorCamsRouter.route('/')
   .get(function(req, res) {
       res.render('./Outdoor_Cams/Outdoor_Cameras', {
           title: 'INSTAR IP Aussenkameras',
+          model: '9008',
+		      type: 'Outdoor',
           ampimg: '/images/Search/P_SearchThumb_Outdoor_Cameras.jpg',
           headline: 'INSTAR IP Aussenkameras',
+          breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products">Produkte</a></li><li><a href="/Aussenkameras">Aussenkameras</a></li>',
           canonical: '/Outdoor_Cameras/',
+		  pacc: '',
+		  qiacc: '',
+		  mdacc: '',
+		  iaacc: '',
+		  auacc: '',
+		  fhdacc: '',
+		  hdacc: 'hidden',
         });
     });
 

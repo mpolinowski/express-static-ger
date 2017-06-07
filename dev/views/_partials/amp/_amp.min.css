@@ -83,7 +83,7 @@ amp-img.placeholder {
 }
 
 .shadow {
-    box-shadow: 2px 2px 1px #888
+    box-shadow: 2px 2px 1px #bcbcbc
 }
 
 .bevel {
@@ -2908,4 +2908,30 @@ section[expanded] .accordion-title::after {
   text-transform:none;
   text-decoration: none;
   text-align: inherit;
+}
+
+.mediaObject {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  padding: 1rem;
+  max-width: 365px;
+  margin: 0 20px 20px 20px;
+}
+
+.mediaObject > div {
+  flex: 1;
+}
+
+.mediaObject amp-fit-text {
+  text-transform: none;
+  color: #757575;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width:1065px) {
+    .mediaObject {
+        max-width: 900px;
+        margin: 20px 5px;
+    }
 }
