@@ -10,7 +10,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
     "image": "/images/Search/MD_SearchThumb_MDSetup_1080p.jpg",
-    "abstract": "Set up the Motion Detection 1080p"
+    "abstract": "Konfiguration der Bewegungserkennung in Ihrer FHD-Kamera"
 }
 POST /wiki2/article
 {
@@ -24,7 +24,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
     "image": "/images/Search/MD_SearchThumb_MDSetup_720p.jpg",
-    "abstract": "Set up the Motion Detection 720p"
+    "abstract": "Konfiguration der Bewegungserkennung in Ihrer HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -38,7 +38,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
     "image": "/images/Search/MD_SearchThumb_MDSetup_VGA.jpg",
-    "abstract": "Set up the Motion Detection Function"
+    "abstract": "Konfiguration der Bewegungserkennung in Ihrer VGA-Kamera"
 }
 POST /wiki2/article
 {
@@ -52,7 +52,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
     "image": "/images/Search/MD_SearchThumb_AlarmNotification_1080p.jpg",
-    "abstract": "Set up the Alarm Notification"
+    "abstract": "Konfiguration der Alarm-Email-Benachrichtigung Ihrer FHD-Kamera"
 }
 POST /wiki2/article
 {
@@ -66,7 +66,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
     "image": "/images/Search/MD_SearchThumb_AlarmNotification_720p.jpg",
-    "abstract": "Set up the Alarm Notification"
+    "abstract": "Konfiguration der Alarm-Email-Benachrichtigung Ihrer HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -80,7 +80,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
     "image": "/images/Search/MD_SearchThumb_AlarmNotification_VGA.jpg",
-    "abstract": "Set up the Alarm Notification"
+    "abstract": "Konfiguration der Alarm-Email-Benachrichtigung Ihrer VGA-Kamera"
 }
 POST /wiki2/article
 {
@@ -94,7 +94,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "notification", "email", "detection areas", "FTP"],
     "image": "/images/Search/MD_SearchThumb_AlarmNotification_Troubleshooting.jpg",
-    "abstract": "Set up the Alarm Notification"
+    "abstract": "Fehlerbehebung bei der Email-Benachrichtigung"
 }
 POST /wiki2/article
 {
@@ -108,7 +108,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["motion detection", "alarm", "recording", "detection areas"],
     "image": "/images/Search/MD_SearchThumb_AlarmRecording.jpg",
-    "abstract": "Set up the Alarm Recording"
+    "abstract": "Manuelle Aufname von Videos "
 }
 POST /wiki2/article
 {
@@ -122,7 +122,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "bitkinex", "cute ftp", "downthemall", "Interachy", "DeepVacuum", "SiteSucker", "SimpleWget"],
     "image": "/images/Search/MD_SearchThumb_SDCardAccess.jpg",
-    "abstract": "How to access the SD Card"
+    "abstract": "Zugriff auf die SD-Karte"
 }
 POST /wiki2/article
 {
@@ -136,7 +136,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "bitkinex"],
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_Bitkinex.jpg",
-    "abstract": "How to access the SD Card with Bitkinex"
+    "abstract": "Zugriff auf die SD-Karte per Bitkinex"
 }
 POST /wiki2/article
 {
@@ -150,7 +150,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "CuteFTP"],
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_CuteFTP.jpg",
-    "abstract": "How to access the SD Card with CuteFTP"
+    "abstract": "Zugriff auf die SD-Karte per CuteFTP"
 }
 POST /wiki2/article
 {
@@ -164,7 +164,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "DownThemAll"],
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_DTA.jpg",
-    "abstract": "How to access the SD Card with DownThemAll!"
+    "abstract": "Zugriff auf die SD-Karte per DownThemAll!"
 }
 POST /wiki2/article
 {
@@ -178,7 +178,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "Interarchy"],
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_Interachy.jpg",
-    "abstract": "How to access the SD Card with Interarchy"
+    "abstract": "Zugriff auf die SD-Karte per Interarchy"
 }
 POST /wiki2/article
 {
@@ -192,7 +192,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "DeepVacuum"],
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_DeepVacuum.jpg",
-    "abstract": "How to access the SD Card with DeepVacuum"
+    "abstract": "Zugriff auf die SD-Karte per DeepVacuum"
 }
 POST /wiki2/article
 {
@@ -206,7 +206,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "SiteSucker"],
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_SiteSucker.jpg",
-    "abstract": "How to access the SD Card with SiteSucker"
+    "abstract": "Zugriff auf die SD-Karte per SiteSucker"
 }
 POST /wiki2/article
 {
@@ -220,7 +220,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["sd card", "motion detection", "alarm", "recording", "detection areas", "SimpleWget"],
     "image": "/images/Search/MD_SearchThumb_SDCardAccess_SimpleWget.jpg",
-    "abstract": "How to access the SD Card with SimpleWget"
+    "abstract": "Zugriff auf die SD-Karte per SimpleWget"
 }
 POST /wiki2/article
 {
@@ -234,7 +234,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["FTP", "motion detection", "alarm", "photoseries", "upload"],
     "image": "/images/Search/MD_SearchThumb_FTPSettingsAlarmUpload_1080p.jpg",
-    "abstract": "Upload Snapshots or Videos to an FTP Server"
+    "abstract": "Speichern von Snapshots oder Videos auf Ihrem FTP Server"
 }
 POST /wiki2/article
 {
@@ -248,7 +248,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["FTP", "motion detection", "alarm", "photoseries", "upload"],
     "image": "/images/Search/MD_SearchThumb_FTPSettingsAlarmUpload_720p.jpg",
-    "abstract": "Upload Snapshots or Videos to an FTP Server"
+    "abstract": "Speichern von Snapshots oder Videos auf Ihrem FTP Server"
 }
 POST /wiki2/article
 {
@@ -262,7 +262,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["FTP", "motion detection", "alarm", "photoseries", "upload"],
     "image": "/images/Search/MD_SearchThumb_FTPSettingsAlarmUpload_VGA.jpg",
-    "abstract": "Upload Snapshots or Videos to an FTP Server"
+    "abstract": "Speichern von Snapshots oder Videos auf Ihrem FTP Server"
 }
 POST /wiki2/article
 {
@@ -276,7 +276,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["NAS", "Router", "local server", "upload", "FTP"],
     "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer.jpg",
-    "abstract": "Use your Router or NAS as a FTP Server"
+    "abstract": "Einrichten Ihres Routers / NAS als FTP Server"
 }
 POST /wiki2/article
 {
@@ -290,7 +290,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["NAS", "Router", "local server", "upload", "FTP", "AVM", "Fritzbox"],
     "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_Fritzbox.jpg",
-    "abstract": "AVM Fritzbox as FTP Server"
+    "abstract": "Einrichten Ihrer AVM Fritzbox als FTP Server"
 }
 POST /wiki2/article
 {
@@ -304,7 +304,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["NAS", "Router", "local server", "upload", "FTP", "Telekom", "Speedport"],
     "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_Speedport.jpg",
-    "abstract": "Configure your Telekom Speedport as a FTP Server"
+    "abstract": "Einrichten Ihres Telekom Speedport Routers als FTP Server"
 }
 POST /wiki2/article
 {
@@ -318,7 +318,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["NAS", "Router", "local server", "upload", "QNAP"],
     "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_QNAP.jpg",
-    "abstract": "Configure your QNAP as a FTP Server"
+    "abstract": "Einrichten Ihrer QNAP als FTP Server"
 }
 POST /wiki2/article
 {
@@ -332,7 +332,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["NAS", "Router", "local server", "upload", "Synology"],
     "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_Synology.jpg",
-    "abstract": "Configure your Synology as a FTP Server"
+    "abstract": "Einrichten Ihrer Synology als FTP Server"
 }
 POST /wiki2/article
 {
@@ -346,7 +346,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["NAS", "Router", "local server", "upload", "Western Digital", "MyCloud"],
     "image": "/images/Search/MD_SearchThumb_RouterAsFTPServer_WD.jpg",
-    "abstract": "Configure your WD MyCloud as a FTP Server"
+    "abstract": "Einrichten Ihrer WD MyCloud als FTP Server"
 }
 POST /wiki2/article
 {
@@ -360,21 +360,21 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["local server", "upload", "Filezilla", "FTP"],
     "image": "/images/Search/MD_SearchThumb_FTPServerSetup.jpg",
-    "abstract": "Set up a local FTP Server"
+    "abstract": "Einrichten eines FTP Server auf dem Heim-PC"
 }
 POST /wiki2/article
 {
     "title2": "Alarm Server Function",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
     "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
-    "description": "Alarm Server Funktion Sie können die Alarm Server Funktion nutzen, um eine HTTP-Anfrage an einen verbundenen Server zu schicken. Der Server benötigt eine kompatible Software um die Anfrage als Alarm entgegenzunehmen und weitere Aktionen folgen zu lassen. Diese Funktion wird oft von Heim-Alarm-Systemen unterstützt. Sie können der Anfrage eigene Befehle hinzufügen, um in der Server Software verschiedene Aktionen auszulösen. Alarm Server hinzufügen Öffnen Sie die Weboberfläche Ihrer (VGA!) Kamera und navigieren Sie zu Alarm / Alarm Server. Geben Sie Ihre Alarm Server Adresse ein und aktivieren Sie die Funktion. Bitte fügen Sie das http-Präfix vor die IP-Adresse. - z.B. http: 192.168.1.66. Programm Die Alarm Server Funktion kann mit Alarm Systemen und Heimautomations-Systemen verwendet werden wie dem Open Source Projekt FHEM. Leider, aufgrund der verwendeten Leerzeichen in den URLs der Heimautomation, wird das Programmieren Ihrer Kamera ein wenig komplizierter. Während wir diesen Artikel schreiben, testen wir bereits an einer neuen Version der Weboberfläche für Ihre VGA Kameras , die den Work-Around überflüssig machen. Das Folgende zeigt Ihnen, wie Sie bestimmen können, ob die Kamera den Befehl korrekt versteht und wie Sie den Befehl bearbeiten können, um das Problem zu umgehen. Heimautomations-Systeme wie FHEM verwenden Leerzeichen in deren URLs die als %20 codiert werden müssen. Sie müssen einen sogenannten URL-Codierer verwenden um Leerzeichen Ihrer Webadresse zu nutzen. Ein Beispiel-Befehl für das Heimautomations-System FHEM ist das Setzen eines Alarms auf das Auslösen eines Alarm Events. Der Befehl wird für die Kamera zu set%20alarm%20on codiert. Der empfangende FHEM Server wird dann %20 wieder zu einem Leerzeichen decodieren. Falls Ihr FHEM Alarm Server zum Beispiel die lokale IP Adresse 192.168.1.66 hat, ist die Server Adresse, die Sie in die Weboberfläche der Kamera eintippen müssen, damit das Alarm Event aktiviert wird ist: http: 192.168.1.66/fhem?cmd=set%20alarm%20on (Die maximale Länge der URL ist 128 Zeichen.) Sie können prüfen ob der Befehl korrekt gespeichert wurde, indem Sie den CGI Befehl http: 192.168.1.230/get_params.cgi (192.168.1.230 muss durch die IP-Adresse Ihrer Kamera ersetzt werden) zum Abrufen Ihrer Konfiguration eingeben. Falls Sie noch nicht eingeloggt sind, werden Sie nach den Administrator-Login Daten gefragt. Scrollen Sie nach unten zur Parameter-Liste und suchen Sie nach der Variablen alarm_http_url. Sie können prüfen ob der FHEM Befehl und die Serveradresse korrekt ist, indem Sie sie die Kamera Konfigurationsseite mit dem CGI Befehl get_params.cgi aufrufen. Die Serveradresse muss mit der %20 Codierung gespeichert werden. Jedes Mal wenn ein Alarm ausgelöst wird, wird die HTTP Anfrage an ihr Heimautomations-System gesendet und Ihren eigenen Befehl auslösen. Problembehebung Was sollten Sie tun, wenn Ihre Kamera den codierten %20 Befehl nicht speichert? Wie oben erwähnt, werden Sie wahrscheinlich bereits eine Weboberfläche nutzen die auf die Codierung achtet und den Befehl korrekt abspeichert. - bitte überspringen Sie diesen Paragraph wenn dies der Fall ist. Im Folgenden verwenden wir einen kleinen Trick um die Codierung für uns, statt gegen uns zu nutzen: Was sollten Sie tun, wenn der CGI Befehl get_params.cgi Ihnen anzeigt, dass der Befehl mit Leerzeichen statt mit %20 gespeichert wurde? Ihre Kamer sendet jetzt bei jedem Alarm die HTTP-Anfrage. Die Anfrage wird allerdings vor dem ersten Leerzeichen abgeschnitten - macht den Befehl damit unbrauchbar. Wir können das Problem lösen, indem wir den automatischen URL Codierer die korrekte URL codieren lassen. Dies wird durch Codieren des % in ein %25 durchgeführt. Die Serveradresse wird zu: http: 192.168.1.66/fhem?cmd=set%2520alarm%2520on Der automatische Codierer wird die korrekte Adresse generieren, sobald Sie diese Adresse bestätigen: http: 192.168.1.66/fhem?cmd=set%20alarm%20on Um das zu verhindern, codieren Sie das Leerzeichen mit %2520 statt %20. Bitte den Bestätigen-Button nicht ein zweites Mal drücken - da dies statt der %20 wieder ein Leerzeichen einsetzen würde. Sie können das Ergebnis durch den get_params.cgi Befehl prüfen.",
+    "description": "Alarm Server Funktion Sie können die Alarm Server Funktion nutzen, um eine HTTP-Anfrage an einen verbundenen Server zu schicken. Der Server benötigt eine kompatible Software um die Anfrage als Alarm entgegenzunehmen und weitere Aktionen folgen zu lassen. Diese Funktion wird oft von Heim-Alarm-Systemen unterstützt. Sie können der Anfrage eigene Befehle hinzufügen, um in der Server Software verschiedene Aktionen auszulösen. Alarm Server hinzufügen Öffnen Sie die Weboberfläche Ihrer (VGA!) Kamera und navigieren Sie zu Alarm / Alarm Server. Geben Sie Ihre Alarm Server Adresse ein und aktivieren Sie die Funktion. Bitte fügen Sie das http-Präfix vor die IP-Adresse. - z.B. http: 192.168.1.66. Programm Die Alarm Server Funktion kann mit Alarm Systemen und Heimautomations-Systemen verwendet werden wie dem Open Source Projekt FHEM. Leider, aufgrund der verwendeten Leerzeichen in den URLs der Heimautomation, wird das Programmieren Ihrer Kamera ein wenig komplizierter. Während wir diesen Artikel schreiben, testen wir bereits an einer neuen Version der Weboberfläche für Ihre VGA Kameras, die den Work-Around überflüssig machen. Das Folgende zeigt Ihnen, wie Sie bestimmen können, ob die Kamera den Befehl korrekt versteht und wie Sie den Befehl bearbeiten können, um das Problem zu umgehen. Heimautomations-Systeme wie FHEM verwenden Leerzeichen in deren URLs die als %20 codiert werden müssen. Sie müssen einen sogenannten URL-Codierer verwenden um Leerzeichen Ihrer Webadresse zu nutzen. Ein Beispiel-Befehl für das Heimautomations-System FHEM ist das Setzen eines Alarms auf das Auslösen eines Alarm Events. Der Befehl wird für die Kamera zu set%20alarm%20on codiert. Der empfangende FHEM Server wird dann %20 wieder zu einem Leerzeichen decodieren. Falls Ihr FHEM Alarm Server zum Beispiel die lokale IP Adresse 192.168.1.66 hat, ist die Server Adresse, die Sie in die Weboberfläche der Kamera eintippen müssen, damit das Alarm Event aktiviert wird ist: http: 192.168.1.66/fhem?cmd=set%20alarm%20on (Die maximale Länge der URL ist 128 Zeichen.) Sie können prüfen ob der Befehl korrekt gespeichert wurde, indem Sie den CGI Befehl http: 192.168.1.230/get_params.cgi (192.168.1.230 muss durch die IP-Adresse Ihrer Kamera ersetzt werden) zum Abrufen Ihrer Konfiguration eingeben. Falls Sie noch nicht eingeloggt sind, werden Sie nach den Administrator-Login Daten gefragt. Scrollen Sie nach unten zur Parameter-Liste und suchen Sie nach der Variablen alarm_http_url. Sie können prüfen ob der FHEM Befehl und die Serveradresse korrekt ist, indem Sie sie die Kamera Konfigurationsseite mit dem CGI Befehl get_params.cgi aufrufen. Die Serveradresse muss mit der %20 Codierung gespeichert werden. Jedes Mal wenn ein Alarm ausgelöst wird, wird die HTTP Anfrage an ihr Heimautomations-System gesendet und Ihren eigenen Befehl auslösen. Problembehebung Was sollten Sie tun, wenn Ihre Kamera den codierten %20 Befehl nicht speichert? Wie oben erwähnt, werden Sie wahrscheinlich bereits eine Weboberfläche nutzen die auf die Codierung achtet und den Befehl korrekt abspeichert. - bitte überspringen Sie diesen Paragraph wenn dies der Fall ist. Im Folgenden verwenden wir einen kleinen Trick um die Codierung für uns, statt gegen uns zu nutzen: Was sollten Sie tun, wenn der CGI Befehl get_params.cgi Ihnen anzeigt, dass der Befehl mit Leerzeichen statt mit %20 gespeichert wurde? Ihre Kamer sendet jetzt bei jedem Alarm die HTTP-Anfrage. Die Anfrage wird allerdings vor dem ersten Leerzeichen abgeschnitten - macht den Befehl damit unbrauchbar. Wir können das Problem lösen, indem wir den automatischen URL Codierer die korrekte URL codieren lassen. Dies wird durch Codieren des % in ein %25 durchgeführt. Die Serveradresse wird zu: http: 192.168.1.66/fhem?cmd=set%2520alarm%2520on Der automatische Codierer wird die korrekte Adresse generieren, sobald Sie diese Adresse bestätigen: http: 192.168.1.66/fhem?cmd=set%20alarm%20on Um das zu verhindern, codieren Sie das Leerzeichen mit %2520 statt %20. Bitte den Bestätigen-Button nicht ein zweites Mal drücken - da dies statt der %20 wieder ein Leerzeichen einsetzen würde. Sie können das Ergebnis durch den get_params.cgi Befehl prüfen.",
     "description2": "Alarm Server Function - You can use the Alarm Server function to send a http request to a connected server. The server needs a compatible software to recognize this request as an alarm event and trigger further actions. This function is often supported by home alarm systems. You can add custom commands to the request to trigger specific actions in the receiving server software. Add an Alarm Server: Open the web user interface of your (VGA!) camera and navigate to Alarm Alarm Server. Type in your in your alarm server address and activate the function. Please add the http prefix when entering the servers IP address - e.g. http: 192.168.1.66. Application: The Alarm Server function can be used with alarm systems and home automations like the Open Source project FHEM. Unfortunately, because those home automation systems insist on using SPACEs in their URLs, programing your camera becomes a little bit more complicated. As I am writing this article we are already testing a new version of the web user interface for our VGA camera´s that will make the work-around below superfluous. The following will show you how you are able to determin, if your camera is handling the command correctly and how to prepare your command to bypass the problem in case the camera is not saving it as expected. Home automation system´s like FHEM use SPACEs in their URLs that have to be encoded as %20. You have to use a so called URL encoding to employ SPACEs in your web address. An example command for the home automation system FHEM is set alarm on to trigger an alarm event. This will encode to set%20alarm%20on for the camera. The receiving FHEM server will then decode the %20 back to a SPACE. If, for example, your (FHEM) alarm server has the local IP address 192.168.1.66 inside your network, the Server Address you have to type in your cameras webUI to have it activate the alarm event will be. http: 192.168.1.66 fhem?cmd=set%20alarm%20on (The maximal length of the URL is 128 characters) You can check if the command was saved correctly by calling your cameras configuration with the CGI command http: 192.168.1.230 get_params.cgi (where 192.168.1.230 has to be changed to the IP address of your IP camera. You will be asked to log in with your camera administrator account, if you are not logged in already. Scroll to the bottom of the parameter list and search for the variable alarm_http_url. You can check if the server address and FHEM command was saved correctly by calling the cameras configuration page with the CGI command get_params.cgi. The server address has to be saved with the %20 encoding. Every time an alarm is triggered inside the camera the HTTP request will be send to your home automation server, triggering your custom command. Troubleshooting: What to do if your camera does not save the command with the %20 URL encoding? As mentioned above, you might already be using a camera where the web user interface takes care of the encoding for you and the command is saved correctly - please skip this paragraph if this is the case. In the following we will employ a little trick to make the encoding for us instead of against us. What to do if the CGI command get_params.cgi shows you that the camera saved the command with SPACEs instead of the %20 encoding?. Your camera will now send out the HTTP request every time the alarm is triggered. But the request will be cut before the first SPACE - making it basically useless. We can fix this dilemma by having the automatic URL encoding generate the correct URL for us. This can be done by encoding the % sign to %25. The server address will become: http: 192.168.1.66 fhem?cmd=set%2520alarm%2520on The automatic encoding will generate the correct address from it once you submit this address: http: 192.168.1.66 fhem?cmd=set%20alarm%20on To prevent this from happening, encode the SPACE with %2520 instead of %20.Please make sure not to press the Submit button a second time - as this will again get rid of the %20, substituting it with a SPACE. You can check the result by calling the get_params.cgi command.",
     "link": "/Motion_Detection/Alarm_Server",
     "title": "Alarm Server",
     "chapter": "Motion Detection",
     "tags": ["local server", "motion detection", "home automation", "Alarm Server"],
     "image": "/images/Search/MD_SearchThumb_AlarmServer.jpg",
-    "abstract": "Alarm Server Function"
+    "abstract": "Einrichten eines Alarm Server"
 }
 POST /wiki2/article
 {
@@ -388,7 +388,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["cloud storage", "motion detection", "FTP Upload", "Alarm Recording"],
     "image": "/images/Search/MD_SearchThumb_Cloud.jpg",
-    "abstract": "Use the INSTAR Cloud as Online Storage for your Alarm Recordings"
+    "abstract": "INSTAR Cloud als Online-Speicherplatz für Ihre Alarm-Aufnahmen"
 }
 POST /wiki2/article
 {
@@ -402,7 +402,7 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["cloud storage", "motion detection", "FTP Upload", "Alarm Recording"],
     "image": "/images/Search/MD_SearchThumb_Cloud_Create.jpg",
-    "abstract": "INSTAR Cloud User Management"
+    "abstract": "Erstellen eines INSTAR Cloud-Benutzerzugangs"
 }
 POST /wiki2/article
 {
@@ -416,5 +416,5 @@ POST /wiki2/article
     "chapter": "Motion Detection",
     "tags": ["cloud storage", "motion detection", "FTP Upload", "Alarm Recording"],
     "image": "/images/Search/MD_SearchThumb_Cloud_Storage.jpg",
-    "abstract": "INSTAR Cloud User Management"
+    "abstract": "Hinzufügen von Cloud-Speicherplatz"
 }

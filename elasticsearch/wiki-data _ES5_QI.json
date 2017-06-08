@@ -10,7 +10,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["Introduction", "Quickinstallation"],
     "image": "/images/Search/QI_SearchThumb_HowDoesAnIPCameraWork.jpg",
-    "abstract": "How do IP Cameras work in my Network"
+    "abstract": "Die Funktionsweise einer IP-Kamera"
 }
 POST /wiki2/article
 {
@@ -24,7 +24,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["Introduction", "Quickinstallation"],
     "image": "/images/Search/QI_SearchThumb_FirstStepsWithYourIPCamera.jpg",
-    "abstract": "First Steps to set up your Camera"
+    "abstract": "Erste Schritte der Einrichtung der Kamera"
 }
 POST /wiki2/article
 {
@@ -38,7 +38,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["Introduction", "Quickinstallation"],
     "image": "/images/Search/QI_SearchThumb_AfterUnpackingYourIPCamera.jpg",
-    "abstract": "After Unpacking your Camera"
+    "abstract": "Das Vorgehen nach dem Auspacken der Kamera"
 }
 POST /wiki2/article
 {
@@ -52,7 +52,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["Introduction", "Quickinstallation", "Network"],
     "image": "/images/Search/QI_SearchThumb_DirectConnectionWithYourPC.jpg",
-    "abstract": "Direct Connection between your Computer and your Camera"
+    "abstract": "Herstellen einer direkten LAN-Verbindung zum Computer"
 }
 POST /wiki2/article
 {
@@ -66,7 +66,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["Introduction", "Quickinstallation", "Network"],
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_eng.jpg",
-    "abstract": "Angry IP Scanner, Fing, Fing Mobile"
+    "abstract": "Alternative IP-Scanner Angry IP Scanner, Fing, Fing Mobilezum Finden der Kamera"
 }
 POST /wiki2/article
 {
@@ -80,7 +80,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["Introduction", "Quickinstallation", "Network"],
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_Angry_eng.jpg",
-    "abstract": "Use the Angry IP Scanner to Find your Camera"
+    "abstract": "Angry IP Scanner zum Finden der Kamera im lokalen Netzwerk"
 }
 POST /wiki2/article
 {
@@ -94,7 +94,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["Introduction", "Quickinstallation", "Network"],
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_FingCLI_eng.jpg",
-    "abstract": "Use the Fing Command Line Interface to Find your Camera"
+    "abstract": "Fing Command Line Interface zum Finden der Kamera im lokalen Netzwerk"
 }
 POST /wiki2/article
 {
@@ -108,7 +108,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["Introduction", "Quickinstallation", "Network"],
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_FingMobile_eng.jpg",
-    "abstract": "Use the Fing Mobile App to Find your Camera"
+    "abstract": "Fing Mobile App zum Finden der Kamera im lokalen Netzwerk"
 }
 POST /wiki2/article
 {
@@ -122,7 +122,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["Introduction", "Quickinstallation", "Web User Interface", "WebUI"],
     "image": "/images/Search/QI_SearchThumb_LanguageSettings.jpg",
-    "abstract": "Select the Language of the User Interface"
+    "abstract": "Spracheinstellungen in der Weboberfläche"
 }
 POST /wiki/article
 {
@@ -136,7 +136,7 @@ POST /wiki/article
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo.jpg",
-    "abstract": "Access your Camera´s Live Video"
+    "abstract": "Abspielen des Live Videos in der Weboberfläche"
 }
 POST /wiki/article
 {
@@ -150,7 +150,7 @@ POST /wiki/article
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "ActiveX", "video Plugin"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_ActiveX.jpg",
-    "abstract": "Access your Camera´s Live Video using the ActiveX plugin"
+    "abstract": "Das Live-Bild der Kamera mit dem ActiveX plugin abspielen"
 }
 POST /wiki/article
 {
@@ -164,7 +164,7 @@ POST /wiki/article
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "video Plugin"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_QuickTime.jpg",
-    "abstract": "Access your Camera´s Live Video"
+    "abstract": "Das Live-Bild der Kamera mit Quick Time Video abspielen"
 }
 POST /wiki/article
 {
@@ -178,7 +178,7 @@ POST /wiki/article
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "video Plugin", "Microsoft Edge"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_MJPEG.jpg",
-    "abstract": "Access your Camera´s Live Video"
+    "abstract": "Das Live-Bild der Kamera per MJPEG abspielen"
 }
 POST /wiki/article
 {
@@ -192,7 +192,7 @@ POST /wiki/article
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Avast.jpg",
-    "abstract": "Access your Camera´s Live Video"
+    "abstract": "Konfiguration des Avast Internet Security Virenscanner"
 }
 POST /wiki/article
 {
@@ -206,7 +206,7 @@ POST /wiki/article
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Kaspersky13.jpg",
-    "abstract": "Access your Camera´s Live Video"
+    "abstract": "Konfiguration des Kaspersky Internet Security 2013 Virenscanner"
 }
 POST /wiki/article
 {
@@ -220,7 +220,7 @@ POST /wiki/article
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Kaspersky14.jpg",
-    "abstract": "Access your Camera´s Live Video"
+    "abstract": "Konfiguration des Kaspersky Internet Security 2014 Virenscanner"
 }
 POST /wiki/article
 {
@@ -234,7 +234,7 @@ POST /wiki/article
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Kaspersky17.jpg",
-    "abstract": "Access your Camera´s Live Video"
+    "abstract": "Konfiguration des Kaspersky Internet Security 2017 Virenscanner"
 }
 POST /wiki/article
 {
@@ -248,7 +248,7 @@ POST /wiki/article
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_AVG.jpg",
-    "abstract": "Access your Camera´s Live Video"
+    "abstract": "Konfiguration des AVG Internet Security Virenscanner"
 }
 POST /wiki/article
 {
@@ -262,7 +262,7 @@ POST /wiki/article
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Avira.jpg",
-    "abstract": "Access your Camera´s Live Video"
+    "abstract": "Konfiguration des AVIRA Antivirus Pro Virenscanner"
 }
 POST /wiki/article
 {
@@ -276,7 +276,7 @@ POST /wiki/article
     "chapter": "Quick Installation",
     "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_F-Secure.jpg",
-    "abstract": "Access your Camera´s Live Video"
+    "abstract": "Konfiguration des F-Secure Internet Security Virenscanner"
 }
 POST /wiki2/article
 {
@@ -290,7 +290,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["introduction", "quickinstallation", "web user interface", "webui", "installation", "default", "password", "login"],
     "image": "/images/Search/QI_SearchThumb_CreatingUserAccounts.jpg",
-    "abstract": "User Account Management"
+    "abstract": "Einstellen der Benutzerzugänge"
 }
 POST /wiki2/article
 {
@@ -304,7 +304,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["update", "installation", "web user interface", "webui", "software", "interface", "firmware"],
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_1080p.jpg",
-    "abstract": "Update your Cameras Web User Interface and Firmware"
+    "abstract": "Durchführen eines Updates der WebUI und Firmware"
 }
 POST /wiki2/article
 {
@@ -318,7 +318,7 @@ POST /wiki2/article
     "chapter": "Quick Installation 720p",
     "tags": ["update", "installation", "web user interface", "webui", "software", "interface", "firmware"],
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_720p.jpg",
-    "abstract": "Update your Cameras Web User Interface and Firmware"
+    "abstract": "Durchführen eines Updates der WebUI und Firmware bei einer HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -332,11 +332,11 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["update", "installation", "web user interface", "webui", "software", "interface", "firmware"],
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_VGA.jpg",
-    "abstract": "Update your Cameras Web User Interface and Firmware"
+    "abstract": "Durchführen eines Updates der WebUI und Firmware bei einer VGA-Kamera"
 }
 POST /wiki2/article
 {
-    "title2": "Clear your Borwser History",
+    "title2": "Clear your Browser History",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
     "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
     "description": "Leeren des Browser-Verlaufs Alte Daten des Browsers nach einem WebUI-Update löschen Manchmal verhält sich die Weboberfläche der Kamera nicht so wie sie soll. Sie haben Ihre Kamerasoftware aktualisiert, aber die Oberfläche zeigt immer noch die alte Versionsnummer an? Ein Update sollte neue Funktionen hinzufügen, aber diese können Sie nirgens finden? Oder lassen sich bestimmte Funktionen einfach nicht mehr einstellen? In diesem Fall kann es sein, dass Ihr Browser alte Teile der Weboberfläche gespeichert (cached) hat und sich einfach weigert diese noch einmal neu von der Kamera zu laden. Hier finden Sie Anleitungen für eine Zahl gängiger Browser, wie Sie diese veralteten Dateien entfernen und ggf. den Cache des Browsers auch gleich ganz deaktivieren können: Wie leert man den Cache im Internet-Explorer Wie leert man den Cache in Mozilla Firefox Wie leert man den Cache in Google Chromium  Wie leert man den Cache in Opera Wie leert man den Cache in Edge Wie leert man den Cache in Vivaldi",
@@ -346,7 +346,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["browser", "web user interface", "webui", "update", "history"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory.jpg",
-    "abstract": "Clear your History after a Software Update"
+    "abstract": "Leeren des Browser-Verlaufs nach einem Software-Update"
 }
 POST /wiki2/article
 {
@@ -360,7 +360,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["browser", "web user interface", "webui", "update", "history", "internet explorer"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_IE.jpg",
-    "abstract": "Clear your Borwser History in Internet Explorer"
+    "abstract": "Leeren des Browser-Verlaufs im Internet Explorer nach einem Software-Update"
 }
 POST /wiki2/article
 {
@@ -374,7 +374,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["browser", "web user interface", "webui", "update", "history", "mozilla", "firefox"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Firefox.jpg",
-    "abstract": "Clear your Borwser History in Mozilla Firefox"
+    "abstract": "Leeren des Browser-Verlaufs in Mozilla Firefox nach einem Software-Update"
 }
 POST /wiki2/article
 {
@@ -388,7 +388,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["browser", "web user interface", "webui", "update", "history"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Chrome.jpg",
-    "abstract": "Clear your Borwser History in Google Chrome"
+    "abstract": "Leeren des Browser-Verlaufs in Google Chrome nach einem Software-Update"
 }
 POST /wiki2/article
 {
@@ -402,7 +402,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["browser", "web user interface", "webui", "update", "history", "opera"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Opera.jpg",
-    "abstract": "Clear your Borwser History in Opera after a Software Update"
+    "abstract": "Leeren des Browser-Verlaufs in Opera nach einem Software-Update"
 }
 POST /wiki2/article
 {
@@ -416,7 +416,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["browser", "web user interface", "webui", "update", "history", "microsoft", "edge"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Edge.jpg",
-    "abstract": "Clear your Borwser History in Microsoft Edge after a Software Update"
+    "abstract": "Leeren des Browser-Verlaufs in Microsoft Edge nach einem Software-Update"
 }
 POST /wiki2/article
 {
@@ -430,7 +430,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["browser", "web user interface", "webui", "update", "history", "vivaldi"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Vivaldi.jpg",
-    "abstract": "Clear your Borwser History in Vivaldi after a Software Update"
+    "abstract": "Leeren des Browser-Verlaufs in Vivaldi nach einem Software-Update"
 }
 POST /wiki2/article
 {
@@ -444,7 +444,7 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["wireless", "wlan", "network", "connection", "router", "wps"],
     "image": "/images/Search/QI_SearchThumb_WLAN.jpg",
-    "abstract": "Connect your Camera to your WiFi Router"
+    "abstract": "Herstellen einer WLAN-Verbindung von der Kamera zum Router"
 }
 POST /wiki2/article
 {
@@ -458,5 +458,5 @@ POST /wiki2/article
     "chapter": "Quick Installation",
     "tags": ["ONVIF", "network", "connection"],
     "image": "/images/Search/QI_SearchThumb_ONVIF.jpg",
-    "abstract": "Connect your Camera over the ONVIF Protocol"
+    "abstract": "Einbiden der Kamera per ONVIF Protokoll"
 }
