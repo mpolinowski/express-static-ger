@@ -10,7 +10,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-8015 HD", "INSTAR", "products", "1080p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-8015HD.jpg",
-    "abstract": "IN-8015 HD - Product Overview"
+    "abstract": "IN-8015 HD - Produktübersicht"
 }
 POST /wiki2/article
 {
@@ -24,7 +24,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-8015 HD", "INSTAR", "products", "1080p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-8015HD_Technical_Specifications.jpg",
-    "abstract": "IN-8015 Technical Specifications Table"
+    "abstract": "IN-8015 Technische Spezifikationen"
 }
 POST /wiki2/article
 {
@@ -38,7 +38,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-8015 HD", "Indoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-8015HD_Features.jpg",
-    "abstract": "IN-8015 HD Usermanual"
+    "abstract": "IN-8015 HD Produkt-Eigenschaften"
 }
 POST /wiki2/article
 {
@@ -51,7 +51,8 @@ POST /wiki2/article
     "title": "Schnellinstallation Anleitung",
     "chapter": "INSTAR Products",
     "tags": ["IN-8015 HD", "Indoor Cameras", "IP Camera", "Usermanual"],
-    "image": "/images/Search/P_SearchThumb_IN-8015HD_Quick_Installation.jpg"
+    "image": "/images/Search/P_SearchThumb_IN-8015HD_Quick_Installation.jpg",
+    "abstract": "IN-8015 HD Schnellinstallation"
 }
 POST /wiki2/article
 {
@@ -65,7 +66,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-6014 HD", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-6014HD.jpg",
-    "abstract": "IN-6014 HD - Product Overview"
+    "abstract": "IN-6014 HD - Produktüberblick"
 }
 POST /wiki2/article
 {
@@ -79,7 +80,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-6014 HD", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-6014HD_Technical_Specifications.jpg",
-    "abstract": "IN-6014 Technical Specifications Table"
+    "abstract": "IN-6014 Technische Spezifikationen"
 }
 POST /wiki2/article
 {
@@ -93,7 +94,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Indoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-6014HD_Features.jpg",
-    "abstract": "IN-6014 HD Usermanual"
+    "abstract": "IN-6014 HD Produkt-Eigenschaften"
 }
 POST /wiki2/article
 {
@@ -106,7 +107,8 @@ POST /wiki2/article
     "title": "Schnellinstallation Anleitung",
     "chapter": "INSTAR Products",
     "tags": ["Indoor Cameras", "IP Camera", "Usermanual"],
-    "image": "/images/Search/P_SearchThumb_IN-6014HD_Quick_Installation.jpg"
+    "image": "/images/Search/P_SearchThumb_IN-6014HD_Quick_Installation.jpg",
+    "abstract": "IN-6014 HD Schnellinstallation"
 }
 POST /wiki2/article
 {
@@ -120,7 +122,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Indoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-6014HD_Quick_Installation.jpg",
-    "abstract": "IN-6014 HD Usermanual"
+    "abstract": "IN-6014 HD - Einrichten einer P2P-Verbindung"
 }
 POST /wiki2/article
 {
@@ -134,7 +136,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-6014HD_Video_Streaming.jpg",
-    "abstract": "HD Cameras Usermanual"
+    "abstract": "Einrichten eines RTSP Streams"
 }
 POST /wiki2/article
 {
@@ -148,7 +150,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-6014HD_Reset.jpg",
-    "abstract": "HD Cameras Usermanual"
+    "abstract": "Zurücksetzen der Kamera auf Werkseinstellungen"
 }
 POST /wiki2/article
 {
@@ -162,7 +164,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Indoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-6014HD_Lense_Adjust.jpg",
-    "abstract": "IN-6014 HD Usermanual"
+    "abstract": "Manuelle Anpassung des Fokus der IN-6014 HD"
 }
 POST /wiki2/article
 {
@@ -176,7 +178,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-6012 HD", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-6012HD.jpg",
-    "abstract": "IN-6012 HD - Product Overview"
+    "abstract": "IN-6012 HD - Produktüberblick"
 }
 POST /wiki2/article
 {
@@ -190,7 +192,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-6012 HD", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-6012HD_Technical_Specifications.jpg",
-    "abstract": "IN-6012 Technical Specifications Table"
+    "abstract": "IN-6012 Teschnische Spezifikationen"
 }
 POST /wiki2/article
 {
@@ -204,7 +206,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Indoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-6012HD_Features.jpg",
-    "abstract": "IN-6012 HD Usermanual"
+    "abstract": "IN-6012 HD Produkt-Eigenschaften"
 }
 POST /wiki2/article
 {
@@ -218,7 +220,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Indoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-6012HD_Quick_Installation.jpg",
-    "abstract": "IN-6012 HD Usermanual"
+    "abstract": "IN-6012 HD - Schnellinstallation"
 }
 POST /wiki2/article
 {
@@ -232,7 +234,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Indoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-6012HD_Quick_Installation.jpg",
-    "abstract": "IN-6012 HD Usermanual"
+    "abstract": "IN-6012 HD - Einrichten einer P2P-Verbindung"
 }
 POST /wiki2/article
 {
@@ -246,7 +248,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Indoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-6012HD_Lense_Adjust.jpg",
-    "abstract": "IN-6012 HD Usermanual"
+    "abstract": "Manuelle Anpassung des Fokus der IN-6012 HD"
 }
 POST /wiki2/article
 {
@@ -260,7 +262,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-6001 HD", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-6001HD.jpg",
-    "abstract": "IN-6001 HD - Product Overview"
+    "abstract": "IN-6001 HD - Produktüberblick"
 }
 POST /wiki2/article
 {
@@ -274,7 +276,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-6001 HD", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-6001HD_Technical_Specifications.jpg",
-    "abstract": "IN-6001 Technical Specifications Table"
+    "abstract": "IN-6001 - Technische Spezifikationen"
 }
 POST /wiki2/article
 {
@@ -288,7 +290,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Indoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-6001HD_Features.jpg",
-    "abstract": "IN-6001 HD Usermanual"
+    "abstract": "IN-6001 HD Produkt-Eigenschaften"
 }
 POST /wiki2/article
 {
@@ -302,7 +304,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Indoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-6001HD_Quick_Installation.jpg",
-    "abstract": "IN-6001 HD Usermanual"
+    "abstract": "IN-6001 HD - Schnellinstallation"
 }
 POST /wiki2/article
 {
@@ -316,7 +318,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Indoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-6001HD_Quick_Installation.jpg",
-    "abstract": "IN-6001 HD Usermanual"
+    "abstract": "IN-6001 - Einrichten einer P2P-Verbindung"
 }
 POST /wiki2/article
 {
@@ -330,7 +332,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Indoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-6001HD_Lense_Adjust.jpg",
-    "abstract": "IN-6001 HD Usermanual"
+    "abstract": "Manuelle Anpassung des Fokus der IN-6001 HD"
 }
 POST /wiki2/article
 {
@@ -344,7 +346,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-3011", "INSTAR", "products", "VGA series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-3011.jpg",
-    "abstract": "IN-3011 - Product Overview"
+    "abstract": "IN-3011 - Produktüberblick"
 }
 POST /wiki2/article
 {
@@ -358,5 +360,5 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-3011", "INSTAR", "products", "VGA series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-3011_Technical_Specifications.jpg",
-    "abstract": "IN-3011 Technical Specifications Table"
+    "abstract": "IN-3011 Technische Spezifikationen"
 }

@@ -10,7 +10,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-9008 HD", "INSTAR", "products", "1080p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-9008HD.jpg",
-    "abstract": "IN-9008 HD - Product Overview"
+    "abstract": "IN-9008 HD - Produktüberblick"
 }
 POST /wiki2/article
 {
@@ -24,7 +24,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-9008 HD", "INSTAR", "products", "1080p series", "outdoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-9008HD_Technical_Specifications.jpg",
-    "abstract": "IN-9008 HD Technical Specifications Table"
+    "abstract": "IN-9008 HD Technische Spezifikationen"
 }
 POST /wiki2/article
 {
@@ -38,7 +38,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-9008HD_Features.jpg",
-    "abstract": "IN-9008 HD Usermanual"
+    "abstract": "IN-9008 HD Produkt-Eigenschaften"
 }
 POST /wiki2/article
 {
@@ -52,7 +52,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-9008HD_Quick_Installation.jpg",
-    "abstract": "IN-9008 HD Usermanual"
+    "abstract": "IN-9008 HD Schnellinstallation"
 }
 POST /wiki2/article
 {
@@ -66,7 +66,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-7011 HD", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-7011HD.jpg",
-    "abstract": "IN-7011 HD - Product Overview"
+    "abstract": "IN-7011 HD - Produktüberblick"
 }
 POST /wiki2/article
 {
@@ -80,7 +80,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-7011 HD", "INSTAR", "products", "HD series", "outdoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Technical_Specification.jpg",
-    "abstract": "IN-7011 HD Technical Specifications Table"
+    "abstract": "IN-7011 HD Technische Spezifikationen"
 }
 POST /wiki2/article
 {
@@ -94,7 +94,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Features.jpg",
-    "abstract": "IN-7011 HD Usermanual"
+    "abstract": "IN-7011 HD Produkt-Eigenschaften"
 }
 POST /wiki2/article
 {
@@ -108,7 +108,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Quick_Installation.jpg",
-    "abstract": "IN-7011 HD Usermanual"
+    "abstract": "IN-7011 HD Schnellinstallation"
 }
 POST /wiki2/article
 {
@@ -122,7 +122,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Quick_Installation.jpg",
-    "abstract": "IN-7011 HD Usermanual"
+    "abstract": "IN-7011 HD - Einrichten einer Point2Point-Verbindung"
 }
 POST /wiki2/article
 {
@@ -136,7 +136,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Lense_Adjust.jpg",
-    "abstract": "IN-7011 HD Usermanual"
+    "abstract": "Manuelle Anpassung des Fokus der IN-7011 HD"
 }
 POST /wiki2/article
 {
@@ -150,7 +150,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-5907 HD", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-5907HD.jpg",
-    "abstract": "IN-5907 HD - Product Overview"
+    "abstract": "IN-5907 HD - Produktüberblick"
 }
 POST /wiki2/article
 {
@@ -164,7 +164,7 @@ POST /wiki2/article
 	"chapter": "INSTAR Products",
 	"tags": ["IN-5907 HD", "INSTAR", "products", "HD series", "outdoor", "IP camera", "web cam", "overview"],
 	"image": "/images/Search/P_SearchThumb_IN-5907HD_Technical_Specifications.jpg",
-	"abstract": "IN-5907 HD Technical Specifications Table"
+	"abstract": "IN-5907 HD Technische Spezifikationen"
 }
 POST /wiki2/article
 {
@@ -178,7 +178,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Features.jpg",
-    "abstract": "IN-5907 HD Usermanual"
+    "abstract": "IN-5907 Produkt-Eigenschaften"
 }
 POST /wiki2/article
 {
@@ -192,7 +192,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Quick_Installation.jpg",
-    "abstract": "IN-5907 HD Usermanual"
+    "abstract": "IN-5907 HD Schnellinstallation"
 }
 POST /wiki2/article
 {
@@ -206,7 +206,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Quick_Installation.jpg",
-    "abstract": "IN-5907 HD Usermanual"
+    "abstract": "IN-5907 HD - Einrichten einer Point2Point-Verbindung"
 }
 POST /wiki2/article
 {
@@ -220,7 +220,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Lense_Adjust.jpg",
-    "abstract": "IN-5907 HD Usermanual"
+    "abstract": "Manuelle Anpassung des Fokus der IN-5907"
 }
 POST /wiki2/article
 {
@@ -234,7 +234,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-5905 HD", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-5905HD.jpg",
-    "abstract": "IN-5905 HD - Product Overview"
+    "abstract": "IN-5905 HD - Produktüberblick"
 }
 POST /wiki2/article
 {
@@ -248,7 +248,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-5905 HD", "INSTAR", "products", "HD series", "outdoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Technical_Specifications.jpg",
-    "abstract": "IN-5905 HD Technical Specifications Table"
+    "abstract": "IN-5905 HD Technische Spezifikationen"
 }
 POST /wiki2/article
 {
@@ -262,7 +262,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Features.jpg",
-    "abstract": "IN-5905 HD Usermanual"
+    "abstract": "IN-5905 HD Produkt-Eigenschaften"
 }
 POST /wiki2/article
 {
@@ -276,7 +276,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Quick_Installation.jpg",
-    "abstract": "IN-5905 HD Usermanual"
+    "abstract": "IN-5905 HD Schnellinstallation"
 }
 POST /wiki2/article
 {
@@ -290,7 +290,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Quick_Installation.jpg",
-    "abstract": "IN-5905 HD Usermanual"
+    "abstract": "IN-5905 HD Einrichtung einer Point2Point-Verbindung"
 }
 POST /wiki2/article
 {
@@ -304,7 +304,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Lense_adjust.jpg",
-    "abstract": "IN-5905 HD Usermanual"
+    "abstract": "Manuelle Anpassung des Fokus der IN-5905"
 }
 POST /wiki2/article
 {
@@ -318,7 +318,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-4011", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-4011.jpg",
-    "abstract": "IN-4011 - Product Overview"
+    "abstract": "IN-4011 - Produktüberblick"
 }
 POST /wiki2/article
 {
@@ -332,7 +332,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-4011", "INSTAR", "products", "VGA series", "outdoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-4011_Technical_Specifications.jpg",
-    "abstract": "IN-4011 Technical Specifications Table"
+    "abstract": "IN-4011 Technische Spezifikationen"
 }
 POST /wiki2/article
 {
@@ -346,7 +346,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-4010 V2", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-4010.jpg",
-    "abstract": "IN-4010 V2 - Product Overview"
+    "abstract": "IN-4010 V2 - Produktüberblick"
 }
 POST /wiki2/article
 {
@@ -360,7 +360,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-4010 V2", "INSTAR", "products", "VGA series", "outdoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-4010_Technical_Specifications.jpg",
-    "abstract": "IN-4010 V2 Technical Specifications Table"
+    "abstract": "IN-4010 V2 Technische Spezifikationen"
 }
 POST /wiki2/article
 {
@@ -374,7 +374,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-2908", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-2908.jpg",
-    "abstract": "IN-2908 - Product Overview"
+    "abstract": "IN-2908 - Produktüberblick"
 }
 POST /wiki2/article
 {
@@ -388,7 +388,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-2908", "INSTAR", "products", "VGA series", "outdoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-2908_Technical_Specifications.jpg",
-    "abstract": "IN-2908 Technical Specifications Table"
+    "abstract": "IN-2908 Technische Spezifikationen"
 }
 POST /wiki2/article
 {
@@ -402,7 +402,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-2905 V2", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-2905.jpg",
-    "abstract": "IN-2905 V2 - Product Overview"
+    "abstract": "IN-2905 V2 - Produktüberblick"
 }
 POST /wiki2/article
 {
@@ -416,5 +416,5 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["IN-2905 V2", "INSTAR", "products", "VGA series", "outdoor", "IP camera", "web cam", "overview"],
     "image": "/images/Search/P_SearchThumb_IN-2905_Technical_Specifications.jpg",
-    "abstract": "IN-2905 V2 Technical Specifications Table"
+    "abstract": "IN-2905 V2 Technsiche Spezifikationen"
 }

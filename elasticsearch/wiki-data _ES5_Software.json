@@ -10,7 +10,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "InstarVision v2 for Windows"
+    "abstract": "Überblick der InstarVision v2 für Windows"
 }
 POST /wiki2/article
 {
@@ -24,7 +24,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Overview over all Connected Cameras"
+    "abstract": "Verwalten der Kameraliste in der InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -38,7 +38,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Adjust the Channel Layout"
+    "abstract": "Anpassen des Video-Layouts in der InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -52,7 +52,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Camera Pan, Tilt & Zoom"
+    "abstract": "Die Kamera Schwenken, Neigen & Zoomen in der InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -66,7 +66,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Adjust your camera´s Image Settings"
+    "abstract": "Bildeinstellungen ändern in der InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -80,7 +80,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Web User Interface"
+    "abstract": "Erstellen eines Webservers zur Stream-Freigabe Ihrer Kamera durch die InstarVision v2 "
 }
 POST /wiki2/article
 {
@@ -94,7 +94,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Alarm and Planned Recordings"
+    "abstract": "Alarmeinstellungen und geplante Aufnahmen in der InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -108,7 +108,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "General Video Recording Settings"
+    "abstract": "Allgemeine Aufnahmeinstellungen in der InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -122,7 +122,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Program Planned Recordings"
+    "abstract": "Der Aufnahme-Zeitplan in der InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -136,7 +136,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Motion Detection and Alarm Recording"
+    "abstract": "Bewegungserkennung und Alarmaufnahmen einstellen in der InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -150,7 +150,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "FTP Photoseries and Timelapse"
+    "abstract": "Fotoserie und Zeitplan für den FTP-Server einstellen in der InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -164,7 +164,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Alarm Email Notification"
+    "abstract": "Einstellen der Email Benachrichtigung bei Alarm in der InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -178,7 +178,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Alarm Image Upload and FTP Photoseries"
+    "abstract": "Einstellen der Alarmbilder und Fotoserien auf den FTP-Server"
 }
 POST /wiki2/article
 {
@@ -192,7 +192,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "System Settings"
+    "abstract": "Systemeinstellungen der InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -206,7 +206,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Multi-level User Management"
+    "abstract": "Benutzereinstellungen der InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -220,7 +220,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "About"
+    "abstract": "Allgemeine Informationen über die InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -234,7 +234,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Advanced Settings and Features"
+    "abstract": "Das Erweiterte Menü der InstarVision v2"
 }
 POST /wiki2/article
 {
@@ -248,7 +248,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Activate your Version of InstarVision"
+    "abstract": "Erweiterte Einstellungen Instar Vision v2 - Lizenz"
 }
 POST /wiki2/article
 {
@@ -262,7 +262,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "System Log"
+    "abstract": "Erweiterte Einstellungen Instar Vision v2 - System Log"
 }
 POST /wiki2/article
 {
@@ -276,7 +276,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Import & Export System Settings"
+    "abstract": "Erweiterte Einstellungen Instar Vision v2 - Import & Export der Systemeinstellungen"
 }
 POST /wiki2/article
 {
@@ -290,7 +290,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Instar Video Player"
+    "abstract": "Erweiterte Einstellungen Instar Vision v2 -  Instar Video Player"
 }
 POST /wiki2/article
 {
@@ -304,7 +304,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Windows.jpg",
-    "abstract": "Open the Windows Explorer"
+    "abstract": "Erweiterte Einstellungen Instar Vision v2 -  Windows Explorer"
 }
 POST /wiki2/article
 {
@@ -318,7 +318,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_WP.jpg",
-    "abstract": "Windows Phone 8/10 Camera Control"
+    "abstract": "Übersicht über Instar Vision für das Windows Phone 8/10"
 }
 POST /wiki2/article
 {
@@ -332,7 +332,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_WP.jpg",
-    "abstract": "Access your Camera over DDNS"
+    "abstract": "Widnows Phone - Hinzufügen der Kamera über ihre DDNS Adresse"
 }
 POST /wiki2/article
 {
@@ -346,7 +346,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_WP.jpg",
-    "abstract": "Access your Camera over P2P"
+    "abstract": "Windows Phone - Hinzufügen der Kamera über ihre P2P ID"
 }
 POST /wiki2/article
 {
@@ -360,7 +360,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_WP.jpg",
-    "abstract": "The Multiview Menu"
+    "abstract": "Windows Phone - Überblick über das Multiview Menü"
 }
 POST /wiki2/article
 {
@@ -374,7 +374,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_WP.jpg",
-    "abstract": "Screen your Cameras Video Recordings"
+    "abstract": "Windows Phone - Überblick über das Aufnahme Menü"
 }
 POST /wiki2/article
 {
@@ -388,7 +388,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_WP.jpg",
-    "abstract": "The Settings Menu"
+    "abstract": "Windows Phone - Überblick über die Allgemeinen Einstellungen"
 }
 POST /wiki2/article
 {
@@ -402,7 +402,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Metro.jpg",
-    "abstract": "Universal Desktop App for Windows 8/10"
+    "abstract": "Überblick über die Metro Desktop App für Windows 8/10"
 }
 POST /wiki2/article
 {
@@ -416,7 +416,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Metro.jpg",
-    "abstract": "Access your Camera over DDNS"
+    "abstract": "Windows Metro - Hinzufügen der Kamera über ihre DDNS Adresse"
 }
 POST /wiki2/article
 {
@@ -430,7 +430,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Metro.jpg",
-    "abstract": "Access your Camera over P2P"
+    "abstract": "Windows Metro - Hinzufügen der Kamera über ihre P2P ID"
 }
 POST /wiki2/article
 {
@@ -444,7 +444,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Metro.jpg",
-    "abstract": "The Multiview Menu"
+    "abstract": "Widnows Metro - Überblick über das Multiview Menü"
 }
 POST /wiki2/article
 {
@@ -458,7 +458,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Metro.jpg",
-    "abstract": "Screen your Camera´s Video Recordings"
+    "abstract": "Windows Metro - Überblick über das Aufnahme Menü"
 }
 POST /wiki2/article
 {
@@ -472,7 +472,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Metro.jpg",
-    "abstract": "General App Settings"
+    "abstract": "Windows Metro - Überblick über die Allgemeinen Einstellungen"
 }
 POST /wiki2/article
 {
@@ -486,7 +486,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_iSpy_Connect.jpg",
-    "abstract": "Windows Software iSpy Connect"
+    "abstract": "Konfiguration von iSpy Connect für Windows"
 }
 POST /wiki2/article
 {
@@ -500,7 +500,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "macOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_Sighthound.jpg",
-    "abstract": "Windows & macOS Software Sighthound"
+    "abstract": "Konfiguration von Sighthound für Windows & macOS"
 }
 POST /wiki2/article
 {
@@ -514,7 +514,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_P2P_Client.jpg",
-    "abstract": "Windows Software P2P Client"
+    "abstract": "Hinzufügen der Kamera im Windows P2P Client"
 }
 POST /wiki2/article
 {
@@ -542,7 +542,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "macOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_VLC.jpg",
-    "abstract": "Windows and macOS Software VLC Player"
+    "abstract": "Konfiguration vom VLC Player für Windows & macOS "
 }
 POST /wiki2/article
 {
@@ -556,7 +556,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_CCTV.jpg",
-    "abstract": "CCTV Browser Plugin"
+    "abstract": "Konfiguration vom CCTV Browser Plugin für Chrome & Opera"
 }
 POST /wiki2/article
 {
@@ -570,7 +570,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_Blue_Iris.jpg",
-    "abstract": "Windows Software Blue Iris"
+    "abstract": "Konfiguration von Windows Blue Iris"
 }
 POST /wiki2/article
 {
@@ -584,7 +584,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_YAW_Cam.jpg",
-    "abstract": "Windows Software YAW Cam"
+    "abstract": "Konfiguration von Windows YAW Cam"
 }
 POST /wiki2/article
 {
@@ -598,7 +598,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_Zone_Trigger.jpg",
-    "abstract": "Windows Software ZoneTrigger"
+    "abstract": "Konfiguration von Windows ZoneTrigger"
 }
 POST /wiki2/article
 {
@@ -612,7 +612,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_WebcamXP.jpg",
-    "abstract": "Windows Software Webcam XP"
+    "abstract": "Konfiguration von Windows Webcam XP"
 }
 POST /wiki2/article
 {
@@ -620,13 +620,13 @@ POST /wiki2/article
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
     "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
     "description": "XXXXXX",
-    "description2": "Windows Software Webcam Motion Detector ZM Surveillance System is am video surveillance and motion capture software. Some key features are: unlimited cameras, motion detection, SMS and MMS and Email alerts, play sound file (useful on motion detection), adjustable sensitivity for each zone, record on detection, save video into archive or file with automatically or manually selected compression, record on schedule, registration of all events continuously by intervals or on motion detected, password protection, adding a text, time stamps, watermarks to your video. For each video frame, if motion is detected, the Alarm event occurs, that returns a global motion ratio, depending of the number of cells in which motion has been detected, and the level of motion in each cell. In order to integrate your INSTAR IP camera in the Webcam Motion Detector we recommend you to download the latest version from HERE. Add a Camera Click on the Add Camera button to open the camera wizard. The video path to your camera consist of the local IP address and the login credentials. The video path would be: VGA Video Path: http: 192.168.1.237:80?user=admin&pwd= for a camera with the default login user = admin, password = , the local IP address 192.168.1.237 and the HTTP port 80. Please adjust the path if you changed the default login or the default web port accordingly. For an HD camera with the default login user = admin and password = instar, the local IP address 192.168.1.175 and the HTTP port 85: HD Video Path: http: 192.168.1.237:80 tmpfs snap.jpg It is possible to use an external (very expensive) plugin to connect to the camera´s RTSP video stream instead of the JPG refresh mode. Please refer to the instructions given on the official website if you need to use the HD video stream. Click on the Add Camera button to get started. Type in your camera´s video path and click to Start the preview. Save the settings to start using the software. Motion Detection The ZM Surveillance System allows you to draw a motion detection grid over the cameras live view. Adjust the cell size as well as the cell sensitivity to your needs. The higher the number inside a cell, the higher the sensitivity will be in this area. You can further except reds, greens and blues from the motion detection, or just use a monochrome image to further reduce false alerts. Adjust the motion detection sensitivity by adjusting the numbers inside the detection grid. Alerts When an alarm condition is detected, the program can sound an audible alarm, or send you an email with a photo. Automatically capture photos, or record video in compressed files. The Alerts section allows you to define right action for the trigger event. Click Save to finish the camera installation and start using the Webcam Motion Detector. Define a action response to an alarm trigger event.",
+    "description2": "Windows Software Webcam Motion Detector ZM Surveillance System is an video surveillance and motion capture software. Some key features are: unlimited cameras, motion detection, SMS and MMS and Email alerts, play sound file (useful on motion detection), adjustable sensitivity for each zone, record on detection, save video into archive or file with automatically or manually selected compression, record on schedule, registration of all events continuously by intervals or on motion detected, password protection, adding a text, time stamps, watermarks to your video. For each video frame, if motion is detected, the Alarm event occurs, that returns a global motion ratio, depending of the number of cells in which motion has been detected, and the level of motion in each cell. In order to integrate your INSTAR IP camera in the Webcam Motion Detector we recommend you to download the latest version from HERE. Add a Camera Click on the Add Camera button to open the camera wizard. The video path to your camera consist of the local IP address and the login credentials. The video path would be: VGA Video Path: http: 192.168.1.237:80?user=admin&pwd= for a camera with the default login user = admin, password = , the local IP address 192.168.1.237 and the HTTP port 80. Please adjust the path if you changed the default login or the default web port accordingly. For an HD camera with the default login user = admin and password = instar, the local IP address 192.168.1.175 and the HTTP port 85: HD Video Path: http: 192.168.1.237:80 tmpfs snap.jpg It is possible to use an external (very expensive) plugin to connect to the camera´s RTSP video stream instead of the JPG refresh mode. Please refer to the instructions given on the official website if you need to use the HD video stream. Click on the Add Camera button to get started. Type in your camera´s video path and click to Start the preview. Save the settings to start using the software. Motion Detection The ZM Surveillance System allows you to draw a motion detection grid over the cameras live view. Adjust the cell size as well as the cell sensitivity to your needs. The higher the number inside a cell, the higher the sensitivity will be in this area. You can further except reds, greens and blues from the motion detection, or just use a monochrome image to further reduce false alerts. Adjust the motion detection sensitivity by adjusting the numbers inside the detection grid. Alerts When an alarm condition is detected, the program can sound an audible alarm, or send you an email with a photo. Automatically capture photos, or record video in compressed files. The Alerts section allows you to define right action for the trigger event. Click Save to finish the camera installation and start using the Webcam Motion Detector. Define a action response to an alarm trigger event.",
     "link": "/Products/Software/Windows/Webcam_Motion_Detector",
     "title": "Webcam Motion Detector",
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_Webcam_MD.jpg",
-    "abstract": "Windows Software Webcam Motion Detector"
+    "abstract": "Konfiguration von Windows Webcam Motion Detector"
 }
 POST /wiki2/article
 {
@@ -640,7 +640,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Windows", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_Zebra_Surveillance.jpg",
-    "abstract": "Windows Software Zebra Surveillance"
+    "abstract": "Konfiguration von Windows Zebra Surveillance"
 }
 POST /wiki2/article
 {
@@ -654,7 +654,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "macOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_Evocam.jpg",
-    "abstract": "macOS Software EvoCam"
+    "abstract": "Konfiguration von macOS EvoCam"
 }
 POST /wiki2/article
 {
@@ -668,7 +668,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "macOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_SecuritySpy.jpg",
-    "abstract": "macOS Software SecuritySpy"
+    "abstract": "Konfiguration von macOS SecuritySpy"
 }
 POST /wiki2/article
 {
@@ -682,7 +682,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Android", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Android.jpg",
-    "abstract": "InstarVision for Android"
+    "abstract": "Überblick über InstarVision für Android"
 }
 POST /wiki2/article
 {
@@ -696,7 +696,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Android", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Android.jpg",
-    "abstract": "InstarVision for Android"
+    "abstract": "InstarVision Android - Hinzufügen der Kamera über ihre DDNS Adresse"
 }
 POST /wiki2/article
 {
@@ -710,7 +710,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Android", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Android.jpg",
-    "abstract": "InstarVision for Android"
+    "abstract": "InstarVision Android - Hinzufügen der Kamera über ihre P2P ID"
 }
 POST /wiki2/article
 {
@@ -724,7 +724,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Android", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Android.jpg",
-    "abstract": "InstarVision for Android"
+    "abstract": "InstarVision Android - Überblick über das Multiview Menü"
 }
 POST /wiki2/article
 {
@@ -738,7 +738,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Android", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Android.jpg",
-    "abstract": "InstarVision for Android"
+    "abstract": "InstarVision Android - Überblick über das Aufnahme Menü"
 }
 POST /wiki2/article
 {
@@ -752,7 +752,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Android", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Android.jpg",
-    "abstract": "InstarVision for Android"
+    "abstract": "InstarVision Android - Überblick über die Allgemeinen Einstellungen"
 }
 POST /wiki2/article
 {
@@ -766,7 +766,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Android", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_TinyCam.jpg",
-    "abstract": "TinyCam Monitor for Android"
+    "abstract": "TinyCam Monitor für Android"
 }
 POST /wiki2/article
 {
@@ -780,7 +780,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "Android", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_IP_Cam_Viewer.jpg",
-    "abstract": "IP Cam Viewer for Android & iOS"
+    "abstract": "IP Cam Viewer für Android & iOS"
 }
 POST /wiki2/article
 {
@@ -794,7 +794,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_iOS.jpg",
-    "abstract": "InstarVision iPhone App"
+    "abstract": "Überblick pber die InstarVision iPhone App"
 }
 POST /wiki2/article
 {
@@ -808,7 +808,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_iOS.jpg",
-    "abstract": "InstarVision iPhone App"
+    "abstract": "InstarVision iPhone App - Hinzufügen der Kamera über ihre DDNS Adresse"
 }
 POST /wiki2/article
 {
@@ -822,7 +822,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_iOS.jpg",
-    "abstract": "InstarVision iPhone App"
+    "abstract": "InstarVision iPhone App - Hinzufügen der Kamera über ihre P2P ID"
 }
 POST /wiki2/article
 {
@@ -836,7 +836,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_iOS.jpg",
-    "abstract": "InstarVision iPhone App"
+    "abstract": "InstarVision iPhone App - Überblick über das Multiview Menü"
 }
 POST /wiki2/article
 {
@@ -850,7 +850,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_iOS.jpg",
-    "abstract": "InstarVision iPhone App"
+    "abstract": "InstarVision iPhone App - Überblick über das Aufnahme Menü"
 }
 POST /wiki2/article
 {
@@ -864,7 +864,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_iOS.jpg",
-    "abstract": "InstarVision iPad App"
+    "abstract": "InstarVision iPad App - Überblick über die Allgemeinen Einstellungen"
 }
 POST /wiki2/article
 {
@@ -878,7 +878,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_iOS.jpg",
-    "abstract": "InstarVision iPad App"
+    "abstract": "InstarVision iPad App - Hinzufügen der Kamera über ihre DDNS Adresse"
 }
 POST /wiki2/article
 {
@@ -892,7 +892,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_iOS.jpg",
-    "abstract": "InstarVision iPad App"
+    "abstract": "InstarVision iPad App - Hinzufügen der Kamera über ihre P2P ID"
 }
 POST /wiki2/article
 {
@@ -906,7 +906,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_iOS.jpg",
-    "abstract": "InstarVision iPad App"
+    "abstract": "InstarVision iPad App - Überblick über das Multiview Menü"
 }
 POST /wiki2/article
 {
@@ -920,7 +920,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_iOS.jpg",
-    "abstract": "InstarVision iPad App"
+    "abstract": "InstarVision iPad App - Überblick über das Aufnahme Menü"
 }
 POST /wiki2/article
 {
@@ -934,7 +934,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_iOS.jpg",
-    "abstract": "InstarVision iPad App"
+    "abstract": "InstarVision iPad App - Überblick über die Allgemeinen Einstellungen"
 }
 POST /wiki2/article
 {
@@ -948,7 +948,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_LiveCams.jpg",
-    "abstract": "LiveCams iOS App"
+    "abstract": "Konfiguration der LiveCams iOS App"
 }
 POST /wiki2/article
 {
@@ -962,7 +962,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_IP_VisionPro.jpg",
-    "abstract": "IP Vision Pro iOS App"
+    "abstract": "Konfiguration der IP Vision Pro iOS App"
 }
 POST /wiki2/article
 {
@@ -976,7 +976,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_ICCAM.jpg",
-    "abstract": "ICCAM iOS App"
+    "abstract": "Konfiguration der ICCAM iOS App"
 }
 POST /wiki2/article
 {
@@ -990,7 +990,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_P2P_CamLive.jpg",
-    "abstract": "P2P Cam Live iOS App"
+    "abstract": "Konfiguration der P2P Cam Live iOS App"
 }
 POST /wiki2/article
 {
@@ -1004,7 +1004,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Android.jpg",
-    "abstract": "InstarVision for Blackberry"
+    "abstract": "Überblick über InstarVision für Blackberry"
 }
 POST /wiki2/article
 {
@@ -1018,7 +1018,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_QNAP.jpg",
-    "abstract": "QNAP Surveillance Station"
+    "abstract": "Überblik über QNAP Surveillance Station"
 }
 POST /wiki2/article
 {
@@ -1032,7 +1032,7 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_Synology.jpg",
-    "abstract": "Synology Surveillance Station"
+    "abstract": "Überblick über Synology Surveillance Station"
 }
 POST /wiki2/article
 {
@@ -1046,5 +1046,5 @@ POST /wiki2/article
     "chapter": "INSTAR Products",
     "tags": ["Software", "iOS", "InstarVision"],
     "image": "/images/Search/P_SearchThumb_AVM.jpg",
-    "abstract": "AVM Fritzphone"
+    "abstract": "Überblick über AVM Fritzphone"
 }

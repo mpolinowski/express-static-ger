@@ -10,7 +10,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "software", "configuration", "browser"],
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
-    "abstract": "Configure your HD Camera over the Web User Interface"
+    "abstract": "Konfiguration der Kamera in der FHD-Web-Oberfläche"
 }
 POST /wiki2/article
 {
@@ -24,7 +24,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "software", "configuration", "browser"],
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
-    "abstract": "Configure your HD Camera over the Web User Interface"
+    "abstract": "Einstellungsmöglichkeiten im System-Menü der FHD-Kamera"
 }
 POST /wiki2/article
 {
@@ -38,7 +38,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "System", "Info", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Overview.jpg",
-    "abstract": "Information about your Camera's Operations"
+    "abstract": "Anzeigen von Informationen über Ihre FHD-Kamera"
 }
 POST /wiki2/article
 {
@@ -52,7 +52,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "user", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_User.jpg",
-    "abstract": "Multi-level User Management"
+    "abstract": "Verwalten der Benutzerzugänge Ihrer Kamera"
 }
 POST /wiki2/article
 {
@@ -66,7 +66,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "date", "time", "zone", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Date_Time.jpg",
-    "abstract": "Set your Camera's Time and Date"
+    "abstract": "Datums- und Uhrzeiteinstellungen Ihrer HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -80,7 +80,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "language", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Language.jpg",
-    "abstract": "Set the Language used by the User Interface"
+    "abstract": "Spracheinstellungen in der FHD-Web-Oberfläche"
 }
 POST /wiki2/article
 {
@@ -94,7 +94,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "log", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Log.jpg",
-    "abstract": "System Log - Keep an eye on your Camera´s Operation"
+    "abstract": "Aufrufen des System Log zur Überprüfung des Kameraverhalten"
 }
 POST /wiki2/article
 {
@@ -108,7 +108,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "update", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Update.jpg",
-    "abstract": "Update your Cameras User Interface and Firmware"
+    "abstract": "Update der Firmware und Web-Oberfläche der FHD-Kamera"
 }
 POST /wiki2/article
 {
@@ -122,7 +122,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "reboot", "reset", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Reboot.jpg",
-    "abstract": "Reboot your Camera"
+    "abstract": "Neustarten der FHD-Kamera"
 }
 POST /wiki2/article
 {
@@ -136,7 +136,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "reboot", "reset", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Reset.jpg",
-    "abstract": "Reset your Camera"
+    "abstract": "Werksreset der FHD-Kamera ausführen"
 }
 POST /wiki2/article
 {
@@ -150,7 +150,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "network", "configuration", "browser"],
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
-    "abstract": "Adjust zour Camera's Network Configuration"
+    "abstract": "Einstellungsmöglichkeiten im Netzwerk-Menü der HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -164,7 +164,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "LAN", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Network_IP_Configuration.jpg",
-    "abstract": "Configure your Camera's Network Settings"
+    "abstract": "Konfiguration der Netzwerkeinstellungen der HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -178,7 +178,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "WLAN", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Network_WiFi.jpg",
-    "abstract": "Connect your Camera to the WiFi Network"
+    "abstract": "Konfiguration der WLAN-Einstellungen HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -192,7 +192,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "P2P", "DDNS", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Network_Remote_Access.jpg",
-    "abstract": "Access your Camera over the Internet"
+    "abstract": "Fernzugriff auf Ihre FHD-Kamera aus dem Internet"
 }
 POST /wiki2/article
 {
@@ -206,7 +206,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "UPnP", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Network_UPnP.jpg",
-    "abstract": "Universal Plug &amp; Play"
+    "abstract": "Einstellen des Universal Plug &amp; Play Dienstes"
 }
 POST /wiki2/article
 {
@@ -234,7 +234,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "features", "configuration", "browser"],
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
-    "abstract": "Adjust your Camera in the Features Menu"
+    "abstract": "Verschiedene Features der FHD-Kamera einstellen"
 }
 POST /wiki2/article
 {
@@ -248,7 +248,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "email", "SMTP", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_Email.jpg",
-    "abstract": "Set an Email Receiver for the Alarm Notification"
+    "abstract": "Einstellen des Empfängers der Alarm-Emails"
 }
 POST /wiki2/article
 {
@@ -262,7 +262,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "network", "FTP", "server", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_FTP.jpg",
-    "abstract": "Set a FTP Server for the Alarm Upload"
+    "abstract": "Konfiguration eines FTP Server zum Upload von Alarmbildern- & Videos"
 }
 POST /wiki2/article
 {
@@ -276,7 +276,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "features", "status", "LED", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_Status_LEDs.jpg",
-    "abstract": "Activate or Deactivate the Network Status LED"
+    "abstract": "Einstellen der Status-LED Ihrer HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -290,7 +290,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "features", "IR", "Infrared", "LED", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_Nightvision.jpg",
-    "abstract": "Adjust the Behaviour of the Infrared LEDs"
+    "abstract": "Einstellen der Inrarot-LEDs Ihrer HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -304,7 +304,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "PTZ", "features", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_PTZ.jpg",
-    "abstract": "Ajust your Cameras PTZ Function"
+    "abstract": "Einstellen der Schwenk & Neig (PTZ) Funktion Ihrer HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -318,7 +318,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "PTZ", "Tour", "features", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_PTZ_Tour.jpg",
-    "abstract": "Program a PTZ Tour for your Camera"
+    "abstract": "rogrammieren einer PTZ Tour in Ihrer HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -333,7 +333,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "features", "SD card", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_SD_Card.jpg",
-    "abstract": "Open, format or unmount your SD Card"
+    "abstract": "Verwalten der SD-Karte"
 }
 POST /wiki2/article
 {
@@ -347,7 +347,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "system", "manual", "recording", "features", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_Manual_Recording.jpg",
-    "abstract": "Set the file length of manual recordings"
+    "abstract": "Einstellungsmöglichkeiten im Aufnahme-Menü Ihrer HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -361,7 +361,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "multimedia", "configuration", "browser"],
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
-    "abstract": "Adjust your Camera Video and Audio Settings"
+    "abstract": "Video & Audio-Einstellungsmöglichkeiten Ihrer HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -375,7 +375,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "multimedia", "audio", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Multimedia_Audio.jpg",
-    "abstract": "Adjust your Camera's Audio Volume"
+    "abstract": "Lautstärkeeinstellungen Ihrer HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -389,7 +389,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "multimedia", "video", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Multimedia_Video.jpg",
-    "abstract": "Adjust your Camera's Video Quality"
+    "abstract": "Videoeinstellungen Ihrer HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -403,7 +403,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "multimedia", "image", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Multimedia_Image.jpg",
-    "abstract": "Adjust your Camera's Image Quality"
+    "abstract": "Bildeinstellungen Ihrer Kamera"
 }
 POST /wiki2/article
 {
@@ -417,7 +417,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "multimedia", "privacy", "mask", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Multimedia_Privat.jpg",
-    "abstract": "Black out Parts of the Image Sensor"
+    "abstract": "Festlegen von Privatsphärebereichen in Ihrer HD-Kamera"
 }
 POST /wiki2/article
 {
@@ -431,7 +431,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "configuration", "browser"],
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
-    "abstract": "Set your Camera Alarm Actions"
+    "abstract": "Alarmeinstellungsmöglichkeiten Ihrer Kamera"
 }
 POST /wiki2/article
 {
@@ -445,7 +445,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "areas", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Alarm_Alarm_Areas.jpg",
-    "abstract": "Set the Detection Areas for Motion Detection"
+    "abstract": "Einstellen der Alarmbereiche zur Bewegungsüberwachung"
 }
 POST /wiki2/article
 {
@@ -473,7 +473,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "schedule", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Alarm_Schedule.jpg",
-    "abstract": "Configure a Time Schedule for the Alarm Function"
+    "abstract": "Konfiguration der Aktionen bei Alarmauslösung"
 }
 POST /wiki2/article
 {
@@ -487,7 +487,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "Push", "alarm", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Alarm_Push_Service.jpg",
-    "abstract": "Get a Push Notification in Case of an Alert"
+    "abstract": "Aktivieren des Push-Dienstes für Ihr Smartphone"
 }
 POST /wiki2/article
 {
@@ -501,7 +501,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "alarm", "server", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Alarm_Alarmserver.jpg",
-    "abstract": "Home automation integration"
+    "abstract": "Konfiguration eines Alarm-Servers"
 }
 POST /wiki2/article
 {
@@ -515,7 +515,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "recording", "configuration", "browser"],
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
-    "abstract": "Set your Camera to automatically Record"
+    "abstract": "Aufnahmemenü Ihrer FHD-Kamera"
 }
 POST /wiki2/article
 {
@@ -529,7 +529,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "recording", "video", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Tasks_Video_Recording.jpg",
-    "abstract": "Set Parameters for the automated Recording"
+    "abstract": "Konfiguration von automatischen Video-Aufnahmen"
 }
 POST /wiki2/article
 {
@@ -543,7 +543,7 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "recording", "photoseries", "timelapse", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Tasks_Photoseries.jpg",
-    "abstract": "Set Parameters for the automated Photoseries"
+    "abstract": "Konfiguration von automatischen Foto-Aufnahmen"
 }
 POST /wiki2/article
 {
@@ -557,5 +557,5 @@ POST /wiki2/article
     "chapter": "Web User Interface",
     "tags": ["webUI", "interface", "UI", "cloud", "configuration", "browser"],
     "image": "/images/Search/WebUI_1080p_SearchThumb_Cloud_Introduction.jpg",
-    "abstract": "INSTAR Cloud for Alarm Recordings"
+    "abstract": "Konfiguration der INSTAR Cloud für Alarmaufnahmen"
 }
