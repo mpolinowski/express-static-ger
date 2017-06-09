@@ -2,6 +2,7 @@ var express = require('express');
 var productRouter = express.Router();
 
 /* ****************************************** GET /General Product Routes ****************************************** */
+
 productRouter.route('/')
   .get(function(req, res) {
       res.render('./Products/Products', {
