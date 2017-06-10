@@ -109,7 +109,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Kamera_Reset')
 outdoorCamsRouter.route('/IN-9008_HD')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Overview', {
-      title: 'IN-9008 HD Overview',
+      title: 'IN-9008 HD Zusammenfassung',
       model: '9008',
 	    type: 'Outdoor',
       ampimg: '/images/Search/P_SearchThumb_IN-9008HD.jpg',
@@ -637,7 +637,7 @@ outdoorCamsRouter.route('/IN-5907_HD/Kamera_Reset')
 outdoorCamsRouter.route('/IN-5907_HD')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-5907_Overview', {
-      title: 'IN-5907 HD Overview',
+      title: 'IN-5907 HD Zusammenfassung',
       model: '5907',
       type: 'Outdoor',
       ampimg: '/images/Search/P_SearchThumb_IN-5907HD.jpg',
@@ -861,7 +861,7 @@ outdoorCamsRouter.route('/IN-5905_HD/Kamera_Reset')
 outdoorCamsRouter.route('/IN-5905_HD')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-5905_Overview', {
-      title: 'IN-5905 HD Overview',
+      title: 'IN-5905 HD Zusammenfassung',
       model: '5905',
       type: 'Outdoor',
       ampimg: '/images/Search/P_SearchThumb_IN-5905HD.jpg',
@@ -1005,7 +1005,7 @@ outdoorCamsRouter.route('/IN-5905_HD/Technische_Spezifikationen')
 outdoorCamsRouter.route('/IN-4011')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-4011_Overview', {
-      title: 'IN-4011 Overview',
+      title: 'IN-4011 Zusammenfassung',
       model: '4011',
   	  type: 'Outdoor',
       ampimg: '/images/Search/P_SearchThumb_IN-4011.jpg',
@@ -1045,7 +1045,7 @@ outdoorCamsRouter.route('/IN-4011/Technische_Spezifikationen')
 outdoorCamsRouter.route('/IN-4010_V2')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-4010_V2_Overview', {
-      title: 'IN-4010 V2 Overview',
+      title: 'IN-4010 V2 Zusammenfassung',
       model: '4010',
   	  type: 'Outdoor',
       ampimg: '/images/Search/P_SearchThumb_IN-4010.jpg',
@@ -1085,7 +1085,7 @@ outdoorCamsRouter.route('/IN-4010_V2/Technische_Spezifikationen')
 outdoorCamsRouter.route('/IN-2908')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-2908_Overview', {
-      title: 'IN-2908 Overview',
+      title: 'IN-2908 Zusammenfassung',
       model: '2908',
   	  type: 'Outdoor',
       ampimg: '/images/Search/P_SearchThumb_IN-2908.jpg',
@@ -1125,7 +1125,7 @@ outdoorCamsRouter.route('/IN-2908/Technische_Spezifikationen')
 outdoorCamsRouter.route('/IN-2905_V2')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-2905_V2_Overview', {
-      title: 'IN-2905 V2 Overview',
+      title: 'IN-2905 V2 Zusammenfassung',
       model: '2905',
   	  type: 'Outdoor',
       ampimg: '/images/Search/P_SearchThumb_IN-2905.jpg',

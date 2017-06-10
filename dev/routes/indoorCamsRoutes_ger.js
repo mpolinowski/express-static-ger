@@ -110,7 +110,7 @@ indoorCamsGerRouter.route('/IN-8015_HD/Kamera_Reset')
 indoorCamsGerRouter.route('/IN-8015_HD')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-8015_Overview', {
-      title: 'IN-8015 HD Overview',
+      title: 'IN-8015 HD Zusammenfassung',
       model: '8015',
       type: 'Indoor',
       ampimg: '/images/Search/P_SearchThumb_IN-8015HD.jpg',
@@ -334,7 +334,7 @@ indoorCamsGerRouter.route('/IN-6014_HD/Kamera_Reset')
 indoorCamsGerRouter.route('/IN-6014_HD')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-6014_Overview', {
-      title: 'IN-6014 HD Overview',
+      title: 'IN-6014 HD Zusammenfassung',
       model: '6014',
       type: 'Indoor',
       ampimg: '/images/Search/P_SearchThumb_IN-6014HD.jpg',
@@ -559,7 +559,7 @@ indoorCamsGerRouter.route('/IN-6012_HD/Kamera_Reset')
 indoorCamsGerRouter.route('/IN-6012_HD')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-6012_Overview', {
-      title: 'IN-6012 HD Overview',
+      title: 'IN-6012 HD Zusammenfassung',
       model: '6012',
       type: 'Indoor',
       ampimg: '/images/Search/P_SearchThumb_IN-6012HD.jpg',
@@ -783,7 +783,7 @@ indoorCamsGerRouter.route('/IN-6001_HD/Kamera_Reset')
 indoorCamsGerRouter.route('/IN-6001_HD')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-6001_Overview', {
-      title: 'IN-6001 HD Overview',
+      title: 'IN-6001 HD Zusammenfassung',
       model: '6001',
       type: 'Indoor',
       ampimg: '/images/Search/P_SearchThumb_IN-6001HD.jpg',
@@ -927,7 +927,7 @@ indoorCamsGerRouter.route('/IN-6001_HD/Technische_Spezifikationen')
 indoorCamsGerRouter.route('/IN-3011')
 .get(function(req, res) {
   res.render('./Indoor_Cams/IN-3011_Overview', {
-      title: 'IN-3011 Overview',
+      title: 'IN-3011 Zusammenfassung',
       model: '3011',
       type: 'Indoor',
       ampimg: '/images/Search/P_SearchThumb_IN-3011.jpg',
