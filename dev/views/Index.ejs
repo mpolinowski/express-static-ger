@@ -28,6 +28,7 @@
   <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
   <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
   <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+  <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
 
   <!-- http://schema.org/TechArticle -->
   <script type="application/ld+json">
@@ -564,6 +565,11 @@
             <footer class="desktop-up">
               <% include ./_partials/amp/_amp-footer.ejs %>
             </footer>
+
+            <amp-install-serviceworker
+              src="https://wiki.instar.de/ServiceWorker3/pwabuilder-sw.js"
+              layout="nodisplay">
+            </amp-install-serviceworker>
 
         </div>
     </div>
