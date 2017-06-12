@@ -6,6 +6,11 @@ internetAccessRouter.route('/')
     res.status(301).redirect('/Fernzugriff/');
 });
 
+internetAccessRouter.route('/Point_to_Point/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Fernzugriff/Point_to_Point/');
+});
+
 internetAccessRouter.route('/The_DDNS_Service/')
   .get(function(req, res) {
     res.status(301).redirect('/Fernzugriff/Der_DDNS_Dienst/');
