@@ -71,7 +71,7 @@
                                 <td width="20%">
                                     <strong>Status LED</strong>
                                 </td>
-                                <td>Aktivieren oder Deaktivieren der Netzwerk Status LED Ihrer Kameraa (nur für Kameras mit Status LEDs).</td>
+                                <td>Aktivieren oder Deaktivieren der Netzwerk Status LED Ihrer Kamera (nur für Kameras mit Status LEDs).</td>
                             </tr>
                             </tr>
                         </table>
@@ -80,6 +80,56 @@
 
                     <div class="margin">
                         <p>Hier können Sie das Verhalten der roten Status LED an der Stromversorgung Ihrer Kamera einstellen. Aktivieren Sie es um die Kamera Aktivität anzuzeigen - gerade während der Installation nützlich. Oder deaktivieren Sie es bei der normalen Verwendung.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h2 class="margin">Aufschlüsselung der Statusanzeige</h2>
+                        <table>
+                          <tr>
+                            <th>LED Anzeige</th>
+                            <th>Blaue LED</th>
+                            <th>Rote LED</th>
+                          </tr>
+                          <tr>
+                            <td>Blinkt langsam</td>
+                            <td><ul>
+                              <li>Netzverbindung per LAN</li>
+                            </ul></td>
+                            <td><ul>
+                              <li>Ggf. Defekt / Bootschleife</li>
+                            </ul></td>
+                          </tr>
+                          <tr>
+                            <td>Blinkt schnell</td>
+                            <td><ul>
+                              <li>Netzverbindung per WLAN
+                            </ul></td>
+                            <td><ul>
+                              <li>N/A</li>
+                            </ul></td>
+                          </tr>
+                          <tr>
+                            <td>Durchgehend an</td>
+                            <td><ul>
+                                <li>Bootvorgang</li>
+                                <li>Oder WPS Einbindung</li>
+                            </ul></td>
+                            <td><ul>
+                                <li>Normalbetrieb</li>
+                            </ul></td>
+                          </tr>
+                          <tr>
+                            <td>Durchgehend aus</td>
+                            <td><ul>
+                                <li>Keine Stromversorgung</li>
+                            </ul></td>
+                            <td><ul>
+                                <li>Keine Stromversorgung</li>
+                                <li>Oder keine LED verbaut (neuere Modelle)</li>
+                            </ul></td>
+                          </tr>
+                        </table>
                     </div>
                     <!-- /margin -->
 

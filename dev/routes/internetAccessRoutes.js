@@ -16,9 +16,19 @@ internetAccessRouter.route('/The_DDNS_Service/')
     res.status(301).redirect('/Fernzugriff/Der_DDNS_Dienst/');
 });
 
+internetAccessRouter.route('/The_DDNS_Service/Test_DDNS_Address/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Fernzugriff/Der_DDNS_Dienst/Testen_der_DDNS_Adresse/');
+});
+
 internetAccessRouter.route('/Port_Forwarding/')
   .get(function(req, res) {
     res.status(301).redirect('/Fernzugriff/Port_Weiterleitung/');
+});
+
+internetAccessRouter.route('/Port_Forwarding/Router_Access/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Fernzugriff/Port_Weiterleitung/Router_Zugriff/');
 });
 
 internetAccessRouter.route('/Port_Forwarding/AVM_Fritzbox/')
@@ -54,6 +64,11 @@ internetAccessRouter.route('/Port_Forwarding/Vodafone_Easybox/')
 internetAccessRouter.route('/Port_Forwarding/Pirelli/')
   .get(function(req, res) {
     res.status(301).redirect('/Fernzugriff/Port_Weiterleitung/Pirelli/');
+});
+
+internetAccessRouter.route('/Mobile_Access/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Fernzugriff/Mobil_Zugriff/');
 });
 
 internetAccessRouter.route('/DDNS_Provider/')
