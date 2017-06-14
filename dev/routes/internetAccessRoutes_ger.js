@@ -83,6 +83,33 @@ internetAccessGerRouter.get('/Der_DDNS_Dienst/', function(req, res) {
       });
   });
 
+internetAccessGerRouter.get('/Der_DDNS_Dienst/Testen_der_DDNS_Adresse/', function(req, res) {
+    res.render('./Internet_Access/Test_DDNS_Address', {
+        title: 'DDNS Service Test',
+        ampimg: '/images/Search/IA_SearchThumb_DDNSService.jpg',
+        headline: 'Testen der DDNS Adresse',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Internet_Access/">Fernzugriff</a></li><li><a href="/Internet_Access/The_DDNS_Service/">DDNS Service</a></li><li><a href="/Internet_Access/The_DDNS_Service/Test_DDNS_Address/">DDNS Test</a></li>',
+        canonical: '/Internet_Access/Der_DDNS_Dienst/Test_DDNS_Address/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
 internetAccessGerRouter.get('/Port_Weiterleitung/', function(req, res) {
     res.render('./Internet_Access/Port_Forwarding', {
         title: 'Port Weiterleitung',
@@ -90,6 +117,33 @@ internetAccessGerRouter.get('/Port_Weiterleitung/', function(req, res) {
         headline: 'Port Weiterleitung',
         breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Fernzugriff/">Fernzugriff</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/">Port Weiterleitung</a></li>',
         canonical: '/Internet_Access/Port_Forwarding/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+internetAccessGerRouter.get('/Port_Weiterleitung/Router_Zugriff/', function(req, res) {
+    res.render('./Internet_Access/Access_Router', {
+        title: 'Router Zugriff',
+        ampimg: '/images/Search/IA_SearchThumb_Portforwarding.jpg',
+        headline: 'Konfiguration der Portweiterleitung',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Fernzugriff/">Fernzugriff</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/">Port Weiterleitung</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/Router_Zugriff">Router Zugriff</a></li>',
+        canonical: '/Internet_Access/Port_Forwarding/Router_Access/',
 		pacc: '',
 		ptab: 'hidden',
 		qiacc: '',
@@ -279,6 +333,33 @@ internetAccessGerRouter.get('/Port_Weiterleitung/Pirelli/', function(req, res) {
         headline: 'Port Weiterleitung Pirelli',
         breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Fernzugriff/">Fernzugriff</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/">Port Weiterleitung</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/Pirelli/">Pirelli</a></li>',
         canonical: '/Internet_Access/Port_Forwarding/Pirelli/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: 'expanded',
+		iatab: '',
+		auacc: '',
+		autab: 'hidden',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+internetAccessGerRouter.get('/Mobil_Zugriff/', function(req, res) {
+    res.render('./Internet_Access/Mobile_Access', {
+        title: 'Mobil Zugriff',
+        ampimg: '/images/Search/IA_SearchThumb_Portforwarding.jpg',
+        headline: 'Kontrollieren Sie Ihre Kamera von Ihrem Handy',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Fernzugriff/">Fernzugriff</a></li><li><a href="/Fernzugriff/Mobil_Zugriff/">Mobil Zugriff</a></li>',
+        canonical: '/Internet_Access/Mobile_Access/',
 		pacc: '',
 		ptab: 'hidden',
 		qiacc: '',

@@ -5,6 +5,7 @@
         <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
         <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+        <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
     </head>
 
     <body class="home">
@@ -48,80 +49,30 @@
                       <!-- article -->
 
                     <div>
-                        <h3>Verbinden Sie sich mit Ihrer Kamera über das Internet</h3>
-                        <p>Software-Ports sind nummeriert Verbindungen, die ein Computer verwendet, um Arten von Netzwerkverkehr zu sortieren. Ein paar Dienste, wie z.B. FTP auf Port 21 und HTTP auf Port 80, sind bereits fest mit entsprechenden Ports verankert. Viele Betriebssysteme nutzen für die jeweiligen Dienste automatisch die entsprechenden Ports. Wenn ein Port geöffnet wird im Router, wird diesem ein Service zugewiesen wie z.B. die Weboberfläche der IP Kamera. Zur Sicherheit sind Standardmäßig alle Ports im Router aus dem Internet geschlossen damit so niemand über das Internet zugreifen kann. <strong>Weshalb Sie nicht ohne Portweiterleitung auf Ihre Kamera per (DDNS) Adresse zugreifen können</strong>.
-						            </p>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                        <h3>Verbinden Sie sich mit der Weboberfläche Ihres Routers</h3>
-                        <p>Öffnen Sie Ihren Webbrowser und geben Sie dort die IP Adresse Ihres Routers ein. Sie sollten dann auf die Weboberfläche des Routers gelangen. Bei den meisten Routern ist die Adresse 192.168.0.1, 192.168.1.1, 192.168.2.1 or 192.168.178.1. Wenn Sie die genaue IP Adresse Ihres Routers nicht kennen, so können Sie auch den Befehl "ip config" eingeben in der Befehlszeile oder im Terminal. Die Adresse des Routers ist meist die gleiche wie die des <strong>Default Gateway</strong> - zumindest in Heimnetzwerken und kleineren Firmen.</p>
-                        <ul>
-                          <li>Unter Windows: Öffnen Sie die Kommandozeile und tippen Sie <span class="code">ipconfig /all</span> ein.</li>
-                          <li>Unter Mac: Öffnen Sie das Terminal und geben Sie <span class="code">netstat -nr</span> ein.</li>
-                          <li>Unter Linux: Öffnen Sie das Terminal und geben Sie <span class="code">route</span> ein.</li>
-                        </ul>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                      <amp-img
-                          on="tap:Portforwarding_01"
-                          role="button"
-                          tabindex="0"
-                          src="/images/Internet_Access/Portforwarding_01.png" width="676" height="167" layout="responsive" class="shadow">
-                      </amp-img>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                        <p>Das Default Gateway Ihres Heim- oder kleinen Firmennetzwerks ist meistens die IP-Adresse Ihres Routers.</p>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                        <h3>Zugriff auf Ihren Router</h3>
-                        <p>Sofern Sie in Ihrem Router schon die Login Daten verändert haben, tragen Sie bitte den Benutzernamen und das Passwort des Routers ein. Alternativ können Sie auch im Handbuch Ihres Router nach den Standard Benutzerdaten schauen und diese eintragen sofern Sie diese nicht zuvor verändert haben (dies ist nicht das gleiche wie das WLAN Passwort!). Ggbf. können Sie auch bei - zum Beispiel <a href="http://www.google.com/">GOOGLE</a>. nach den Standard Benutzerdaten suchen indem Sie "Benutzername + Routermodell" in das Suchfeld eintragen. Eine andere Möglichkeit wäre die Seite <a href="http://portforward.com/default_username_password/">portforward.com</a> oder <a href="http://www.routerpasswords.com/">routerpasswords.com</a>  welche mehrere Routermodelle aufzeigen. Sollten Sie die Login Daten vergessen haben, so können Sie den Router auch auf Werkseinstellungen zurücksetzen. Bedenken Sie jedoch das Sie danach die Internetdaten etc. wieder neu eintragen müssen.</p>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                      <amp-img
-                          on="tap:Portforwarding_02"
-                          role="button"
-                          tabindex="0"
-                          src="/images/Internet_Access/Portforwarding_02.png" width="676" height="163" layout="responsive" class="shadow">
-                      </amp-img>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                        <p>Tragen Sie die Benutzerdaten ein um auf die Weboberfläche des Routers zuzugreifen.</p>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                        <h3>Access your Router</h3>
-                        <ul>
-                          <li>Finden Sie den Menüpunkt für die Portweiterleitung - diese wird je nach Routermodell unterschiedlich sein. Oft verwendete Bezeichnungen sind Port Forwarding, Applications, Gaming, Virtual Servers, Freigaben, Spiele und Anwendungen, Portweiterleitung, NAT Firewall. Sollten Sie diesen Punkt oder einen ähnlichen nicht sehen so können Sie einmal in die erweiterten Einstellungen Ihres Routers gehen und dort danach schauen.</li>
-                          <li>Wenn Sie den Menüpunkt gefunden haben legen Sie eine neue Regel / Portweiterleitung an und vergeben Sie dieser einen Namen - z.B. INSTAR Kamera. Dann wählen Sie das Protokoll - dieses kann lauten TCP, UDP, oder beides. Ihre IP Kamera benötigt das TCP Protokoll.</li>
-                          <li>Wählen Sie anschließend den Port den Sie weiterleiten möchten. Für die Kamera müssen Sie den web/http/internen Port weiterleiten den Sie in der WebUI unter Netzwerk/IP Konfiguration einstellen können. Wenn Sie auf den RTSP stream Ihrer HD Kamera zugreifen möchten, so müssen Sie ebenfalls diesen Port weiterleiten. In diesem Fall würden Sie dann für eine HD Kamera "zwei" Portweiterleitungen anlegen.</li>
-                          <li>Wählen Sie jetzt die IP Adresse an die weitergeleitet werden soll. In diesem Fall ist dies die IP Adresse der Kamera. Sie können das INSTAR Kamera Tool verwenden um die Kamera im Netzwerk zu suchen. Es wird Ihnen dann die IP der Kamera angezeigt. Sie sehen diese auch in der Adresszeile Ihres Webbrowsers sofern Sie die Kamera im Webbrowser geöffnet haben.</li>
-                        </ul>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                        <p>Die Einstellmöglichkeiten variieren stark je nach Router Modell und Router Firmware. In den folgenden Punkten haben wir für die meist genutzten Router in Heimnetzwerken eine Anleitung erstellt. Sollten Sie Ihren Router nicht in der unten stehenden Liste finden, so können Sie auf portforward.comschauen. Dort finden Sie eine große Auswahl an Routermodellen und Anleitungen.</p>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
                         <h1>Portweiterleitung</h1>
                         <p>
-                          Die Schritte zur Portweiterleitung sind bei jedem Router fast die gleichen. Im folgenden zeigen wir Beispiele von häufig verwendeten Router-Herstellern.
+                          Die Schritte zur Portweiterleitung sind bei jedem Router fast die gleichen. Im folgenden zeigen wir Beispiele von häufig verwendeten Router-Herstellern. Für die Konfiguration Ihrer Kamera lesen Sie bitte zuerst den <a href="/Internet_Access/The_DDNS_Service/">Schritt I</a>. Im folgenden beschreiben wir die benötigte Routerkonfiguration für den DDNS Fernzugriff auf Ihre Kamera.
                         </p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <amp-img
+                            on="tap:ddns_address_in_browser"
+                            role="button"
+                            tabindex="0"
+                            src="/images/Internet_Access/Portforwarding-Fritzbox-7390de_01.png" width="712" height="403" layout="responsive" class="shadow">
+                        </amp-img>
+                    </div>
+
+                    <div class="margin">
+                        <h3>II.	Portweiterleitung im Router</h3>
+                        <p><p>In diesem Schritt wird in Ihrem Router eingestellt, wie er die Kamera aus Ihrem lokalen Netzwerk in das Internet weiterzuleiten hat. Dieser Schritt wird komplett im Einstellungsmenü Ihres Routers ausgeführt, dementsprechend wählen Sie im Folgenden Ihren Router aus. Beachten Sie, dass Sie diesen Schritt für jede einzelne Ihrer Kameras ausführen müssen.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <a href="/Internet_Access/Port_Forwarding/Router_Access/"><button type="button" class="btn">Router Zugriff</button></a>
                     </div>
                     <!-- /margin -->
 
@@ -209,8 +160,20 @@
                         </div>
                     </div>
 
+                    <div class="margin">
+                        <h3>III.	Kamera-Adresse auslesen und Fernzugriff auf die Kamera</h3>
+                        <br>
+                        <a href="/Internet_Access/Mobile_Access/"><button type="button" class="btn">Schritt III</button></a>
+                    </div>
+                    <!-- /margin -->
+
                 </article>
                 <!-- /article -->
+
+                <!-- ###################### Lightboxes ######################## -->
+
+                <amp-image-lightbox id="ddns_address_in_browser" layout="nodisplay"></amp-image-lightbox>
+
             </div>
             <!-- /container main -->
         </div>

@@ -2520,7 +2520,7 @@ section.blade.blog .tab-container .tab .subtitle {
     width: 97%
 }
 
-.primarycard p {
+.primarycard p, .primarycard h4 {
     color: #fff
 }
 
@@ -2583,11 +2583,16 @@ section.blade.blog .tab-container .tab .subtitle {
     display: inline-block;
     margin: 16px 0;
     padding: 5px 15px 15px 15px;
-    width: 97%
+    width: 97%;
 }
 
-.dangercard p {
+.dangercard p, .dangercard h4 {
     color: #fff
+}
+
+.dangercard a {
+    color: #fff;
+    text-decoration: underline;
 }
 
 .code {
