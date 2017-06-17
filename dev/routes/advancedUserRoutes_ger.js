@@ -190,6 +190,357 @@ advancedUserGerRouter.get('/CGI_Befehle/VGA_Serie_CGI_Befehle', function(req, re
       });
   });
 
+advancedUserGerRouter.get('/Tasker/', function(req, res) {
+    res.render('./Advanced_User/Tasker', {
+        title: 'Tasker Android App',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
+        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker Android App</a></li>',
+        canonical: '/Advanced_User/Tasker/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: 'expanded',
+		autab: '',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+advancedUserGerRouter.get('/Tasker/Bewegungserkennung_Aufgabe_Hinzufuegen/', function(req, res) {
+    res.render('./Advanced_User/Tasker_Motion_Detection_Add_Task', {
+        title: 'Tasker Android App',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
+        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Motion_Detection_Add_Task/">Bewegungserkennung - Aufgabe Hinzufügen</a></li>',
+        canonical: '/Advanced_User/Tasker/Motion_Detection_Add_Task/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: 'expanded',
+		autab: '',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+advancedUserGerRouter.get('/Tasker/Bewegungserkennung_Profil_Hinzufuegen/', function(req, res) {
+    res.render('./Advanced_User/Tasker_Motion_Detection_Add_Profile', {
+        title: 'Tasker Android App',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
+        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Motion_Detection_Add_Profile/">Bewegungserkennung - Profil Hinzufügen</a></li>',
+        canonical: '/Advanced_User/Tasker/Motion_Detection_Add_Profile/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: 'expanded',
+		autab: '',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+advancedUserGerRouter.get('/Tasker/Bewegungserkennung_Deaktivieren_Aufgabe_Hinzufuegen/', function(req, res) {
+    res.render('./Advanced_User/Tasker_Motion_Detection_Deactivate_Add_Task', {
+        title: 'Tasker Android App',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
+        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Motion_Detection_Deactivate_Add_Task/">Bewegungserkennung Deaktivieren - Aufgabe Hinzufügen</a></li>',
+        canonical: '/Advanced_User/Tasker/Motion_Detection_Deactivate_Add_Task/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: 'expanded',
+		autab: '',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+advancedUserGerRouter.get('/Tasker/Bewegungserkennung_Deaktivieren_Profil_Hinzufuegen/', function(req, res) {
+    res.render('./Advanced_User/Tasker_Motion_Detection_Deactivate_Add_Profile', {
+        title: 'Tasker Android App',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
+        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Motion_Detection_Deactivate_Add_Profile/">Bewegungserkennung Deaktivieren - Profil Hinzufügen</a></li>',
+        canonical: '/Advanced_User/Tasker/Motion_Detection_Deactivate_Add_Profile/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: 'expanded',
+		autab: '',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+advancedUserGerRouter.get('/Tasker/IR_Aktivieren_Shortcut_Hinzufuegen/', function(req, res) {
+    res.render('./Advanced_User/Tasker_IR_Add_Shortcut', {
+        title: 'Tasker Android App',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
+        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Activate_IR_Add_Shortcut/">IR Aktivieren - Shortcut Hinzufügen</a></li>',
+        canonical: '/Advanced_User/Tasker/Activate_IR_Add_Shortcut/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: 'expanded',
+		autab: '',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+advancedUserGerRouter.get('/Tasker/IR_Deaktivieren_Shortcut_Hinzufuegen/', function(req, res) {
+    res.render('./Advanced_User/Tasker_IR_Deactivate_Add_Shortcut', {
+        title: 'Tasker Android App',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
+        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Deactivate_IR_Add_Shortcut/">IR Deaktivieren - Shortcut Hinzufügen</a></li>',
+        canonical: '/Advanced_User/Tasker/Deactivate_IR_Add_Shortcut/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: 'expanded',
+		autab: '',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+advancedUserGerRouter.get('/Tasker/Nachtsicht_Aktivieren_Aufgabe/', function(req, res) {
+    res.render('./Advanced_User/Tasker_IR_Add_Task', {
+        title: 'Tasker Android App',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
+        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Activate_Nightvision_Task/">Nachtsicht Aktivieren</a></li>',
+        canonical: '/Advanced_User/Tasker/Activate_Nightvision_Task/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: 'expanded',
+		autab: '',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+advancedUserGerRouter.get('/Tasker/Nachtsicht_Deaktivieren_Aufgabe/', function(req, res) {
+    res.render('./Advanced_User/Tasker_IR_Deactivate_Add_Task', {
+        title: 'Tasker Android App',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
+        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Deactivate_Nightvision_Task/">Nachtsicht Deaktivieren</a></li>',
+        canonical: '/Advanced_User/Tasker/Deactivate_Nightvision_Task/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: 'expanded',
+		autab: '',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+advancedUserGerRouter.get('/Tasker/Nachtsicht_Szene/', function(req, res) {
+    res.render('./Advanced_User/Tasker_IR_Add_Scene', {
+        title: 'Tasker Android App',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
+        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Nightvision_Scene/">Nachtsicht Szene</a></li>',
+        canonical: '/Advanced_User/Tasker/Nightvision_Scene/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: 'expanded',
+		autab: '',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+advancedUserGerRouter.get('/Tasker/Zeitplan_PTZ_Aufgabe/', function(req, res) {
+    res.render('./Advanced_User/Schedule_PTZ_Task', {
+        title: 'Tasker Android App',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
+        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Zeitplan_PTZ_Aufgabe/">Zeitplan PTZ Aufgabe</a></li>',
+        canonical: '/Advanced_User/Tasker/Schedule_PTZ_Task/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: 'expanded',
+		autab: '',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+advancedUserGerRouter.get('/Tasker/Zeitplan_Alarm_Aufgabe/', function(req, res) {
+    res.render('./Advanced_User/Schedule_Alarm_Task', {
+        title: 'Tasker Android App',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
+        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Zeitplan_Alarm_Aufgabe/">Zeitplan Alarm Aufgabe</a></li>',
+        canonical: '/Advanced_User/Tasker/Schedule_Alarm_Task/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: 'expanded',
+		autab: '',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
+advancedUserGerRouter.get('/Tasker/Zeitplan_Profil/', function(req, res) {
+    res.render('./Advanced_User/Schedule_Profil', {
+        title: 'Tasker Android App',
+        ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
+        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Zeitplan_Profil/">Zeitplan Profil</a></li>',
+        canonical: '/Advanced_User/Tasker/Schedule_Profile/',
+		pacc: '',
+		ptab: 'hidden',
+		qiacc: '',
+		qitab: 'hidden',
+		mdacc: '',
+		mdtab: 'hidden',
+		iaacc: '',
+		iatab: 'hidden',
+		auacc: 'expanded',
+		autab: '',
+		hdacc: 'hidden',
+		hdtab: 'hidden',
+		fhdacc: 'hidden',
+		fhdtab: 'hidden',
+		sacc: 'hidden',
+		dlacc: 'hidden',
+		dltab: 'hidden',
+      });
+  });
+
 advancedUserGerRouter.get('/WebUI_Wiederherstellen/', function(req, res) {
     res.render('./Advanced_User/Restore_WebUI', {
         title: 'Wiederherstellen der WebUI nach einem fehlerhaften Update',

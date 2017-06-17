@@ -36,6 +36,76 @@ advancedUserRouter.route('/CGI_Commands/VGA_Series_CGI_List/')
     res.status(301).redirect('/Erweitert/CGI_Befehle/VGA_Serie_CGI_Befehle/');
 });
 
+advancedUserRouter.route('/Tasker/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/');
+});
+
+advancedUserRouter.route('/Tasker/Motion_Detection_Add_Task')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/Bewegungserkennung_Aufgabe_Hinzufuegen');
+});
+
+advancedUserRouter.route('/Tasker/Motion_Detection_Add_Profile')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/Bewegungserkennung_Profil_Hinzufuegen');
+});
+
+advancedUserRouter.route('/Tasker/Motion_Detection_Deactivate_Add_Task')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/Bewegungserkennung_Deaktivieren_Aufgabe_Hinzufuegen');
+});
+
+advancedUserRouter.route('/Tasker/Motion_Detection_Deactivate_Add_Profile')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/Bewegungserkennung_Deaktivieren_Profil_Hinzufuegen');
+});
+
+advancedUserRouter.route('/Tasker/Activate_IR_Add_Shortcut')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/IR_Aktivieren_Shortcut_Hinzufuegen');
+});
+
+advancedUserRouter.route('/Tasker/Deactivate_IR_Add_Shortcut')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/IR_Deaktivieren_Shortcut_Hinzufuegen');
+});
+
+advancedUserRouter.route('/Tasker/Activate_Nightvision_Task')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/Nachtsicht_Aktivieren_Aufgabe');
+});
+
+advancedUserRouter.route('/Tasker/Deactivate_Nightvision_Task')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/Nachtsicht_Deaktivieren_Aufgabe');
+});
+
+advancedUserRouter.route('/Tasker/Nightvision_Scene')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/Nachtsicht_Szene');
+});
+
+advancedUserRouter.route('/Tasker/Schedule_PTZ_Task')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/Zeitplan_PTZ_Aufgabe');
+});
+
+advancedUserRouter.route('/Tasker/Schedule_Alarm_Task')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/Zeitplan_Alarm_Aufgabe');
+});
+
+advancedUserRouter.route('/Tasker/Schedule_Profile')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/Zeitplan_Profil');
+});
+
+advancedUserRouter.route('/Tasker/Schedule_PTZ_Task')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Tasker/Zeitplan_PTZ_Aufgabe');
+});
+
 advancedUserRouter.route('/Restore_WebUI/')
   .get(function(req, res) {
     res.status(301).redirect('/Erweitert/WebUI_Wiederherstellen/');
