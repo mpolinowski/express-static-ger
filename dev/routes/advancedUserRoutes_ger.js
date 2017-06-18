@@ -461,7 +461,7 @@ advancedUserGerRouter.get('/Tasker/Nachtsicht_Szene/', function(req, res) {
   });
 
 advancedUserGerRouter.get('/Tasker/Zeitplan_PTZ_Aufgabe/', function(req, res) {
-    res.render('./Advanced_User/Schedule_PTZ_Task', {
+    res.render('./Advanced_User/Tasker_Schedule_Add_PTZ_Task', {
         title: 'Tasker Android App',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
         headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
@@ -488,7 +488,7 @@ advancedUserGerRouter.get('/Tasker/Zeitplan_PTZ_Aufgabe/', function(req, res) {
   });
 
 advancedUserGerRouter.get('/Tasker/Zeitplan_Alarm_Aufgabe/', function(req, res) {
-    res.render('./Advanced_User/Schedule_Alarm_Task', {
+    res.render('./Advanced_User/Tasker_Schedule_Add_Alarm_Task', {
         title: 'Tasker Android App',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
         headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
@@ -515,7 +515,7 @@ advancedUserGerRouter.get('/Tasker/Zeitplan_Alarm_Aufgabe/', function(req, res) 
   });
 
 advancedUserGerRouter.get('/Tasker/Zeitplan_Profil/', function(req, res) {
-    res.render('./Advanced_User/Schedule_Profil', {
+    res.render('./Advanced_User/Tasker_Schedule_Add_Profile', {
         title: 'Tasker Android App',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
         headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
