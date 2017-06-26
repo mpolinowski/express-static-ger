@@ -15,13 +15,23 @@ indoorCamsGerRouter.route('/')
           headline: 'INSTAR Produkte IP Innenkameras',
           breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products">Produkte</a></li><li><a href="/Innenkameras">Innenkameras</a></li',
           canonical: '/Indoor_Cameras/',
-    		  pacc: '',
-    		  qiacc: '',
-    		  mdacc: '',
-    		  iaacc: '',
-    		  auacc: '',
-    		  fhdacc: '',
-    		  hdacc: 'hidden',
+      		pacc: 'expanded',
+      		ptab: '',
+      		qiacc: '',
+      		qitab: 'hidden',
+      		mdacc: '',
+      		mdtab: 'hidden',
+      		iaacc: '',
+      		iatab: 'hidden',
+      		auacc: '',
+      		autab: 'hidden',
+      		hdacc: 'hidden',
+      		hdtab: 'hidden',
+      		fhdacc: 'hidden',
+      		fhdtab: 'hidden',
+      		sacc: 'hidden',
+      		dlacc: 'hidden',
+      		dltab: 'hidden',
         });
     });
 
@@ -93,7 +103,7 @@ indoorCamsGerRouter.route('/IN-8015_HD/Video_Streaming')
 indoorCamsGerRouter.route('/IN-8015_HD/Kamera_Reset')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Camera_Reset', {
-          title: 'IN-8015 HD Hardware Reset',
+          title: 'IN-8015 HD Werksreset',
           model: '8015',
           series: '1080p',
           type: 'Indoor',
