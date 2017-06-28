@@ -2871,7 +2871,7 @@ footer .footer-text {
     -moz-transition: .3s;
     -webkit-transition: .3s;
     -o-transition: .3s;
-    transition: .3s
+    transition: .3s;
 }
 
 .accordion-title:hover {
@@ -2883,6 +2883,11 @@ amp-accordion section {
     border-bottom: 1px solid #fcfcfc;
     margin-bottom: 0;
     padding: 5px 5px 5px 5px
+}
+
+amp-accordion section header:first-child {
+  background-color: transparent;
+  border: none;
 }
 
 amp-accordion section:last-child {
