@@ -7,6 +7,7 @@
         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
         <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
         <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
+        <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
     </head>
 
     <body class="home">
@@ -78,18 +79,48 @@
                     </div>
                     <!-- /margin -->
 
-                    <div class="margin">
-                      <figure>
-                        <amp-img
-                            on="tap:Port_Forwarding_EN_01"
-                            role="button"
-                            tabindex="0"
-                            src="/images/Internet_Access/Port_Forwarding_EN_01.png" width="584" height="452" layout="responsive" class="shadow">
-                        </amp-img>
-                        <figcaption>In diesem Fenster sollte bereits das „Beziehen der IP vom DHCP Server“ deaktiviert sein und Werte eingetragen sein. Diese Werte sollten jedoch wie folgt angepasst werden:</figcaption>
-                      </figure>
+                    <amp-carousel id="carousel-with-preview"
+                      class="shadow"
+                      width="480"
+                      height="400"
+                      layout="responsive"
+                      type="slides">
+                      <amp-img src="/images/Internet_Access/IP-Konfiguration_FHD-min.png"
+                        width="596"
+                        height="549"
+                        layout="responsive"
+                        alt="1080p FHD Web User Interface"></amp-img>
+                      <amp-img src="/images/Internet_Access/IP-Konfiguration_HD-min.png"
+                        width="472"
+                        height="650"
+                        layout="responsive"
+                        alt="720p FHD Web User Interface"></amp-img>
+                      <amp-img src="/images/Internet_Access/IP-Konfiguration_VGA-min.png"
+                        width="409"
+                        height="203"
+                        layout="responsive"
+                        alt="VGA FHD Web User Interface"></amp-img>
+                    </amp-carousel>
+                    <div class="carousel-preview">
+                      <button on="tap:carousel-with-preview.goToSlide(index=0)">
+                        <amp-img src="/images/Internet_Access/IP-Konfiguration_FHD-thumb.jpg"
+                          width="60"
+                          height="40"
+                          alt="1080p FHD Web User Interface"></amp-img>
+                      </button>
+                      <button on="tap:carousel-with-preview.goToSlide(index=1)">
+                        <amp-img src="/images/Internet_Access/IP-Konfiguration_HD-thumb.jpg"
+                          width="60"
+                          height="40"
+                          alt="720p FHD Web User Interface"></amp-img>
+                      </button>
+                      <button on="tap:carousel-with-preview.goToSlide(index=2)">
+                        <amp-img src="/images/Internet_Access/IP-Konfiguration_VGA-thumb.jpg"
+                          width="60"
+                          height="40"
+                          alt="VGA FHD Web User Interface"></amp-img>
+                      </button>
                     </div>
-                    <!-- /margin -->
 
                     <div class="margin">
                         <table>
