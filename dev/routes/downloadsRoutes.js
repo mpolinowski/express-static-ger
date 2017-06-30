@@ -102,6 +102,11 @@ downloadsRouter.route('/Desktop_Software/Instar_Camera_Tool/')
 
 /* #################################################### Indoor Cameras #################################################### */
 
+downloadsRouter.route('/Indoor_Cameras/IN-8015_HD/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Downloadbereich/Innenkameras/IN-8015_HD/');
+});
+
 downloadsRouter.route('/Indoor_Cameras/IN-6014_HD/')
   .get(function(req, res) {
     res.status(301).redirect('/Downloadbereich/Innenkameras/IN-6014_HD/');
@@ -138,6 +143,11 @@ downloadsRouter.route('/Indoor_Cameras/IN-3001/')
 });
 
 /* ################################################## Outdoor Cameras ################################################### */
+
+downloadsRouter.route('/Outdoor_Cameras/IN-9008_HD/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Downloadbereich/Aussenkameras/IN-9008_HD/');
+});
 
 downloadsRouter.route('/Outdoor_Cameras/IN-7011_HD/')
   .get(function(req, res) {
