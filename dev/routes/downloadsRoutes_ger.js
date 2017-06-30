@@ -521,7 +521,7 @@ downloadsGerRouter.get('/Desktop_Software/Instar_Kamera_Tool', function(req, res
 
 /* ###################################################### Innenkameras ###################################################### */
 
-downloadsGerRouter.route('/Indoor_Cameras/IN-8015_HD/')
+downloadsGerRouter.route('/Innenkameras/IN-8015_HD/')
 .get(function(req, res) {
   res.render('./Downloads/Indoor_Cameras_8015', {
       title: 'IN-8015 HD Downloads',
@@ -747,7 +747,7 @@ downloadsGerRouter.route('/Innenkameras/IN-3001/')
 
 /* ###################################################### Außenkameras ###################################################### */
 
-downloadsGerRouter.route('/Outdoor_Cameras/IN-9008_HD/')
+downloadsGerRouter.route('/Aussenkameras/IN-9008_HD/')
 .get(function(req, res) {
   res.render('./Downloads/Outdoor_Cameras_9008', {
       title: 'IN-9008 HD Downloads',
