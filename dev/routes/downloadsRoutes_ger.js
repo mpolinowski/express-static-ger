@@ -753,7 +753,7 @@ downloadsGerRouter.route('/Aussenkameras/IN-9008_HD/')
       title: 'IN-9008 HD Downloads',
       ampimg: '/images/Search/Search/P_SearchThumb_IN-9008HD_Downloads.jpg',
       headline: 'INSTAR Products IN-9008 HD',
-      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Outdoor_Cameras">Outdoor Cameras</a></li><li><a href="/Downloads/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li>',
+      breadcrumbs: '<li><a href="/Products/">Produkte</a></li><li><a href="/Downloads/">Downloads</a></li><li><a href="/Downloads/Outdoor_Cameras">Aussenkameras</a></li><li><a href="/Downloads/Outdoor_Cameras/IN-9008_HD/">IN-9008 HD</a></li>',
       canonical: '/Downloads/Outdoor_Cameras/IN-9008_HD/',
 		pacc: '',
 		ptab: 'hidden',
