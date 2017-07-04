@@ -52,20 +52,21 @@
 
                     <div>
                         <h1 class="post-title">Der INSTAR DDNS Dienst</h1>
-                        <h4>Drei einfache Schritte für den externen Zugriff auf Ihre INSTAR IP Kamera über das Internet</h4>
+                        <h2>Drei einfache Schritte für den externen Zugriff auf Ihre INSTAR IP Kamera über das Internet</h2>
                     </div>
                     <!-- /margin --><div>
-                        <h3>Verbinden Sie sich mit Ihrer Kamera über das Internet</h3>
-                        <p>Software-Ports sind nummeriert Verbindungen, die ein Computer verwendet, um Arten von Netzwerkverkehr zu sortieren. Ein paar Dienste, wie z.B. FTP auf Port 21 und HTTP auf Port 80, sind bereits fest mit entsprechenden Ports verankert. Viele Betriebssysteme nutzen für die jeweiligen Dienste automatisch die entsprechenden Ports. Wenn ein Port geöffnet wird im Router, wird diesem ein Service zugewiesen wie z.B. die Weboberfläche der IP Kamera. Zur Sicherheit sind Standardmäßig alle Ports im Router aus dem Internet geschlossen damit so niemand über das Internet zugreifen kann. <strong>Weshalb Sie nicht ohne Portweiterleitung auf Ihre Kamera per (DDNS) Adresse zugreifen können</strong>.
+                        <h4>Grundsätzliches zur Verbindung mit der Kamera</h4>
+                        <div class="margin desktop up">
+                            <p class="intro">
+                              Generell muss beim Kamerazugriff zwischen zwei Verbindungstypen unterschieden werden. Die eine Verbindung ist der interne Zugang mit der wir die Weboberfläche der Kamera erreichen. Dies setzt voraus, dass sich der Computer und die Kamera im selben lokalen Netzwerk befinden und an den selben Router angeschlossen sind. Danach können Sie mit der lokalen IP-Adresse der Kamera auf die Kamera zugreifen.
+                              Der zweite Verbindungstyp ist der externe Zugriff, um die Weboberfläche der Kamera außerhalb des Netzwerks zu erreichen. Mit diesem Verbindungstyp können Sie den Zugriff auf die Kamera von überall auf der Welt gestatten. Dabei ist es egal ob Sie mit Ihrem Smartphone im Zug sitzen oder im Urlaub sind und Ihren Laptop nutzen. Um dies zu ermöglichen, müssen ein paar Einstellungen in der Kamera und im Router gemacht werden, um die Ports zu öffnen.
+                            </p>
+                        <p>Ports sind nummerierte Verbindungen, die ein Computer verwendet, um Arten von Netzwerkverkehr zu sortieren. Ein paar Dienste, wie z.B. FTP auf Port 21 und HTTP auf Port 80, sind bereits fest mit entsprechenden Ports verankert. Viele Betriebssysteme nutzen für die jeweiligen Dienste automatisch die entsprechenden Ports, für eine IP-Kamera muss dieser jedoch manuell eingerichtet werden.
+                          Wenn ein Port im Router geöffnet wird, wird diesem dann ein Service zugewiesen wie z.B. die Weiterleitung zur Weboberfläche der IP Kamera. Standardmäßig sind alle Ports im Router geschlossen, damit so niemand über das Internet zugreifen kann. Dies ist der Grund warum Sie nicht ohne Portweiterleitung auf Ihre Kamera per DDNS-Adresse zugreifen können. Diese Anleitung zeigt Ihnen jedoch Schritt für Schritt, wie Sie die Ports öffnen können um so auf Ihre Kamera aus dem Internet zugreifen zu können.
 						            </p>
                     </div>
                     <!-- /margin -->
 
-                    <div class="margin desktop up">
-                        <p class="intro">
-                          Grundsätzlich müssen wir zwischen zwei Verbindungstypen beim Fernzugriff unterscheiden. Die eine Verbindung ist der interne Zugang mit der wir die Weboberfläche der Kamera erreichen. Das setzt voraus, das der Computer und die Kamera im selben lokalen Netzwerk sind und an den selben Router angeschlossen sind. Danach können Sie mit der privaten IP-Adresse der Kamera auf die Kamera zugreifen. Der zweite Verbindungstyp ist der externe Zugriff, um die Weboberfläche der Kamera außerhalb des Netzwerks zu erreichen. Mit diesem Verbindungstyp können Sie den Zugriff auf die Kamera von überall auf der Welt gestatten. Dabei ist es egal ob Sie mit Ihrem Smartphone im Zug sitzen oder im Urlaub sind und Ihren Laptop nutzen. Um dies zu ermöglichen, sind ein paar Einstellungen in der Kamera und im Router notwendig. Diese Anleitung zeigt Ihnen Schritt für Schritt wie Sie die externe Verbindung einrichten.
-                        </p>
-                    </div>
 
                     <div class="card-container margin">
                       <div class="onecard">
@@ -74,7 +75,7 @@
                     </div>
 
                     <div class="margin">
-                        <h3>I. Statische IP Adresse</h3>
+                        <h3>I. Schritt: Statische IP Adresse</h3>
                         <p>Verbinden Sie sich zunächst in Ihrem lokalen Netzwerk mit Ihrer Kamera. In der Web-UI wählen Sie dann den Menüpunkt <strong>Netzwerk > IP-Konfiguration</strong> (Erste Bild: <a href="/Web_User_Interface/1080p_Series/Network/IP_Configuration/" target="_blank">1080p Serie</a> / Zweites Bild: <a href="/Web_User_Interface/720p_Series/Network/IP_Configuration/" target="_blank">720p Serie</a> / Drittes Bild: <a href="#">VGA Serie</a>) aus, wo folgendes Fenster erscheint:</p>
                     </div>
                     <!-- /margin -->
@@ -184,7 +185,7 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                        <h3>II.	Portweiterleitung im Router</h3>
+                        <h3>II.	Schritt: Portweiterleitung im Router</h3>
                         <br>
                         <a href="/Internet_Access/Port_Forwarding/"><button type="button" class="btn">Schritt II</button></a>
                     </div>

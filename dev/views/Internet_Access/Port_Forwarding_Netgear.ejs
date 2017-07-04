@@ -51,8 +51,9 @@
 
                     <div>
                         <h1>Portweiterleitung :: Netgear Router</h1>
-                        <h3>Schritt 1</h3>
-                        <p>Sie können auf die Weboberfläche des Netgear Routers zugreifen indem Sie folgende Adresse in die Adresszeile Ihres Browsers eingeben: http://192.168.1.1 . Der Standard Login des Routers ist Benutzername = admin und Kennwort = password. Gehen Sie unter dem Punkt "Erweitert" auf "Portweiterleitung/Port-Triggering". Geben Sie hier die IP Adresse der Kamera in das Feld IP-Adresse des Servers ein. Die IP Adresse der Kamera ist die, die Ihnen das IP Camera Tool anzeigt. Klicken Sie anschließend auf Hinzufügen um die Regel anzulegen.</p>
+                        <p> <i>Dies ist der 2. Schritt der Portweiterleitung, klicken Sie HIER um zum Anfang der Anleitung zu gelangen.</i></p>
+
+                        <p>Öffnen Sie die Weboberfläche Ihres Netgear Routers indem Sie in die Adresszeile Ihres Browsers die IP Adresse des Routers eingeben (standardmäßig 192.168.1.1; Die Standard Login-Daten des Routers sind Benutzername = admin und Kennwort = password). Wählen Sie im Menü unter "Erweitert" Portweiterleitung/Port-Triggering. Geben Sie hier im Feld „Server IP Adresse“ die IP-Adresse Ihrer Kamera ein. Klicken Sie anschließend auf Hinzufügen um die Regel anzulegen. </p>
                     </div>
                     <!-- /margin -->
 
@@ -66,35 +67,12 @@
                     </div>
                     <!-- /margin -->
 
-                    <div class="margin">
-                        <p>Gehen Sie auf "Erweitert - Portweiterleitung" und tragen Sie die IP Ihrer Kamera ein um eine neue Portweiterleitung anzulegen.</p>
-                    </div>
-                    <!-- /margin -->
 
                     <div class="margin">
-                        <h3>Schritt 2</h3>
-                        <p>Die Regel wird für einen Standardport (definiert durch das Feld "Dienstname") angelegt. Gehen Sie daher auf Dienst bearbeiten um den Port auf den Kameraport zu ändern.</p>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                      <amp-img
-                          on="tap:Netgear_02en"
-                          role="button"
-                          tabindex="0"
-                          src="/images/Internet_Access/Netgear_02en.jpg" width="480" height="317" layout="responsive" class="shadow">
-                      </amp-img>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                        <p>Klicken Sie auf "Dienst bearbeiten" um den weitergeleiteten Port auf den Ihrer Kamera einzustellen.</p>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                        <h3>Schritt 3</h3>
-                        <p>Unter "Dienstname" können Sie dem Regel nun einen beliebigen Namen vergeben, das Protokoll auf TCP setzen und sowohl den ersten als auch den letzten Port auf den Kameraport legen. Der Standardport der Kamera ist der Port 80.</p>
+                        <p>Klicken Sie anschließend auf Hinzufügen um die Regel anzulegen. Klicken Sie nun auf auf <strong>Dienst bearbeiten</strong> um weitere Einstellungen vorzunehmen. <br>
+                          Im nun erscheinenden Fenster geben Sie unter <strong>Dienstname</strong> Ihrer Kamera einen eindeutigen Namen, zum Beispiel „Kamera Garage“. <br>
+                          Bei <strong>Protokoll</strong> wählen Sie TCP aus, als <strong>Starting Port</strong> und <strong>Ending Port</strong> geben Sie ihrer Kamera 8081. Falls Sie weitere Kameras hinzufügen wollen, geben Sie der zweiten die Ports 8082, der dritten Kamera 8083 usw.<br>
+                          Klicken Sie dann auf Übernehmen um die Regel anzulegen und abschließend auf Übernehmen um die Regel zu aktivieren.</p>
                     </div>
                     <!-- /margin -->
 
@@ -106,45 +84,7 @@
                           src="/images/Internet_Access/Netgear_03en.jpg" width="480" height="312" layout="responsive" class="shadow">
                       </amp-img>
                     </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                        <p>Passen Sie die Daten für Ihre Kamera an.</p>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                        <h3>Schritt 4</h3>
-                        <p>Klicken Sie anschließend auf Übernehmen um die Regel anzulegen.</p>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                      <amp-img
-                          on="tap:Netgear_04en"
-                          role="button"
-                          tabindex="0"
-                          src="/images/Internet_Access/Netgear_04en.jpg" width="480" height="315" layout="responsive" class="shadow">
-                      </amp-img>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                        <p>Nachdem Sie auf "Übernehmen" klicken wird die Portregel für Ihre Kamera aktiv sein.</p>
-                    </div>
-                    <!-- /margin -->
-
-                    <div class="margin">
-                        <h2>Mehrere Kameras</h2>
-                        <p>Sollten Sie noch eine zweite Kamera einrichten so müssen Sie für diese eine neue Portweiterleitung einrichten. Bitte beachten Sie hier das sich der öffentliche Port unterscheiden muss. Wir empfehlen diesen um 1 zu erhöhen. Wenn Ihre erste Kamera zum Beispiel den öffentlichen Port 80 hat dann würde Ihre zweite Kamera den Port 81 bekommen.</p>
-                        <p>Dadurch würden Sie dann die Kameras wie folgt aufrufen:</p>
-                        <ul>
-                          <li><strong>Kamera 1</strong>: ab1234.ddns-instar.com:8081</li>
-                          <li><strong>Kamera 2</strong>: ab1234.ddns-instar.com:8082</li>
-                        </ul>
-                        <p>und so weiter...</p>
-                    </div>
-                    <!-- /margin -->
+                      <p>Damit sind die Einstellungen im Router fertig gestellt und Sie können mit dem nächsten Schritt fortfahren. Klicken Sie dazu HIER.</p>
 
                 </article>
                 <!-- /article -->
