@@ -2919,6 +2919,12 @@ section[expanded] .accordion-title::after {
     margin-bottom: 15px
 }
 
+.cgi-accordion-header {
+  padding: 5px 5px;
+  background-color: inherit;
+  border: none;
+}
+
 .text-reset {
   text-transform:none;
   text-decoration: none;
