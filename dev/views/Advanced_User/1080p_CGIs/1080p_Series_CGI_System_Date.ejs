@@ -1,107 +1,138 @@
-<% include ../../_partials/template/_head.ejs %>
+<!DOCTYPE html>
+<html ⚡ lang="en">
+    <head>
+        <% include ../../_partials/amp/_amp-head.ejs %>
+        <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+        <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+        <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    </head>
 
-<body>
-    <% include ../../_partials/template/_outdated.ejs %>
+    <body class="home">
 
-    <div id="wrapper">
+      <amp-sidebar id='sidebar' side='right' layout='nodisplay'>
+          <% include ../../_partials/amp/_ampLandingSidebar.ejs %>
+      </amp-sidebar>
 
-        <header><% include ../../_partials/template/_header.ejs %></header>
-        <!-- Navbar-->
+      <header class="header fixed">
+        <% include ../../_partials/amp/_amp-header.ejs %>
+      </header>
 
-        <div class="wrap">
-            <div class="container main">
+      <div class="wrap">
+          <div class="container main">
 
-            <!-- ------------------------------------------------------------ Reboot ----------------------------------------------------- -->
+            <% include ../../_partials/content/_bluenav-general.ejs %>
 
-            <section class="container mt mb"> <!-- Media Container -->
-              <div class="row mb">
-                <h2><a href="/index.php/HD_Manual_WebUI_System_Date-Time">The Date-Time Overlay</a></h2>
-                <h3>param.cgi?cmd=getntpattr</h3>
+                <section class="blade wrapper content">
+                    <!-- section -->
 
-                <div class="table-responsive">
-                  <table class="table table-hover">
-                    <tr>
-                      <th>Function</th>
-                      <td>Get Server Info</td>
-                    </tr>
-                    <tr>
-                      <th>Authority</th>
-                      <td>admin</td>
-                    </tr>
-                    <tr>
-                      <th>Return</th>
-                      <td>ntpenable: Enable (1), disable (0) NTP sync.;<br/>ntpserver: 0.de.pool.ntp.org, 1.de.pool.ntp.org, time.nist.gov, time.kriss.re.kr, time.windows.com, time.nuri.net<br/>ntpinterval: Sync interval (1-24 hrs);<br/></td>
-                    </tr>
-
-                    <tr>
-                      <th>Remarks</th>
-                      <td>See <a href="/720p_Series_CGI_List/Complete_CGI_List/Get_NTP_Server_Attribute">Param.cgi?cmd=getntpattr</a> and <a href="/720p_Series_CGI_List/Complete_CGI_List/Set_NTP_Server_Attribute">Param.cgi?cmd=setntpattr</a></td>
-                    </tr>
-                    <tr>
-                      <th>Example</th>
-                      <td><code>http://admin:instar@192.168.178.88/cgi-bin/hi3510/param.cgi?cmd=setntpattr&-ntpenable=1&-ntpserver=0.de.pool.ntp.org&-ntpinterval=1&cmd=setservertime&-timezone=Europe/Amsterdam&cmd=set_instar_admin&-index=50&-value=off</code></td>
-                    </tr>
-                  </table>
+                <div>
+                  <h1>1080p CGI Commands</h1>
+                  <h3>The System Menu</h3>
+                  <h4>The Date &amp; Time Overlay</h4>
                 </div>
-            </div>
-            <!-- /Row -->
+                <!-- margin -->
 
-            <div class="row mb">
-              <h2><a href="/index.php/HD_Manual_WebUI_System_Date-Time">The Date-Time Overlay</a></h2>
-              <h3>param.cgi?cmd=get_instar_admin&amp;-index=50</h3>
+              <div class="margin">
 
-              <div class="table-responsive">
-                <table class="table table-hover">
-                  <tr>
-                    <th>Function</th>
-                    <td>Get Admin Variable for Daylight Saving Time</td>
-                  </tr>
-                  <tr>
-                    <th>Authority</th>
-                    <td>admin</td>
-                  </tr>
-                  <tr>
-                    <th>Return</th>
-                    <td>value: [on, off]<br/></td>
-                  </tr>
+                <h2>param.cgi?cmd=getservertime</h2>
 
-                  <tr>
-                    <th>Remarks</th>
-                    <td>See <a href="/720p_Series_CGI_List/Complete_CGI_List/Get_Admin_Variables">Param.cgi?cmd=get_instar_admin</a> and <a href="/720p_Series_CGI_List/Complete_CGI_List/Set_Admin_Variables">Param.cgi?cmd=set_instar_admin</a></td>
-                  </tr>
-                  <tr>
-                    <th>Example</th>
-                    <td><code>http://admin:instar@192.168.178.88/cgi-bin/hi3510/param.cgi?cmd=setntpattr&-ntpenable=1&-ntpserver=0.de.pool.ntp.org&-ntpinterval=1&cmd=setservertime&-timezone=Europe/Amsterdam&cmd=set_instar_admin&-index=50&-value=off</code></td>
-                  </tr>
-                </table>
+                  <table>
+                      <tr>
+                          <td width="20%">
+                              <strong>Function</strong>
+                          </td>
+                          <td>Get your Camera´s Time Configuration</td>
+                      </tr>
+                      <tr>
+                          <td width="20%">
+                              <strong>Authority</strong>
+                          </td>
+                          <td><strong>admin</strong></td>
+                      </tr>
+                      <tr>
+                          <td width="20%">
+                              <strong>Parameter</strong>
+                          </td>
+                          <td>
+                            <ul>
+                              <li><strong>time</strong>: Camera Time</li>
+                              <li><strong>timeZone</strong>: Cameras Time Zone e.g.[Europe%2FAmsterdam]</li>
+                              <li><strong>dstmode</strong>: De/Activate Daylight Saving Time [off, on]</li>
+                            </ul>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td width="20%">
+                              <strong>Example</strong>
+                          </td>
+                          <td>
+                            <ul>
+                              <li>GET: http://admin:instar@192.168.178.88/param.cgi?cmd=getservertime</li>
+                              <li>GET: http://192.168.178.88/param.cgi?cmd=getservertime&-usr=admin&-pwd=instar</li>
+                              <li>SET: http://admin:instar@192.168.178.88/param.cgi?cmd=setservertime&-dstmode=on&-timezone=Europe%2FAmsterdam</li>
+                            </ul>
+                          </td>
+                      </tr>
+                  </table>
               </div>
+              <!-- /margin -->
+
+            <div class="margin">
+
+              <h2>param.cgi?cmd=getntpattr</h2>
+
+                <table>
+                    <tr>
+                        <td width="20%">
+                            <strong>Function</strong>
+                        </td>
+                        <td>Get your Camera´s Network Configuration</td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            <strong>Authority</strong>
+                        </td>
+                        <td><strong>admin</strong></td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            <strong>Parameter</strong>
+                        </td>
+                        <td>
+                          <ul>
+                            <li><strong>ntpenable</strong>: De/Activate NTP Time Adjustment [0, 1]</li>
+                            <li><strong>ntpserver</strong>: NTP Server Address</li>
+                            <li><strong>ntpinterval</strong>: NTP Sync Interval in Hours [1 - 12]</li>
+                          </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            <strong>Example</strong>
+                        </td>
+                        <td>
+                          <ul>
+                            <li>GET: http://admin:instar@192.168.178.88/param.cgi?cmd=getntpattr</li>
+                            <li>GET: http://192.168.178.88/param.cgi?cmd=getntpattr&-usr=admin&-pwd=instar</li>
+                            <li>SET: http://admin:instar@192.168.178.88/param.cgi?cmd=setntpattr&-ntpenable=1&-ntpserver=0.de.pool.ntp.org&-ntpinterval=1</li>
+                          </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- /margin -->
+
+              </section>
 
             </div>
-            <!-- /Row -->
-
-            </section>
-             <!-- /Media Container -->
-
-          </div>
-          <!-- /Container -->
+            <!-- /container -->
         </div>
-        <!-- /Wrap -->
+        <!-- /wrap -->
 
-          <section class="webui mb"><% include ../../_partials/content/_webui.ejs %></section>
-              <!-- /webui -->
+        <% include ../../_partials/content/_bluenav-general-mobile.ejs %>
 
-          <section class="social"><% include ../../_partials/template/_social.ejs %></section>
-              <!-- /social -->
-
-    <!-- -------------------------------------------- Footer -------------------------------------------- -->
-
-    <footer><% include ../../_partials/template/_footer.ejs %></footer>
-
-    <% include ../../_partials/template/_jsdefaults.ejs %>
-
-  </div>
-  <!-- /Wrapper -->
-
-</body>
-
+        <footer>
+            <% include ../../_partials/amp/_amp-footer.ejs %>
+        </footer>
+    </body>
 </html>
