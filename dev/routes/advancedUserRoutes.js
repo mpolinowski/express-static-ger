@@ -116,6 +116,11 @@ advancedUserRouter.route('/Restore_Firmware/')
     res.status(301).redirect('/Erweitert/Firmware_Wiederherstellen/');
 });
 
+advancedUserRouter.route('/Restore_Firmware/VGA_Models')
+  .get(function(req, res) {
+    res.status(301).redirect('/Erweitert/Firmware_Wiederherstellen/VGA_Modelle');
+});
+
 advancedUserRouter.route('/CCTV_vs_IP/')
   .get(function(req, res) {
     res.status(301).redirect('/Erweitert/CCTV_vs_IP/');
