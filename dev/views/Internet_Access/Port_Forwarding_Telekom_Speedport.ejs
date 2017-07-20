@@ -52,14 +52,57 @@
           <!-- article -->
           <div>
             <h1>Portweiterleitung :: Telekom Speedport</h1>
-            <p> <i>Dies ist der 2. Schritt der Portweiterleitung, klicken Sie HIER um zum Anfang der Anleitung zu gelangen.</i></p>
+            <p> <i>Dies ist der 2. Schritt der Portweiterleitung, klicken Sie <a href="/Internet_Access/The_DDNS_Service/">hier</a> um zum Anfang der Anleitung zu gelangen.</i></p>
+            <br>
+            <h3>Telekom Speedport Hybrid</h3>
+            <p>Öffnen Sie die Weboberfläche Ihres Telekom Speedport Routers indem Sie in die Adresszeile Ihres Browsers die IP Adresse des Routers eingeben (standardmäßig 192.168.2.1). (Die Werks-Login-Daten des Routers finden Sie auf dem Aufkleber auf der
+              Rückseite des Gerätes)</p>
+            <p>Wählen Sie dann den Menüpunkt <strong>Internet</strong> und <strong>Portfreischaltung</strong>. Öffnen Sie das Menü unter <strong>Port-Umleitungen und Port-Weiterleitungen</strong>, dort geben Sie dann folgendes ein:</p>
+
+            <div class="margin">
+              <table>
+                <tr>
+                  <td width="20%">
+                    <strong>Name der Umleitung</strong>
+                  </td>
+                  <td>Wählen Sie einen Namen für Ihre Kamera, zum Beispiel „Kamera Garage“</td>
+                </tr>
+                <tr>
+                  <td width="20%">
+                    <strong>Gilt für folgendes Gerät</strong>
+                  </td>
+                  <td>Wählen Sie hier Ihre Kamera aus der Liste aus. Vergleichen Sie ggfs. unter <strong>Heimnetzwerk</strong>, dass der Name zur richtigen IP-Adresse gehört.
+                    <tr>
+                      <td width="20%">
+                        <strong>TCP</strong>
+                      </td>
+                      <td>Tragen Sie hier im ersten und dritten Feld den Port "8081" ein.</td>
+                    </tr>
+              </table>
+            </div>
+
+            <div class="margin">
+              <amp-img on="tap:Speedport2" role="button" tabindex="0" src="/images/Internet_Access/Speedport2.png" width="797" height="556" layout="responsive" class="shadow">
+              </amp-img>
+            </div>            
+
+            <p>Durch einen Klick auf <strong>speichern</strong> werden die Einstellungen übernommen.</p>
+              <p>Um auch auf das Flash-Video zugreifen zu können, muss nun für Ihre Kamera noch eine zweite Portweiterleitung eingerichtet werden. Gehen Sie dafür genau nach der Anleitung wie in diesem Schritt vor, nur tragen Sie im letzten Fenster den Flash-Port Ihrer Kamera ein. Fur Ihre erste Kamera also in alle Felder 1935, für Ihre zweite Kamera 1936, usw.</p>
+              <p>Damit sind die Einstellungen im Router fertig gestellt und Sie können mit dem nächsten Schritt fortfahren. Klicken Sie dazu <a href="/Internet_Access/Mobile_Access/">hier</a>.</p>
+
+            <div class="dangercard">
+                <h4>Achtung:</h4>
+                <p>Die Portweiterleitung kann man z.B. bei der Fritzbox aus dem eigenen Netzwerk testen. Es gibt allerdings Router, welche den Zugriff per DDNS-Adresse am Computer im lokalen Netzwerk nicht unterstützen (einige Modelle des <strong>Telekom Speedports</strong>). Das heißt, Sie müssen gegebenenfalls den Zugriff über einen Computer in einem anderen Netzwerk probieren, alternativ können Sie es auch mit Ihrem Smartphone über das Mobilfunknetz testen.</p>
+            </div>
+            <!-- /margin -->
+            <br><br><br>
             <h3>Telekom Speedport (300er, 500er und 700er Serie)</h3>
             <br>
             <amp-youtube data-videoid="ttyTWZGLLps" layout="responsive" width="480" height="270" class="shadow"></amp-youtube>
             <br>
             <p>Öffnen Sie die Weboberfläche Ihres Telekom Speedport Routers indem Sie in die Adresszeile Ihres Browsers die IP Adresse des Routers eingeben (standardmäßig 192.168.2.1). (Die Werks-Login-Daten des Routers finden Sie auf dem Aufkleber auf der
               Rückseite des Gerätes)</p>
-            <p>Wählen Sie dann den Menüpunkt <strong>Konfiguration > Netzwerk</strong> und im darauffolgenden Fenster <strong>NAT&Portregeln</strong>. Unter den verschiedenen Punkten geben Sie Folgendes an:</p>
+            <p>Wählen Sie dann den Menüpunkt <strong>Konfiguration > Netzwerk</strong> und im darauffolgenden Fenster <strong>NAT&Portregeln</strong>. Unter den verschiedenen Punkten geben Sie folgendes ein:</p>
           </div>
           <!-- /margin -->
 
@@ -105,22 +148,16 @@
             <amp-img on="tap:Speedport1" role="button" tabindex="0" src="/images/Internet_Access/Speedport1.jpg" width="797" height="556" layout="responsive" class="shadow">
             </amp-img>
           </div>
-          <p>Damit sind die Einstellungen im Router fertig gestellt und Sie können mit dem nächsten Schritt fortfahren. Klicken Sie dazu HIER.</p>
+          <p>Damit sind die Einstellungen im Router fertig gestellt und Sie können mit dem nächsten Schritt fortfahren. Klicken Sie dazu <a href="/Internet_Access/Mobile_Access/">hier</a>.</p>
 
-          <p>Sonderregel bei Speedport W500V: Fügen Sie unter NAT & Portregeln Ihre IP-Kamera per MAC-Adresse hinzu. (Die MAC Adresse finden Sie im Web-UI der Kamera unter dem Menüpunkt System > Info)</p>
-
-          <div class="dangercard">
-              <h4>Achtung:</h4>
-              <p>Die Portweiterleitung kann man z.B. bei der Fritzbox aus dem eigenen Netzwerk testen. Es gibt Router, welche den externen Zugriff aus dem internen Netzwerk nicht unterstützen (einige Modelle des <strong>Telekom Speedports</strong>). Das heißt Sie müssen gegebenenfalls den Zugriff über einen externen Rechner von einem Freund oder von Ihrem Arbeitsplatz verwenden. Wenn Sie über den Port 80 auf das Menü des Routers kommen, dann stellen Sie einmal den internen und externen Port der Kamera auf 81. Sie müssen aufpassen, dass die Ports welche Sie verwenden nicht von anderen Geräten oder Diensten belegt sind. Wenn Sie z.b. mit Ihrem Smartphone von extern zugreifen wollen, müssen Sie in der Regel nur die Domain Name ohne Prefix angeben, der Port wird in der Regel durch eine eigene Eingabemaske abgefragt. Bei der App InstarVision am iPhone ist dies der Fall. Sie können auch in den Anleitungen der <a href="/Software/Windows/InstarVision/Windows_Phone/DDNS/">Windows Phone</a> und <a href="/Software/Windows/InstarVision/Metro/DDNS/">Metro</a> App, <a href="/Software/iOS/InstarVision/iPhone/DDNS/">iPhone</a> und <a href="/Software/iOS/InstarVision/iPad/DDNS/">iPad</a> App oder <a href="/Software/Android/InstarVision/DDNS/">Android</a> App nachschauen.</p>
-          </div>
-          <!-- /margin -->
-
+          <p><strong>Sonderregel bei Speedport W500V:</strong> Fügen Sie unter NAT & Portregeln Ihre IP-Kamera per MAC-Adresse hinzu. (Die MAC Adresse finden Sie im Web-UI der Kamera unter dem Menüpunkt System > Info)</p>
 
           <div class="margin">
             <h3>Telekom Speedport (900er Serie)</h3>
             <p>Öffnen Sie die Weboberfläche Ihres Telekom Speedport Routers indem Sie in die Adresszeile Ihres Browsers die IP Adresse des Routers eingeben (standardmäßig 192.168.2.1). (Die Login-Daten des Routers finden Sie auf dem Aufkleber auf der Rückseite
-              des Gerätes) Gehen Sie unter dem Reiter "Internet" auf "Portfreischaltung". Klicken Sie hier bei der "TCP Umleitung" auf "Weitere TCP Umleitung anlegen" und wählen Sie die IP Adresse Ihrer Kamera aus dem Drop-Down Menü aus. In die drei Felder
-              vor der IP-Adresse tragen Sie den Port der jeweiligen Kamera ein, also „8081“ für Kamera 1, „8082“ für Kamera 2 usw. Klicken Sie anschließend auf "Speichern" um die Regel zu aktivieren.</p>
+              des Gerätes) Gehen Sie unter dem Reiter <strong>Internet</strong> auf <strong>Portfreischaltung</strong>. Klicken Sie hier unter <strong>Port-Umleitungen und Port-Weiterleitungen</strong> bei der <strong>TCP Umleitung</strong> auf <strong>Weitere TCP Umleitung anlegen</strong> und wählen Sie die IP Adresse Ihrer Kamera aus dem Drop-Down Menü aus. In die drei Felder
+              vor der IP-Adresse tragen Sie jeweils den Port der Kamera ein, also dreimal „8081“ für Kamera 1. Für Kamera 2 tragen Sie an dieser Stelle stattdessen „8082“ ein, für weitere Kameras gehen Sie weiter nach diesem Muster vor. Klicken Sie anschließend auf <strong>Speichern</strong> um die Regel zu aktivieren.</p>
+              <p>Um auch auf das Flash-Video zugreifen zu können, muss nun für Ihre Kamera noch eine zweite Portweiterleitung eingerichtet werden. Gehen Sie dafür genau nach der Anleitung wie in diesem Schritt vor, nur tragen Sie im letzten Fenster den Flash-Port Ihrer Kamera ein. Fur Ihre erste Kamera also in alle Felder 1935, für Ihre zweite Kamera 1936, usw.</p>
           </div>
 
           <!-- /margin -->
@@ -130,7 +167,7 @@
             </amp-img>
           </div>
           <!-- /margin -->
-          <p>Damit sind die Einstellungen im Router fertig gestellt und Sie können mit dem nächsten Schritt fortfahren.</p>
+          <p>Damit sind die Einstellungen im Router fertig gestellt und Sie können mit dem nächsten Schritt fortfahren. Klicken Sie dazu <a href="/Internet_Access/Mobile_Access/">hier</p>
 
           <div class="margin">
               <h3>III. Schritt:	Kamera-Adresse auslesen und Fernzugriff auf die Kamera</h3>
