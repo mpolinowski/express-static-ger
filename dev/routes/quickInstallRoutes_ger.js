@@ -147,6 +147,35 @@ quickInstallGerRouter.route('/Power_over_Ethernet')
       });
 
 /* GET Direct connection with a PC or Notebook /Direct_LAN_Connection */
+quickInstallGerRouter.route('/Powerline')
+    .get(function(req, res) {
+        res.render('./Quick_Installation/Powerline', {
+            title: 'Powerline',
+            ampimg: '/images/Search/QI_SearchThumb_PowerOverEthernet.jpg.png',
+            headline: 'IN-LAN - Netzwerk über das Stromnetz',
+            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnell Installation</a></li><li><a href="/Quick_Installation/Powerline/">Powerline</a></li>',
+            canonical: '/Quick_Installation/Powerline/',
+			pacc: '',
+			ptab: 'hidden',
+			qiacc: 'expanded',
+			qitab: '',
+			mdacc: '',
+			mdtab: 'hidden',
+			iaacc: '',
+			iatab: 'hidden',
+			auacc: '',
+			autab: 'hidden',
+			hdacc: 'hidden',
+			hdtab: 'hidden',
+			fhdacc: 'hidden',
+			fhdtab: 'hidden',
+			sacc: 'hidden',
+			dlacc: 'hidden',
+			dltab: 'hidden',
+          });
+      });
+
+/* GET Direct connection with a PC or Notebook /Direct_LAN_Connection */
 quickInstallGerRouter.route('/Direkte_LAN_Verbindung')
     .get(function(req, res) {
         res.render('./Quick_Installation/Direct_LAN_Connection', {

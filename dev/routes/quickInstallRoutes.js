@@ -26,6 +26,11 @@ quickInstallRouter.route('/Power_over_Ethernet/')
     res.status(301).redirect('/Schnell_Installation/Power_over_Ethernet/');
 });
 
+quickInstallRouter.route('/Powerline/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Schnell_Installation/Powerline/');
+});
+
 quickInstallRouter.route('/Direct_LAN_Connection/')
   .get(function(req, res) {
     res.status(301).redirect('/Schnell_Installation/Direkte_LAN_Verbindung/');
