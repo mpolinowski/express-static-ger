@@ -21,6 +21,11 @@ quickInstallRouter.route('/After_Unpacking/')
     res.status(301).redirect('/Schnell_Installation/Nach_dem_Auspacken/');
 });
 
+quickInstallRouter.route('/Power_over_Ethernet/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Schnell_Installation/Power_over_Ethernet/');
+});
+
 quickInstallRouter.route('/Direct_LAN_Connection/')
   .get(function(req, res) {
     res.status(301).redirect('/Schnell_Installation/Direkte_LAN_Verbindung/');

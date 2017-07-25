@@ -2529,6 +2529,11 @@ section.blade.blog .tab-container .tab .subtitle {
     color: #fff
 }
 
+.primarycard a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .secondarycard {
     background-color: #fff;
     border-radius: 2px;
@@ -2553,6 +2558,11 @@ section.blade.blog .tab-container .tab .subtitle {
     color: #fff
 }
 
+.warningcard a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .successcard {
     background-color: #5cb85c;
     border-radius: 2px;
@@ -2567,6 +2577,11 @@ section.blade.blog .tab-container .tab .subtitle {
     color: #fff
 }
 
+.successcard a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .infocard {
     background-color: #5bc0de;
     border-radius: 2px;
@@ -2579,6 +2594,11 @@ section.blade.blog .tab-container .tab .subtitle {
 
 .infocard p {
     color: #fff
+}
+
+.infocard a {
+    color: #fff;
+    text-decoration: underline;
 }
 
 .dangercard {
