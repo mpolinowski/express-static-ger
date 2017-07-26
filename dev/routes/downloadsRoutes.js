@@ -26,6 +26,11 @@ downloadsRouter.route('/Accessories/IN-90x/')
     res.status(301).redirect('/Downloadbereich/Zubeh%F6r/IN-90x/');
 });
 
+downloadsRouter.route('/Accessories/IN-DV1215/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Downloadbereich/Zubeh%F6r/IN-DV1215/');
+});
+
 downloadsRouter.route('/Accessories/IN-Mikro_380/')
   .get(function(req, res) {
     res.status(301).redirect('/Downloadbereich/Zubeh%F6r/IN-Mikro_380/');
