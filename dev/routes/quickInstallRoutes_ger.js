@@ -122,7 +122,7 @@ quickInstallGerRouter.route('/Power_over_Ethernet')
     .get(function(req, res) {
         res.render('./Quick_Installation/Power_over_Ethernet', {
             title: 'Power over Ethernet',
-            ampimg: '/images/Search/QI_SearchThumb_PowerOverEthernet.jpg.png',
+            ampimg: '/images/Search/QI_SearchThumb_PowerOverEthernet.jpg',
             headline: 'Stromversorgung über das Ethernet Cable',
             breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Schnell_Installation/">Schnell Installation</a></li><li><a href="/Schnell_Installation/Power_over_Ethernet/">Power over Ethernet</a></li>',
             canonical: '/Quick_Installation/Power_over_Ethernet/',
@@ -151,7 +151,7 @@ quickInstallGerRouter.route('/Powerline')
     .get(function(req, res) {
         res.render('./Quick_Installation/Powerline', {
             title: 'Powerline',
-            ampimg: '/images/Search/QI_SearchThumb_PowerOverEthernet.jpg.png',
+            ampimg: '/images/Search/QI_SearchThumb_Powerline.jpg',
             headline: 'IN-LAN - Netzwerk über das Stromnetz',
             breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Quick_Installation/">Schnell Installation</a></li><li><a href="/Quick_Installation/Powerline/">Powerline</a></li>',
             canonical: '/Quick_Installation/Powerline/',

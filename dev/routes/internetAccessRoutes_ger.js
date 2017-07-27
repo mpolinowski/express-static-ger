@@ -32,7 +32,7 @@ internetAccessGerRouter.get('/', function(req, res) {
 internetAccessGerRouter.get('/Point_to_Point/', function(req, res) {
     res.render('./Internet_Access/Point_to_Point', {
         title: 'P2P Service',
-        ampimg: '/images/Search/IA_SearchThumb_DDNSService.jpg',
+        ampimg: '/images/Search/IA_SearchThumb_P2P.jpg',
         headline: 'P2P Fernzugriff',
         breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Fernzugriff/">Fernzugriff</a></li><li><a href="/Fernzugriff/Point_to_Point/">P2P Dienst</a></li>',
         canonical: '/Internet_Access/Point_to_Point/',
@@ -356,7 +356,7 @@ internetAccessGerRouter.get('/Port_Weiterleitung/Pirelli/', function(req, res) {
 internetAccessGerRouter.get('/Mobil_Zugriff/', function(req, res) {
     res.render('./Internet_Access/Mobile_Access', {
         title: 'Mobil Zugriff',
-        ampimg: '/images/Search/IA_SearchThumb_Portforwarding.jpg',
+        ampimg: '/images/Search/IA_SearchThumb_Mobile.jpg',
         headline: 'Kontrollieren Sie Ihre Kamera von Ihrem Handy',
         breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Fernzugriff/">Fernzugriff</a></li><li><a href="/Fernzugriff/Mobil_Zugriff/">Mobil Zugriff</a></li>',
         canonical: '/Internet_Access/Mobile_Access/',
