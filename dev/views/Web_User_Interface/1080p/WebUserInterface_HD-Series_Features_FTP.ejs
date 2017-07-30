@@ -119,9 +119,22 @@
                         <p>Um Bilder oder Videos im Alarmfall auf Ihren FTP Server zu laden, müssen Sie hier erst einmal Ihre Benutzer Daten für den FTP Server hinterlegen. Der FTP Server kann dabei z.B. Ihr Router sein - in diesem Fall brauchen Sie als Server Adresse einfach die IP Adresse Ihres Routers (z.B. 192.168.178.1) hinterlegen. Alternativ können Sie auch einen FTP Server auf einem Rechner in Ihrem lokalen Netzwerk aufsetzen - Programme wie Filezilla Server machen es Ihnen einfach. In diesem Fall wäre die Server Adresse gleich der lokalen IP des Rechners, auf dem Sie den Filezilla Server installiert haben. Alternativ können Sie natürlich auch einen FTP Dienst im Internet nutzen, indem Sie die Webadresse (URL) hier eingeben. Der Standard Port für die FTP Dateiübertragung ist die 21.<br/><br/>
                         Unter FTP Ordner können Sie ein Upload-Verzeichnis auf dem FTP-Server festlegen. Der Root-Ordner eines FTP-Servers kann über <strong>./</strong> erreicht werden. Die Trennung zwischen einzelnen Ordnern funktioniert mit einem "/". Ein Unterordner (z.B. INSTAR) kann mit <strong>./INSTAR</strong> erreicht werden. Ein "/" am Ende ist nicht notwendig, kann aber verwendet werden.<br/><br/>
                         Der FTP Benutzername und das FTP Passwort sind die Login-Daten für Ihren FTP-Account.<br/><br/>
-                        Der Dateiname des Videos ist fix und besitzt die folgende Syntax: <em>rec011_YYYYMMDDhhmmss.asf</em>. Der erste Part zeigt den Channel der aufgenommen wurde - 11, 12 or 13. Getrennt durch einen Unterstrich folgt ein Zeitstempel, der die Zeit der Bewgungserkennung beinhaltet.</p>
+                        Der Dateiname des Videos ist fix und besitzt die folgende Syntax: Präfix (A, P, N oder T) + <em>YYMMDD_hhmmss_hhmmss.avi</em>. Das Präfix signalisiert den Auslöser der Aufnahme (s.u.). Getrennt durch einen Unterstrich folgen dann die Start- und Endzeit der Aufnahme.</p>
                     </div>
                     <!-- /margin -->
+
+                    <div class="margin primarycard">
+                      <p>Der Ursprung einer Aufnahme (Video oder Einzelbild) auf der SD Karte oder dem FTP Server, kann man anhand des Vorgestellten Buchstabens im Dateinamen ableiten.<br><br></p>
+                      <ul>
+                        <li class="whitetext"><p>Alarmaufnahmen:  <strong>A</strong></p></li>
+                        <li class="whitetext"><p>Geplante Aufnahme / Fotoserie:  <strong>P</strong></p></li>
+                        <li class="whitetext"><p>Manuelle Aufnahme:  <strong>N</strong></p></li>
+                        <li class="whitetext"><p>FTP Test:  <strong>T</strong></p></li>
+                      </ul>
+                      <br><br>
+                      <p><u>Beispiel</u>: Die Datei <strong>P17073016245100.jpg</strong> stammt aus einer Fotoserie und wurde am 2017 (Jahr). 07 (Monat). 30 (Tag) um 16:24:51 aufgenommen. Bei den letzten beiden Ziffern handelt es sich um eine fortlaufende Nummer, die Bilder einem auslösenden Ereignis zuweisen - wenn man einstellt bei einem Alarm 6 Bilder zu speichern, wird hier von <strong>00</strong> bis <strong>05</strong> hochgezählt.<br>
+                      Bei der Datei <strong>A170730_171158_171212.avi</strong> handelt es sich um eine Alarmvideoaufnahme, die am 30 Juli 2017 zwischen 17:11:58 und 17:12:12 aufgenommen wurde.</p>
+                    </div>
 
                     <div class="margin">
                         <h3>Passiv oder Port</h3>

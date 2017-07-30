@@ -2522,7 +2522,7 @@ section.blade.blog .tab-container .tab .subtitle {
     display: inline-block;
     margin: 16px 0;
     padding: 5px 15px 15px 15px;
-    width: 97%
+    width: 97%;
 }
 
 .primarycard p, .primarycard h4 {
@@ -2532,6 +2532,10 @@ section.blade.blog .tab-container .tab .subtitle {
 .primarycard a {
     color: #fff;
     text-decoration: underline;
+}
+
+.whitetext {
+    color: #fff
 }
 
 .secondarycard {
