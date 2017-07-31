@@ -1093,7 +1093,7 @@ webUI720pRouter.route('/Alarm/SD_Card/')
             title: 'Alarm Menu :: SD Card',
             ampimg: '/images/Search/QI_SearchThumb_WebUI.jpg',
             headline: 'INSTAR Web User Interface HD Series :: Alarm :: SD Card',
-            breadcrumbs: '<li><a href="/Web_User_Interface/1080p_Series/Overview/">Web User Interface</a></li><li><a href="/Web_User_Interface/720p_Series/">720p Series</a></li><li><a href="/Web_User_Interface/720p_Series/Alarm/">Alarm</a></li><li><a href="/Web_User_Interface/720p_Series/Alarm/SD_Card/">SD_Card</a></li>',
+            breadcrumbs: '<li><a href="/Web_User_Interface/1080p_Series/Overview/">Web User Interface</a></li><li><a href="/Web_User_Interface/720p_Series/">720p Series</a></li><li><a href="/Web_User_Interface/720p_Series/Alarm/">Alarm</a></li><li><a href="/Web_User_Interface/720p_Series/Alarm/SD_Card/">SD Karte</a></li>',
             canonical: '/Web_User_Interface/720p_Series/Alarm/SD_Card/',
 			pacc: '',
 			ptab: 'hidden',
