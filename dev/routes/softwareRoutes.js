@@ -1530,9 +1530,9 @@ softwareRouter.route('/Other_Platforms/Domovea')
 softwareRouter.route('/Mobile_Access_Over_HTTPS')
 .get(function(req, res) {
   res.render('./Software/Mobile_Access_Over_HTTPS', {
-      title: 'Mobile Access over HTTPS',
+      title: 'Mobiler Zugriff mit HTTPS',
       ampimg: '/images/Search/P_SearchThumb_Products.jpg',
-      headline: 'INSTAR Products',
+      headline: 'Mobiler Zugriff mit HTTPS',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Mobile_Access_Over_HTTPS/">HTTPS</a></li>',
       canonical: '/Software/Mobile_Access_Over_HTTPS/',
 		pacc: '',
