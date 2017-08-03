@@ -906,6 +906,7 @@ motionDetectionGerRouter.get('/INSTAR_Cloud/Speicherplatz', function(req, res) {
         breadcrumbs: '<li><a href="/Bewegungserkennung/">Bewegungserkennung</a></li><li><a href="/Bewegungserkennung/INSTAR_Cloud/">INSTAR Cloud</a></li><li><a href="/Bewegungserkennung/INSTAR_Cloud/Speicherplatz/">Speicherplatz</a></li>',
         canonical: '/Motion_Detection/INSTAR_Cloud/Storage/',
         description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+    		pacc: '',
     		ptab: 'hidden',
     		qiacc: '',
     		qitab: 'hidden',
