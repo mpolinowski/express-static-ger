@@ -10,7 +10,7 @@ webUI1080pGerRouter.route('/Auswahl')
             headline: 'INSTAR Weboberfläche - kontrollieren Sie Ihre IP Kamera über Ihren Webbrowser',
             breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Web_User_Interface/1080p_Series/Overview/">Web User Interface</a></li>',
             canonical: '/Web_User_Interface/1080p_Serie/Overview/',
-            description: '1080p Weboberfläche - : Nutzen Sie unser INSTAR Kamera Tool um die IP Ihrer IP Kamera zu ermitteln und rufen Sie diese Adresse in Ihrem Webbrowser auf um die Weboberfläche (WebUI) zu erreichen.',
+            description: '1080p Weboberfläche - Nutzen Sie unser INSTAR Kamera Tool um die IP Ihrer IP Kamera zu ermitteln und rufen Sie diese Adresse in Ihrem Webbrowser auf um die Weboberfläche (WebUI) zu erreichen.',
         		pacc: '',
         		ptab: 'hidden',
         		qiacc: '',
