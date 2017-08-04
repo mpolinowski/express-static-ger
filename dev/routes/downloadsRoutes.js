@@ -18,47 +18,47 @@ downloadsRouter.route('/Outdoor_Cameras/')
 
 downloadsRouter.route('/Accessories/')
   .get(function(req, res) {
-    res.status(301).redirect('/Downloadbereich/Zubeh%F6r/');
+    res.status(301).redirect('/Downloadbereich/Utensilien/');
 });
 
 downloadsRouter.route('/Accessories/IN-90x/')
   .get(function(req, res) {
-    res.status(301).redirect('/Downloadbereich/Zubeh%F6r/IN-90x/');
+    res.status(301).redirect('/Downloadbereich/Utensilien/IN-90x/');
 });
 
 downloadsRouter.route('/Accessories/IN-DV1215/')
   .get(function(req, res) {
-    res.status(301).redirect('/Downloadbereich/Zubeh%F6r/IN-DV1215/');
+    res.status(301).redirect('/Downloadbereich/Utensilien/IN-DV1215/');
 });
 
 downloadsRouter.route('/Accessories/IN-Mikro_380/')
   .get(function(req, res) {
-    res.status(301).redirect('/Downloadbereich/Zubeh%F6r/IN-Mikro_380/');
+    res.status(301).redirect('/Downloadbereich/Utensilien/IN-Mikro_380/');
 });
 
 downloadsRouter.route('/Accessories/IN-Motion_300/')
   .get(function(req, res) {
-    res.status(301).redirect('/Downloadbereich/Zubeh%F6r/IN-Motion_300/');
+    res.status(301).redirect('/Downloadbereich/Utensilien/IN-Motion_300/');
 });
 
 downloadsRouter.route('/Accessories/IN-Motion_500/')
   .get(function(req, res) {
-    res.status(301).redirect('/Downloadbereich/Zubeh%F6r/IN-Motion_500/');
+    res.status(301).redirect('/Downloadbereich/Utensilien/IN-Motion_500/');
 });
 
 downloadsRouter.route('/Network_Accessories/')
   .get(function(req, res) {
-    res.status(301).redirect('/Downloadbereich/Netzwerk_Zubeh%F6r/');
+    res.status(301).redirect('/Downloadbereich/Netzwerk_Utensilien/');
 });
 
 downloadsRouter.route('/Network_Accessories/IN-LAN500/')
   .get(function(req, res) {
-    res.status(301).redirect('/Downloadbereich/Netzwerk_Zubeh%F6r/IN-LAN500/');
+    res.status(301).redirect('/Downloadbereich/Netzwerk_Utensilien/IN-LAN500/');
 });
 
 downloadsRouter.route('/Network_Accessories/IN-PoE_1000/')
   .get(function(req, res) {
-    res.status(301).redirect('/Downloadbereich/Netzwerk_Zubeh%F6r/IN-PoE_1000/');
+    res.status(301).redirect('/Downloadbereich/Netzwerk_Utensilien/IN-PoE_1000/');
 });
 
 /* ###################################################### Mobile Apps ###################################################### */

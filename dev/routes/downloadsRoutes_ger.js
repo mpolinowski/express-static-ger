@@ -85,12 +85,12 @@ downloadsGerRouter.get('/Aussenkameras/', function(req, res) {
       });
   });
 
-downloadsGerRouter.get('/Zubeh%F6r/', function(req, res) {
+downloadsGerRouter.get('/Utensilien/', function(req, res) {
     res.render('./Downloads/Accessories', {
         title: 'Download Bereich Zubehör',
         ampimg: '/images/Search/D_SearchThumb_Accessories.jpg',
         headline: 'Download Bereich',
-        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Zubeh%F6r/">Zubehör</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Utensilien/">Zubehör</a></li>',
         canonical: '/Downloads/Accessories/',
         description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     		pacc: '',
@@ -113,12 +113,12 @@ downloadsGerRouter.get('/Zubeh%F6r/', function(req, res) {
       });
   });
 
-downloadsGerRouter.get('/Zubeh%F6r/IN-90x', function(req, res) {
+downloadsGerRouter.get('/Utensilien/IN-90x', function(req, res) {
     res.render('./Downloads/Accessories_IN-90x', {
         title: 'Download Bereich Infrared Spotlight',
         ampimg: '/images/Search/D_SearchThumb_Accessories.jpg',
         headline: 'Download Bereich',
-        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Downloadbereich/">Downloadbereich</a></li><li><a href="/Downloadbereich/Zubeh%F6r/">Zubehör</a></li><li><a href="/Downloadbereich/Zubeh%F6r/IN-90x">IN-903 & IN-905</a></li>',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Downloadbereich/">Downloadbereich</a></li><li><a href="/Downloadbereich/Utensilien/">Zubehör</a></li><li><a href="/Downloadbereich/Utensilien/IN-90x">IN-903 & IN-905</a></li>',
         canonical: '/Downloads/Accessories/IN-90x/',
         description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     		pacc: '',
@@ -141,7 +141,7 @@ downloadsGerRouter.get('/Zubeh%F6r/IN-90x', function(req, res) {
       });
   });
 
-downloadsGerRouter.get('/Zubeh%F6r/IN-DV1215', function(req, res) {
+downloadsGerRouter.get('/Utensilien/IN-DV1215', function(req, res) {
     res.render('./Downloads/Accessories_IN-DV1215', {
         title: 'Download Area IN-DV1215 Action Camera',
         ampimg: '/images/Search/D_SearchThumb_Accessories.jpg',
@@ -169,12 +169,12 @@ downloadsGerRouter.get('/Zubeh%F6r/IN-DV1215', function(req, res) {
       });
   });
 
-downloadsGerRouter.get('/Zubeh%F6r/IN-Mikro_380', function(req, res) {
+downloadsGerRouter.get('/Utensilien/IN-Mikro_380', function(req, res) {
     res.render('./Downloads/Accessories_IN-Mikro380', {
         title: 'Download Bereich IN-Mikro 380',
         ampimg: '/images/Search/D_SearchThumb_Accessories.jpg',
         headline: 'Download Bereich',
-        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Zubeh%F6r/">Zubehör</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Zubeh%F6r/IN-Mikro_380">IN-Mikro 380</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Utensilien/">Zubehör</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Utensilien/IN-Mikro_380">IN-Mikro 380</a></li>',
         canonical: '/Downloads/Accessories/IN-Mikro_380/',
         description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     		pacc: '',
@@ -197,12 +197,12 @@ downloadsGerRouter.get('/Zubeh%F6r/IN-Mikro_380', function(req, res) {
       });
   });
 
-downloadsGerRouter.get('/Zubeh%F6r/IN-Motion_300', function(req, res) {
+downloadsGerRouter.get('/Utensilien/IN-Motion_300', function(req, res) {
     res.render('./Downloads/Accessories_IN-Motion300', {
         title: 'Download Bereich IN-Motion 300',
         ampimg: '/images/Search/D_SearchThumb_Accessories.jpg',
         headline: 'Download Bereich',
-        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Zubeh%F6r/">Zubehör</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Zubeh%F6r/IN-Motion_300">IN-Motion 300</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Utensilien/">Zubehör</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Utensilien/IN-Motion_300">IN-Motion 300</a></li>',
         canonical: '/Downloads/Accessories/IN-Motion_300/',
         description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     		pacc: '',
@@ -225,12 +225,12 @@ downloadsGerRouter.get('/Zubeh%F6r/IN-Motion_300', function(req, res) {
       });
   });
 
-downloadsGerRouter.get('/Zubeh%F6r/IN-Motion_500', function(req, res) {
+downloadsGerRouter.get('/Utensilien/IN-Motion_500', function(req, res) {
     res.render('./Downloads/Accessories_IN-Motion500', {
         title: 'Download Bereich IN-Motion 500',
         ampimg: '/images/Search/D_SearchThumb_Accessories.jpg',
         headline: 'Download Bereich',
-        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Zubeh%F6r/">Zubehör</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Zubeh%F6r/IN-Motion_500">IN-Motion 500</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Utensilien/">Zubehör</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Utensilien/IN-Motion_500">IN-Motion 500</a></li>',
         canonical: '/Downloads/Accessories/IN-Motion_500/',
         description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     		pacc: '',
@@ -254,12 +254,12 @@ downloadsGerRouter.get('/Zubeh%F6r/IN-Motion_500', function(req, res) {
   });
 
 
-downloadsGerRouter.get('/Netzwerk_Zubeh%F6r/', function(req, res) {
+downloadsGerRouter.get('/Netzwerk_Utensilien/', function(req, res) {
     res.render('./Downloads/Network_Accessories', {
         title: 'Download Bereich Network Accessories',
         ampimg: '/images/Search/D_SearchThumb_NetworkAccessories.jpg',
         headline: 'Download Bereich',
-        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Netzwerk_Zubeh%F6r/">Netzwerk Zubehör</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Netzwerk_Utensilien/">Netzwerk Zubehör</a></li>',
         canonical: '/Downloads/Network_Accessories/',
         description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     		pacc: '',
@@ -282,12 +282,12 @@ downloadsGerRouter.get('/Netzwerk_Zubeh%F6r/', function(req, res) {
       });
   });
 
-downloadsGerRouter.get('/Netzwerk_Zubeh%F6r/IN-LAN500', function(req, res) {
+downloadsGerRouter.get('/Netzwerk_Utensilien/IN-LAN500', function(req, res) {
     res.render('./Downloads/Network_Accessories_IN-LAN500', {
         title: 'Download Bereich IN-LAN 500',
         ampimg: '/images/Search/D_SearchThumb_NetworkAccessories.jpg',
         headline: 'Download Bereich',
-        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Netzwerk_Zubeh%F6r/"> Network Zubehör</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Netzwerk_Zubeh%F6r/IN-LAN500">IN-LAN 500</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Netzwerk_Utensilien/"> Network Zubehör</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Netzwerk_Utensilien/IN-LAN500">IN-LAN 500</a></li>',
         canonical: '/Downloads/Network_Accessories/IN-LAN500/',
     		pacc: '',
     		ptab: 'hidden',
@@ -309,12 +309,12 @@ downloadsGerRouter.get('/Netzwerk_Zubeh%F6r/IN-LAN500', function(req, res) {
       });
   });
 
-downloadsGerRouter.get('/Netzwerk_Zubeh%F6r/IN-PoE_1000', function(req, res) {
+downloadsGerRouter.get('/Netzwerk_Utensilien/IN-PoE_1000', function(req, res) {
     res.render('./Downloads/Network_Accessories_IN-PoE1000', {
         title: 'Download Bereich IN-PoE1000',
         ampimg: '/images/Search/D_SearchThumb_NetworkAccessories.jpg',
         headline: 'Download Bereich',
-        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Netzwerk_Zubeh%F6r/">Network Zubehör</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Netzwerk_Zubeh%F6r/IN-PoE1000">IN-PoE 1000</a></li>',
+        breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/">Downloadbereich</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Netzwerk_Utensilien/">Network Zubehör</a></li><li class="breadcrumb-item"><a href="/Downloadbereich/Netzwerk_Utensilien/IN-PoE1000">IN-PoE 1000</a></li>',
         canonical: '/Downloads/Network_Accessories/IN-PoE_1000/',
         description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     		pacc: '',
