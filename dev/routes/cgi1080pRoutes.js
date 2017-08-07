@@ -3,12 +3,12 @@ var cgi1080pRouter = express.Router();
 
 cgi1080pRouter.get('/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_List', {
-      title: '1080p Series CGI List',
+      title: '1080p Serie CGI Liste',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li>',
       canonical: '/1080p_Series_CGI_List/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -33,12 +33,12 @@ cgi1080pRouter.get('/', function(req, res) {
 
 cgi1080pRouter.get('/System_Menu/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_System', {
-      title: '1080p Software CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das System Menü',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/">System Menu</a></li>',
       canonical: '/1080p_Series_CGI_List/System_Menu/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -61,12 +61,12 @@ cgi1080pRouter.get('/System_Menu/', function(req, res) {
 
 cgi1080pRouter.get('/System_Menu/Date_Time/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_System_Date', {
-      title: '1080p Software CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das System Menü - Datum und Uhrzeit',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/">System Menu</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/Date_Time">Date and Time</a></li>',
       canonical: '/1080p_Series_CGI_List/System_Menu/Date_Time/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -89,12 +89,12 @@ cgi1080pRouter.get('/System_Menu/Date_Time/', function(req, res) {
 
 cgi1080pRouter.get('/System_Menu/Language/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_System_Language', {
-      title: '1080p Software CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das System Menü - Software Oberfläche Sprache',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/">System Menu</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/Language">Language</a></li>',
       canonical: '/1080p_Series_CGI_List/System_Menu/Language/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -117,12 +117,12 @@ cgi1080pRouter.get('/System_Menu/Language/', function(req, res) {
 
 cgi1080pRouter.get('/System_Menu/System_Log/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_System_Log', {
-      title: '1080p Software CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das System Menü - Logbuch',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/">System Menu</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/System_Log">System Log</a></li>',
       canonical: '/1080p_Series_CGI_List/System_Menu/System_Log/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -145,12 +145,12 @@ cgi1080pRouter.get('/System_Menu/System_Log/', function(req, res) {
 
 cgi1080pRouter.get('/System_Menu/Overview/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_System_Overview', {
-      title: '1080p Software CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das System Menü - Übersicht',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/">System Menu</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/Overview">Overview</a></li>',
       canonical: '/1080p_Series_CGI_List/System_Menu/Overview/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -173,12 +173,12 @@ cgi1080pRouter.get('/System_Menu/Overview/', function(req, res) {
 
 cgi1080pRouter.get('/System_Menu/Reboot/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_System_Reboot', {
-      title: '1080p Software CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das System Menü - Neustart',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/">System Menu</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/Reboot">Reboot</a></li>',
       canonical: '/1080p_Series_CGI_List/System_Menu/Reboot/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -201,12 +201,12 @@ cgi1080pRouter.get('/System_Menu/Reboot/', function(req, res) {
 
 cgi1080pRouter.get('/System_Menu/Reset/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_System_Reset', {
-      title: '1080p Software CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das System Menü - Werksreset',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/">System Menu</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/Reset">Reset</a></li>',
       canonical: '/1080p_Series_CGI_List/System_Menu/Reset/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -229,12 +229,12 @@ cgi1080pRouter.get('/System_Menu/Reset/', function(req, res) {
 
 cgi1080pRouter.get('/System_Menu/Update/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_System_Update', {
-      title: '1080p Software CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das System Menü - Software Update',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/">System Menu</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/Update">Update</a></li>',
       canonical: '/1080p_Series_CGI_List/System_Menu/Update/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -257,12 +257,12 @@ cgi1080pRouter.get('/System_Menu/Update/', function(req, res) {
 
 cgi1080pRouter.get('/System_Menu/User/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_System_User', {
-      title: '1080p Software CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das System Menü - Benutzerverwaltung',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/">System Menu</a></li><li><a href="/1080p_Series_CGI_List/System_Menu/User">User</a></li>',
       canonical: '/1080p_Series_CGI_List/System_Menu/User/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -287,12 +287,12 @@ cgi1080pRouter.get('/System_Menu/User/', function(req, res) {
 
 cgi1080pRouter.get('/Network_Menu/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Network', {
-      title: '1080p Network CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Netzwerk Menü',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Network_Menu/">Network Menu</a></li>',
       canonical: '/1080p_Series_CGI_List/Network_Menu/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -315,12 +315,12 @@ cgi1080pRouter.get('/Network_Menu/', function(req, res) {
 
 cgi1080pRouter.get('/Network_Menu/IP_Configuration/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Network_IP', {
-      title: '1080p Network CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Netzwerk Menü - Netzwerkkonfiguration',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Network_Menu/">Network Menu</a></li><li><a href="/1080p_Series_CGI_List/Network_Menu/IP_Configuration/">IP Configuration</a></li>',
       canonical: '/1080p_Series_CGI_List/Network_Menu/IP_Configuration/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -343,12 +343,12 @@ cgi1080pRouter.get('/Network_Menu/IP_Configuration/', function(req, res) {
 
 cgi1080pRouter.get('/Network_Menu/ONVIF/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Network_ONVIF', {
-      title: '1080p Network CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Netzwerk Menü - ONVIF Konfiguration',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Network_Menu/">Network Menu</a></li><li><a href="/1080p_Series_CGI_List/Network_Menu/ONVIF/">ONVIF</a></li>',
       canonical: '/1080p_Series_CGI_List/Network_Menu/ONVIF/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -371,12 +371,12 @@ cgi1080pRouter.get('/Network_Menu/ONVIF/', function(req, res) {
 
 cgi1080pRouter.get('/Network_Menu/Remote_Access/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Network_Remote', {
-      title: '1080p Network CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Netzwerk Menü - Fernzugriff',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Network_Menu/">Network Menu</a></li><li><a href="/1080p_Series_CGI_List/Network_Menu/Remote_Access/">Remote Access</a></li>',
       canonical: '/1080p_Series_CGI_List/Network_Menu/Remote_Access/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -399,12 +399,12 @@ cgi1080pRouter.get('/Network_Menu/Remote_Access/', function(req, res) {
 
 cgi1080pRouter.get('/Network_Menu/UPnP/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Network_UPnP', {
-      title: '1080p Network CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Netzwerk Menü - Universal Plug and Play Konfiguration',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Network_Menu/">Network Menu</a></li><li><a href="/1080p_Series_CGI_List/Network_Menu/UPnP/">UPnP</a></li>',
       canonical: '/1080p_Series_CGI_List/Network_Menu/UPnP/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -427,12 +427,12 @@ cgi1080pRouter.get('/Network_Menu/UPnP/', function(req, res) {
 
 cgi1080pRouter.get('/Network_Menu/WiFi/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Network_WiFi', {
-      title: '1080p Network CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Netzwerk Menü - WLAN Einstellungen',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Network_Menu/">Network Menu</a></li><li><a href="/1080p_Series_CGI_List/Network_Menu/WiFi/">WiFi</a></li>',
       canonical: '/1080p_Series_CGI_List/Network_Menu/WiFi/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -457,12 +457,12 @@ cgi1080pRouter.get('/Network_Menu/WiFi/', function(req, res) {
 
 cgi1080pRouter.get('/Features_Menu/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Features', {
-      title: '1080p System CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Feature Menü',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/">Features Menu</a></li>',
       canonical: '/1080p_Series_CGI_List/Features_Menu/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -485,12 +485,12 @@ cgi1080pRouter.get('/Features_Menu/', function(req, res) {
 
 cgi1080pRouter.get('/Features_Menu/Email/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Features_Email', {
-      title: '1080p System CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Feature Menü - Email Versand',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/">Features Menu</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/Email/">Email</a></li>',
       canonical: '/1080p_Series_CGI_List/Features_Menu/Email/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -513,12 +513,12 @@ cgi1080pRouter.get('/Features_Menu/Email/', function(req, res) {
 
 cgi1080pRouter.get('/Features_Menu/FTP/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Features_FTP', {
-      title: '1080p System CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Feature Menü - File Transfer Protokoll',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/">Features Menu</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/FTP/">FTP</a></li>',
       canonical: '/1080p_Series_CGI_List/Features_Menu/FTP/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -541,12 +541,12 @@ cgi1080pRouter.get('/Features_Menu/FTP/', function(req, res) {
 
 cgi1080pRouter.get('/Features_Menu/IR_Nightvision/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Features_IR', {
-      title: '1080p System CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Feature Menü Infrarot Nachtsicht',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/">Features Menu</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/IR_Nightvision/">IR LEDs</a></li>',
       canonical: '/1080p_Series_CGI_List/Features_Menu/IR_Nightvision/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -569,12 +569,12 @@ cgi1080pRouter.get('/Features_Menu/IR_Nightvision/', function(req, res) {
 
 cgi1080pRouter.get('/Features_Menu/PTZ/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Features_PTZ', {
-      title: '1080p System CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Feature Menü - Pan, Tilt und Zoom',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/">Features Menu</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/PTZ/">PTZ</a></li>',
       canonical: '/1080p_Series_CGI_List/Features_Menu/PTZ/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -597,12 +597,12 @@ cgi1080pRouter.get('/Features_Menu/PTZ/', function(req, res) {
 
 cgi1080pRouter.get('/Features_Menu/PTZ-Tour/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Features_PTZ-Tour', {
-      title: '1080p System CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Feature Menü - PTZ Tour',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/">Features Menu</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/PTZ-Tour/">PTZ Tour</a></li>',
       canonical: '/1080p_Series_CGI_List/Features_Menu/PTZ-Tour/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -625,12 +625,12 @@ cgi1080pRouter.get('/Features_Menu/PTZ-Tour/', function(req, res) {
 
 cgi1080pRouter.get('/Features_Menu/Manual_Recording/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Features_Recording', {
-      title: '1080p System CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Feature Menü - Manuelle Aufnahme',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/">Features Menu</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/Manual_Recording/">Manual Recording</a></li>',
       canonical: '/1080p_Series_CGI_List/Features_Menu/Manual_Recording/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -653,12 +653,12 @@ cgi1080pRouter.get('/Features_Menu/Manual_Recording/', function(req, res) {
 
 cgi1080pRouter.get('/Features_Menu/SD_Card/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Features_SD', {
-      title: '1080p System CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Feature Menü - SD Karte',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/">Features Menu</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/SD_Card/">SD Card</a></li>',
       canonical: '/1080p_Series_CGI_List/Features_Menu/SD_Card/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -681,12 +681,12 @@ cgi1080pRouter.get('/Features_Menu/SD_Card/', function(req, res) {
 
 cgi1080pRouter.get('/Features_Menu/Status_LEDs/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Features_Status', {
-      title: '1080p System CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Feature Menü - Status LEDs',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/">Features Menu</a></li><li><a href="/1080p_Series_CGI_List/Features_Menu/Status_LEDs/">Status LEDs</a></li>',
       canonical: '/1080p_Series_CGI_List/Features_Menu/Status_LEDs/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -711,12 +711,12 @@ cgi1080pRouter.get('/Features_Menu/Status_LEDs/', function(req, res) {
 
 cgi1080pRouter.get('/Multimedia_Menu/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Multimedia', {
-      title: '1080p Multimedia CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Multimedia Menü',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Multimedia_Menu/">Multimedia Menu</a></li>',
       canonical: '/1080p_Series_CGI_List/Multimedia_Menu/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -739,12 +739,12 @@ cgi1080pRouter.get('/Multimedia_Menu/', function(req, res) {
 
 cgi1080pRouter.get('/Multimedia_Menu/Audio/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Multimedia_Audio', {
-      title: '1080p Multimedia CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Multimedia Menü - Audioeinstellungen',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Multimedia_Menu/">Multimedia Menu</a></li><li><a href="/1080p_Series_CGI_List/Multimedia_Menu/Audio/">Audio</a></li>',
       canonical: '/1080p_Series_CGI_List/Multimedia_Menu/Audio/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -767,12 +767,12 @@ cgi1080pRouter.get('/Multimedia_Menu/Audio/', function(req, res) {
 
 cgi1080pRouter.get('/Multimedia_Menu/Image/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Multimedia_Image', {
-      title: '1080p Multimedia CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Multimedia Menü - Bildeinstellungen',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Multimedia_Menu/">Multimedia Menu</a></li><li><a href="/1080p_Series_CGI_List/Multimedia_Menu/Image/">Image</a></li>',
       canonical: '/1080p_Series_CGI_List/Multimedia_Menu/Image/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -795,12 +795,12 @@ cgi1080pRouter.get('/Multimedia_Menu/Image/', function(req, res) {
 
 cgi1080pRouter.get('/Multimedia_Menu/Overlays/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Multimedia_Overlays', {
-      title: '1080p Multimedia CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Multimedia Menü - Bildschirmeinblendungen',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Multimedia_Menu/">Multimedia Menu</a></li><li><a href="/1080p_Series_CGI_List/Multimedia_Menu/Overlays/">Overlays</a></li>',
       canonical: '/1080p_Series_CGI_List/Multimedia_Menu/Overlays/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -823,12 +823,12 @@ cgi1080pRouter.get('/Multimedia_Menu/Overlays/', function(req, res) {
 
 cgi1080pRouter.get('/Multimedia_Menu/Privacy_Mask/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Multimedia_Privacy', {
-      title: '1080p Multimedia CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Multimedia Menü - Privatsphären Maske',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Multimedia_Menu/">Multimedia Menu</a></li><li><a href="/1080p_Series_CGI_List/Multimedia_Menu/Privacy_Mask/">Privacy Mask</a></li>',
       canonical: '/1080p_Series_CGI_List/Multimedia_Menu/Privacy_Mask/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -851,12 +851,12 @@ cgi1080pRouter.get('/Multimedia_Menu/Privacy_Mask/', function(req, res) {
 
 cgi1080pRouter.get('/Multimedia_Menu/Video/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Multimedia_Video', {
-      title: '1080p Multimedia CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Multimedia Menü - Videoeinstellungen',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Multimedia_Menu/">Multimedia Menu</a></li><li><a href="/1080p_Series_CGI_List/Multimedia_Menu/Video/">Video</a></li>',
       canonical: '/1080p_Series_CGI_List/Multimedia_Menu/Video/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -881,12 +881,12 @@ cgi1080pRouter.get('/Multimedia_Menu/Video/', function(req, res) {
 
 cgi1080pRouter.get('/Alarm_Menu/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Alarm', {
-      title: '1080p Alarm CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Alarm Menü',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Alarm_Menu/">Alarm Menu</a></li>',
       canonical: '/1080p_Series_CGI_List/Alarm_Menu/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -909,12 +909,12 @@ cgi1080pRouter.get('/Alarm_Menu/', function(req, res) {
 
 cgi1080pRouter.get('/Alarm_Menu/Actions/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Alarm_Actions', {
-      title: '1080p Alarm CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Alarm Menü - Aktionen',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Alarm_Menu/">Alarm Menu</a></li><li><a href="/1080p_Series_CGI_List/Alarm_Menu/Actions/">Actions</a></li>',
       canonical: '/1080p_Series_CGI_List/Alarm_Menu/Actions/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -937,12 +937,12 @@ cgi1080pRouter.get('/Alarm_Menu/Actions/', function(req, res) {
 
 cgi1080pRouter.get('/Alarm_Menu/Areas/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Alarm_Areas', {
-      title: '1080p Alarm CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Alarm Menü - Bereiche',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Alarm_Menu/">Alarm Menu</a></li><li><a href="/1080p_Series_CGI_List/Alarm_Menu/Areas/">Areas</a></li>',
       canonical: '/1080p_Series_CGI_List/Alarm_Menu/Areas/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -965,12 +965,12 @@ cgi1080pRouter.get('/Alarm_Menu/Areas/', function(req, res) {
 
 cgi1080pRouter.get('/Alarm_Menu/Push_Service/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Alarm_Push', {
-      title: '1080p Alarm CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Alarm Menü - Push Dienst',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Alarm_Menu/">Alarm Menu</a></li><li><a href="/1080p_Series_CGI_List/Alarm_Menu/Push_Service/">Push Service</a></li>',
       canonical: '/1080p_Series_CGI_List/Alarm_Menu/Push_Service/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -993,12 +993,12 @@ cgi1080pRouter.get('/Alarm_Menu/Push_Service/', function(req, res) {
 
 cgi1080pRouter.get('/Alarm_Menu/Schedule/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Alarm_Schedule', {
-      title: '1080p Alarm CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Alarm Menü - Zeitplan',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Alarm_Menu/">Alarm Menu</a></li><li><a href="/1080p_Series_CGI_List/Alarm_Menu/Schedule/">Schedule</a></li>',
       canonical: '/1080p_Series_CGI_List/Alarm_Menu/Schedule/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -1021,12 +1021,12 @@ cgi1080pRouter.get('/Alarm_Menu/Schedule/', function(req, res) {
 
 cgi1080pRouter.get('/Alarm_Menu/Alarm_Server/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Alarm_Server', {
-      title: '1080p Alarm CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Alarm Menü - Alarmserver',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Alarm_Menu/">Alarm Menu</a></li><li><a href="/1080p_Series_CGI_List/Alarm_Menu/Alarm_Server/">Alarm Server</a></li>',
       canonical: '/1080p_Series_CGI_List/Alarm_Menu/Alarm_Server/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -1051,12 +1051,12 @@ cgi1080pRouter.get('/Alarm_Menu/Alarm_Server/', function(req, res) {
 
 cgi1080pRouter.get('/Recording_Menu', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Recording', {
-      title: '1080p Recording CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Aufnahme Menü',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Recording_Menu/">Recording Menu</a></li>',
       canonical: '/1080p_Series_CGI_List/Recording_Menu/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -1079,12 +1079,12 @@ cgi1080pRouter.get('/Recording_Menu', function(req, res) {
 
 cgi1080pRouter.get('/Recording_Menu/Photoseries/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Recording_Photoseries', {
-      title: '1080p Recording CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Aufnahme Menü - Fotoserie',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Recording_Menu/">Recording Menu</a></li><li><a href="/1080p_Series_CGI_List/Recording_Menu/Photoseries/">Photoseries</a></li>',
       canonical: '/1080p_Series_CGI_List/Recording_Menu/Photoseries/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -1107,12 +1107,12 @@ cgi1080pRouter.get('/Recording_Menu/Photoseries/', function(req, res) {
 
 cgi1080pRouter.get('/Recording_Menu/Video/', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Series_CGI_Recording_Video', {
-      title: '1080p Recording CGIs',
+      title: '1080p Serie CGI Liste - Befehle für das Aufnahme Menü - Videoaufnahme',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Kamera in Ihre Software',
       breadcrumbs: '<li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Recording_Menu/">Recording Menu</a></li><li><a href="/1080p_Series_CGI_List/Recording_Menu/Video/">Video</a></li>',
       canonical: '/1080p_Series_CGI_List/Recording_Menu/Video/',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',
@@ -1137,12 +1137,12 @@ cgi1080pRouter.get('/Recording_Menu/Video/', function(req, res) {
 
 cgi1080pRouter.get('/Complete_CGI_List', function(req, res) {
   res.render('./Advanced_User/1080p_CGIs/1080p_Complete_CGI_List', {
-      title: '1080p Series Complete CGI List',
+      title: '1080p Serie CGI Liste - Vollständige Befehlsliste',
       ampimg: '/images/Search/AU_SearchThumb_ForDeveloper.jpg',
-      headline: 'For Developer',
+      headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR Full HD IP Sicherheitskamera in Ihre Software',
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Advanced_User/">Advanced User</a></li><li><a href="/Advanced_User/CGI_Commands/">CGI Commands</a></li><li><a href="/1080p_Series_CGI_List/">1080p Serie</a></li><li><a href="/1080p_Series_CGI_List/Complete_CGI_List/">Complete CGI List</a></li>',
       canonical: '/1080p_Series_CGI_List/Complete_CGI_List',
-      description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
+      description: 'Nutzen Sie die API Ihrer INSTAR 1080p Webcam um diese in Webseiten oder Programme einzubinden. Die CGI Befehle ermöglichen die Einbindung in Heimautomatisierungen (Domovea, FHEM + Raspberry Pi oder Tasker für Android). Senden Sie einfach den Befehl über HTTP an die IP Adresse der Hausautomatisierung, um die Kamerafunktionen direkt anzusprechen.',
       pacc: '',
       ptab: 'hidden',
       qiacc: '',

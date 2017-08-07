@@ -51,14 +51,19 @@ downloadsRouter.route('/Network_Accessories/')
     res.status(301).redirect('/Downloadbereich/Netzwerk_Utensilien/');
 });
 
-downloadsRouter.route('/Network_Accessories/IN-LAN500/')
+downloadsRouter.route('/Network_Accessories/IN-LAN_500/')
   .get(function(req, res) {
-    res.status(301).redirect('/Downloadbereich/Netzwerk_Utensilien/IN-LAN500/');
+    res.status(301).redirect('/Downloadbereich/Netzwerk_Utensilien/IN-LAN_500/');
 });
 
 downloadsRouter.route('/Network_Accessories/IN-PoE_1000/')
   .get(function(req, res) {
     res.status(301).redirect('/Downloadbereich/Netzwerk_Utensilien/IN-PoE_1000/');
+});
+
+downloadsRouter.route('/Network_Accessories/IN-Route_P52/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Downloadbereich/Netzwerk_Utensilien/IN-Route_P52/');
 });
 
 /* ###################################################### Mobile Apps ###################################################### */
