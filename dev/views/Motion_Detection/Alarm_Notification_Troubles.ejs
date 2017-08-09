@@ -67,8 +67,20 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                        <h2>Troubleshooting</h2>
-                        <h3>Gmail</h3>
+                      <h2>Troubleshooting</h2>
+                      <br>
+                      <h3>Inhaltsverzeichnis</h3>
+                      <ul>
+                        <li><a href="#gmail">GMail</a></li>
+                        <li><a href="#speedport">Telekom Speedport</a></li>
+                        <li><a href="#tonline">T-Online Mail</a></li>
+                        <li><a href="#gmx">GMX Mail</a></li>
+                      </ul>
+                    </div>
+                  <!-- /margin -->
+
+                    <div class="margin">
+                        <h3 class="jumptarget" id="gmail">Gmail</h3>
                         <p><strong>Problem</strong>: Sie haben einen neuen Gmail Account, extra für Ihre Kamera Benachrichtigungen, eingerichtet. Die Test-Mail funktioniert allerdings aufgrund fehlgeschlagener Authentifizierung nicht.</p>
                         <p><strong>Lösung</strong>: Google überwacht Ihr Verhalten, um sicherzustellen, dass es sich wirklich um Sie handelt, der auf die E-Mails zugreift. Wenn Sie ein anderes Gerät verwenden - z.B. ein anderes Smartphone oder Ihre IP Kamera - um sich in Ihrem Account einzuloggen, kann es sein das Google Sie blockt und nach einer 2 Wege Authentifizierung fragt. Dadurch wird Ihre Test-Mail fehlschlagen. Bitte loggen Sie sich über Ihren Webbrowser in Ihren Account ein und prüfen Sie ob Ihr Gmail Account blockiert wurde oder Google Ihnen mitteilt, das eine verdächtige Aktivität festgestellt wurde. Authentifizieren Sie sich einfach mit dem Gerät, welches das Problem ausgelöst hat.</p>
                         <p><strong>Problem</strong>: Gmail hat immer funktioniert, aber jetzt kommen keine Alarm-Nachrichten mehr an. Von anderen Absendern erhalte ich allerdings noch E-Mails.</p>
@@ -94,7 +106,7 @@
                       <!-- /margin -->
 
                       <div class="margin">
-                          <h3>Telekom Speedport</h3>
+                          <h3 class="jumptarget" id="speedport">Telekom Speedport</h3>
                           <p><strong>Problem</strong>: Sie haben nun Ihre Kamera hinter einem Telekom Speedport Router eingerichtet und den SMTP Server und Ihre Login Daten eingegeben, die Test-Mail schlägt allerdings immer fehl.</p>
                           <p><strong>Lösung</strong>: Der Telekom Speedport beinhaltet eine Liste aller erlaubten SMTP Server in seiner Firmware, welche standardmäßig genutzt wird. Obwohl diese Liste alle gewöhnlichen SMTP Server beinhaltet - kann es trotzdem Ihre Verbindungsversuche mit SMTP Servern beeinträchtigen. Sie können Ihre E-Mail Spam Einstellungen für einen Moment deaktivieren (es kann sein das Sie Ihren Speedport neustarten müssen) und es erneut versuchen.</p>
                       </div>
@@ -116,7 +128,7 @@
                       <!-- /margin -->
 
                       <div class="margin">
-                          <h3>T-Online Mail</h3>
+                          <h3 class="jumptarget" id="tonline">T-Online Mail</h3>
                           <p><strong>Problem</strong>: Sie haben einen neuen T-Online Mail Account nur für ihre Kamera Benachrichtigungen erstellt, die Test-Mails kommen allerdings aufgrund falscher Authentifizierung nicht an.</p>
                           <p><strong>Lösung</strong>: Sie müssen ein seperates E-Mail Passwort für externe Apps verwenden um sich mit Ihrem T-Online Mail Account zu verbinden.</p>
                       </div>
@@ -153,7 +165,7 @@
                       <!-- /margin -->
 
                       <div class="margin">
-                          <h3>GMX Mail</h3>
+                          <h3 class="jumptarget" id="gmx">GMX Mail</h3>
                           <p><strong>Problem</strong>: Die Test-Email schlägt fehl.</p>
                           <p><strong>Lösung</strong>: Aktivieren Sie den SMTP Dienst für externe Programme wie Thunderbird oder Outlook.</p>
                       </div>
