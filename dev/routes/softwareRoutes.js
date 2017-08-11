@@ -1643,4 +1643,33 @@ softwareRouter.route('/Mobile_Access_Over_HTTPS')
     });
 });
 
+softwareRouter.route('/Mobile_Apps_HTTPS_and_RTSP')
+.get(function(req, res) {
+  res.render('./Software/Mobile_Apps_HTTPS_and_RTSP', {
+      title: 'Mobiler Zugriff mit HTTPS und RTSP - InstarVision und IPCamViewer',
+      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      headline: 'Wenn Sie über HTTPS auf Ihre INSTAR Full HD Netzwerkkamera zugreifen sollten Sie den Videostream über RTSP in die InstarVision Handy App einbinden',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Mobile_Access_Over_HTTPS/">HTTPS</a></li>',
+      canonical: '/Software/Mobile_Access_Over_HTTPS/',
+      description: 'Wenn Sie über HTTPS auf Ihre INSTAR Full HD Netzwerkkamera zugreifen sollten Sie den Videostream über RTSP in die InstarVision Handy App einbinden',
+  		pacc: '',
+  		ptab: 'hidden',
+  		qiacc: '',
+  		qitab: 'hidden',
+  		mdacc: '',
+  		mdtab: 'hidden',
+  		iaacc: '',
+  		iatab: 'hidden',
+  		auacc: '',
+  		autab: 'hidden',
+  		hdacc: 'hidden',
+  		hdtab: 'hidden',
+  		fhdacc: 'hidden',
+  		fhdtab: 'hidden',
+  		sacc: '',
+  		dlacc: 'hidden',
+  		dltab: 'hidden',
+    });
+});
+
 module.exports = softwareRouter;
