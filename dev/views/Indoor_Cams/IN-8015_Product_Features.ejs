@@ -24,7 +24,9 @@
         <% include ../_partials/content/_bluenav-usermanual.ejs %>
 
                 <section itemscope itemtype="http://schema.org/Article" class="blade wrapper content">
-                  <meta itemprop="author"  itemscope itemtype="https://schema.org/Person" content="Mike Polinowski">
+                  <div itemprop="author"  itemscope itemtype="https://schema.org/Person">
+                    <meta itemprop="name" content="Mike Polinowski">
+                  </div>
                   <meta itemprop="datePublished" content="2017-08-14">
                   <meta itemprop="headline" content="<%= headline %>">
                   <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
