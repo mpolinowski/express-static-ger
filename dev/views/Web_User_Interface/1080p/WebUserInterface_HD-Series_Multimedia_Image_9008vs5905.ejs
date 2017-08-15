@@ -5,6 +5,7 @@
         <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
         <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+        <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
         <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
     </head>
 
@@ -23,120 +24,340 @@
 
                   <% include ../../_partials/content/_bluenav-general.ejs %>
 
-                      <article itemscope itemtype="http://schema.org/Article" class="blade wrapper content">
+                      <section itemscope itemtype="http://schema.org/Article" class="blade wrapper content">
                         <% include ../../_partials/amp/_schemaArticle.ejs %>
 
-              <div class="post-title">
-                  <h1 itemprop="name">Vergleich der Bildqualität</h1>
-                  <h2>IN-9008 Full HD vs. IN-6014 HD</h2>
-              </div>
-              <!-- /margin -->
+                        <div class="post-title">
+                            <h1 itemprop="name">Vergleich der Bildqualität</h1>
+                            <h2>IN-9008 Full HD vs. IN-6014 HD</h2>
+                        </div>
+                        <!-- /margin -->
 
-              <div class="margin">
-                <h4>Videobild der IN-9008 Full HD mit aktiven Hardware WDR Modus (Level 0)</h4>
-              </div>
+                        <div class="margin">
+                          <h4>Videobild der IN-9008 Full HD mit aktiven Hardware WDR Modus (Level 0)</h4>
+                        </div>
 
-              <!-- HardwareWDR 0 -->
-              <div class="video-player">
-                <amp-video id="HardwareWDR0"
-                  controls
-                  width="1920"
-                  height="1080"
-                  src="/videos/IN-8015_Full_HD_HardwareWDR0.mp4"
-                  layout="responsive">
-                  <source src="/videos/IN-8015_Full_HD_HardwareWDR0.webm"
-                    type="video/webm" />
-                  <source src="/videos/IN-8015_Full_HD_HardwareWDR0.mp4"
-                    type="video/mp4" />
-                  <div fallback>
-                    <p>Ihr Browser unterstützt die Wiedergabe von HTML5 Video nicht.</p>
-                  </div>
-                </amp-video>
+                        <!-- #####################################  HardwareWDR 0 ##################################### -->
+                        <div class="video-player">
+                          <amp-video id="HardwareWDR0"
+                            controls
+                            width="1920"
+                            height="1080"
+                            src="/videos/IN-8015_Full_HD_HardwareWDR0.mp4"
+                            layout="responsive">
+                            <source src="/videos/IN-8015_Full_HD_HardwareWDR0.webm"
+                              type="video/webm" />
+                            <source src="/videos/IN-8015_Full_HD_HardwareWDR0.mp4"
+                              type="video/mp4" />
+                            <div fallback>
+                              <p>Ihr Browser unterstützt die Wiedergabe von HTML5 Video nicht.</p>
+                            </div>
+                          </amp-video>
 
-                <div id="myOverlay1"
-                  class="click-to-play-overlay">
-                  <h3 class="video-title">Hardware WDR :: Auto 0</h3>
-                  <div class="play-icon"
-                    role="button"
-                    tabindex="0"
-                    on="tap:myOverlay1.hide, HardwareWDR0.play"></div>
-                  <%# <amp-img class="poster-image"
-                    layout="fill"
-                    src="/videos/IN-8015_Full_HD_HardwareWDR0.jpg"></amp-img>%>
-                </div>
-              </div>
-              <!-- /HardwareWDR 0 -->
+                          <div id="myOverlay1"
+                            class="click-to-play-overlay">
+                            <h3 class="video-title">Hardware WDR :: Auto 0</h3>
+                            <div class="play-icon"
+                              role="button"
+                              tabindex="0"
+                              on="tap:myOverlay1.hide, HardwareWDR0.play"></div>
+                          </div>
+                        </div>
+                        <!-- /HardwareWDR 0 -->
 
-              <div class="margin">
-                <h4>Videobild der IN-9008 Full HD mit aktiven Hardware WDR Modus (Level 2)</h4>
-              </div>
+                        <div class="card-container desktop-up margin">
 
-              <!-- HardwareWDR 2 -->
-              <div class="video-player">
-                <amp-video id="HardwareWDR2"
-                  controls
-                  width="1920"
-                  height="1080"
-                  src="/videos/IN-8015_Full_HD_HardwareWDR2.mp4"
-                  layout="responsive">
-                  <source src="/videos/IN-8015_Full_HD_HardwareWDR2.webm"
-                    type="video/webm" />
-                  <source src="/videos/IN-8015_Full_HD_HardwareWDR2.mp4"
-                    type="video/mp4" />
-                  <div fallback>
-                    <p>Ihr Browser unterstützt die Wiedergabe von HTML5 Video nicht.</p>
-                  </div>
-                </amp-video>
+                          <h3>Vergleich der Bildqualität</h3>
+                          <p>Klicken Sie auf das Bild um dieses zu vergrößern.</p>
 
-                <div id="myOverlay2"
-                  class="click-to-play-overlay">
-                  <h3 class="video-title">Hardware WDR :: Auto 0</h3>
-                  <div class="play-icon"
-                    role="button"
-                    tabindex="0"
-                    on="tap:myOverlay2.hide, HardwareWDR2.play"></div>
-                  <amp-img class="poster-image"
-                    layout="fill"
-                    src="/videos/IN-8015_Full_HD_HardwareWDR2.jpg"></amp-img>
-                </div>
-              </div>
-              <!-- /HardwareWDR 2 -->
+                              <div class="card">
+                                  <div class="image">
+                                    <amp-img
+                                        on="tap:HardwareWDR0a"
+                                        role="button"
+                                        tabindex="0"
+                                        src="/images/Usermanuals/IN-8015v6014_resTest.png" width="1237" height="695" layout="responsive" class="shadow">
+                                    </amp-img>
+                                  </div>
+                                  <div class="action">
+                                      <h4>IN-9008 FHD / IN-5905 HD</h4>
+                                  </div>
+                              </div>
+                              <div class="card">
+                                  <div class="image">
+                                    <amp-img
+                                        on="tap:HardwareWDR0b"
+                                        role="button"
+                                        tabindex="0"
+                                        src="/images/Usermanuals/IN-8015v6012_resTest.png" width="1237" height="695" layout="responsive" class="shadow">
+                                    </amp-img>
+                                  <div class="action">
+                                      <h4>IN-9008 FHD / IN-5905 HD</h4>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                                <div class="image">
+                                  <amp-img
+                                      on="tap:HardwareWDR0c"
+                                      role="button"
+                                      tabindex="0"
+                                      src="/images/Usermanuals/IN-8015v6014_resTest4.png" width="1237" height="695" layout="responsive" class="shadow">
+                                  </amp-img>
+                                <div class="action">
+                                    <h4>IN-9008 FHD / IN-5905 HD</h4>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /card-container -->
 
-              <div class="margin">
-                <h4>Videobild der IN-9008 Full HD mit deaktivierten Hardware WDR Modus (Software WDR)</h4>
-              </div>
+                        <div class="margin">
+                          <h4>Videobild der IN-9008 Full HD mit aktiven Hardware WDR Modus (Level 2)</h4>
+                        </div>
 
-              <!-- SoftwareWDR -->
-              <div class="video-player">
-                <amp-video id="SoftwareWDR"
-                  controls
-                  width="1920"
-                  height="1080"
-                  src="/videos/IN-8015_Full_HD_SoftwareWDR.mp4"
-                  layout="responsive">
-                  <source src="/videos/IN-8015_Full_HD_SoftwareWDR.webm"
-                    type="video/webm" />
-                  <source src="/videos/IN-8015_Full_HD_SoftwareWDR.mp4"
-                    type="video/mp4" />
-                  <div fallback>
-                    <p>Ihr Browser unterstützt die Wiedergabe von HTML5 Video nicht.</p>
-                  </div>
-                </amp-video>
+                        <!-- ##################################### HardwareWDR 2 ##################################### -->
+                        <div class="video-player">
+                          <amp-video id="HardwareWDR2"
+                            controls
+                            width="1920"
+                            height="1080"
+                            src="/videos/IN-8015_Full_HD_HardwareWDR2.mp4"
+                            layout="responsive">
+                            <source src="/videos/IN-8015_Full_HD_HardwareWDR2.webm"
+                              type="video/webm" />
+                            <source src="/videos/IN-8015_Full_HD_HardwareWDR2.mp4"
+                              type="video/mp4" />
+                            <div fallback>
+                              <p>Ihr Browser unterstützt die Wiedergabe von HTML5 Video nicht.</p>
+                            </div>
+                          </amp-video>
 
-                <div id="myOverlay3"
-                  class="click-to-play-overlay">
-                  <h3 class="video-title">Software WDR</h3>
-                  <div class="play-icon"
-                    role="button"
-                    tabindex="0"
-                    on="tap:myOverlay3.hide, SoftwareWDR.play"></div>
-                  <amp-img class="poster-image"
-                    layout="fill"
-                    src="/videos/IN-8015_Full_HD_SoftwareWDR.jpg"></amp-img>
-                </div>
-              </div>
-              <!-- /SoftwareWDR -->
+                          <div id="myOverlay2"
+                            class="click-to-play-overlay">
+                            <h3 class="video-title">Hardware WDR :: Auto 0</h3>
+                            <div class="play-icon"
+                              role="button"
+                              tabindex="0"
+                              on="tap:myOverlay2.hide, HardwareWDR2.play"></div>
+                          </div>
+                        </div>
+                        <!-- /HardwareWDR 2 -->
 
+                        <div class="card-container desktop-up margin">
+
+                          <h3>Vergleich der Bildqualität</h3>
+                          <p>Klicken Sie auf das Bild um dieses zu vergrößern.</p>
+
+                            <div class="card">
+                                <div class="image">
+                                  <amp-img
+                                      on="tap:HardwareWDR2a"
+                                      role="button"
+                                      tabindex="0"
+                                      src="/images/Usermanuals/IN-8015v6014_resTest.png" width="1237" height="695" layout="responsive" class="shadow">
+                                  </amp-img>
+                                </div>
+                                <div class="action">
+                                    <h4>IN-9008 FHD / IN-5905 HD</h4>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="image">
+                                  <amp-img
+                                      on="tap:HardwareWDR2b"
+                                      role="button"
+                                      tabindex="0"
+                                      src="/images/Usermanuals/IN-8015v6012_resTest.png" width="1237" height="695" layout="responsive" class="shadow">
+                                  </amp-img>
+                                <div class="action">
+                                    <h4>IN-9008 FHD / IN-5905 HD</h4>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                              <div class="image">
+                                <amp-img
+                                    on="tap:HardwareWDR2c"
+                                    role="button"
+                                    tabindex="0"
+                                    src="/images/Usermanuals/IN-8015v6014_resTest4.png" width="1237" height="695" layout="responsive" class="shadow">
+                                </amp-img>
+                              <div class="action">
+                                  <h4>IN-9008 FHD / IN-5905 HD</h4>
+                              </div>
+                          </div>
+                        </div>
+                        </div>
+                        <!-- /card-container -->
+
+                        <div class="margin">
+                          <h4>Videobild der IN-9008 Full HD mit deaktivierten Hardware WDR Modus (Software WDR)</h4>
+                        </div>
+
+                        <!-- ##################################### SoftwareWDR ##################################### -->
+                        <div class="video-player">
+                          <amp-video id="SoftwareWDR"
+                            controls
+                            width="1920"
+                            height="1080"
+                            src="/videos/IN-8015_Full_HD_SoftwareWDR.mp4"
+                            layout="responsive">
+                            <source src="/videos/IN-8015_Full_HD_SoftwareWDR.webm"
+                              type="video/webm" />
+                            <source src="/videos/IN-8015_Full_HD_SoftwareWDR.mp4"
+                              type="video/mp4" />
+                            <div fallback>
+                              <p>Ihr Browser unterstützt die Wiedergabe von HTML5 Video nicht.</p>
+                            </div>
+                          </amp-video>
+
+                          <div id="myOverlay3"
+                            class="click-to-play-overlay">
+                            <h3 class="video-title">Software WDR</h3>
+                            <div class="play-icon"
+                              role="button"
+                              tabindex="0"
+                              on="tap:myOverlay3.hide, SoftwareWDR.play"></div>
+                          </div>
+                        </div>
+                        <!-- /SoftwareWDR -->
+
+                        <div class="card-container desktop-up margin">
+
+                          <h3>Vergleich der Bildqualität</h3>
+                          <p>Klicken Sie auf das Bild um dieses zu vergrößern</p>
+
+                            <div class="card">
+                                <div class="image">
+                                  <amp-img
+                                      on="tap:SoftwareWDRa"
+                                      role="button"
+                                      tabindex="0"
+                                      src="/images/Usermanuals/IN-8015v6014_resTest.png" width="1237" height="695" layout="responsive" class="shadow">
+                                  </amp-img>
+                                </div>
+                                <div class="action">
+                                    <h4>IN-9008 FHD / IN-5905 HD</h4>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="image">
+                                  <amp-img
+                                      on="tap:SoftwareWDRb"
+                                      role="button"
+                                      tabindex="0"
+                                      src="/images/Usermanuals/IN-8015v6012_resTest.png" width="1237" height="695" layout="responsive" class="shadow">
+                                  </amp-img>
+                                <div class="action">
+                                    <h4>IN-9008 FHD / IN-5905 HD</h4>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                              <div class="image">
+                                <amp-img
+                                    on="tap:SoftwareWDRc"
+                                    role="button"
+                                    tabindex="0"
+                                    src="/images/Usermanuals/IN-8015v6014_resTest4.png" width="1237" height="695" layout="responsive" class="shadow">
+                                </amp-img>
+                              <div class="action">
+                                  <h4>IN-9008 FHD / IN-5905 HD</h4>
+                              </div>
+                          </div>
+                        </div>
+                        </div>
+                        <!-- /card-container -->
+
+
+                  </section>
+
+                  <!-- ########################## Lightboxes ################################## -->
+
+                  <amp-lightbox id="HardwareWDR2a" layout="nodisplay">
+                    <div class="lightbox">
+                      <amp-img src="/images/Usermanuals/IN-8015HD-vs-IN-6014HD_nightBig.png" width=720 height=832
+                      tabindex="0"
+                      on="tap:HardwareWDR2a.close"
+                      role="button">
+                    </div>
+                  </amp-lightbox>
+
+                  <amp-lightbox id="HardwareWDR2b" layout="nodisplay">
+                    <div class="lightbox">
+                      <amp-img src="/images/Usermanuals/IN-8015HD-vs-IN-6014HD_nightBig.png" width=720 height=832
+                      tabindex="0"
+                      on="tap:HardwareWDR2b.close"
+                      role="button">
+                    </div>
+                  </amp-lightbox>
+
+                  <amp-lightbox id="HardwareWDR2c" layout="nodisplay">
+                    <div class="lightbox">
+                      <amp-img src="/images/Usermanuals/IN-8015HD-vs-IN-6014HD_nightBig.png" width=720 height=832
+                      tabindex="0"
+                      on="tap:HardwareWDR2c.close"
+                      role="button">
+                    </div>
+                  </amp-lightbox>
+
+                  <amp-lightbox id="HardwareWDR0a" layout="nodisplay">
+                    <div class="lightbox">
+                      <amp-img src="/images/Usermanuals/IN-8015HD-vs-IN-6014HD_nightBig.png" width=720 height=832
+                      tabindex="0"
+                      on="tap:HardwareWDR2c.close"
+                      role="button">
+                    </div>
+                  </amp-lightbox>
+
+                  <amp-lightbox id="HardwareWDR0b" layout="nodisplay">
+                    <div class="lightbox">
+                      <amp-img src="/images/Usermanuals/IN-8015HD-vs-IN-6014HD_nightBig.png" width=720 height=832
+                      tabindex="0"
+                      on="tap:HardwareWDR2c.close"
+                      role="button">
+                    </div>
+                  </amp-lightbox>
+
+                  <amp-lightbox id="HardwareWDR0c" layout="nodisplay">
+                    <div class="lightbox">
+                      <amp-img src="/images/Usermanuals/IN-8015HD-vs-IN-6014HD_nightBig.png" width=720 height=832
+                      tabindex="0"
+                      on="tap:HardwareWDR2c.close"
+                      role="button">
+                    </div>
+                  </amp-lightbox>
+
+                  <amp-lightbox id="SoftwareWDRa" layout="nodisplay">
+                    <div class="lightbox">
+                      <amp-img src="/images/Usermanuals/IN-8015HD-vs-IN-6014HD_nightBig.png" width=720 height=832
+                      tabindex="0"
+                      on="tap:HardwareWDR2c.close"
+                      role="button">
+                    </div>
+                  </amp-lightbox>
+
+                  <amp-lightbox id="SoftwareWDRb" layout="nodisplay">
+                    <div class="lightbox">
+                      <amp-img src="/images/Usermanuals/IN-8015HD-vs-IN-6014HD_nightBig.png" width=720 height=832
+                      tabindex="0"
+                      on="tap:HardwareWDR2c.close"
+                      role="button">
+                    </div>
+                  </amp-lightbox>
+
+                  <amp-lightbox id="SoftwareWDRc" layout="nodisplay">
+                    <div class="lightbox">
+                      <amp-img src="/images/Usermanuals/IN-8015HD-vs-IN-6014HD_nightBig.png" width=720 height=832
+                      tabindex="0"
+                      on="tap:HardwareWDR2c.close"
+                      role="button">
+                    </div>
+                  </amp-lightbox>
+
+            </div>
+            <!-- /container -->
         </div>
         <!-- /wrap -->
 
