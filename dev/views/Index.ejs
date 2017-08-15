@@ -41,8 +41,7 @@
 
   <!-- http://schema.org/TechArticle -->
   <% include ./_partials/amp/_schemaTechArticle.ejs %>
-  <% include ./_partials/amp/_schemaArticle.ejs %>
-  
+
   <% include ./_partials/amp/_amp-boilerplate.css %>
   <% include ./_partials/amp/_ampLandingCustom.css %>
 
@@ -61,6 +60,8 @@
 
     <div class="wrap">
         <div itemscope itemtype="http://schema.org/Article" class="content">
+          <!-- http://schema.org/Article -->
+          <% include ./_partials/amp/_schemaArticle.ejs %>
 
           <!-- ########################## Hero ############################### -->
 
