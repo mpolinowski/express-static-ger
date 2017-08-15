@@ -40,39 +40,11 @@
     src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
   <!-- http://schema.org/TechArticle -->
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "TechArticle",
-      "headline": "<%= headline %>",
-      "datePublished": "2017-06-06",
-      "dateModified": "2017-06-06",
-      "description": "<%= headline %>",
-      "author": {
-        "@type": "Person",
-        "name": "Mike Polinowski"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "INSTAR Deutschland GmbH",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://wiki.instar.de/images/instar_245x77.png",
-          "width": 245,
-          "height": 77
-        }
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "http://wiki.instar.de<%= ampimg %>",
-        "height": 597,
-        "width": 382
-      }
-    }
-  </script>
-
-    <% include ./_partials/amp/_amp-boilerplate.css %>
-    <% include ./_partials/amp/_ampLandingCustom.css %>
+  <% include ./_partials/amp/_schemaTechArticle.ejs %>
+  <% include ./_partials/amp/_schemaArticle.ejs %>
+  
+  <% include ./_partials/amp/_amp-boilerplate.css %>
+  <% include ./_partials/amp/_ampLandingCustom.css %>
 
 
 </head>
@@ -89,7 +61,6 @@
 
     <div class="wrap">
         <div itemscope itemtype="http://schema.org/Article" class="content">
-          <% include ./_partials/amp/_schemaArticle.ejs %>
 
           <!-- ########################## Hero ############################### -->
 
