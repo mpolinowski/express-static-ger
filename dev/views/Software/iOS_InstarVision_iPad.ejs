@@ -1,6 +1,6 @@
 <% include ../_partials/template/_head.ejs %>
 
-    <body itemscope itemtype="http://schema.org/Article">
+    <body>
       <% include ../_partials/template/_outdated.ejs %>
 
       <div id="wrapper">
@@ -12,7 +12,9 @@
 
         <!-- #############################################  Content ############################################# -->
 
-        <div class="container">
+        <section itemscope itemtype="http://schema.org/Article" class="container mb">
+          <% include ../_partials/amp/_schemaArticle.ejs %>
+
           <div class="row">
 
             <div class="col-sm-12 col-md-7">
@@ -173,7 +175,7 @@
 
           </div>
           <!-- / row -->
-        </div>
+        </section>
         <!-- / container -->
 
         <div class="clearfix mb"></div>

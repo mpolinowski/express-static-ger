@@ -1,6 +1,6 @@
 <% include ../_partials/template/_head.ejs %>
 
-    <body itemscope itemtype="http://schema.org/Article">
+    <body>
       <% include ../_partials/template/_outdated.ejs %>
 
       <div id="wrapper">
@@ -11,7 +11,9 @@
 
         <!-- #############################################  Gallery ############################################# -->
 
-        <section class="container mb">
+        <section itemscope itemtype="http://schema.org/Article" class="container mb">
+          <% include ../_partials/amp/_schemaArticle.ejs %>
+          
           <div class="row">
 
             <div class="container col-12">
