@@ -32,13 +32,13 @@
               </div>
               <!-- /margin -->
 
+              <!-- HardwareWDR 0 -->
               <div class="video-player">
-
                 <amp-video id="myVideo"
                   controls
                   width="1280"
                   height="720"
-                  src="/videos/IN-8015_Full_HD_HardwareWDR2.mp4"
+                  src="/videos/IN-8015_Full_HD_HardwareWDR0.mp4"
                   layout="responsive">
                   <source src="/videos/IN-8015_Full_HD_HardwareWDR0.webm"
                     type="video/webm" />
@@ -51,35 +51,79 @@
 
                 <div id="myOverlay"
                   class="click-to-play-overlay">
-
                   <h3 class="video-title">Hardware WDR :: Auto 2</h3>
-
                   <div class="play-icon"
                     role="button"
                     tabindex="0"
                     on="tap:myOverlay.hide, myVideo.play"></div>
-
                   <amp-img class="poster-image"
                     layout="fill"
-                    src="https://unsplash.it/1080/720?image=666"></amp-img>
+                    src="/videos/IN-8015_Full_HD_HardwareWDR0.jpg"></amp-img>
                 </div>
-
               </div>
+              <!-- /HardwareWDR 0 -->
 
-              <amp-video width="1280"
-                height="720"
-                src="/videos/IN-8015_Full_HD_HardwareWDR2.mp4"
-                poster="https://unsplash.it/1080/720?image=666"
-                layout="responsive"
-                controls>
-                <div fallback>
-                  <p>Ihr Browser unterstützt die Wiedergabe von HTML5 Video nicht.</p>
+              <!-- HardwareWDR 2 -->
+              <div class="video-player">
+                <amp-video id="myVideo"
+                  controls
+                  width="1280"
+                  height="720"
+                  src="/videos/IN-8015_Full_HD_HardwareWDR2.mp4"
+                  layout="responsive">
+                  <source src="/videos/IN-8015_Full_HD_HardwareWDR2.webm"
+                    type="video/webm" />
+                  <source src="/videos/IN-8015_Full_HD_HardwareWDR2.mp4"
+                    type="video/mp4" />
+                  <div fallback>
+                    <p>Ihr Browser unterstützt die Wiedergabe von HTML5 Video nicht.</p>
+                  </div>
+                </amp-video>
+
+                <div id="myOverlay"
+                  class="click-to-play-overlay">
+                  <h3 class="video-title">Hardware WDR :: Auto 0</h3>
+                  <div class="play-icon"
+                    role="button"
+                    tabindex="0"
+                    on="tap:myOverlay.hide, myVideo.play"></div>
+                  <amp-img class="poster-image"
+                    layout="fill"
+                    src="/videos/IN-8015_Full_HD_HardwareWDR2.jpg"></amp-img>
                 </div>
-                <source type="video/mp4"
-                  src="/videos/IN-8015_Full_HD_HardwareWDR2.mp4">
-                <source type="video/webm"
-                  src="/videos/IN-8015_Full_HD_HardwareWDR2.webm">
-              </amp-video>
+              </div>
+              <!-- /HardwareWDR 2 -->
+
+              <!-- SoftwareWDR -->
+              <div class="video-player">
+                <amp-video id="myVideo"
+                  controls
+                  width="1280"
+                  height="720"
+                  src="/videos/IN-8015_Full_HD_SoftwareWDR.mp4"
+                  layout="responsive">
+                  <source src="/videos/IN-8015_Full_HD_SoftwareWDR.webm"
+                    type="video/webm" />
+                  <source src="/videos/IN-8015_Full_HD_SoftwareWDR.mp4"
+                    type="video/mp4" />
+                  <div fallback>
+                    <p>Ihr Browser unterstützt die Wiedergabe von HTML5 Video nicht.</p>
+                  </div>
+                </amp-video>
+
+                <div id="myOverlay"
+                  class="click-to-play-overlay">
+                  <h3 class="video-title">Software WDR</h3>
+                  <div class="play-icon"
+                    role="button"
+                    tabindex="0"
+                    on="tap:myOverlay.hide, myVideo.play"></div>
+                  <amp-img class="poster-image"
+                    layout="fill"
+                    src="/videos/IN-8015_Full_HD_SoftwareWDR.jpg"></amp-img>
+                </div>
+              </div>
+              <!-- /SoftwareWDR -->
 
         </div>
         <!-- /wrap -->
