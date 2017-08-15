@@ -166,6 +166,11 @@ webUI1080pRouter.route('/Multimedia/Image/Wide_Dynamic_Range/')
     res.status(301).redirect('/Web_User_Interface/1080p_Serie/Multimedia/Bild/Wide_Dynamic_Range/');
 });
 
+webUI1080pRouter.route('/Multimedia/Image/9008vs5905/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Web_User_Interface/1080p_Serie/Multimedia/Bild/9008vs5905/');
+});
+
 webUI1080pRouter.route('/Multimedia/Video_Overlays/')
   .get(function(req, res) {
     res.status(301).redirect('/Web_User_Interface/1080p_Serie/Multimedia/Video_Overlays/');
