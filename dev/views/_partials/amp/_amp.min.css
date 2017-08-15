@@ -3025,7 +3025,7 @@ section[expanded] .accordion-title::after {
 
     /* Align to the top left */
     top: 0;
-    left: 0;
+    left: 2px;
 
     font-size: 1.3em;
     background-color: rgba(0,0,0,0.8);
