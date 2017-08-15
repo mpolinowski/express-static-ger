@@ -431,6 +431,7 @@ productRouter.route('/IR_Lighting')
   res.render('./Products/IR-Lighting', {
       title: 'INSTAR Infrarot Scheinwerfer für Ihre INSTAR IP Kamera',
       ampimg: '/images/Search/P_SearchThumb_InfraredSpotlights.jpg',
+      headline: 'INSTAR Produkte - IN-Frared - Infrarot Schneinwerfer',
       breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Products/IR_Lighting/">IR Beleuchtung</a></li>',
       canonical: '/Products/IR_Lighting/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',

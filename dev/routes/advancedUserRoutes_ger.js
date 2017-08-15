@@ -174,6 +174,7 @@ advancedUserGerRouter.get('/CGI_Befehle/VGA_Serie_CGI_Befehle', function(req, re
     res.render('./Advanced_User/VGA_Series_CGI_List', {
         title: 'CGI Befehle für die Steuerung Ihrer INSTAR VGA IP Kamera',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands_VGA.jpg',
+        headline: 'Für Entwickler - CGI Befehle zum Einbinden der INSTAR VGA IP Kamera in Ihre Software',
         breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Erweitert/">Erweitert</a></li><li class="breadcrumb-item"><a href="/Erweitert/CGI_Befehle/">CGI Befehle</a></li><li class="breadcrumb-item"><a href="/Erweitert/CGI_Befehle/VGA_Serie_CGI_Befehle/">VGA Serie</a></li>',
         canonical: '/Advanced_User/CGI_Commands/VGA_Series_CGI_List/',
         description: 'Mit CGI Befehle können Sie direkt über die Addresszeile Ihres Browsers, oder eingebunden in Ihre Webseite, Funktionen auf der VGA Kamera aktivieren und Werte setzen. Alle Funktionen der INSTAR Weboberfläche sind hier in Form von Kommandos verfügbar.',
