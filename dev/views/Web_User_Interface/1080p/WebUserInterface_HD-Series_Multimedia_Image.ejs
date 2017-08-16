@@ -77,19 +77,36 @@
                                 <td width="20%">
                                     <strong>Default</strong>
                                 </td>
-                                <td>Dieser Button setzt die Bildeinstellungen auf ihre Standardwerte zurück.</td>
+                                <td>
+                                  Dieser Button setzt die Bildeinstellungen auf ihre Standardwerte zurück:<br>
+                                  <ul>
+                                    <li>Farbton: 50</li>
+                                    <li>Helligkeit: 50</li>
+                                    <li>Bildsättigung: 112</li>
+                                    <li>Kontrast: 50</li>
+                                    <li>Bildschärfe: 60</li>
+                                    <li>Gamma: 1</li>
+                                    <li>Belichtung: 64</li>
+                                  </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Farbton</strong>
+                                </td>
+                                <td>Passen Sie hier die Farbtemperatur des Videobildes ein.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>Helligkeit</strong>
                                 </td>
-                                <td>Stellen Sie die Helligkeit des Videobilds ein.</td>
+                                <td>Stellen Sie die Helligkeit des Videobilds ein. Um ein helleres Bild zu erhalten, können Sie hier den Wert 125 eintragen.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>Sättigkeit</strong>
+                                    <strong>Bildsättigung</strong>
                                 </td>
-                                <td>Stellen Sie die Sättigkeit des Videobilds ein.</td>
+                                <td>Stellen Sie die Sättigung des Videobilds ein. Um kräftigere Farben im Video zu erhalten, können Sie hier einen Wert von 125 einstellen. Dieser Wert steht nur im Tag-Modus der Kamera zur Verfügung.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
@@ -99,9 +116,9 @@
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>Schärfe</strong>
+                                    <strong>Bildschärfe</strong>
                                 </td>
-                                <td>Stellen Sie die Schärfe des Videobilds ein.</td>
+                                <td>Stellen Sie die Schärfe des Videobilds ein. Dieser Wert verstellt nicht das Objektiv um einen besseren Fokus zu erhalten, sondern zeichnet kontrastreiche Kanten im Video nach, um schärfere</td>
                             </tr>
                             <tr>
                                 <td width="20%">
@@ -111,9 +128,28 @@
                             </tr>
                             <tr>
                                 <td width="20%">
-                                    <strong>Exposure</strong>
+                                    <strong>Belichtung</strong>
                                 </td>
                                 <td>Stellen Sie hier den Belichtung (Shutter) für die Videoaufnahme ein.</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <div>
+                          <amp-img srcset="/images/1080p_webUI/1080p_Settings_Multimedia_Image_Advanced.jpg 100w, /images/1080p_webUI/1080p_Settings_Multimedia_Image_Advanced.png 1500w" width="1371" height="949" layout="responsive" class="shadow" on="tap:multiImg2" role="button" tabindex="0"></amp-img>
+                      </div>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <table>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Default</strong>
+                                </td>
+                                <td>Dieser Button setzt die Bildeinstellungen auf ihre Standardwerte zurück.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
@@ -161,6 +197,12 @@
                 <amp-lightbox id="multiImg" layout="nodisplay">
                   <div class="lightbox">
                     <amp-img src="/images/1080p_webUI/1080p_Settings_Multimedia_Image.jpg" width="800" height="550" on="tap:multiImg.close" role="button" tabindex="1">
+                  </div>
+                </amp-lightbox>
+
+                <amp-lightbox id="multiImg2" layout="nodisplay">
+                  <div class="lightbox">
+                    <amp-img src="/images/1080p_webUI/1080p_Settings_Multimedia_Image_Advanced.jpg" width="800" height="550" on="tap:multiImg2.close" role="button" tabindex="1">
                   </div>
                 </amp-lightbox>
 
