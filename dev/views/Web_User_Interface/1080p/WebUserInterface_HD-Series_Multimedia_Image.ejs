@@ -54,7 +54,47 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                        <p>Hier können Sie die Bildparameter Helligkeit, Sättigkeit, Kontrast, Exposition und Schärfe einstellen. Sie können das Videobild drehen und spiegeln, einen Zeitstempel anzeigen oder der Kamera einen Namen geben und diesen ebenfalls anzeigen lassen. Die dargestellten Parameter sind im Bild eingebrannt. Sie müssen die Kamera neustarten, nachdem Sie den Namen geändert haben.</p>
+                        <p class="justify">Hier können Sie die Bildparameter Helligkeit, Sättigkeit, Kontrast, Exposition und Schärfe einstellen. Sie können das Videobild drehen und spiegeln, einen Zeitstempel anzeigen oder der Kamera einen Namen geben und diesen ebenfalls anzeigen lassen. Die dargestellten Parameter sind im Bild eingebrannt. Sie müssen die Kamera neustarten, nachdem Sie den Namen geändert haben.</p>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                        <h4>Ihr Bild wirkt unscharf? Die Farben sind unnatürlich? Sie haben zuviel Bildrauschen?</h4>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="card-container margin">
+                          <div class="twocard">
+                              <div class="image">
+                                <amp-img
+                                    on="tap:HardwareWDR"
+                                    role="button"
+                                    tabindex="0"
+                                    src="/images/1080p_webUI/IN-8015FHD_Hardware_WDR_Thumb.jpg" width="235" height="135" layout="responsive" class="shadow">
+                                </amp-img>
+                              </div>
+                              <div class="action">
+                                  <h4>Hardware WDR Modus</h4>
+                              </div>
+                          </div>
+                          <div class="twocard">
+                              <div class="image">
+                                <amp-img
+                                    on="tap:SoftwareWDR"
+                                    role="button"
+                                    tabindex="0"
+                                    src="/images/1080p_webUI/IN-8015FHD_Software_WDR_Thumb.jpg" width="235" height="135" layout="responsive" class="shadow">
+                                </amp-img>
+                              <div class="action">
+                                  <h4>Software WDR Modus</h4>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- /card-container -->
+
+                    <div class="margin">
+                        <p class="justify">Lesen Sie hier wie Sie die diese Probleme in den Griff bekommen können. Oder warum Sie die Bildeinstellungen eventuell so lassen möchten, um ein Überwachungsvideo zu erhalten, dass es Ihnen erlaubt möglichst viele Details zu erkennen.</p>
                     </div>
                     <!-- /margin -->
 
@@ -100,13 +140,13 @@
                                 <td width="20%">
                                     <strong>Helligkeit</strong>
                                 </td>
-                                <td>Stellen Sie die Helligkeit des Videobilds ein. Um ein helleres Bild zu erhalten, können Sie hier den Wert 125 eintragen.</td>
+                                <td>Stellen Sie die Helligkeit des Videobilds ein. Um ein helleres Bild zu erhalten, können Sie hier den Wert <strong>75</strong> eintragen.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>Bildsättigung</strong>
                                 </td>
-                                <td>Stellen Sie die Sättigung des Videobilds ein. Um kräftigere Farben im Video zu erhalten, können Sie hier einen Wert von 125 einstellen. Dieser Wert steht nur im Tag-Modus der Kamera zur Verfügung.</td>
+                                <td>Stellen Sie die Sättigung des Videobilds ein. Um kräftigere Farben im Video zu erhalten, können Sie hier einen Wert von <strong>125</strong> einstellen. Dieser Wert steht nur im Tag-Modus der Kamera zur Verfügung.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
@@ -118,19 +158,21 @@
                                 <td width="20%">
                                     <strong>Bildschärfe</strong>
                                 </td>
-                                <td>Stellen Sie die Schärfe des Videobilds ein. Dieser Wert verstellt nicht das Objektiv um einen besseren Fokus zu erhalten, sondern zeichnet kontrastreiche Kanten im Video nach, um schärfere</td>
+                                <td>Stellen Sie die Schärfe des Videobilds ein. Dieser Wert verstellt nicht das Objektiv um einen besseren Fokus zu erhalten, sondern zeichnet kontrastreiche Kanten im Video nach, um eine höhere Schärfung des Bildes zu erhalten. Sie können den Wert auf ca. <strong>75</strong> anheben<br><br>
+                                Beachten Sie dabei aber, dass die Schärfung bei detailreichen Szenen, z.B. Grünanlagen, zu unschönen digitalen Artefakten im Bild führen kann. In diesem Fall sollte man den Wert reduzieren.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>Gamma</strong>
                                 </td>
-                                <td>Stellen Sie den Gamma-Wert des Bilds ein.</td>
+                                <td>Stellen Sie den Gamma-Wert des Bilds ein. Die Gamma Korrektur hebt (oder senkt) die Mitteltöne im Bild, während sehr dunkle und sehr helle Bereiche nicht verändert werden.<br><br>
+                                Das bedeutet, während der Helligkeit Wert unterbelichtete Bilder über das gesamte Spektrum anhebt und das Ergebnis ein sehr "verwaschen" aussehendes Bild ist, können Sie mit dem Gamma Wert das <strong>Bild aufhellen</strong> (oder abdunkeln) <strong>ohne den Kontrast zu verlieren</strong>. Gerade im Nachtmodus kann ein Gamma Wert von <strong>0</strong> das Bild angenehm heller machen.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>Belichtung</strong>
                                 </td>
-                                <td>Stellen Sie hier den Belichtung (Shutter) für die Videoaufnahme ein.</td>
+                                <td>Stellen Sie hier den Belichtung (Shutter) für die Videoaufnahme ein. Beachten Sie, dass eine lange Belichtungszeit das Bild stark aufhellt. Dies führt allerdings dazu, das schnelle Bewegungen nicht mehr aufgelöst werden - d.h. Personen, die durchs Bild gehen, werden "verschmiert" dargestellt werden. Es ist besser mit kurzen Belichtungszeiten zu arbeiten und den Helligkeit und Gamma Wert zu nutzen um das Video aufzuhellen.</td>
                             </tr>
                         </table>
                     </div>
@@ -165,15 +207,38 @@
                             </tr>
                             <tr>
                                 <td width="20%">
+                                    <strong>Hardware WDR</strong>
+                                </td>
+                                <td>Ist Ihre Kamera starkem Gegenlicht ausgesetzt? Der Hardware WDR Modus erlaubt es Ihnen, damit umzugehen. Dunkle Bereiche im Bild werden heller dargestellt und helle Bereiche dunkler - d.h. Sie können auch im Schatte noch Strukturen erkennen und Fenster oder Lichtquellen "blenden" die Kamera nicht mehr. Aber der Hardware WDR Modus führt häufig dazu, dass das Bild an Kontrast verliert und etwas unscharf wirkt!<br><br>
+                                <small>Beachten Sie bitte, das nach dem Umschalten zwischen Hardware und Software WDR der Videostream neugestartet wird und das Bild kurz schwarz wird.</small></td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Software WDR</strong>
+                                </td>
+                                <td>Der <strong>Hardware WDR Modus</strong> ist der <u>beste Modus</u> für eine Überwachungsaufgabe. Sie können auch unter widrigen Verhältnissen das Videobild auswerten - der Einbrecher wird sich nicht im Schatten verbergen können.<br><br>
+                                Aber bei manchen Anwendungen ist die Ästhetik einfach wichtiger und man möchte ein <strong>kontrastreicheres Bild mit natürlicheren Farben</strong> haben. Die wird Ihnen beim Software Modus geboten. Auch hier wird der Dynamikbereich des Videos noch etwas erhöht, allerdings nur noch über eine Software Emulation. Ein anheben der WDR Stärke (s.u.) wird hier bei dunklen Szenen schnell zu Bildrauschen führen, das man durch den Entrauschen Wert (s.u.) entgegenwirken kann. Es ist jedoch meistens besser die WDR Stärke niedrig zu halten und stattdessen die Helligkeit und die Gamma Korrektur (s.o.) anzuheben, um das Bild aufzuhellen.<br><br>
+                                <small>Beachten Sie bitte, das nach dem Umschalten zwischen Hardware und Software WDR der Videostream neugestartet wird und das Bild kurz schwarz wird.</small></td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
                                     <strong>Auto WDR</strong>
                                 </td>
-                                <td>Ist Ihre Kamera starker Hintergrundbeleuchtung ausgesetzt? Der WDR Modus erlaubt es Ihnen, damit umzugehen.</td>
+                                <td>Lassen Sie Ihre Kamera automatisch bestimmen, wieviel WDR notwendig ist, um helle und dunkel Bereiche im Bild auszugleichen. Deaktivieren Sie den Auto Modus um manuell einen festen Wert vorzugeben (s.u.)<br><br>
+                                <small>Nur für den Hardware WDR Modus verfügbar!</small></td>
+                            </tr>
+                            <tr>
+                                <td width="20%">
+                                    <strong>Dynamische WDR Stärke</strong>
+                                </td>
+                                <td>Legen Sie hier fest wie aggressiv der automatische Hardware WDR arbeiten soll. Um so größer der Wert, desto stärker der WDR Modus.<br><br>
+                                <small>Nur für den Hardware WDR Modus verfügbar!</small></td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>Feste WDR Stärke</strong>
                                 </td>
-                                <td>Sie können die Menge des WDR Prozesses, der auf Ihr Videobild angewendet wird, frei einstellen (wenn Auto WDR deaktiviert ist).</td>
+                                <td>Wenn Sie nicht möchten, dass die Kamera die WDR Stärke an die jeweilige Szene anpasst (oder Sie den Software WDR nutzen), können Sie hier einen festen Wert vorgeben.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
@@ -185,7 +250,7 @@
                                 <td width="20%">
                                     <strong>Fester Entrauschwert</strong>
                                 </td>
-                                <td>Deaktivieren Sie das automatische Entrauschen oben, um einen manuellen Wert einzustellen.</td>
+                                <td>Deaktivieren Sie das automatische Entrauschen oben, um einen manuellen Wert einzustellen. Wenn Sie mit den von Ihnen gewählten Bildeinstellungen ein zu starkes Bildrauschen erhalten, können Sie diesen Wert auf <strong>220 - 240</strong> anheben. Beachten Sie bitte, dass ein hoher Wert jedoch dazu führt, dass Sie Details im Video verlieren. Für die Überwachung ist ein leicht verrauschtes Bild häfig besser auszuwerten (z.B. um Nummernschildern oder Gesichter zu erkennen).</td>
                             </tr>
                         </table>
                     </div>
@@ -193,6 +258,8 @@
 
                 </article>
                 <!-- /article -->
+
+                <!-- ########################## Lightboxes ################################## -->
 
                 <amp-lightbox id="multiImg" layout="nodisplay">
                   <div class="lightbox">
@@ -203,6 +270,24 @@
                 <amp-lightbox id="multiImg2" layout="nodisplay">
                   <div class="lightbox">
                     <amp-img src="/images/1080p_webUI/1080p_Settings_Multimedia_Image_Advanced.jpg" width="800" height="550" on="tap:multiImg2.close" role="button" tabindex="1">
+                  </div>
+                </amp-lightbox>
+
+                <amp-lightbox id="HardwareWDR" layout="nodisplay">
+                  <div class="lightbox">
+                    <amp-img src="/images/1080p_webUI/IN-8015FHD_Hardware_WDR.jpg" width=1920 height=1080
+                    tabindex="0" layout="responsive"
+                    on="tap:HardwareWDR.close"
+                    role="button">
+                  </div>
+                </amp-lightbox>
+
+                <amp-lightbox id="SoftwareWDR" layout="nodisplay">
+                  <div class="lightbox">
+                    <amp-img src="/images/1080p_webUI/IN-8015FHD_Software_WDR.jpg" width=1920 height=1080
+                    tabindex="0" layout="responsive"
+                    on="tap:SoftwareWDR.close"
+                    role="button">
                   </div>
                 </amp-lightbox>
 
