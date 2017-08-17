@@ -915,9 +915,9 @@ webUI1080pGerRouter.route('/Multimedia/Bild/')
 webUI1080pGerRouter.route('/Multimedia/Bild/Wide_Dynamic_Range')
     .get(function(req, res) {
         res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Multimedia_Image_WDR', {
-            title: 'INSTAR IP Kamera 1080p Weboberfläche - Multimedia Menu :: Bild WDR',
+            title: 'INSTAR IP Kamera 1080p Weboberfläche - Multimedia Menu :: Bild WDR Einstellungen',
             ampimg: '/images/Search/WebUI_1080p_SearchThumb_Multimedia_Image.jpg',
-            headline: 'INSTAR Full HD Weboberfläche -  Multimedia :: WDR Bild',
+            headline: 'INSTAR Full HD Weboberfläche -  Multimedia :: Software WDR oder Hardware WDR',
             breadcrumbs: '<li><a href="/Web_User_Interface/1080p_Series/">1080p Serie</a></li><li><a href="/Web_User_Interface/1080p_Series/Multimedia/">Multimedia</a></li><li><a href="/Web_User_Interface/1080p_Series/Multimedia/Image">Bild</a></li><li><a href="/Web_User_Interface/1080p_Series/Multimedia/Image/Wide_Dynamic_Range">WDR</a></li>',
             canonical: '/Web_User_Interface/1080p_Series/Multimedia/Image/Wide_Dynamic_Range/',
             description: '1080p Weboberfläche - Einstellungen für den WDR Modus Ihrer Kamera.',
@@ -950,7 +950,7 @@ webUI1080pGerRouter.route('/Multimedia/Bild/9008vs5905')
             headline: 'INSTAR Full HD Weboberfläche -  Multimedia :: Bildvergleich',
             breadcrumbs: '<li><a href="/Web_User_Interface/1080p_Series/">1080p Serie</a></li><li><a href="/Web_User_Interface/1080p_Series/Multimedia/">Multimedia</a></li><li><a href="/Web_User_Interface/1080p_Series/Multimedia/Image">Bild</a></li><li><a href="/Web_User_Interface/1080p_Series/Multimedia/Image/9008vs5905">Bildvergleich</a></li>',
             canonical: '/Web_User_Interface/1080p_Series/Multimedia/Image/9008vs5905/',
-            description: '1080p Weboberfläche - Bildvergleich zwischen IN-8015 Full HD und IN-6014 HD.',
+            description: '1080p Weboberfläche - Bildvergleich zwischen IN-9008 Full HD und IN-5905 HD.',
       			pacc: '',
       			ptab: 'hidden',
       			qiacc: '',
