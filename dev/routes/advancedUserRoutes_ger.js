@@ -202,7 +202,7 @@ advancedUserGerRouter.get('/Tasker/', function(req, res) {
     res.render('./Advanced_User/Tasker', {
         title: 'Tasker Android App',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
-        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        headline: 'Makro Tools zum Automatisieren der der INSTAR IP Kamera Funktionen',
         breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker Android App</a></li>',
         canonical: '/Advanced_User/Tasker/',
         description: 'Tasker ist eine Android App zum erstellen von Makro Skripten, die zeitgesteuert oder durch Umgebungsvariablen des Handies ausgelöst werden. Dies - in Kombination mit unseren dokumentierten CGI Befehlen - ermöglicht das Automatisieren aller Kamerafunktionen.',
@@ -228,9 +228,9 @@ advancedUserGerRouter.get('/Tasker/', function(req, res) {
 
 advancedUserGerRouter.get('/Tasker/Bewegungserkennung_Aufgabe_Hinzufuegen/', function(req, res) {
     res.render('./Advanced_User/Tasker_Motion_Detection_Add_Task', {
-        title: 'Tasker Android App',
+        title: 'Tasker Android App - Bewegungserkennung Task',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
-        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        headline: 'Makro Tools zum Automatisieren der INSTAR IP Kamera Funktionen',
         breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Motion_Detection_Add_Task/">Bewegungserkennung - Aufgabe Hinzufügen</a></li>',
         canonical: '/Advanced_User/Tasker/Motion_Detection_Add_Task/',
         description: 'Tasker ist eine Android App zum erstellen von Makro Skripten, die zeitgesteuert oder durch Umgebungsvariablen des Handies ausgelöst werden. Dies - in Kombination mit unseren dokumentierten CGI Befehlen - ermöglicht das Automatisieren aller Kamerafunktionen.',
@@ -256,9 +256,9 @@ advancedUserGerRouter.get('/Tasker/Bewegungserkennung_Aufgabe_Hinzufuegen/', fun
 
 advancedUserGerRouter.get('/Tasker/Bewegungserkennung_Profil_Hinzufuegen/', function(req, res) {
     res.render('./Advanced_User/Tasker_Motion_Detection_Add_Profile', {
-        title: 'Tasker Android App',
+        title: 'Tasker Android App - Bewegungserkennung Profil',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
-        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        headline: 'Makro Tools zum Automatisieren der INSTAR IP Kamera Funktionen',
         breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Motion_Detection_Add_Profile/">Bewegungserkennung - Profil Hinzufügen</a></li>',
         canonical: '/Advanced_User/Tasker/Motion_Detection_Add_Profile/',
         description: 'Tasker ist eine Android App zum erstellen von Makro Skripten, die zeitgesteuert oder durch Umgebungsvariablen des Handies ausgelöst werden. Dies - in Kombination mit unseren dokumentierten CGI Befehlen - ermöglicht das Automatisieren aller Kamerafunktionen.',
@@ -284,9 +284,9 @@ advancedUserGerRouter.get('/Tasker/Bewegungserkennung_Profil_Hinzufuegen/', func
 
 advancedUserGerRouter.get('/Tasker/Bewegungserkennung_Deaktivieren_Aufgabe_Hinzufuegen/', function(req, res) {
     res.render('./Advanced_User/Tasker_Motion_Detection_Deactivate_Add_Task', {
-        title: 'Tasker Android App',
+        title: 'Tasker Android App - Bewegungserkennung Deaktivieren Task',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
-        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        headline: 'Makro Tools zum Automatisieren der INSTAR IP Kamera Funktionen',
         breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Motion_Detection_Deactivate_Add_Task/">Bewegungserkennung Deaktivieren - Aufgabe Hinzufügen</a></li>',
         canonical: '/Advanced_User/Tasker/Motion_Detection_Deactivate_Add_Task/',
         description: 'Tasker ist eine Android App zum erstellen von Makro Skripten, die zeitgesteuert oder durch Umgebungsvariablen des Handies ausgelöst werden. Dies - in Kombination mit unseren dokumentierten CGI Befehlen - ermöglicht das Automatisieren aller Kamerafunktionen.',
@@ -312,9 +312,9 @@ advancedUserGerRouter.get('/Tasker/Bewegungserkennung_Deaktivieren_Aufgabe_Hinzu
 
 advancedUserGerRouter.get('/Tasker/Bewegungserkennung_Deaktivieren_Profil_Hinzufuegen/', function(req, res) {
     res.render('./Advanced_User/Tasker_Motion_Detection_Deactivate_Add_Profile', {
-        title: 'Tasker Android App',
+        title: 'Tasker Android App - Bewegungserkennung Deaktivieren Profil',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
-        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        headline: 'Makro Tools zum Automatisieren der INSTAR IP Kamera Funktionen',
         breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Motion_Detection_Deactivate_Add_Profile/">Bewegungserkennung Deaktivieren - Profil Hinzufügen</a></li>',
         canonical: '/Advanced_User/Tasker/Motion_Detection_Deactivate_Add_Profile/',
         description: 'Tasker ist eine Android App zum erstellen von Makro Skripten, die zeitgesteuert oder durch Umgebungsvariablen des Handies ausgelöst werden. Dies - in Kombination mit unseren dokumentierten CGI Befehlen - ermöglicht das Automatisieren aller Kamerafunktionen.',
@@ -340,9 +340,9 @@ advancedUserGerRouter.get('/Tasker/Bewegungserkennung_Deaktivieren_Profil_Hinzuf
 
 advancedUserGerRouter.get('/Tasker/IR_Aktivieren_Shortcut_Hinzufuegen/', function(req, res) {
     res.render('./Advanced_User/Tasker_IR_Add_Shortcut', {
-        title: 'Tasker Android App',
+        title: 'Tasker Android App - Nachtsicht Aktivieren',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
-        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        headline: 'Makro Tools zum Automatisieren der INSTAR IP Kamera Funktionen',
         breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Activate_IR_Add_Shortcut/">IR Aktivieren - Shortcut Hinzufügen</a></li>',
         canonical: '/Advanced_User/Tasker/Activate_IR_Add_Shortcut/',
         description: 'Tasker ist eine Android App zum erstellen von Makro Skripten, die zeitgesteuert oder durch Umgebungsvariablen des Handies ausgelöst werden. Dies - in Kombination mit unseren dokumentierten CGI Befehlen - ermöglicht das Automatisieren aller Kamerafunktionen.',
@@ -368,9 +368,9 @@ advancedUserGerRouter.get('/Tasker/IR_Aktivieren_Shortcut_Hinzufuegen/', functio
 
 advancedUserGerRouter.get('/Tasker/IR_Deaktivieren_Shortcut_Hinzufuegen/', function(req, res) {
     res.render('./Advanced_User/Tasker_IR_Deactivate_Add_Shortcut', {
-        title: 'Tasker Android App',
+        title: 'Tasker Android App - Nachtsicht Deaktivieren',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
-        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        headline: 'Makro Tools zum Automatisieren der INSTAR IP Kamera Funktionen',
         breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Deactivate_IR_Add_Shortcut/">IR Deaktivieren - Shortcut Hinzufügen</a></li>',
         canonical: '/Advanced_User/Tasker/Deactivate_IR_Add_Shortcut/',
         description: 'Tasker ist eine Android App zum erstellen von Makro Skripten, die zeitgesteuert oder durch Umgebungsvariablen des Handies ausgelöst werden. Dies - in Kombination mit unseren dokumentierten CGI Befehlen - ermöglicht das Automatisieren aller Kamerafunktionen.',
@@ -396,9 +396,9 @@ advancedUserGerRouter.get('/Tasker/IR_Deaktivieren_Shortcut_Hinzufuegen/', funct
 
 advancedUserGerRouter.get('/Tasker/Nachtsicht_Aktivieren_Aufgabe/', function(req, res) {
     res.render('./Advanced_User/Tasker_IR_Add_Task', {
-        title: 'Tasker Android App',
+        title: 'Tasker Android App - Nachtsicht Aktivieren Task',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
-        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        headline: 'Makro Tools zum Automatisieren der INSTAR IP Kamera Funktionen',
         breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Activate_Nightvision_Task/">Nachtsicht Aktivieren</a></li>',
         canonical: '/Advanced_User/Tasker/Activate_Nightvision_Task/',
         description: 'Tasker ist eine Android App zum erstellen von Makro Skripten, die zeitgesteuert oder durch Umgebungsvariablen des Handies ausgelöst werden. Dies - in Kombination mit unseren dokumentierten CGI Befehlen - ermöglicht das Automatisieren aller Kamerafunktionen.',
@@ -424,9 +424,9 @@ advancedUserGerRouter.get('/Tasker/Nachtsicht_Aktivieren_Aufgabe/', function(req
 
 advancedUserGerRouter.get('/Tasker/Nachtsicht_Deaktivieren_Aufgabe/', function(req, res) {
     res.render('./Advanced_User/Tasker_IR_Deactivate_Add_Task', {
-        title: 'Tasker Android App',
+        title: 'Tasker Android App - Nachtsicht Deaktivieren Task',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
-        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        headline: 'Makro Tools zum Automatisieren der INSTAR IP Kamera Funktionen',
         breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Deactivate_Nightvision_Task/">Nachtsicht Deaktivieren</a></li>',
         canonical: '/Advanced_User/Tasker/Deactivate_Nightvision_Task/',
         description: 'Tasker ist eine Android App zum erstellen von Makro Skripten, die zeitgesteuert oder durch Umgebungsvariablen des Handies ausgelöst werden. Dies - in Kombination mit unseren dokumentierten CGI Befehlen - ermöglicht das Automatisieren aller Kamerafunktionen.',
@@ -452,9 +452,9 @@ advancedUserGerRouter.get('/Tasker/Nachtsicht_Deaktivieren_Aufgabe/', function(r
 
 advancedUserGerRouter.get('/Tasker/Nachtsicht_Szene/', function(req, res) {
     res.render('./Advanced_User/Tasker_IR_Add_Scene', {
-        title: 'Tasker Android App',
+        title: 'Tasker Android App - Nachtsicht Scene Automatisierung',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
-        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        headline: 'Makro Tools zum Automatisieren der INSTAR IP Kamera Funktionen',
         breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Nightvision_Scene/">Nachtsicht Szene</a></li>',
         canonical: '/Advanced_User/Tasker/Nightvision_Scene/',
         description: 'Tasker ist eine Android App zum erstellen von Makro Skripten, die zeitgesteuert oder durch Umgebungsvariablen des Handies ausgelöst werden. Dies - in Kombination mit unseren dokumentierten CGI Befehlen - ermöglicht das Automatisieren aller Kamerafunktionen.',
@@ -480,9 +480,9 @@ advancedUserGerRouter.get('/Tasker/Nachtsicht_Szene/', function(req, res) {
 
 advancedUserGerRouter.get('/Tasker/Zeitplan_PTZ_Aufgabe/', function(req, res) {
     res.render('./Advanced_User/Tasker_Schedule_Add_PTZ_Task', {
-        title: 'Tasker Android App',
+        title: 'Tasker Android App - PTZ Zeitplan Task',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
-        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        headline: 'Makro Tools zum Automatisieren der INSTAR IP Kamera Funktionen',
         breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Zeitplan_PTZ_Aufgabe/">Zeitplan PTZ Aufgabe</a></li>',
         canonical: '/Advanced_User/Tasker/Schedule_PTZ_Task/',
         description: 'Tasker ist eine Android App zum erstellen von Makro Skripten, die zeitgesteuert oder durch Umgebungsvariablen des Handies ausgelöst werden. Dies - in Kombination mit unseren dokumentierten CGI Befehlen - ermöglicht das Automatisieren aller Kamerafunktionen.',
@@ -508,9 +508,9 @@ advancedUserGerRouter.get('/Tasker/Zeitplan_PTZ_Aufgabe/', function(req, res) {
 
 advancedUserGerRouter.get('/Tasker/Zeitplan_Alarm_Aufgabe/', function(req, res) {
     res.render('./Advanced_User/Tasker_Schedule_Add_Alarm_Task', {
-        title: 'Tasker Android App',
+        title: 'Tasker Android App - Zeitplan Alarm Task',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
-        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        headline: 'Makro Tools zum Automatisieren der INSTAR IP Kamera Funktionen',
         breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Zeitplan_Alarm_Aufgabe/">Zeitplan Alarm Aufgabe</a></li>',
         canonical: '/Advanced_User/Tasker/Schedule_Alarm_Task/',
         description: 'Tasker ist eine Android App zum erstellen von Makro Skripten, die zeitgesteuert oder durch Umgebungsvariablen des Handies ausgelöst werden. Dies - in Kombination mit unseren dokumentierten CGI Befehlen - ermöglicht das Automatisieren aller Kamerafunktionen.',
@@ -536,9 +536,9 @@ advancedUserGerRouter.get('/Tasker/Zeitplan_Alarm_Aufgabe/', function(req, res) 
 
 advancedUserGerRouter.get('/Tasker/Zeitplan_Profil/', function(req, res) {
     res.render('./Advanced_User/Tasker_Schedule_Add_Profile', {
-        title: 'Tasker Android App',
+        title: 'Tasker Android App - Zeitplan Profil',
         ampimg: '/images/Search/AU_SearchThumb_CGICommands.jpg',
-        headline: 'Makro Tools zum Automatisieren der Kamera Funktionen',
+        headline: 'Makro Tools zum Automatisieren der INSTAR IP Kamera Funktionen',
         breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Tasker/">Tasker</a></li><li><a href="/Erweitert/Tasker/Zeitplan_Profil/">Zeitplan Profil</a></li>',
         canonical: '/Advanced_User/Tasker/Schedule_Profile/',
         description: 'Tasker ist eine Android App zum erstellen von Makro Skripten, die zeitgesteuert oder durch Umgebungsvariablen des Handies ausgelöst werden. Dies - in Kombination mit unseren dokumentierten CGI Befehlen - ermöglicht das Automatisieren aller Kamerafunktionen.',
@@ -592,7 +592,7 @@ advancedUserGerRouter.get('/WebUI_Wiederherstellen/', function(req, res) {
 
 advancedUserGerRouter.get('/Firmware_Wiederherstellen/', function(req, res) {
     res.render('./Advanced_User/Restore_Firmware', {
-        title: 'Wiederherstellen der Firmware nach einem fehlerhaften Update',
+        title: 'Wiederherstellen der Firmware Ihrer INSTAR HD Kamera nach einem fehlerhaften Update',
         ampimg: '/images/Search/AU_SearchThumb_ResetAfterFirmwareError.jpg',
         headline: 'Wiederherstellen der Firmware nach einem fehlerhaften Update',
         breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Firmware_Wiederherstellen/">Firmware Wiederherstellen</a></li>',
@@ -620,7 +620,7 @@ advancedUserGerRouter.get('/Firmware_Wiederherstellen/', function(req, res) {
 
 advancedUserGerRouter.get('/Firmware_Wiederherstellen/VGA_Modelle', function(req, res) {
     res.render('./Advanced_User/Restore_Firmware_VGA', {
-        title: 'Wiederherstellen der Firmware nach einem fehlerhaften Update',
+        title: 'Wiederherstellen der Firmware Ihrer INSTAR VGA Kamera nach einem fehlerhaften Update',
         ampimg: '/images/Search/AU_SearchThumb_ResetAfterFirmwareError.jpg',
         headline: 'Wiederherstellen der Firmware nach einem fehlerhaften Update',
         breadcrumbs: '<li><a href="/Erweitert/">Erweitert</a></li><li><a href="/Erweitert/Firmware_Wiederherstellen/">Firmware Wiederherstellen</a></li><li><a href="/Erweitert/Firmware_Wiederherstellen/VGA_Modelle/">VGA Modelle</a></li>',

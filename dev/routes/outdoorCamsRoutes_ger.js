@@ -41,7 +41,7 @@ outdoorCamsRouter.route('/')
 outdoorCamsRouter.route('/IN-9008_HD/Sicherheit_Hinweise')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Safety_Warnings', {
-          title: 'IN-9008 HD Sicherheit Hinweise',
+          title: 'IN-9008 Full HD Sicherheit Hinweise',
           model: '9008',
           series: '1080p',
 		      type: 'Outdoor',
@@ -63,7 +63,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Sicherheit_Hinweise')
 outdoorCamsRouter.route('/IN-9008_HD/Garantie')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Warranty', {
-          title: 'IN-9008 HD Garantie & Entsorgung',
+          title: 'IN-9008 Full HD Garantie & Entsorgung',
           model: '9008',
           series: '1080p',
 		      type: 'Outdoor',
@@ -85,7 +85,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Garantie')
 outdoorCamsRouter.route('/IN-9008_HD/Video_Streaming')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Video_Streaming', {
-          title: 'IN-9008 HD Video Streaming',
+          title: 'IN-9008 Full HD Video Streaming',
           model: '9008',
           series: '1080p',
 		      type: 'Outdoor',
@@ -107,7 +107,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Video_Streaming')
 outdoorCamsRouter.route('/IN-9008_HD/Kamera_Reset')
   .get(function(req, res) {
       res.render('./Products/Usermanuals_Camera_Reset', {
-          title: 'IN-9008 HD Hardware Reset',
+          title: 'IN-9008 Full HD Hardware Reset',
           model: '9008',
           series: '1080p',
 		      type: 'Outdoor',
@@ -129,7 +129,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Kamera_Reset')
 outdoorCamsRouter.route('/IN-9008_HD')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Overview', {
-      title: 'IN-9008 HD Zusammenfassung',
+      title: 'IN-9008 Full HD Zusammenfassung',
       model: '9008',
       series: '1080p',
 	    type: 'Outdoor',
@@ -151,7 +151,7 @@ outdoorCamsRouter.route('/IN-9008_HD')
 outdoorCamsRouter.route('/IN-9008_HD/Handbuch')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Usermanual', {
-      title: 'IN-9008 HD Handbuch',
+      title: 'IN-9008 Full HD Handbuch',
       model: '9008',
       series: '1080p',
 	    type: 'Outdoor',
@@ -173,7 +173,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Handbuch')
 outdoorCamsRouter.route('/IN-9008_HD/Produkt_Features')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Product_Features', {
-      title: 'IN-9008 HD Product Features',
+      title: 'IN-9008 Full HD Product Features',
       model: '9008',
       series: '1080p',
 	    type: 'Outdoor',
@@ -195,7 +195,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Produkt_Features')
 outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Quick_Installation', {
-      title: 'IN-9008 HD Schnell Installation',
+      title: 'IN-9008 Full HD Schnell Installation',
       model: '9008',
       series: '1080p',
 	    type: 'Outdoor',
@@ -203,7 +203,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation')
       headline: 'INSTAR Produkte IN-9008 Full HD IP Aussenkamera Online Handbuch',
 	    breadcrumbs: '<li><a href="/Aussenkameras">Aussenkameras</a></li><li><a href="/Aussenkameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Aussenkameras/IN-9008_HD/Handbuch">Handbuch</a></li><li><a href="/Aussenkameras/IN-9008_HD/Schnell_Installation/">Schnell Installation</a></li>',
       canonical: '/Outdoor_Cameras/IN-9008_HD/Quick_Installation/',
-      description: 'INSTAR IN-9008 Full HD IP Überwachungskamera - Alle Informationen die Sie nach dem Auspacken Ihrer Sicherheitskamera benötigen, um Ihre Webcam in Ihr Netzwerk (WLAN) einzubinden, den Fernzugriff über P2P oder DDNS einzurichten, die Kamera über die Weboberfläche zu konfigurieren und in unsere kostenlose Handy App für Android, iPhone, iPad, Windows Phone / Metro und Blackberry einzubinden.',
+      description: 'Schnell Installation - INSTAR IN-9008 Full HD IP Überwachungskamera - Alle Informationen die Sie nach dem Auspacken Ihrer Sicherheitskamera benötigen, um Ihre Webcam in Ihr Netzwerk (WLAN) einzubinden, den Fernzugriff über P2P oder DDNS einzurichten, die Kamera über die Weboberfläche zu konfigurieren und in unsere kostenlose Handy App für Android, iPhone, iPad, Windows Phone / Metro und Blackberry einzubinden.',
 		  pacc: '',
 		  qiacc: '',
 		  mdacc: '',
@@ -217,7 +217,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation')
 outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Quick_Installation_1hole', {
-      title: 'IN-9008 HD Schnell Installation - PoE oder WiFi',
+      title: 'IN-9008 Full HD Schnell Installation - PoE oder WiFi',
       model: '9008',
       series: '1080p',
 	    type: 'Outdoor',
@@ -225,7 +225,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi')
       headline: 'INSTAR Produkte IN-9008 Full HD IP Aussenkamera Online Handbuch',
 	    breadcrumbs: '<li><a href="/Aussenkameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Aussenkameras/IN-9008_HD/Handbuch">Handbuch</a></li><li><a href="/Aussenkameras/IN-9008_HD/Schnell_Installation/">Schnell Installation</a></li><li><a href="/Aussenkameras/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi/">WiFi oder PoE</a></li>',
       canonical: '/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi/',
-      description: 'INSTAR IN-9008 Full HD IP Überwachungskamera - Alle Informationen die Sie nach dem Auspacken Ihrer Sicherheitskamera benötigen, um Ihre Webcam in Ihr Netzwerk (WLAN) einzubinden, den Fernzugriff über P2P oder DDNS einzurichten, die Kamera über die Weboberfläche zu konfigurieren und in unsere kostenlose Handy App für Android, iPhone, iPad, Windows Phone / Metro und Blackberry einzubinden.',
+      description: 'Schnell Installation :: PoE oder WiFi - INSTAR IN-9008 Full HD IP Überwachungskamera - Alle Informationen die Sie nach dem Auspacken Ihrer Sicherheitskamera benötigen, um Ihre Webcam in Ihr Netzwerk (WLAN) einzubinden, den Fernzugriff über P2P oder DDNS einzurichten, die Kamera über die Weboberfläche zu konfigurieren und in unsere kostenlose Handy App für Android, iPhone, iPad, Windows Phone / Metro und Blackberry einzubinden.',
 		  pacc: '',
 		  qiacc: '',
 		  mdacc: '',
@@ -239,7 +239,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi')
 outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi/Ethernet')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Quick_Installation_1hole_lan', {
-      title: 'IN-9008 HD Schnell Installation - PoE oder WiFi',
+      title: 'IN-9008 Full HD Schnell Installation - PoE oder WiFi',
       model: '9008',
       series: '1080p',
 	    type: 'Outdoor',
@@ -247,7 +247,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi/Ethernet
       headline: 'INSTAR Produkte IN-9008 Full HD IP Aussenkamera Online Handbuch',
 	    breadcrumbs: '<li><a href="/Aussenkameras/IN-9008_HD/Handbuch">Handbuch</a></li><li><a href="/Aussenkameras/IN-9008_HD/Schnell_Installation/">Schnell Installation</a></li><li><a href="/Aussenkameras/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi/">WiFi oder PoE</a></li><li><a href="/Aussenkameras/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi/Ethernet/">Ethernet</a></li>',
       canonical: '/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi/Ethernet/',
-      description: 'INSTAR IN-9008 Full HD IP Überwachungskamera - Alle Informationen die Sie nach dem Auspacken Ihrer Sicherheitskamera benötigen, um Ihre Webcam in Ihr Netzwerk (WLAN) einzubinden, den Fernzugriff über P2P oder DDNS einzurichten, die Kamera über die Weboberfläche zu konfigurieren und in unsere kostenlose Handy App für Android, iPhone, iPad, Windows Phone / Metro und Blackberry einzubinden.',
+      description: 'Schnell Installation :: PoE / Ethernet - INSTAR IN-9008 Full HD IP Überwachungskamera - Alle Informationen die Sie nach dem Auspacken Ihrer Sicherheitskamera benötigen, um Ihre Webcam in Ihr Netzwerk (WLAN) einzubinden, den Fernzugriff über P2P oder DDNS einzurichten, die Kamera über die Weboberfläche zu konfigurieren und in unsere kostenlose Handy App für Android, iPhone, iPad, Windows Phone / Metro und Blackberry einzubinden.',
 		  pacc: '',
 		  qiacc: '',
 		  mdacc: '',
@@ -261,7 +261,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi/Ethernet
 outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi/WPS')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Quick_Installation_1hole_wps', {
-      title: 'IN-9008 HD Schnell Installation - WiFi oder PoE',
+      title: 'IN-9008 Full HD Schnell Installation - WiFi oder PoE',
       model: '9008',
       series: '1080p',
 	    type: 'Outdoor',
@@ -269,7 +269,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi/WPS')
       headline: 'INSTAR Produkte IN-9008 Full HD IP Aussenkamera Online Handbuch',
 	    breadcrumbs: '<li><a href="/Aussenkameras/IN-9008_HD/Handbuch">Handbuch</a></li><li><a href="/Aussenkameras/IN-9008_HD/Schnell_Installation/">Schnell Installation</a></li><li><a href="/Aussenkameras/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi/">WiFi oder PoE</a></li><li><a href="/Aussenkameras/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi/WPS/">WPS</a></li>',
       canonical: '/Outdoor_Cameras/IN-9008_HD/Quick_Installation/PoE_or_WiFi/WPS/',
-      description: 'INSTAR IN-9008 Full HD IP Überwachungskamera - Alle Informationen die Sie nach dem Auspacken Ihrer Sicherheitskamera benötigen, um Ihre Webcam in Ihr Netzwerk (WLAN) einzubinden, den Fernzugriff über P2P oder DDNS einzurichten, die Kamera über die Weboberfläche zu konfigurieren und in unsere kostenlose Handy App für Android, iPhone, iPad, Windows Phone / Metro und Blackberry einzubinden.',
+      description: 'Schnell Installation :: WPS - INSTAR IN-9008 Full HD IP Überwachungskamera - Alle Informationen die Sie nach dem Auspacken Ihrer Sicherheitskamera benötigen, um Ihre Webcam in Ihr Netzwerk (WLAN) einzubinden, den Fernzugriff über P2P oder DDNS einzurichten, die Kamera über die Weboberfläche zu konfigurieren und in unsere kostenlose Handy App für Android, iPhone, iPad, Windows Phone / Metro und Blackberry einzubinden.',
 		  pacc: '',
 		  qiacc: '',
 		  mdacc: '',
@@ -283,7 +283,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/PoE_oder_WiFi/WPS')
 outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/Ethernet')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Quick_Installation_2hole', {
-      title: 'IN-9008 HD Schnell Installation - Ethernet',
+      title: 'IN-9008 Full HD Schnell Installation - Ethernet',
       model: '9008',
       series: '1080p',
 	    type: 'Outdoor',
@@ -291,7 +291,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/Ethernet')
       headline: 'INSTAR Produkte IN-9008 Full HD IP Aussenkamera Online Handbuch',
 	    breadcrumbs: '<li><a href="/Aussenkameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Aussenkameras/IN-9008_HD/Handbuch">Handbuch</a></li><li><a href="/Aussenkameras/IN-9008_HD/Schnell_Installation/">Schnell Installation</a></li><li><a href="/Aussenkameras/IN-9008_HD/Schnell_Installation/Ethernet/">Ethernet</a></li>',
       canonical: '/Outdoor_Cameras/IN-9008_HD/Quick_Installation/Ethernet/',
-      description: 'INSTAR IN-9008 Full HD IP Überwachungskamera - Alle Informationen die Sie nach dem Auspacken Ihrer Sicherheitskamera benötigen, um Ihre Webcam in Ihr Netzwerk (WLAN) einzubinden, den Fernzugriff über P2P oder DDNS einzurichten, die Kamera über die Weboberfläche zu konfigurieren und in unsere kostenlose Handy App für Android, iPhone, iPad, Windows Phone / Metro und Blackberry einzubinden.',
+      description: 'Schnell Installation :: Ethernet - INSTAR IN-9008 Full HD IP Überwachungskamera - Alle Informationen die Sie nach dem Auspacken Ihrer Sicherheitskamera benötigen, um Ihre Webcam in Ihr Netzwerk (WLAN) einzubinden, den Fernzugriff über P2P oder DDNS einzurichten, die Kamera über die Weboberfläche zu konfigurieren und in unsere kostenlose Handy App für Android, iPhone, iPad, Windows Phone / Metro und Blackberry einzubinden.',
 		  pacc: '',
 		  qiacc: '',
 		  mdacc: '',
@@ -305,7 +305,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/Ethernet')
 outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/Ethernet_und_Audio-Out')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Quick_Installation_3hole', {
-      title: 'IN-9008 HD Schnell Installation - Ethernet & Audio-Out',
+      title: 'IN-9008 Full HD Schnell Installation - Ethernet & Audio-Out',
       model: '9008',
       series: '1080p',
 	    type: 'Outdoor',
@@ -313,7 +313,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/Ethernet_und_Audio-Out
       headline: 'INSTAR Produkte IN-9008 Full HD IP Aussenkamera Online Handbuch',
 	    breadcrumbs: '<li><a href="/Aussenkameras/IN-9008_HD/">IN-9008 HD</a></li><li><a href="/Aussenkameras/IN-9008_HD/Handbuch">Handbuch</a></li><li><a href="/Aussenkameras/IN-9008_HD/Schnell_Installation/">Schnell Installation</a></li><li><a href="/Aussenkameras/IN-9008_HD/Schnell_Installation/Ethernet_und_Audio-Out/">Ethernet & Audio</a></li>',
       canonical: '/Outdoor_Cameras/IN-9008_HD/Quick_Installation/Ethernet_and_Audio-Out/',
-      description: 'INSTAR IN-9008 Full HD IP Überwachungskamera - Alle Informationen die Sie nach dem Auspacken Ihrer Sicherheitskamera benötigen, um Ihre Webcam in Ihr Netzwerk (WLAN) einzubinden, den Fernzugriff über P2P oder DDNS einzurichten, die Kamera über die Weboberfläche zu konfigurieren und in unsere kostenlose Handy App für Android, iPhone, iPad, Windows Phone / Metro und Blackberry einzubinden.',
+      description: 'Schnell Installation :: Ethernet / Audio-Out - INSTAR IN-9008 Full HD IP Überwachungskamera - Alle Informationen die Sie nach dem Auspacken Ihrer Sicherheitskamera benötigen, um Ihre Webcam in Ihr Netzwerk (WLAN) einzubinden, den Fernzugriff über P2P oder DDNS einzurichten, die Kamera über die Weboberfläche zu konfigurieren und in unsere kostenlose Handy App für Android, iPhone, iPad, Windows Phone / Metro und Blackberry einzubinden.',
 		  pacc: '',
 		  qiacc: '',
 		  mdacc: '',
@@ -327,7 +327,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Schnell_Installation/Ethernet_und_Audio-Out
 outdoorCamsRouter.route('/IN-9008_HD/Objektiv_Justage')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Lense_Adjustment', {
-      title: 'IN-9008 HD Objektiv Justage',
+      title: 'IN-9008 Full HD Objektiv Justage',
       model: '9008',
       series: '1080p',
   	  type: 'Outdoor',
@@ -349,7 +349,7 @@ outdoorCamsRouter.route('/IN-9008_HD/Objektiv_Justage')
 outdoorCamsRouter.route('/IN-9008_HD/Technische_Spezifikationen')
 .get(function(req, res) {
   res.render('./Outdoor_Cams/IN-9008_Tech_Specs', {
-      title: 'IN-9008 HD Technische Spezifikationen',
+      title: 'IN-9008 Full HD Technische Spezifikationen',
       model: '9008',
       series: '1080p',
   	  type: 'Outdoor',
