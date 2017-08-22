@@ -1,3 +1,4 @@
+var compression = require('compression');
 var express = require('express');
 var path = require('path');
 var logger = require('morgan');
@@ -32,6 +33,8 @@ var qnaRouter = require('./build/routes/qnaRoutes');
 var indexPHPRouter = require('./build/routes/indexPHPRoutes');
 
 var app = express();
+// compress all responses
+app.use(compression());
 
 // View engine setup
 app.set('views', path.join(__dirname, 'build/views'));
