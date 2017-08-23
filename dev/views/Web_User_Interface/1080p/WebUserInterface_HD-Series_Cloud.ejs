@@ -5,6 +5,7 @@
         <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
         <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+        <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
     </head>
 
     <body class="home">
@@ -25,16 +26,34 @@
                         <article itemscope itemtype="http://schema.org/Article" class="blade wrapper content">
                           <% include ../../_partials/amp/_schemaArticle.ejs %>
 
-                    <div class="margin">
+                    <div>
 
-                      <div>
-                        <a href="/Motion_Detection/INSTAR_Cloud/">
-                          <amp-img src="/images/1080p_webUI/1080p_Settings_Cloud.png" width="1369" height="955" layout="responsive" class="shadow"></amp-img>
-                        </a>
-                      </div>
+                      <h1>Die optionale INSTAR Cloud</h1>
+
+                      <p>INSTAR IP Kameras sind ohne eine Internet Anbindung nutzbar - d.h. Sie können die Alarmfunktion der Kamera auch nutzen ohne dass die Kamera an ein Netzwerk angeschlossen wird. Wenn Ihnen jedoch das lokale Speichern der Alarmaufnahmen nicht ausreicht, können Sie die Videodateien auch in unsere INSTAR Cloud hochladen.</p>
+
+                      <a href="/Motion_Detection/INSTAR_Cloud/">
+                        <amp-img src="/images/1080p_webUI/1080p_Settings_Cloud.png" width="1369" height="955" layout="responsive" class="shadow"></amp-img>
+                      </a>
 
                     </div>
                     <!-- /margin -->
+
+                    <div class="margin">
+                        <amp-youtube width="1280"
+                          height="720"
+                          layout=responsive
+                          data-videoid="AaPJ4Y8c9r0">
+                        </amp-youtube>
+                    </div>
+                    <!-- /margin -->
+
+                    <div class="margin">
+                      <p>Lesen Sie unsere Cloud Einführung hier:</p>
+                      <a href="/Motion_Detection/INSTAR_Cloud/"><button class="navGo">INSTAR Cloud</button></a>
+                    </div>
+                    <!-- /margin -->
+
                 </article>
                 <!-- /article -->
 
