@@ -8,7 +8,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/",
     "title1": "Die Weboberfläche der HD Serie",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "software", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "UI", "Software", "Konfiguration", "Browser", "einstellen", "aktivieren"],
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Konfiguration der Kamera in der HD-Web-Oberfläche"
 }
@@ -22,7 +22,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Software/",
     "title": "Software Menue der HD Weboberfläche",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "software", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Software", "Sprache", "Reset", "Neustart", "Update"],
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Das Softwaremenü der HD-Kamera"
 }
@@ -36,7 +36,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Software/Language/",
     "title": "Das Language Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "software", "language", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Software", "language", "Sprache", "Deutsch", "Englisch", "Französisch"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Software_Language.jpg",
     "abstract": "Spracheinstellungen in der HD-Web-Oberfläche"
 }
@@ -45,12 +45,12 @@ POST /wiki2/article
     "title2": "Backup Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
     "models": ["IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
-    "description": "Backup der Kamerakonfiguration To save your camera settings please check the corresponding box, click submit and you will be asked for a file path and name. The default is config_backup.bin and the file path is the download folder of your browser. To restore the settings check Load Backup Copy, browse for the backup file and click submit. Backup Kopie speichern Speichert Ihre Einstellungen in einer config_backup.bin Datei, nachdem Sie Ihre Kamera konfiguriert haben. Klicken Sie einfach in die Backup Speichern Checkbox und Bestätigen Sie. Backup Kopie laden Um Ihre Einstellungen wiederherzustellen, z.B. nach einem Reset, klciken Sie in die Backup Laden checkbox, browsen Sie zur Backup Datei und Bestätigen Sie. Durchsuchen Klicken Sie hier, um nach Ihrer config_backup.bin Backup-Datei zu suchen. Bestätigen Sie die Datei um die Einstellungen wiederherzustellen.",
+    "description": "Backup der Kamerakonfiguration To save your camera settings please check the corresponding box, click submit and you will be asked for a file path and name. The default is config_backup.bin and the file path is the download folder of your browser. To restore the settings check Load Backup Copy, browse for the backup file and click submit. Backup Kopie speichern Speichert Ihre Einstellungen in einer config_backup.bin Datei, nachdem Sie Ihre Kamera konfiguriert haben. Klicken Sie einfach in die Backup Speichern Checkbox und Bestätigen Sie. Backup Kopie laden Um Ihre Einstellungen wiederherzustellen, z.B. nach einem Reset, klicken Sie in die Backup Laden checkbox, browsen Sie zur Backup Datei und Bestätigen Sie. Durchsuchen Klicken Sie hier, um nach Ihrer config_backup.bin Backup-Datei zu suchen. Bestätigen Sie die Datei um die Einstellungen wiederherzustellen.",
     "description2": "Backup Overlay: You can backup your camera configuration after setting everything up. Download the file and name it appropriately for a later restore. Please be aware that software updates sometimes add new variables functions to the camera and you won´t be able to use your old backup files anymore. Always create a new backup after an software update to be sure. Backup your Camera Configuration. To save your camera settings please check the corresponding box, click submit and you will be asked for a file path and name. The default is config_backup.bin and the file path is the download folder of your browser. To restore the settings check Load Backup Copy, browse for the backup file and click submit. Save Backup Copy: Save you settings in a config_backup.bin file after you configured up your camera. Simply check the save backup box and submit. Load Backup Copy: To restore your settings, e.g. after a reset, check the load backup box, browse for the backup file and submit. Browse: Click here to search for your config_backup.bin backup file. Just submit the file to restore your settings.",
     "link": "/Web_User_Interface/720p_Series/Software/Backup/",
     "title": "Das Backup Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "software", "backup", "language", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Software", "Backup", "speichern", "wiederherstellen", "Einstellungen"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Software_Backup.jpg",
     "abstract": "Speichern und Wiederherstellen der Kameraeinstellungen"
 }
@@ -64,7 +64,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Software/Update/",
     "title": "Das Update Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "software", "update", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Software", "Update", "Upgrade", "Firmware", "aktualisieren", "update.pkg", "pkg"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Software_Update.jpg",
     "abstract": "Update der Firmware und Web-Oberfläche der HD-Kamera"
 }
@@ -78,7 +78,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Software/Reboot_Reset/",
     "title": "Das Reboot & Reset Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "software", "reboot", "reset", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Software", "reboot", "reset", "Werkseinstellungen", "neustarten", "Version"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Software_Reboot_Reset.jpg",
     "abstract": "Neustart oder Reset der HD-Kamera"
 }
@@ -92,7 +92,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Network/",
     "title": "Das Netzwerk Menue",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Netzwerk", "IP Adresse", "Port", "HTTP", "WLAN", "WiFi", "DDNS", "P2P", "UPnP", "Push Dienst", "Fernzugriff"],
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Einstellungsmöglichkeiten im Netzwerk-Menü der HD-Kamera"
 }
@@ -106,7 +106,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Network/IP_Configuration/",
     "title": "Das IP Konfiguration Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "LAN", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Netzwerk", "IP Adresse", "Port", "HTTP", "Subnetzmaske", "Gateway", "DNS Server", "LAN Port", "RTMP", "Flash Port", "RTSP"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Network_IP_Configuration.jpg",
     "abstract": "Konfiguration der Netzwerkeinstellungen der HD-Kamera"
 }
@@ -120,7 +120,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Network/WiFi/",
     "title": "Das WLAN Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "WLAN", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Netzwerk", "WLAN",  "WiFi", "kabelos", "WPS", "TKIP", "WPA2", "AES", "CCMP", "erlaubte Zeichen", "Kennwort", "Schlüssel", "Antenne"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Network_WLAN.jpg",
     "abstract": "Konfiguration der WLAN-Einstellungen HD-Kamera"
 }
@@ -134,7 +134,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Network/DDNS/",
     "title": "Das DDNS Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "DDNS", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Netzwerk", "DDNS", "Fernzugriff", "Internet", "Adresse", "unterwegs", "Handy", "Weiterleitung", "QR Code", "no connection"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Network_DDNS.jpg",
     "abstract": "Fernzugriff auf die Kamera über das Internet per DDNS"
 }
@@ -148,7 +148,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Network/DDNS/",
     "title": "Das P2P Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "P2P", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Netzwerk", "P2P", "point2point", "point to point", "UID", "IPv6", "DSLite", "DS Lite", "öffentliche IPv4", "QR Code", "Fernzugriff", "Handy", "unterwegs", "no connection"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Network_P2P.jpg",
     "abstract": "Fernzugriff auf die Kamera über das Internet per P2P"
 }
@@ -162,7 +162,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Network/UPnP/",
     "title": "Das UPnP Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "UPnP", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Netzwerk", "UPnP", "Weiterleitung", "Fernzugriff", "selbständig"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Network_UPnP.jpg",
     "abstract": "Einstellen des Universal Plug &amp; Play Dienstes"
 }
@@ -176,7 +176,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Network/Push_Service/",
     "title": "Das Push Service Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "Push", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Netzwerk", "Push", "Push Benachrichtigung", "Alarmton", "Handy", "InstarVision", "iPhone", "iPad", "Android", "Windows Phone"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Network_Push.jpg",
     "abstract": "Aktivieren des Push-Dienstes für Ihr Smartphone"
 }
@@ -190,7 +190,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/System/",
     "title": "Das System Menue",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "system", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "System", "Datum", "Uhrzeit", "Benutzerverwaltung", "Status LED", "IR LEDs", "ONVIF", "PTZ", "Logbuch"],
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Einstellungsmöglichkeiten im System-Menü der HD-Kamera"
 }
@@ -204,7 +204,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/System/Info/",
     "title": "Das Info Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "System", "Info", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "System", "Info", "Version", "MAC Adresse", "SD Status", "Speicherplatz", "WAN IP Adresse", "DDNS Status", "UPnP Status"],
     "image": "/images/Search/WebUI_720p_SearchThumb_System_Info.jpg",
     "abstract": "Anzeigen von Informationen über Ihre HD-Kamera"
 }
@@ -218,7 +218,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/System/Date_Time/",
     "title": "Das Datum und Uhrzeit Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "system", "date", "time", "zone", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "System", "Datum", "Uhrzeit", "Zeitzone", "NTP Server", "Sommerzeit", "Zeitabgleich"],
     "image": "/images/Search/WebUI_720p_SearchThumb_System_Date_Time.jpg",
     "abstract": "Datums- und Uhrzeiteinstellungen Ihrer HD-Kamera"
 }
@@ -232,7 +232,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/System/User/",
     "title": "Das Benutzer Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "system", "user", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "System", "Benutzer", "Benutzerverwaltung", "Admin", "Gast", "Benutzer", "Kennwort", "verbotene Zeichen", "erlaubte Zeichen", "Passwort", "Standard Login", "default login"],
     "image": "/images/Search/WebUI_720p_SearchThumb_System_User.jpg",
     "abstract": "Verwalten der Benutzerzugänge Ihrer Kamera"
 }
@@ -246,7 +246,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/System/Status_LED/",
     "title": "Das Status LED Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "system", "status", "LED", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "System", "status", "LED", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_System_Status_LED.jpg",
     "abstract": "Einstellen der Status-LED Ihrer HD-Kamera"
 }
@@ -260,7 +260,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/System/IR_LED/",
     "title": "Das IR LED Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "system", "IR", "Infrared", "LED", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "System", "IR", "Infrared", "LED", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_System_IR_LEDs.jpg",
     "abstract": "Einstellen der Inrarot-LEDs Ihrer HD-Kamera"
 }
@@ -274,7 +274,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/System/ONVIF/",
     "title": "Das ONVIF Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "system", "ONVIF", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "System", "ONVIF", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_System_ONVIF.jpg",
     "abstract": "Verbinden der HD-Kamera per ONVIF-Protokoll"
 }
@@ -288,7 +288,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/System/PTZ/",
     "title": "Das PTZ Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "system", "PTZ", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "System", "PTZ", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_System_PTZ.jpg",
     "abstract": "Einstellen der Schwenk & Neig (PTZ) Funktion Ihrer HD-Kamera"
 }
@@ -302,7 +302,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/System/PTZ_Tour/",
     "title": "Das PTZ Tour Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "system", "PTZ", "Tour", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "System", "PTZ", "Tour", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_System_PTZ_Tour.jpg",
     "abstract": "Programmieren einer PTZ Tour in Ihrer HD-Kamera"
 }
@@ -316,7 +316,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/System/System_Log/",
     "title": "Das System Logbuch Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "system", "log", "network", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "System", "log", "network", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_System_Log.jpg",
     "abstract": "Aufrufen des System Log zur Überprüfung des Kameraverhalten"
 }
@@ -330,7 +330,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Multimedia/",
     "title": "Das Multimedia Menü",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "multimedia", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "multimedia", "configuration", "browser"],
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Video & Audio-Einstellungsmöglichkeiten Ihrer HD-Kamera"
 }
@@ -344,7 +344,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Multimedia/Audio/",
     "title": "Das Audio Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "multimedia", "audio", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "multimedia", "audio", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Multimedia_Audio.jpg",
     "abstract": "Lautstärkeeinstellungen Ihrer HD-Kamera"
 }
@@ -358,7 +358,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Multimedia/Video/",
     "title": "Das Video Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "multimedia", "video", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "multimedia", "video", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Multimedia_Video.jpg",
     "abstract": "Videoeinstellungen Ihrer HD-Kamera"
 }
@@ -372,7 +372,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Multimedia/Image/",
     "title": "Das Bild Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "multimedia", "image", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "multimedia", "image", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Multimedia_Image.jpg",
     "abstract": "Bildeinstellungen Ihrer Kamera"
 }
@@ -386,7 +386,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Alarm/Privacy_Mask/",
     "title": "Das Privatsphaeren Maske Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "alarm", "privacy", "mask", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "alarm", "privacy", "mask", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Multimedia_Privat.jpg",
     "abstract": "Festlegen von Privatsphärebereichen in Ihrer HD-Kamera"
 }
@@ -400,7 +400,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Alarm/",
     "title": "Das Alarm Menue",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "alarm", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "alarm", "configuration", "browser"],
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Alarmeinstellungsmöglichkeiten Ihrer Kamera"
 }
@@ -414,7 +414,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Alarm/Areas/",
     "title": "Das Alarm Bereiche Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "alarm", "areas", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "alarm", "areas", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Areas.jpg",
     "abstract": "Einstellen der Alarmbereiche zur Bewegungsüberwachung"
 }
@@ -428,7 +428,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Alarm/Actions/",
     "title2": "Das Alarm Zeitplan Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "alarm", "actions", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "alarm", "actions", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Actions.jpg",
     "abstract": "Konfiguration der Aktionen bei Alarmauslösung"
 }
@@ -442,7 +442,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Alarm/Schedule/",
     "title": "Das Alarm Zeitplan Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "alarm", "schedule", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "alarm", "schedule", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Schedule.jpg",
     "abstract": "Einstellen des Zeitplans für die Alarmaktivierung"
 }
@@ -456,7 +456,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Alarm/SMTP_Server/",
     "title": "Das SMTP Server Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "alarm", "smtp", "server", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "alarm", "smtp", "server", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_SMTP_Server.jpg",
     "abstract": "Einstellen des SMTP-Servers für Alarm-Emails "
 }
@@ -470,7 +470,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Alarm/Email/",
     "title": "Das Email Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "alarm", "email", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "alarm", "email", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Email.jpg",
     "abstract": "Einstellen des Empfängers der Alarm-Emails"
 }
@@ -484,7 +484,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Alarm/FTP/",
     "title": "Das FTP Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "alarm", "FTP", "server", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "alarm", "FTP", "server", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_FTP.jpg",
     "abstract": "Konfiguration eines FTP Server zum Upload von Alarmbildern- & Videos"
 }
@@ -498,7 +498,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Alarm/Audio_Alarm",
     "title": "Das Email Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "alarm", "audio", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "alarm", "audio", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Audio_Alarm.jpg",
     "abstract": "Konfiguration des Audio-Alarms"
 }
@@ -512,7 +512,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Alarm/SD_Card/",
     "title": "Das SD Karten Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "alarm", "SD card", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "alarm", "SD card", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_SD_Card.jpg",
     "abstract": "Verwalten der SD-Karte"
 }
@@ -526,7 +526,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Recording/",
     "title": "Das Aufnahme Menue",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "recording", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "recording", "configuration", "browser"],
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Einstellungsmöglichkeiten im Aufnahme-Menü Ihrer HD-Kamera"
 }
@@ -540,7 +540,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Recording/Schedule/",
     "title": "Das Aufnahme Zeitplan Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "recording", "schedule", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "recording", "schedule", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Recording_Schedule.jpg",
     "abstract": "Einstellen des Zeitplans für automatische Aufnahmen"
 }
@@ -554,7 +554,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Recording/Video/",
     "title": "Das Video Aufnahme Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "recording", "video", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "recording", "video", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Recording_Video.jpg",
     "abstract": "Konfiguration von automatischen Video-Aufnahmen"
 }
@@ -568,7 +568,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Recording/Photoseries/",
     "title": "Das Fotoserie Overlay",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "recording", "photoseries", "timelapse", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "recording", "photoseries", "timelapse", "configuration", "browser"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Recording_Photoseries.jpg",
     "abstract": "Konfiguration von automatischen Foto-Aufnahmen"
 }
@@ -582,7 +582,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Menu_Bar/",
     "title": "Die Menueleiste",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "bar", "MJPEG", "h.264", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "bar", "MJPEG", "h.264", "configuration", "browser"],
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Die obere Menüleiste der HD-Kamera-Web-Oberfläche"
 }
@@ -596,7 +596,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Video_Menu_Bar/",
     "title": "Die Video Menueleiste",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "video", "bar", "ActiveX", "Internet Explorer", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "video", "bar", "ActiveX", "Internet Explorer", "configuration", "browser"],
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Videoeinstellungen des ActiveX Plugin"
 }
@@ -610,7 +610,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Video_Menu_Bar/",
     "title": "Pan, Tilt und Zoom Kontrollen",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "interface", "UI", "pan tilt zoom", "PTZ", "configuration", "browser"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "pan tilt zoom", "PTZ", "configuration", "browser"],
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Kontroll-Panel zum Drehen und Schwenken der Kamera"
 }
