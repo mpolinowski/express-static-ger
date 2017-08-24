@@ -8,7 +8,7 @@ POST /wiki2/article
     "link": "/Internet_Access/Point_to_Point/",
     "title": "Point 2 Point",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "P2P", "point-to-point", "point2point", "LTE", "internet access", "public IPv4", "DDNS not Successful"],
+    "tags": ["Fernzugriff", "Internet", "unterwegs", "no connection", "P2P", "point-to-point", "point2point", "LTE", "internet access", "öffentliche IPv4", "nicht Erfolgreich", "Handy Zugriff", "InstarVision"],
     "image": "/images/Search/IA_SearchThumb_P2P.jpg",
     "abstract": "P2P Fernzugriff auf die Kamera"
 }
@@ -22,7 +22,7 @@ POST /wiki2/article
     "link": "/Internet_Access/The_DDNS_Service",
     "title": "Der DDNS Dienst",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access"],
+    "tags": ["Fernzugriff", "Internetzugriff", "unterwegs", "Internet Adresse" "DDNS", "Portweiterleitung", "Portfreigabe", "Router","1935" "8081", "statische IP Adresse", "HTTP Port", "HTTPS Port", "RTMP Port"],
     "image": "/images/Search/IA_SearchThumb_DDNSService.jpg",
     "abstract": "Fernzugriff auf die Kamera per DDNS-Adresse"
 }
@@ -36,7 +36,7 @@ POST /wiki2/article
     "link": "/Internet_Access/The_DDNS_Service/Test_DDNS_Address/",
     "title": "DDNS Dienst Prüfen",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access"],
+    "tags": ["Fernzugriff", "nicht erfolgreich", "ddns", "Portweiterleitung", "no connection", "kein Zugriff", "unterwegs"],
     "image": "/images/Search/IA_SearchThumb_DDNSService.jpg",
     "abstract": "Prüfen Sie Ihre DDNS Adresse"
 }
@@ -50,7 +50,7 @@ POST /wiki2/article
     "link": "/Internet_Access/Mobile_Access/",
     "title": "Mobilzugriff",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access"],
+    "tags": ["Fernzugriff", "unterwegs", "ddns", "Portweiterleitung", "Handy", "InstarVision", "iPhone", "iPad", "Android", "Samsung", "Windows Phone", "Mobil"],
     "image": "/images/Search/IA_SearchThumb_Mobile.jpg",
     "abstract": "Fernzugriff auf die Kamera per DDNS-Adresse"
 }
@@ -64,7 +64,7 @@ POST /wiki2/article
     "link": "/Internet_Access/DDNS_Provider",
     "title": "Drittanbieter DDNS Adresse",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access", "no-ip", "selfhost", "ddnss", "dyndns"],
+    "tags": ["Fernzugriff", "Internet", "ddns", "router", "no-ip", "selfhost", "ddnss", "dyndns"],
     "image": "/images/Search/IA_SearchThumb_ThirdPartyDDNS.jpg",
     "abstract": "Drittanbieter von DDNS-Adressen"
 }
@@ -78,7 +78,7 @@ POST /wiki2/article
     "link": "/Internet_Access/DDNS_Provider/NoIP/",
     "title": "No-IP DDNS Adresse",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access", "no-ip", "dyndns"],
+    "tags": ["Fernzugriff", "Internet", "ddns", "router", "no-ip", "selfhost", "ddnss", "dyndns"],
     "image": "/images/Search/IA_SearchThumb_ThirdPartyDDNS_noIP.jpg",
     "abstract": "No-IP Address als DDNS-Drittanbieter"
 }
@@ -92,7 +92,7 @@ POST /wiki2/article
     "link": "/Internet_Access/DDNS_Provider/Selfhost/",
     "title": "Selfhost DDNS Adresse",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access", "selfhost", "dyndns"],
+    "tags": ["Fernzugriff", "Internet", "ddns", "router", "no-ip", "selfhost", "ddnss", "dyndns"],
     "image": "/images/Search/IA_SearchThumb_ThirdPartyDDNS_selfhost.jpg",
     "abstract": "Selfhost als DDNS-Drittanbieter"
 }
@@ -106,7 +106,7 @@ POST /wiki2/article
     "link": "/Internet_Access/DDNS_Provider/DDNSS/",
     "title": "DDDNSS Adresse",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access", "ddnss", "dyndns"],
+    "tags": ["Fernzugriff", "Internet", "ddns", "router", "no-ip", "selfhost", "ddnss", "dyndns"],
     "image": "/images/Search/IA_SearchThumb_ThirdPartyDDNS_ddnss.jpg",
     "abstract": "DDNSS als DDNS-Drittanbieter"
 }
@@ -120,7 +120,7 @@ POST /wiki2/article
     "link": "/Internet_Access/Port_Forwarding",
     "title": "Port Weiterleitung",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access", "dyndns", "AVM Fritzbox", "Telekom Speedport", "D-Link", "Netgear", "Vodafone Easybox", "Pirelli Router A1 Austria"],
+    "tags": ["internet", "Fernzugriff", "DDNS", "Portweiterleitung", "forwarding", "Portfreigabe", "Router", "internet access", "dyndns", "AVM Fritzbox", "Telekom Speedport", "D-Link", "TP-Link", "Netgear", "Vodafone Easybox", "Pirelli Router A1 Austria", "Virtual Server", "no connection", "kein Zugriff", "unterwegs", "Handy", "InstarVision"],
     "image": "/images/Search/IA_SearchThumb_Portforwarding.jpg",
     "abstract": "Einrichten einer Portweiterleitung im Router"
 }
@@ -134,7 +134,7 @@ POST /wiki2/article
     "link": "/Internet_Access/Port_Forwarding/Router_Access/",
     "title": "Port Weiterleitung",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access", "dyndns", "AVM Fritzbox", "Telekom Speedport", "D-Link", "Netgear", "Vodafone Easybox", "Pirelli Router A1 Austria"],
+    "tags": ["internet", "ddns", "router", "AVM Fritzbox", "Telekom Speedport", "D-Link", "Netgear", "TP-Link", "Vodafone Easybox", "Pirelli Router A1 Austria"],
     "image": "/images/Search/IA_SearchThumb_Portforwarding.jpg",
     "abstract": "Einrichten einer Portweiterleitung im Router"
 }
@@ -148,7 +148,7 @@ POST /wiki2/article
     "link": "/Internet_Access/Port_Forwarding/AVM_Fritzbox/",
     "title": "Port Weiterleitung AVM Fritzbox",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access", "dyndns", "AVM Fritzbox"],
+    "tags": ["internet", "Fernzugriff", "DDNS", "Portweiterleitung", "forwarding", "Portfreigabe", "Router", "internet access", "dyndns", "AVM Fritzbox", "Fritzbox 7490", "Fritzbox 7390", "Fritzbox 7590", "Telekom Speedport", "D-Link", "TP-Link", "Netgear", "Vodafone Easybox", "Pirelli Router A1 Austria", "Virtual Server", "no connection", "kein Zugriff", "unterwegs", "Handy", "InstarVision", "Neue Freigabe", "8081", "1935"],
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Fritzbox.jpg",
     "abstract": "Portweiterleitung bei einer AVM Fritzbox"
 }
@@ -162,7 +162,7 @@ POST /wiki2/article
     "link": "/Internet_Access/Port_Forwarding/Telekom_Speedport/",
     "title": "Port Weiterleitung Telekom Speedport",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access", "dyndns", "Telekom Speedport"],
+    "tags": ["internet", "Fernzugriff", "DDNS", "Portweiterleitung", "forwarding", "Portfreigabe", "Router", "internet access", "dyndns", "AVM Fritzbox", "Telekom Speedport", "D-Link", "TP-Link", "Netgear", "Vodafone Easybox", "Pirelli Router A1 Austria", "Virtual Server", "no connection", "kein Zugriff", "unterwegs", "Handy", "InstarVision", "Telekom Speedport Hybrid", "Portfreischaltung", "Port-Umleitungen", "NAT&Portregeln"],
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Speedport.jpg",
     "abstract": "Portweiterleitung bei einem Telekom Speedport Router"
 }
@@ -176,7 +176,7 @@ POST /wiki2/article
     "link": "/Internet_Access/Port_Forwarding/D-Link/",
     "title": "Port Weiterleitung D-Link",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access", "dyndns", "D-Link"],
+    "tags": ["internet", "Fernzugriff", "DDNS", "Portweiterleitung", "forwarding", "Portfreigabe", "Router", "internet access", "dyndns", "AVM Fritzbox", "Telekom Speedport", "D-Link", "TP-Link", "Netgear", "Vodafone Easybox", "Pirelli Router A1 Austria", "Virtual Server", "no connection", "kein Zugriff", "unterwegs", "Handy", "InstarVision", "Öffentlicher Port", "Privater Port", "Datenverkehrstyp"],
     "image": "/images/Search/IA_SearchThumb_Portforwarding_DLink.jpg",
     "abstract": "Portweiterleitung bei einem D-Link Router"
 }
@@ -190,7 +190,7 @@ POST /wiki2/article
     "link": "/Internet_Access/Port_Forwarding/Netgear/",
     "title": "Port Weiterleitung Netgear",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access", "dyndns", "Netgear"],
+    "tags": ["internet", "Fernzugriff", "DDNS", "Portweiterleitung", "forwarding", "Portfreigabe", "Router", "internet access", "dyndns", "AVM Fritzbox", "Telekom Speedport", "D-Link", "TP-Link", "Netgear", "Vodafone Easybox", "Pirelli Router A1 Austria", "Virtual Server", "no connection", "kein Zugriff", "unterwegs", "Handy", "InstarVision", "Port-Triggering"],
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Netgear.jpg",
     "abstract": "Portweiterleitung bei einem Netgear Router"
 }
@@ -204,7 +204,7 @@ POST /wiki2/article
     "link": "/Internet_Access/Port_Forwarding/Vodafone_Easybox/",
     "title": "Port Weiterleitung Vodafone Easybox",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access", "dyndns", "Vodafone Easybox"],
+    "tags": ["internet", "Fernzugriff", "DDNS", "Portweiterleitung", "forwarding", "Portfreigabe", "Router", "internet access", "dyndns", "AVM Fritzbox", "Telekom Speedport", "D-Link", "Netgear", "TP-Link", "Vodafone Easybox", "Pirelli Router A1 Austria", "Virtual Server", "no connection", "kein Zugriff", "unterwegs", "Handy", "InstarVision", "Port Mapping", "Protokolltyp", "LAN Port", "Öffentlicher Port"],
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Easybox.jpg",
     "abstract": "Portweiterleitung bei einer Vodafone Easybox"
 }
@@ -218,7 +218,7 @@ POST /wiki2/article
     "link": "/Internet_Access/Port_Forwarding/Pirelli/",
     "title": "Port Weiterleitung Pirelli Router",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access", "dyndns", "Pirelli Router"],
+    "tags": ["internet", "Fernzugriff", "DDNS", "Portweiterleitung", "forwarding", "Portfreigabe", "Router", "internet access", "dyndns", "AVM Fritzbox", "Telekom Speedport", "D-Link", "TP-Link", "Netgear", "Vodafone Easybox", "Pirelli Router A1 Austria", "Virtual Server", "no connection", "kein Zugriff", "unterwegs", "Handy", "InstarVision", "Portmapping", "Port Mapping", "Hairpinning", "Schnittstelle Typ", "Externer Port", "Local Host"],
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Pirelli.jpg",
     "abstract": "Portweiterleitung bei einem Pirelli Router"
 }
@@ -232,7 +232,7 @@ POST /wiki2/article
     "link": "/Internet_Access/Port_Forwarding/TP-Link/",
     "title": "Port Weiterleitung TP-Link Router",
     "chapter": "Internet Access",
-    "tags": ["internet", "access", "ddns", "port", "forwarding", "router", "internet access", "dyndns", "TP-Link Router"],
+    "tags": ["internet", "Fernzugriff", "DDNS", "Portweiterleitung", "forwarding", "Portfreigabe", "Router", "internet access", "dyndns", "AVM Fritzbox", "Telekom Speedport", "D-Link", "Netgear", "TP-Link", "Vodafone Easybox", "Pirelli Router A1 Austria", "Virtual Server", "no connection", "kein Zugriff", "unterwegs", "Handy", "InstarVision"],
     "image": "/images/Search/IA_SearchThumb_Portforwarding_TPLink.jpg",
     "abstract": "Portweiterleitung bei einem TP-Link Router"
 }
