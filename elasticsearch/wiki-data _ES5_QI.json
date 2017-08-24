@@ -6,11 +6,11 @@ POST /wiki2/article
     "description": "Wie funktioniert eine IP-Kamera? Eine IP-Kamera ist zwar ein komplexes Produkt, jedoch nicht kompliziert in der Anwendung. Im Folgenden möchten wir Ihnen die grundlegende Funktionsweise einer IP-Kamera erklären. Wenn Sie noch mehr Informationen zu unseren Kameras suchen können Sie bei ERSTE SCHRITTE weiterlesen, dort werden wir näher auf die Anwendung unserer Kameras eingehen. Nun aber erstmal zum Prinzip IP-Kamera. In diesem Video erhalten Sie eine kurze Einführung über die Funktionsweise einer IP-Kamera. Was ist eine IP-Kamera und wie funktioniert sie? Das IP in IP-Kamera ist die Abkürzung für Internet Protocol. Das heißt, diese Kamera kann mit einem Netzwerk verbunden und dann von anderen Geräten darauf zugegriffen werden. Dies kann nicht nur aus dem gleichen lokalen Netzwerk geschehen, sonern auch aus dem Internet. Bei unseren Instar IP-Kameras funktioniert das dann so: Sie verbinden Ihre Kamera per Kabel oder per WLAN mit Ihrem Router. Wenn Sie sich mit Ihrem Computer oder Smartphone im selben Netzwerk befinden geben Sie einfach die IP-Adresse der Kamera ein oder nutzen unser Instar Kamera Tool, und schon können Sie auf die Kamera zugreifen. Sie können sich mit Ihrer Kamera auch über das Internet verbinden. Dies geschieht entweder per DDNS-ADRESSE oder per P2P. Wenn Sie die Kamera aufrufen, gelangen Sie auf deren WEBOBERFLÄCHE. Dort können Sie Einstellungen wie Alarme, Zeitpläne oder Videokonfiguration vornehmen und diese werden dann auf der Kamera gespeichert. Die Kamera überwacht den Bildbereich und gibt Alarm wenn sich dort etwas bewegt. Ab wann ALARM AUSGELÖST wird und was dann geschieht können Sie individuell einstellen. Auch das manuelle Aufnehmen nach ZEITPLAN ist möglich. Dies ist das Grundprinzip unserer Kameras. Für weitere Informationen können Sie zu ERSTE SCHRITTE schauen oder einfach unser Wiki durchstöbern. Gerne helfen wir Ihnen bei unbeantworteten Fragen natürlich auch PERSÖNLICH weiter. Weitere Informationen zu Funktionen und Betriebsweise unserer IP-Kameras gibt es auch in folgenden Videos:",
     "description2": "How does an IP-Camera work? An IP camera is a complex product, however it is not complicated to operate a INSTAR product. In the following we want to give you an intorduction to the basic functions of an IP camera. For more information about our cameras you can continue reading the FIRST STEPS, where we will dive a little deeper. What is an IP camera and how does it work? The IP in IP-camera stands for Internet Protocol. This implies that the camera is being connected with a network, from which it can be accessed by other devices. The access is not only possible within the same network, but even through the internet. Using our IP cameras works like this: You connect your IP camera via LAN cable or wireless with your router. When your computer or smartphone is connected to the same router, you just type the camera´s IP address into your browsers address bar to access the web user interface (1080P MODELS / 720P MODELS). You can also remotely access your camera through the internet. This is possible via DDNS ADDRESS or via a POINT-TO-POINT connection. When you access your camera, you will enter its Web User Interface 1080P MODELS / 720P MODELS. There you can see the current live video and adjust settings such as alarms, schedules or video configuration. Those settings will be saved on the camera. The camera is opersting 24/7 and will notify you if something moves within the camera´s field of view. How sensitive the camera´s MOTION DETECTION is, and what happens after the alarm was triggered, can be set individually for each camera. Manual or planned recordings following a SCHEDULE are possible as well. This is the basic concept of our cameras. For further information you can check out the FIRST STEPS or you browse our Wiki. Of course you can ask us your unanswered questions PERSONALLY as well.",
     "link": "/Quick_Installation/How_Does_An_IP_Camera_Work",
-    "title": "Wie arbeitet eine IP Kamera?",
+    "title": "Wie funktioniert eine IP-Kamera?",
     "chapter": "Quick Installation",
-    "tags": ["Introduction", "Quickinstallation"],
+    "tags": ["IP Kamera", "Webcam", "Sicherheitskamera", "Überwachungskamera", "WLAN Kamera", "Hilfe", "Einführung"],
     "image": "/images/Search/QI_SearchThumb_HowDoesAnIPCameraWork.jpg",
-    "abstract": "Die Funktionsweise einer IP-Kamera"
+    "abstract": "Ein Einblick in die Funktionsweise einer IP Kamera"
 }
 POST /wiki2/article
 {
@@ -22,7 +22,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/After_Unpacking",
     "title": "Nach dem auspacken Ihrer INSTAR IP Kamera",
     "chapter": "Quick Installation",
-    "tags": ["Introduction", "Quickinstallation"],
+    "tags": ["Unboxing", "Inhalt", "Objektiv Justage", "unscharf", "Online Handbüchern", "Heizungseinbau", "Heizung", "Anschlusskabel", "SD Karte", "Karte erweitern"],
     "image": "/images/Search/QI_SearchThumb_AfterUnpackingYourIPCamera.jpg",
     "abstract": "Das Vorgehen nach dem Auspacken der Kamera"
 }
@@ -36,7 +36,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/First_Steps",
     "title": "Erste Schritte um Ihre IP Kamera zum laufen zu bringens",
     "chapter": "Quick Installation",
-    "tags": ["Introduction", "Quickinstallation"],
+    "tags": ["Assitent", "Benutzer ändern", "Kamera Tool", "IP Scanner", "Weboberfläche", "Software Update", "DDNS Dienst", "Portweiterleitung", "SD Karte Kapazität", "Bandbreite", "Blickwinkel", "Datenverbrauch", "Live Video", "Bewegungserkennung", "Benachrichtigung", "Online Handbücher", "Videoaufnahme", "Video speichern", "InstarVision", "Handy App", "Anschlusskabel", "Heizung", "Zoom", "Zoom-Objektiv", "Akku", "SIM-Karte", "Alarmvideos", "Videolänge", "Zeitraffer", "timelapse", "Synology", "QNAP"],
     "image": "/images/Search/QI_SearchThumb_FirstStepsWithYourIPCamera.jpg",
     "abstract": "Erste Schritte der Einrichtung der Kamera"
 }
@@ -50,7 +50,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/Power_over_Ethernet/",
     "title": "Power over Ethernet",
     "chapter": "Quick Installation",
-    "tags": ["Introduction", "Quickinstallation", "Network"],
+    "tags": ["Power over Ethernet", "PoE", "PoE Switch", "PoE Injektor", "PoE Splitter", "IN-PoE 1000", "IN-PoE 8000", "IN-PoE 4000", "PoE Kamera", "IN-6014 HD PoE", "IN-3011 PoE", "IN-5907 HD PoE"],
     "image": "/images/Search/QI_SearchThumb_PowerOverEthernet.jpg",
     "abstract": "Stromversorgung über das LAN Kabel"
 }
@@ -64,7 +64,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/Powerline/",
     "title": "Powerline",
     "chapter": "Quick Installation",
-    "tags": ["Introduction", "Quickinstallation", "Network", "D-LAN", "IN-LAN", "Homeplug AV", "Devolo"],
+    "tags": ["Powerline", "Steckdose", "Network", "D-LAN", "IN-LAN", "Homeplug AV", "Devolo", "IN-LAN 500", "IN-LAN 500p"],
     "image": "/images/Search/QI_SearchThumb_Powerline.jpg",
     "abstract": "Netzwerkverbindung über das Stromkabel"
 }
@@ -78,9 +78,9 @@ POST /wiki2/article
     "link": "/Quick_Installation/Direct_LAN_Connection",
     "title": "Direkte Verbindung mit einem PC oder Notebook",
     "chapter": "Quick Installation",
-    "tags": ["Introduction", "Quickinstallation", "Network"],
+    "tags": ["Direkte LAN-Verbindung", "Direktverbindung", "direkt", "ohne Router", "kein Netzwerk", "kein Internet", "LAN Kabel"],
     "image": "/images/Search/QI_SearchThumb_DirectConnectionWithYourPC.jpg",
-    "abstract": "Herstellen einer direkten LAN-Verbindung zum Computer"
+    "abstract": "Herstellen einer direkten LAN Verbindung zum Computer"
 }
 POST /wiki2/article
 {
@@ -92,7 +92,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/Alternative_IP_Scanner",
     "title": "INSTAR Camera Tool",
     "chapter": "Quick Installation",
-    "tags": ["Introduction", "Quickinstallation", "Network", "Camera Tool", "Kamera Tool"],
+    "tags": ["IP Scanner", "Kamera suchen", "Kamera nicht gefunden", "Camera Tool", "Kamera Tool", "SD Karten Zugriff", "Angry IP Scanner", "Fing", "verbinden"],
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_eng.jpg",
     "abstract": "Auffinden Ihrer Kamera in Ihrem Netzwerk"
 }
@@ -106,7 +106,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/Alternative_IP_Scanner/Angry_IP_Scanner",
     "title": "Wie Sie Ihrer IP Kamera mit einem alternativen IP Scanner finden",
     "chapter": "Quick Installation",
-    "tags": ["Introduction", "Quickinstallation", "Network"],
+    "tags": ["IP Scanner", "Kamera suchen", "Kamera nicht gefunden", "SD Karten Zugriff", "Angry IP Scanner", "Fing", "verbinden"],
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_Angry_eng.jpg",
     "abstract": "Angry IP Scanner zum Finden der Kamera im lokalen Netzwerk"
 }
@@ -120,7 +120,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/Alternative_IP_Scanner/Fing_CLI",
     "title": "Wie Sie Ihrer IP Kamera mit einem alternativen IP Scanner finden",
     "chapter": "Quick Installation",
-    "tags": ["Introduction", "Quickinstallation", "Network"],
+    "tags": ["IP Scanner", "Kamera suchen", "Kamera nicht gefunden", "SD Karten Zugriff", "Angry IP Scanner", "Fing", "verbinden"],
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_FingCLI_eng.jpg",
     "abstract": "Fing Command Line Interface zum Finden der Kamera im lokalen Netzwerk"
 }
@@ -134,7 +134,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/Alternative_IP_Scanner/Fing_Mobile",
     "title": "Wie Sie Ihrer IP Kamera mit einem alternativen IP Scanner finden",
     "chapter": "Quick Installation",
-    "tags": ["Introduction", "Quickinstallation", "Network"],
+    "tags": ["IP Scanner", "Kamera suchen", "Kamera nicht gefunden", "SD Karten Zugriff", "Angry IP Scanner", "Fing", "verbinden"],
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_FingMobile_eng.jpg",
     "abstract": "Fing Mobile App zum Finden der Kamera im lokalen Netzwerk"
 }
@@ -148,7 +148,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/Language_Selection",
     "title": "Sprachauswahl in der IP Kamera",
     "chapter": "Quick Installation",
-    "tags": ["Introduction", "Quickinstallation", "Web User Interface", "WebUI"],
+    "tags": ["Weboberfläche", "Spracheinstellungen", "Sprache auswählen", "language", "Web User Interface", "WebUI", "Deutsch", "Französisch", "Englisch", "Chinesisch"],
     "image": "/images/Search/QI_SearchThumb_LanguageSettings.jpg",
     "abstract": "Spracheinstellungen in der Weboberfläche"
 }
@@ -162,7 +162,7 @@ POST /wiki/article
     "link": "/Quick_Installation/Live_Video",
     "title": "Das Live Video",
     "chapter": "Quick Installation",
-    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
+    "tags": ["Weboberfläche", "Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "Video Plugin", "kein Video", "Kamera Tool", "Browser", "Chrome", "Firefox", "Internet Explorer", "Safari"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo.jpg",
     "abstract": "Abspielen des Live Videos in der Weboberfläche"
 }
@@ -176,7 +176,7 @@ POST /wiki/article
     "link": "/Quick_Installation/Live_Video/ActiveX",
     "title": "Das ActiveX Videoplugin",
     "chapter": "Quick Installation",
-    "tags": ["Live Video", "web user interface", "ActiveX", "video Plugin"],
+    "tags": ["Live Video", "web user interface", "ActiveX", "video Plugin", "Internet Explorer", "Firefox"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_ActiveX.jpg",
     "abstract": "Das Live-Bild der Kamera mit dem ActiveX plugin abspielen"
 }
@@ -190,7 +190,7 @@ POST /wiki/article
     "link": "/Quick_Installation/Live_Video/QuickTime/",
     "title": "Das QuickTime Videoplugin",
     "chapter": "Quick Installation",
-    "tags": ["Live Video", "web user interface", "QuickTime", "video Plugin"],
+    "tags": ["Live Video", "web user interface", "QuickTime", "video Plugin", "Safari", "Firefox", "Chrome"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_QuickTime.jpg",
     "abstract": "Das Live-Bild der Kamera mit Quick Time Video abspielen"
 }
@@ -218,7 +218,7 @@ POST /wiki/article
     "link": "/Quick_Installation/Live_Video/Troubleshooting/Avast/",
     "title": "Avast Internet Security",
     "chapter": "Quick Installation",
-    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
+    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin", "Avast", "kein Video", "blockiert", "Ausnahme"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Avast.jpg",
     "abstract": "Konfiguration des Avast Internet Security Virenscanner"
 }
@@ -232,7 +232,7 @@ POST /wiki/article
     "link": "/Quick_Installation/Live_Video/Troubleshooting/Kaspersky_2013/",
     "title": "Kaspersky Internet Security 2013",
     "chapter": "Quick Installation",
-    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
+    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin", "Kaspersky", "kein Video", "blockiert", "Ausnahme"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Kaspersky13.jpg",
     "abstract": "Konfiguration des Kaspersky Internet Security 2013 Virenscanner"
 }
@@ -246,7 +246,7 @@ POST /wiki/article
     "link": "/Quick_Installation/Live_Video/Troubleshooting/Kaspersky_2014/",
     "title": "Kaspersky Internet Security 2014",
     "chapter": "Quick Installation",
-    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
+    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin", "Kaspersky", "kein Video", "blockiert", "Ausnahme"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Kaspersky14.jpg",
     "abstract": "Konfiguration des Kaspersky Internet Security 2014 Virenscanner"
 }
@@ -260,7 +260,7 @@ POST /wiki/article
     "link": "/Quick_Installation/Live_Video/Troubleshooting/Kaspersky_2017/",
     "title": "Kaspersky Internet Security 2017",
     "chapter": "Quick Installation",
-    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
+    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin", "Kaspersky", "kein Video", "blockiert", "Ausnahme"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Kaspersky17.jpg",
     "abstract": "Konfiguration des Kaspersky Internet Security 2017 Virenscanner"
 }
@@ -274,7 +274,7 @@ POST /wiki/article
     "link": "/Quick_Installation/Live_Video/Troubleshooting/AVG/",
     "title": "AVG Internet Security",
     "chapter": "Quick Installation",
-    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
+    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin", "AVG", "kein Video", "blockiert", "Ausnahme"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_AVG.jpg",
     "abstract": "Konfiguration des AVG Internet Security Virenscanner"
 }
@@ -288,7 +288,7 @@ POST /wiki/article
     "link": "/Quick_Installation/Live_Video/Troubleshooting/AVIRA/",
     "title": "AVIRA Antivirus Pro",
     "chapter": "Quick Installation",
-    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
+    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin", "AVIRA", "kein Video", "blockiert", "Ausnahme"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Avira.jpg",
     "abstract": "Konfiguration des AVIRA Antivirus Pro Virenscanner"
 }
@@ -302,7 +302,7 @@ POST /wiki/article
     "link": "/Quick_Installation/Live_Video/Troubleshooting/F-Secure/",
     "title": "F-Secure Internet Security",
     "chapter": "Quick Installation",
-    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin"],
+    "tags": ["Live Video", "web user interface", "QuickTime", "Flash", "ActiveX", "video Plugin", "F-Secure", "kein Video", "blockiert", "Ausnahme"],
     "image": "/images/Search/QI_SearchThumb_LiveVideo_F-Secure.jpg",
     "abstract": "Konfiguration des F-Secure Internet Security Virenscanner"
 }
@@ -316,7 +316,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/Creating_User_Accounts",
     "title": "Benutzer Erstellen und Verwalten",
     "chapter": "Quick Installation",
-    "tags": ["introduction", "quickinstallation", "web user interface", "webui", "installation", "default", "password", "login", "Benutzername", "Kennwort"],
+    "tags": ["Weboberfläche", "Benutzerverwaltung", "Benutzer", "web user interface", "webui", "standard login", "default", "password", "Passwort", "Benutzername", "Benutzername", "Kennwort", "Admin", "User", "Guest", "ändern", "deaktivieren"],
     "image": "/images/Search/QI_SearchThumb_CreatingUserAccounts.jpg",
     "abstract": "Einstellen der Benutzerzugänge"
 }
@@ -330,7 +330,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/WebUI_And_Firmware_Upgrade",
     "title": "WebUI / Firmware Upgrade",
     "chapter": "Quick Installation",
-    "tags": ["update", "installation", "web user interface", "webui", "software", "interface", "firmware"],
+    "tags": ["update", "upgrade", "web user interface", "webui", "software", "aktualisieren", "firmware"],
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_1080p.jpg",
     "abstract": "Durchführen eines Updates der WebUI und Firmware"
 }
@@ -344,7 +344,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/WebUI_And_Firmware_Upgrade/720p_Cameras/",
     "title": "WebUI / Firmware Upgrade",
     "chapter": "Quick Installation 720p",
-    "tags": ["update", "installation", "web user interface", "webui", "software", "interface", "firmware"],
+    "tags": ["update", "upgrade", "web user interface", "webui", "software", "aktualisieren", "firmware"],
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_720p.jpg",
     "abstract": "Durchführen eines Updates der WebUI und Firmware bei einer HD-Kamera"
 }
@@ -358,7 +358,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/WebUI_And_Firmware_Upgrade/VGA_Cameras/",
     "title": "WebUI / Firmware Upgrade VGA",
     "chapter": "Quick Installation",
-    "tags": ["update", "installation", "web user interface", "webui", "software", "interface", "firmware"],
+    "tags": ["update", "upgrade", "web user interface", "webui", "software", "aktualisieren", "firmware"],
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_VGA.jpg",
     "abstract": "Durchführen eines Updates der WebUI und Firmware bei einer VGA-Kamera"
 }
@@ -372,7 +372,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/How_To_Clear_Your_Browsing_History",
     "title": "Wie leert man den Cache (Historie/Verlauf) des Browsers nach dem Update",
     "chapter": "Quick Installation",
-    "tags": ["browser", "web user interface", "webui", "update", "history"],
+    "tags": ["browser", "web user interface", "webui", "Verlauf löschen", "history", "Update", "Weboberfläche", "nicht gepeichert", "nicht angezeigt", "ohne Funktion", "kein Video", "reagiert nicht", "funktioniert nicht", "ohne Reaktion"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory.jpg",
     "abstract": "Leeren des Browser-Verlaufs nach einem Software-Update"
 }
@@ -386,7 +386,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/How_To_Clear_Your_Browsing_History/Internet_Explorer",
     "title": "Wie leert man den Cache (Historie/Verlauf) des Browsers nach dem Update",
     "chapter": "Quick Installation",
-    "tags": ["browser", "web user interface", "webui", "update", "history", "internet explorer"],
+    "tags": ["browser", "web user interface", "webui", "Verlauf löschen", "history", "Update", "Weboberfläche", "nicht gepeichert", "nicht angezeigt", "ohne Funktion", "kein Video", "reagiert nicht", "funktioniert nicht", "ohne Reaktion", "Internet Explorer"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_IE.jpg",
     "abstract": "Leeren des Browser-Verlaufs im Internet Explorer nach einem Software-Update"
 }
@@ -400,7 +400,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/How_To_Clear_Your_Browsing_History/Mozilla_Firefox",
     "title": "Wie leert man den Cache (Historie/Verlauf) des Browsers nach dem Update",
     "chapter": "Quick Installation",
-    "tags": ["browser", "web user interface", "webui", "update", "history", "mozilla", "firefox"],
+    "tags": ["browser", "web user interface", "webui", "Verlauf löschen", "history", "Update", "Weboberfläche", "nicht gepeichert", "nicht angezeigt", "ohne Funktion", "kein Video", "reagiert nicht", "funktioniert nicht", "ohne Reaktion", "Firefox"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Firefox.jpg",
     "abstract": "Leeren des Browser-Verlaufs in Mozilla Firefox nach einem Software-Update"
 }
@@ -414,7 +414,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/How_To_Clear_Your_Browsing_History/Google_Chromium",
     "title": "Wie leert man den Cache (Historie/Verlauf) des Browsers nach dem Update",
     "chapter": "Quick Installation",
-    "tags": ["browser", "web user interface", "webui", "update", "history"],
+    "tags": ["browser", "web user interface", "webui", "Verlauf löschen", "history", "Update", "Weboberfläche", "nicht gepeichert", "nicht angezeigt", "ohne Funktion", "kein Video", "reagiert nicht", "funktioniert nicht", "ohne Reaktion", "Chrome"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Chrome.jpg",
     "abstract": "Leeren des Browser-Verlaufs in Google Chrome nach einem Software-Update"
 }
@@ -428,7 +428,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/How_To_Clear_Your_Browsing_History/Opera",
     "title": "Wie leert man den Cache (Historie/Verlauf) des Browsers nach dem Update",
     "chapter": "Quick Installation",
-    "tags": ["browser", "web user interface", "webui", "update", "history", "opera"],
+    "tags": ["browser", "web user interface", "webui", "Verlauf löschen", "history", "Update", "Weboberfläche", "nicht gepeichert", "nicht angezeigt", "ohne Funktion", "kein Video", "reagiert nicht", "funktioniert nicht", "ohne Reaktion", "Opera"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Opera.jpg",
     "abstract": "Leeren des Browser-Verlaufs in Opera nach einem Software-Update"
 }
@@ -442,7 +442,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/How_To_Clear_Your_Browsing_History/Microsoft_Edge",
     "title": "Wie leert man den Cache (Historie/Verlauf) des Browsers nach dem Update",
     "chapter": "Quick Installation",
-    "tags": ["browser", "web user interface", "webui", "update", "history", "microsoft", "edge"],
+    "tags": ["browser", "web user interface", "webui", "Verlauf löschen", "history", "Update", "Weboberfläche", "nicht gepeichert", "nicht angezeigt", "ohne Funktion", "kein Video", "reagiert nicht", "funktioniert nicht", "ohne Reaktion", "Edge"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Edge.jpg",
     "abstract": "Leeren des Browser-Verlaufs in Microsoft Edge nach einem Software-Update"
 }
@@ -456,7 +456,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/How_To_Clear_Your_Browsing_History/Vivaldi",
     "title": "Wie leert man den Cache (Historie/Verlauf) des Browsers nach dem Update",
     "chapter": "Quick Installation",
-    "tags": ["browser", "web user interface", "webui", "update", "history", "vivaldi"],
+    "tags": ["browser", "web user interface", "webui", "Verlauf löschen", "history", "Update", "Weboberfläche", "nicht gepeichert", "nicht angezeigt", "ohne Funktion", "kein Video", "reagiert nicht", "funktioniert nicht", "ohne Reaktion", "Vivaldi"],
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Vivaldi.jpg",
     "abstract": "Leeren des Browser-Verlaufs in Vivaldi nach einem Software-Update"
 }
@@ -468,9 +468,9 @@ POST /wiki2/article
     "description": "WLAN Wie stelle ich eine WLAN Verbindung her Bitte seien Sie sich bewusst das die Kamera zuerst per LAN Kabel eingerichtet werden sollte, bevor diese per WLAN verbunden werden kann - siehe Erste Schritte und Nach dem Auspacken. Bitte nutzen Sie das mitgelieferte LAN Kabel um die Kamera mit Ihrem Router zu verbinden. Nachdem die Kamera verbunden ist, öffnen Sie bitte die Weboberfläche der Kamera in Ihrem Webbrowser. Verbinden Sie die WLAN Antenne an der Rückseite der Kamera SMA/RP-SMA (nur bei Modellen mit abnehmbarer Antenne) und richten Sie diese vertikal zum Router aus. Platzieren Sie die Kamera in der Nähe des Routers für den Installationsprozess. Bringen Sie die Antenne an Ihrer Innenkamera an. Bringen Sie die Antenne an Ihrer Außenkamera an. HD Kameras Achtung: Bei der Verschlüsselung bitte darauf achten, dass diese keine Sonderzeichen beinhaltet wie z.B. Gehen Sie sicher, dass beim Router kein MAC Filter aktiv ist, der den Zugriff der Kamera auf das WLAN Netzwerk unterbindet. Das LAN Modul der Kamera hat eine andere MAC Adresse als das WLAN Modul. Wenn Sie eine WLAN Zugangskontrolle an Ihrem Router nutzen, so deaktivieren Sie diese am besten, verbinden die Kamera und aktivieren diese dann später erneut. Sollten Sie Probleme bei der WLAN Verbindung haben so wechseln Sie einmal den Kanel auf z.B. Kanal 6 oder einen anderen Kanal welcher nicht von Routern in der Umgebung genutzt wird. Wenn Sie die Kamera über DHCP laufen haben, dann achten Sie bitte darauf, dass die Kamera eine neue IP Adresse bekommt wenn Sie unter WLAN läuft. Diese finden Sie heraus indem Sie das IP Camera Tool öffnen welches sich auf der mitgelieferten CD befindet. Wir empfehlen Ihnen eine feste IP Adresse zu vergeben da dann die Kamera sowohl per LAN als auch WLAN die gleiche IP Adresse nutzt. Die IP können Sie unter Netzwerk - IP Konfiguration festlegen. Sollten Sie eine WEP 128 Bit Verschlüsslung nutzen und Probleme bei der Einrichtung haben, dann empfehlen wir Ihnen die Verschlüssung auf WPA oder WPA2 abzuändern und es nochmal zu versuchen. 1080p Modelle Schritt 1: Öffnen Sie bitte das Netzwerk/WLAN Menü in der Weboberfläche Ihrer Kamera. Klicken Sie auf Suchen um das WLAN Modul zu aktivieren. Die Kamera wird dann nach aktiven 2.4GHz Netzwerken in Ihrer Umgebung suchen. Wählen Sie aus den gefundenen WLAN Netzwerken Ihr Netzwerk, tragen Sie Ihren WLAN Schlüssel ein und drücken Sie Übernehmen um die Einstellungen des Netzwerkes zu übernehmen. Sofern der Test erfolgreich war entfernen Sie einfach das LAN Kabel an der Kamera. Es wird ca. 30 Sekunden dauern bis sich die Kamera per WLAN mit Ihrem Router verbindet. Sofern die Kamera keine feste IP hat wird diese vom Router eine neue IP erhalten. Nutzen Sie ggbf. das Suchtool um die Kamera im Netzwerk zu finden. 720p Modelle Schritt 1: Öffnen Sie bitte das Menü Netzwerk/Wlan wie unten zu sehen. Öffnen Sie die WLAN Einstellungen in Ihrer Kamera. Schritt 2: Klicken Sie auf Suchen um das WLAN Modul zu aktivieren. Die Kamera wird dann nach aktiven 2.4GHz Netzwerken in Ihrer Umgebung suchen. Nutzen Sie die Suchfunktion der Kamera um 2.4GHz WLAN Netzwerke in Ihrer Umgebung zu finden. Schritt 3: Wählen Sie aus den gefundenen WLAN Netzwerken Ihr Netzwerk und drücken Sie Übernehmen um die Einstellungen des Netzwerkes zu übernehmen. Select your network from the list and press Join. Schritt 4: Tragen Sie jetzt lediglich Ihren WLAN Schlüssel ein und bestätigen Sie die Einstellungen. Nachdem Sie Bestätigen gedrückt haben wird es die Möglichkeit geben die WLAN Verbindung zu Testen. Sofern der Test erfolgreich war entfernen Sie einfach das LAN Kabel an der Kamera. Es wird ca. 30 Sekunden dauern bis sich die Kamera per WLAN mit Ihrem Router verbindet. Sofern die Kamera keine feste IP hat wird diese vom Router eine neue IP erhalten. Nutzen Sie ggbf. das Suchtool um die Kamera im Netzwerk zu finden. Tragen Sie Ihr WLAN Passwort ein und Bestätigen Sie die Einstellungen. VGA Kameras ACHTUNG: Gehen Sie sicher, dass beim Router kein MAC Filter aktiv ist, der den Zugriff der Kamera auf das WLAN Netzwerk unterbindet. Das LAN Modul der Kamera hat eine andere MAC Adresse als das WLAN Modul. Wenn Sie eine WLAN Zugangskontrolle an Ihrem Router nutzen, so deaktivieren Sie diese am besten, verbinden die Kamera und aktivieren diese dann später erneut. Sollten Sie Probleme bei der WLAN Verbindung haben so wechseln Sie einmal den Kanel auf z.B. Kanal 6 oder einen anderen Kanal welcher nicht von Routern in der Umgebung genutzt wird. Wenn Sie die Kamera über DHCP laufen haben, dann achten Sie bitte darauf, dass die Kamera eine neue IP Adresse bekommt wenn Sie unter WLAN läuft. Diese finden Sie heraus indem Sie das IP Camera Tool öffnen welches sich auf der mitgelieferten CD befindet. Wir empfehlen Ihnen eine feste IP Adresse zu vergeben da dann die Kamera sowohl per LAN als auch WLAN die gleiche IP Adresse nutzt. Die IP können Sie unter Netzwerk - IP Konfiguration festlegen. Sollten Sie eine WEP 128 Bit Verschlüsslung nutzen und Probleme bei der Einrichtung haben, dann empfehlen wir Ihnen die Verschlüssung auf WPA oder WPA2 abzuändern und es nochmal zu versuchen. Schritt 1: Bitte gehen Sie in das Menü Netzwerk/Wlan wie unten zu sehen. Öffnen Sie die WLAN Einstellungen in der Weboberfläche Ihrer IP Kamera. Schritt 2: Klicken Sie auf zwei bis dreimal auf Scannen um so das WLAN Modul zu aktivieren. Die Kamera wird dann alle aktiven 2.4GHz Netzwerke in Ihrer Umgebung finden. Nutzen Sie die Suchfunktion der Kamera um so alle 2.4Ghz Netzwerke in Ihrer Umgebung zu finden. Schritt 3: Wählen Sie Ihr WLAN Netzwerk aus der Liste der gefundenen Netzwerke. Die Kamera wird automatisch alle Daten eintragen bis auf den WLAN Netzwerkschlüssel. Wählen Sie Ihr Netzwerk aus der Liste aus. Schritt 4: Now simply add your Wifi password (shared key) and press the Submit button to save the information. To connect the camera to your wireless network and unplug the Ethernet cable. The camera will automatically connect to your wireless network and receive a new IP address from your router by DHCP (if activated). Tragen Sie jetzt lediglich noch den WLAN Netzwerkschlüssel (shared key) ein und drücken Sie Bestätigen um die Einstellungen zu speichern.",
     "description2": "Wireless First steps to set up a Wifi connection Please be aware that the camera has to be installed via LAN cable first before it can be used in your wireless network - see First Steps. Please use the included Ethernet cable to connect the camera with your router. After the camera is connected, please open the web interface of your IP camera in your default web browser. Connect the WiFi antenna to the SMA or RP-SMA on camera (only for models with removable antenna), align it vertically to your router and place the camera close to your Wifi router for the rest of the installation process. Connect the antenna to your indoor camera. Connect the antenna to your outdoor camera. HD Cameras ATTENTION: Please make sure the password does not include any special characters such as ... Please make sure that the MAC Filter function is not activated in your router. The cameras LAN module has a different MAC address then the Wifi board. If you are using the Wifi access control of your router, please deactivate it, let the camera connect and add the new MAC address to the list of trusted devices before reactivating the filter. If you have trouble connecting to the network try setting the router´s Wifi channel to channel 6 or a channel which is not being used by routers nearby. If you have the camera set to use the DHCP service be aware that it will receive a new IP address because the MAC address for the Wifi board is different from the LAN MAC address. Simply open the INSTAR camera tool to reconnect to the camera. We recommend using a static IP address if you are having difficulties connecting to the wireless network. You can set a static IP in the web user interface in Network/IP configuration. If you are using a WEP 128 Bit encryption and you encounter any problems, we recommend you to switch your encryption to WPA (AES) or WPA2 (AES or CCMP). Also avoid mixed modes like WPA/WPA2 (TKIP). Step 1: Please open the menu Network/Wifi as shown below. Open the Wifi menu in the web user interface. Step 2: Click on the Search button to activate the Wifi module and let the camera search for active 2.4GHz networks in it´s environment. Use the camera´s search function to discover available 2.4GHz Wifi networks. Step 3: Choose your Wifi network from the list and press the Join button to copy the network´s details into the cameras Wifi settings. Select your network from the list and press Join. Step 4: Now simply add your Wifi password and confirm your input. Pressing the Submit button will save the information and allow you to Test the connection. To connect the camera to your wireless network, unplug the Ethernet cable and restart it. The camera will automatically connect to your wireless network and receive a new IP address from your router by DHCP (if activated). Please add your Wifi password and click Submit to save the information. VGA Cameras ATTENTION: Please make sure that the MAC Filter function is not activated in your router. The cameras LAN module has a different MAC address then the Wifi board. If you are using the Wifi access control of your router, please deactivate it, let the camera connect and add the new MAC address to the list of trusted devices before reactivating the filter. If you have trouble connecting to the network try setting the router´s Wifi channel to channel 6 or a channel which is not being used by routers nearby. If you have the camera set to use the DHCP service be aware that it will receive a new IP address because the MAC address for the Wifi board is different from the LAN MAC address. Simply open the INSTAR camera tool to reconnect to the camera. We recommend using a static IP address if you are having difficulties connecting to the wireless network. You can set a static IP in the web user interface in Network/IP configuration. If you are using a WEP 128 Bit encryption and you encounter any problems, we recommend you to switch your encryption to WPA (AES) or WPA2 (AES or CCMP). Also avoid mixed modes like WPA/WPA2 (TKIP). Step 1: Please open the menu Network/Wifi as shown below. Open the Wifi menu in the web user interface. Step 2: Click on the Scan button twice to activate the Wifi module and let the camera search for active 2.4GHz networks in it´s environment. Use the camera´s search function to discover available 2.4GHz Wifi networks. Step 3: Choose your Wifi network from the list to automatically copy the network´s details into the cameras Wifi settings. Select your network from the list. Step 4: Now simply add your Wifi password (shared key) and press the Submit button to save the information. To connect the camera to your wireless network and unplug the Ethernet cable. The camera will automatically connect to your wireless network and receive a new IP address from your router by DHCP (if activated). Please add your Wifi password and click Submit to save the information.",
     "link": "/Quick_Installation/Set_Up_A_Wireless_Connection",
-    "title": "Wie stelle ich eine WLAN Verbindung her?",
+    "title": "WLAN Verbindun",
     "chapter": "Quick Installation",
-    "tags": ["wireless", "wlan", "network", "connection", "router", "wps"],
+    "tags": ["wireless", "WLAN Verbindung", "kabellos", "WPS", "kein LAN Kabel", "Antenne", "SMA", "RP-SMA", "WLAN Schlüssel", "erlaubte Zeichen", "verbotene Zeichen", "MAC Filter"],
     "image": "/images/Search/QI_SearchThumb_WLAN.jpg",
     "abstract": "Herstellen einer WLAN-Verbindung von der Kamera zum Router"
 }
@@ -484,7 +484,7 @@ POST /wiki2/article
     "link": "/Quick_Installation/ONVIF/",
     "title": "ONVIF",
     "chapter": "Quick Installation",
-    "tags": ["ONVIF", "network", "connection"],
+    "tags": ["ONVIF", "Profil S", "Version 2.4", "ONVIF Device Manager"],
     "image": "/images/Search/QI_SearchThumb_ONVIF.jpg",
     "abstract": "Einbiden der Kamera per ONVIF Protokoll"
 }
