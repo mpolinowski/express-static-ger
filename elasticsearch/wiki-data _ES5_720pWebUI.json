@@ -518,6 +518,20 @@ POST /wiki2/article
 }
 POST /wiki2/article
 {
+    "title2": "Alarmserver Overlay",
+    "series": ["HD", "Indoor", "Outdoor"],
+    "models": ["IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
+    "description": "Öffnen, formatieren oder entfernen Sie Ihre SD-Karte Das SD-Karten Menü Wählen Sie ob Sie die SD Karte auswerfen oder Formatieren möchten und bestätigen Sie die Eingabe. Es ist immer empfohlen die SD Karte zuerst auszuwerfen, bevor Sie sie aus der Kamera entfernen. Gerade wenn die Kamera eine Aufnahme durchführt während die Stromversorgung gekappt wird, kann es zu Fehlern im Dateisystem kommen. Sollte die SD Karte beschädigt werden, wird das Betriebsysstem versuchen die SD Karte zu reparieren und es kann einige Minuten dauern, bis die SD Karte wieder verfügbar ist. Sollte die SD Karte auch nach einiger Zeit noch nicht erreichbar sein, können Sie probieren die Karte zu formatieren. Sollte die Karte ausgeworfen werden, wird das Betriebssystem versuchen Sie nach einiger Zeit wieder automatisch zu mounten. Ein Klick auf den Link über dem Bestätigen-Button wird Sie auf das SD-Karten Verzeichnis weiterleiten, auf dem all Ihre Snapshots und Videos gespeichert werden. Verwenden Sie den Admin-Login Ihrer Kamera um sich einzuloggen. Es gibt auch bequemere Wege den Inhalt der SD-Karte zu sehen, zum Beispiel über Drittanbietersoftware oder unsere mobile Smartphone-App InstarVision.",
+    "description2": "SD Card Overlay - Please check the corresponding box and click submit to either format or unmount your SD card. It is recommended to always unmount your SD card before removing it from your camera! Your SD card might be unavailable after an unexpected restart. Please wait for the operating system to check the file system for errors. The SD card will show up again once it was successfuly mounted by the system. Open, format or unmount your SD Card. The SD Card Menu: Please check the corresponding box and click submit to either format or unmount your SD card. It is recommended to always unmount your SD card before removing it from your camera! Your SD card might be unavailable after an unexpected restart. Please wait for the operating system to check the file system for errors. The SD card will show up again once it was successfuly mounted by the system. A click on the link above the submit button will lead you to the SD card directory where all your snapshots and videos will be stored. Use your camera admin login to access the directory. But there are also more convenient ways to access your recordings via third-party software or our mobile phone app InstarVision.",
+    "link": "/Web_User_Interface/720p_Series/Alarm/Alarmserver/",
+    "title": "Das Alarmserver Overlay",
+    "chapter": "Web User Interface",
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Alarm", "Bewegungserkennung", "Alarmserver", "Raspberry Pi", "Hausautomatisierung", "Smarthome", "FHEM"],
+    "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_SD_Card.jpg",
+    "abstract": "Verwalten der SD-Karte"
+}
+POST /wiki2/article
+{
     "title2": "Recording Menu",
     "series": ["HD", "Indoor", "Outdoor"],
     "models": ["IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
@@ -596,7 +610,7 @@ POST /wiki2/article
     "link": "/Web_User_Interface/720p_Series/Video_Menu_Bar/",
     "title": "Die Video Menueleiste",
     "chapter": "Web User Interface",
-    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Video Bar", "Zoom", "ActiveX", "Internet Explorer", "Aufnahmepfad", "Audio", "Gegensprechen", "2-Wege Audio", "Mikrofon", "Lautsprecher"],
+    "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Video Bar", "Zoom", "digitaler Zoom", "ActiveX", "Internet Explorer", "Aufnahmepfad", "Audio", "Gegensprechen", "2-Wege Audio", "Mikrofon", "Lautsprecher"],
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Videoeinstellungen des ActiveX Plugin"
 }
