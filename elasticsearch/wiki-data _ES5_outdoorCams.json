@@ -8,7 +8,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-9008_HD",
     "title": "IN-9008 HD - Produkt Übersicht",
     "chapter": "INSTAR Products",
-    "tags": ["IN-9008 HD", "INSTAR", "products", "1080p series", "indoor", "IP camera", "web cam", "overview"],
+    "tags": ["IN-9008 Full HD", "INSTAR", "Überwachungskamera", "1080p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Übersicht", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-9008HD.jpg",
     "abstract": "IN-9008 HD - Produktüberblick"
 }
@@ -22,7 +22,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-9008_HD/Technical_Specifications",
     "title": "IN-9008 HD - Technische Spezifikationen",
     "chapter": "INSTAR Products",
-    "tags": ["IN-9008 HD", "INSTAR", "products", "1080p series", "outdoor", "IP camera", "web cam", "overview"],
+    "tags": ["IN-9008 Full HD", "INSTAR", "Überwachungskamera", "1080p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Technische Spezifikationen", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-9008HD_Technical_Specifications.jpg",
     "abstract": "IN-9008 HD Technische Spezifikationen"
 }
@@ -36,7 +36,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-9008_HD/Product_Features",
     "title": "Produkt Merkmale",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-9008 Full HD", "INSTAR", "Überwachungskamera", "1080p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Features", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-9008HD_Features.jpg",
     "abstract": "IN-9008 HD Produkt-Eigenschaften"
 }
@@ -50,7 +50,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-9008_HD/Quick_Installation",
     "title": "Schnellinstallation Anleitung",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-9008 Full HD", "INSTAR", "Überwachungskamera", "1080p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Schnellinstallation", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-9008HD_Quick_Installation.jpg",
     "abstract": "IN-9008 HD Schnellinstallation"
 }
@@ -64,7 +64,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-7011_HD",
     "title": "IN-7011 HD - Produkt Übersicht",
     "chapter": "INSTAR Products",
-    "tags": ["IN-7011 HD", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
+    "tags": ["IN-7011 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Übersicht", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-7011HD.jpg",
     "abstract": "IN-7011 HD - Produktüberblick"
 }
@@ -78,7 +78,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-7011_HD/Technical_Specifications",
     "title": "IN-7011 HD - Technische Spezifikationen",
     "chapter": "INSTAR Products",
-    "tags": ["IN-7011 HD", "INSTAR", "products", "HD series", "outdoor", "IP camera", "web cam", "overview"],
+    "tags": ["IN-7011 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Technische Spezifikationen", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Technical_Specification.jpg",
     "abstract": "IN-7011 HD Technische Spezifikationen"
 }
@@ -92,7 +92,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-7011_HD/Product_Features",
     "title": "Produkt Merkmale",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-7011 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Features", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Features.jpg",
     "abstract": "IN-7011 HD Produkt-Eigenschaften"
 }
@@ -106,7 +106,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-7011_HD/Quick_Installation",
     "title": "Schnellinstallation Anleitung",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-7011 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Schnellinstallation", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Quick_Installation.jpg",
     "abstract": "IN-7011 HD Schnellinstallation"
 }
@@ -120,7 +120,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-7011_HD/Point2Point",
     "title": "Point 2 Point Einrichtung",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-7011 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Point2Point", "P2P Zugriff", "P2P einrichten", "Fernzugriff", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Quick_Installation.jpg",
     "abstract": "IN-7011 HD - Einrichten einer Point2Point-Verbindung"
 }
@@ -134,7 +134,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-7011_HD/Lense_Adjustment",
     "title": "Manuelle Objektivjustage",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-7011 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Objektivjustage", "ONVIF Kamera", "P2P Kamera", "scharf stellen", "unscharf", "fokussieren"],
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Lense_Adjust.jpg",
     "abstract": "Manuelle Anpassung des Fokus der IN-7011 HD"
 }
@@ -148,7 +148,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-5907_HD",
     "title": "IN-5907 HD - Produkt Übersicht",
     "chapter": "INSTAR Products",
-    "tags": ["IN-5907 HD", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
+    "tags": ["IN-5907 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Übersicht", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-5907HD.jpg",
     "abstract": "IN-5907 HD - Produktüberblick"
 }
@@ -162,7 +162,7 @@ POST /wiki2/article
 	"link": "/Outdoor_Cameras/IN-5907_HD/Technical_Specifications",
 	"title": "IN-5907 HD - Technische Spezifikationen",
 	"chapter": "INSTAR Products",
-	"tags": ["IN-5907 HD", "INSTAR", "products", "HD series", "outdoor", "IP camera", "web cam", "overview"],
+  "tags": ["IN-5907 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Technische Spezifikationen", "ONVIF Kamera", "P2P Kamera"],
 	"image": "/images/Search/P_SearchThumb_IN-5907HD_Technical_Specifications.jpg",
 	"abstract": "IN-5907 HD Technische Spezifikationen"
 }
@@ -176,7 +176,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-5907_HD/Product_Features",
     "title": "Manuelle Objektivjustage",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-5907 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Features", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Features.jpg",
     "abstract": "IN-5907 Produkt-Eigenschaften"
 }
@@ -190,7 +190,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-5907_HD/Quick_Installation",
     "title": "Schnellinstallation Anleitung",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-5907 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Schnellinstallation", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Quick_Installation.jpg",
     "abstract": "IN-5907 HD Schnellinstallation"
 }
@@ -204,7 +204,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-5907_HD/Point2Point",
     "title": "Point 2 Point Einrichtung",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-5907 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Point2Point", "P2P Zugriff", "P2P einrichten", "Fernzugriff", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Quick_Installation.jpg",
     "abstract": "IN-5907 HD - Einrichten einer Point2Point-Verbindung"
 }
@@ -218,7 +218,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-5907_HD/Lense_Adjustment",
     "title": "Manuelle Objekivejustage",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-5907 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Objekivejustage", "scharf stellen", "unscharf", "fokussieren", "Fokus", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Lense_Adjust.jpg",
     "abstract": "Manuelle Anpassung des Fokus der IN-5907"
 }
@@ -232,7 +232,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-5905_HD",
     "title": "IN-5905 HD - Produkt Übersicht",
     "chapter": "INSTAR Products",
-    "tags": ["IN-5905 HD", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
+    "tags": ["IN-5905 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Übersicht", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-5905HD.jpg",
     "abstract": "IN-5905 HD - Produktüberblick"
 }
@@ -246,7 +246,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-5905_HD/Technical_Specifications",
     "title": "IN-5905 HD - Technische Spezifikationen",
     "chapter": "INSTAR Products",
-    "tags": ["IN-5905 HD", "INSTAR", "products", "HD series", "outdoor", "IP camera", "web cam", "overview"],
+    "tags": ["IN-5905 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Technische Spezifikationen", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Technical_Specifications.jpg",
     "abstract": "IN-5905 HD Technische Spezifikationen"
 }
@@ -260,7 +260,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-5905_HD/Product_Features",
     "title": "Produkt Merkmale",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-5905 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Features", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Features.jpg",
     "abstract": "IN-5905 HD Produkt-Eigenschaften"
 }
@@ -274,7 +274,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-5905_HD/Quick_Installation",
     "title": "Schnellinstallation Anleitung",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-5905 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Schnellinstallation", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Quick_Installation.jpg",
     "abstract": "IN-5905 HD Schnellinstallation"
 }
@@ -288,7 +288,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-5905_HD/Point2Point",
     "title": "Point 2 Point Einrichtung",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-5905 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Point2Point", "P2P Zugriff", "P2P einrichten", "Fernzugriff", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Quick_Installation.jpg",
     "abstract": "IN-5905 HD Einrichtung einer Point2Point-Verbindung"
 }
@@ -302,7 +302,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-5905_HD/Lense_Adjustment",
     "title": "Manuelle Objektivjustage",
     "chapter": "INSTAR Products",
-    "tags": ["Outdoor Cameras", "IP Camera", "Usermanual"],
+    "tags": ["IN-5905 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Objekivejustage", "scharf stellen", "unscharf", "fokussieren", "Fokus", "ONVIF Kamera", "P2P Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Lense_adjust.jpg",
     "abstract": "Manuelle Anpassung des Fokus der IN-5905"
 }
@@ -316,7 +316,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-4011",
     "title": "IN-4011 - Produkt Übersicht",
     "chapter": "INSTAR Products",
-    "tags": ["IN-4011", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
+    "tags": ["IN-4011", "INSTAR", "Überwachungskamera", "VGA Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Schnellinstallation", "PTZ Kamera", "Zoom Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-4011.jpg",
     "abstract": "IN-4011 - Produktüberblick"
 }
@@ -330,7 +330,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-4011/Technical_Specifications",
     "title": "IN-4011 - Technische Spezifikationen",
     "chapter": "INSTAR Products",
-    "tags": ["IN-4011", "INSTAR", "products", "VGA series", "outdoor", "IP camera", "web cam", "overview"],
+    "tags": ["IN-4011", "INSTAR", "Überwachungskamera", "VGA Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Schnellinstallation", "PTZ Kamera", "Zoom Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-4011_Technical_Specifications.jpg",
     "abstract": "IN-4011 Technische Spezifikationen"
 }
@@ -344,7 +344,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-4010_V2",
     "title": "IN-4010 V2 - Produkt Übersicht",
     "chapter": "INSTAR Products",
-    "tags": ["IN-4010 V2", "INSTAR", "products", "720p series", "indoor", "IP camera", "web cam", "overview"],
+    "tags": ["IN-4010 V2", "INSTAR", "Überwachungskamera", "VGA Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Schnellinstallation", "PTZ Kamera", "Zoom Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-4010.jpg",
     "abstract": "IN-4010 V2 - Produktüberblick"
 }
@@ -358,7 +358,7 @@ POST /wiki2/article
     "link": "/Outdoor_Cameras/IN-4010_V2/Technical_Specifications",
     "title": "IN-4010 V2 - Technische Spezifikationen",
     "chapter": "INSTAR Products",
-    "tags": ["IN-4010 V2", "INSTAR", "products", "VGA series", "outdoor", "IP camera", "web cam", "overview"],
+    "tags": ["IN-4010 V2", "INSTAR", "Überwachungskamera", "VGA Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Schnellinstallation", "PTZ Kamera", "Zoom Kamera"],
     "image": "/images/Search/P_SearchThumb_IN-4010_Technical_Specifications.jpg",
     "abstract": "IN-4010 V2 Technische Spezifikationen"
 }

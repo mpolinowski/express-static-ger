@@ -120,7 +120,7 @@ POST /wiki2/article
     "link": "/Indoor_Cameras/IN-6014_HD/Point2Point",
     "title": "Point 2 Point Einrichtung",
     "chapter": "INSTAR Products",
-    "tags": ["IN-6014 HD", "INSTAR", "Überwachungskamera", "720p Serie", "indoor", "Innenkamera", "IP Kamera", "Webcam", "ONVIF Kamera", "P2P Kamera", "P2P Installation"],
+    "tags": ["IN-6014 HD", "INSTAR", "Überwachungskamera", "720p Serie", "indoor", "Innenkamera", "IP Kamera", "Webcam", "ONVIF Kamera", "P2P Kamera", "P2P Installation", "P2P einrichten", "Fernzugriff"],
     "image": "/images/Search/P_SearchThumb_IN-6014HD_Quick_Installation.jpg",
     "abstract": "IN-6014 HD - Einrichten einer P2P-Verbindung"
 }
@@ -162,7 +162,7 @@ POST /wiki2/article
     "link": "/Indoor_Cameras/IN-6014_HD/Lense_Adjustment",
     "title": "Manuelle Objektivjustage",
     "chapter": "INSTAR Products",
-    "tags": ["IN-6014 HD", "INSTAR", "Überwachungskamera", "720p Serie", "indoor", "Innenkamera", "IP Kamera", "Webcam", "ONVIF Kamera", "P2P Kamera", "scharf stellen", "Objektivjustage", "Objektiv", "unscharf"],
+    "tags": ["IN-6014 HD", "INSTAR", "Überwachungskamera", "720p Serie", "indoor", "Innenkamera", "IP Kamera", "Webcam", "ONVIF Kamera", "P2P Kamera", "scharf stellen", "Objektivjustage", "fokussieren", "Fokus", "Objektiv", "unscharf"],
     "image": "/images/Search/P_SearchThumb_IN-6014HD_Lense_Adjust.jpg",
     "abstract": "Manuelle Anpassung des Fokus der IN-6014 HD"
 }
@@ -232,7 +232,7 @@ POST /wiki2/article
     "link": "/Indoor_Cameras/IN-6012_HD/Point2Point",
     "title": "Point 2 Point Einrichtung",
     "chapter": "INSTAR Products",
-    "tags": ["IN-6012 HD", "INSTAR", "Überwachungskamera", "720p Serie", "indoor", "Innenkamera", "IP Kamera", "Webcam", "ONVIF Kamera", "P2P Kamera", "Point2Point", "P2P Zugriff"],
+    "tags": ["IN-6012 HD", "INSTAR", "Überwachungskamera", "720p Serie", "indoor", "Innenkamera", "IP Kamera", "Webcam", "ONVIF Kamera", "P2P Kamera", "Point2Point", "P2P Zugriff", "P2P einrichten", "Fernzugriff"],
     "image": "/images/Search/P_SearchThumb_IN-6012HD_Quick_Installation.jpg",
     "abstract": "IN-6012 HD - Einrichten einer P2P-Verbindung"
 }
@@ -246,7 +246,7 @@ POST /wiki2/article
     "link": "/Indoor_Cameras/IN-6012_HD/Lense_Adjustment",
     "title": "Manuelle Objektivjustage",
     "chapter": "INSTAR Products",
-    "tags": ["IN-6012 HD", "INSTAR", "Überwachungskamera", "720p Serie", "indoor", "Innenkamera", "IP Kamera", "Webcam", "ONVIF Kamera", "P2P Kamera", "Schnellinstallation", "Objektivjustage", "unscharf", "scharf stellen", "fokussieren"],
+    "tags": ["IN-6012 HD", "INSTAR", "Überwachungskamera", "720p Serie", "indoor", "Innenkamera", "IP Kamera", "Webcam", "ONVIF Kamera", "P2P Kamera", "Schnellinstallation", "Objektivjustage", "unscharf", "scharf stellen", "fokussieren", "Fokus"],
     "image": "/images/Search/P_SearchThumb_IN-6012HD_Lense_Adjust.jpg",
     "abstract": "Manuelle Anpassung des Fokus der IN-6012 HD"
 }
@@ -316,7 +316,7 @@ POST /wiki2/article
     "link": "/Indoor_Cameras/IN-6001_HD/Point2Point",
     "title": "Point 2 Point Einrichtung",
     "chapter": "INSTAR Products",
-    "tags": ["IN-6001 HD", "INSTAR", "Überwachungskamera", "720p Serie", "indoor", "Innenkamera", "IP Kamera", "Webcam", "ONVIF Kamera", "P2P Kamera", "Point2Point", "P2P Zugriff", "P2P einrichten"],
+    "tags": ["IN-6001 HD", "INSTAR", "Überwachungskamera", "720p Serie", "indoor", "Innenkamera", "IP Kamera", "Webcam", "ONVIF Kamera", "P2P Kamera", "Point2Point", "P2P Zugriff", "P2P einrichten", "Fernzugriff"],
     "image": "/images/Search/P_SearchThumb_IN-6001HD_Quick_Installation.jpg",
     "abstract": "IN-6001 - Einrichten einer P2P-Verbindung"
 }
@@ -330,7 +330,7 @@ POST /wiki2/article
     "link": "/Indoor_Cameras/IN-6001_HD/Lense_Adjustment",
     "title": "Manuelle Objektivjustage",
     "chapter": "INSTAR Products",
-    "tags": ["IN-6001 HD", "INSTAR", "Überwachungskamera", "720p Serie", "indoor", "Innenkamera", "IP Kamera", "Webcam", "ONVIF Kamera", "P2P Kamera", "scharf stellen", "unscharf", "Objektivjustage", "fokussieren"],
+    "tags": ["IN-6001 HD", "INSTAR", "Überwachungskamera", "720p Serie", "indoor", "Innenkamera", "IP Kamera", "Webcam", "ONVIF Kamera", "P2P Kamera", "scharf stellen", "unscharf", "Objektivjustage", "fokussieren", "Fokus"],
     "image": "/images/Search/P_SearchThumb_IN-6001HD_Lense_Adjust.jpg",
     "abstract": "Manuelle Anpassung des Fokus der IN-6001 HD"
 }
