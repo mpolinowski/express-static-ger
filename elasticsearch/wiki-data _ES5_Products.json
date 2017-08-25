@@ -8,7 +8,7 @@ POST /wiki2/article
     "link": "/Products/IN-LAN",
     "title": "INSTAR IN-LAN 500",
     "chapter": "INSTAR Products",
-    "tags": ["IN-LAN", "500p", "products", "500", "powerline", "network", "devolo", "homeplug AV"],
+    "tags": ["IN-LAN", "500p", "DLAN", "powerline", "Steckdose", "devolo", "homeplug AV", "Stromkabel"],
     "image": "/images/Search/P_SearchThumb_Powerline.jpg",
     "abstract": "Der INSTAR IN-LAN 500 zur Datenübertragung in Ihrem Stromentz"
 }
@@ -162,7 +162,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/300",
     "title": "INSTAR IN-Motion 300",
     "chapter": "INSTAR Products",
-    "tags": ["Motion Detection", "Passive Infrared", "PIR", "Normally Closed Open", "IN-Motion", "300", "Trigger Level"],
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level"],
     "image": "/images/Search/P_SearchThumb_MotionDetector.jpg",
     "abstract": "Der Passiver Infrarot Bewegungsmelder IN-Motion 300"
 }
@@ -176,7 +176,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/500",
     "title": "INSTAR IN-Motion 500",
     "chapter": "INSTAR Products",
-    "tags": ["Motion Detection", "Passive Infrared", "PIR", "Microwave", "IN-Motion", "Dual Sensor", "500"],
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle" "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Verkabelung", "anschließen"],
     "image": "/images/Search/P_SearchThumb_MotionDetector.jpg",
     "abstract": "Der Passive Infrarot- und Mikrowellen Bewegungsmelder IN-Motion 500"
 }
@@ -190,7 +190,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/500/Dual_Sensor",
     "title": "IN-Motion 500 :: Dual Sensor",
     "chapter": "INSTAR Products",
-    "tags": ["Motion Detection", "Passive Infrared", "PIR", "Microwave", "IN-Motion", "Dual Sensor", "500"],
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle" "Dual Sensor"],
     "image": "/images/Search/P_SearchThumb_MotionDetector.jpg",
     "abstract": "Die Funktionsweise des IN-Motion 500 Dual Sensor"
 }
@@ -204,8 +204,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/500/Setup",
     "title": "IN-Motion 500 :: Setup",
     "chapter": "INSTAR Products",
-    "tags": ["Motion Detection", "Passive Infrared", "PIR", "Microwave", "IN-Motion", "Dual Sensor", "500"],
-    "image": "/images/Search/P_SearchThumb_MotionDetector.jpg",
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle" "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Verkabelung", "anschließen"],
     "abstract": "Installation des IN-Motion 500"
 }
 POST /wiki2/article
@@ -218,7 +217,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/500/Wiring",
     "title": "IN-Motion 500 :: Wiring",
     "chapter": "INSTAR Products",
-    "tags": ["Motion Detection", "Passive Infrared", "PIR", "Microwave", "IN-Motion", "Dual Sensor", "500"],
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle" "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Verkabelung", "anschließen"],
     "image": "/images/Search/P_SearchThumb_MotionDetector.jpg",
     "abstract": "Verkabelung des IN-500"
 }
@@ -232,7 +231,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/500/User_Interface",
     "title": "IN-Motion 500 :: Benutzeroberfläche",
     "chapter": "INSTAR Products",
-    "tags": ["Motion Detection", "Passive Infrared", "PIR", "Microwave", "IN-Motion", "Dual Sensor", "500"],
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle" "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Verkabelung", "anschließen"],
     "image": "/images/Search/P_SearchThumb_MotionDetector.jpg",
     "abstract": "Benutzeroberfläche des IN-Motion 500"
 }
@@ -246,7 +245,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/500/Considerations",
     "title": "IN-Motion 500 :: Erwägungen",
     "chapter": "INSTAR Products",
-    "tags": ["Motion Detection", "Passive Infrared", "PIR", "Microwave", "IN-Motion", "Dual Sensor", "500"],
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle" "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Fehlalarme", "zu viele Alarme"],
     "image": "/images/Search/P_SearchThumb_MotionDetector.jpg",
     "abstract": "Installationshinweise zum IN-Motion 500"
 }
@@ -260,7 +259,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/500/Recorder",
     "title": "IN-Motion 500 :: Aufnahme Stationen",
     "chapter": "INSTAR Products",
-    "tags": ["Motion Detection", "Passive Infrared", "PIR", "Microwave", "IN-Motion", "Dual Sensor", "500"],
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "QNAP", "Synology"],
     "image": "/images/Search/P_SearchThumb_MotionDetector.jpg",
     "abstract": "Integration des IN-Motion 500 in eine QNAP oder Synology Aufnahme-Station"
 }
@@ -274,7 +273,7 @@ POST /wiki2/article
     "link": "/Products/IR_Lighting",
     "title": "IR Flutlichter",
     "chapter": "INSTAR Products",
-    "tags": ["Infrared", "Spotlight", "Lighting", "Nightvision", "IN-903", "IN-905", "IN-906", "IN-907"],
+    "tags": ["Infrarot", "Spotlight", "Flutlicht", "Nachtsicht", "IN-903", "IN-905", "IN-906", "IN-907", "unsichtbar", "Scheinwerfer", "IR LEDs", "zu dunkel", "Nachtbild", "unscharf", "nicht erkennbar", "nachts", "nicht zu erkennen", "extern"],
     "image": "/images/Search/P_SearchThumb_InfraredSpotlights.jpg",
     "abstract": "Infrarot Scheinwerfer für eine bessere Nachtsicht Ihrer Kamera"
 }
@@ -288,7 +287,7 @@ POST /wiki2/article
     "link": "/Products/IN-Mikro",
     "title": "IN-Mikro",
     "chapter": "INSTAR Products",
-    "tags": ["IN-Mikro", "Microphone"],
+    "tags": ["IN-Mikro", "Microphone", "Mikrofon", "extern", "Audio-Eingang", "audio-in"],
     "image": "/images/Search/P_SearchThumb_Microphones.jpg",
     "abstract": "Das externe Mikrofon IN-Mikro zur Audioaufnahme mit Ihrer Kamera"
 }
@@ -302,7 +301,7 @@ POST /wiki2/article
     "link": "/Products/SMA_RP-SMA_Antenna_Connector",
     "title": "Antennen Anschluss: SMA oder RP-SMA",
     "chapter": "INSTAR Products",
-    "tags": ["Antenna", "Connector", "SMA", "RP-SMA"],
+    "tags": ["Antenne", "Stecker", "SMA", "RP-SMA"],
     "image": "/images/Search/P_SearchThumb_SMA-RPSMA.jpg",
     "abstract": "SMA und RP-SMA Antennenanschluss für Ihre Kamera"
 }
