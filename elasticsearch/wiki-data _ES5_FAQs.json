@@ -1,0 +1,616 @@
+POST /wiki2/article
+{
+    "title2": "Frequently Asked Questions",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "INSTAR Wiki FAQs",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/",
+    "title": "Fragen und Antworten",
+    "chapter": "Downloads",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: VGA Series",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "INSTAR Wiki FAQs",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#VGA%20Serie",
+    "title": "FAQs :: VGA Serie",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs", "VGA Serie"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: IN-5905 HD",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "INSTAR Wiki FAQs",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#IN-5905HD",
+    "title": "FAQs :: IN-5905 HD",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs", "IN-5905 HD"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: IN-5907 HD",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "INSTAR Wiki FAQs",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#IN-5907HD",
+    "title": "FAQs :: IN-5907 HD",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs", "IN-5907 HD"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: IN-6001 HD",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "INSTAR Wiki FAQs",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#IN-6001HD",
+    "title": "FAQs :: IN-6001 HD",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs", "IN-6001 HD"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: IN-6012 HD",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "INSTAR Wiki FAQs",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#IN-6012HD",
+    "title": "FAQs :: IN-6012 HD",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs", "IN-6012 HD"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: IN-6014 HD",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "INSTAR Wiki FAQs",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#IN-6014HD",
+    "title": "FAQs :: IN-6014 HD",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs", "IN-6014 HD"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: IN-7011 HD",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "INSTAR Wiki FAQs",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#IN-7011HD",
+    "title": "FAQs :: IN-7011 HD",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs", "IN-7011 HD"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: IN-8015 Full HD",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "INSTAR Wiki FAQs",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#IN-8015HD",
+    "title": "FAQs :: IN-8015 Full HD",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs", "IN-8015 Full HD"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: IN-9008 Full HD",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "INSTAR Wiki FAQs",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#IN-9008HD",
+    "title": "FAQs :: IN-9008 Full HD",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs", "IN-9008 Full HD"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Multiple Cameras",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Können mehrere Kameras gleichzeitig über die Smartphone App abgerufen werden? Man kann in der App mehrere Kameras hinzufügen und diese dann auswählen - sogar unterschiedliche Kameras, unterschiedlicher Hersteller können über die App verwaltet werden.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#K%C3%B6nnen%20mehrere%20Kameras%20gleichzeitig%20%C3%BCber%20die%20Smartphone%20App%20abgerufen%20werden%3F",
+    "title": "FAQs :: Mehrere Kameras",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Können mehrere Kameras gleichzeitig ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Lense Adjustment",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Dass Bild meiner Kamera ist unscharf und läßt sich auch nicht richtig scharf stellen? Bei allen Kameras wird das Objektiv auf einen sinnvollen Überwachungsbereich von 5-10m scharfgestellt. Sollte man einen anderen Bereich benötigen - oder das Objektiv sich beim Transport verstellt haben - kann man dies von Hand nachjustieren. Bei den Innenkameras kann man einfach vorne am Objektiv drehen, bis das Bild scharf wird. Bei den Außenkameras muss man zuerst das Gehäuse öffnen, um an die Optik zu gelangen:",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Dass%20Bild%20meiner%20Kamera%20ist%20unscharf%20und%20l%C3%A4%C3%9Ft%20sich%20auch%20nicht%20richtig%20scharf%20stellen%3F",
+    "title": "FAQs :: Objektivjustage",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Dass Bild meiner Kamera ist unscharf ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: New Router",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Habe einen neuen Router. Wie verbinde ich die Kamera mit dem neuen Router? Am besten einfach den Schritten für die Erstinstallation folgen wie auf HTTP INSTALL.INSTAR.DE zu sehen. Sofern Sie die Kamera per WLAN genutzt haben, am besten die Kamera zuerst per LAN Kabel einmal am neuen Router anschließen damit Sie auf die Kamera zugreifen können. Sie können dann in der Kamera die WLAN Daten auf die des neuen Routers anpassen.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Habe%20einen%20neuen%20Router.%20Wie%20verbinde%20ich%20die%20Kamera%20mit%20dem%20neuen%20Router%3F",
+    "title": "FAQs :: Neuer Router",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Habe einen neuen Router ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Camera API",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Hat die Kamera ein API mit dem ich das aktuelle Bild per curl etc. abgreifen kann? Ja, die komplette Dokumentation finden Sie hier: FAQ_CGI_HD",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Hat%20die%20Kamera%20ein%20API%20mit%20dem%20ich%20das%20aktuelle%20Bild%20per%20curl%20etc.%20abgreifen%20kann%3F",
+    "title": "FAQs :: Kamera API",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Hat die Kamera eine API ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Camera Zoom",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Hat diese Kamera eine Zoom-Funktion? Ja, es gibt einen digitalen Zoom. Einen optischen Zoom gibt es jedoch nicht.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Hat%20diese%20Kamera%20eine%20Zoom-Funktion%3F",
+    "title": "FAQs :: Kamera Zoom",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Hat die Kamera eine Zoom Funktion ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: 3G/UMTS-Router",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Ich möchte die Kamera über einen 3G/UMTS-Router ohne feste IP-Adresse betreiben. Ja, Sie können in diesem Fall über P2P zugreifen über z.B. unsere Smartphone App. Über DDNS wird der Zugriff bei einem mobilen Internetanschluss wahrscheinlich nicht funktionieren, daher müsste man dann auf die P2P Verbindung ausweichen. Bei P2P ist die IP Adresse die die Kamera im Netzwerk hat bzw. auch der Router im Internet hat vollkommen egal. Dieser Zugriff wird immer funktionieren. Einziger Nachteil ist, das man immer ein Endgerät benötigt wie z.B. unsere App für Ihr Smartphone. Man kann so z.B. nicht über den Webbrowser von unterwegs auf die Kamera zugreifen wie man es bei DDNS kann. Bei P2P benötigen Sie immer eine Software für den Verbindungsaufbau wie z.B. unsere App InstarVision.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Ich%20m%C3%B6chte%20die%20Kamera%20%C3%BCber%20einen%203G%2FUMTS-Router%20ohne%20feste%20IP-Adresse%20betreiben...",
+    "title": "FAQs :: 3G/UMTS-Router",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Kamera über einen 3G/UMTS-Router betreiben ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Push Dienst",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Ich verstehe nicht so ganz wie der Push Dienst funktioniert. Benötige ich dazu eine Internetverbindung? Ja, das Smartphone muss mit dem Internet verbunden sein. Sie bekommen eine Push Meldung sobald die Kamera einen Alarm ausgelöst hat und Sie Push aktiviert haben. Eine Push Meldung wird je nach Smartphone von Google, Apple etc. an Sie versendet. Zuerst sendet die Kamera die Info über einen Alarm an unseren Server welcher Ihr Smartphone verknüpft hat. Dann sendet dieser Server die Info an den Server der jeweiligen Plattform von Ihrem Smartphone und dieser sendet Ihnen die Meldung an Ihr Smartphone... (siehe auch wie funktioniert Push bei Google...)",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Ich%20verstehe%20nicht%20so%20ganz%20wie%20der%20Push%20Dienst%20funktioniert.%20Benötige%20ich%20dazu%20eine%20Internetverbindung%3F",
+    "title": "FAQs :: Push Dienst",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Wie funktioniert der Push Dienst ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Without Cloud",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Ist der Zugriff unterwegs ohne irgendeine kostenpflichtige Cloud o.ä. möglich? Ja, dafür bietet INSTAR eine kostenlose DDNS-Adresse. Man muss dann nur noch im Router eine Portweiterleitung einrichten und kann dann über jeden Browser zugreifen. Mobil bietet Instar eine App für Android, Windows Phone und Apple, mit der es besonders komfortabel über den kostenlosen P2P Dienst geht.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Ist%20der%20Zugriff%20unterwegs%20ohne%20irgendeine%20kostenpflichtige%20Cloud%20o.%C3%A4.%20m%C3%B6glich%3F",
+    "title": "FAQs :: Keine Cloud",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Zugriff ohne kostenpflichtige Cloud ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Deactivate WiFi",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Ist es möglich das WLAN zu deaktivieren? Ja, Sie können WLAN ganz problemlos deaktivieren. Sofern Sie die Kamera per LAN Kabel verbunden haben, wäre WLAN auch automatisch deaktiviert. Sie können dies aber auch manuell in der Weboberfläche der Kamera deaktivieren.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Ist%20es%20m%C3%B6glich%20das%20WLAN%20zu%20deaktivieren%3F",
+    "title": "FAQs :: WLAN Deaktivieren",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Ist es möglich das WLAN zu deaktivieren ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: SD Card Access",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Ist es möglich die SD-Karte vom der App und Browser auszulesen? Kann man Daueraufnahmen machen? Ja, beides ist problemlos möglich. Sie können zum einen Daueraufnahmen auf der Speicherkarte machen. Schauen Sie dafür z.B. hier um zu sehen wie viel Stunden Sie auf unterschiedliche Größen von Speicherkarten bekommen: WWW.INSTAR.DE TOOLS CALC_SDCAPACITY Über die kostenfreie App InstarVision können Sie auch problemlos von unterwegs auf die Speicherkarte zugreifen und die Videos entsprechend abspielen. Derzeit ist der SD Karten Zugriff in der Android und iOS App integriert. Vom Webbrowser können Sie zudem auch problemlos zugreifen und es gibt auch einige Tools mit denen der Zugriff möglich ist. Siehe dazu hier: WWW.INSTAR.DE FAQ_SD",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Ist%20es%20m%C3%B6glich%20die%20SD-Karte%20vom%20der%20App%20und%20Browser%20auszulesen%3F%20Kann%20man%20Daueraufnahmen%20machen%3F",
+    "title": "FAQs :: SD Karten Zugriff",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Ist es möglich das WLAN zu deaktivieren ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: P2P Access",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Ist über P2P ein direkter Zugriff mit der Handy App möglich- ohne Router? Nein. Für den P2P Zugriff wird immer ein Internetzugang benötigt. Wenn man aber nur lokal auf die Kamera zugreifen möchte - ohne Internetzugriff - kann man die Kamera direkt per LAN Kabel am Rechner anschließen. Für den Zugriff per Handy wird ein WLAN Router benötigt. Dieser Router benötigt allerdings keinen Internetzugang. Ein Fernzugriff ist so natürlich dann nicht möglich.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Ist%20%C3%BCber%20P2P%20ein%20direkter%20Zugriff%20%20mit%20der%20Handy%20App%20m%C3%B6glich-%20ohne%20Router%3F",
+    "title": "FAQs :: P2P Zugriff",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Ein direkter P2P Zugriff ohne Router ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Switchable Power Plugs",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kann die Kamera an eine schaltbare Steckdose angeschlossen werden oder verliert sich dadurch ihre Einstellungen? Die Einstellungen bleiben alle in der Kamera erhalten, Sie können problemlos den Strom entfernen. Wenn man jedoch den Strom kappt während die Kamera eine Videoaufnahme auf die interne SD Karte durchführt, wird die laufende Aufnahmedatei beschädigt. Auch kann es vorkommen, dass man die SD Karte im Anschluss formartieren muss. Wenn man die Aufnahme auf SD Karte nicht nutzt, ist dies natürlich auch kein Problem.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20die%20Kamera%20an%20eine%20schaltbare%20Steckdose%20angeschlossen%20werden%20oder%20verliert%20sich%20dadurch%20ihre%20Einstellungen%3F",
+    "title": "FAQs :: Schaltbare Steckdose",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Verliert sich dadurch ihre Einstellungen ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Battery Operation",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kann die Kamera auch mit einem Akku oder Batterien betrieben werden? Die Kamera ist für eine dauerhafte Überwachung vorgesehen und funktioniert leider nur mit Netzteil. Zwar können Sie auch einen 5V Akku verwenden, dieser wird aber nicht all zu lange halten, daher wäre es für eine Dauerhafte Überwachung nicht sehr geeignet.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20die%20Kamera%20auch%20mit%20einem%20Akku%20oder%20Batterien%20betrieben%20werden%3F",
+    "title": "FAQs :: Akkubetrieb",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Kann die Kamera mit Akku oder Batterien ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Contiuous Recording",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kann die Kamera Daueraufnahmen erstellen? Ja, die Kamera kann auf die Speicherkarte auch eine Daueraufnahme aufnehmen. Dabei wird alle 15 Minuten eine neue Datei erstellt. Im Falle einer Daueraufnahme empfehlen wir Ihnen eine 32GB MicroSD Karte einzusetzen auf die Sie dann 3-4 Tage an Daueraufnahme bekommen.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20die%20Kamera%20Daueraufnahmen%20erstellen%3F",
+    "title": "FAQs :: Daueraufnahmen",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Kann die Kamera Daueraufnahmen erstellen ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Synology",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Synology Surveillance Station bedient werden? Ja, die Kamera kann problemlos mit der Synology verwendet werden. Das derzeit seitens Synology noch integriert wird ist, das die Kamera der Auslöser für eine Aufnahme sein kann. Derzeit würde die Synology selbst die Bewegungserkennung vornehmen, mit einem Update wird Synology dann auch die Funktion unterstützen das die Kamera den Trigger für die Aufnahme gibt. So kann dann auch PIR Bewegungsmelder an der Kamera der Auslöser für den Alarm sein.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20die%20Kamera%20mit%20der%20Synology%20Surveillance%20Station%20bedient%20werden%3F",
+    "title": "FAQs :: Synology",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Synology Surveillance Station ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Internet",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Internet erreichen? Ja, etwa durch Aktivierung der Portweiterleitung, lässt sich der Zugriff von Rechnern aus anderen Netzen, also auch dem Internet, einrichten. Es stehen verschiedene Modi zur Verfügung, die sowohl die Steuerung, Konfiguration also aber auch nur die Anzeige des aktuellen Kamerabildes ermöglichen. Unter Instar.de unter Downloads und der Kamera Type gibt es ein Video zum Firmwareupdate. Da ist es erklärt wie es funktioniert. Weiters gibt es ein Gratis App mit Livebild.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20die%20Kamera%20%C3%BCbers%20Internet%20erreichen%3F",
+    "title": "FAQs :: Internet",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Kamerazugriff über das Internet ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Email Notification",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kann ich bei jeder cam eine andere email Adresse für die Benachrichtigung hinterlegen? Ja, dies ist problemlos möglich. Jede Kamera ist ein eigener kleiner Computer und arbeitet komplett getrennt von einer anderen Kamera. Daher können Sie jede Kamera individuell einstellen.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20ich%20bei%20jeder%20cam%20eine%20andere%20email%20Adresse%20f%C3%BCr%20die%20Benachrichtigung%20hinterlegen%3F",
+    "title": "FAQs :: Email Benachrichtigung",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Andere Email für die Alarmbenachrichtigung ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: SD Card",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kamera eine größere SD Karte einsetzen ? Bei den 720p Kameras können Sie SD Karten bis 32GB und bei den 1080p bis 128GB verwenden. Bei den Innenkameras sitzt der SD Kartenleser hinten, oder seitlich, im Gehäuse und die Karte kann einfach gegen eine größere getauscht werden. Bei den Außenkameras muss zuerst das Gehäuse geöffnet werden, bevor man an die SD Karte kommt:",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20ich%20bei%20meiner%20Kamera%20eine%20gr%C3%B6%C3%9Fere%20SD%20Karte%20einsetzen%20%3F",
+    "title": "FAQs :: SD Karte",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Kamera eine größere SD Karte einsetzen ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Push Notification",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kann ich die Cam so konfigurieren, dass sie als Babyfon Push-Nachrichten via Internet schickt, aber Zugriff auf das Bild nur im VPN / Heimnetz geht? Ja, Sie können die Push-Benachrichtigungen über das Internet senden, den Zugriff auf die Kamera / das Kamerabild allerdings nur im Heimnetzwerk/VPN gestatten. Aktivieren Sie dazu in der Weboberfläche die Push-Funktion und deaktivieren Sie die Fernzugriffe (DDNS und P2P). So sendet die Kamera im Alarmfall Push-Benachrichtigungen auf Ihre Handy, der Zugriff findet allerdings nur aus dem internen Netz statt.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20ich%20die%20Cam%20so%20konfigurieren%2C%20dass%20sie%20als%20Babyfon%20Push-Nachrichten%20via%20Internet%20schickt%2C%20aber%20Zugriff%20auf%20das%20Bild%20nur%20im%20VPN%20%2F%20Heimnetz%20geht%3F",
+    "title": "FAQs :: Push-Nachrichten",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Push-Nachrichten und VPN Zugriff ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Camera Heater",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kann man bei der Kamera eine Heizung verbauen? In den meisten Fällen ist der Einsatz einer Heizung nicht notwendig, da die Kamera selbst im Dauerbetrieb ausreichend Abwärme erzeugt. Sollten Sie jedoch planen die Kamera im Winter gelegentlich auszuschalten - oder befürchten Sie Stromausfälle - kann es vorkommen, dass das Gehäuse auskühlt und die Kamera erst nach dem Aufwärmen über 0°C wieder in Betrieb genommen werden kann. In einem solchen Fall hilft eine Heizung im Gehäuse:",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20man%20bei%20der%20Kamera%20eine%20Heizung%20verbauen%3F",
+    "title": "FAQs :: Kamera und Heizung",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Kann man in der Kamera eine Heizung ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Connection Cable",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Anschlusskabel der Kamera entfernen? Man kann das Anschlußkabel aus der Kamera lösen - um dieses z.B. durch eine Wand oder in eine Aufputzdose zu führen.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20man%20das%20Anschlusskabel%20der%20Kamera%20entfernen%3F",
+    "title": "FAQs :: Anschlusskabel",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Anschlusskabel der Kamera entfernen ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Power Supply",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kann man die Kamera auch im Ausland mit 110V betreiben? Ja, das Netzteil hat einen Eingangsspannungsbereich von AC 100 - 240 Volt.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20man%20die%20Kamera%20auch%20im%20Ausland%20mit%20110V%20betreiben%3F",
+    "title": "FAQs :: Netzteil",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Kamera im Ausland mit 110V betreiben ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Software CD",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kann man die Software ohne CD installieren, da mein PC kein CD Laufwerk hat? Ja, auf der CD befindet sich an sich nichts, Sie werden lediglich auf die Seite HTTP INSTALL.INSTAR.DE weitergeleitet, dort finden Sie alle Infos und Anleitungen Software die Sie für die Installation benötigen.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20man%20die%20Software%20ohne%20CD%20installieren%2C%20da%20mein%20PC%20kein%20CD%20Laufwerk%20hat%3F",
+    "title": "FAQs :: Software CD",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Software ohne CD installieren ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Fritzbox NAS",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Können die Aufnahmen direkt über eine Fritzbox im NAS-System abgelegt werden? Ja, Sie können die Alarmaufnahmen auch problemlos per FTP an eine Festplatte oder USB Stick senden die direkt an der Fritzbox angeschlossen ist. Oder eine NAS die FTP unterstützt. Sie finden auch hier eine genaue Anleitung dazu:",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#K%C3%B6nnen%20die%20Aufnahmen%20direkt%20%C3%BCber%20eine%20Fritzbox%20im%20NAS-System%20abgelegt%20werden%3F",
+    "title": "FAQs :: Fritzbox NAS",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Aufnahmen auf ein Fritzbox NAS abgelegt ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: SD Card Access",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Können die Aufnahmen mit dem Handy von unterwegs abgerufen werden ? Ja, mit der Android, Windows Phone & Metro, iPhone und iPad App InstarVision ist dies ganz problemlos möglich. Die App wird kostenlos von INSTAR bereitgestellt. Sie können dann mit der App von unterwegs jederzeit auf die Speicherkarte zugreifen und sich die Videos anschauen die aufgenommen wurden.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#K%C3%B6nnen%20die%20Aufnahmen%20mit%20dem%20Handy%20von%20unterwegs%20abgerufen%20werden%20%3F",
+    "title": "FAQs :: SD Karten Zugriff",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Aufnahmen mit dem Handy abrufen ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Smartphone App",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Muss man die Kamera unbedingt am PC installieren oder reicht die App für das Smartphone auch aus? Als Erstinstallation sollten Sie auf jeden Fall einen PC mit einem Webbrowser nutzen, um die Grundeinstellungen vorzunehmen und mit der Instar-App den QR-Code abzuscannen. Nach der Ersteinrichtung können Sie dann die Kamera bequem über Ihr SmartPhone steuern.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Muss%20msn%20die%20Kamera%20unbedingt%20am%20PC%20installieren%20oder%20reicht%20die%20App%20f%C3%BCr%20das%20Smartphone%20auch%20aus%3F",
+    "title": "FAQs :: Handy App",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Benötig man einen PC für die Installation ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Live Video",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Nach Start der Kamera bleibt nach einer Zeit die Uhr und das Bild stehen. Wenn man die Kamera im Webbrowser öffnet, wird das Video per h.264 kodiert übertragen und mit dem Flash Player wiedergegeben. Dabei handelt es sich um einen Stream. Wenn dieser durch eine z.B. schlechte Netzwerkverbindung unterbrochen wird, dann könnte es passieren das dieser unterbricht und man den Videostream erst wieder neu starten müsste. Sie finden oben über dem Videobild der Kamera einen Umschalter zwischen H264 und MJPEG. Sie könnten ggf. einmal auf MJPEG umstellen, dabei handelt es sich um Einzelbilder die ganz schnell hintereinander geladen werden. Dadurch das immer wieder ein neues Bild geladen wird, kann es technisch an sich nicht vorkommen das das Video somit stehen bleibt. Nachteil jedoch ist, die Datenmenge ist einiges größer und man hat kein Audio da es sich ja wie gesagt um ganz schnell geladene Bilder handelt.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Nach%20Start%20der%20Kamera%20bleibt%20nach%20einer%20Zeit%20die%20Uhr%20und%20das%20Bild%20stehen",
+    "title": "FAQs :: Live Video",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Bleibt nach einer Zeit das Bild stehen ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: User Management",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Paßwort geschützt ist die Cam ja bestimmt kann man auch ein Gast zu tritt einrichten der dann zu schauen kann wenn ich das will? Sie können drei unterschiedliche Benutzer hinterlegen. Einen Administrator, einen Benutzer und einen Gastzugang. Jedem Benutzer können Sie entsprechend ein eigenes Passwort vergeben. Der Gastbenutzer kann nur das Videobild sehen und keinerlei Einstellungen sehen bzw. vornehmen.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Pa%C3%9Fwort%20gesch%C3%BCtzt%20ist%20die%20Cam%20ja%20bestimmt%20kann%20man%20auch%20ein%20Gast%20zu%20tritt%20einrichten%20der%20dann%20zu%20schauen%20kann%20wenn%20ich%20das%20will%3F",
+    "title": "FAQs :: Benutzerverwaltung",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Einrichten eines Gastzugangs ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Push Service",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Was ist mit dem kostenlosem Push Service gemeint? Sie können sich von der Kamera entweder eine Email inklusive Bilder schicken lassen bei einem Alarm, oder aber Sie können sich auch eine Push Benachrichtigung (eine Textmeldung) auf Ihr Smartphone schicken lassen. Es ist auch beides gleichzeitig möglich. Zudem können Sie Videos auf eine Speicherkarte aufnehmen und per FTP senden und vieles mehr.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Was%20ist%20mit%20dem%20kostenlosem%20Push%20Service%20gemeint%3F",
+    "title": "FAQs :: Push Dienst",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Was ist der kostenlose Push Service ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: WiFi",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Welche W-LAN und Frequenzstandards unterstützt die Kamera? Auch 5 Ghz? Die Kamera unterstützt nur das 2,4 GHz Frequenzband mit den b/g/n Standard WLAN-Authentifizierung: WEP, WPA, WPA2 WLAN-Verschlüsselungstyp: TKIP, AES",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Welche%20W-LAN%20und%20Frequenzstandards%20unterst%C3%BCtzt%20die%20Kamera%3F%20Auch%205%20Ghz%3F",
+    "title": "FAQs :: WLAN",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Welche WLAN Standards werden unterstützt ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: File Format",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Welches Dateiformat haben die Videos auf der SD-Karte und mit welchem Programm kann sie öffnen? Die Videos werden im .avi-Format abgespeichert. Wir empfehlen dazu, den VLC-Player auf dem PC nutzen.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Welches%20Dateiformat%20haben%20die%20Videos%20auf%20der%20SD-Karte%20und%20mit%20welchem%20Programm%20kann%20sie%20%C3%B6ffnen%3F",
+    "title": "FAQs :: Dateiformat",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Welches Dateiformat haben die Videos ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Allowed Characters",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Werden beim WLAN Schlüssel weiterhin 4 Sonderzeichen nicht unterstützt? 5 Zeichen werden nicht unterstützt - alle anderen ASCII Zeichen sind ok:",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Werden%20beim%20WLAN%20Schl%C3%BCssel%20weiterhin%204%20Sonderzeichen%20nicht%20unterst%C3%BCtzt%3F",
+    "title": "FAQs :: Sonderzeichen ",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Erlaubte Sonderzeichen im WLAN Schlüssel ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Video Length",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Wie lange ist die Videoaufnahme nach Bewegungserkennung? Die Alarmaufnahme auf die SD Karte beginnt 3 Sekunden vor dem auslösenden Ereignis und läuft bis 15s nach dem Alarm - insgesamt sind die Videos somit 17-18s lang. Sollte die Bewegung vor der Kamera weiter gehen, wird umgehend ein neues , 15 sekündiges, Video angelegt.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Wie%20lange%20ist%20die%20Videoaufnahme%20nach%20Bewegungserkennung%3F",
+    "title": "FAQs :: Alarmaufnahmen Länge",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Videoaufnahme nach Bewegungserkennung ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Fernzugriff",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Wie lege ich eine Portweiterleitung in meinem Router an? Sie finden eine Reihe von Anleitungen für diverse Router unter dem folgenden Link: AVM Fritzbox, Telekom Speedport, Vodafon Easybox, D Link, TP Link",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Wie%20lege%20ich%20eine%20Portweiterleitung%20in%20meinem%20Router%20an%3F",
+    "title": "FAQs :: Fernzugriff",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Portweiterleitung in meinem Router ..."
+}
