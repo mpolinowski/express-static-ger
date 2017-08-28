@@ -176,7 +176,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/500",
     "title": "INSTAR IN-Motion 500",
     "chapter": "INSTAR Products",
-    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle" "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Verkabelung", "anschließen"],
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle", "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Verkabelung", "anschließen"],
     "image": "/images/Search/P_SearchThumb_MotionDetector.jpg",
     "abstract": "Der Passive Infrarot- und Mikrowellen Bewegungsmelder IN-Motion 500"
 }
@@ -190,7 +190,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/500/Dual_Sensor",
     "title": "IN-Motion 500 :: Dual Sensor",
     "chapter": "INSTAR Products",
-    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle" "Dual Sensor"],
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle", "Dual Sensor"],
     "image": "/images/Search/P_SearchThumb_MotionDetector.jpg",
     "abstract": "Die Funktionsweise des IN-Motion 500 Dual Sensor"
 }
@@ -204,7 +204,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/500/Setup",
     "title": "IN-Motion 500 :: Setup",
     "chapter": "INSTAR Products",
-    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle" "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Verkabelung", "anschließen"],
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle", "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Verkabelung", "anschließen"],
     "abstract": "Installation des IN-Motion 500"
 }
 POST /wiki2/article
@@ -217,7 +217,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/500/Wiring",
     "title": "IN-Motion 500 :: Wiring",
     "chapter": "INSTAR Products",
-    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle" "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Verkabelung", "anschließen"],
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle", "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Verkabelung", "anschließen"],
     "image": "/images/Search/P_SearchThumb_MotionDetector.jpg",
     "abstract": "Verkabelung des IN-500"
 }
@@ -231,7 +231,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/500/User_Interface",
     "title": "IN-Motion 500 :: Benutzeroberfläche",
     "chapter": "INSTAR Products",
-    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle" "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Verkabelung", "anschließen"],
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle", "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Verkabelung", "anschließen"],
     "image": "/images/Search/P_SearchThumb_MotionDetector.jpg",
     "abstract": "Benutzeroberfläche des IN-Motion 500"
 }
@@ -245,7 +245,7 @@ POST /wiki2/article
     "link": "/Products/IN-Motion/500/Considerations",
     "title": "IN-Motion 500 :: Erwägungen",
     "chapter": "INSTAR Products",
-    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle" "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Fehlalarme", "zu viele Alarme"],
+    "tags": ["Bewegungserkennung", "Passive Infrared", "Bewegungsmelder", "PIR", "Normally Closed", "Normally Open", "N.C.", "N.O.", "IN-Motion", "Trigger Level", "Microwave", "Microwelle", "Dual Sensor", "Installation", "Handbuch", "Anleitung", "Fehlalarme", "zu viele Alarme"],
     "image": "/images/Search/P_SearchThumb_MotionDetector.jpg",
     "abstract": "Installationshinweise zum IN-Motion 500"
 }

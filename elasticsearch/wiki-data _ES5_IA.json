@@ -22,7 +22,7 @@ POST /wiki2/article
     "link": "/Internet_Access/The_DDNS_Service",
     "title": "Der DDNS Dienst",
     "chapter": "Internet Access",
-    "tags": ["Fernzugriff", "Internetzugriff", "unterwegs", "Internet Adresse" "DDNS", "Portweiterleitung", "Portfreigabe", "Router","1935" "8081", "statische IP Adresse", "HTTP Port", "HTTPS Port", "RTMP Port"],
+    "tags": ["Fernzugriff", "Internetzugriff", "unterwegs", "Internet Adresse", "DDNS", "Portweiterleitung", "Portfreigabe", "Router", "1935", "8081", "statische IP Adresse", "HTTP Port", "HTTPS Port", "RTMP Port"],
     "image": "/images/Search/IA_SearchThumb_DDNSService.jpg",
     "abstract": "Fernzugriff auf die Kamera per DDNS-Adresse"
 }

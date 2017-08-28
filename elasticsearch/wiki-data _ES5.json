@@ -214,3 +214,74 @@ POST /wiki/article/AVXzjlPh7CL0F31EvU-m/_update
     "image": "/images/Search/InstarWiki_SearchThumb_HowDoesAnIPCameraWork.jpg"
   }
 }
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~
+
+
+PUT /wiki2
+{
+  "mappings": {
+    "article": {
+      "properties": {
+        "title": {
+          "type": "text"
+        },
+        "series": {
+          "type": "text",
+          "index": "false"
+        },
+        "models": {
+          "type": "text",
+          "index": "false"
+        },
+        "description": {
+          "type": "text",
+          "analyzer": "german",
+          "index": "true"
+        },
+        "description2": {
+          "type": "text",
+          "analyzer": "english",
+          "index": "true"
+        },
+        "link": {
+          "type": "text",
+          "index": "false"
+        },
+        "title2": {
+          "type": "text"
+        },
+        "chapters" : {
+        "type": "text",
+        "fields" : {
+          "raw" : {
+            "type": "text",
+            "index": "false"
+            }
+          }
+        },
+        "tags": {
+          "type": "keyword",
+          "fields" : {
+          "raw" : {
+            "type": "text",
+            "index": "false"
+            }
+          }
+        },
+        "image": {
+          "type": "text",
+          "index": "false"
+        },
+        "abstract": {
+          "type": "text",
+          "analyzer": "german",
+          "index": "true"
+        }
+      }
+    }
+  }
+}
