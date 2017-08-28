@@ -3,7 +3,7 @@ var searchRouter = express.Router();
 var elasticsearch = require('elasticsearch');
 
 var connectionString = 'localhost:9200';
-var _index = 'wiki2';
+var _index = 'wiki2_en';
 var _type = 'article';
 
 var client = new elasticsearch.Client({
