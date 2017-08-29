@@ -614,3 +614,269 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Portweiterleitung in meinem Router ..."
 }
+POST /wiki2/article
+{
+    "title2": "FAQs :: Outdoor",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kann man die Kamera auch Outdoor nutzen? Für den Außenbereich wäre die IN-9008 Full HD vorgesehen. Da die IN-8015 Full HD für den Innenbereich vorgesehen ist, wäre es besser diese auch nur im Innenbereich zu verwenden. Sofern Sie das Risiko eines Garantieverlustes eingehen möchten, können Sie die Kamera auch im geschützten Außenbereich installieren wo sichergestellt ist das kein Regen, Schnee oder andere Wettereinflüsse an die Kamera gelangen.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20man%20die%20Kamera%20auch%20Outdoor%20nutzen%3F",
+    "title": "FAQs :: Outdoor",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Innenkameras im Außeneinsatz ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: QNAP & Synology",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Hat schon jemand Erfahrung mit der in-8015hd und der synology surveillance station? Sowohl Synology als auch QNAP werden die 1080p Modelle in einem kommenden Update hinzufügen. Aber man kann die IN-8015 HD auch jetzt schon in der Surveillance Station einfügen. Beim Test die Fehlermeldung ignorieren und einfach weiter drücken. Danach bei der Videoaufnahme 1280x720 als Auflösung wählen - da hier die gleichen CGI Befehle wie bei der IN-6014HD verwendet werden, erfolgt die Aufnahme danach in der höchsten Auflösung von 1920x1080.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Hat%20schon%20jemand%20Erfahrung%20mit%20der%20in-8015hd%20und%20der%20synology%20surveillance%20station%3F",
+    "title": "FAQs :: QNAP & Synology",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Kann man Full HD Kameras einbinden ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: WiFi",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Sind mit wlan alle Funktionen verfügbar, oder gibt es Einschränkungen? Alles was die Kamera per LAN Kabel kann kann sie auch per WLAN. Hier gibt es keine Einschränkung. Es sollte lediglich darauf geachtet werden das die Kamera nicht zu weit entfernt ist vom Router und das WLAN Signal somit stark genug ist.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Sind%20mit%20wlan%20alle%20Funktionen%20verfügbar%2C%20oder%20gibt%20es%20Einschränkungen%3F",
+    "title": "FAQs :: WLAN",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Gibt es Einschränkungen beim WLAN ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: 6014 vs 8015",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Was ist der Vorteil oder die Verbesserung der IN-8015 Full HD zur 6014 HD? Zum Einen handelt es sich der der 8015 um eine FullHD-Kamera, d.h. sie hat eine doppelt so hohe Auflösung um Vergleich mit der 6014 und die 8015 verfügt zusätzlich zu dem internen PIR Sensor noch über einen eigenen Alarmeingang. Zum Anderen besitzt die 8015 eine komplett überarbeitete Software, die P2P Funktion wurde deutlich verbessert, es wird HTTPS unterstützt und es gibt noch viele weitere Einstellmöglichkeiten, die die 6014 nicht hat. Die wichtigsten Punkte zur neuen IN-8015 Full HD Serie zusammengefasst Hardware Panasonic WDR Bildsensor, ideal für schwierige Lichtsituationen Eingebautes Mikrofon inkl. Geräuscherkennung mit einstellbarem max. Pegel Eingebauter Lautsprecher Integrierte Motoren für die Steuerung z.B. über die App von unterwegs Eingebauter PIR Wärmesensor um Fehlalarme zu vermeiden 10 Stück 850nm IR LEDs für eine gute Ausleuchtung bei Nacht Für Wand-, Stand- und Deckenmontage geeignet MicroSD Speicherkarten bis zu 128GB möglich. (16GB bereits verbaut ab Werk) WPS für eine Verbindung per WLAN ohne vorheriges LAN Kabel Separater Alarm Ein-/Ausgang zum anschließen optionaler Sensoren Software Neue HTML5 Weboberfläche inkl. Einrichtungsassistent sowie interaktive Hilfefunktion Keine bis kaum Fehlalarme durch Kombination von PIR „und“ softwareseitiger Bewegungserkennung. Durch die logische UND Verknüpfung ist sichergestellt das die Kamera fast Fehlalarm frei ist. Die Videoaufnahme bei Alarm hat bereits 3 Sekunden (Pre-Recording) die vor dem Alarm aufgenommen werden. HTTPS und FTPS Verschlüsselung für eine sichere Übertragung Aufnahme der Videos auf eine MicroSD Speicherkarte, per FTP oder in der Cloud Versand von Fotos bei Alarm per Email, FTP oder auf die MicroSD Karte Push Mitteilungen bei Alarm Daueraufnahme auf SD Karte möglich Zeitraffer Aufnahmen (Timelaps) möglich auf SD, FTP oder per Email Zwei kostenfreie Möglichkeiten über das Internet zuzugreifen. P2P – funktioniert mit allen Internetanschlüssen, auch bei IPv6 oder mobilen Anschlüssen. DDNS – bietet den Vorteil auch über den Webbrowser von unterwegs auf die Kamera zuzugreifen. Kostenfreier Emailserver zum Versand der Alarm-Emails Kostenfreie App für iPhone, iPad, Android, Win Phone, Win8.1 10, Blackberry, Kindle Deutsches Unternehmen, dies bedeutet das die Server für P2P, DDNS, Email als auch für die Cloud alle in Deutschland stehen und somit die Datensicherheit gewährleistet ist. Rein optionale Cloud welche ohne jegliches Abo funktioniert inkl. Fehlalarm Regenerkennung",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Was%20ist%20der%20Vorteil%20oder%20die%20Verbesserung%20der%20IN-8015%20Full%20HD%20zur%206014%20HD%3F",
+    "title": "FAQs :: 6014 vs 8015",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Was sind die Vorteile der 1080p Serie ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: 5905 vs 9008",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Was ist der Vorteil oder die Verbesserung der IN-9008 Full HD zur 5905 HD? Die wichtigsten Punkte zur neuen IN-9008 Full HD Serie zusammengefasst Hardware Neues und Durchdachtes Design / keine Anschlusskabel mit klobigen Steckern mehr Panasonic WDR Bildsensor, ideal für schwierige Lichtsituationen Eingebautes Mikrofon inkl. Geräuscherkennung mit einstellbarem max. Pegel Eingebauter Panasonic PIR Wärmesensor um Fehlalarme zu vermeiden 5 High-Power 850nm IR LEDs für eine gute Ausleuchtung bei Nacht Für Wand- und Deckenmontage geeignet dank flexibler Halterung MicroSD Speicherkarten bis zu 128GB möglich. (16GB bereits verbaut ab Werk) WPS für eine Verbindung per WLAN ohne vorheriges LAN Kabel Software Neue HTML5 Weboberfläche inkl. Einrichtungsassistent sowie interaktive Hilfefunktion Keine bis kaum Fehlalarme durch Kombination von PIR und softwareseitiger Bewegungserkennung. Durch die logische UND Verknüpfung ist sichergestellt das die Kamera fast Fehlalarm frei ist. Die Videoaufnahme bei Alarm hat bereits 3 Sekunden (Pre-Recording) die vor dem Alarm aufgenommen werden. HTTPS und FTPS Verschlüsselung für eine sichere Übertragung Aufnahme der Videos auf eine MicroSD Speicherkarte, per FTP oder in der Cloud Versand von Fotos bei Alarm per Email, FTP oder auf die MicroSD Karte Push Mitteilungen bei Alarm Daueraufnahme auf SD Karte möglich Zeitraffer Aufnahmen (Timelapse) möglich auf SD, FTP oder per Email „Zwei“ kostenfreie Möglichkeiten über das Internet zuzugreifen. P2P – funktioniert mit allen Internetanschlüssen, auch bei IPv6 oder mobilen Anschlüssen. DDNS – bietet den Vorteil auch über den Webbrowser von unterwegs auf die Kamera zuzugreifen. Kostenfreier Emailserver zum Versand der Alarm-Emails Kostenfreie App für iPhone, iPad, Android, Win Phone, Win8.1/10, Blackberry, Kindle Deutsches Unternehmen, dies bedeutet das die Server für P2P, DDNS, Email als auch für die Cloud alle in Deutschland stehen und somit die Datensicherheit gewährleistet ist. Rein optionale Cloud welche ohne jegliches Abo funktioniert inkl. Fehlalarm Regenerkennung",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Was%20ist%20der%20Vorteil%20oder%20die%20Verbesserung%20der%20IN-9008%20Full%20HD%20zur%205905%20HD%3F",
+    "title": "FAQs :: 5905 vs 9008",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Was sind die Vorteile der 1080p Serie ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: 9008 Range",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Welche Reichweite hat der IR Sensor und die IR Ausleuchtung? Der PIR Sensor ist für eine Entfernung von max. 12-15 Meter vorgesehen. Eine weitere Entfernung ist mit PIR technisch nicht möglich, hier verwenden wir bereits einen der besten PIR Sensoren am Markt. Sollten Sie auf z.B. 30 Meter Bewegungen erkennen wollen, ist dies mit der softwareseitigen Bewegungserkennung möglich, da müsste man dann einfach nur den internen PIR Sensor abschalten bzw. diesen separat von der software Erkennung nutzen. Die Nachtsicht ist für max. 15-20 Meter ausgelegt. Wir haben den Text auf : MULTIMEDIA BILD Etwas erweitert und die einzelnen Funktionen noch etwas genauer erklärt - speziell die Wirkung des Hardware WDR Modus im Vergleich zum Software WDR wurde klarer herausgestellt. Vergleich zwischen der Bildqualität der IN-9008 Full HD und IN-5905 HD Das Kameramodell IN-8015 HD hat den gleichen Bildsensor und Weitwinkelobjektiv verbaut und ist daher vergleichbar: MULTIMEDIA BILD 9008 VS 5905",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Welche%20Reichweite%20hat%20a%20der%20IR%20Sensor%20und%20b%20die%20IR%20Ausleuchtung%3F",
+    "title": "FAQs :: 9008 Reichweite",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Welche Reichweite hat der PIR Sensor ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: MJPEG Stream",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Hat die kamera auch ein mjpeg stream? will sie in die Siedle app einbinden. Ja, es gibt das Video als RTSP (H264), MJPEG oder als JPEG Stream. Man kann sich auch einzelne Bilder in unterschiedlichen Auflösungen abgreifen. Siehe hier am Ende der Seite: WIKI.INSTAR.DE 1080P_SERIES CGI_LIST",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Hat%20die%20kamera%20auch%20ein%20mjpeg%20stream%3F%20will%20sie%20in%20die%20Siedle%20app%20einbinden...",
+    "title": "FAQs :: MJPEG Stream",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Hat die kamera auch ein mjpeg Stream ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: 5 GHz WiFi",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Funktioniert die Kamera auch mit 5 GHz WLAN? Nein, da die meisten Kunden mehr Wert legen auf eine weite Reichweite des WLANs, ist lediglich ein 2,4Ghz WLAN Modul verbaut da 5Ghz von der Entfernung nicht so stark wäre.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Funktioniert%20die%20Kamera%20auch%20mit%205%20GHz%20WLAN%3F",
+    "title": "FAQs :: 5 GHz WLAN",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Funktioniert die Kamera auch mit ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Connection Cable",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Wie werden die Anschlüsse wetterfest ausgebildet? Es ist richtig das die Anschlüsse am Ende des ca. 60cm langen Anschlusskabels im trockenen untergebracht werden müssen. Es gibt unterschiedliche Möglichkeiten dies zu tuen. Eine davon wäre das Anschlusskabel z.B. in einer Außendose Verteilerdose unterzubringen. Eine andere wäre ein etwas größeres Loch zu bohren um die Anschlüsse durch die Wand ins innere zu verlegen. Für etwas Technik versierte Kunden gibt es auch die Möglichkeit die Kamera zu öffnen um das Anschlusskabel im inneren zu entfernen. Dazu finden Sie ab heute Mittag im INSTAR TV Youtube Channel ein Video wie man die Kamera zerlegt um das Anschlusskabel im inneren zu entfernen. So kann man das Kabel von innen nach außen durch eine Wand verlegen ohne dafür ein großes Loch bohren zu müssen. Der Aufwand dafür beträgt jedoch min. ca. 30min.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Wie%20werden%20die%20Anschluesse%20wetterfest%20ausgebildet%3F",
+    "title": "FAQs :: Anschlüsse",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Wie werden die Anschlüsse wetterfest ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: IPv4 or IPv6",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Mit was für ein IP Protokoll IP4 oder IP6 arbeitet die Kamera? Es ist egal ob Ihr Internetanbieter mit IPv4 oder IPv6 arbeitet. Bei den HD Kameras gibt es zwei Möglichkeiten über das Internet zuzugreifen. DDNS: Dies funktioniert nur bei IPv4 P2P: Dies funktioniert sowohl über IPv4 als auch IPv6, Sie können damit über z.B. unsere App InstarVision auf Ihrem Smartphone von überall auf der Welt zugreifen. Über den Internetanschluss müssen Sie sich daher bei diesen Kameramodellen keinerlei Sorgen machen. Im lokalen Netzwerk arbeiten die Kameras über IPv4.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Mit%20was%20für%20ein%20IP%20Protokoll%20IP4%20oder%20IP6%20arbeitet%20die%20Kamera",
+    "title": "FAQs :: IPv4 oder IPv6",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Mit was für ein IP Protokoll ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: 5905 vs 5907",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Ich überlege welche der Kameras 5905 oder 5907 ich kaufen soll? Der Unterschied zwischen der IN-5905HD und der IN-5907HD ist folgender: Das Gehäuse unterscheidet sich natürlich, so ist die IN-5905HD etwas kleiner und kompakter und eignet sich so ideal für einen Eingangsbereich Die IN-5905HD hat bereits ein 90 Grad Weitwinkelobjektiv verbaut. Die IN-5907HD hingegen sieht einen 45 Grad Winkel. Der Winkel kommt immer darauf an für was man die Kamera nutzen möchte. Wenn Sie z.B. einen Eingangsbereich überwachen möchten, dann wollen Sie ja auf kurze Distanz einen möglichst großen Bereich sehen um die komplette Person zu sehen. Hier macht daher auf jeden Fall ein Weitwinkelobjektiv sinn. Wenn Sie aber einen z.B. Parkplatz überwachen möchten und viel Wert auf Details wie Nummernschilder legen, dann macht ein kleinerer Winkel wie bei der IN-5907HD Sinn, denn je größer der Winkel ist, desto mehr sehen Sie zwar, aber desto kleiner wird auch alles dargestellt... Für die IN-5907HD bieten wir etwas mehr Zubehör an wie z.B. komplett unsichtbare LEDs, ein 4m Anschlusskabel etc. Wie gesagt ist entscheidend für was Sie die Kamera einsetzen möchten... Ein paar Vergleichsbilder finden Sie auf unseren Produktseiten",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Ich%20überlege%20welche%20der%20Kameras%205905%20oder%205907%20ich%20kaufen%20soll%3F",
+    "title": "FAQs :: 5905 vs 5907",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Was ist der Unterschied zwischen ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Video auf FTP",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kann man dauerhaft das Videobild mit ton per ftp speichern (z.b. in chunks)? Nein, dies ist leider nicht möglich. Hier würden Sie eher einen NVR oder z.B. die Synology Disk Station benötigen welche sich dauerhaft das Video abgreift und aufzeichnet. Bei FTP muss man davon ausgehen das die Verbindung unterbricht, zudem muss das Video abgeschlossen sein bevor es übertragen werden kann, eine nicht fertige Datei kann per FTP nicht übertragen werden, diese und viele andere Gründe ermöglichen es leider nicht das eine Daueraufnahme per FTP möglich ist. Auf die interne Speicherkarte der Kamera allerdings ist eine Daueraufnahme möglich. Dies können Sie in der Kamera aktivieren. Auch die Alarm Videos können Sie per FTP übertragen, nur eben keine Daueraufnahme.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20man%20dauerhaft%20das%20Videobild%20mit%20Ton%20per%20FTP%20speichern.",
+    "title": "FAQs :: Video auf FTP",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Kann man dauerhaft das Videobild ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Push Notification",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Was muss ich tun, damit die Kamera mich via Push Mittteilung informiert? Was muss ich tun, damit die Kamera mich beim Registrieren einer Bewegung etc. via Push-Mittteilung auf mein Smartphone informiert (nicht Email)? Ich beschreibe Ihnen kurz die Vorgehensweise: Öffnen Sie die Weboberfläche Ihrer Kamera und gehen Sie dort auf Netzwerk - Push Dienst und aktivieren Sie diesen dort und Bestätigen Sie dies Stellen Sie sicher das Sie die Alarmbereiche bzw. den Alarmeingang aktiviert haben sofern Sie einen externen Melder verwenden damit auch ein Alarm bei z.B. einer Bewegung ausgelöst wird Öffnen Sie jetzt am Smartphone die App und wählen Sie die entsprechende Kamera aus und öffnen Sie diese in der Vollansicht. Klicken Sie dort dann auf das Symbol Push und aktivieren Sie dies. Sie werden dort aufgefordert den QR Code von der Weboberfläche abzuscannen den Sie Netzwerk - Push Dienst finden. Scannen Sie diesen ab, der Befehl wird dann übertragen. Der Push Dienst sollte jetzt aktiv sein. Sobald die Kamera einen Alarm erkennt, sollte auf dem Smartphone eine Textmeldung (Pushmitteilung) kommen wo dann steht ... Alarm von Kamera XY...",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Was%20muss%20ich%20tun%20damit%20die%20Kamera%20mich%20via%20Push%20Mittteilung%20informiert%3F",
+    "title": "FAQs :: Push Mittteilung",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Was muss ich tun, damit die Kamera ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Temperature Range",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Bis zu welchen Temperaturbereich ist die Kamera spezifiziert? Es ist richtig das -5 und +55 Grad angegeben werden. Dies sind die Temperaturen die INSTAR garantieren kann. In der Praxis sind auch -10 Grad kein Problem. Um jedoch zu garantieren das die Kamera auch bei -25 Grad noch problemlos funktioniert, empfehlen wir die Heizung. Damit können wir wie gesagt garantieren das die Kamera noch funktioniert. Aber selbst ohne Heizung würde die Kamera nicht kaputt gehen wenn es zu kalt wird. Das schlimmste wäre das die Kamera nicht mehr erreichbar ist im Netzwerk und man sie neu starten muss oder im Extremfall warten muss bis es wärmer wird. Man könnte dann aber auch jederzeit die Heizung nachrüsten.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Bis%20zu%20welchen%20Temperaturbereich%20ist%20die%20Kamera%20spezifiziert%3F",
+    "title": "FAQs :: Temperaturbereich",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Bis zu welchen Temperaturbereich ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Ceiling Installation",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kann die Kamera über Kopf montiert und das Videobild gedreht werden? Ja, eine Installation unter der Decke ist möglich. Das Bild der Kamera kann danach in der Weboberfläche gedreht und gespiegelt werden:",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Kann%20die%20Kamera%20ueber%20Kopf%20montiert%20und%20das%20Videobild%20gedreht%20werden%3F",
+    "title": "FAQs :: Deckeninstallation",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Kann das Videobild gedreht werden ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Without Computer",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Muss der PC im Betrieb der Kamera eingeschaltet bleiben? Nein, die Kamera arbeitet komplett eigenständig. Sie benötigen keinen PC (lediglich für die Einrichtung). Die Kamera selbst kann Bewegungen erkennen, Videos aufnehmen, Bilder per Email versenden, auf einen FTP Server die Aufnahmen übertragen und vieles mehr. Sie können auch mit der kostenfreien App InstarVision problemlos von unterwegs auf die Kamera zugreifen ohne das dazu ein PC laufen muss. Nur wenn Sie unsere Windows Software InstarVision v2 nutzen möchten, benötigen Sie einen PC.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Muss%20der%20PC%20im%20Betrieb%20der%20Kamera%20eingeschaltet%20bleiben%3F",
+    "title": "FAQs :: Ohne Computer",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Muss der PC im Betrieb der Kamera ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Close Focus",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Wie ist die Naheinstellgrenze der Kamera? Wie ist die Naheinstellgrenze der Kamera? möchte ein Vogelnest in der Garage detaillreich beobachten. Sbstand von 0 - 4 m wäre machbar. Ja, Sie können durch drehen am Objektiv entsprechend die schärfe justieren. So können Sie selbst Objektive ein paar Zentimeter vor der Kamera entsprechend scharf dargestellt bekommen. Zum justieren, müssten Sie aber die Kamera öffnen und entsprechend das Objektiv einstellen.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#Wie%20ist%20die%20Naheinstellgrenze%20der%20Kamera%3F",
+    "title": "FAQs :: Naheinstellgrenze",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Muss der PC im Betrieb der Kamera ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Power Plug",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Welche Größe hat der Anschluss Stecker des Netzteils? Der Netzstecker der Außenkameras ist ein 2.1mm In / 5.5mm Out Hohlstecker. Es werden 2A bei 12V benötigt. Der Netzstecker der Innenkameras ist ein 1.35mm In / 3.5mm Out Hohlstecker. Es werden 1,5A bei 5V benötigt.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#/Fragen_und_Antworten/#Welche%20Größe%20hat%20der%20Anschluss%20Stecker%20des%20Netzteils%3F",
+    "title": "FAQs :: Netzstecker",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Welche Größe hat der Anschluss ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Power Plug",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Welche Größe hat der Anschluss Stecker des Netzteils? Der Netzstecker der Außenkameras ist ein 2.1mm In / 5.5mm Out Hohlstecker. Es werden 2A bei 12V benötigt. Der Netzstecker der Innenkameras ist ein 1.35mm In / 3.5mm Out Hohlstecker. Es werden 1,5A bei 5V benötigt.",
+    "description2": "INSTAR Wiki FAQs",
+    "link": "/Fragen_und_Antworten/#/Fragen_und_Antworten/#Welche%20Größe%20hat%20der%20Anschluss%20Stecker%20des%20Netzteils%3F",
+    "title": "FAQs :: Netzstecker",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/D_SearchThumb.jpg",
+    "abstract": "Welche Größe hat der Anschluss ..."
+}

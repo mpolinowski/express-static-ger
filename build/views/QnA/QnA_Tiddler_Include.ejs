@@ -108,6 +108,8 @@
 
 <li>$:/DefaultTiddlers</li>
 
+<li>$:/Import</li>
+
 <li>$:/isEncrypted</li>
 
 <li>$:/language</li>
@@ -306,13 +308,19 @@
 
 <li>Funktioniert der Bewegungsmelder/Nachtsicht durch eine Scheibe?</li>
 
+<li>Funktioniert die Kamera auch mit 5 GHz WLAN?</li>
+
 <li>Habe einen neuen Router. Wie verbinde ich die Kamera mit dem neuen Router?</li>
+
+<li>Hat die kamera auch ein mjpeg stream? will sie in die Siedle app einbinden...</li>
 
 <li>Hat die Kamera ein API mit dem ich das aktuelle Bild per curl etc. abgreifen kann?</li>
 
 <li>Hat diese Kamera eine Zoom-Funktion?</li>
 
 <li>Hat dieses Gerät Signalalarm? Oder hat sie keinen Ton?</li>
+
+<li>Hat schon jemand Erfahrung mit der in-8015hd und der synology surveillance station?</li>
 
 <li>Hello World</li>
 
@@ -388,6 +396,8 @@
 
 <li>Kann man die Kamera auch im Ausland mit 110V betreiben?</li>
 
+<li>Kann man die Kamera auch Outdoor nutzen?</li>
+
 <li>Kann man die Software ohne CD installieren, da mein PC kein CD Laufwerk hat?</li>
 
 <li>Kann man einen Schwenkbereich einstellen ? Will Haustür und Gartentür gleichzeitig überwachen.</li>
@@ -404,13 +414,23 @@
 
 <li>Paßwort geschützt ist die Cam ja bestimmt kann man auch ein Gast zu tritt einrichten der dann zu schauen kann wenn ich das will?</li>
 
+<li>Sind mit wlan alle Funktionen verfügbar, oder gibt es Einschränkungen?</li>
+
 <li>Tasks</li>
 
 <li>VGA Serie</li>
 
 <li>Warum sieht man mit der Kamera so wenig vom Raum?</li>
 
+<li>Was ist der Vorteil oder die Verbesserung der IN-8015 Full HD zur 6014 HD?</li>
+
+<li>Was ist der Vorteil oder die Verbesserung der IN-9008 Full HD zur 5905 HD?</li>
+
 <li>Was ist mit dem kostenlosem Push Service gemeint?</li>
+
+<li>Welche Größe hat der Anschluss Stecker des Netzteils?</li>
+
+<li>Welche Reichweite hat a der IR Sensor und b die IR Ausleuchtung?</li>
 
 <li>Welche W-LAN und Frequenzstandards unterstützt die Kamera? Auch 5 Ghz?</li>
 
@@ -8184,6 +8204,16 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <pre>Kameramodelle
 </pre>
 </div>
+<div plugin-type="import" status="pending" title="$:/Import" type="application/json">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;Untitled&quot;: {
+            &quot;text&quot;: &quot;&lt;span style=\&quot;color: rgb(0, 0, 0); font-family: Roboto, sans-serif; font-size: 47px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 100; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(252, 252, 252); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\&quot;&gt;Funktioniert die Kamera auch&lt;/span&gt;&quot;,
+            &quot;title&quot;: &quot;Untitled&quot;
+        }
+    }
+}</pre>
+</div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
@@ -11626,7 +11656,7 @@ very-muted-foreground: #888888</pre>
 <div created="20170414082148767" modified="20170416074918309" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Settings</pre>
 </div>
-<div created="20170414082031228" modified="20170416075819770" title="$:/state/tab/sidebar--1835078512">
+<div created="20170414082031228" modified="20170829081525744" title="$:/state/tab/sidebar--1835078512">
 <pre>Kameramodelle</pre>
 </div>
 <div created="20170414102724725" modified="20170414102744788" title="$:/state/tabs/controlpanel/toolbars-1345989671">
@@ -11656,7 +11686,7 @@ very-muted-foreground: #888888</pre>
 <div created="20170414095302675" modified="20170416070404565" title="$:/state/toc/Q&amp;A-IN-9008HD-845459193">
 <pre>close</pre>
 </div>
-<div list="Kameramodelle" title="$:/StoryList">
+<div list="[[Welche Größe hat der Anschluss Stecker des Netzteils?]] [[Kann ich bei meiner Kamera eine größere SD Karte einsetzen ?]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20170414082736766" modified="20170414082736766" title="$:/temp/HidePluginWarning">
@@ -12175,9 +12205,17 @@ http://wiki.instar.de/Motion_Detection/Router_as_a_FTP_Server/
 <div created="20170415101005640" modified="20170415101302721" tags="IN-6014HD" title="Funktioniert der Bewegungsmelder/Nachtsicht durch eine Scheibe?">
 <pre>Seitens der Bewegungserkennung würde nur die softwareseitige Bewegungserkennung funktionieren. Der eingebaute PIR (Wärmesensor) würde durch die Scheibe leider nicht funktionieren. Auch die Nachtsicht würde eher dafür sorgen das man Reflexionen im Bild hat. Man könnte die Kamera leicht schräg zur Scheibe ausrichten, man würde dann aber trotzdem die Reflexionen in der Scheibe sehen. Daher würden wir den Einsatz hinter einer Scheibe &quot;nicht&quot; unbedingt empfehlen.</pre>
 </div>
+<div created="20170829103755379" modified="20170829103926017" tags="IN-5905HD IN-5907HD IN-6001HD IN-6012HD IN-6014HD IN-7011HD IN-8015HD IN-9008HD [[VGA Serie]]" title="Funktioniert die Kamera auch mit 5 GHz WLAN?">
+<pre>Nein, da die meisten Kunden mehr Wert legen auf eine weite Reichweite des WLANs, ist lediglich ein 2,4Ghz WLAN Modul verbaut da 5Ghz von der Entfernung nicht so stark wäre. </pre>
+</div>
 <div created="20170416072218761" modified="20170416072451055" tags="IN-5905HD IN-5907HD IN-6001HD IN-6012HD IN-6014HD IN-7011HD IN-8015HD IN-9008HD" title="Habe einen neuen Router. Wie verbinde ich die Kamera mit dem neuen Router?">
 <pre>Am besten einfach den Schritten für die Erstinstallation folgen wie auf http://install.instar.de zu sehen.
 Sofern Sie die Kamera per WLAN genutzt haben, am besten die Kamera zuerst per LAN Kabel einmal am neuen Router anschließen damit Sie auf die Kamera zugreifen können. Sie können dann in der Kamera die WLAN Daten auf die des neuen Routers anpassen.</pre>
+</div>
+<div created="20170829102856906" modified="20170829103246297" tags="IN-9008HD" title="Hat die kamera auch ein mjpeg stream? will sie in die Siedle app einbinden...">
+<pre>Ja, es gibt das Video als RTSP (H264), MJPEG oder als JPEG Stream. Man kann sich auch einzelne Bilder in unterschiedlichen Auflösungen abgreifen.
+
+Siehe hier am Ende der Seite: https://wiki.instar.de/1080p_Series_CGI_List/ </pre>
 </div>
 <div created="20170416102607456" modified="20170416102658483" tags="IN-5905HD IN-5907HD IN-6001HD IN-6012HD IN-6014HD IN-7011HD IN-8015HD IN-9008HD" title="Hat die Kamera ein API mit dem ich das aktuelle Bild per curl etc. abgreifen kann?">
 <pre>Ja, die komplette Dokumentation finden Sie hier:
@@ -12189,6 +12227,15 @@ https://www.instar.de/faq_cgi_hd</pre>
 </div>
 <div created="20170416075244193" modified="20170416075435248" tags="IN-6001HD IN-6012HD IN-6014HD" title="Hat dieses Gerät Signalalarm? Oder hat sie keinen Ton?">
 <pre>Ja hat sie. Es ist ein Lautsprecher integriert, den man über die Smartphone App ansprechen kann. Ein Alarmton kann auf eine Auslöseaktionen konfiguriert werden.</pre>
+</div>
+<div created="20170829090223743" modified="20170829091927977" tags="IN-8015HD IN-9008HD" title="Hat schon jemand Erfahrung mit der in-8015hd und der synology surveillance station?">
+<pre>Sowohl Synology als auch QNAP werden die 1080p Modelle in einem kommenden Update hinzufügen. Aber man kann die IN-8015 HD auch jetzt schon in der Surveillance Station einfügen. Beim Test die Fehlermeldung ignorieren und einfach weiter drücken:
+
+&lt;img src=&quot;/images/QNAP_Model-Mismatch.jpg&quot; alt=&quot;QNAP Camera Model Mismatch&quot; height=&quot;252&quot; width=&quot;402&quot;&gt;
+
+Danach bei der Videoaufnahme 1280x720 als Auflösung wählen - da hier die gleichen CGI Befehle wie bei der IN-6014HD verwendet werden, erfolgt die Aufnahme danach in der höchsten Auflösung von 1920x1080.
+
+&lt;img src=&quot;/images/QNAP_FullHD-as-HD.jpg&quot; alt=&quot;QNAP Camera Model Mismatch&quot; height=&quot;235&quot; width=&quot;302&quot;&gt;</pre>
 </div>
 <div created="20170414081609842" modified="20170414090302753" tags="Inhalt" title="Hello World">
 <pre>Test</pre>
@@ -12315,7 +12362,7 @@ https://wiki.instar.de/Software/Other_Platforms/Synology/
 </div>
 <div created="20170416092248964" modified="20170416092845518" tags="IN-5905HD IN-5907HD IN-6001HD IN-6012HD IN-6014HD IN-7011HD IN-8015HD IN-9008HD" title="Kann die Kamera übers Internet erreichen?">
 <pre>Ja, etwa durch Aktivierung der Portweiterleitung, lässt sich der Zugriff von Rechnern aus anderen Netzen, also auch dem Internet, einrichten. Es stehen verschiedene Modi zur Verfügung, die sowohl die Steuerung, Konfiguration also aber auch nur die Anzeige des aktuellen Kamerabildes ermöglichen. Unter Instar.de unter Downloads und der Kamera
-Type gibt es ein Video zum Firmwareupdate. Da ist es erklärt wie es funktioniert. Weiters gibt es ein Gratis App mit Livebild. 
+Type gibt es ein Video zum Firmwareupdate. Da ist es erklärt wie es funktioniert. Weiters gibt es ein Gratis App mit Livebild.
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/cLVYEmb1jAk&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -12381,7 +12428,7 @@ Ansonsten gibt es auch unsere kostenfreie Smartphone App, damit können Sie spre
 http://wiki.instar.de/Advanced_User/Website_Integration/HD_Camera_Integration</pre>
 </div>
 <div created="20170416095219409" modified="20170416095418583" tags="IN-6014HD IN-8015HD IN-9008HD" title="Kann man den PIR-sensor ausschalten?">
-<pre>Ja, dies ist problemlos möglich. Sie können entweder garkeine Bewegungserkennung benutzen, nur die softwareseitige Bewegungserkennung durch einen Bildvergleich verwenden, den PIR einzeln nutzen oder aber den PIR und die Alarmbereiche der softwareseitigen Bewegungserkennung miteinander koppeln. Alle Kombinationen sind somit möglich. 
+<pre>Ja, dies ist problemlos möglich. Sie können entweder garkeine Bewegungserkennung benutzen, nur die softwareseitige Bewegungserkennung durch einen Bildvergleich verwenden, den PIR einzeln nutzen oder aber den PIR und die Alarmbereiche der softwareseitigen Bewegungserkennung miteinander koppeln. Alle Kombinationen sind somit möglich.
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/ziksI3G3n_I&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -12395,6 +12442,9 @@ http://wiki.instar.de/Advanced_User/Website_Integration/HD_Camera_Integration</p
 </div>
 <div created="20170416073455423" modified="20170416073632184" tags="IN-5905HD IN-5907HD IN-6001HD IN-6012HD IN-6014HD IN-7011HD IN-8015HD IN-9008HD" title="Kann man die Kamera auch im Ausland mit 110V betreiben?">
 <pre>Ja, das Netzteil hat einen Eingangsspannungsbereich von AC 100 - 240 Volt.</pre>
+</div>
+<div created="20170829085025514" modified="20170829085156912" tags="IN-8015HD" title="Kann man die Kamera auch Outdoor nutzen?">
+<pre>Für den Außenbereich wäre die IN-9008 Full HD vorgesehen. Da die IN-8015 Full HD für den Innenbereich vorgesehen ist, wäre es besser diese auch nur im Innenbereich zu verwenden. Sofern Sie das Risiko eines Garantieverlustes eingehen möchten, können Sie die Kamera auch im geschützten Außenbereich installieren wo sichergestellt ist das kein Regen, Schnee oder andere Wettereinflüsse an die Kamera gelangen.</pre>
 </div>
 <div created="20170415105341564" modified="20170416070903818" tags="IN-6014HD IN-5905HD IN-5907HD IN-6001HD IN-6012HD IN-7011HD" title="Kann man die Software ohne CD installieren, da mein PC kein CD Laufwerk hat?">
 <pre>Ja, auf der CD befindet sich an sich nichts, Sie werden lediglich auf die Seite http://install.instar.de weitergeleitet, dort finden Sie alle Infos und Anleitungen / Software die Sie für die Installation benötigen.</pre>
@@ -12415,7 +12465,7 @@ Sie finden auch hier eine genaue Anleitung dazu:
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/P-YyavzBkEk&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</pre>
 </div>
 <div created="20170416075543413" modified="20170416083911227" tags="IN-5905HD IN-5907HD IN-6001HD IN-6012HD IN-6014HD IN-7011HD IN-8015HD IN-9008HD [[VGA Serie]]" title="Können mehrere Kameras gleichzeitig über die Smartphone App abgerufen werden?">
-<pre>Man kann in der App mehrere Kameras hinzufügen und diese dann auswählen - sogar unterschiedliche Kameras, unterschiedlicher Hersteller können über die App verwaltet werden. 
+<pre>Man kann in der App mehrere Kameras hinzufügen und diese dann auswählen - sogar unterschiedliche Kameras, unterschiedlicher Hersteller können über die App verwaltet werden.
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/HXC9wS31gdc&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</pre>
 </div>
@@ -12432,6 +12482,9 @@ Sie finden oben über dem Videobild der Kamera einen Umschalter zwischen H264 un
 
 Der Gastbenutzer kann nur das Videobild sehen und keinerlei Einstellungen sehen bzw. vornehmen.</pre>
 </div>
+<div created="20170829092550242" modified="20170829092657296" tags="IN-5905HD IN-5907HD IN-6001HD IN-6012HD IN-6014HD IN-7011HD IN-8015HD IN-9008HD [[VGA Serie]]" title="Sind mit wlan alle Funktionen verfügbar, oder gibt es Einschränkungen?">
+<pre>Alles was die Kamera per LAN Kabel kann kann sie auch per WLAN. Hier gibt es keine Einschränkung. Es sollte lediglich darauf geachtet werden das die Kamera nicht zu weit entfernt ist vom Router und das WLAN Signal somit stark genug ist. </pre>
+</div>
 <div created="20170414083604014" modified="20170414090250077" tags="Inhalt" title="Tasks">
 <pre></pre>
 </div>
@@ -12445,13 +12498,117 @@ Für den Einsatz auf kürzere Distanzen eignet sich eher das Kameramodell IN-590
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/JUT4XxssAfA&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</pre>
 </div>
+<div created="20170829093031738" modified="20170829101431009" tags="IN-8015HD" title="Was ist der Vorteil oder die Verbesserung der IN-8015 Full HD zur 6014 HD?">
+<pre>Zum Einen handelt es sich der der 8015 um eine FullHD-Kamera, d.h. sie hat eine doppelt so hohe Auflösung um Vergleich mit der 6014 und die 8015 verfügt zusätzlich zu dem internen PIR Sensor noch über einen eigenen Alarmeingang. Zum Anderen besitzt die 8015 eine komplett überarbeitete Software, die P2P Funktion wurde deutlich verbessert, es wird HTTPS unterstützt und es gibt noch viele weitere Einstellmöglichkeiten, die die 6014 nicht hat.
+
+&lt;img src=&quot;/images/IN-8015HD2.png&quot; width=&quot;335&quot; height=&quot;398&quot; alt=&quot;INSTAR IN-8015 HD&quot;&gt;
+
+&lt;h3&gt;Die wichtigsten Punkte zur neuen IN-8015 Full HD Serie zusammengefasst&lt;/h3&gt;
+&lt;h4&gt;Hardware&lt;/h4&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Panasonic WDR Bildsensor, ideal für schwierige Lichtsituationen&lt;/li&gt;
+    &lt;li&gt;Eingebautes Mikrofon inkl. Geräuscherkennung mit einstellbarem max. Pegel&lt;/li&gt;
+    &lt;li&gt;Eingebauter Lautsprecher&lt;/li&gt;
+    &lt;li&gt;Integrierte Motoren für die Steuerung z.B. über die App von unterwegs&lt;/li&gt;
+    &lt;li&gt;Eingebauter PIR Wärmesensor um Fehlalarme zu vermeiden&lt;/li&gt;
+    &lt;li&gt;10 Stück 850nm IR LEDs für eine gute Ausleuchtung bei Nacht&lt;/li&gt;
+    &lt;li&gt;Für Wand-, Stand- und Deckenmontage geeignet&lt;/li&gt;
+    &lt;li&gt;MicroSD Speicherkarten bis zu 128GB möglich. (16GB bereits verbaut ab Werk)&lt;/li&gt;
+    &lt;li&gt;WPS für eine Verbindung per WLAN ohne vorheriges LAN Kabel&lt;/li&gt;
+    &lt;li&gt;Separater Alarm Ein-/Ausgang zum anschließen optionaler Sensoren&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h4&gt;Software&lt;/h4&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Neue HTML5 Weboberfläche inkl. Einrichtungsassistent sowie interaktive Hilfefunktion&lt;/li&gt;
+    &lt;li&gt;Keine bis kaum Fehlalarme durch Kombination von PIR „und“ softwareseitiger
+Bewegungserkennung. Durch die logische UND Verknüpfung ist sichergestellt das die
+Kamera fast Fehlalarm frei ist.&lt;/li&gt;
+    &lt;li&gt;Die Videoaufnahme bei Alarm hat bereits 3 Sekunden (Pre-Recording) die vor dem Alarm aufgenommen werden.&lt;/li&gt;
+    &lt;li&gt;HTTPS und FTPS Verschlüsselung für eine sichere Übertragung&lt;/li&gt;
+    &lt;li&gt;Aufnahme der Videos auf eine MicroSD Speicherkarte, per FTP oder in der Cloud&lt;/li&gt;
+    &lt;li&gt;Versand von Fotos bei Alarm per Email, FTP oder auf die MicroSD Karte&lt;/li&gt;
+    &lt;li&gt;Push Mitteilungen bei Alarm&lt;/li&gt;
+    &lt;li&gt;Daueraufnahme auf SD Karte möglich&lt;/li&gt;
+    &lt;li&gt;Zeitraffer Aufnahmen (Timelapse) möglich auf SD, FTP oder per Email&lt;/li&gt;
+    &lt;li&gt;„Zwei“ kostenfreie Möglichkeiten über das Internet zuzugreifen. P2P – funktioniert mit
+allen Internetanschlüssen, auch bei IPv6 oder mobilen Anschlüssen. DDNS – bietet den
+Vorteil auch über den Webbrowser von unterwegs auf die Kamera zuzugreifen.&lt;/li&gt;
+    &lt;li&gt;Kostenfreier Emailserver zum Versand der Alarm-Emails&lt;/li&gt;
+    &lt;li&gt;Kostenfreie App für iPhone, iPad, Android, Win Phone, Win8.1/10, Blackberry, Kindle&lt;/li&gt;
+    &lt;li&gt;Deutsches Unternehmen, dies bedeutet das die Server für P2P, DDNS, Email als auch für die Cloud alle in Deutschland stehen und somit die Datensicherheit gewährleistet ist.&lt;/li&gt;
+    &lt;li&gt;Rein optionale Cloud welche ohne jegliches Abo funktioniert inkl. Fehlalarm /
+Regenerkennung&lt;/li&gt;
+&lt;/ul&gt;</pre>
+</div>
+<div created="20170829100720315" modified="20170829101408953" tags="IN-9008HD" title="Was ist der Vorteil oder die Verbesserung der IN-9008 Full HD zur 5905 HD?">
+<pre>&lt;h3&gt;Die wichtigsten Punkte zur neuen IN-9008 Full HD Serie zusammengefasst&lt;/h3&gt;
+&lt;h4&gt;Hardware&lt;/h4&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Neues und Durchdachtes Design / keine Anschlusskabel mit klobigen Steckern mehr&lt;/li&gt;
+    &lt;li&gt;Panasonic WDR Bildsensor, ideal für schwierige Lichtsituationen&lt;/li&gt;
+    &lt;li&gt;Eingebautes Mikrofon inkl. Geräuscherkennung mit einstellbarem max. Pegel&lt;/li&gt;
+    &lt;li&gt;Eingebauter Panasonic PIR Wärmesensor um Fehlalarme zu vermeiden&lt;/li&gt;
+    &lt;li&gt;5 High-Power 850nm IR LEDs für eine gute Ausleuchtung bei Nacht&lt;/li&gt;
+    &lt;li&gt;Für Wand- und Deckenmontage geeignet dank flexibler Halterung&lt;/li&gt;
+    &lt;li&gt;MicroSD Speicherkarten bis zu 128GB möglich. (16GB bereits verbaut ab Werk)&lt;/li&gt;
+    &lt;li&gt;WPS für eine Verbindung per WLAN ohne vorheriges LAN Kabel&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h4&gt;Software&lt;/h4&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Neue HTML5 Weboberfläche inkl. Einrichtungsassistent sowie interaktive Hilfefunktion&lt;/li&gt;
+    &lt;li&gt;Keine bis kaum Fehlalarme durch Kombination von PIR „und“ softwareseitiger
+Bewegungserkennung. Durch die logische UND Verknüpfung ist sichergestellt das die
+Kamera fast Fehlalarm frei ist.&lt;/li&gt;
+    &lt;li&gt;Die Videoaufnahme bei Alarm hat bereits 3 Sekunden (Pre-Recording) die vor dem Alarm aufgenommen werden.&lt;/li&gt;
+    &lt;li&gt;HTTPS und FTPS Verschlüsselung für eine sichere Übertragung&lt;/li&gt;
+    &lt;li&gt;Aufnahme der Videos auf eine MicroSD Speicherkarte, per FTP oder in der Cloud&lt;/li&gt;
+    &lt;li&gt;Versand von Fotos bei Alarm per Email, FTP oder auf die MicroSD Karte&lt;/li&gt;
+    &lt;li&gt;Push Mitteilungen bei Alarm&lt;/li&gt;
+    &lt;li&gt;Daueraufnahme auf SD Karte möglich&lt;/li&gt;
+    &lt;li&gt;Zeitraffer Aufnahmen (Timelapse) möglich auf SD, FTP oder per Email&lt;/li&gt;
+    &lt;li&gt;„Zwei“ kostenfreie Möglichkeiten über das Internet zuzugreifen. P2P – funktioniert mit
+allen Internetanschlüssen, auch bei IPv6 oder mobilen Anschlüssen. DDNS – bietet den
+Vorteil auch über den Webbrowser von unterwegs auf die Kamera zuzugreifen.&lt;/li&gt;
+    &lt;li&gt;Kostenfreier Emailserver zum Versand der Alarm-Emails&lt;/li&gt;
+    &lt;li&gt;Kostenfreie App für iPhone, iPad, Android, Win Phone, Win8.1/10, Blackberry, Kindle&lt;/li&gt;
+    &lt;li&gt;Deutsches Unternehmen, dies bedeutet das die Server für P2P, DDNS, Email als auch für die Cloud alle in Deutschland stehen und somit die Datensicherheit gewährleistet ist.&lt;/li&gt;
+    &lt;li&gt;Rein optionale Cloud welche ohne jegliches Abo funktioniert inkl. Fehlalarm /
+Regenerkennung&lt;/li&gt;
+&lt;/ul&gt;</pre>
+</div>
 <div created="20170415101348226" modified="20170416084047275" tags="IN-6014HD IN-5905HD IN-5907HD IN-6001HD IN-6012HD IN-7011HD IN-8015HD IN-9008HD" title="Was ist mit dem kostenlosem Push Service gemeint?">
 <pre>Sie können sich von der Kamera entweder eine Email inklusive Bilder schicken lassen bei einem Alarm, oder aber Sie können sich auch eine Push Benachrichtigung (eine Textmeldung) auf Ihr Smartphone schicken lassen. Es ist auch beides gleichzeitig möglich...
 
-Zudem können Sie Videos auf eine Speicherkarte aufnehmen und per FTP senden und vieles mehr... 
+Zudem können Sie Videos auf eine Speicherkarte aufnehmen und per FTP senden und vieles mehr...
 
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/jgGk1vw9UYM&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</pre>
+</div>
+<div created="20170829131558226" modified="20170829131721441" tags="IN-5905HD IN-5907HD IN-6001HD IN-6012HD IN-6014HD IN-7011HD IN-8015HD IN-9008HD" title="Welche Größe hat der Anschluss Stecker des Netzteils?">
+<pre>Der Netzstecker der Außenkameras ist ein 2.1mm In / 5.5mm Out Hohlstecker. Es werden 2A bei 12V  benötigt.
+
+Der Netzstecker der Innenkameras ist ein 1.35mm In / 3.5mm Out Hohlstecker. Es werden 1,5A bei 5V benötigt.</pre>
+</div>
+<div created="20170829101802771" modified="20170829103146289" tags="IN-9008HD" title="Welche Reichweite hat a der IR Sensor und b die IR Ausleuchtung?">
+<pre>Der PIR Sensor ist für eine Entfernung von max. 12-15 Meter vorgesehen. Eine weitere Entfernung ist mit PIR technisch nicht möglich, hier verwenden wir bereits einen der besten PIR Sensoren am Markt. Sollten Sie auf z.B. 30 Meter Bewegungen erkennen wollen, ist dies mit der softwareseitigen Bewegungserkennung möglich, da müsste man dann einfach nur den internen PIR Sensor abschalten bzw. diesen separat von der software Erkennung nutzen. Die Nachtsicht ist für max. 15-20 Meter ausgelegt.
+
+Wir haben den Text auf :
+
+https://wiki.instar.de/Web_User_Interface/1080p_Serie/Multimedia/Bild/
+
+Etwas erweitert und die einzelnen Funktionen noch etwas genauer erklärt - speziell die Wirkung des Hardware WDR Modus (im Vergleich zum Software WDR) wurde klarer herausgestellt.
+
+Vergleich zwischen der Bildqualität der IN-9008 Full HD und IN-5905 HD (Das Kameramodell IN-8015 HD hat den gleichen Bildsensor und Weitwinkelobjektiv verbaut und ist daher vergleichbar):
+
+https://wiki.instar.de/Web_User_Interface/1080p_Serie/Multimedia/Bild/9008vs5905/</pre>
 </div>
 <div created="20170416095823354" modified="20170416100057553" tags="IN-5905HD IN-5907HD IN-6001HD IN-6012HD IN-6014HD IN-7011HD IN-8015HD IN-9008HD" title="Welche W-LAN und Frequenzstandards unterstützt die Kamera? Auch 5 Ghz?">
 <pre>Die Kamera unterstützt nur das 2,4 GHz Frequenzband mit den b/g/n Standard
