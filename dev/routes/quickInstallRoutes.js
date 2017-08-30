@@ -186,4 +186,9 @@ quickInstallRouter.route('/ONVIF/')
     res.status(301).redirect('/Schnell_Installation/ONVIF/');
 });
 
+quickInstallRouter.route('/ONVIF/Software_Integration/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Schnell_Installation/ONVIF/Software_Einbindung/');
+});
+
 module.exports = quickInstallRouter;

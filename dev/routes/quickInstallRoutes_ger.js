@@ -1111,4 +1111,34 @@ quickInstallGerRouter.route('/ONVIF')
           });
       });
 
+/* GET /ONVIF */
+quickInstallGerRouter.route('/ONVIF/Software_Einbindung/')
+    .get(function(req, res) {
+        res.render('./Quick_Installation/ONVIF_Software_Integration', {
+            title: 'Software-Einbindung einer ONVIF Kamera',
+            ampimg: '/images/Search/QI_SearchThumb_ONVIF.jpg',
+            headline: 'Die Industrie für Netzwerk Überwachungsprodukte hat den offenen ONVIF Standard entwickelt, der es Kameras und Aufnahme-Geräten erlaubt untereinander im Netzwerk zu kommunizieren. Alle INSTAR IP Kameras sinde kompatibel mit dem ONVIF Profil S',
+            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Schnell_Installation/">Schnell Installation</a></li><li><a href="/Schnell_Installation/ONVIF/">ONVIF</a></li><li><a href="/Schnell_Installation/ONVIF/Software_Einbindung/">Software Einbindung</a></li>',
+            canonical: '/Quick_Installation/ONVIF/Software_Integration/',
+            description: 'Die Industrie für Netzwerk Überwachungsprodukte hat den offenen ONVIF Standard entwickelt, der es Kameras und Aufnahme-Geräten erlaubt untereinander im Netzwerk zu kommunizieren. Alle INSTAR IP Kameras sinde kompatibel mit dem ONVIF Profil S. Dieser kann genutzt werden um Ihre ONVIF Kamera in Software wie unsere InstarVision v2.1 oder iSpy Connect einzubinden.',
+      			pacc: '',
+      			ptab: 'hidden',
+      			qiacc: 'expanded',
+      			qitab: '',
+      			mdacc: '',
+      			mdtab: 'hidden',
+      			iaacc: '',
+      			iatab: 'hidden',
+      			auacc: '',
+      			autab: 'hidden',
+      			hdacc: 'hidden',
+      			hdtab: 'hidden',
+      			fhdacc: 'hidden',
+      			fhdtab: 'hidden',
+      			sacc: 'hidden',
+      			dlacc: 'hidden',
+      			dltab: 'hidden',
+          });
+      });
+
 module.exports = quickInstallGerRouter;
