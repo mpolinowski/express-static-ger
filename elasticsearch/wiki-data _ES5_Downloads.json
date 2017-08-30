@@ -23,7 +23,7 @@ POST /wiki2/article
     "title": "Downloads :: Innenkameras",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "Innenkameras"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_IndoorCam.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -79,7 +79,7 @@ POST /wiki2/article
     "title": "Downloads :: IN-3011",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "IN-3011"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_3011.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -93,7 +93,7 @@ POST /wiki2/article
     "title": "Downloads :: IN-6001 HD",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "IN-6001"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_6001.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -107,7 +107,7 @@ POST /wiki2/article
     "title": "Downloads :: IN-6012 HD",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "IN-6012"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_6012.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -121,7 +121,7 @@ POST /wiki2/article
     "title": "Downloads :: IN-6014 HD",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "IN-6014"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_6014.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -135,7 +135,7 @@ POST /wiki2/article
     "title": "Downloads :: IN-8015 Full HD",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "IN-8015"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_8015.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -149,7 +149,7 @@ POST /wiki2/article
     "title": "Downloads :: Aussenkameras",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "Aussenkameras"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_OutdoorCam.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -177,7 +177,7 @@ POST /wiki2/article
     "title": "Downloads :: IN-2905",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "IN-2905"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_2905.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -191,7 +191,7 @@ POST /wiki2/article
     "title": "Downloads :: IN-2908",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "IN-2908"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_2908.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -219,7 +219,7 @@ POST /wiki2/article
     "title": "Downloads :: IN-4010",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "IN-4010"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_4010.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -233,7 +233,7 @@ POST /wiki2/article
     "title": "Downloads :: IN-4011",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "IN-4011"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_4011.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -247,7 +247,7 @@ POST /wiki2/article
     "title": "Downloads :: IN-5905 HD",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "IN-5905"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_5905.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -261,7 +261,7 @@ POST /wiki2/article
     "title": "Downloads :: IN-5907 HD",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "IN-5907"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_5907.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -275,7 +275,7 @@ POST /wiki2/article
     "title": "Downloads :: IN-7011 HD",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "IN-7011"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_7011.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -289,7 +289,7 @@ POST /wiki2/article
     "title": "Downloads :: IN-9008 Full HD",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "IN-9008"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_9008.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -303,7 +303,7 @@ POST /wiki2/article
     "title": "Downloads :: Desktop Software",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "Desktop Software"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_Software.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -359,7 +359,7 @@ POST /wiki2/article
     "title": "Downloads :: Handy Apps",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "Handy Apps", "Smartphone", "Mobile"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_Mobile.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -415,7 +415,7 @@ POST /wiki2/article
     "title": "Downloads :: InstarVision Zubehör",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "Zubehör"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_Accessories.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
@@ -485,7 +485,7 @@ POST /wiki2/article
     "title": "Downloads :: Netzwerk Zubehör",
     "chapter": "Downloads",
     "tags": ["Download", "Handbuch", "Firmware", "Software", "Zubehör", "Netzwerk Zubehör"],
-    "image": "/images/Search/D_SearchThumb.jpg",
+    "image": "/images/Search/D_SearchThumb_NetworkAccessories.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
 POST /wiki2/article
