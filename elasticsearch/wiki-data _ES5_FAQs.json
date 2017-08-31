@@ -1115,3 +1115,55 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Brummton auf dem Audiosignal ..."
 }
+POST /wiki2/article
+{
+    "title2": "FAQs :: Motion Blur",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "In der Nacht nichts mehr zu erkennen. Vor einigen Tagen habe ich mir die IN-5907HD gekauft, anfangs war ich von der Leistung der Kamera sehr überzeugt. Als es aber Nacht wurde, musst ich feststellen, dass ich nichts mehr erkennen kann. Unschärfe bei bewegten Objekten tritt immer dann auf, wenn die Lichtverhältnisse die Kamera zwingen längere Belichtungszeiten zu verwenden. Sobald die Belichtungszeit so lange wird, dass sich die Person ein paar Zentimeter zwischen zwei Blendenverschlüssen bewegen kann, wird das Abbild verschwommen sein ghosting. Um dem entgegenzuwirken können Sie einmal die Ausleuchtung im überwachten Bereich verbessern (externer Scheinwerfer), und/oder die Kamera so positionieren, dass sich die Person direkt auf die Kamera zubewegen muss, um den Bereich zu durchqueren (der Effekt ist immer am stärksten, wenn sich die Person quer durch den Bereich bewegt). Bei dem Kameramodell IN-9008 Full HD haben wir einen anderen Sensor von der Firma Panasonic verbaut, der die Situation etwas anders handhabt. Hier haben Sie nachts i.d.R. ein wesentlich dunkleres (oft auch ein wenig verrauschtes) Videobild - dies wird in Kauf genommen, um eine möglichst geringe Belichtungszeit zu halten und Bewegungen entsprechend besser aufzulösen. Eine längere Diskussion der Vor- und Nachteile dieser Technik finden Sie in unserem Forum",
+    "link": "/Fragen_und_Antworten/#In%20der%20Nacht%20nichts%20mehr%20zu%20erkennen.",
+    "title": "FAQs :: Nachtaufnahmen",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "In der Nacht wird das Bild unscharf ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Video Size",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Ich habe zwei 5905HD beide sind von der Auflösung gleich eingestellt. Trotzdem hat 15 min Videoaufnahme bei der einen 20mb und bei der anderen 90mb. Was ein sehr großer Unterschied ist. Wenn die Video- und Bildeinstellungen beider Kameras identisch sind, liegt es an der h.264 Kodierung des Videostreams. Diese ist umso effektiver, je weniger Details (Farben / Helligkeitsstufen) im Bild vorhanden sind. D.h. wenn Sie eine Kamera gegen eine gleichmäßig ausgeleuchtete weiß Wand richten und die andere auf eine Grünanlage, in der sich praktisch jeder Pixel zwischen zwei Videobildern ändert, werden Sie einen extremen unterschied in der Dateigröße sehen.",
+    "link": "/Fragen_und_Antworten/#Videodateien",
+    "title": "FAQs :: Videodateien",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "Wieso unterscheidet sich die Dateigröße ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Deactivate Alarm",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kann man den Alarm mit der App deaktivieren? Die Kamera schaltet sich auch abends um 20 Uhr ein aber leider nicht morgens automatisch um 7 Uhr aus. Das Dieb auf meinem Handy ist weiterhin rot. Der Zeitplan schaltet die Bewegungserkennung. Das rote Männchen in der App schaltet die Alarmbereiche. D.h. Sie können mit dem Zeitplan Zeitfenster festlegen, in denen die Bewegungserkennung aktiv ist. Über den Button in der App können Sie den Alarm dann, über das deaktivieren der Bereiche, manuell umgehen - das ist zum Beispiel dafür gedacht, wenn Sie einen Bereich (z.B. einen Lagerraum) überwachen und diesen kurz betreten müssen. Wenn der Zeitplan die Bewegungserkennung deaktiviert hat, ist es jedoch nicht möglich diesen über den Button in der App zu aktivieren - d.h. auch wenn das Männchen rot ist, wird kein Alarm ausgelöst werden.",
+    "link": "/Fragen_und_Antworten/#Kann%20man%20den%20Alarm%20mit%20der%20App%20deaktivieren%3F",
+    "title": "FAQs :: Alarmschaltung",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "Kann man den Alarm mit der App ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: False Alerts",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Wieso bekomme ich eine Flut von Fehlalarmen in der Nacht? In der Letzten Zeit versuche ich die Kamera einzustellen und schaffe es nicht die Flut von Fehlalarmen (etwa 100) in der Nacht einzuschränken ohne die Überwachungsfunktion zu verlieren. Am Tage funktioniert Sie wunderbar. Die Kamera selbst arbeitet mit einem Bildvergleich um eine Bewegung zu erkennen. Sofern sich bei einer Bewegung im Bild etwas verändert, löst die Kamera je nach Empfindlichkeit aus. Prinzipiell ist es daher oft ratsam die Bereiche bestmöglichst zu platzieren und die Größe anzupassen. Schauen Sie in diesem Video wie die Bewegungserkennung der Kamera arbeitet und wie man die Bereiche bestmöglichst einstellt. Die Software kann nur Veränderungen quantifizieren, diese aber nicht qualitativ zuordnen, hierzu wäre viel mehr Rechenleistung notwendig. Wir arbeiten daher aktuell an einer erweiterten Bewegungserkennung innerhalb unserer Cloud Lösung, dort kann man dies dann umsetzen. Eine Regenerkennung ist zum Beispiel schon integriert. Wenn Sie solche "Fehlalarme" wegbekommen möchten, können Sie den Alarmeingang der Kamera nutzen und dort einen PIR Bewegungsmelder anschließen. Dieser reagiert auf Veränderungen in der Wärmestrahlung. In Summe hat jede Bewegungserkennung seine Schwachstellen um diese auszumerzen, können Sie bei den HD Kameras die Alarmbereiche und den Alarmeingang koppeln (sprich diese werden durch ein logisches UND verknüpft). Die Kamera löst nur dann aus, wenn beide Alarmgeber auslösen. Mit dieser Variante kann man dann die besten Ergebnisse erzielen. Sie können aber ansonsten auch jeden anderen Bewegungsmelder nutzen den es auf dem Markt gibt. Dieser muss lediglich einen Alarmkontakt haben damit Sie diesen mit dem Alarm Eingang der Kamera verbinden können. Kameramodelle, wie die IN-9008 Full HD haben diesen Bewegungsmelder direkt mit im Gehäuse integriert.",
+    "link": "/Fragen_und_Antworten/#Wieso%20bekomme%20ich%20eine%20Flut%20von%20Fehlalarmen%20in%20der%20Nacht%3F",
+    "title": "FAQs :: Fehlalarme",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "Nachts kommen zuviele Alarmemails ..."
+}
