@@ -1165,5 +1165,31 @@ POST /wiki2/article
     "chapter": "FAQs",
     "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
     "image": "/images/Search/FAQ_SearchThumb.jpg",
-    "abstract": "Nachts kommen zuviele Alarmemails ..."
+    "abstract": "Nachts kommen zuviele Alarm Emails ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: No Emails",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kamera sendet keine Bilder. Kamera sendet keine Bilder, obwohl Einstellungen nach meinem ermäßen alle richtig sind. E-Mail Test ist positiv. Manuel können Bilder gemacht werden. Sie können unter System - System Log überprüfen, ob Alarmaufnahmen gemacht wurden. Falls dort nichts steht, sollten Sie noch einmal unter den Alarmeinstellungen überprüfen, ob Bewegungserkennung aktiviert und die Sensitivität für das Auslösen von Alarmen hoch genug ist. Sollten die Alarmeinstellungen stimmen, wird empfohlen einmal ein Firmware Update auf die Kamera aufzuspielen und ggf. die Kamera einmal auf die Werkseinstellungen zurücksetzen: Falls im System-Log Alarme gelistet sind, überprüfen Sie in den Alarmeinstellungen ob E-Mail-Versand aktiviert.",
+    "link": "/Fragen_und_Antworten/#Kamera%20sendet%20keine%20Bilder",
+    "title": "FAQs :: Keine Emails",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "Kamera sendet keine Bilder ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Cloud Storage",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Es kann ja nicht sein das mein Cloud speicher zu 75% voll ist wenn nur ca. 40 Videos gespeichert sind bei 10 GB. Speicher. Das ist Richtig, circa 40 Videos würde nicht so viel Speicher benötigen. Die Cloud unterscheidet zwischen Alarm Ereignissen und Fehlalarmen. Gehen Sie daher mal auf das Tab Alarme und klicken Sie auf das Drop-Down Menü, welches Alarme heißt und wählen Sie dort Fehlalarme aus, um sich diese anzeigen zu lassen. Diese können manuell gelöscht - oder aber bei Bedarf auch über Administration > Alarme automatisch nach einer gewissen Zeit gelöscht werden.",
+    "link": "/Fragen_und_Antworten#Cloud%20Speicher%20ist%20voll.",
+    "title": "FAQs :: Cloud Speicher",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "Der Speicher ist voll ..."
 }
