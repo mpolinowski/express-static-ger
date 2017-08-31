@@ -1185,11 +1185,115 @@ POST /wiki2/article
     "title2": "FAQs :: Cloud Storage",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
     "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
-    "description": "Es kann ja nicht sein das mein Cloud speicher zu 75% voll ist wenn nur ca. 40 Videos gespeichert sind bei 10 GB. Speicher. Das ist Richtig, circa 40 Videos würde nicht so viel Speicher benötigen. Die Cloud unterscheidet zwischen Alarm Ereignissen und Fehlalarmen. Gehen Sie daher mal auf das Tab Alarme und klicken Sie auf das Drop-Down Menü, welches Alarme heißt und wählen Sie dort Fehlalarme aus, um sich diese anzeigen zu lassen. Diese können manuell gelöscht - oder aber bei Bedarf auch über Administration > Alarme automatisch nach einer gewissen Zeit gelöscht werden.",
+    "description": "Es kann ja nicht sein das mein Cloud speicher zu 75% voll ist wenn nur ca. 40 Videos gespeichert sind bei 10 GB. Speicher. Das ist Richtig, circa 40 Videos würde nicht so viel Speicher benötigen. Die Cloud unterscheidet zwischen Alarm Ereignissen und Fehlalarmen. Gehen Sie daher mal auf das Tab Alarme und klicken Sie auf das Drop-Down Menü, welches Alarme heißt und wählen Sie dort Fehlalarme aus, um sich diese anzeigen zu lassen. Diese können manuell gelöscht - oder aber bei Bedarf auch über Administration Alarme automatisch nach einer gewissen Zeit gelöscht werden.",
     "link": "/Fragen_und_Antworten#Cloud%20Speicher%20ist%20voll.",
     "title": "FAQs :: Cloud Speicher",
     "chapter": "FAQs",
     "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Der Speicher ist voll ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: InstarVision 2.1 beta",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "InstarVision 2.1 beta. Wo finde ich den Download für die aktuellste BETA Version der InstarVision v2.1? Die Version können Sie HIER HERUNTERLADEN. Eine Übersicht über alle verfügbaren Download Versionen finden Sie hier.",
+    "link": "/Fragen_und_Antworten#InstarVision%202.1%20beta",
+    "title": "FAQs :: InstarVision 2.1 beta",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "Download für die BETA Version ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Unscharfes Bild",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Das Bild meiner IN-8015 oder IN-9008 Full HD ist unscharf. Man kann den Fokus der Objektive der Full HD Kameras am Installationsort nachjustieren, um eine optimale Bildschärfe zu erhalten. Des Weiteren kann der Hardware WDR Modus der Full HD Serie kann zu einer Unschärfe im Bild führen, wenn die Kamera Gegenlicht erfährt. Wenn die Kamera nicht an einer anderen Position angebracht werden kann, wird es empfohlen den Hardware WDR Modus zu deaktivieren und stattdessen den Software WDR zu nutzen und die Helligkeitseinstellung anzupassen. Diese Einstellungen finden Sie im Multimedia Menü der Weboberfläche. Eine Diskussion zu den Vor- und Nachteilen der verschiedenen Modi finden Sie auch in unserem KUNDENFORUM.",
+    "link": "/Fragen_und_Antworten#Das%20Bild%20meiner%20IN-8015%20oder%20IN-9008%20Full%20HD%20ist%20unscharf.",
+    "title": "FAQs :: Unscharfes Bild",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "Das Bild meiner Full HD ist unscharf ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: No Connection",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Obwohl das WLAN Signal einwandfrei ist, bricht die Verbindung oft ab. Obwohl die WLAN- Signalstärke einwandfrei ist, bricht die Verbindung ständig ab. Ich habe nun schon alles probiert und sogar noch einen Repeater dazwischen gesetzt und auch die WLAN- Stärke mit den Handy gemessen. In der WebUI der Kamera unter Netzwerk / WLAN (1080P / 720P) können Sie nach Netzen suchen. Dabei wird Ihnen auch die Verbindungsstärke angezeigt. Was wird dort angezeigt für Ihr Netz? Wenn dort ein unrealistisch niedriger Wert steht, wäre dies ein Hinweis auf ein Problem mit dem WLAN Modul, dem Antennenkabel oder der Antenne (der deutlichste Test ist es, die Kamera genau neben den Router zu stellen, dann sollte man 100 % Verbindungsstärke erhalten). Falls Sie vorher schon noch andere Repeater verwendet haben, wäre es wichtig, dass diese nicht die gleiche SSID haben wie der Hauptrouter hat. Da die Kamera nur nach der SSID geht und sich damit verbindet, kann es vorkommen, dass die Kamera sich sonst mit dem falschen Access Point verbindet, der dann eventuell weit entfernt ist und somit nur eine schlechte Verbindung hat. In Routern wie der AVM Fritzbox haben Sie die Möglichkeit einmal die WLAN Kanäle durch zu scannen um zu schauen ob die Fritzbox und der Repeater eventuelle einen WLAN Kanal verwenden, die in der Umgebung stark ausgelastet ist. Wenn besonders viele Geräte auf dem selben Kanal sind, dann empfehle ich Ihnen den Kanal manuell zu ändern. Störende WLAN Signale können nicht nur die Verbindung zwischen Repeater und Kamera stören, sondern auch die Verbindung zwischen Repeater und Router. Zudem sollte man überprüfen welche Verschlüsselung der Router oder der Repeater verwenden. Der gemischte Modus WPA+WPA2 sollte nicht genutzt werden. Nehmen Sie am besten den WPA2 (AES/CCMP). Sie sollten natürlich vorher sicher stellen, dass die Kameras den Modus WPA2 und AES ausgewählt haben. Der gemischte Modus verwendet man in der Regel nur, wenn man sehr alte WLAN Geräte im Einsatz hat, die kein WPA2 unterstützen. Da WPA mittlerweile keine Sicherheit mehr bietet, sollte man diesen auch nicht verwenden.",
+    "link": "/Fragen_und_Antworten#Obwohl%20das%20WLAN%20Signal%20einwandfrei%20ist%2C%20bricht%20die%20Verbindung%20oft%20ab.",
+    "title": "FAQs :: Keine Verbindung",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "Die WLAN Verbindung ist unstabil ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Alarm I/O",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Funktionsweise des Alarmeingangs. Ich benötige ein kurze Auskunft, wie der Eingang/Input von der Kamera beschaltet werden muss. In der Anleitung wird der Eingang Input mit + und - beschrieben (siehe Anlage). Wie ist diese Information zu interpretieren. Wird damit gemeint, dass ein pot. freier Kontakt eines externes Relais auf die gekennzeichnet Anschlusspunkte angeschlossen werden muss? Informationen zu dem Alarm I O finden Sie in unserer Online Dokumentation. An den Alarmeingang muss ein Endgerät, potentialfrei, angeschlossen werden, das im Alarmfall ein Relais öffnet oder schließt N.C. oder N.O. Sie können die Funktionsweise auch sehr einfach testen, indem Sie die beiden Kontakte mit einem Draht überbrücken. Wenn Sie in der Weboberfläche der Kamera den Eingang auf N.C. gestellt haben, sollten Sie einen Daueralarm erhalten, sobald Sie den Draht wieder abziehen.",
+    "link": "/Fragen_und_Antworten#Funktionsweise%20des%20Alarmeingangs.",
+    "title": "FAQs :: Alarm I/O",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "Wie funktioniert der Alarmeingang ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Night Mode",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Kamera schaltet nicht in den Nachtmodus. Meine Kamera schaltet nicht passend zwischen Tag- und Nachtmodus um. Ich vermute es liegt daran, dass das Haus eine Aussenbeleuchtung hat. Hierdurch wird zwar die unmittelbare Umgebung (Hauswand) der Kamera ausgeleuchtet, nicht aber der Bereich um den es eigentlich geht. 720p Serie Die ZEITSCHALTUNG DER IR LEDS schaltet diese nur für die angegebene Zeit in den Modus Automatisch Kamera entscheidet, anhand des Helligkeitsensors, ob der Tag oder Nachtmodus gewählt wird und setzt sie sonst auf Deaktiviert permanenter Tagmodus. Es ist daher nicht möglich die Kamera über den Zeitplan permanent im Nachtmodus zu halten, in der Zeit in dem sie von der Aussenbeleuchtung geblendet wird. Man könnte allerhöchstens probieren, die Kamera ein wenig so zu drehen, dass nicht mehr so viel Licht auf den Helligkeitssensor fällt. Im Prinzip könnten Sie auch mit einem Stück Klebeband den Helligkeitsensor abkleben, dann wäre es für ihn dauerhaft dunkel. Da Sie ihn ja per Zeitschaltung deaktivieren, hätten Sie dennoch am Tage auch ein Tagbild. 1080p Serie Bei den Full HD Modellen hat die ZEITSCHALTUNG DER IR LEDS nur einen Einfluss auf die IR LEDs. D.h. auch mit deaktivierten IR LEDs schaltet immer noch der IRcut Filter der Kamera und der Sensor wechselt in den Nachtmodus (schwarz&weiß) sobald es dunkel wird. Diese Änderung wurde eingeführt, damit man die LEDs der Kamera deaktivieren und trotzdem einen externen IR LED Scheinwerfer nutzen kann - ein Feature das häufig gewünscht wurde, da so Fehlalarme durch Insekten, Regen und Nebel bei Nacht minimiert werden. Das oben erwähnte Abkleben des Helligkeitsensors wuerde hier demnach zu einem permanenten Schwarz/Weiß-Bild führen. Es hilft also nur das Eliminieren der störenden Lichtquelle im Bild der Kamera. Bei den 720p Kameras führt das deaktivieren der IR LEDs zum permanenten Tagmodus und der IRcut Filter absorbiert hier das Licht des externen IR Scheinwerfers und dieser Aufbau ist nicht möglich.",
+    "link": "/Fragen_und_Antworten#Kamera%20schaltet%20nicht%20in%20den%20Nachtmodus.",
+    "title": "FAQs :: Nachtmodus",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "Kamera schaltet nicht in den ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Missing FTP Upload",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Mir ist aufgefallen, dass per ftp nicht alle Alarm-Ereignisse auf dem Server ankommen. Mir ist nun aufgefallen, das per ftp nicht alle Alarm-Ereignisse auf dem USB-Stick am Router ankommen, auf der internen SD-Karte dagegen schon. Als erstes sollte man schauen, dass der FTP Upload ausgelöst wurde. Für jede Alarmauslösung sollten Sie einen Eintrag im Kamera Logbuch finden. Im Netzwerk kann es vorkommen, dass der FTP oder Email Upload in eine Zeitüberschreitung läuft. Dies ist der Hauptgrund, weshalb die Kameras eine SD Karte haben, auf der Alarmaufnahmen als Backup angelegt werden können. Die Bilder für den FTP oder Email Upload werden direkt aus dem Arbeitsspeicher der Kamera versandt und anschließend erst auf der SD Karte gespeichert.",
+    "link": "/Fragen_und_Antworten#Mir%20ist%20aufgefallen%2C%20dass%20per%20ftp%20nicht%20alle%20Alarm-Ereignisse%20auf%20dem%20Server%20ankommen.",
+    "title": "FAQs :: Fehlender FTP Upload",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "Alarmaufnahme liegt auf der SD Karte, aber ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Microphone Buzzed",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Audiokanal mit Brummgeräusch. Meine 6012 übermittelt seit einiger Zeit, nach dem sie ihre normale Betriebstemperatur erreicht hat, über den Audiokanal ein Brummgeräusch, wodurch es unmöglich ist die Umgebungsgeräusche wahrzunehmen. Wenn ich den Pegel für Audio-Eingang der Kamera auf 1 zurückstelle, reduziert sich auch das Brummgeräusch, aber auch die Umgebungsgeräusche sind dann nicht mehr wahrnehmbar. Tauschen Sie am besten einmal das Netzteil mit dem einer anderen IN-6012HD Kamera und stellen sicher, dass es sich nicht zu nahe an der Kamera befindet! Wenn Sie kein passendes Ersatznetzteil haben, können Sie auch einmal eine andere Steckdose - am besten in einem anderen Raum und direkt an der Wandsteckdose (keine Mehrfachsteckdose) - anschließen. Achten Sie auch darauf das Netzteilkabel nicht um das Netzteil zu wickeln, oder dieses aufgewickelt neben das Netzteil zu legen.",
+    "link": "/Fragen_und_Antworten#Audiokanal%20mit%20Brummgeraeusch",
+    "title": "FAQs :: Brummgeräusch",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "Kurz nach dem Einschalten hört man ..."
+}
+POST /wiki2/article
+{
+    "title2": "FAQs :: Alarm-Out",
+    "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
+    "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
+    "description": "Ich will mit meinen Kameras externe Lichtquellen schalten. Ich wollte mit meinen Kameras externe Lichtquellen schalten. Finde nirgendwo einen Hinweis. Bin dann auf ihre Relaisplatine gestoßen. Nirgendwo ein technischer Hinweis zur Schaltleistung o.ä. Die Kamera hat bereits einen Alarmausgang, der über ein Relais geschaltet wird, verbaut. Die Platine, die Sie gefunden haben, ist als Ersatzteil zu verstehen. Die technischen Daten des Ausganges findes Sie z.B. auf unserem Wiki am Bsp. der IN-5907 HD. Je nachdem, was Sie für externe Lichtquellen schalten möchten, müssten Sie vielleicht noch ein weiteres, eigenes Relais dazwischen schalten, da unsere Kamera max. 30VDC 125VAC 1A schalten kann.",
+    "link": "/Fragen_und_Antworten#Ich%20will%20mit%20meinen%20Kameras%20externe%20Lichtquellen%20schalten.",
+    "title": "FAQs :: Alarmausgang",
+    "chapter": "FAQs",
+    "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
+    "image": "/images/Search/FAQ_SearchThumb.jpg",
+    "abstract": "Wie schaltet man eine externe Lichtquelle ..."
 }
