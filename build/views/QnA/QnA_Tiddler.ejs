@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-    <meta name="description" content="INSTAR Wiki - IP Camera Knowledge Base">
+    <meta name="description" content="INSTAR Wiki - IP Kamera und Computer Netzwerk Überwachungskameras, IP-Kameras, Netzwerkkameras, Überwachungskameras , IP-Cam, Nachtsichtkameras , spycams, ipcam, Cloud-Aufnahme, Video-Überwachung, NVR, Netzwerk-Videorecorder, Sicherheitstechnik Wissensdatenbank.">
     <meta name="author" content="Mike Polinowski">
-    <meta name="application-name" content="TiddlyWiki" />
+    <meta name="application-name" content="TiddlyWiki - INSTAR Deutschland GmbH - Q&A" />
     <meta name="generator" content="TiddlyWiki" />
     <meta name="tiddlywiki-version" content="5.1.13" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,6 +16,21 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="<%= description %>">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@INSTAR_DE" />
+    <meta property="twitter:url" content="<%- canonical %>" />
+    <meta property="twitter:title" content="<%= title %>" />
+    <meta property="og:description" content="<%= description %>" />
+    <meta property="og:title" content="<%= title %>" />
+    <meta property="og:url" content="<%- canonical %>" />
+    <meta property="og:image" content="<%= ampimg %>" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="597" />
+    <meta property="og:image:height" content="382" />
+    <meta name="keywords" content="IP Kameras, IP Kamera, Netzwerkkameras, IP Netzwerkkameras, Überwachungskameras, drahtlose IP Kameras, WLAN Kameras, Netzwerkgeräte, PoE Kameras, Power over Ethernet" />
+    <link rel="manifest" href="/manifest.json">
+    <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="copyright" content="TiddlyWiki created by Jeremy Ruston, (jeremy [at] jermolene [dot] com)
 
     Copyright © Jeremy Ruston 2004-2007
@@ -59,15 +74,10 @@
     <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
 
     <!-- http://schema.org/TechArticle -->
-    <script type="application/ld+json">
-        { "@context": "http://schema.org",
-          "@type": "TechArticle",
-          "headline": "<%= headline %>",
-          "image": [ "http://wiki.instar.de<%= ampimg %>" ] }
-    </script>
+    <% include ../_partials/amp/_schemaTechArticle.ejs %>
+    <% include ../_partials/amp/_amp-boilerplate.css %>
+    <% include ../_partials/amp/_ampLandingCustom.css %>
 
-      <% include ../_partials/amp/_amp-boilerplate.css %>
-      <% include ../_partials/amp/_ampLandingCustom.css %>
   </head>
 
   <body>
