@@ -2961,7 +2961,7 @@ section[expanded] .accordion-title::after {
   background: #fff;
   padding: 1rem;
   width: 45%;
-  margin: 0 10px 10px 10px;
+  margin: 0 10px 10px 0;
 }
 
 .mediaObject > div {
