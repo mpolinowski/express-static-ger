@@ -76,3 +76,4 @@ bower_components
 ### Sass ###
 .sass-cache/
 *.css.map
+package-lock.json

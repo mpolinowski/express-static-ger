@@ -997,17 +997,75 @@ softwareRouter.route('/Android')
 
 softwareRouter.route('/Android/InstarVision')
 .get(function(req, res) {
+  res.render('./Software/Android_InstarVision_amp', {
+      title: 'InstarVision für Android',
+      ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
+      headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
+      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Android/">Android</a></li><li><a href="/Software/Android/InstarVision/">InstarVision</a></li>',
+      canonical: '/Android/InstarVision/nonamp/',
+      description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
+  		pacc: '',
+  		ptab: 'hidden',
+  		qiacc: '',
+  		qitab: 'hidden',
+  		mdacc: '',
+  		mdtab: 'hidden',
+  		iaacc: '',
+  		iatab: 'hidden',
+  		auacc: '',
+  		autab: 'hidden',
+  		hdacc: 'hidden',
+  		hdtab: 'hidden',
+  		fhdacc: 'hidden',
+  		fhdtab: 'hidden',
+  		sacc: '',
+  		dlacc: 'hidden',
+  		dltab: 'hidden',
+    });
+});
+
+softwareRouter.route('/Android/InstarVision/nonamp')
+.get(function(req, res) {
   res.render('./Software/Android_InstarVision', {
       title: 'InstarVision für Android',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
       breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li>',
-      canonical: '/Software/Android/InstarVision/',
+      canonical: '/Android/InstarVision/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
 });
 
 softwareRouter.route('/Android/InstarVision/DDNS')
+.get(function(req, res) {
+  res.render('./Software/Android_InstarVision_DDNS_amp', {
+      title: 'InstarVision für Android - DDNS Fernzugriff auf Ihre INSTAR IP Kamera',
+      ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
+      headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
+      breadcrumbs: '<li><a href="/Software/">Software</a></li><li><a href="/Software/Android/">Android</a></li><li><a href="/Software/Android/InstarVision/">InstarVision</a></li><li><a href="/Software/Android/InstarVision/DDNS/">DDNS</a></li>',
+      canonical: '/Software/Android/InstarVision/DDNS/noamp/',
+      description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
+  		pacc: '',
+  		ptab: 'hidden',
+  		qiacc: '',
+  		qitab: 'hidden',
+  		mdacc: '',
+  		mdtab: 'hidden',
+  		iaacc: '',
+  		iatab: 'hidden',
+  		auacc: '',
+  		autab: 'hidden',
+  		hdacc: 'hidden',
+  		hdtab: 'hidden',
+  		fhdacc: 'hidden',
+  		fhdtab: 'hidden',
+  		sacc: '',
+  		dlacc: 'hidden',
+  		dltab: 'hidden',
+    });
+});
+
+softwareRouter.route('/Android/InstarVision/DDNS/noamp')
 .get(function(req, res) {
   res.render('./Software/Android_InstarVision_DDNS', {
       title: 'InstarVision für Android - DDNS Fernzugriff auf Ihre INSTAR IP Kamera',
@@ -1021,6 +1079,35 @@ softwareRouter.route('/Android/InstarVision/DDNS')
 
 softwareRouter.route('/Android/InstarVision/P2P')
 .get(function(req, res) {
+  res.render('./Software/Android_InstarVision_P2P_amp', {
+      title: 'InstarVision für Android - P2P Fernzugriff auf Ihre INSTAR IP Kamera',
+      ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
+      headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
+      breadcrumbs: '<li><a href="/Software/">Software</a></li><li><a href="/Software/Android/">Android</a></li><li><a href="/Software/Android/InstarVision/">InstarVision</a></li><li><a href="/Software/Android/InstarVision/P2P/">P2P</a></li>',
+      canonical: '/Software/Android/InstarVision/P2P/noamp/',
+      description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
+  		pacc: '',
+  		ptab: 'hidden',
+  		qiacc: '',
+  		qitab: 'hidden',
+  		mdacc: '',
+  		mdtab: 'hidden',
+  		iaacc: '',
+  		iatab: 'hidden',
+  		auacc: '',
+  		autab: 'hidden',
+  		hdacc: 'hidden',
+  		hdtab: 'hidden',
+  		fhdacc: 'hidden',
+  		fhdtab: 'hidden',
+  		sacc: '',
+  		dlacc: 'hidden',
+  		dltab: 'hidden',
+    });
+});
+
+softwareRouter.route('/Android/InstarVision/P2P/noamp')
+.get(function(req, res) {
   res.render('./Software/Android_InstarVision_P2P', {
       title: 'InstarVision für Android - P2P Fernzugriff auf Ihre INSTAR IP Kamera',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
@@ -1032,6 +1119,35 @@ softwareRouter.route('/Android/InstarVision/P2P')
 });
 
 softwareRouter.route('/Android/InstarVision/Multiview')
+.get(function(req, res) {
+  res.render('./Software/Android_InstarVision_Multiview_amp', {
+      title: 'InstarVision für Android - Multiansicht all Ihrer Netzwerkkameras',
+      ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
+      headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
+      breadcrumbs: '<li><a href="/Software/">Software</a></li><li><a href="/Software/Android/">Android</a></li><li><a href="/Software/Android/InstarVision/">InstarVision</a></li><li><a href="/Software/Android/InstarVision/Multiview/">Multiview</a></li>',
+      canonical: '/Software/Android/InstarVision/Multiview/noamp/',
+      description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
+  		pacc: '',
+  		ptab: 'hidden',
+  		qiacc: '',
+  		qitab: 'hidden',
+  		mdacc: '',
+  		mdtab: 'hidden',
+  		iaacc: '',
+  		iatab: 'hidden',
+  		auacc: '',
+  		autab: 'hidden',
+  		hdacc: 'hidden',
+  		hdtab: 'hidden',
+  		fhdacc: 'hidden',
+  		fhdtab: 'hidden',
+  		sacc: '',
+  		dlacc: 'hidden',
+  		dltab: 'hidden',
+    });
+});
+
+softwareRouter.route('/Android/InstarVision/Multiview/noamp')
 .get(function(req, res) {
   res.render('./Software/Android_InstarVision_Multiview', {
       title: 'InstarVision für Android - Multiansicht all Ihrer Netzwerkkameras',
@@ -1045,6 +1161,35 @@ softwareRouter.route('/Android/InstarVision/Multiview')
 
 softwareRouter.route('/Android/InstarVision/Recording')
 .get(function(req, res) {
+  res.render('./Software/Android_InstarVision_Recording_amp', {
+      title: 'InstarVision für Android - Video Aufnahmen Ihrer INSTAR IP Kamera verwalten',
+      ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
+      headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
+      breadcrumbs: '<li><a href="/Software/">Software</a></li><li><a href="/Software/Android/">Android</a></li><li><a href="/Software/Android/InstarVision/">InstarVision</a></li><li><a href="/Software/Android/InstarVision/Recording/">Recording</a></li>',
+      canonical: '/Software/Android/InstarVision/Recording/noamp/',
+      description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
+  		pacc: '',
+  		ptab: 'hidden',
+  		qiacc: '',
+  		qitab: 'hidden',
+  		mdacc: '',
+  		mdtab: 'hidden',
+  		iaacc: '',
+  		iatab: 'hidden',
+  		auacc: '',
+  		autab: 'hidden',
+  		hdacc: 'hidden',
+  		hdtab: 'hidden',
+  		fhdacc: 'hidden',
+  		fhdtab: 'hidden',
+  		sacc: '',
+  		dlacc: 'hidden',
+  		dltab: 'hidden',
+    });
+});
+
+softwareRouter.route('/Android/InstarVision/Recording/noamp')
+.get(function(req, res) {
   res.render('./Software/Android_InstarVision_Recording', {
       title: 'InstarVision für Android - Video Aufnahmen Ihrer INSTAR IP Kamera verwalten',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
@@ -1056,6 +1201,35 @@ softwareRouter.route('/Android/InstarVision/Recording')
 });
 
 softwareRouter.route('/Android/InstarVision/Settings')
+.get(function(req, res) {
+  res.render('./Software/Android_InstarVision_Settings_amp', {
+      title: 'InstarVision für Android - Allgemeine App Einstellungen',
+      ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
+      headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
+      breadcrumbs: '<li><a href="/Software/">Software</a></li><li><a href="/Software/Android/">Android</a></li><li><a href="/Software/Android/InstarVision/">InstarVision</a></li><li><a href="/Software/Android/InstarVision/Settings/">Einstellungen</a></li>',
+      canonical: '/Software/Android/InstarVision/Settings/noamp/',
+      description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
+  		pacc: '',
+  		ptab: 'hidden',
+  		qiacc: '',
+  		qitab: 'hidden',
+  		mdacc: '',
+  		mdtab: 'hidden',
+  		iaacc: '',
+  		iatab: 'hidden',
+  		auacc: '',
+  		autab: 'hidden',
+  		hdacc: 'hidden',
+  		hdtab: 'hidden',
+  		fhdacc: 'hidden',
+  		fhdtab: 'hidden',
+  		sacc: '',
+  		dlacc: 'hidden',
+  		dltab: 'hidden',
+    });
+});
+
+softwareRouter.route('/Android/InstarVision/Settings/noamp')
 .get(function(req, res) {
   res.render('./Software/Android_InstarVision_Settings', {
       title: 'InstarVision für Android - Allgemeine App Einstellungen',
@@ -1076,23 +1250,23 @@ softwareRouter.route('/Android/TinyCam_Monitor')
       breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Android/">Android</a></li><li><a href="/Software/Android/TinyCam_Monitor/">TinyCam Monitor</a></li>',
       canonical: '/Software/Android/TinyCam_Monitor/',
       description: 'TinyCam Monitor: Android Drittanbieter Software für Ihr Handy oder Tablet zur Kontrolle Ihrer INSTAR IP Kamera',
-		pacc: '',
-		ptab: 'hidden',
-		qiacc: '',
-		qitab: 'hidden',
-		mdacc: '',
-		mdtab: 'hidden',
-		iaacc: '',
-		iatab: 'hidden',
-		auacc: '',
-		autab: 'hidden',
-		hdacc: 'hidden',
-		hdtab: 'hidden',
-		fhdacc: 'hidden',
-		fhdtab: 'hidden',
-		sacc: '',
-		dlacc: 'hidden',
-		dltab: 'hidden',
+  		pacc: '',
+  		ptab: 'hidden',
+  		qiacc: '',
+  		qitab: 'hidden',
+  		mdacc: '',
+  		mdtab: 'hidden',
+  		iaacc: '',
+  		iatab: 'hidden',
+  		auacc: '',
+  		autab: 'hidden',
+  		hdacc: 'hidden',
+  		hdtab: 'hidden',
+  		fhdacc: 'hidden',
+  		fhdtab: 'hidden',
+  		sacc: '',
+  		dlacc: 'hidden',
+  		dltab: 'hidden',
     });
 });
 
