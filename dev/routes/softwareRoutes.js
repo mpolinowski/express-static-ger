@@ -69,7 +69,7 @@ softwareRouter.route('/Windows/InstarVision')
       title: 'InstarVision für Windows',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li>',
       canonical: '/Software/Windows/InstarVision/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -81,7 +81,7 @@ softwareRouter.route('/Windows/InstarVision/Camera_List')
       title: 'InstarVision v2 Kamera Liste',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Camera_List/">Camera List</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Camera_List/">Camera List</a></li>',
       canonical: '/Software/Windows/InstarVision/Camera_List/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -93,7 +93,7 @@ softwareRouter.route('/Windows/InstarVision/Layout')
       title: 'InstarVision v2 Layout',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Layout/">Layout</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Layout/">Layout</a></li>',
       canonical: '/Software/Windows/InstarVision/Layout/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -105,7 +105,7 @@ softwareRouter.route('/Windows/InstarVision/PTZ')
       title: 'InstarVision v2 Pan, Tilt & Zoom',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Camera_List/">Pan, Tilt & Zoom</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Camera_List/">Pan, Tilt & Zoom</a></li>',
       canonical: '/Software/Windows/InstarVision/PTZ/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -117,7 +117,7 @@ softwareRouter.route('/Windows/InstarVision/Image_Adjust')
       title: 'InstarVision v2 Bild Einstellungen',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Image_Adjust/">Bildeinstellungen</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Image_Adjust/">Bildeinstellungen</a></li>',
       canonical: '/Software/Windows/InstarVision/Image_Adjust/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -129,7 +129,7 @@ softwareRouter.route('/Windows/InstarVision/Webserver')
       title: 'InstarVision v2 Webserver',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Webserver/">Webserver</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Webserver/">Webserver</a></li>',
       canonical: '/Software/Windows/InstarVision/Webserver/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -141,7 +141,7 @@ softwareRouter.route('/Windows/InstarVision/Record')
       title: 'InstarVision v2 Aufnahme',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li>',
       canonical: '/Software/Windows/InstarVision/Record/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -153,7 +153,7 @@ softwareRouter.route('/Windows/InstarVision/Record/General')
       title: 'InstarVision v2 Record Allgemein',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/General/">General</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/General/">General</a></li>',
       canonical: '/Software/Windows/InstarVision/Record/General/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -165,7 +165,7 @@ softwareRouter.route('/Windows/InstarVision/Record/Schedule')
       title: 'InstarVision v2 Record Zeitplan',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/Schedule/">Schedule</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/Schedule/">Schedule</a></li>',
       canonical: '/Software/Windows/InstarVision/Record/Schedule/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -177,7 +177,7 @@ softwareRouter.route('/Windows/InstarVision/Record/Alarm')
       title: 'InstarVision v2 Record Alarm',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/Alarm/">Alarm</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/Alarm/">Alarm</a></li>',
       canonical: '/Software/Windows/InstarVision/Record/Alarm/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -189,7 +189,7 @@ softwareRouter.route('/Windows/InstarVision/Record/Photoseries')
       title: 'InstarVision v2 Record Fotoserie',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/Photoseries/">Photoseries</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/Photoseries/">Photoseries</a></li>',
       canonical: '/Software/Windows/InstarVision/Record/Photoseries/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -201,7 +201,7 @@ softwareRouter.route('/Windows/InstarVision/Record/Email')
       title: 'InstarVision v2 Record Email',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/Email/">Email</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/Email/">Email</a></li>',
       canonical: '/Software/Windows/InstarVision/Record/Email/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -213,7 +213,7 @@ softwareRouter.route('/Windows/InstarVision/Record/FTP')
       title: 'InstarVision v2 Record FTP',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/FTP/">FTP</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/">Recording</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Record/FTP/">FTP</a></li>',
       canonical: '/Software/Windows/InstarVision/Record/FTP/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -225,7 +225,7 @@ softwareRouter.route('/Windows/InstarVision/System')
       title: 'InstarVision v2 System',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/System/">System</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/System/">System</a></li>',
       canonical: '/Software/Windows/InstarVision/System/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -237,7 +237,7 @@ softwareRouter.route('/Windows/InstarVision/Users')
       title: 'InstarVision v2 Benutzer',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Users/">User</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Users/">User</a></li>',
       canonical: '/Software/Windows/InstarVision/Users/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -249,7 +249,7 @@ softwareRouter.route('/Windows/InstarVision/Advanced')
       title: 'InstarVision v2 Erweitert',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Advanced</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Advanced</a></li>',
       canonical: '/Software/Windows/InstarVision/Advanced/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -261,7 +261,7 @@ softwareRouter.route('/Windows/InstarVision/Advanced/License')
       title: 'InstarVision v2 Advanced Lizenz',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Advanced</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/License/">License</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Advanced</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/License/">License</a></li>',
       canonical: '/Software/Windows/InstarVision/Advanced/License/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -273,7 +273,7 @@ softwareRouter.route('/Windows/InstarVision/Advanced/Log')
       title: 'InstarVision v2 Advanced Logbuch',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Advanced</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/Log/">Log</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Advanced</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/Log/">Log</a></li>',
       canonical: '/Software/Windows/InstarVision/Advanced/Log/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -285,7 +285,7 @@ softwareRouter.route('/Windows/InstarVision/Advanced/Export')
       title: 'InstarVision v2 Advanced Export',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Advanced</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/Export/">Export</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Advanced</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/Export/">Export</a></li>',
       canonical: '/Software/Windows/InstarVision/Advanced/Export/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -297,7 +297,7 @@ softwareRouter.route('/Windows/InstarVision/Advanced/Player')
       title: 'InstarVision v2 Advanced Player',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Advanced</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/Player/">Player</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Advanced</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/Player/">Player</a></li>',
       canonical: '/Software/Windows/InstarVision/Advanced/Player/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -309,7 +309,7 @@ softwareRouter.route('/Windows/InstarVision/Advanced/Explorer')
       title: 'InstarVision v2 Advanced Explorer',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Advanced</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/Explorer/">Explorer</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/">Advanced</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Advanced/Explorer/">Explorer</a></li>',
       canonical: '/Software/Windows/InstarVision/Advanced/Explorer/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -321,7 +321,7 @@ softwareRouter.route('/Windows/InstarVision/About')
       title: 'InstarVision v2 Über',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Windows.jpg',
       headline: 'INSTAR Products',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/About/">About</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/About/">About</a></li>',
       canonical: '/Software/Windows/InstarVision/About/',
       description: 'INSTAR Wiki - IP Kamera Wissensdatenbank',
     });
@@ -333,7 +333,7 @@ softwareRouter.route('/Windows/InstarVision/Windows_Phone')
       title: 'InstarVision für Windows Phone',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_WP.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li>',
       canonical: '/Software/Windows/InstarVision/Windows_Phone/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -345,7 +345,7 @@ softwareRouter.route('/Windows/InstarVision/Windows_Phone/DDNS')
       title: 'InstarVision für Windows Phone - DDNS Fernzugriff auf Ihre INSTAR IP Kamera',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_WP.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/DDNS/">DDNS</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/DDNS/">DDNS</a></li>',
       canonical: '/Software/Windows/InstarVision/Windows_Phone/DDNS/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -357,7 +357,7 @@ softwareRouter.route('/Windows/InstarVision/Windows_Phone/P2P')
       title: 'InstarVision für Windows Phone - P2P Fernzugriff auf Ihre INSTAR IP Kamera',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_WP.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/P2P/">P2P</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/P2P/">P2P</a></li>',
       canonical: '/Software/Windows/InstarVision/Windows_Phone/P2P/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -369,7 +369,7 @@ softwareRouter.route('/Windows/InstarVision/Windows_Phone/Multiview')
       title: 'InstarVision für Windows Phone - Multiansicht all Ihrer Netzwerkkameras',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_WP.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/Multiview/">Multiview</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/Multiview/">Multiview</a></li>',
       canonical: '/Software/Windows/InstarVision/Windows_Phone/Multiview/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -381,7 +381,7 @@ softwareRouter.route('/Windows/InstarVision/Windows_Phone/Recording')
       title: 'InstarVision für Windows Phone - Video Aufnahmen Ihrer INSTAR IP Kamera verwalten',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_WP.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/Recording/">Recording</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/Recording/">Recording</a></li>',
       canonical: '/Software/Windows/InstarVision/Windows_Phone/Recording/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -393,7 +393,7 @@ softwareRouter.route('/Windows/InstarVision/Windows_Phone/Settings')
       title: 'InstarVision für Windows Phone - Allgemeine App Einstellungen',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_WP.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/Settings/">Settings</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/">Windows Phone App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Windows_Phone/Settings/">Settings</a></li>',
       canonical: '/Software/Windows/InstarVision/Windows_Phone/Settings/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -405,7 +405,7 @@ softwareRouter.route('/Windows/InstarVision/Metro')
       title: 'InstarVision für Windows Metro',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Metro.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li>',
       canonical: '/Software/Windows/InstarVision/Metro/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -417,7 +417,7 @@ softwareRouter.route('/Windows/InstarVision/Metro/DDNS')
       title: 'InstarVision für Windows Metro - DDNS Fernzugriff auf Ihre INSTAR IP Kamera',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Metro.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/DDNS/">DDNS</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/DDNS/">DDNS</a></li>',
       canonical: '/Software/Windows/InstarVision/Metro/DDNS/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -429,7 +429,7 @@ softwareRouter.route('/Windows/InstarVision/Metro/P2P')
       title: 'InstarVision für Windows Metro - P2P Fernzugriff auf Ihre INSTAR IP Kamera',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Metro.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/P2P/">P2P</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/P2P/">P2P</a></li>',
       canonical: '/Software/Windows/InstarVision/Metro/P2P/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -441,7 +441,7 @@ softwareRouter.route('/Windows/InstarVision/Metro/Multiview')
       title: 'InstarVision für Windows Metro - Multiansicht all Ihrer Netzwerkkameras',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Metro.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/Multiview/">Multiview</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/Multiview/">Multiview</a></li>',
       canonical: '/Software/Windows/InstarVision/Metro/Multiview/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -453,7 +453,7 @@ softwareRouter.route('/Windows/InstarVision/Metro/Recording')
       title: 'InstarVision für Windows Metro - Video Aufnahmen Ihrer INSTAR IP Kamera verwalten',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Metro.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/Recording/">Recording</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/Recording/">Recording</a></li>',
       canonical: '/Software/Windows/InstarVision/Metro/Recording/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -465,7 +465,7 @@ softwareRouter.route('/Windows/InstarVision/Metro/Settings')
       title: 'InstarVision für Windows Metro - Allgemeine App Einstellungen',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Metro.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/Settings/">Settings</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Windows/">Windows</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/">Metro App</a></li><li class="breadcrumb-item"><a href="/Software/Windows/InstarVision/Metro/Settings/">Settings</a></li>',
       canonical: '/Software/Windows/InstarVision/Metro/Settings/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1001,7 +1001,7 @@ softwareRouter.route('/Android/InstarVision')
       title: 'InstarVision für Android',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li><a href="/Products/">Products</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Android/">Android</a></li><li><a href="/Software/Android/InstarVision/">InstarVision</a></li>',
+      breadcrumbs: '<li><a href="/Products/">Produkte</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Android/">Android</a></li><li><a href="/Software/Android/InstarVision/">InstarVision</a></li>',
       canonical: '/Android/InstarVision/nonamp/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
   		pacc: '',
@@ -1030,7 +1030,7 @@ softwareRouter.route('/Android/InstarVision/nonamp')
       title: 'InstarVision für Android',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li>',
       canonical: '/Android/InstarVision/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1071,7 +1071,7 @@ softwareRouter.route('/Android/InstarVision/DDNS/noamp')
       title: 'InstarVision für Android - DDNS Fernzugriff auf Ihre INSTAR IP Kamera',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li>',
       canonical: '/Software/Android/InstarVision/DDNS/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1112,7 +1112,7 @@ softwareRouter.route('/Android/InstarVision/P2P/noamp')
       title: 'InstarVision für Android - P2P Fernzugriff auf Ihre INSTAR IP Kamera',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/P2P/">P2P</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/P2P/">P2P</a></li>',
       canonical: '/Software/Android/InstarVision/P2P/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1153,7 +1153,7 @@ softwareRouter.route('/Android/InstarVision/Multiview/noamp')
       title: 'InstarVision für Android - Multiansicht all Ihrer Netzwerkkameras',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/Multiview/">Multiview</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/Multiview/">Multiview</a></li>',
       canonical: '/Software/Android/InstarVision/Multiview/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1194,7 +1194,7 @@ softwareRouter.route('/Android/InstarVision/Recording/noamp')
       title: 'InstarVision für Android - Video Aufnahmen Ihrer INSTAR IP Kamera verwalten',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/Recording/">Recording</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/Recording/">Recording</a></li>',
       canonical: '/Software/Android/InstarVision/Recording/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1235,7 +1235,7 @@ softwareRouter.route('/Android/InstarVision/Settings/noamp')
       title: 'InstarVision für Android - Allgemeine App Einstellungen',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/Settings/">Settings</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Android/">Android</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/Android/InstarVision/Settings/">Settings</a></li>',
       canonical: '/Software/Android/InstarVision/Settings/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1335,7 +1335,7 @@ softwareRouter.route('/iOS/InstarVision/iPhone')
       title: 'InstarVision für iPhone',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_iOS.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li>',
       canonical: '/Software/iOS/InstarVision/iPhone/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1347,7 +1347,7 @@ softwareRouter.route('/iOS/InstarVision/iPhone/DDNS')
       title: 'InstarVision für iPhone - DDNS Fernzugriff auf Ihre INSTAR IP Kamera',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_iOS.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/DDNS/">DDNS</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/DDNS/">DDNS</a></li>',
       canonical: '/Software/iOS/InstarVision/iPhone/DDNS/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1359,7 +1359,7 @@ softwareRouter.route('/iOS/InstarVision/iPhone/P2P')
       title: 'InstarVision für iPhone - P2P Fernzugriff auf Ihre INSTAR IP Kamera',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_iOS.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/P2P/">P2P</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/P2P/">P2P</a></li>',
       canonical: '/Software/iOS/InstarVision/iPhone/P2P/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1371,7 +1371,7 @@ softwareRouter.route('/iOS/InstarVision/iPhone/Multiview')
       title: 'InstarVision für iPhone - Multiansicht all Ihrer Netzwerkkameras',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_iOS.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/Multimedia/">Multimedia</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/Multimedia/">Multimedia</a></li>',
       canonical: '/Software/iOS/InstarVision/iPhone/Multiview/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1383,7 +1383,7 @@ softwareRouter.route('/iOS/InstarVision/iPhone/Recording')
       title: 'InstarVision für iPhone - Video Aufnahmen Ihrer INSTAR IP Kamera verwalten',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_iOS.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/Recording/">Recording</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/Recording/">Recording</a></li>',
       canonical: '/Software/iOS/InstarVision/iPhone/Recording/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1395,7 +1395,7 @@ softwareRouter.route('/iOS/InstarVision/iPhone/Settings')
       title: 'InstarVision für iPhone - Allgemeine App Einstellungen',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_iOS.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/Settings/">Settings</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/">iPhone</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPhone/Settings/">Settings</a></li>',
       canonical: '/Software/iOS/InstarVision/iPhone/Settings/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1407,7 +1407,7 @@ softwareRouter.route('/iOS/InstarVision/iPad')
       title: 'InstarVision für iPad',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_iOS.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li>',
       canonical: '/Software/iOS/InstarVision/iPad/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1419,7 +1419,7 @@ softwareRouter.route('/iOS/InstarVision/iPad/DDNS')
       title: 'InstarVision für iPad - DDNS Fernzugriff auf Ihre INSTAR IP Kamera',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_iOS.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/DDNS/">DDNS</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/DDNS/">DDNS</a></li>',
       canonical: '/Software/iOS/InstarVision/iPad/DDNS/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1431,7 +1431,7 @@ softwareRouter.route('/iOS/InstarVision/iPad/P2P')
       title: 'InstarVision für iPad - P2P Fernzugriff auf Ihre INSTAR IP Kamera',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_iOS.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/P2P/">P2P</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/P2P/">P2P</a></li>',
       canonical: '/Software/iOS/InstarVision/iPad/P2P/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1443,7 +1443,7 @@ softwareRouter.route('/iOS/InstarVision/iPad/Multiview')
       title: 'InstarVision für iPad - Multiansicht all Ihrer Netzwerkkameras',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_iOS.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/Multiview/">Multiview</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/Multiview/">Multiview</a></li>',
       canonical: '/Software/iOS/InstarVision/iPad/Multiview/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1455,7 +1455,7 @@ softwareRouter.route('/iOS/InstarVision/iPad/Recording')
       title: 'InstarVision für iPad - Video Aufnahmen Ihrer INSTAR IP Kamera verwalten',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_iOS.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/Recording/">Recording</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/Recording/">Recording</a></li>',
       canonical: '/Software/iOS/InstarVision/iPad/Recording/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1467,7 +1467,7 @@ softwareRouter.route('/iOS/InstarVision/iPad/Settings')
       title: 'InstarVision für iPad - Allgemeine App Einstellungen',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_iOS.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/Settings/">Settings</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/">iPad</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/iPad/Settings/">Settings</a></li>',
       canonical: '/Software/iOS/InstarVision/iPad/Settings/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1479,7 +1479,7 @@ softwareRouter.route('/iOS/InstarVision')
       title: 'InstarVision für iOS',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_iOS.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/iOS/">iOS</a></li><li class="breadcrumb-item"><a href="/Software/iOS/InstarVision/">InstarVision</a></li>',
       canonical: '/Software/iOS/InstarVision/',
       description: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
@@ -1666,7 +1666,7 @@ softwareRouter.route('/Other_Platforms/InstarVision_Blackberry')
       title: 'InstarVision Handy App für Blackberry - der mobile Begleiter für Ihre INSTAR Netzwerkkamera',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Android.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
-      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Products</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Other_Platforms/">Andere Platform</a></li><li class="breadcrumb-item"><a href="/Software/Other_Platforms/InstarVision_Blackberry/">InstarVision for Blackberry</a></li>',
+      breadcrumbs: '<li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/Products/">Produkte</a></li><li class="breadcrumb-item"><a href="/Software/">Software</a></li><li class="breadcrumb-item"><a href="/Software/Other_Platforms/">Andere Platform</a></li><li class="breadcrumb-item"><a href="/Software/Other_Platforms/InstarVision_Blackberry/">InstarVision for Blackberry</a></li>',
       canonical: '/Software/Other_Platforms/InstarVision_Blackberry/',
       description: 'Die kostenlose InstarVision App für Blackberry gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
     });
