@@ -386,7 +386,7 @@ POST /wiki2/article
     "link": "/Software/Windows/InstarVision/Windows_Phone/Settings",
     "title": "Windows Phone :: Settings",
     "chapter": "INSTAR Products",
-    "tags": ["Software", "Windows Phone", "InstarVision", "Handbuch", "Anleitung", "App", "Handy"],
+    "tags": ["Software", "Windows Phone", "InstarVision", "Handbuch", "Anleitung", "App", "Handy", "Mobiler Modus"],
     "image": "/images/Search/P_SearchThumb_InstarVision_WP.jpg",
     "abstract": "Windows Phone - Überblick über die Allgemeinen Einstellungen"
 }
@@ -470,7 +470,7 @@ POST /wiki2/article
     "link": "/Software/Windows/InstarVision/Metro/Settings",
     "title": "Windows Metro :: Settings",
     "chapter": "INSTAR Products",
-    "tags": ["Software", "Windows Metro", "Windows 10", "Windows 8", "InstarVision", "Handbuch", "Anleitung", "App", "Handy"],
+    "tags": ["Software", "Windows Metro", "Windows 10", "Windows 8", "InstarVision", "Handbuch", "Anleitung", "App", "Handy", "Mobiler Modus"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Metro.jpg",
     "abstract": "Windows Metro - Überblick über die Allgemeinen Einstellungen"
 }
@@ -750,7 +750,7 @@ POST /wiki2/article
     "link": "/Software/Android/InstarVision/Settings",
     "title": "InstarVision :: Settings",
     "chapter": "INSTAR Products",
-    "tags": ["Software", "Android", "InstarVision", "Handbuch", "Anleitung", "App", "Handy"],
+    "tags": ["Software", "Android", "InstarVision", "Handbuch", "Anleitung", "App", "Handy", "Mobiler Modus"],
     "image": "/images/Search/P_SearchThumb_InstarVision_Android.jpg",
     "abstract": "InstarVision Android - Überblick über die Allgemeinen Einstellungen"
 }
@@ -932,7 +932,7 @@ POST /wiki2/article
     "link": "/Software/iOS/InstarVision/iPad/Settings",
     "title": "InstarVision :: Settings",
     "chapter": "INSTAR Products",
-    "tags": ["Software", "iOS", "iPad", "InstarVision", "Handbuch", "Anleitung", "App", "Handy"],
+    "tags": ["Software", "iOS", "iPad", "InstarVision", "Handbuch", "Anleitung", "App", "Handy", "Mobiler Modus"],
     "image": "/images/Search/P_SearchThumb_InstarVision_iOS.jpg",
     "abstract": "InstarVision iPad App - Überblick über die Allgemeinen Einstellungen"
 }
