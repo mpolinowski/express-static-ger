@@ -575,7 +575,7 @@ softwareRouter.route('/Windows/InstarVision/Windows_Phone/Settings/noamp')
 
 softwareRouter.route('/Windows/InstarVision/Metro')
 .get(function(req, res) {
-  res.render('./Software/Windows_Metro_InstarVision', {
+  res.render('./Software/Windows_Metro_InstarVision_amp', {
       title: 'InstarVision für Windows Metro_amp',
       ampimg: '/images/Search/P_SearchThumb_InstarVision_Metro.jpg',
       headline: 'Die kostenlose InstarVision App gibt Ihnen die volle Kontrolle über Ihre INSTAR IP Kamera - von zuhause oder von unterwegs. Betrachten Sie den Live Videostream Ihrer Sicherheitskamera, nehmen Sie Videos auf und schalten Sie die Bewegungserkennung scharf, nachdem Sie den Überwachungsbereich verlassen haben.',
