@@ -1,4 +1,4 @@
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Website Integration",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_WebsiteIntegration.jpg",
     "abstract": "Möglichkeiten zum Einbinden der Kamera in eine Website"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Website Integration (HD Cameras)",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -26,7 +26,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_WebsiteIntegration_HD_Cams.jpg",
     "abstract": "Einbinden des HD-Kamera-Videos in eine Website"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Cambozola JAVA Plugin",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -40,7 +40,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_WebsiteIntegration_Cambozola.jpg",
     "abstract": "Einbinden des HD-Kamera-Videos in eine Website per Cambozola"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Open IP Camera Manager (PHP)",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -54,7 +54,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_WebsiteIntegration_OIPCM.jpg",
     "abstract": "Einbinden des HD-Kamera-Videos in eine Website per PHP"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Restore your Cameras WebUI",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -68,7 +68,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_ResetAfterWebUIError.jpg",
     "abstract": "Wiederherstellen der Weboberfläche nach einem fehlerhaften WebUI-Upgrade"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Restore your HD Cameras Firmware",
     "series": ["HD", "FHD", "Indoor", "Outdoor"],
@@ -82,7 +82,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_ResetAfterFirmwareError.jpg",
     "abstract": "Wiederherstellen der Firmware nach einem fehlerhaften Firmware Upgrade"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Restore your VGA Cameras Firmware",
     "series": ["VGA", "Indoor", "Outdoor"],
@@ -96,7 +96,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_ResetAfterFirmwareError.jpg",
     "abstract": "Wiederherstellen der Firmware nach einem fehlerhaften Firmware Upgrade"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "CGI Commands",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -110,7 +110,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "Übersicht zu den CGI-Befehlen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "CGI Command List (720p)",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -124,7 +124,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "CGI-Befehle-Listen für HD-Kameras"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "INSTAR 720p IP Camera CGI Application Guide",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -138,7 +138,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "Gesamtliste der CGI-Befehle für HD-Kameras"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Video Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -152,7 +152,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Video Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Video Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -166,7 +166,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Video Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Video Encoder Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -180,7 +180,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Video Encoder Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Video Encoder Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -194,7 +194,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Video Encoder Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Image Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -208,7 +208,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Image Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Image Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -222,7 +222,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Image Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Overlay Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -236,7 +236,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Overlay Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Overlay Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -250,7 +250,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Overlay Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Mobile Image Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -264,7 +264,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Mobile Image Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Mobile Image Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -278,7 +278,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Mobile Image Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Audio Encoder Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -292,7 +292,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Audio Encoder Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Audio Encoder Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -306,7 +306,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Audio Encoder Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Audio-In Volume Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -320,7 +320,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Audio-In Volume Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Audio-In Volume Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -334,7 +334,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Audio-In Volume Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Audio-Out Volume Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -348,7 +348,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Audio-Out Volume Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Audio-Out Volume Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -362,7 +362,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Audio-Out Volume Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Request Keyframe",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -376,7 +376,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Request Keyframe"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Audio Encoder Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -390,7 +390,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Audio Encoder Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Infrared Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -404,7 +404,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Infrared Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Network Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -418,7 +418,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Network Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Network Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -432,7 +432,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Network Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get HTTP Port",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -446,7 +446,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get HTTP Port"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set HTTP Port",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -460,7 +460,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set HTTP Port"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get RTSP Port",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -468,13 +468,13 @@ POST /wiki2/article
     "description": "CGI Befehle",
     "description": "720p CGI Commands - Get RTSP Port Network :: Get RTSP Port param.cgi?cmd=getrtspport Function Get RTSP Port Authority admin Syntax cgi-bin hi3510 param.cgi[?cmd=getrtspport] Return rtspport: RTSP Port Example http: admin:instar@192.168.178.88 cgi-bin hi3510 param.cgi?cmd=getrtspport",
     "link": "/720p_Series_CGI_List/Complete_CGI_List/Get_RTSP_Port",
-    "title2": "720p CGI Commands - Get RTSP Port",
+    "title": "720p CGI Commands - Get RTSP Port",
     "chapter": "720p Series CGI List",
     "tags": ["Get RTSP Port", "CGI", "720p series", "commands", "programming", "interface"],
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get RTSP Port"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set RTSP Port",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -488,7 +488,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set RTSP Port"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Internet IP",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -502,7 +502,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Internet IP"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get UPnP Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -516,7 +516,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get UPnP Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set UPnP Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -530,7 +530,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set UPnP Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get ONVIF Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -544,7 +544,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get ONVIF Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set ONVIF Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -558,7 +558,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set ONVIF Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Wireless Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -572,7 +572,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Wireless Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Wireless Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -586,7 +586,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Wireless Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Search Wireless",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -600,7 +600,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Search Wireless"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Check Wireless Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -614,7 +614,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Check Wireless Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Check Wireless Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -628,7 +628,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Check Wireless Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Thirdparty DDNS Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -642,7 +642,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Thirdparty DDNS Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Thirdparty DDNS Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -656,7 +656,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Thirdparty DDNS Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - PTZ Control",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -670,7 +670,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: PTZ Control"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - PTZ Preset",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -684,7 +684,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: PTZ Preset"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - PTZ Move Up",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -698,7 +698,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: PTZ Move Up"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - PTZ Move Down",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -712,7 +712,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: PTZ Move Down"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - PTZ Move Left",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -726,7 +726,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: PTZ Move Left"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - PTZ Move Right",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -740,7 +740,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: PTZ Move Right"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - PTZ Zoom In",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -754,7 +754,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: PTZ Zoom In"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - PTZ Zoom Out",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -768,7 +768,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: PTZ Zoom Out"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Motion Detection Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -782,7 +782,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Motion Detection Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Motion Detection Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -796,7 +796,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Motion Detection Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Alarm Input Output Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -810,7 +810,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Alarm Input Output Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Alarm Input Output Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -824,7 +824,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Alarm Input Output Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Motion Detection Alarm Status",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -838,7 +838,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Motion Detection Alarm Status"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Alarm Relay Delay Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -852,7 +852,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Alarm Relay Delay Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Alarm Relay Delay Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -866,7 +866,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Alarm Relay Delay Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Alarm Snap Quantity Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -880,7 +880,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Alarm Snap Quantity Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Alarm Snap Quantity Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -894,7 +894,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Alarm Snap Quantity Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Alarm And Planned Recording Schedule",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -908,7 +908,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Alarm/Planned Rec Schedule"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Alarm And Planned Recording Schedule",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -922,7 +922,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Alarm And Planned Recording Schedule"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Planned Recording Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -936,7 +936,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Planned Recording Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Planned Recording Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -950,7 +950,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Planned Recording Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Alarm Server Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -964,7 +964,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Alarm Server Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Alarm Server Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -978,7 +978,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Alarm Server Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get User Attributes",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -992,7 +992,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get User Attributes"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set User Attributes",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1006,7 +1006,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set User Attributes"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Active User Info",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1020,7 +1020,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Active User Info"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Snapshot Attributes",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1034,7 +1034,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Snapshot Attributes"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Snapshot Attributes",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1048,7 +1048,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Snapshot Attributes"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get FTP Attributes",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1062,7 +1062,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get FTP Attributes"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set FTP Attributes",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1076,7 +1076,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set FTP Attributes"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Test FTP",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1090,7 +1090,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Test FTP"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get SMTP Attributes",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1104,7 +1104,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get SMTP Attributes"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set SMTP Attributes",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1118,7 +1118,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set SMTP Attributes"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Test SMTP",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1132,7 +1132,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Test SMTP"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Format SD Card",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1146,7 +1146,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Format SD Card"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Unmount SD Card",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1160,7 +1160,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Unmount SD Card"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Device Info",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1174,7 +1174,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Device Info"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Device Type",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1188,7 +1188,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Device Type"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Streaming User Number",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1202,7 +1202,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Streaming User Number"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Server Time",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1216,7 +1216,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Server Time"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Server Time",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1230,7 +1230,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Server Time"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get NTP Server Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1244,7 +1244,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands.jpg",
     "absttract": "720p CGI Befehle :: Get NTP Server Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set NTP Server Attribute",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1258,7 +1258,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set NTP Server Attribute"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Multi-Device Parameter",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1272,7 +1272,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Multi-Device Parameter"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Multi-Device Parameter",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1286,7 +1286,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Multi-Device Parameter"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - MJPEG Videostream",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1300,7 +1300,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: MJPEG Videostream"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Snapshot Size",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1314,7 +1314,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Snapshot Size"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - System Reset",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1328,7 +1328,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: System Reset"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - System Reboot",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1342,7 +1342,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: System Reboot"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - System Backup",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1356,7 +1356,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: System Backup"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - System Restore",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1370,7 +1370,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: System Restore"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - System Upgrade",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1384,7 +1384,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: System Upgrade"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Admin Variables",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1398,7 +1398,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Admin Variables"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Set Admin Variables",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1412,7 +1412,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Set Admin Variables"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Get Login Data",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1426,7 +1426,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Get Login Data"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "720p CGI Commands - Clear Login Data",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -1440,7 +1440,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_720p.jpg",
     "abstract": "720p CGI Befehle :: Clear Login Data"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "CGI Instruction Set for the VGA Series",
     "series": ["VGA", "Indoor", "Outdoor"],
@@ -1454,7 +1454,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_CGICommands_VGA.jpg",
     "abstract": "Gesamtliste der CGI-Befehle für VGA-Kameras"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IP vs CCTV",
     "series": ["HD", "VGA", "Outdoor", "Indoor"],
@@ -1468,7 +1468,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_IPvsCCTV.jpg",
     "abstract": "Der Unterschied zwischen analoger und IP Kameras erklärt"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "VPN Tunnel with your Fritz.Box",
     "series": ["HD", "VGA", "Outdoor", "Indoor"],
@@ -1482,7 +1482,7 @@ POST /wiki2/article
     "image": "/images/Search/AU_SearchThumb_VPN.jpg",
     "abstract": "Fernzugriff auf die Kaemra per VPN mit der Fritz.Box"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Tasker Android App",
     "series": ["HD", "VGA", "Outdoor", "Indoor"],

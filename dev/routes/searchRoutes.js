@@ -3,7 +3,7 @@ var searchRouter = express.Router();
 var elasticsearch = require('elasticsearch');
 
 var connectionString = 'localhost:9200';
-var _index = 'wiki2';
+var _index = 'wiki2_de_2017_09_09';
 var _type = 'article';
 
 var client = new elasticsearch.Client({
@@ -33,7 +33,7 @@ searchRouter.route('/Results')
                   query: {
                       multi_match: {
                           query: req.query.q,
-                          fields: ['title^100', 'tags^50', 'abstract^20', 'description^10', 'chapter^5', 'title2^10', 'description2^10'],
+                          fields: ['title^100', 'tags^100', 'abstract^20', 'description^10', 'chapter^5', 'title2^10', 'description2^10'],
                           fuzziness: 1,
                         },
                     },

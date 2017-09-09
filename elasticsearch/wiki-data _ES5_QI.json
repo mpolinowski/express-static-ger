@@ -1,4 +1,4 @@
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "How Does An IP Camera Work?",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_HowDoesAnIPCameraWork.jpg",
     "abstract": "Ein Einblick in die Funktionsweise einer IP Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "After Unpacking",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -26,7 +26,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_AfterUnpackingYourIPCamera.jpg",
     "abstract": "Das Vorgehen nach dem Auspacken der Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "First Steps",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -40,7 +40,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_FirstStepsWithYourIPCamera.jpg",
     "abstract": "Erste Schritte der Einrichtung der Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Power over Ethernet",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -54,7 +54,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_PowerOverEthernet.jpg",
     "abstract": "Stromversorgung über das LAN Kabel"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Powerline",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -68,7 +68,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_Powerline.jpg",
     "abstract": "Netzwerkverbindung über das Stromkabel"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Direct LAN Connection",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -82,7 +82,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_DirectConnectionWithYourPC.jpg",
     "abstract": "Herstellen einer direkten LAN Verbindung zum Computer"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "INSTAR Camera Tool",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -96,7 +96,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_eng.jpg",
     "abstract": "Auffinden Ihrer Kamera in Ihrem Netzwerk"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Angry IP Scanner",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -110,7 +110,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_Angry_eng.jpg",
     "abstract": "Angry IP Scanner zum Finden der Kamera im lokalen Netzwerk"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Fing CLI",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -124,7 +124,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_FingCLI_eng.jpg",
     "abstract": "Fing Command Line Interface zum Finden der Kamera im lokalen Netzwerk"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Fing Mobile",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -138,7 +138,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_AlternativeIPScanner_FingMobile_eng.jpg",
     "abstract": "Fing Mobile App zum Finden der Kamera im lokalen Netzwerk"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Language Selection",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -152,7 +152,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_LanguageSettings.jpg",
     "abstract": "Spracheinstellungen in der Weboberfläche"
 }
-POST /wiki/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "The Live Video",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -166,7 +166,7 @@ POST /wiki/article
     "image": "/images/Search/QI_SearchThumb_LiveVideo.jpg",
     "abstract": "Abspielen des Live Videos in der Weboberfläche"
 }
-POST /wiki/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "ActiveX Plugin",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -180,7 +180,7 @@ POST /wiki/article
     "image": "/images/Search/QI_SearchThumb_LiveVideo_ActiveX.jpg",
     "abstract": "Das Live-Bild der Kamera mit dem ActiveX plugin abspielen"
 }
-POST /wiki/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "QuickTime Video Plugin",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -194,7 +194,7 @@ POST /wiki/article
     "image": "/images/Search/QI_SearchThumb_LiveVideo_QuickTime.jpg",
     "abstract": "Das Live-Bild der Kamera mit Quick Time Video abspielen"
 }
-POST /wiki/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "The MJPEG Videostream",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -208,7 +208,7 @@ POST /wiki/article
     "image": "/images/Search/QI_SearchThumb_LiveVideo_MJPEG.jpg",
     "abstract": "Das Live-Bild der Kamera per MJPEG abspielen"
 }
-POST /wiki/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Avast Internet Security",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -222,7 +222,7 @@ POST /wiki/article
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Avast.jpg",
     "abstract": "Konfiguration des Avast Internet Security Virenscanner"
 }
-POST /wiki/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Kaspersky Internet Security 2013",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -236,7 +236,7 @@ POST /wiki/article
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Kaspersky13.jpg",
     "abstract": "Konfiguration des Kaspersky Internet Security 2013 Virenscanner"
 }
-POST /wiki/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Kaspersky Internet Security 2014",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -250,7 +250,7 @@ POST /wiki/article
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Kaspersky14.jpg",
     "abstract": "Konfiguration des Kaspersky Internet Security 2014 Virenscanner"
 }
-POST /wiki/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Kaspersky Internet Security 2017",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -264,7 +264,7 @@ POST /wiki/article
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Kaspersky17.jpg",
     "abstract": "Konfiguration des Kaspersky Internet Security 2017 Virenscanner"
 }
-POST /wiki/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "AVG Internet Security",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -278,7 +278,7 @@ POST /wiki/article
     "image": "/images/Search/QI_SearchThumb_LiveVideo_AVG.jpg",
     "abstract": "Konfiguration des AVG Internet Security Virenscanner"
 }
-POST /wiki/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "AVIRA Antivirus Pro",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -292,7 +292,7 @@ POST /wiki/article
     "image": "/images/Search/QI_SearchThumb_LiveVideo_Avira.jpg",
     "abstract": "Konfiguration des AVIRA Antivirus Pro Virenscanner"
 }
-POST /wiki/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "F-Secure Internet Security",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -306,7 +306,7 @@ POST /wiki/article
     "image": "/images/Search/QI_SearchThumb_LiveVideo_F-Secure.jpg",
     "abstract": "Konfiguration des F-Secure Internet Security Virenscanner"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "User Account Management",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -320,7 +320,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_CreatingUserAccounts.jpg",
     "abstract": "Einstellen der Benutzerzugänge"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Software Update",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -334,7 +334,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_1080p.jpg",
     "abstract": "Durchführen eines Updates der WebUI und Firmware"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Software Update 720p",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -348,7 +348,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_720p.jpg",
     "abstract": "Durchführen eines Updates der WebUI und Firmware bei einer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Software Update VGA",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -362,7 +362,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUIFirmwareUpgrade_VGA.jpg",
     "abstract": "Durchführen eines Updates der WebUI und Firmware bei einer VGA-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Clear your Browser History",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -376,7 +376,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory.jpg",
     "abstract": "Leeren des Browser-Verlaufs nach einem Software-Update"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Erase your Browsing History in Internet Explorer",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -390,7 +390,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_IE.jpg",
     "abstract": "Leeren des Browser-Verlaufs im Internet Explorer nach einem Software-Update"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Erase your Browsing History in Mozilla Firfox",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -404,7 +404,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Firefox.jpg",
     "abstract": "Leeren des Browser-Verlaufs in Mozilla Firefox nach einem Software-Update"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Erase your Browsing History in Chromium",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -418,7 +418,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Chrome.jpg",
     "abstract": "Leeren des Browser-Verlaufs in Google Chrome nach einem Software-Update"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Erase your Browsing History in Opera",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -432,7 +432,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Opera.jpg",
     "abstract": "Leeren des Browser-Verlaufs in Opera nach einem Software-Update"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Erase your Browsing History in Microsoft Edge",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -446,7 +446,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Edge.jpg",
     "abstract": "Leeren des Browser-Verlaufs in Microsoft Edge nach einem Software-Update"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Erase your Browsing History in Vivaldi",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -460,7 +460,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_ClearBrowsingHistory_Vivaldi.jpg",
     "abstract": "Leeren des Browser-Verlaufs in Vivaldi nach einem Software-Update"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Wireless Connection",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -474,7 +474,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WLAN.jpg",
     "abstract": "Herstellen einer WLAN-Verbindung von der Kamera zum Router"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "ONVIF",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -488,7 +488,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_ONVIF.jpg",
     "abstract": "Einbiden der Kamera per ONVIF Protokoll"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Software Integration of an ONVIF Camera",
     "series": ["HD", "FHD", "Indoor", "Outdoor"],

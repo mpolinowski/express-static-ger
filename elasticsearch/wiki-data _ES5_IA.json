@@ -1,4 +1,4 @@
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Point 2 Point",
     "series": ["FHD", "HD", "Indoor", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_P2P.jpg",
     "abstract": "P2P Fernzugriff auf die Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "The DDNS Service",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -26,7 +26,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_DDNSService.jpg",
     "abstract": "Fernzugriff auf die Kamera per DDNS-Adresse"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Check your DDNS Address",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -40,7 +40,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_DDNSService.jpg",
     "abstract": "Testen Sie Ihre DDNS Adresse"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Mobile Access",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -54,7 +54,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_Mobile.jpg",
     "abstract": "Fernzugriff auf die Kamera per DDNS-Adresse"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Thirdparty DDNS",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -68,7 +68,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_ThirdPartyDDNS.jpg",
     "abstract": "Drittanbieter von DDNS-Adressen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "No-IP DDNS Address",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -82,7 +82,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_ThirdPartyDDNS_noIP.jpg",
     "abstract": "No-IP Address als DDNS-Drittanbieter"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Selfhost DDNS Address",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -96,7 +96,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_ThirdPartyDDNS_selfhost.jpg",
     "abstract": "Selfhost als DDNS-Drittanbieter"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "DDDNSS Address",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -110,7 +110,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_ThirdPartyDDNS_ddnss.jpg",
     "abstract": "DDNSS als DDNS-Drittanbieter"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Port Forwarding",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -124,7 +124,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding.jpg",
     "abstract": "Einrichten einer Portweiterleitung im Router"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Router Access",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -138,7 +138,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding.jpg",
     "abstract": "Einrichten einer Portweiterleitung im Router"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Port Forwarding :: AVM Fritzbox",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -152,7 +152,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Fritzbox.jpg",
     "abstract": "Portweiterleitung bei einer AVM Fritzbox"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Port Forwarding :: Telekom Speedport",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -166,7 +166,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Speedport.jpg",
     "abstract": "Portweiterleitung bei einem Telekom Speedport Router"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Port Forwarding :: D-Link",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -180,7 +180,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding_DLink.jpg",
     "abstract": "Portweiterleitung bei einem D-Link Router"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Port Forwarding :: Netgear",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -194,7 +194,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Netgear.jpg",
     "abstract": "Portweiterleitung bei einem Netgear Router"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Port Forwarding :: Vodafone Easybox",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -208,7 +208,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Easybox.jpg",
     "abstract": "Portweiterleitung bei einer Vodafone Easybox"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Port Forwarding :: Pirelli Router",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],
@@ -222,7 +222,7 @@ POST /wiki2/article
     "image": "/images/Search/IA_SearchThumb_Portforwarding_Pirelli.jpg",
     "abstract": "Portweiterleitung bei einem Pirelli Router"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Port Forwarding :: TP-Link Router",
     "series": ["HD", "VGA", "Indoor", "Outdoor"],

@@ -1,4 +1,4 @@
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "The HD Web User Interface",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Konfiguration der Kamera in der HD-Web-Oberfläche"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Software Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -26,7 +26,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Das Softwaremenü der HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Language Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -40,7 +40,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Software_Language.jpg",
     "abstract": "Spracheinstellungen in der HD-Web-Oberfläche"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Backup Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -54,7 +54,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Software_Backup.jpg",
     "abstract": "Speichern und Wiederherstellen der Kameraeinstellungen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Update Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -68,7 +68,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Software_Update.jpg",
     "abstract": "Update der Firmware und Web-Oberfläche der HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Reboot & Reset Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -82,7 +82,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Software_Reboot_Reset.jpg",
     "abstract": "Neustart oder Reset der HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Network Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -96,7 +96,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Einstellungsmöglichkeiten im Netzwerk-Menü der HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IP Configuration Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -110,7 +110,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Network_IP_Configuration.jpg",
     "abstract": "Konfiguration der Netzwerkeinstellungen der HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "WiFi Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -124,7 +124,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Network_WLAN.jpg",
     "abstract": "Konfiguration der WLAN-Einstellungen HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "DDNS Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -138,7 +138,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Network_DDNS.jpg",
     "abstract": "Fernzugriff auf die Kamera über das Internet per DDNS"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "P2P Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -152,7 +152,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Network_P2P.jpg",
     "abstract": "Fernzugriff auf die Kamera über das Internet per P2P"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "UPnP Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -166,7 +166,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Network_UPnP.jpg",
     "abstract": "Einstellen des Universal Plug &amp; Play Dienstes"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Push Service Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -180,7 +180,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Network_Push.jpg",
     "abstract": "Aktivieren des Push-Dienstes für Ihr Smartphone"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "System Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -194,7 +194,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Einstellungsmöglichkeiten im System-Menü der HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Info Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -208,7 +208,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_System_Info.jpg",
     "abstract": "Anzeigen von Informationen über Ihre HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Date & Time Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -222,7 +222,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_System_Date_Time.jpg",
     "abstract": "Datums- und Uhrzeiteinstellungen Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "User Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -236,12 +236,12 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_System_User.jpg",
     "abstract": "Verwalten der Benutzerzugänge Ihrer Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Status LED Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
     "models": ["IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
-    "description": "Deaktivieren Sie die Netzwerk LED Ihrer Kamera (falls verfügbar) Status LED Aktivieren oder Deaktivieren der Netzwerk Status LED Ihrer Kameraa (nur für Kameras mit Status LEDs). Hier können Sie das Verhalten der roten Status LED an der Stromversorgung Ihrer Kamera einstellen. Aktivieren Sie es um die Kamera Aktivität anzuzeigen - gerade während der Installation nützlich. Oder deaktivieren Sie es bei der normalen Verwendung. Aufschlüsselung der Statusanzeige LED Anzeige	Blaue LED	Rote LED Blinkt langsam	Netzverbindung per LAN Ggf. Defekt / Bootschleife Blinkt schnell Netzverbindung per WLAN N/A Durchgehend an Bootvorgang Oder WPS Einbindung Normalbetrieb Durchgehend aus Keine Stromversorgung Keine Stromversorgung Oder keine LED verbaut (neuere Modelle)",
+    "description": "Deaktivieren Sie die Netzwerk LED Ihrer Kamera (falls verfügbar) Status LED Aktivieren oder Deaktivieren der Netzwerk Status LED Ihrer Kameraa (nur für Kameras mit Status LEDs). Hier können Sie das Verhalten der roten Status LED an der Stromversorgung Ihrer Kamera einstellen. Aktivieren Sie es um die Kamera Aktivität anzuzeigen - gerade während der Installation nützlich. Oder deaktivieren Sie es bei der normalen Verwendung. Aufschlüsselung der Statusanzeige LED Anzeige Blaue LED Rote LED Blinkt langsam Netzverbindung per LAN Ggf. Defekt / Bootschleife Blinkt schnell Netzverbindung per WLAN N/A Durchgehend an Bootvorgang Oder WPS Einbindung Normalbetrieb Durchgehend aus Keine Stromversorgung Keine Stromversorgung Oder keine LED verbaut (neuere Modelle)",
     "description2": "Status LED Overlay - Did you notice the blue and blinking LED on the camera? It can be very annoying in a dark room. But it can be used to troubleshoot your network connection or to make people aware that they are being recorded. For all other purposes come here to deactivate it. Deactivate your Camera´s Network LED (if available). Status LED: Aktivate or deactivate the network status LED of your camera (only for cameras with Staus LEDs). Here you can adjust the behaviour of the red Status LED at the power connector of the camera. Enable it to have it display camera activity - which is especially helpful during the installation process. Or deactivate it for normal operation.",
     "link": "/Web_User_Interface/720p_Series/System/Status_LED/",
     "title": "Das Status LED Overlay",
@@ -250,7 +250,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_System_Status_LED.jpg",
     "abstract": "Einstellen der Status-LED Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IR LEDs Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -264,7 +264,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_System_IR_LEDs.jpg",
     "abstract": "Einstellen der Inrarot-LEDs Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "ONVIF Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -278,7 +278,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_System_ONVIF.jpg",
     "abstract": "Verbinden der HD-Kamera per ONVIF-Protokoll"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "PTZ Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -292,7 +292,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_System_PTZ.jpg",
     "abstract": "Einstellen der Schwenk & Neig (PTZ) Funktion Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "PTZ Tour Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -306,7 +306,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_System_PTZ_Tour.jpg",
     "abstract": "Programmieren einer PTZ Tour in Ihrer HD Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "System Log Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -320,7 +320,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_System_Log.jpg",
     "abstract": "Aufrufen des System Log zur Überprüfung des Kameraverhalten"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Multimedia Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -334,7 +334,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Video & Audio-Einstellungsmöglichkeiten Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Audio Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -348,7 +348,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Multimedia_Audio.jpg",
     "abstract": "Lautstärkeeinstellungen Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Video Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -362,7 +362,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Multimedia_Video.jpg",
     "abstract": "Videoeinstellungen Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Image Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -376,7 +376,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Multimedia_Image.jpg",
     "abstract": "Bildeinstellungen Ihrer Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Privacy Mask Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -390,7 +390,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Multimedia_Privat.jpg",
     "abstract": "Festlegen von Privatsphärebereichen in Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Alarm Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -404,7 +404,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Alarmeinstellungsmöglichkeiten Ihrer Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Alarm Areas Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -418,7 +418,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Areas.jpg",
     "abstract": "Einstellen der Alarmbereiche zur Bewegungsüberwachung"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Alarm Actions Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -426,13 +426,13 @@ POST /wiki2/article
     "description": "Einstellen, was die Kamera im Alarmfall tun soll. Standard Standard Oberfläche für Aktionen bei allen Kameras, ausgenommen IN-6001 HD & IN-6014 HD swipe left Standard IN-6014 HD Actions Overlay for the camera model IN-6014 HD Alarm-Email senden Alle Alarm-Aktionen können über die Bereiche der Bewegungserkennung, den Alarmeigang, als auch denAudio Alarm ausgelöst werden. Hier können Sie die Alarmbenachrichtigung per Email aktivieren. Bitte beachten Sie, dass Sie zuerst den ausgehenden Email Server (SMTP) und den Email Empfänger eingeben müssen. Alarm Video auf SD-Karte senden Aktivieren, um im Alarmfall ein Video auf die interne SD Karte zu senden. Eine Alarm-Video Datei startet immer mit einem A und danach mit einem Zeitstempel. Ihre Kamera nimmt immer 3 Sekunden vor dem Alarm und 15 Sekunden nach dem Alarm auf. Alarm Video auf einen FTP-Server senden Aktivieren, um im Alarmfall ein Video auf Ihren FTP Server zu senden. Bitte beachten Sie, dass Sie zuerst Ihre FTP Server Informationen eingeben müssen. Alarm Snapshot auf SD-Karte senden Aktivieren, um im Alarmfall einen Snapshot auf die interneSD-Karte zu senden. Alarm Snapshot auf FTP Server senden Aktivieren, um im Alarmfall Snapshots auf Ihren FTP Server zu senden. Bitte beachten Sie, dass Sie zuerst Ihre FTP Server Informationen im FTP Menü eingeben müssen. Snapshot Auflösung Stellen Sie die Auflösung für die Snapshots ein, die im Alarmfall per FTP hochgeladen werden, per Email gesendet werden oder auf der SD-Karte gespeichert werden. Fotos in Email Stellen Sie ein, wieviele Snapshots in einer Alarm Email angehägnt werden sollen. Bitte beachten Sie, dass die Email etwas verzögert eintrifft, wenn zu viele Bilder angehängt werden. Wenn Sie ohne eine Verzögerung benachrichtigt werden wollen, nutzen Sie bitte den Push Service. Fotos auf SD-Karte Stellen Sie ein, wieviele Snapshots Sie im Alarmfall auf Ihrer SD-Karte speichern wollen. Fotos per FTP Upload Stellen Sie ein, wieviele Snapshots Sie im Alarmfall von Ihrer Kamera auf Ihren FTP Server senden wollen. Externen Ausgang aktivieren Aktivieren Sie den externen Alarm Ausgang Ihrer Kamera (nicht bei allen Kameramodellen verfügbar) und lassen Sie Ihre Kamera im Alarmfall das Relais schließen. Schließzeit des Relais in Sekunden Einstellen, wielange das Relais am Alarmausgang im Alarmfall geschlossen bleiben soll. Externen Alarm Eingang aktivieren. Aktivieren Sie den Alarm Eingang Ihrer Kamera (nicht bei allen Kameramodellen verfügbar). Informationen über das Verbinden mit einem externen Sensor können Sie hier finden. Sie können jeden Sensor mit Ihrer Kamera verbinden, welcher mit einem potentialfreien Kontakt arbeitet. Relais Schließzeit in Sekunden Einstellen, wielange das Relais am Alarmausgang im Alarmfall geschlossen bleiben soll. Externen Alarm Eingang aktivieren. Aktivieren Sie den Activate your camera´s alarm input (not all camera models). Informationen über das Verbinden mit einem externen Sensor können Sie hier finden. Sie können jeden Sensor mit Ihrer Kamera verbinden, welcher mit einem potentialfreien Kontakt arbeitet. Electric circuit during alarm / Alarm device set to Set if your external sensor is configured to close the circuit in case of a detection or if it will open the contact (see also IN-Motion 500). Please be aware that your camera will be in a constant state of alarm, if you set the alarm input to N.C. and you don´t connect an external sensor. Alarmeingang und Alarmbereiche koppeln Es wird empfohlen die interne Bewegungserkennung mit dem externen Sensor zu koppeln. Bitte beachten Sie, dass Sie mindestens einen Alarmbereich aktiviert haben müssen, um die Kopplungsfunktion nutzen zu können. Internen PIR Sensor aktivieren./strong> Nur IN-6014 HD - Aktivieren Sie den internen passiven Infrarot Sensor (PIRT Bewegegunserkennung) um einen Alarm auszulösen, wenn eine Person den Überwachungsbereich betritt. Sie können die Alarmbereiche deaktivieren, wenn der PIR Sensor aktiv ist. PIR und Alarmbereiche koppeln/strong> Nur IN-6014 HD - Sie können auch die Alarmbereiche mit dem internen PIR Sensor koppeln. Nutzen Sie diese Funktion um effizient gegen Falschalarme vorzugehen. Bitte denken Sie daran, dass Sie mindestens einen Alarmbereich aktiviert haben müssen, um diese Funktion nutzen zu können! Zusätzlich müssen Sie das Augen-Symbol als auch das Einbrecher Symbol in unserer Smartphone App um den Alarm zu deaktivieren. Akustisches Signal aktivieren Nur IN-6014 HD - Einstellen, wenn Ihre Kamer im Alarmfall ein Alarm Signal abspielen soll. Bei alle anderen Kameramodellen befindet sich diese Einstellung im Audio Menü. Was wollen Sie Ihre Kamera im Alarmfall machen lassen? Stellen Sie das Verhalten der Kamera im Fall eines Alarms der Bewegegunserkennung ein. Sie können Ihre Kamera Emails senden lassen oder Snapshots und Videos auf Ihre SD-Karte speichern lassen. Bitte stellen Sie sicher, dass Sie Ihre SMTP Server Einstellungen eintragen, bevor Sie die Email Benachrichtigung aktivieren und stellen Sie sicher, dass Sie eine SD-Karte in Ihrem SDHC Kartenslot eingesteckt haben (max. 32 GB) um die Videoaufnahme-Funktion und die Send-To-FTP Aktion nutzen zu können - eine 4 GB SD Karte ist im Lieferumfang erhalten. Softwarebasierte Bewegungserkennung Die softwarebasierte Bewegungserkennung, die von Ihrer Kamera für die aktivierten Alarm Bereiche genutzt wird, benötigt keine zusätzliche Hardware und kann in kontrollierten Innenräumen sehr präzise arbeiten. Der Nachteil ist, dass die Kamera keine Unterschiede macht und zum Beispiel eine vorbeiziehende Wolke ebenso ein Alarm auslösen wird, wie ein Mensch. Alles kann einen Alarm auslösen. Einen externen Sensor nutzen Sie können einen Bewegungsmelder wie den IN-Motion 500 nutzen, um die Erkennung Ihrer Kamera zu verbessern (Nur Kameras mit einem Alarm-In Anschluss), wenn Ihre Kamera keinen eingebauten PIR Bewegungssensor verbaut hat. Verbinden Sie einfach den Sensor mit dem Alarm Eingang und aktivieren Sie den externen Eingang. Die Kamera wird einen Alarm auslösen, wenn die Pins 3&4 überbrückt sind und das Relais auf Alarm geschlossen ist. Wenn es auf geöffnet bei Alarm gesetzt ist, n alarm, the alarm will be triggered once the circuit is broken by the relay inside the detector (n.c. “Normally Closed”) or if the wire is disconnected. The state you have to choose depends on your sensor - the wrong choice will give a continuous alert once the detector is connected. Das Aktivieren des internen oder externen PIR Sensors begrenzt die Bewegungserkennung auf Objekte deren Temperatur sich vom Hintergrund unterscheidet. In den meisten Fällen wird das ein Mensch oder ein Tier vor der Kamera sein, sowie der warme Motor des Autos. Änderungen der Lichtverhältnisse oder Nebel vor der Kamera werden vom PIR Sensor nicht erfasst. Durch das Koppeln des PIR Sensors mit den Alarmbereichen, erhalten Sie nur einen Alarm wenn beide Methoden zur selben Zeit auslösen. Dies wird die Anzahl Ihrer Fehlalarme, falls Sie welche haben, stark reduzieren. Bitte beachten Sie auch, dass es auch dazu führen kann, dass positive Alarme nicht erfasst werden.",
     "description2": "Actions Overlay - Adjust the cameras behaviour in case of a motion alert trigger event. You can set the camera to send you an email and to save snapshots or videos on your SD card. Please make sure you set your SMTP Server settings before activating the email notification and that you have a SD card in your cameras SDHC card slot (max. 32 GB) to use the video recording and send-to-FTP function - a 4 GB SD card is included in the delivery. Set what your Camera should do in Case of an Alert. Send Alarm Email: All alarm actions can be triggerd by the motion detection areas, the alarm input as well as the audio alarm. Here you can activate the alarm notification by email. Please be aware, that you first have to set your outgoing mail server (SMTP) and email receiver. Send Alarm Video to SD Card. Activate to save a video on the internal SD Card in case of an alarm. An alarm video file name always starts with an A and continuous with a time stamp. Your camera always records 3 seconds before the alarm event and 15 seconds after the trigger. Send Alarm Video to FTP Server: Activate sending a video to your FTP server after an alarm trigger. Please be aware, that you first have to set your FTP Server Information. Send Alarm Snapshot to SD Card: Activate saving snapshots to the internal SD card in case of an alarm. Send Alarm Snapshot to FTP Server: Activate sending snapshots to your FTP server in case of an alarm. Please be aware, that you first have to set your FTP information in the FTP menu. Snapshot Resolution: Set the resolution used for the snapshots uploaded to FTP, Email or saved to SD card in case of an alarm. Photos in Email: Set how many snapshots you want to be attached to an alarm email. Please be aware, that the email might be delayed if you attach too many images. If you want to be notified without a delay, please use the Push Service. Photos on SD Card: Set how many images you want to be saved to SD card in case of an alarm. Photos per FTP Upload: Set how many images you want your camera to send to your FTP server in case of an alarm. Activate External Output: Activate your cameras alarm input (not all camera models), and let your camera close the relay in case of an alarm. Relay closing time in seconds: Set for how long the alarm output relay should be closed in case of an alarm. Activate external alarm input: Activate your camera´s alarm input (not all camera models). Information about connecting an extern sensor can be found here. You can connect every sensor to your camera that is operated via a potential free contact. Relay closing time in seconds: Set for how long the alarm output relay should be closed in case of an alarm. Activate external alarm input: Activate your camera´s alarm input (not all camera models). Information about connecting an extern sensor can be found here. You can connect every sensor to your camera that is operated via a potential free contact. Electric circuit during alarm. Alarm device set to: Set if your external sensor is configured to close the circuit in case of a detection or if it will open the contact (see also IN-Motion 500). Please be aware that your camera will be in a constant state of alarm, if you set the alarm input to N.C. and you don´t connect an external sensor. Link alarm input and alarm areas: It is recommended to couple the internal motion detection with the external sensor. Please be aware, that you have to have at least one detection area active, when using the coupled state. Activate internal PIR sensor: Only IN-6014 HD - Activate the internal passive infrared sensor (PIR Motion Detector) to trigger an alert once a person enters the surveillance area. You can deactivate the alarm areas once the PIR sensor is active. Link PIR and motion detect areas: Only IN-6014 HD - You can also couple the alarm areas with the internal PIR sensor. Use this function to effectively screen out false alerts. Please be aware, that you have to at least activate one of the alarm areas to use this function! You also have to deactivate both the Eye Symbol as well as the Burglar Symbol in our smartphone app to deactivate the alarm. Activate acoustic signal: Only IN-6014 HD - Set if you want your camera to play an alarm signal in case of an alarm. For all other camera models have this function in the Audio Menu. What do you want the Camera to do in Case of an Alarm. Adjust the cameras behaviour in case of a motion alert trigger event. You can set the camera to send you an email and to save snapshots or videos on your SD card. Please make sure you set your SMTP server settings before activating the email notification and that you have a SD card in your cameras SDHC card slot (max. 32 GB) to use the video recording and send-to-FTP function - a 4 GB SD card is included in the delivery. Software-based Motion Detection. The software-based motion detection used by your camera for the activated Alarm Areas does not need any additional hardware to work and can be very precise in controlled indoor environments. The disadvantage is that the detection does not discriminate causes for changes inside the cameras field of view - a cloud moving by in front of the sun, raindrops or vegetation moving in the wind. Everything can cause an alarm. Use an external Sensor. You can use a motion detector like the IN-Motion 500 to improve the detection rate of your camera (Only cameras with an Alarm-In contact) if your camera does not yet come with a PIR motion sensor equipped like the IN-6014 HD. Simply connect the sensor to the alarm input and activate the external input. The camera will trigger an alarm when the pins 3&4 are bridged and the relay state is set to closed on alarm (n.o. “Normally Open”). If it is set to open on alarm, the alarm will be triggered once the circuit is broken by the relay inside the detector (n.c. “Normally Closed”) or if the wire is disconnected. The state you have to choose depends on your sensor - the wrong choice will give a continuous alert once the detector is connected. Remark: When you are using an external sensor (or the internal PIR sensor in case of the IN-6014 HD), then you have to either deactivate the internal motion detection (Alarm Areas) or have to couple it with the Alarm Input! The alarm cannot be triggered otherwise. Once you coupled both detection methods, you always have to deactivate both to deactivate the motion detection! Use the internal Sensor (IN-6014 HD). Activating the internal or external PIR sensor allows you to limit the motion detection to bodies whose temperature differs from the background. In most cases, this will be a person or animal in front of the cameras or the warm motor of a car. Changes in light conditions, fog in front of the camera at night or movements in the wind will not be detected by the PIR sensor. By coupling the PIR sensor with the detection areas, you will only get an alarm event if both detection methods were triggered at the same time. This will greatly reduce the number of false alerts you might have. But be aware that it also might eliminate a few positive alerts. Switch external devices in case of an alarm (or manually). The external output connects to a relay inside the camera that can be switched manually or automatically in case of an alarm event. Please check Activate External Output to let the camera open or close a circuit with an external device connected to the pins 1&2. The external output can be used with the cameras motion detection to activate signalling devices like sirens or LED lights. It can also be used to control connected devices manually, e.g. via our smartphone app. The relay can be connected to circuits with up to 60 V direct current 125 V alternating current and max. 1 A.",
     "link": "/Web_User_Interface/720p_Series/Alarm/Actions/",
-    "title2": "Das Alarm Aktionen Overlay",
+    "title": "Das Alarm Aktionen Overlay",
     "chapter": "Web User Interface",
     "tags": ["webUI", "720p", "HD Kamera", "Weboberfläche", "Alarm", "Bewegungserkennung", "actions", "Aktionen", "Email", "Benachrichtigung", "Alarmaufnahme", "Video SD Karte", "Video FTP Server", "Alarm Snapshot", "Snapshot Auflösung", "Fotos in Email", "Fotos auf SD-Karte", "FTP Upload", "Aufnahme", "Alarmeingang", "Alarmausgang", "externer Bewegungsmelder", "Relais", "N.C.", "N.O.", "normally closed", "normally open", "Bereiche koppeln", "PIR Sensor", "Passive Infrared Sensor", "Alarmsignal", "Sirene", "akustisches Signal"],
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Actions.jpg",
     "abstract": "Konfiguration der Aktionen bei Alarmauslösung"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Alarm Schedule Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -446,13 +446,13 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Schedule.jpg",
     "abstract": "Einstellen des Zeitplans für die Alarmaktivierung"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "SMTP Server Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
     "models": ["IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
-    "description": "Geben Sie einen Server für die ausgehenden Emails an. SMTP Voreinstellungen	Ihre INSTAR Kamera kann mit nahezu jedem Email Provider kommunizieren. Die Voreinstellungen geben Ihnen nur einen Überblick über die meistgenutzen Provider. Falls Sie Ihren nicht finden, tippen Sie die Daten manuell ein. Wenn Sie die Serveradresse Ihres Providers nicht kennen, verwenden Sie einfach INSTAR SMTP Server. Diese Voreinstellung erlaubt es Ihnen, über einen INSTAR Server die Mail direkt zu Ihrer persönlichen E-Mail Adresse zu senden. Alles was Sie als nächstes machen müssen, ist Ihre persönliche Email Adresse als Empfänger im EMAIL MENÜ einzutragen. SMTP Server	Geben Sie die Serveradresse Ihres Email Providers ein. Wenn Sie die Serveradresse Ihres Providers nicht kennen, verwenden Sie einfach INSTAR SMTP Server. Diese Voreinstellung erlaubt es Ihnen, über einen INSTAR Server die Mail direkt zu Ihrer persönlichen E-Mail Adresse zu senden. Alles was Sie als nächstes machen müssen, ist Ihre persönliche Email Adresse als Empfänger im EMAIL MENÜ einzutragen. SMTP Port	Wählen Sie den Port, den Ihr SMTP Server benutzt um Ihre Emails zu empfangen. Der Standardport für eine unverschlüsselte Mailübertragung ist 25, für SSL wählen Sie Port 465 und TLS/STARTTLS nutzt den Port 587. SMTP SSL	Wählen sie den Verschlüsselungsmodus den Ihr SMTP Server benutzt. Beachten Sie, dass die meisten Server zwar alle Verschlüsselungen unterstützen, dafür aber unterschiedliche Ports verwenden. SMTP Benutzername	Geben Sie Ihren Email Benutzernamen ein - dies ist, in den meisten Fällen, einfach Ihre Email Adresse. SMTP Passwort	Geben Sie das Passwort Ihres Email Accounts an und bestätigen Sie es. Achtung: Beachten Sie, dass die maximale Länge Ihres Email Passworts 39 Zeichen ist. Die folgenden Sonderzeichen werden nicht unterstützt. Server Voreinstellungen Verwenden Sie einfach INSTAR Voreinstellungen, wenn Sie die SMTP Informationen Ihres Email Providers nicht kennen. Wählen Sie das INSTAR Preset aus dem Drop-Down Menü und bestätigen Sie die Eingabe. Den Email Empfänger können Sie im EMAIL MENÜ festlegen. Mit dieser Einstellung verwendet Ihre Kamera den INSTAR Email Ausgangsserver um die Alarmbenachrichtigung direkt an Ihre persönlich Emailadresse zu versenden. Der Emailversand erfolgt TLS verschlüsselt und INSTAR speichert keine Kopien der versendeten Emails!",
-    "description2": "SMTP Server Overlay - Simply use the INSTAR Preset if you don´t know the SMTP information of your Email provider. Choose the preset from the drop down menu and confirm. The Email recipient can be set in the Email Menu. Set-up this way, your camera will use an INSTAR Server to send alarm mails to your personal Email address. This transfer will be TLS encrypted and INSTAR does not store any copies of your Emails! Remember Daylight-Saving-Time! Set a Server the outgoing Alarm Emails. SMTP Presets: Your INSTAR camera can work with almost all email provider. The preset menu just gives you an overview over the most common outgoing email server. If you cannot find yours, simply type in your information manually below. If you don´t know your providers server address, simply choose the INSTAR SMTP Server. This preset allows you to send your emails through an INSTAR server directly to your personal email address. All you have to do next, is to type in your personal email address as receiver in the Email Menu. SMTP Server: Type in the server address of your email provider. If you don´t know the address, simply choose the INSTAR preset (above). Afterwards you just have to type in your personal email address as receiver in the Email Menu. SMTP Port: Choose the port that your SMTP server uses to receive your emails. The default value for an unencrypted mail transfer (SMTP SSL: none) is 25, for SSL choose port 465 and TLS STARTTLS uses the port 587. SMTP SSL: Choose the type of encryption that your SMTP server uses. Be aware that most servers offer all types of encryption - but they all use different ports. SMTP Username: Type in your email username - this is, in most cases, simply the email address that you want to use. SMTP Password: Type in the password for your email account and confirm it. Remark: Be aware that maximum length for the email password is 39 characters. The following special characters are not supported. Server Presets: Simply use the INSTAR Preset if you don´t know the SMTP information of your Email provider. Choose the preset from the drop down menu and confirm. The Email recipient can be set in the Email Menu. Set-up this way, your camera will use an INSTAR Server to send alarm mails to your personal Email address. This transfer will be TLS encrypted and INSTAR does not store any copies of your Emails!",
+    "description": "Geben Sie einen Server für die ausgehenden Emails an. SMTP Voreinstellungen Ihre INSTAR Kamera kann mit nahezu jedem Email Provider kommunizieren. Die Voreinstellungen geben Ihnen nur einen Überblick über die meistgenutzen Provider. Falls Sie Ihren nicht finden, tippen Sie die Daten manuell ein. Wenn Sie die Serveradresse Ihres Providers nicht kennen, verwenden Sie einfach INSTAR SMTP Server. Diese Voreinstellung erlaubt es Ihnen, über einen INSTAR Server die Mail direkt zu Ihrer persönlichen E-Mail Adresse zu senden. Alles was Sie als nächstes machen müssen, ist Ihre persönliche Email Adresse als Empfänger im EMAIL MENÜ einzutragen. SMTP Server Geben Sie die Serveradresse Ihres Email Providers ein. Wenn Sie die Serveradresse Ihres Providers nicht kennen, verwenden Sie einfach INSTAR SMTP Server. Diese Voreinstellung erlaubt es Ihnen, über einen INSTAR Server die Mail direkt zu Ihrer persönlichen E-Mail Adresse zu senden. Alles was Sie als nächstes machen müssen, ist Ihre persönliche Email Adresse als Empfänger im EMAIL MENÜ einzutragen. SMTP Port Wählen Sie den Port, den Ihr SMTP Server benutzt um Ihre Emails zu empfangen. Der Standardport für eine unverschlüsselte Mailübertragung ist 25, für SSL wählen Sie Port 465 und TLS STARTTLS nutzt den Port 587. SMTP SSL Wählen sie den Verschlüsselungsmodus den Ihr SMTP Server benutzt. Beachten Sie, dass die meisten Server zwar alle Verschlüsselungen unterstützen, dafür aber unterschiedliche Ports verwenden. SMTP Benutzername Geben Sie Ihren Email Benutzernamen ein - dies ist, in den meisten Fällen, einfach Ihre Email Adresse. SMTP Passwort Geben Sie das Passwort Ihres Email Accounts an und bestätigen Sie es. Achtung Beachten Sie, dass die maximale Länge Ihres Email Passworts 39 Zeichen ist. Die folgenden Sonderzeichen werden nicht unterstützt. Server Voreinstellungen Verwenden Sie einfach INSTAR Voreinstellungen, wenn Sie die SMTP Informationen Ihres Email Providers nicht kennen. Wählen Sie das INSTAR Preset aus dem Drop-Down Menü und bestätigen Sie die Eingabe. Den Email Empfänger können Sie im EMAIL MENÜ festlegen. Mit dieser Einstellung verwendet Ihre Kamera den INSTAR Email Ausgangsserver um die Alarmbenachrichtigung direkt an Ihre persönlich Emailadresse zu versenden. Der Emailversand erfolgt TLS verschlüsselt und INSTAR speichert keine Kopien der versendeten Emails!",
+    "description2": "SMTP Server Overlay - Simply use the INSTAR Preset if you dont know the SMTP information of your Email provider. Choose the preset from the drop down menu and confirm. The Email recipient can be set in the Email Menu. Set-up this way, your camera will use an INSTAR Server to send alarm mails to your personal Email address. This transfer will be TLS encrypted and INSTAR does not store any copies of your Emails Remember Daylight-Saving-Time Set a Server the outgoing Alarm Emails. SMTP Presets Your INSTAR camera can work with almost all email provider. The preset menu just gives you an overview over the most common outgoing email server. If you cannot find yours, simply type in your information manually below. If you dont know your providers server address, simply choose the INSTAR SMTP Server. This preset allows you to send your emails through an INSTAR server directly to your personal email address. All you have to do next, is to type in your personal email address as receiver in the Email Menu. SMTP Server: Type in the server address of your email provider. If you dont know the address, simply choose the INSTAR preset above. Afterwards you just have to type in your personal email address as receiver in the Email Menu. SMTP Port: Choose the port that your SMTP server uses to receive your emails. The default value for an unencrypted mail transfer SMTP SSL none is 25, for SSL choose port 465 and TLS STARTTLS uses the port 587. SMTP SSL: Choose the type of encryption that your SMTP server uses. Be aware that most servers offer all types of encryption - but they all use different ports. SMTP Username Type in your email username - this is, in most cases, simply the email address that you want to use. SMTP Password Type in the password for your email account and confirm it. Remark Be aware that maximum length for the email password is 39 characters. The following special characters are not supported. Server Presets Simply use the INSTAR Preset if you dont know the SMTP information of your Email provider. Choose the preset from the drop down menu and confirm. The Email recipient can be set in the Email Menu. Set-up this way, your camera will use an INSTAR Server to send alarm mails to your personal Email address. This transfer will be TLS encrypted and INSTAR does not store any copies of your Emails",
     "link": "/Web_User_Interface/720p_Series/Alarm/SMTP_Server/",
     "title": "Das SMTP Server Overlay",
     "chapter": "Web User Interface",
@@ -460,7 +460,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_SMTP_Server.jpg",
     "abstract": "Einstellen des SMTP-Servers für Alarm-Emails "
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Email Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -474,7 +474,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Email.jpg",
     "abstract": "Einstellen des Empfängers der Alarm-Emails"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FTP Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -488,7 +488,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_FTP.jpg",
     "abstract": "Konfiguration eines FTP Server zum Upload von Alarmbildern- & Videos"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Audio Alarm Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -502,7 +502,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_Audio_Alarm.jpg",
     "abstract": "Konfiguration des Audio-Alarms"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "SD Card Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -516,7 +516,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_SD_Card.jpg",
     "abstract": "Verwalten der SD-Karte"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Alarmserver Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -530,7 +530,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Alarm_SD_Card.jpg",
     "abstract": "Verwalten der SD-Karte"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Recording Menu",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -544,7 +544,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Einstellungsmöglichkeiten im Aufnahme-Menü Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Recording Schedule Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -558,7 +558,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Recording_Schedule.jpg",
     "abstract": "Einstellen des Zeitplans für automatische Aufnahmen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Video Recording Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -572,7 +572,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Recording_Video.jpg",
     "abstract": "Konfiguration von automatischen Video-Aufnahmen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Photoseries Overlay",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -586,7 +586,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_720p_SearchThumb_Recording_Photoseries.jpg",
     "abstract": "Konfiguration von automatischen Foto-Aufnahmen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Menu Bar",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -600,7 +600,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Die obere Menüleiste der HD-Kamera-Web-Oberfläche"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Video Menu Bar",
     "series": ["HD", "Indoor", "Outdoor"],
@@ -614,7 +614,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_720p.jpg",
     "abstract": "Videoeinstellungen des ActiveX Plugin"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "PTZ Control",
     "series": ["HD", "Indoor", "Outdoor"],

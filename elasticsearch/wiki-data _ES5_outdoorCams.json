@@ -1,4 +1,4 @@
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-9008 HD",
     "series": ["1080p", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-9008HD.jpg",
     "abstract": "IN-9008 HD - Produktüberblick"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-9008 HD Technical Specifications",
     "series": ["1080p", "Outdoor"],
@@ -26,7 +26,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-9008HD_Technical_Specifications.jpg",
     "abstract": "IN-9008 HD Technische Spezifikationen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Product Features",
     "series": ["1080p", "Outdoor"],
@@ -40,7 +40,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-9008HD_Features.jpg",
     "abstract": "IN-9008 HD Produkt-Eigenschaften"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Quick Installation Guide",
     "series": ["1080p", "Outdoor"],
@@ -54,7 +54,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-9008HD_Quick_Installation.jpg",
     "abstract": "IN-9008 HD Schnellinstallation"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-7011 HD",
     "series": ["720p", "Outdoor"],
@@ -68,7 +68,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-7011HD.jpg",
     "abstract": "IN-7011 HD - Produktüberblick"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-7011 HD Technical Specifications",
     "series": ["720p", "Outdoor"],
@@ -82,7 +82,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Technical_Specification.jpg",
     "abstract": "IN-7011 HD Technische Spezifikationen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Product Features",
     "series": ["720p", "Outdoor"],
@@ -96,7 +96,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Features.jpg",
     "abstract": "IN-7011 HD Produkt-Eigenschaften"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Quick Installation Guide",
     "series": ["720p", "Outdoor"],
@@ -110,7 +110,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Quick_Installation.jpg",
     "abstract": "IN-7011 HD Schnellinstallation"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Point2Point Setup",
     "series": ["720p", "Outdoor"],
@@ -124,7 +124,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Quick_Installation.jpg",
     "abstract": "IN-7011 HD - Einrichten einer Point2Point-Verbindung"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Manual Lense Adjustment",
     "series": ["720p", "Outdoor"],
@@ -138,7 +138,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-7011HD_Lense_Adjust.jpg",
     "abstract": "Manuelle Anpassung des Fokus der IN-7011 HD"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-5907 HD",
     "series": ["720p", "Outdoor"],
@@ -152,21 +152,21 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-5907HD.jpg",
     "abstract": "IN-5907 HD - Produktüberblick"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
-	"title2": "IN-5907 Technical Specifications",
-	"series": ["720p", "Outdoor"],
-	"models": ["IN-5907 HD"],
-	"description": "IN-5907 HD Technische Spezifikationen Kamera Modell INSTAR IN-5907 HD Gehäuse Aluminium (Silber, Schwarz) Wandhalterung Maße SPezifikationen IP Schutzklasse IP65 (staubdicht / wasserabweisend) Bildsensor OV10633 720p 1/3 CMOS Wide Dynamic Range Unterstützte Auflösungen 1280 x 720, 640 x 352, 320 x 176 Video Kompression h.264, MJPEG, JPG h.264 Bitrate 90 kbps - 6.144 kbps Framerate bis zu 25fps Sensor Sensibilität 3650 mV/lux*s Dynamikbereich 115 dB Signal/Geräusch 39 dB Sensorfläche 5510.4 x 3418.8 µm Tag / Nacht Wechsel Ja Min. Beleuchtung (Farbe) 0.05 Lux f/2.0 Min. Beleuchtung (IR) 0 Lux @ f/2.0 benötigte Leistung (LAN - ohne IR-LEDs) 3,5 W benötigte Leistung (LAN - mit IR-LEDs) 10 W # an parallelen Streams 3 Weißausgleich Automatisch Elektronische Blende Automatisch Video Drehen / Spiegeln Ja / Ja Video Oberfläche Datum, Uhrzeit, Kamera Name Video Parameter Helligkeit, Kontrast, Saturation Linse 8 mm (Manueller Fokus) f/1.8 Blickwinkel 45° dia. Infrarot LEDs 3 High-Power @ 850 nm Effektive Reichweite (IR) 15-20 m intgr. IRcut Filter Ja Alarm I/O Ja (potentialfreier Alarm-Ausgang / max. 30VDC/125VAC @ 1A) Spezifikationen Optischer Zoom No Digitaler Zoom 3 x (only ActiveX) SD Card Removable microSDHC card bis zu 32GB (4GB included) Audio Audio Out (Cinch) Mikrofon Audio In für external Mikrofons (e.g. IN-MIKRO 380) Alarmbenachrichtigung Email/FTP/HTTP/Alarm-out Unterstützte Browser Chrome, Safari, Firefox, Internet Explorer Unterstützte Windows Software InstarVision, Sighthound, WebcamXP, iSpy, VLC Player, etc. Unterstützte MacOSX Software Sighthound, SecuritySpy, VLC Player, etc. Unterstützte Android Apps InstarVision, IP Cam Viewer, Tiny Cam Monitor etc. Unterstützte iOS Apps InstarVision, LiveCams Unterstützte Windows Phone Apps InstarVision Netzwerkschnittstelle 10Base-T/100Base-TX Ethernet Port / WLAN IEEE 802.11b/g/n (nicht bei PoE Version) PoE IEEE 802.3af (nicht bei WiFi Version) Netzwerkprotokolle TCP/IP, DHCP, PPPoE, ARP, FTP, SMTP, DNS, NTP, UPnP, HTTP, TCP, UDP Verschlüsselung",
-	"description2": "IN-5907 HD Technical Specifications: Camera Model INSTAR IN-5907 HD Outdoor - Colour IR. Casing Aluminium (Silver, Black). Wall Mount Measurements. Ingress Protection Marking IP65 (dust tight water resistant). Image Sensor OV10633 720p 1 3 CMOS Wide Dynamic Range. Supported Resolutions 1280 x 720, 640 x 352, 320 x 176. Video Compression h.264, MJPEG, JPG. h.264 Bitrate 90 kbps - 6.144 kbps. Framerate up to 25fps. Sensor Sensitivity 3650 mV lux s. Dynamic Range 115 dB. Signal Noise 39 dB. Day Night Switch Yes. Min. Illumination (Colour) 0.05 Lux @ f 2.0. Min. Illumination (IR) 0 Lux @ f 2.0. of Parallel Streams 3. Whitebalance Automatic. Electronic Shutter Automatic. Flip Mirror Video Yes Yes. Video Overlay Date, Time, Camera Name. Video Parameter Brightness, Contrast, Saturation. Lense 8 mm (Manual Focus) f 1.8. Field of View 45° dia. Infrared LEDs 3 High-Power @ 850 nm. Effective Range (IR) 15-20 m. intgr. IRcut Filter Yes. Alarm I O Yes (potential-free alarm-out max. 30VDC 125VAC @ 1A) Spec Sheet (also see IN-Motion 500). Optical Zoom No. Digital Zoom 3 x (only ActiveX). SD Card Removable microSDHC card up to 32GB (4GB included). Audio Audio Out (Cinch). Microphone Audio In for external Microphones (e.g. IN-Mikro 380). Alert Notification Email FTP HTTP Alarm-out. Supported Browser Chrome, Safari, Firefox, Internet Explorer. Supported Windows Software InstarVision, Sighthound, WebcamXP, iSpy, VLC Player, etc. Supported MacOSX Software Sighthound, SecuritySpy, VLC Player, etc. Supported Android Apps InstarVision, IP Cam Viewer, Tiny Cam Monitor etc. Supported iOS Apps InstarVision, LiveCams. Supported Windows Phone Apps InstarVision. Network Interface 10Base-T 100Base-TX Ethernet Port WLAN IEEE 802.11b g n (only non-PoE Version) PoE IEEE 802.3af (only non-WiFi Version). Network Protocols TCP IP, DHCP, PPPoE, ARP, FTP, SMTP, DNS, NTP, UPnP, HTTP, TCP, UDP. Encryption WEP (64 128bit), WPA WPA2-PSK (TKIP, AES, CCMP). Wifi Frequency Band 2.4GHz 802.11b g n (only non-PoE Version). Wifi Antenna 5 dBi WLAN SMA Antenna (only non-PoE Version). Access Protection Username Password - 3 Level Authorisation. Power Supply 110-240V ac @ 50-60Hz to 12V dc and 2000mA Measurements. Power Plug 2.1mm In 5.5mm Out. Power Consumption Max. 13.0 W. Integr. DDNS Service Yes. Pan Tilt No. Measurements in cm 25 10 10. Weight 1260 g. Operating Temperature -5°C - 55°C. Certification CE, FCC, RoHS.",
-	"link": "/Outdoor_Cameras/IN-5907_HD/Technical_Specifications",
-	"title": "IN-5907 HD - Technische Spezifikationen",
-	"chapter": "INSTAR Products",
+ "title2": "IN-5907 Technical Specifications",
+ "series": ["720p", "Outdoor"],
+ "models": ["IN-5907 HD"],
+ "description": "IN-5907 HD Technische Spezifikationen Kamera Modell INSTAR IN-5907 HD Gehäuse Aluminium (Silber, Schwarz) Wandhalterung Maße SPezifikationen IP Schutzklasse IP65 (staubdicht / wasserabweisend) Bildsensor OV10633 720p 1/3 CMOS Wide Dynamic Range Unterstützte Auflösungen 1280 x 720, 640 x 352, 320 x 176 Video Kompression h.264, MJPEG, JPG h.264 Bitrate 90 kbps - 6.144 kbps Framerate bis zu 25fps Sensor Sensibilität 3650 mV/lux*s Dynamikbereich 115 dB Signal/Geräusch 39 dB Sensorfläche 5510.4 x 3418.8 µm Tag / Nacht Wechsel Ja Min. Beleuchtung (Farbe) 0.05 Lux f/2.0 Min. Beleuchtung (IR) 0 Lux @ f/2.0 benötigte Leistung (LAN - ohne IR-LEDs) 3,5 W benötigte Leistung (LAN - mit IR-LEDs) 10 W # an parallelen Streams 3 Weißausgleich Automatisch Elektronische Blende Automatisch Video Drehen / Spiegeln Ja / Ja Video Oberfläche Datum, Uhrzeit, Kamera Name Video Parameter Helligkeit, Kontrast, Saturation Linse 8 mm (Manueller Fokus) f/1.8 Blickwinkel 45° dia. Infrarot LEDs 3 High-Power @ 850 nm Effektive Reichweite (IR) 15-20 m intgr. IRcut Filter Ja Alarm I/O Ja (potentialfreier Alarm-Ausgang / max. 30VDC/125VAC @ 1A) Spezifikationen Optischer Zoom No Digitaler Zoom 3 x (only ActiveX) SD Card Removable microSDHC card bis zu 32GB (4GB included) Audio Audio Out (Cinch) Mikrofon Audio In für external Mikrofons (e.g. IN-MIKRO 380) Alarmbenachrichtigung Email/FTP/HTTP/Alarm-out Unterstützte Browser Chrome, Safari, Firefox, Internet Explorer Unterstützte Windows Software InstarVision, Sighthound, WebcamXP, iSpy, VLC Player, etc. Unterstützte MacOSX Software Sighthound, SecuritySpy, VLC Player, etc. Unterstützte Android Apps InstarVision, IP Cam Viewer, Tiny Cam Monitor etc. Unterstützte iOS Apps InstarVision, LiveCams Unterstützte Windows Phone Apps InstarVision Netzwerkschnittstelle 10Base-T/100Base-TX Ethernet Port / WLAN IEEE 802.11b/g/n (nicht bei PoE Version) PoE IEEE 802.3af (nicht bei WiFi Version) Netzwerkprotokolle TCP/IP, DHCP, PPPoE, ARP, FTP, SMTP, DNS, NTP, UPnP, HTTP, TCP, UDP Verschlüsselung",
+ "description2": "IN-5907 HD Technical Specifications: Camera Model INSTAR IN-5907 HD Outdoor - Colour IR. Casing Aluminium (Silver, Black). Wall Mount Measurements. Ingress Protection Marking IP65 (dust tight water resistant). Image Sensor OV10633 720p 1 3 CMOS Wide Dynamic Range. Supported Resolutions 1280 x 720, 640 x 352, 320 x 176. Video Compression h.264, MJPEG, JPG. h.264 Bitrate 90 kbps - 6.144 kbps. Framerate up to 25fps. Sensor Sensitivity 3650 mV lux s. Dynamic Range 115 dB. Signal Noise 39 dB. Day Night Switch Yes. Min. Illumination (Colour) 0.05 Lux @ f 2.0. Min. Illumination (IR) 0 Lux @ f 2.0. of Parallel Streams 3. Whitebalance Automatic. Electronic Shutter Automatic. Flip Mirror Video Yes Yes. Video Overlay Date, Time, Camera Name. Video Parameter Brightness, Contrast, Saturation. Lense 8 mm (Manual Focus) f 1.8. Field of View 45° dia. Infrared LEDs 3 High-Power @ 850 nm. Effective Range (IR) 15-20 m. intgr. IRcut Filter Yes. Alarm I O Yes (potential-free alarm-out max. 30VDC 125VAC @ 1A) Spec Sheet (also see IN-Motion 500). Optical Zoom No. Digital Zoom 3 x (only ActiveX). SD Card Removable microSDHC card up to 32GB (4GB included). Audio Audio Out (Cinch). Microphone Audio In for external Microphones (e.g. IN-Mikro 380). Alert Notification Email FTP HTTP Alarm-out. Supported Browser Chrome, Safari, Firefox, Internet Explorer. Supported Windows Software InstarVision, Sighthound, WebcamXP, iSpy, VLC Player, etc. Supported MacOSX Software Sighthound, SecuritySpy, VLC Player, etc. Supported Android Apps InstarVision, IP Cam Viewer, Tiny Cam Monitor etc. Supported iOS Apps InstarVision, LiveCams. Supported Windows Phone Apps InstarVision. Network Interface 10Base-T 100Base-TX Ethernet Port WLAN IEEE 802.11b g n (only non-PoE Version) PoE IEEE 802.3af (only non-WiFi Version). Network Protocols TCP IP, DHCP, PPPoE, ARP, FTP, SMTP, DNS, NTP, UPnP, HTTP, TCP, UDP. Encryption WEP (64 128bit), WPA WPA2-PSK (TKIP, AES, CCMP). Wifi Frequency Band 2.4GHz 802.11b g n (only non-PoE Version). Wifi Antenna 5 dBi WLAN SMA Antenna (only non-PoE Version). Access Protection Username Password - 3 Level Authorisation. Power Supply 110-240V ac @ 50-60Hz to 12V dc and 2000mA Measurements. Power Plug 2.1mm In 5.5mm Out. Power Consumption Max. 13.0 W. Integr. DDNS Service Yes. Pan Tilt No. Measurements in cm 25 10 10. Weight 1260 g. Operating Temperature -5°C - 55°C. Certification CE, FCC, RoHS.",
+ "link": "/Outdoor_Cameras/IN-5907_HD/Technical_Specifications",
+ "title": "IN-5907 HD - Technische Spezifikationen",
+ "chapter": "INSTAR Products",
   "tags": ["IN-5907 HD", "INSTAR", "Überwachungskamera", "720p Serie", "outdoor", "Aussenkamera", "IP Kamera", "Webcam", "Technische Spezifikationen", "ONVIF Kamera", "P2P Kamera"],
-	"image": "/images/Search/P_SearchThumb_IN-5907HD_Technical_Specifications.jpg",
-	"abstract": "IN-5907 HD Technische Spezifikationen"
+ "image": "/images/Search/P_SearchThumb_IN-5907HD_Technical_Specifications.jpg",
+ "abstract": "IN-5907 HD Technische Spezifikationen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Product Features",
     "series": ["720p", "Outdoor"],
@@ -180,7 +180,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Features.jpg",
     "abstract": "IN-5907 Produkt-Eigenschaften"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Quick Installation Guide",
     "series": ["720p", "Outdoor"],
@@ -194,7 +194,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Quick_Installation.jpg",
     "abstract": "IN-5907 HD Schnellinstallation"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Point2Point Setup",
     "series": ["720p", "Outdoor"],
@@ -208,7 +208,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Quick_Installation.jpg",
     "abstract": "IN-5907 HD - Einrichten einer Point2Point-Verbindung"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Manual Lense Adjustment",
     "series": ["720p", "Outdoor"],
@@ -222,7 +222,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-5907HD_Lense_Adjust.jpg",
     "abstract": "Manuelle Anpassung des Fokus der IN-5907"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-5905 HD",
     "series": ["720p", "Outdoor"],
@@ -236,7 +236,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-5905HD.jpg",
     "abstract": "IN-5905 HD - Produktüberblick"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-5905 Technical Specifications",
     "series": ["720p", "Outdoor"],
@@ -250,7 +250,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Technical_Specifications.jpg",
     "abstract": "IN-5905 HD Technische Spezifikationen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Product Features",
     "series": ["720p", "Outdoor"],
@@ -264,7 +264,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Features.jpg",
     "abstract": "IN-5905 HD Produkt-Eigenschaften"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Quick Installation Guide",
     "series": ["720p", "Outdoor"],
@@ -278,7 +278,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Quick_Installation.jpg",
     "abstract": "IN-5905 HD Schnellinstallation"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Point2Point Setup",
     "series": ["720p", "Outdoor"],
@@ -292,7 +292,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Quick_Installation.jpg",
     "abstract": "IN-5905 HD Einrichtung einer Point2Point-Verbindung"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Manual Lense Adjustment",
     "series": ["720p", "Outdoor"],
@@ -306,7 +306,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-5905HD_Lense_adjust.jpg",
     "abstract": "Manuelle Anpassung des Fokus der IN-5905"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-4011",
     "series": ["VGA", "Outdoor"],
@@ -320,7 +320,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-4011.jpg",
     "abstract": "IN-4011 - Produktüberblick"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-4011 Technical Specifications",
     "series": ["VGA", "Outdoor"],
@@ -334,7 +334,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-4011_Technical_Specifications.jpg",
     "abstract": "IN-4011 Technische Spezifikationen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-4010 V2",
     "series": ["VGA", "Outdoor"],
@@ -348,7 +348,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-4010.jpg",
     "abstract": "IN-4010 V2 - Produktüberblick"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-4010 V2 Technical Specifications",
     "series": ["VGA", "Outdoor"],
@@ -362,7 +362,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-4010_Technical_Specifications.jpg",
     "abstract": "IN-4010 V2 Technische Spezifikationen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-2908",
     "series": ["VGA", "Outdoor"],
@@ -376,7 +376,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-2908.jpg",
     "abstract": "IN-2908 - Produktüberblick"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-2908 Technical Specifications",
     "series": ["VGA", "Outdoor"],
@@ -390,7 +390,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-2908_Technical_Specifications.jpg",
     "abstract": "IN-2908 Technische Spezifikationen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-2905 V2",
     "series": ["VGA", "Outdoor"],
@@ -404,7 +404,7 @@ POST /wiki2/article
     "image": "/images/Search/P_SearchThumb_IN-2905.jpg",
     "abstract": "IN-2905 V2 - Produktüberblick"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IN-2905 V2 Technical Specifications",
     "series": ["VGA", "Outdoor"],

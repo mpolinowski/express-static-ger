@@ -1,4 +1,4 @@
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Frequently Asked Questions",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: VGA Series",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -26,7 +26,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: IN-5905 HD",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -40,7 +40,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: IN-5907 HD",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -54,7 +54,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: IN-6001 HD",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -68,7 +68,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: IN-6012 HD",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -82,7 +82,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: IN-6014 HD",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -96,7 +96,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: IN-7011 HD",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -110,7 +110,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: IN-8015 Full HD",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -124,7 +124,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: IN-9008 Full HD",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -138,7 +138,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Häufig gestellte Fragen zu INSTAR Produkten"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Multiple Cameras",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -152,7 +152,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Können mehrere Kameras gleichzeitig ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Lense Adjustment",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -166,7 +166,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Dass Bild meiner Kamera ist unscharf ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: New Router",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -180,7 +180,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Habe einen neuen Router ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Camera API",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -194,7 +194,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Hat die Kamera eine API ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Camera Zoom",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -208,7 +208,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Hat die Kamera eine Zoom Funktion ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: 3G/UMTS-Router",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -222,7 +222,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kamera über einen 3G/UMTS-Router betreiben ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Push Dienst",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -236,7 +236,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Wie funktioniert der Push Dienst ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Without Cloud",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -250,7 +250,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Zugriff ohne kostenpflichtige Cloud ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Deactivate WiFi",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -264,7 +264,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Ist es möglich das WLAN zu deaktivieren ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: SD Card Access",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -278,7 +278,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Ist es möglich das WLAN zu deaktivieren ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: P2P Access",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -292,7 +292,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Ein direkter P2P Zugriff ohne Router ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Switchable Power Plugs",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -306,7 +306,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Verliert sich dadurch ihre Einstellungen ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Battery Operation",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -320,7 +320,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann die Kamera mit Akku oder Batterien ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Contiuous Recording",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -334,7 +334,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann die Kamera Daueraufnahmen erstellen ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Synology",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -348,7 +348,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Synology Surveillance Station ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Internet",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -362,7 +362,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kamerazugriff über das Internet ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Email Notification",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -376,7 +376,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Andere Email für die Alarmbenachrichtigung ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: SD Card",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -390,7 +390,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kamera eine größere SD Karte einsetzen ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Push Notification",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -404,7 +404,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Push-Nachrichten und VPN Zugriff ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Camera Heater",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -418,7 +418,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann man in der Kamera eine Heizung ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Connection Cable",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -432,7 +432,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Anschlusskabel der Kamera entfernen ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Power Supply",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -446,7 +446,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kamera im Ausland mit 110V betreiben ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Software CD",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -460,7 +460,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Software ohne CD installieren ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Fritzbox NAS",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -474,7 +474,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Aufnahmen auf ein Fritzbox NAS abgelegt ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: SD Card Access",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -488,7 +488,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Aufnahmen mit dem Handy abrufen ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Smartphone App",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -502,7 +502,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Benötig man einen PC für die Installation ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Live Video",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -516,7 +516,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Bleibt nach einer Zeit das Bild stehen ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: User Management",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -530,7 +530,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Einrichten eines Gastzugangs ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Push Service",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -544,7 +544,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Was ist der kostenlose Push Service ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: WiFi",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -558,7 +558,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Welche WLAN Standards werden unterstützt ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: File Format",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -572,7 +572,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Welches Dateiformat haben die Videos ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Allowed Characters",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -586,7 +586,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Erlaubte Sonderzeichen im WLAN Schlüssel ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Video Length",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -600,7 +600,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Videoaufnahme nach Bewegungserkennung ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Fernzugriff",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -614,7 +614,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Portweiterleitung in meinem Router ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Outdoor",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -628,7 +628,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Innenkameras im Außeneinsatz ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: QNAP & Synology",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -642,7 +642,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann man Full HD Kameras einbinden ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: WiFi",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -656,7 +656,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Gibt es Einschränkungen beim WLAN ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: 6014 vs 8015",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -670,7 +670,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Was sind die Vorteile der 1080p Serie ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: 5905 vs 9008",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -684,7 +684,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Was sind die Vorteile der 1080p Serie ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: 9008 Range",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -698,7 +698,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Welche Reichweite hat der PIR Sensor ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: MJPEG Stream",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -712,7 +712,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Hat die kamera auch ein mjpeg Stream ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: 5 GHz WiFi",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -726,7 +726,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Funktioniert die Kamera auch mit ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Connection Cable",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -740,7 +740,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Wie werden die Anschlüsse wetterfest ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: IPv4 or IPv6",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -754,7 +754,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Mit was für ein IP Protokoll ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: 5905 vs 5907",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -768,7 +768,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Was ist der Unterschied zwischen ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Video auf FTP",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -782,7 +782,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann man dauerhaft das Videobild ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Push Notification",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -796,7 +796,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Was muss ich tun, damit die Kamera ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Temperature Range",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -810,7 +810,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Bis zu welchen Temperaturbereich ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Ceiling Installation",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -824,7 +824,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann das Videobild gedreht werden ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Without Computer",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -838,7 +838,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Muss der PC im Betrieb der Kamera ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Close Focus",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -852,7 +852,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Muss der PC im Betrieb der Kamera ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Power Plug",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -866,7 +866,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Welche Größe hat der Anschluss ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Power Plug",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -880,7 +880,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Welche Größe hat der Anschluss ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: sFTP oder FTPS",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -894,7 +894,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Unterstützt die Kamera verschlüsselten ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Deactivate Nightmode",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -907,7 +907,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann man einen externen IR Scheinwerfer ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: False Colours",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -920,7 +920,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Bild hat einen braunen, lila Farbstich ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Status LEDs",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -933,7 +933,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann man die blinkende LED ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Software License",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -946,7 +946,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Wird eine kostenpflichtige ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: WiFi Connection",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -959,7 +959,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Die Verbindung bricht immer wieder ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Thirdparty Apps",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -972,7 +972,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann man die Kamera auch mit ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Deactivate Camera",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -985,7 +985,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann man die Kamera abschalten ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Audio Alarm",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -998,7 +998,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann ich mit einem Mikrofon ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Invisible",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1011,7 +1011,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Sind die IR LEDs sichtbar ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Ring Storage",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1024,7 +1024,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Was passiert, wenn die SD Karte voll ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: SD Card",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1037,7 +1037,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Die SD-Karte ist nicht aufrufbar ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: SD Card Access",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1050,7 +1050,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Die SD-Karte ist nicht aufrufbar ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Weather Proof",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1063,7 +1063,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Wie reagiert die Kamera auf ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Window",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1076,7 +1076,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann man die Kamera durch ein Fenster ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Nightvision",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1089,7 +1089,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann man die Kamera durch ein Fenster ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Alarm Position",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1102,7 +1102,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann die Kamera eine Position anfahren ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Mikrophone",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1115,7 +1115,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Brummton auf dem Audiosignal ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Motion Blur",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1128,7 +1128,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "In der Nacht wird das Bild unscharf ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Video Size",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1141,7 +1141,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Wieso unterscheidet sich die Dateigröße ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Deactivate Alarm",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1154,12 +1154,12 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kann man den Alarm mit der App ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: False Alerts",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
     "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
-    "description": "Wieso bekomme ich eine Flut von Fehlalarmen in der Nacht? In der Letzten Zeit versuche ich die Kamera einzustellen und schaffe es nicht die Flut von Fehlalarmen (etwa 100) in der Nacht einzuschränken ohne die Überwachungsfunktion zu verlieren. Am Tage funktioniert Sie wunderbar. Die Kamera selbst arbeitet mit einem Bildvergleich um eine Bewegung zu erkennen. Sofern sich bei einer Bewegung im Bild etwas verändert, löst die Kamera je nach Empfindlichkeit aus. Prinzipiell ist es daher oft ratsam die Bereiche bestmöglichst zu platzieren und die Größe anzupassen. Schauen Sie in diesem Video wie die Bewegungserkennung der Kamera arbeitet und wie man die Bereiche bestmöglichst einstellt. Die Software kann nur Veränderungen quantifizieren, diese aber nicht qualitativ zuordnen, hierzu wäre viel mehr Rechenleistung notwendig. Wir arbeiten daher aktuell an einer erweiterten Bewegungserkennung innerhalb unserer Cloud Lösung, dort kann man dies dann umsetzen. Eine Regenerkennung ist zum Beispiel schon integriert. Wenn Sie solche "Fehlalarme" wegbekommen möchten, können Sie den Alarmeingang der Kamera nutzen und dort einen PIR Bewegungsmelder anschließen. Dieser reagiert auf Veränderungen in der Wärmestrahlung. In Summe hat jede Bewegungserkennung seine Schwachstellen um diese auszumerzen, können Sie bei den HD Kameras die Alarmbereiche und den Alarmeingang koppeln (sprich diese werden durch ein logisches UND verknüpft). Die Kamera löst nur dann aus, wenn beide Alarmgeber auslösen. Mit dieser Variante kann man dann die besten Ergebnisse erzielen. Sie können aber ansonsten auch jeden anderen Bewegungsmelder nutzen den es auf dem Markt gibt. Dieser muss lediglich einen Alarmkontakt haben damit Sie diesen mit dem Alarm Eingang der Kamera verbinden können. Kameramodelle, wie die IN-9008 Full HD haben diesen Bewegungsmelder direkt mit im Gehäuse integriert.",
+    "description": "Wieso bekomme ich eine Flut von Fehlalarmen in der Nacht? In der Letzten Zeit versuche ich die Kamera einzustellen und schaffe es nicht die Flut von Fehlalarmen (etwa 100) in der Nacht einzuschränken ohne die Überwachungsfunktion zu verlieren. Am Tage funktioniert Sie wunderbar. Die Kamera selbst arbeitet mit einem Bildvergleich um eine Bewegung zu erkennen. Sofern sich bei einer Bewegung im Bild etwas verändert, löst die Kamera je nach Empfindlichkeit aus. Prinzipiell ist es daher oft ratsam die Bereiche bestmöglichst zu platzieren und die Größe anzupassen. Schauen Sie in diesem Video wie die Bewegungserkennung der Kamera arbeitet und wie man die Bereiche bestmöglichst einstellt. Die Software kann nur Veränderungen quantifizieren, diese aber nicht qualitativ zuordnen, hierzu wäre viel mehr Rechenleistung notwendig. Wir arbeiten daher aktuell an einer erweiterten Bewegungserkennung innerhalb unserer Cloud Lösung, dort kann man dies dann umsetzen. Eine Regenerkennung ist zum Beispiel schon integriert. Wenn Sie solche Fehlalarme wegbekommen möchten, können Sie den Alarmeingang der Kamera nutzen und dort einen PIR Bewegungsmelder anschließen. Dieser reagiert auf Veränderungen in der Wärmestrahlung. In Summe hat jede Bewegungserkennung seine Schwachstellen um diese auszumerzen, können Sie bei den HD Kameras die Alarmbereiche und den Alarmeingang koppeln (sprich diese werden durch ein logisches UND verknüpft). Die Kamera löst nur dann aus, wenn beide Alarmgeber auslösen. Mit dieser Variante kann man dann die besten Ergebnisse erzielen. Sie können aber ansonsten auch jeden anderen Bewegungsmelder nutzen den es auf dem Markt gibt. Dieser muss lediglich einen Alarmkontakt haben damit Sie diesen mit dem Alarm Eingang der Kamera verbinden können. Kameramodelle, wie die IN-9008 Full HD haben diesen Bewegungsmelder direkt mit im Gehäuse integriert.",
     "link": "/Fragen_und_Antworten/#Wieso%20bekomme%20ich%20eine%20Flut%20von%20Fehlalarmen%20in%20der%20Nacht%3F",
     "title": "FAQs :: Fehlalarme",
     "chapter": "FAQs",
@@ -1167,7 +1167,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Nachts kommen zuviele Alarm Emails ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: No Emails",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1180,7 +1180,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kamera sendet keine Bilder ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Cloud Storage",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1193,7 +1193,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Der Speicher ist voll ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: InstarVision 2.1 beta",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1206,7 +1206,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Download für die BETA Version ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Unscharfes Bild",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1219,7 +1219,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Das Bild meiner Full HD ist unscharf ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: No Connection",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1232,7 +1232,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Die WLAN Verbindung ist unstabil ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Alarm I/O",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1245,7 +1245,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Wie funktioniert der Alarmeingang ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Night Mode",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1258,7 +1258,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kamera schaltet nicht in den ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Missing FTP Upload",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1271,7 +1271,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Alarmaufnahme liegt auf der SD Karte, aber ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Microphone Buzzed",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1284,7 +1284,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kurz nach dem Einschalten hört man ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: Alarm-Out",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1297,7 +1297,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Wie schaltet man eine externe Lichtquelle ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: 2-way Audio",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1310,7 +1310,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Kamera über die ich auch sprachlich kommunizieren ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: DS Lite",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -1323,7 +1323,7 @@ POST /wiki2/article
     "image": "/images/Search/FAQ_SearchThumb.jpg",
     "abstract": "Wird der Ferzugriff definitiv funktionieren ..."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FAQs :: DS Lite",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],

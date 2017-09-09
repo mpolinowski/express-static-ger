@@ -1,4 +1,4 @@
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads Area",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: Indoor Cameras",
     "series": ["FHD", "HD", "VGA", "Indoor"],
@@ -26,7 +26,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_IndoorCam.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-3001",
     "series": ["VGA", "Indoor"],
@@ -40,7 +40,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-3003",
     "series": ["VGA", "Indoor"],
@@ -54,7 +54,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-3010",
     "series": ["VGA", "Indoor"],
@@ -68,7 +68,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-3011",
     "series": ["VGA", "Indoor"],
@@ -82,7 +82,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_3011.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-6001 HD",
     "series": ["HD", "Indoor"],
@@ -96,7 +96,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_6001.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-6012 HD",
     "series": ["HD", "Indoor"],
@@ -110,7 +110,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_6012.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-6014 HD",
     "series": ["HD", "Indoor"],
@@ -124,7 +124,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_6014.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-8015 Full HD",
     "series": ["FHD", "Indoor"],
@@ -138,7 +138,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_8015.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: Outdoor Cameras",
     "series": ["FHD", "HD", "VGA", "Outdoor"],
@@ -152,7 +152,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_OutdoorCam.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-2904",
     "series": ["VGA", "Outdoor"],
@@ -166,7 +166,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-2905",
     "series": ["VGA", "Outdoor"],
@@ -180,7 +180,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_2905.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-2908",
     "series": ["VGA", "Outdoor"],
@@ -194,7 +194,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_2908.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-4009",
     "series": ["VGA", "Outdoor"],
@@ -208,7 +208,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-4010",
     "series": ["VGA", "Outdoor"],
@@ -222,7 +222,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_4010.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-4011",
     "series": ["VGA", "Outdoor"],
@@ -236,7 +236,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_4011.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-5905 HD",
     "series": ["HD", "Outdoor"],
@@ -250,7 +250,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_5905.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-5907 HD",
     "series": ["HD", "Outdoor"],
@@ -264,7 +264,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_5907.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-7011 HD",
     "series": ["HD", "Outdoor"],
@@ -278,7 +278,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_7011.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-9008 Full HD",
     "series": ["FHD", "Outdoor"],
@@ -292,7 +292,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_9008.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: Desktop Software",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -306,7 +306,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_Software.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: InstarVision v2",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -320,7 +320,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: InstarVision Metro",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -334,7 +334,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: INSTAR Camera Tool",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -348,7 +348,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: Mobile Apps",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -362,7 +362,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_Mobile.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: InstarVision iOS",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -376,7 +376,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: InstarVision Android",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -390,7 +390,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: InstarVision Windows Phone",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -404,7 +404,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: Accessories",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -418,7 +418,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_Accessories.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-Motion 300",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -432,7 +432,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-Motion 500",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -446,7 +446,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-Mikro 380",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -460,7 +460,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: Infrared Spotlight",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -474,7 +474,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: Netzwerk Accessories",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -488,7 +488,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb_NetworkAccessories.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-LAN 500",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -502,7 +502,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-PoE 1000",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
@@ -516,7 +516,7 @@ POST /wiki2/article
     "image": "/images/Search/D_SearchThumb.jpg",
     "abstract": "Software, Apps, Zubehör und Anleitungen zum Herunterladen."
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Downloads :: IN-Route P52",
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],

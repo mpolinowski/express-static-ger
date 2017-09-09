@@ -1,4 +1,4 @@
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "The Full HD Web User Interface",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -12,7 +12,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
     "abstract": "Konfiguration der Kamera in der FHD Weboberfläche"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "System Menu",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -26,7 +26,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
     "abstract": "Einstellungsmöglichkeiten im System-Menu der FHD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Overview Menu",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -40,7 +40,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Overview.jpg",
     "abstract": "Anzeigen von Informationen über Ihre FHD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "User",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -54,7 +54,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_User.jpg",
     "abstract": "Verwalten der Benutzerzugänge Ihrer Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Date & Time",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -68,7 +68,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Date_Time.jpg",
     "abstract": "Datums- und Uhrzeiteinstellungen Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Language",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -82,7 +82,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Language.jpg",
     "abstract": "Spracheinstellungen in der FHD-Web-Oberfläche"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "System Log",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -96,7 +96,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Log.jpg",
     "abstract": "Aufrufen des System Log zur Überprüfung des Kameraverhalten"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Update",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -110,7 +110,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Update.jpg",
     "abstract": "Update der Firmware und Web-Oberfläche der FHD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Reboot",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -124,7 +124,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Reboot.jpg",
     "abstract": "Neustarten der FHD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Reset",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -138,7 +138,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_System_Reset.jpg",
     "abstract": "Werksreset der FHD-Kamera ausführen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Network Menu",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -152,7 +152,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
     "abstract": "Einstellungsmöglichkeiten im Netzwerk-Menu der HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IP Configuration",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -166,7 +166,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Network_IP_Configuration.jpg",
     "abstract": "Konfiguration der Netzwerkeinstellungen der HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "WiFi",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -180,7 +180,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Network_WiFi.jpg",
     "abstract": "Konfiguration der WLAN-Einstellungen HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Remote Access",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -194,7 +194,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Network_Remote_Access.jpg",
     "abstract": "Fernzugriff auf Ihre FHD-Kamera aus dem Internet"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "UPnP",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -208,7 +208,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Network_UPnP.jpg",
     "abstract": "Einstellen des Universal Plug &amp; Play Dienstes"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "ONVIF",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -222,7 +222,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Network_ONVIF.jpg",
     "abstract": "Connect your Camera over the ONVIF Protocol"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Features Menu",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -236,7 +236,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
     "abstract": "Verschiedene Features der FHD-Kamera einstellen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Email",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -250,7 +250,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_Email.jpg",
     "abstract": "Einstellen des Empfängers der Alarm-Emails"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "FTP",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -264,7 +264,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_FTP.jpg",
     "abstract": "Konfiguration eines FTP Server zum Upload von Alarmbildern- & Videos"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Status LED",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -278,7 +278,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_Status_LEDs.jpg",
     "abstract": "Einstellen der Status-LED Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "IR LEDs",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -292,7 +292,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_Nightvision.jpg",
     "abstract": "Einstellen der Inrarot-LEDs Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "PTZ",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -306,7 +306,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_PTZ.jpg",
     "abstract": "Einstellen der Schwenk & Neig (PTZ) Funktion Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "PTZ Tour",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -320,10 +320,10 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_PTZ_Tour.jpg",
     "abstract": "rogrammieren einer PTZ Tour in Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
 
-		"title2": "SD Card",
+  "title2": "SD Card",
     "series": ["1080p", "Indoor", "Outdoor"],
     "models": ["IN-8015 HD", "IN-9008 HD"],
     "description": "Öffnen, Formartieren oder Auswerfen der SD Karte Menu SD-Karte Wählen Sie ob Sie die SD Karte auswerfen oder Formatieren möchten und bestätigen Sie die Eingabe. Es ist immer empfohlen die SD Karte zuerst auszuwerfen, bevor Sie sie aus der Kamera entfernen. Gerade wenn die Kamera eine Aufnahme durchführt während die Stromversorgung gekappt wird, kann es zu Fehlern im Dateisystem kommen. Sollte die SD Karte beschädigt werden, wird das Betriebsysstem versuchen die SD Karte zu reparieren und es kann einige Minuten dauern, bis die SD Karte wieder verfügbar ist. Sollte die SD Karte auch nach einiger Zeit noch nicht erreichbar sein, können Sie probieren die Karte zu formatieren. Sollte die Karte ausgeworfen werden, wird das Betriebssystem versuchen Sie nach einiger Zeit wieder automatisch zu mounten. SD Ordner öffnen\tEin Klick auf den Ordner-Button wird Sie durch das SD-Karten Verzeichnis führen, wo all Ihre Snapshots und Videoaufnahmen abliegen. Nutzen Sie den Admin-Login der Kamera, um auf das Verzeichnis zuzugreifen. Es gibt auch bequemere Wege, um auf die Aufnahmen zuzugreifen. Zum Beispiel über DRITTANBIETER SOFTWARE, oder unsere mobile App InstarVision für IPHONE, IPAD, ANDROID.WINDOWS PHONE und WINDOWS METRO. SD-Karte auswerfen\tUnmounten Sie die SD-Karte bevor Sie die Karte aus der Kamera ziehen. Das Betriebssystem der Kamera wird in regelmäßigen Zeitabständen versuchen, die Karte wieder bereitzustellen. SD-Karte formatieren\tIhre Kamera wird den ältesten Ordner automatisch löschen, sobald die Speicherkapazität der Karte erreicht ist. So ist immer genug Platz für neue Aufnahmen verfügbar! Nutzen Sie den Formatierungs-Befehl, wenn Sie Ihre Aufnahmen auf der Kamera löschen möchten, oder wenn das Filesystem der Kamera korrupt ist. Dies kann nach einem Neustart vorkommen oder wenn Sie die SD-Karte der Kamera entfernen, während noch Dateien auf die Karte geschrieben werden. Der Ursprung einer Aufnahme (Video oder Einzelbild) auf der SD Karte oder dem FTP Server, kann man anhand des Vorgestellten Buchstabens im Dateinamen ableiten. Alarmaufnahmen: A Geplante Aufnahme Fotoserie: P Manuelle Aufnahme: N FTP Test: T Beispiel: Die Datei P17073016245100.jpg stammt aus einer Fotoserie und wurde am 2017 Jahr. 07 Monat. 30 (Tag) um 16:24:51 aufgenommen. Bei den letzten beiden Ziffern handelt es sich um eine fortlaufende Nummer, die Bilder einem auslösenden Ereignis zuweisen - wenn man einstellt bei einem Alarm 6 Bilder zu speichern, wird hier von 00 bis 05 hochgezählt. Bei der Datei A170730_171158_171212 avi handelt es sich um eine Alarmvideoaufnahme, die am 30 Juli 2017 zwischen 17:11:58 und 17:12:12 aufgenommen wurde.",
@@ -335,7 +335,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_SD_Card.jpg",
     "abstract": "Verwalten der SD-Karte"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Manual Recording",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -349,7 +349,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Features_Manual_Recording.jpg",
     "abstract": "Einstellungsmöglichkeiten im Aufnahme-Menu Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Multimedia Menu",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -363,7 +363,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
     "abstract": "Video & Audio-Einstellungsmöglichkeiten Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Audio",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -377,7 +377,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Multimedia_Audio.jpg",
     "abstract": "Lautstärkeeinstellungen Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Video",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -391,7 +391,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Multimedia_Video.jpg",
     "abstract": "Videoeinstellungen Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Image",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -405,7 +405,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Multimedia_Image.jpg",
     "abstract": "Bildeinstellungen Ihrer Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Privacy Mask",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -419,7 +419,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Multimedia_Privat.jpg",
     "abstract": "Festlegen von Privatsphärebereichen in Ihrer HD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Alarm Menu",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -433,7 +433,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
     "abstract": "Alarmeinstellungsmöglichkeiten Ihrer Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Alarm Areas",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -447,7 +447,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Alarm_Alarm_Areas.jpg",
     "abstract": "Einstellen der Alarmbereiche zur Bewegungsüberwachung"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Alarm Actions",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -461,7 +461,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Alarm_Alarm_Actions.jpg",
     "abstract": "Actions to be triggered in case of an Alarm"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Alarm Schedule",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -475,7 +475,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Alarm_Schedule.jpg",
     "abstract": "Konfiguration der Aktionen bei Alarmauslösung"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Push Service",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -489,7 +489,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Alarm_Push_Service.jpg",
     "abstract": "Aktivieren des Push-Dienstes für Ihr Smartphone"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Alarm Server",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -503,7 +503,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Alarm_Alarmserver.jpg",
     "abstract": "Konfiguration eines Alarm-Servers"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Recording Task Menu",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -517,7 +517,7 @@ POST /wiki2/article
     "image": "/images/Search/QI_SearchThumb_WebUI_1080p.jpg",
     "abstract": "AufnahmeMenu Ihrer FHD-Kamera"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Video Recording",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -531,7 +531,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Tasks_Video_Recording.jpg",
     "abstract": "Konfiguration von automatischen Video-Aufnahmen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Photoseries",
     "series": ["1080p", "Indoor", "Outdoor"],
@@ -545,7 +545,7 @@ POST /wiki2/article
     "image": "/images/Search/WebUI_1080p_SearchThumb_Tasks_Photoseries.jpg",
     "abstract": "Konfiguration von automatischen Foto-Aufnahmen"
 }
-POST /wiki2/article
+POST /wiki2_de_2017_09_09/article
 {
     "title2": "Cloud",
     "series": ["1080p", "Indoor", "Outdoor"],
