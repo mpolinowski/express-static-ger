@@ -1329,7 +1329,7 @@ POST /wiki2_de_2017_09_09/article
     "series": ["FHD", "HD", "VGA", "Indoor", "Outdoor"],
     "models": ["IN-2905", "IN-2908", "IN-3011", "IN-4010", "IN-4011", "IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD", "IN-8015 FHD", "IN-9008 FHD"],
     "description": "Brauche eine Kamera ohne Leitungsbündel. Schon seit Monaten möchte ich die Kamera 5907 erwerben, was mich abhält ist das Leitungsbündel, welches draußen nur aufwändig verbaut werden kann. Wird es in absehbarer Zeit die Kamera nur mit einer RJ-45-Buchse geben oder kann eine Kamera entsprechend konfiguriert geliefert werden? Ich möchte nicht schon vor dem Gebrauch die Kamera aufwändig in seine Einzelteile zerlegen und die überflüssigen Kabel entfernen. Wir haben mittlerweile mit der 9008 einen Nachfolger auf den Markt gebracht, welcher dieses Bündel nicht hat, dazu FullHD Auflösung, einen integrierten PIR Sensor gegen Fehlalarme und viele weitere Verbesserungen.",
-    "link": "/Fragen_und_Antworten#Brauche%20eine%20Kamera%20ohne%20eitungsbuendel.",
+    "link": "/Fragen_und_Antworten#Brauche%20eine%20Kamera%20ohne%20Leitungsbuendel.",
     "title": "FAQs :: Kabelbaum",
     "chapter": "FAQs",
     "tags": ["FAQ", "Fragen", "Antworten", "FAQs"],
