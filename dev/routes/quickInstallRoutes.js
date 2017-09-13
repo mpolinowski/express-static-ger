@@ -181,6 +181,11 @@ quickInstallRouter.route('/Set_Up_A_Wireless_Connection/')
     res.status(301).redirect('/Schnell_Installation/Herstellen_der_WLAN_Verbindung/');
 });
 
+quickInstallRouter.route('/Set_Up_A_Wireless_Connection/WPS_Plug_and_Play/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Schnell_Installation/Herstellen_der_WLAN_Verbindung/WPS_Plug_and_Play/');
+});
+
 quickInstallRouter.route('/ONVIF/')
   .get(function(req, res) {
     res.status(301).redirect('/Schnell_Installation/ONVIF/');

@@ -1081,6 +1081,35 @@ quickInstallGerRouter.route('/Herstellen_der_WLAN_Verbindung')
           });
       });
 
+quickInstallGerRouter.route('/Herstellen_der_WLAN_Verbindung/WPS_Plug_and_Play/')
+    .get(function(req, res) {
+        res.render('./Quick_Installation/Set_Up_A_Wireless_Connection_WPS', {
+            title: 'WPS WLAN Einbindung Ihrer INSTAR Netzwerkkamera',
+            ampimg: '/images/Search/QI_SearchThumb_WLAN.jpg',
+            headline: 'Wie bindet man eine INSTAR IP Kamera über WPS ins WiFi Netzwerk ein?',
+            breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Schnell_Installation/">Schnell Installation</a></li><li><a href="/Schnell_Installation/Herstellen_der_WLAN_Verbindung/">Herstellen der WLAN Verbindung</a></li><li><a href="/Schnell_Installation/Herstellen_der_WLAN_Verbindung/WPS_Plug_and_Play/">WPS</a></li>',
+            canonical: '/Quick_Installation/Set_Up_A_Wireless_Connection/WPS_Plug_and_Play/',
+            description: 'Sie möchten Ihre INSTAR WLAN Kamera kabellos betreiben? Lernen Sie hier, wie Sie Ihre Kamera über die WPS Funktion mit Ihrem WLAN Router verbinden.',
+      			pacc: '',
+      			ptab: 'hidden',
+      			qiacc: 'expanded',
+      			qitab: '',
+      			mdacc: '',
+      			mdtab: 'hidden',
+      			iaacc: '',
+      			iatab: 'hidden',
+      			auacc: '',
+      			autab: 'hidden',
+      			hdacc: 'hidden',
+      			hdtab: 'hidden',
+      			fhdacc: 'hidden',
+      			fhdtab: 'hidden',
+      			sacc: 'hidden',
+      			dlacc: 'hidden',
+      			dltab: 'hidden',
+          });
+      });
+
 /* GET /ONVIF */
 quickInstallGerRouter.route('/ONVIF')
     .get(function(req, res) {
