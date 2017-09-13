@@ -730,6 +730,62 @@ motionDetectionGerRouter.get('/Router_als_FTP_Server/Synology_als_FTP_Server', f
       });
   });
 
+motionDetectionGerRouter.get('/Router_als_FTP_Server/Linksys_als_FTP_Server/', function(req, res) {
+    res.render('./Motion_Detection/Linksys_as_FTP_Server', {
+        title: 'Linksys als FTP Server für Ihre INSTAR Netzwerkkamera',
+        ampimg: '/images/Search/MD_SearchThumb_RouterAsFTPServer_Linksys.jpg',
+        headline: 'Richten Sie Ihren Linksys Router als FTP Server für Ihre INSTAR Überwachungskamera ein.',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Bewegungserkennung/">Bewegungserkennung</a></li><li><a href="/Bewegungserkennung/Router_als_FTP_Server/">Router als FTP Server</a></li><li><a href="/Bewegungserkennung/Router_als_FTP_Server/Linksys_als_FTP_Server/">Linksys</a></li>',
+        canonical: '/Motion_Detection/Router_as_a_FTP_Server/Linksys_as_FTP_Server/',
+        description: 'Linksys Router bieten einen einfachen FTP Dienst an, über den Sie Ihre Alarm-Videoaufnahme und Fotoserien Ihrer INSTAR Webcam sichern können. Lesen Sie weiter für eine Schritt-für-Schritt Konfigurationsanleitung.',
+    		pacc: '',
+    		ptab: 'hidden',
+    		qiacc: '',
+    		qitab: 'hidden',
+    		mdacc: 'expanded',
+    		mdtab: '',
+    		iaacc: '',
+    		iatab: 'hidden',
+    		auacc: '',
+    		autab: 'hidden',
+    		hdacc: 'hidden',
+    		hdtab: 'hidden',
+    		fhdacc: 'hidden',
+    		fhdtab: 'hidden',
+    		sacc: 'hidden',
+    		dlacc: 'hidden',
+    		dltab: 'hidden',
+      });
+  });
+
+motionDetectionGerRouter.get('/Router_als_FTP_Server/TP-Link_als_FTP_Server/', function(req, res) {
+    res.render('./Motion_Detection/TP-Link_as_FTP_Server', {
+        title: 'TP-Link als FTP Server für Ihre INSTAR Netzwerkkamera',
+        ampimg: '/images/Search/MD_SearchThumb_RouterAsFTPServer_TP-Link.jpg',
+        headline: 'Richten Sie Ihren TP-Link Router als FTP Server für Ihre INSTAR Überwachungskamera ein.',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Bewegungserkennung/">Bewegungserkennung</a></li><li><a href="/Bewegungserkennung/Router_als_FTP_Server/">Router als FTP Server</a></li><li><a href="/Bewegungserkennung/Router_als_FTP_Server/TP-Link_als_FTP_Server/">TP-Link</a></li>',
+        canonical: '/Motion_Detection/Router_as_a_FTP_Server/TP-Link_as_FTP_Server/',
+        description: 'TP-Link Router bieten einen einfachen FTP Dienst an, über den Sie Ihre Alarm-Videoaufnahme und Fotoserien Ihrer INSTAR Webcam sichern können. Lesen Sie weiter für eine Schritt-für-Schritt Konfigurationsanleitung.',
+    		pacc: '',
+    		ptab: 'hidden',
+    		qiacc: '',
+    		qitab: 'hidden',
+    		mdacc: 'expanded',
+    		mdtab: '',
+    		iaacc: '',
+    		iatab: 'hidden',
+    		auacc: '',
+    		autab: 'hidden',
+    		hdacc: 'hidden',
+    		hdtab: 'hidden',
+    		fhdacc: 'hidden',
+    		fhdtab: 'hidden',
+    		sacc: 'hidden',
+    		dlacc: 'hidden',
+    		dltab: 'hidden',
+      });
+  });
+
 motionDetectionGerRouter.get('/Router_als_FTP_Server/WD_MyCloud_als_FTP_Server', function(req, res) {
     res.render('./Motion_Detection/WD_MyCloud_as_FTP_Server', {
         title: 'Western Digital MyCloud als FTP Server für Ihre INSTAR Netzwerkkamera',

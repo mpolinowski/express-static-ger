@@ -366,6 +366,90 @@ internetAccessGerRouter.get('/Port_Weiterleitung/Pirelli/', function(req, res) {
       });
   });
 
+internetAccessGerRouter.get('/Port_Weiterleitung/Asus/', function(req, res) {
+    res.render('./Internet_Access/Port_Forwarding_Asus', {
+        title: 'Port Weiterleitung Asus',
+        ampimg: '/images/Search/IA_SearchThumb_Portforwarding_Asus.jpg',
+        headline: 'Port Weiterleitung Pirelli für den Fernzugriff auf Ihre INSTAR Webcam',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Fernzugriff/">Fernzugriff</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/">Port Weiterleitung</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/Asus/">Asus</a></li>',
+        canonical: '/Internet_Access/Port_Forwarding/Asus/',
+        description: 'Ihr Router sperrt alle Zugriffe aus dem Internet auf Ihr lokales Netzwerk ab. Um den Fernzugriff auf Ihre Überwachungskamera aus dem Internet zu ermöglichen, müssen Sie einen Port auf diese durch die NAT Firewall durchleiten. Lesen Sie hier, wie Sie diese Weiterleitung bei Ihrem Pirelli Router durchführen.',
+    		pacc: '',
+    		ptab: 'hidden',
+    		qiacc: '',
+    		qitab: 'hidden',
+    		mdacc: '',
+    		mdtab: 'hidden',
+    		iaacc: 'expanded',
+    		iatab: '',
+    		auacc: '',
+    		autab: 'hidden',
+    		hdacc: 'hidden',
+    		hdtab: 'hidden',
+    		fhdacc: 'hidden',
+    		fhdtab: 'hidden',
+    		sacc: 'hidden',
+    		dlacc: 'hidden',
+    		dltab: 'hidden',
+      });
+  });
+
+internetAccessGerRouter.get('/Port_Weiterleitung/Digitalisierungsbox/', function(req, res) {
+    res.render('./Internet_Access/Port_Forwarding_Digitalisierungsbox', {
+        title: 'Port Weiterleitung Digitalisierungsbox',
+        ampimg: '/images/Search/IA_SearchThumb_Portforwarding_Digitalisierungsbox.jpg',
+        headline: 'Port Weiterleitung Digitalisierungsbox für den Fernzugriff auf Ihre INSTAR Webcam',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Fernzugriff/">Fernzugriff</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/">Port Weiterleitung</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/Digitalisierungsbox/">Digitalisierungsbox</a></li>',
+        canonical: '/Internet_Access/Port_Forwarding/Digitalisierungsbox/',
+        description: 'Ihr Router sperrt alle Zugriffe aus dem Internet auf Ihr lokales Netzwerk ab. Um den Fernzugriff auf Ihre Überwachungskamera aus dem Internet zu ermöglichen, müssen Sie einen Port auf diese durch die NAT Firewall durchleiten. Lesen Sie hier, wie Sie diese Weiterleitung bei Ihrem Pirelli Router durchführen.',
+    		pacc: '',
+    		ptab: 'hidden',
+    		qiacc: '',
+    		qitab: 'hidden',
+    		mdacc: '',
+    		mdtab: 'hidden',
+    		iaacc: 'expanded',
+    		iatab: '',
+    		auacc: '',
+    		autab: 'hidden',
+    		hdacc: 'hidden',
+    		hdtab: 'hidden',
+    		fhdacc: 'hidden',
+    		fhdtab: 'hidden',
+    		sacc: 'hidden',
+    		dlacc: 'hidden',
+    		dltab: 'hidden',
+      });
+  });
+
+internetAccessGerRouter.get('/Port_Weiterleitung/Linksys/', function(req, res) {
+    res.render('./Internet_Access/Port_Forwarding_Linksys', {
+        title: 'Port Weiterleitung Linksys',
+        ampimg: '/images/Search/IA_SearchThumb_Portforwarding_Linksys.jpg',
+        headline: 'Port Weiterleitung Linksys für den Fernzugriff auf Ihre INSTAR Webcam',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Fernzugriff/">Fernzugriff</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/">Port Weiterleitung</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/Linksys/">Linksys</a></li>',
+        canonical: '/Internet_Access/Port_Forwarding/Linksys/',
+        description: 'Ihr Router sperrt alle Zugriffe aus dem Internet auf Ihr lokales Netzwerk ab. Um den Fernzugriff auf Ihre Überwachungskamera aus dem Internet zu ermöglichen, müssen Sie einen Port auf diese durch die NAT Firewall durchleiten. Lesen Sie hier, wie Sie diese Weiterleitung bei Ihrem Pirelli Router durchführen.',
+    		pacc: '',
+    		ptab: 'hidden',
+    		qiacc: '',
+    		qitab: 'hidden',
+    		mdacc: '',
+    		mdtab: 'hidden',
+    		iaacc: 'expanded',
+    		iatab: '',
+    		auacc: '',
+    		autab: 'hidden',
+    		hdacc: 'hidden',
+    		hdtab: 'hidden',
+    		fhdacc: 'hidden',
+    		fhdtab: 'hidden',
+    		sacc: 'hidden',
+    		dlacc: 'hidden',
+    		dltab: 'hidden',
+      });
+  });
+
 internetAccessGerRouter.get('/Mobil_Zugriff/', function(req, res) {
     res.render('./Internet_Access/Mobile_Access', {
         title: 'Fernzugriff auf Ihre Kamera mit Ihrem Mobil-Gerät',

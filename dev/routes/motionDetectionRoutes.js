@@ -131,6 +131,16 @@ motionDetectionRouter.route('/Router_as_a_FTP_Server/Synology_as_FTP_Server/')
     res.status(301).redirect('/Bewegungserkennung/Router_als_FTP_Server/Synology_als_FTP_Server/');
 });
 
+motionDetectionRouter.route('/Router_as_a_FTP_Server/Linksys_as_FTP_Server/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Bewegungserkennung/Router_als_FTP_Server/Linksys_als_FTP_Server/');
+});
+
+motionDetectionRouter.route('/Router_as_a_FTP_Server/TP-Link_as_FTP_Server/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Bewegungserkennung/Router_als_FTP_Server/TP-Link_als_FTP_Server/');
+});
+
 motionDetectionRouter.route('/Router_as_a_FTP_Server/WD_MyCloud_as_FTP_Server/')
   .get(function(req, res) {
     res.status(301).redirect('/Bewegungserkennung/Router_als_FTP_Server/WD_MyCloud_als_FTP_Server/');

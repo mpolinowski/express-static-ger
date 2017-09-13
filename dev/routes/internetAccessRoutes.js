@@ -66,6 +66,21 @@ internetAccessRouter.route('/Port_Forwarding/Pirelli/')
     res.status(301).redirect('/Fernzugriff/Port_Weiterleitung/Pirelli/');
 });
 
+internetAccessRouter.route('/Port_Forwarding/Asus/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Fernzugriff/Port_Weiterleitung/Asus/');
+});
+
+internetAccessRouter.route('/Port_Forwarding/Digitalisierungsbox/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Fernzugriff/Port_Weiterleitung/Digitalisierungsbox/');
+});
+
+internetAccessRouter.route('/Port_Forwarding/Linksys/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Fernzugriff/Port_Weiterleitung/Linksys/');
+});
+
 internetAccessRouter.route('/Mobile_Access/')
   .get(function(req, res) {
     res.status(301).redirect('/Fernzugriff/Mobil_Zugriff/');
