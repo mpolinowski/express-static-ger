@@ -81,6 +81,11 @@ internetAccessRouter.route('/Port_Forwarding/Linksys/')
     res.status(301).redirect('/Fernzugriff/Port_Weiterleitung/Linksys/');
 });
 
+internetAccessRouter.route('/Port_Forwarding/Unitymedia_Connectbox/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Fernzugriff/Port_Weiterleitung/Unitymedia_Connectbox/');
+});
+
 internetAccessRouter.route('/Mobile_Access/')
   .get(function(req, res) {
     res.status(301).redirect('/Fernzugriff/Mobil_Zugriff/');

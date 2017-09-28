@@ -450,6 +450,34 @@ internetAccessGerRouter.get('/Port_Weiterleitung/Linksys/', function(req, res) {
       });
   });
 
+internetAccessGerRouter.get('/Port_Weiterleitung/Unitymedia_Connectbox/', function(req, res) {
+    res.render('./Internet_Access/Port_Forwarding_Unitymedia_Connectbox.ejs', {
+        title: 'Port Weiterleitung Unitymedia Connectbox',
+        ampimg: '/images/Search/IA_SearchThumb_Portforwarding_Linksys.jpg',
+        headline: 'Port Weiterleitung Unitymedia Connectbox für den Fernzugriff auf Ihre INSTAR Webcam',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Fernzugriff/">Fernzugriff</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/">Port Weiterleitung</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/Unitymedia_Connectbox/">Unitymedia Connectbox</a></li>',
+        canonical: '/Internet_Access/Port_Forwarding/Linksys/',
+        description: 'Ihr Router sperrt alle Zugriffe aus dem Internet auf Ihr lokales Netzwerk ab. Um den Fernzugriff auf Ihre Überwachungskamera aus dem Internet zu ermöglichen, müssen Sie einen Port auf diese durch die NAT Firewall durchleiten. Lesen Sie hier, wie Sie diese Weiterleitung bei Ihrem Unitymedia Connectbox Router durchführen.',
+    		pacc: '',
+    		ptab: 'hidden',
+    		qiacc: '',
+    		qitab: 'hidden',
+    		mdacc: '',
+    		mdtab: 'hidden',
+    		iaacc: 'expanded',
+    		iatab: '',
+    		auacc: '',
+    		autab: 'hidden',
+    		hdacc: 'hidden',
+    		hdtab: 'hidden',
+    		fhdacc: 'hidden',
+    		fhdtab: 'hidden',
+    		sacc: 'hidden',
+    		dlacc: 'hidden',
+    		dltab: 'hidden',
+      });
+  });
+
 internetAccessGerRouter.get('/Mobil_Zugriff/', function(req, res) {
     res.render('./Internet_Access/Mobile_Access', {
         title: 'Fernzugriff auf Ihre Kamera mit Ihrem Mobil-Gerät',
