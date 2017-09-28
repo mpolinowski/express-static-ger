@@ -102,6 +102,65 @@ productRouter.route('/Lenses')
     });
 });
 
+/* ****************************************** GET Full HD Lenses ****************************************** */
+productRouter.route('/Lenses/IN-8015/')
+.get(function(req, res) {
+  res.render('./Products/Lenses_IN-8015', {
+      title: 'IN-8015 Full HD Objektiv Upgrade',
+      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      headline: 'INSTAR Full HD Austauschobjektive',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Produkte</a></li><li><a href="/Products/Lenses/">Objektive</a></li><li><a href="/Products/Lenses/IN-8015/">IN-8015 Full HD</a></li>',
+      canonical: '/Products/Lenses/IN-8015/',
+      description: 'INSTAR bietet Ihnen eine weite Auswahl an Austauschobjektiven für Ihre INSTAR IN-8015 Full HDSicherheitskamera. Passen Sie den Blickwinkel Ihrer IP Kamera an die Bedürfnisse Ihrer Überwachung an.',
+  		pacc: 'expanded',
+  		ptab: '',
+  		qiacc: '',
+  		qitab: 'hidden',
+  		mdacc: '',
+  		mdtab: 'hidden',
+  		iaacc: '',
+  		iatab: 'hidden',
+  		auacc: '',
+  		autab: 'hidden',
+  		hdacc: 'hidden',
+  		hdtab: 'hidden',
+  		fhdacc: 'hidden',
+  		fhdtab: 'hidden',
+  		sacc: 'hidden',
+  		dlacc: 'hidden',
+  		dltab: 'hidden',
+    });
+});
+
+productRouter.route('/Lenses/IN-9008/')
+.get(function(req, res) {
+  res.render('./Products/Lenses_IN-9008', {
+      title: 'IN-9008 Full HD Lense Upgrade',
+      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      headline: 'INSTAR Full HD Austauschobjektive',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Products/">Produkte</a></li><li><a href="/Products/Lenses/">Objektive</a></li><li><a href="/Products/Lenses/IN-9008/">IN-9008 Full HD</a></li>',
+      canonical: '/Products/Lenses/IN-9008/',
+      description: 'INSTAR bietet Ihnen eine weite Auswahl an Austauschobjektiven für Ihre INSTAR IN-9008 Full HDSicherheitskamera. Passen Sie den Blickwinkel Ihrer IP Kamera an die Bedürfnisse Ihrer Überwachung an.',
+  		pacc: 'expanded',
+  		ptab: '',
+  		qiacc: '',
+  		qitab: 'hidden',
+  		mdacc: '',
+  		mdtab: 'hidden',
+  		iaacc: '',
+  		iatab: 'hidden',
+  		auacc: '',
+  		autab: 'hidden',
+  		hdacc: 'hidden',
+  		hdtab: 'hidden',
+  		fhdacc: 'hidden',
+  		fhdtab: 'hidden',
+  		sacc: 'hidden',
+  		dlacc: 'hidden',
+  		dltab: 'hidden',
+    });
+});
+
 /* ****************************************** GET S-Mount Lenses ****************************************** */
 productRouter.route('/Lenses/S-Mount/IN-0180')
 .get(function(req, res) {
