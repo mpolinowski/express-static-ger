@@ -43,7 +43,7 @@
                         </div>
 
                         <p>
-                          Im folgenden möchten wir beschreiben, wie man eine AVM Fritzbox 7490 als FTP-Server verwendet. Die Screenshots zeigen zwar nur die AVM Benutzeroberfläche, die meisten Schritte können allerdings auch auf anderen Routern durchgeführt werden. Sie benötigen jedes Mal einen FTP Benutzer und die dazugehörigen Zugriffsrechte im Router. Tippen Sie danach die FTP Benutzerdaten und das dazugehörige FTP Verzeichnis in der Weboberfläche Ihrer Kamera ein.
+                          Im Folgenden möchten wir beschreiben, wie man eine AVM Fritzbox 7490 als FTP-Server verwendet. Die Screenshots zeigen zwar nur die AVM Benutzeroberfläche, die meisten Schritte können allerdings auch auf anderen Routern durchgeführt werden. Sie benötigen jedes Mal einen FTP Benutzer und die dazugehörigen Zugriffsrechte im Router. Tippen Sie danach die FTP Benutzerdaten und das dazugehörige FTP Verzeichnis in der Weboberfläche Ihrer Kamera ein.
                         </p>
                     </div>
                     <!-- /margin -->
@@ -54,7 +54,7 @@
                           Als erstes müssen Sie ein Upload Verzeichnis für Ihre Kamera anlegen. Schließen Sie ein USB-Speichergerät an den USB-Port Ihres Routers an. Im Fall der Fritzbox klicken Sie einfach oben auf FritzNAS, um das Storage Dashboard zu öffnen. Bei anderen Routern wird empfohlen den FTP Zugang mit einem FTP Client zu prüfen, dazu können Sie zum Beispiel den <a href="https://filezilla-project.org/download.php?type=client">Filezilla Client</a> nutzen, oder aber einfach <span class="code">ftp://[IP of your router]:21</span> in die Adresszeile Ihres Standardbrowsers einzutippen. Nutzen Sie den zuvor erstellten Kamera Login um den Storage zu prüfen. Falls Sie Firefox nutzen, können Sie eine FTP Erweiterung nutzen, wie zum Beispiel <a href="https://addons.mozilla.org/en-US/firefox/addon/fireftp/">FireFTP</a> um ein Verzeichnis zu erstellen, dass die Kamera für den Upload nutzen soll.
                         </p>
                         <p>
-                          Im FritzNAS Storage Dashboard, wechseln Sie zu Ihrem externen Speicher(in unserem Fall ein ADATA USB-Stick), klicken Sie oben auf Neuer Ordner und erstellen Sie für Ihre Kamera einen neuen Ordner. Behalten Sie sich den Pfad, da wir Ihn im nächsten Schritt in der Weboberfläche der Kamera wieder benötigen. Seien Sie vorsichtig und löschen Sie nicht den Fritz Ordner, der durch Ihren Router erstellt wurde - wenn Sie das tun, kann Ihr USB-Stick nicht mehr verwendet werden, Sie müssen den USB-Stick dann einmal abziehen und wieder einstecken!
+                          Im FritzNAS Storage Dashboard, wechseln Sie zu Ihrem externen Speicher (in unserem Fall ein ADATA USB-Stick), klicken Sie oben auf Neuer Ordner und erstellen Sie für Ihre Kamera einen neuen Ordner. Behalten Sie sich den Pfad, da wir Ihn im nächsten Schritt in der Weboberfläche der Kamera wieder benötigen. Seien Sie vorsichtig und löschen Sie nicht den Fritz Ordner, der durch Ihren Router erstellt wurde - wenn Sie das tun, kann Ihr USB-Stick nicht mehr verwendet werden, Sie müssen den USB-Stick dann einmal abziehen und wieder einstecken!
                         </p>
                     </div>
                     <!-- /margin -->
@@ -73,9 +73,9 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                        <h2>Set up a FTP User</h2>
+                        <h2>Anlegen eines FTP Benutzers</h2>
                         <p>
-                          Als erstes müssen wir die FTP Einstellungen in Ihrem Router finden. In den meisten Router sieht man die Einstellungen direkt, suchen Sie nach dem Schlagwort FTP. Leider hat AVM bei den neuen Firmwares die Funktion ein bisschen versteckt, was uns etwas Kopfschmerzen bereitet. Die ist auch der Grund warum wir das Beispiel anhand einer Fritzbox zeigen. Bei anderen Routern wird die Funktion leichter einzurichten sein.
+                          Als erstes müssen wir die FTP Einstellungen in Ihrem Router finden. In den meisten Router sieht man die Einstellungen direkt, suchen Sie nach dem Schlagwort FTP. Leider hat AVM bei den neuen Firmware die Funktion ein bisschen versteckt, was uns etwas Kopfschmerzen bereitet. Die ist auch der Grund warum wir das Beispiel anhand einer Fritzbox zeigen. Bei anderen Routern wird die Funktion leichter einzurichten sein.
                         </p>
                         <p>
                           FTP ist jetzt im Fritzbox Benutzer Tab unter System versteckt. Klicken Sie auf Benutzer hinzufügen und geben Sie Ihren Benutzernamen und Ihr Passwort ein. Es wird empfohlen ein sicheres Passwort zu wählen, jedoch keins mit exotischen Sonderzeichen, da es hierbei zu Problemen kommen kann. Insbesondere wenn Sie den FTP Upload nur in Ihrem lokalen Netzwerk verwenden und die Zugriffsrechte über das Internet verbieten. (Zugang aus dem Internet, siehe Screenshot unten). Das einzige, worauf die Kamera Zugriff benötigt, ist das NAS (Zugang zu NAS-Inhalten, siehe unten). Klicken Sie auf Verzeichnis hinzufügen) und erlauben Sie der Kamera auf den Storage zu schreiben.
