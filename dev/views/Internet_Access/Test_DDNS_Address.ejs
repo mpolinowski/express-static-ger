@@ -28,7 +28,7 @@
 
                     <div>
                         <h1 itemprop="name">Testen des DDNS Eintrages</h1>
-                        <p>Dieser Schritt ist relativ einfach, da Sie keine Einstellungen vornehmen müssen. Verbinden Sie sich wieder mit Ihrer Kamera, sofern Sie nicht weiterhin auf der WebUI sind, und öffnen Sie den Menüpunkt Netzwerk > DDNS Service. Dort finden Sie unter dem Punkt Hersteller-Domain die Adresse über der Sie die Kamera von extern aufrufen können. Merken Sie sich diese! Sie besteht in der Regel aus einer 6 stelligen Ziffern- und Buchstabenkombination, nach dem Muster xxxxx.ddns-instar.com oder xxxxx.ddns-instar.de, wobei die x stellvertretend für die Ziffern oder Buchstaben stehen. Danach gehen Sie auf den Menüpunkt System > Info. Dort finden Sie den aktuellen DDNS Status. Dieser muss mit dem Attribut Erfolgreich versehen sein. Ist dies der Fall, dann bedeutet das, dass die Kamera sich erfolgreich mit dem DDNS Server verbunden hat und von der Kameraseite alles funktioniert.</p>
+                        <p>Dieser Schritt ist relativ einfach, da Sie keine Einstellungen vornehmen müssen. Verbinden Sie sich wieder mit Ihrer Kamera, sofern Sie nicht weiterhin auf der WebUI sind, und öffnen Sie den Menüpunkt Netzwerk > DDNS Service. Dort finden Sie unter dem Punkt Hersteller-Domain die Adresse über der Sie die Kamera von extern aufrufen können. Merken Sie sich diese! Sie besteht in der Regel aus einer 6-stelligen Ziffern- und Buchstabenkombination, nach dem Muster xxxxx.ddns-instar.com oder xxxxx.ddns-instar.de, wobei die x stellvertretend für die Ziffern oder Buchstaben stehen. Danach gehen Sie auf den Menüpunkt System > Info. Dort finden Sie den aktuellen DDNS Status. Dieser muss mit dem Attribut Erfolgreich versehen sein. Ist dies der Fall, dann bedeutet das, dass die Kamera sich erfolgreich mit dem DDNS Server verbunden hat und von der Kameraseite alles funktioniert.</p>
                     </div>
                     <!-- /margin -->
 
@@ -89,13 +89,13 @@
                     <!-- /margin -->
 
                     <div class="margin">
-                        <p>Die angezeigte IP Adresse muss identisch sein mit Ihrer WAN IP dami der DDNS Zugriff funktioniert.</p>
+                        <p>Die angezeigte IP Adresse muss identisch sein mit Ihrer WAN IP damit der DDNS Zugriff funktioniert.</p>
                     </div>
                     <!-- /margin -->
 
                     <div class="margin">
                         <h3>Portweiterleitung / Portforwarding / Portfreigabe / NAT- oder Port-Regeln / Virtueller Server</h3>
-                        <p>Im dritten und letztem Schritt müssen Sie nun dem Router mitteilen, über welche IP Adresse und welchen internen (WAN) und externen (LAN) Port die Kamera erreichbar ist. Sie müssen in Ihrem Router eine Regel erstellen welche den externen Zugriff entsprechend regelt und erlaubt, dies wird je nach Router als Portweiterleitung / Portforwarding / Portfreigabe / NAT- oder Port-Regel bezeichnet. Im folgenden wird der Begriff Portweiterleitung synonym verwendet.</p>
+                        <p>Im dritten und letztem Schritt müssen Sie nun dem Router mitteilen, über welche IP Adresse und welchen internen (WAN) und externen (LAN) Port die Kamera erreichbar ist. Sie müssen in Ihrem Router eine Regel erstellen welche den externen Zugriff entsprechend regelt und erlaubt, dies wird je nach Router als Portweiterleitung / Portforwarding / Portfreigabe / NAT- oder Port-Regel bezeichnet. Im Folgenden wird der Begriff Portweiterleitung synonym verwendet.</p>
                         <p>Wo Sie diese Regel definieren ist von Router zu Router unterschiedlich. Welche Bezeichnungen verwendet werden ebenfalls. Ziel ist es Ihnen die Begriffe so gut zu verdeutlichen, dass Sie diese Einstellungen vornehmen können. Die Portweiterleitung soll am Beispiel der Fritz!Box erläutert werden. Verbinden Sie sich mit Ihrem Router. Dazu geben Sie einfach die schon aus dem Schritt 1 bekannte IP Adresse in Ihrem Web Browser ein. Für die Fritz!Box ist dies die 192.168.178.1. Dort gehen Sie auf den Menüpunkt für die Portweiterleitung. In der Fritz!Box finden Sie diese unter Internet > Portfreigabe. Im Allgemeinem braucht der Router die folgenden Daten:</p>
                     </div>
                     <!-- /margin -->
@@ -106,7 +106,7 @@
                                 <td width="20%">
                                     <strong>Anwendung</strong>
                                 </td>
-                                <td>Es gibt viele Standardanwendungen für welche eine Portweiterleitung eingerichtet werden kann, z.B. Webserver, FTP-Sever etc. Hier sollten Sie "Andere Anwendungen" auswählen um so eine neue Anwendung anzulegen und diese zu benennen um bei mehreren Kameras diese auseinanderhalten zu können.</td>
+                                <td>Es gibt viele Standardanwendungen für welche eine Portweiterleitung eingerichtet werden kann, z.B. Webserver, FTP-Sever etc. Hier sollten Sie "Andere Anwendungen" auswählen umso eine neue Anwendung anzulegen und diese zu benennen um bei mehreren Kameras diese auseinanderhalten zu können.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
@@ -157,9 +157,9 @@
                     <div class="primarycard">
                         <p><strong><u>Exkurs:</u></strong><br/><br/>Sie können auch immer die gleiche aipcam Adresse verwenden und nur den Port ändern. Die Kamera kommuniziert über die DDNS Adresse mit dem DNS Server und teilt diesem die IP Adresse des Routers mit. Für alle Kameras welche am gleichen Router hängen ist diese natürlich die gleiche. D.h. Sie können die Kameras auch wie folgt aufrufen:
 
-                        Camera 1: http://abcd12.ddns-instar.com:80 Camera 2: http://abcd12.ddns-instar.com:81 Camera 3: http://abcd12.ddns-instar.com:82 and so on...
+                        Kamera 1: http://abcd12.ddns-instar.com:80 Kamera 2: http://abcd12.ddns-instar.com:81 Kamera 3: http://abcd12.ddns-instar.com:82 und so weiter...
 
-                        Der Domain Name besteht aus dem Prefix http:// welches das Internetprotokoll definiert. Dies muss in der Regel nicht mit eingetippt werden, da aktuelle Browser dies als Standard voranstellen.
+                        Der Domain Name besteht aus dem Präfix http:// welches das Internetprotokoll definiert. Dies muss in der Regel nicht mit eingetippt werden, da aktuelle Browser dies als Standard voranstellen.
 
                         Geben Sie somit nur xxxxx.ddns-instar.com ein, wobei x für die Zahlen- und Buchstabenkombination Ihrer DDNS Adresse stehen.
 
@@ -170,7 +170,7 @@
                     </div>
                     <!-- /margin -->
 
-                    <div class="margin">
+                    <div class="dangercard margin">
                         <p><u>Achtung: </u>Die Portweiterleitung kann man z.B. bei der Fritzbox aus dem eigenen Netzwerk testen. Es gibt Router, welche den externen Zugriff aus dem internen Netzwerk nicht unterstützen (einige Modelle des Telekom Speedports). Das heißt Sie müssen gegebenenfalls den Zugriff über einen externen Rechner von einem Freund oder von Ihrem Arbeitsplatz verwenden. Wenn Sie über den Port 80 auf das Menü des Routers kommen, dann stellen Sie einmal den internen und externen Port der Kamera auf 81. Sie müssen aufpassen, dass die Ports welche Sie verwenden nicht von anderen Geräten oder Diensten belegt sind. Wenn Sie z.b. mit Ihrem Smartphone von extern zugreifen wollen, müssen Sie in der Regel nur die Domain Name ohne Prefix angeben, der Port wird in der Regel durch eine eigene Eingabemaske abgefragt. Bei der App InstarVision am iPhone ist dies der Fall. Sie können auch in den Anleitungen der <a href="/Software/Windows/InstarVision/Windows_Phone/DDNS/">Windows Phone</a> und <a href="/Software/Windows/InstarVision/Metro/DDNS/">Metro</a> App, <a href="/Software/iOS/InstarVision/iPhone/DDNS/">iPhone</a> und <a href="/Software/iOS/InstarVision/iPad/DDNS/">iPad</a> App oder <a href="/Software/Android/InstarVision/DDNS/">Android</a> App nachschauen.</p>
                     </div>
                     <!-- /margin -->
