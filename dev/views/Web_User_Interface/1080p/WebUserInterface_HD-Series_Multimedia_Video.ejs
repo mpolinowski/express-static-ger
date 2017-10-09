@@ -77,13 +77,13 @@
                                 <td width="20%">
                                     <strong>Bildwiederholrate (fps)</strong>
                                 </td>
-                                <td>Bei dieser Einstellung handelt es sich um die gewünschte Bildwiederholungsrate des Videobildes. Beachten Sie bitte, dass der hier eingestellte Wert nur das theoretische Maximum ist. Die reale Framerate wird auch durch die Netzwerkanbindung und die Belichtungszeiten der Kamera (um so dunkler es wird, desto länger muss die Kamera den Sensor belichten, um ein einzelnes Videobild aufzunehmen) bestimmt. Die Framerate eignet sich daher am besten um ein oberes Limit für die Übertragung festzulegen, um Ihr Netzwerk nicht zu überlasten. Der Standardwert ist 15 fps und ist für die meisten Überwachungsaufgaben eine gute Kompromisslösung.</td>
+                                <td>Bei dieser Einstellung handelt es sich um die gewünschte Bildwiederholungsrate des Videobildes. Beachten Sie bitte, dass der hier eingestellte Wert nur das theoretische Maximum ist. Die reale Framerate wird auch durch die Netzwerkanbindung und die Belichtungszeiten der Kamera (umso dunkler es wird, desto länger muss die Kamera den Sensor belichten, um ein einzelnes Videobild aufzunehmen) bestimmt. Die Framerate eignet sich daher am besten um ein oberes Limit für die Übertragung festzulegen, um Ihr Netzwerk nicht zu überlasten. Der Standardwert ist 15 fps und ist für die meisten Überwachungsaufgaben eine gute Kompromisslösung.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>Variable fps</strong>
                                 </td>
-                                <td>Erlauben Sie Ihrer Kamera die Framerate zu reduzieren, wenn keine höhe Framerate benötigt wird. Dies kann die Bandbreite drastisch reduzieren.</td>
+                                <td>Erlauben Sie Ihrer Kamera die Framerate zu reduzieren, wenn keine höhere Framerate benötigt wird. Dies kann die Bandbreite drastisch reduzieren.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
@@ -95,13 +95,13 @@
                                 <td width="20%">
                                     <strong>Variable Bitrate</strong>
                                 </td>
-                                <td>Bei der Videokodierung können Sie vorgeben, ob die Kamera durchgehend die maximale Bitrate halten soll, oder ob die Bitrate automatisch runtergeregelt werden soll, wenn die Kamera die Datenmenge nicht benötigt. Beispielweise benötigt die Kamera i.d.R. eine wesentlich höhere Bitrate um das Farbbild bei Tage wiederzugeben, als es für das Nachtbild notwendig wäre. Die Dateigröße der Videoaufnahme, die Bandbreitenanforderung des Live Videostreams und Auslastung der Kamera kann durch die variable Bitrate signifikant runter gehen.</td>
+                                <td>Bei der Videokodierung können Sie vorgeben, ob die Kamera durchgehend die maximale Bitrate halten soll, oder ob die Bitrate automatisch runtergeregelt werden soll, wenn die Kamera die Datenmenge nicht benötigt. Beispielweise benötigt die Kamera i.d.R. eine wesentlich höhere Bitrate um das Farbbild bei Tage wiederzugeben, als es für das Nachtbild notwendig wäre. Die Dateigröße der Videoaufnahme, die Bandbreitenanforderung des Live Videostreams und Auslastung der Kamera kann durch die variable Bitrate signifikant runtergehen.</td>
                             </tr>
                             <tr>
                                 <td width="20%">
                                     <strong>Keyframe Intervall</strong>
                                 </td>
-                                <td>Ein wichtiger Teil der oben erwähnten erweiterten Videokomprimierung, ist die Aufarbeitung in i und p Bilder (i-Frames & p-Frames). Nur die i-Frames beinhalten alle Bildinformationen. Bei den p-Frames handelt es sich um sogenannte Delta-Frames, die nur die Informationen beinhalten, die sich seit dem letzten Frame geändert haben. Die p-Frames sind somit um einiges kleiner, als ein i-Frame und führen zu geringeren Datenmengen beim Übertragen des Videos. Das aus p-Frames erzeugte Videobild besitzt jedoch einen interpolierten Anteil, der zu einer Verschlechterung der Videoqualität führt. Umso größer das Intervall zwischen zwei Keyframes (i-Frames) ist, desto geringer sind die Bandbreitenanforderungen des Videostreams und desto schlechter wird die Videoqualität. Das Keyframe Intervall sollte so gewählt werden, dass Sie ca. einmal pro Sekunde ein i-Frame erhalten. Der Standardwert für das Intervall liegt bei 20 Frames - Sie erhalten also, bei einer Framerate von 15fps alle (20 Frames/15 Frames/s) = 1.33s ein Vollbild (i-Frame).</td>
+                                <td>Ein wichtiger Teil der oben erwähnten erweiterten Videokomprimierung, ist die Aufarbeitung in i und p Bilder (i-Frames &amp; p-Frames). Nur die i-Frames beinhalten alle Bildinformationen. Bei den p-Frames handelt es sich um sogenannte Delta-Frames, die nur die Informationen beinhalten, die sich seit dem letzten Frame geändert haben. Die p-Frames sind somit um einiges kleiner, als ein i-Frame und führen zu geringeren Datenmengen beim Übertragen des Videos. Das aus p-Frames erzeugte Videobild besitzt jedoch einen interpolierten Anteil, der zu einer Verschlechterung der Videoqualität führt. Umso größer das Intervall zwischen zwei Keyframes (i-Frames) ist, desto geringer sind die Bandbreitenanforderungen des Videostreams und desto schlechter wird die Videoqualität. Das Keyframe Intervall sollte so gewählt werden, dass Sie ca. einmal pro Sekunde ein i-Frame erhalten. Der Standardwert für das Intervall liegt bei 20 Frames - Sie erhalten also, bei einer Framerate von 15fps alle (20 Frames/15 Frames/s) = 1.33s ein Vollbild (i-Frame).</td>
                             </tr>
                             <tr>
                                 <td width="20%">

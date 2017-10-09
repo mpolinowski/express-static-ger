@@ -972,14 +972,14 @@ webUI1080pGerRouter.route('/Multimedia/Bild/9008vs5905')
       });
 
 /* GET HD WebUI page. */
-webUI1080pGerRouter.route('/Multimedia/Video_Menüs/')
+webUI1080pGerRouter.route('/Multimedia/Video_Overlays/')
     .get(function(req, res) {
-        res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Multimedia_Menüs', {
-            title: 'INSTAR IP Kamera 1080p Weboberfläche - Multimedia Menu :: Video Menüs',
+        res.render('./Web_User_Interface/1080p/WebUserInterface_HD-Series_Multimedia_Overlays', {
+            title: 'INSTAR IP Kamera 1080p Weboberfläche - Multimedia Menu :: Video Overlays',
             ampimg: '/images/Search/WebUI_1080p_SearchThumb_Multimedia_Menüs.jpg',
-            headline: 'INSTAR Web User Interface fullHD Series :: Multimedia :: Video Menüs',
-            breadcrumbs: '<li><a href="/Web_User_Interface/1080p_Series/Overview/">Web User Interface</a></li><li><a href="/Web_User_Interface/1080p_Series/">1080p Series</a></li><li><a href="/Web_User_Interface/1080p_Series/Multimedia/">Multimedia</a></li><li><a href="/Web_User_Interface/1080p_Series/Multimedia/Video_Menüs">Video Menüs</a></li>',
-            canonical: '/Web_User_Interface/1080p_Series/Multimedia/Video_Menüs/',
+            headline: 'INSTAR Web User Interface fullHD Series :: Multimedia :: Video Overlays',
+            breadcrumbs: '<li><a href="/Web_User_Interface/1080p_Series/Overview/">Web User Interface</a></li><li><a href="/Web_User_Interface/1080p_Series/">1080p Series</a></li><li><a href="/Web_User_Interface/1080p_Series/Multimedia/">Multimedia</a></li><li><a href="/Web_User_Interface/1080p_Series/Multimedia/Video_Overlays">Video Overlays</a></li>',
+            canonical: '/Web_User_Interface/1080p_Serie/Multimedia/Video_Overlays/',
             description: 'Das Video Menü: Die Einstellungen für das Onscreen Display (OSD) ermöglichen es Ihnen den Kameranamen und einen Zeitstempel im Videobild anzeigen zu lassen. Für die Kameramodelle IN-9008 Full HD, IN-8015 Full HD und IN-9020 Full HD.',
       			pacc: '',
       			ptab: 'hidden',
