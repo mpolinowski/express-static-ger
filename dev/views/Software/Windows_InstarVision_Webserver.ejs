@@ -13,7 +13,7 @@
 
         <section itemscope itemtype="http://schema.org/Article" class="container mb">
           <% include ../_partials/amp/_schemaArticle.ejs %>
-          
+
           <div class="row">
 
             <div class="hidden-sm-down col-md-12 text-xs-center">
@@ -45,63 +45,63 @@
               <div class="col-md-12 col-lg-9 mt">
 
                   <div class="col-12">
-                      <p class="text-justify lead">If you want to broadcast your camera´s video on your website, simply use the Webserver menu to create the necessary HTML code.</p>
+                      <p class="text-justify lead">Wenn Sie das Video Ihrer Kamera auf Ihrer Website übertragen möchten, verwenden Sie einfach das Webserver-Menü, um den erforderlichen HTML-Code zu erstellen.</p>
                   </div>
 
                   <div class="col-12">
-                      <p class="text-justify">Use the InstarVision Surveillance Center to publish your cameras on your local network or the internet. The software offers a web service that you can reach by accessing the local server IP address on another PC on the same network. In the given example, the server address is <strong>192.168.1.18</strong>. Just access a different workstation on your network, open the default web browser and type in <code>http://192.168.1.18</code> to open the InstarVision web user interface. In case you want to check the webUI from the server itself, open your browser and type in <code>http://localhost</code> or <code>http://127.0.0.1</code>. The default web server port is 80 - please change it to something <strong>above 8080</strong> in case the web user interface does not show (see below). The web server port has to be added to the IP address, if it is not 80 - e.g. <code>http://192.168.1.18:8081</code> or <code>http://localhost:8081</code> ! The default login admin/instar can be changed in the <a href="/Software/Windows/InstarVision/Users">User Menu</a>.</p>
+                      <p class="text-justify">Verwenden Sie das InstarVision Surveillance Center, um Ihre Kameras in Ihrem lokalen Netzwerk oder im Internet zu veröffentlichen. Die Software bietet einen Webservice, den Sie erreichen können, indem Sie auf die lokale IP-Adresse des Servers auf einem anderen PC im selben Netzwerk zugreifen. Im angegebenen Beispiel lautet die Serveradresse <strong>192.168.1.18</strong>. Rufen Sie einfach eine andere Workstation in Ihrem Netzwerk auf, öffnen Sie den Standard-Webbrowser und geben Sie <code>http://192.168.1.18</code> ein, um die InstarVision-Webbenutzeroberfläche zu öffnen. Wenn Sie die WebUI vom Server selbst überprüfen möchten, öffnen Sie Ihren Browser und geben Sie <code>http://localhost</code> oder <code>http://127.0.0.1</code> ein. Der Standard-Webserver-Port ist 80 - bitte ändern Sie ihn in etwas <strong>über 8080</strong>, falls die Webbenutzeroberfläche nicht angezeigt wird (siehe unten). Der Webserver-Port muss zur IP-Adresse hinzugefügt werden, wenn er nicht 80 ist - z.B. <code>http://192.168.1.18:8081</code> oder <code>http://localhost:8081</code>! Der Standard-Login admin / instar kann im <a href="/Software/Windows/InstarVision/Users">Benutzermenü</a> geändert werden.</p>
                   </div>
 
               </div>
 
               <div class="col-12">
-                  <p class="text-justify">To access the web user interface from the internet, first click on the Internet IP button to resolve your WAN IP address, then forward a port inside your router to the IP address of your InstarVision Server. You will be able to access the interface from the internet by using your internet IP followed by the forwarded port that you choose in the System settings. The default web server port is set to be 80. Please go to the <a href="/Software/Windows/InstarVision/System">System Settings</a> to change the web port to the port that you forwarded inside your router´s NAT firewall. We recommend to use ports that are higher than 8080. The Internet Address of your internet access is most likely to change every 24h - please use the DDNS address of your INSTAR IP camera to access the software instead (see below).</p>
+                  <p class="text-justify">Um aus dem Internet auf die Webbenutzeroberfläche zuzugreifen, klicken Sie zuerst auf die Schaltfläche Internet IP, um Ihre WAN-IP-Adresse aufzulösen, und leiten Sie einen Port innerhalb Ihres Routers an die IP-Adresse Ihres InstarVision-Servers weiter. Sie können aus dem Internet auf die Schnittstelle zugreifen, indem Sie Ihre Internet-IP verwenden, gefolgt von dem weitergeleiteten Port, den Sie in den Systemeinstellungen ausgewählt haben. Der Standard-Webserver-Port ist auf 80 eingestellt. Bitte gehen Sie zur <a href="/Software/Windows/InstarVision/System">Systemeinstellungen</a>, um den Web-Port auf den Port umzuschalten, den Sie in Ihrem Router weitergeleitet haben NAT-Firewall. Es wird empfohlen, Ports zu verwenden, die höher als 8080 sind. Die Internetadresse Ihres Internet-Zugangs wird sich wahrscheinlich alle 24 Stunden ändern. Verwenden Sie stattdessen die DDNS-Adresse Ihrer INSTAR IP-Kamera, um auf die Software zuzugreifen (siehe unten).</p>
               </div>
 
               <div class="col-12 mb">
                   <div class="list-group col-md-6">
                     <a href="#" class="list-group-item list-group-item-action active shadow">
                       <h5 class="list-group-item-heading lead">admin</h5>
-                      <p class="list-group-item-text">Default Username</p>
+                      <p class="list-group-item-text">Standard Benutzername</p>
                     </a>
                   </div>
                   <div class="list-group col-md-6">
                     <a href="#" class="list-group-item list-group-item-action active shadow">
                       <h5 class="list-group-item-heading lead">instar</h5>
-                      <p class="list-group-item-text">Default Password</p>
+                      <p class="list-group-item-text">Standard Kennwort</p>
                     </a>
                   </div>
               </div>
 
               <div class="col-12 mb mt">
-                  <h2><i class="fa fa-bars" aria-hidden="true"></i>&nbsp; Choose the right Video Plugin</h2>
+                  <h2><i class="fa fa-bars" aria-hidden="true"></i>&nbsp; Wähle das richtige Video Plugin</h2>
               </div>
 
               <div class="col-12 mb">
                   <ul class="list-group shadow" style="list-style-type: none;">
                     <li class="list-group-item pb">
                       <h3 class="list-group-item-heading"><img src="/images/Software/Image039_ActiveX.png" width="20" height="20" alt="ActiveX Plugin"/>&nbsp; ActiveX Plugin</h3>
-                      <p class="text-justify list-group-item-text">The ActiveX viewer mode can display up to 32 video channels at once on your webpage - please click on Setup to configure the plugin to your needs. Your web site user is required to install the ActiveX plugin, when he enters the web site for the first time. The ActiveX plugin is only supported by Microsoft´s Internet Explorer. If you want to use Microsoft Edge, Firefox, Safari or Chrome, please select a different plugin - or go plugin-free using the Simple JPEG mode.</p>
+                      <p class="text-justify list-group-item-text">Der ActiveX-Viewer-Modus kann bis zu 32 Videokanäle gleichzeitig auf Ihrer Webseite anzeigen. Klicken Sie auf "Setup", um das Plugin für Ihre Anforderungen zu konfigurieren. Ihr Websitebenutzer muss das ActiveX-Plugin installieren, wenn er die Website zum ersten Mal betritt. Das ActiveX-Plugin wird nur von Microsoft Internet Explorer unterstützt. Wenn Sie Microsoft Edge, Firefox, Safari oder Chrome verwenden möchten, wählen Sie bitte ein anderes Plugin - oder gehen Sie ohne Plugin im Simple JPEG-Modus vor.</p>
                     </li>
                     <li class="list-group-item pb">
                       <h3 class="list-group-item-heading"><img src="/images/Software/Image039_WMP.png" width="20" height="20" alt="WMP Plugin"/>&nbsp; Windows Player Plugin</h3>
-                      <p class="text-justify list-group-item-text">This view mode will use Windows Media Player to display your camera´s video - that means, it will only work under Microsoft Windows with the Windows Media Player installed! Also the recording video file format of the Surveillance Center has to be set to ASF or WMV for the channel that you want to broadcast. To change the file format go to the <a href="/Software/Windows/InstarVision/Record/General">General Recording Settings</a>, select the desired channel and choose the format from the drop down menu.</p>
+                      <p class="text-justify list-group-item-text">In diesem Ansichtsmodus wird Windows Media Player verwendet, um das Video Ihrer Kamera anzuzeigen. Das bedeutet, dass es nur unter Microsoft Windows mit installiertem Windows Media Player funktioniert! Auch das Aufzeichnungsdateiformat des Surveillance Centers muss für den Kanal, den Sie senden möchten, auf ASF oder WMV eingestellt sein. Um das Dateiformat zu ändern, gehen Sie zu den <a href="/Software/Windows/InstarVision/Record/General">Allgemeine Aufzeichnungseinstellungen</a>, wählen Sie den gewünschten Kanal aus und wählen Sie das Format aus dem Dropdown-Menü.</p>
                     </li>
                     <li class="list-group-item pb">
                       <h3 class="list-group-item-heading"><img src="/images/Software/Image039_QT.png" width="20" height="20" alt="Quicktime Plugin"/>&nbsp; QuickTime Plugin</h3>
-                      <p class="text-justify list-group-item-text">This view mode will use the Quicktime Player web plugin to display your camera´s video. Please install and <a href="/Quick_Installation/Live_Video/QuickTime">setup the Quicktime Player</a> on your PC or MAC to be able to receive a video stream from an IP camera (set the streaming protocol to HTTP/Port 80). Also the recording video file format of the Surveillance Center has to be set to MP4 or MOV for the channel that you want to broadcast. To change the file format go to the <a href="/Software/Windows/InstarVision/Record/General">General Recording Settings</a>, select the desired channel and choose the format from the drop down menu.</p>
+                      <p class="text-justify list-group-item-text">In diesem Ansichtsmodus wird das Quicktime Player-Web-Plugin zum Anzeigen des Videos Ihrer Kamera verwendet. Bitte installieren Sie und <a href="/Quick_Installation/Live_Video/QuickTime">den Quicktime Player</a> auf Ihrem PC oder MAC, um einen Videostream von einer IP-Kamera empfangen zu können (setzen Sie das Streaming-Protokoll auf HTTP / Port 80). Außerdem muss das Aufnahme-Videodateiformat des Surveillance Centers für den Kanal, den Sie übertragen möchten, auf MP4 oder MOV eingestellt sein. Um das Dateiformat zu ändern, gehen Sie zu den <a href="/Software/Windows/InstarVision/Record/General">Allgemeine Aufzeichnungseinstellungen</a>, wählen Sie den gewünschten Kanal aus und wählen Sie das Format aus dem Dropdown-Menü.</p>
                     </li>
                     <li class="list-group-item pb">
                       <h3 class="list-group-item-heading"><img src="/images/Software/Image039_REAL.png" width="20" height="20" alt="RealPlayer Plugin"/>&nbsp; RealPlayer Plugin</h3>
-                      <p class="text-justify list-group-item-text">This view mode will use the RealPlayer web plugin to display your camera´s video. Please install the RealPlayer on your PC or MAC to access the video stream and forward the RTSP port to the Surveillance Center - the RealPlayer uses the RTSP stream (default port 554) instead of streaming HTTP port (default 80). Also the recording video file format of the Surveillance Center has to be set to MP4 or MOV for the channel that you want to broadcast. To change the file format go to the <a href="/Software/Windows/InstarVision/Record/General">General Recording Settings</a>, select the desired channel and choose the format from the drop down menu.</p>
+                      <p class="text-justify list-group-item-text">In diesem Ansichtsmodus wird das Webplayer RealPlayer verwendet, um das Video Ihrer Kamera anzuzeigen. Bitte installieren Sie den RealPlayer auf Ihrem PC oder MAC, um auf den Videostream zuzugreifen und den RTSP-Port an das Surveillance Center weiterzuleiten. Der RealPlayer verwendet den RTSP-Stream (Standard Port 554) statt den HTTP-Port (Standard 80). Außerdem muss das Aufnahme-Videodateiformat des Surveillance Centers für den Kanal, den Sie übertragen möchten, auf MP4 oder MOV eingestellt sein. Um das Dateiformat zu ändern, gehen Sie zu den <a href="/Software/Windows/InstarVision/Record/General">Allgemeine Aufzeichnungseinstellungen</a>, wählen Sie den gewünschten Kanal aus und wählen Sie das Format aus dem Dropdown-Menü.</p>
                     </li>
                     <li class="list-group-item pb">
                       <h3 class="list-group-item-heading"><img src="/images/Software/Image039_Flash.png" width="20" height="20" alt="Flash Plugin"/>&nbsp; Flash Plugin</h3>
-                      <p class="text-justify list-group-item-text">This viewer will use Flash player to display your camera´s video stream. You must install the <a href="https://get.adobe.com/flashplayer/" target="_blank">Adobe Flash plugin</a> in your browser. Also the recording video file format of the Surveillance Center has to be set to FLV for the channel that you want to broadcast. To change the file format go to the <a href="/Software/Windows/InstarVision/Record/General">General Recording Settings</a>, select the desired channel and choose the format from the drop down menu.</p>
+                      <p class="text-justify list-group-item-text">Dieser Viewer verwendet den Flash Player, um den Videostream Ihrer Kamera anzuzeigen. Sie müssen das <a href="https://get.adobe.com/flashplayer/" target="_blank">Adobe Flash-Plugin</a> in Ihrem Browser installieren. Das Aufzeichnungsvideodateiformat des Überwachungszentrums muss für den Kanal, den Sie senden möchten, auf FLV eingestellt sein. Um das Dateiformat zu ändern, gehen Sie zu den <a href="/Software/Windows/InstarVision/Record/General">Allgemeine Aufzeichnungseinstellungen</a>, wählen Sie den gewünschten Kanal aus und wählen Sie das Format aus dem Dropdown-Menü.</p>
                     </li>
                     <li class="list-group-item pb">
                       <h3 class="list-group-item-heading"><img src="/images/Software/Image039_JPG.png" width="20" height="20" alt="Simple JPEG Mode"/>&nbsp; Simple JPEG Mode</h3>
-                      <p class="text-justify list-group-item-text">This viewer will simply get single JPEG frames from your camera´s live stream and display them in a continuous fashion to create a video. Due to the nature of this process, there will be no audio signal from your camera. But <strong>you won´t need any Plugins</strong> to display the video!</p>
+                      <p class="text-justify list-group-item-text">Dieser Viewer erhält einfach einzelne JPEG-Bilder aus dem Live-Stream Ihrer Kamera und zeigt sie kontinuierlich an, um ein Video zu erstellen. Aufgrund der Art dieses Prozesses wird kein Audiosignal von Ihrer Kamera ausgegeben. Aber <strong>Sie brauchen keine Plugins</strong>, um das Video anzuzeigen!</p>
                     </li>
                   </ul>
               </div>
@@ -111,8 +111,8 @@
               <div class="col-12 mb">
                   <div class="card card-inverse card-primary shadow">
                     <div class="card-block">
-                      <h4 class="card-title">Portforwarding &amp; DDNS</h4>
-                      <p class="card-text">All these broadcasting modes need you to forward the software HTTP (or RTSP) port to the server that runs the Surveillance Center. Please refer to our <code><a href="/Internet_Access/Port_Forwarding">forwarding instruction</a></code> for further information - note: in these instructions, we forward a port directly to each camera you want to access. In case of the Surveillance Center broadcast we only need to forward one port (HTTP or RTSP) directly to the server that runs the software and are able to access all camera streams maintained by the Surveillance Center! Remember that you can still use your camera´s <code><a href="/Internet_Access/The_DDNS_Service">DDNS address</a></code> to access the software - just type in the DDNS address of your camera (that is operated on the same network as the Surveillance Center) and add the port that you forwarded to your server. E.g. if your camera is accessible from the internet via the address <code>abcd12.ddns-instar.de:8081</code> and you forwarded port 8082 to the server, use type in <code>http://abcd12.ddns-instar.de:8082</code> to access the software web user interface!</p>
+                      <h4 class="card-title">Portweiterleitung &amp; DDNS</h4>
+                      <p class="card-text">Bei allen diesen Übertragungsmodi müssen Sie den HTTP- (oder RTSP-) Port der Software an den Server weiterleiten, auf dem das Surveillance Center ausgeführt wird. Weitere Informationen finden Sie in unserer <code><a href="/Internet_Access/Port_Forwarding">Weiterleitungsinstruktion</a></code>. Hinweis: In dieser Anleitung leiten wir einen Port direkt an jede Kamera weiter, auf die Sie zugreifen möchten. Im Falle des Surveillance Center Senders müssen wir nur einen Port (HTTP oder RTSP) direkt an den Server weiterleiten, auf dem die Software läuft und können auf alle vom Surveillance Center verwalteten Kamerastreams zugreifen! Denken Sie daran, dass Sie weiterhin die <code><a href="/Internet_Access/The_DDNS_Service">DDNS-Adresse</a></code> Ihrer Kamera verwenden können, indem Sie einfach die DDNS-Adresse Ihrer Kamera eingeben wird im selben Netzwerk wie das Surveillance Center betrieben) und fügen Sie den Port hinzu, den Sie an Ihren Server weitergeleitet haben. Z.B. Wenn Ihre Kamera aus dem Internet über die Adresse <code>abcd12.ddns-instar.de:8081</code> erreichbar ist und Sie den Port 8082 an den Server weitergeleitet haben, geben Sie <code>http: //abcd12.ddns- instar.de:8082</code> um auf die Software-Webbenutzeroberfläche zuzugreifen!</p>
                     </div>
                   </div>
               </div>
@@ -130,7 +130,7 @@
           <div class="row">
 
             <div class="col-12 mb">
-                <h2><i class="fa fa-bars" aria-hidden="true"></i>&nbsp; Give me an Example</h2>
+                <h2><i class="fa fa-bars" aria-hidden="true"></i>&nbsp; Gib mir ein Beispiel</h2>
             </div>
 
             <div class="col-12">
@@ -143,7 +143,7 @@
                         <p class="card-text"><span class="fa-stack">
                           <i class="fa fa-circle-thin fa-inverse fa-stack-2x"></i>
                           <strong class="fa-stack-1x" style="color: white;">1</strong>
-                        </span> Go to the <a href="/Software/Windows/InstarVision/System">System Menu</a> and change the Webserver Port to a port higher than 8080. You can also deactivate the required login here.</p>
+                        </span> Wechseln Sie zum <a href="/Software/Windows/InstarVision/System">Systemmenü</a>, und ändern Sie den Webserver-Port auf einen Port höher als 8080. Sie können die erforderliche Anmeldung auch hier deaktivieren.</p>
                       </div>
                     </div>
                     <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
@@ -152,7 +152,7 @@
                         <p class="card-text"><span class="fa-stack">
                           <i class="fa fa-circle-thin fa-inverse fa-stack-2x"></i>
                           <strong class="fa-stack-1x" style="color: white;">2</strong>
-                        </span> Open the Webserver Menu to check your local IP address and type it into your web browser, followed by the Webserver Port. The default login is <strong>admin / instar</strong>.</p>
+                        </span> Öffnen Sie das Webserver-Menü, um Ihre lokale IP-Adresse zu überprüfen und geben Sie diese in Ihren Webbrowser ein, gefolgt vom Webserver-Port. Der Standard-Login ist <strong>admin / instar</strong>.</p>
                       </div>
                     </div>
                   </div>
@@ -167,7 +167,7 @@
                       <p class="card-text"><span class="fa-stack">
                         <i class="fa fa-circle-thin fa-inverse fa-stack-2x"></i>
                         <strong class="fa-stack-1x" style="color: white;">3</strong>
-                      </span> Wait for the web user interface to load and choose the Simple JPEG Viewer - this is the only mode that does not require a browser plugin to display the video.</p>
+                      </span> Warten Sie, bis die Webbenutzeroberfläche geladen ist, und wählen Sie den einfachen JPEG-Viewer aus - dies ist der einzige Modus, der kein Browser-Plugin zur Anzeige des Videos benötigt.</p>
                     </div>
                   </div>
                   <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
@@ -176,7 +176,7 @@
                       <p class="card-text"><span class="fa-stack">
                         <i class="fa fa-circle-thin fa-inverse fa-stack-2x"></i>
                         <strong class="fa-stack-1x" style="color: white;">4</strong>
-                      </span> Use the drop-down menu to switch between your camera channels. And the PTZ control pad to pan &amp; tilt your camera (if supported by your model).</p>
+                      </span> Verwenden Sie das Dropdown-Menü, um zwischen den Kamerakanälen zu wechseln. Und das PTZ-Steuerkreuz zum Schwenken und Neigen der Kamera (falls von Ihrem Modell unterstützt).</p>
                     </div>
                   </div>
                 </div>
@@ -191,7 +191,7 @@
                       <p class="card-text"><span class="fa-stack">
                         <i class="fa fa-circle-thin fa-inverse fa-stack-2x"></i>
                         <strong class="fa-stack-1x" style="color: white;">5</strong>
-                      </span> In Internet Explorer choose the ActiveX Viewer and install the ActiveX plugin. Please make sure the plugin is not blocked by your Antivirus/Firewall.</p>
+                      </span> Wählen Sie in Internet Explorer den ActiveX Viewer und installieren Sie das ActiveX-Plugin. Bitte stellen Sie sicher, dass das Plugin nicht von Ihrem Antivirus / Firewall blockiert wird.</p>
                     </div>
                   </div>
                   <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
@@ -200,7 +200,7 @@
                       <p class="card-text"><span class="fa-stack">
                         <i class="fa fa-circle-thin fa-inverse fa-stack-2x"></i>
                         <strong class="fa-stack-1x" style="color: white;">6</strong>
-                      </span> The ActiveX Viewer can display up to 32 cameras at the same time. Click on the Setup button to further configure the plugin to your needs.</p>
+                      </span> Der ActiveX Viewer kann bis zu 32 Kameras gleichzeitig anzeigen. Klicken Sie auf die Schaltfläche Setup, um das Plugin weiter zu konfigurieren.</p>
                     </div>
                   </div>
                 </div>
@@ -215,7 +215,7 @@
                       <p class="card-text"><span class="fa-stack">
                         <i class="fa fa-circle-thin fa-inverse fa-stack-2x"></i>
                         <strong class="fa-stack-1x" style="color: white;">5</strong>
-                      </span> To embed the web broadcast in your website, choose your Viewer in the Webserver Menu. The template files will be saved in your <a href="/Software/Windows/InstarVision/Record/General">REC Directory</a>.</p>
+                      </span> Um die Web-Übertragung in Ihre Website einzubetten, wählen Sie Ihren Viewer im Webserver-Menü. Die Vorlagendateien werden in Ihrem <a href="/Software/Windows/InstarVision/Record/General">REC Verzeichnis</a>.</p>
                     </div>
                   </div>
                   <div class="card card-inverse shadow" style="background-color: #333; border-color: #333;">
@@ -224,7 +224,7 @@
                       <p class="card-text"><span class="fa-stack">
                         <i class="fa fa-circle-thin fa-inverse fa-stack-2x"></i>
                         <strong class="fa-stack-1x" style="color: white;">5</strong>
-                      </span> The templates will contain the local IP of your server - please swap this for your DDNS address to access your server over the internet!</p>
+                      </span> Die Vorlagen enthalten die lokale IP Ihres Servers - bitte tauschen Sie diese für Ihre DDNS-Adresse aus, um über das Internet auf Ihren Server zuzugreifen!</p>
                     </div>
                   </div>
                 </div>
