@@ -814,6 +814,62 @@ motionDetectionGerRouter.get('/Router_als_FTP_Server/WD_MyCloud_als_FTP_Server',
       });
   });
 
+motionDetectionGerRouter.get('/Router_als_FTP_Server/ASUSTOR_NAS_Station_als_FTP_Server', function(req, res) {
+    res.render('./Motion_Detection/Asustor_NAS_as_FTP_Server', {
+        title: 'ASUSTOR NAS Station als FTP Server für Ihre INSTAR Netzwerkkamera',
+        ampimg: '/images/Search/MD_SearchThumb_RouterAsFTPServer_WD.jpg',
+        headline: 'Richten Sie Ihr ASUSTOR NAS Station Netzlaufwerk (NAS) als FTP Server für Ihre INSTAR Überwachungskamera ein.',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Bewegungserkennung/">Bewegungserkennung</a></li><li><a href="/Bewegungserkennung/Router_als_FTP_Server/">Router als FTP Server</a></li><li><a href="/Bewegungserkennung/Router_als_FTP_Server/ASUSTOR_NAS_Station_als_FTP_Server/">ASUSTOR NAS Station</a></li>',
+        canonical: '/Motion_Detection/Router_as_a_FTP_Server/ASUSTOR_NAS_Station_as_FTP_Server/',
+        description: 'Netzlaufwerke wie das ASUSTOR NAS Station Netzlaufwerk, bieten einen einfachen FTP Dienst an, über den Sie Ihre Alarm-Videoaufnahme und Fotoserien Ihrer INSTAR Webcam sichern können. Lesen Sie weiter für eine Schritt-für-Schritt Konfigurationsanleitung.',
+    		pacc: '',
+    		ptab: 'hidden',
+    		qiacc: '',
+    		qitab: 'hidden',
+    		mdacc: 'expanded',
+    		mdtab: '',
+    		iaacc: '',
+    		iatab: 'hidden',
+    		auacc: '',
+    		autab: 'hidden',
+    		hdacc: 'hidden',
+    		hdtab: 'hidden',
+    		fhdacc: 'hidden',
+    		fhdtab: 'hidden',
+    		sacc: 'hidden',
+    		dlacc: 'hidden',
+    		dltab: 'hidden',
+      });
+  });
+
+motionDetectionGerRouter.get('/Router_als_FTP_Server/Netgear_ReadyNAS_als_FTP_Server', function(req, res) {
+    res.render('./Motion_Detection/Netgear_ReadyNAS_as_FTP_Server', {
+        title: 'Netgear ReadyNAS als FTP Server für Ihre INSTAR Netzwerkkamera',
+        ampimg: '/images/Search/MD_SearchThumb_RouterAsFTPServer_WD.jpg',
+        headline: 'Richten Sie Ihr Netgear ReadyNAS Netzlaufwerk (NAS) als FTP Server für Ihre INSTAR Überwachungskamera ein.',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Bewegungserkennung/">Bewegungserkennung</a></li><li><a href="/Bewegungserkennung/Router_als_FTP_Server/">Router als FTP Server</a></li><li><a href="/Bewegungserkennung/Router_als_FTP_Server/Netgear_ReadyNAS_als_FTP_Server/">Netgear ReadyNAS</a></li>',
+        canonical: '/Motion_Detection/Router_as_a_FTP_Server/Netgear_ReadyNAS_as_FTP_Server/',
+        description: 'Netzlaufwerke wie die Netgear ReadyNAS NAS Festplatte, bieten einen einfachen FTP Dienst an, über den Sie Ihre Alarm-Videoaufnahme und Fotoserien Ihrer INSTAR Webcam sichern können. Lesen Sie weiter für eine Schritt-für-Schritt Konfigurationsanleitung.',
+    		pacc: '',
+    		ptab: 'hidden',
+    		qiacc: '',
+    		qitab: 'hidden',
+    		mdacc: 'expanded',
+    		mdtab: '',
+    		iaacc: '',
+    		iatab: 'hidden',
+    		auacc: '',
+    		autab: 'hidden',
+    		hdacc: 'hidden',
+    		hdtab: 'hidden',
+    		fhdacc: 'hidden',
+    		fhdtab: 'hidden',
+    		sacc: 'hidden',
+    		dlacc: 'hidden',
+    		dltab: 'hidden',
+      });
+  });
+
 motionDetectionGerRouter.get('/FTP_Server_Setup/', function(req, res) {
     res.render('./Motion_Detection/FTP_Server_Setup', {
         title: 'FTP Server Setup - Filezilla Server für Ihre INSTAR Sicherheitskamera',

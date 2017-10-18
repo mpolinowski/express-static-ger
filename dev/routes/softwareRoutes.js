@@ -2501,6 +2501,35 @@ softwareRouter.route('/Other_Platforms/Domovea')
     });
 });
 
+softwareRouter.route('/Other_Platforms/ASUSTOR_Surveillance_Center')
+.get(function(req, res) {
+  res.render('./Software/Other_Platforms_Asustor', {
+      title: 'ASUSTOR Surveillance Center mit Ihrer INSTAR IP Kamera',
+      ampimg: '/images/Search/P_SearchThumb_Products.jpg',
+      headline: 'Alle notwendigen Konfigurationen für die Einbindung Ihrer INSTAR Netzwerkkamera in die ASUSTOR Surveillance Center',
+      breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Software/">Software</a></li><li><a href="/Software/Other_Platforms/">Andere Plattformen</a></li><li><a href="/Software/Other_Platforms/ASUSTOR_Surveillance_Center/">ASUSTOR Surveillance Center</a></li>',
+      canonical: '/Software/Other_Platforms/ASUSTOR_Surveillance_Center/',
+      description: 'Alle notwendigen Konfigurationen für die Einbindung Ihrer INSTAR Netzwerkkamera in die ASUSTOR Surveillance Center',
+  		pacc: '',
+  		ptab: 'hidden',
+  		qiacc: '',
+  		qitab: 'hidden',
+  		mdacc: '',
+  		mdtab: 'hidden',
+  		iaacc: '',
+  		iatab: 'hidden',
+  		auacc: '',
+  		autab: 'hidden',
+  		hdacc: 'hidden',
+  		hdtab: 'hidden',
+  		fhdacc: 'hidden',
+  		fhdtab: 'hidden',
+  		sacc: '',
+  		dlacc: 'hidden',
+  		dltab: 'hidden',
+    });
+});
+
 softwareRouter.route('/Mobile_Access_Over_HTTPS')
 .get(function(req, res) {
   res.render('./Software/Mobile_Access_Over_HTTPS', {

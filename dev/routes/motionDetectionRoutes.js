@@ -146,6 +146,16 @@ motionDetectionRouter.route('/Router_as_a_FTP_Server/WD_MyCloud_as_FTP_Server/')
     res.status(301).redirect('/Bewegungserkennung/Router_als_FTP_Server/WD_MyCloud_als_FTP_Server/');
 });
 
+motionDetectionRouter.route('/Router_as_a_FTP_Server/ASUSTOR_NAS_Station_as_FTP_Server')
+  .get(function(req, res) {
+    res.status(301).redirect('/Bewegungserkennung/Router_als_FTP_Server/ASUSTOR_NAS_Station_als_FTP_Server/');
+});
+
+motionDetectionRouter.route('/Router_as_a_FTP_Server/Netgear_ReadyNAS_as_FTP_Server')
+  .get(function(req, res) {
+    res.status(301).redirect('/Bewegungserkennung/Router_als_FTP_Server/Netgear_ReadyNAS_als_FTP_Server/');
+});
+
 motionDetectionRouter.route('/FTP_Server_Setup/')
   .get(function(req, res) {
     res.status(301).redirect('/Bewegungserkennung/FTP_Server_Setup/');
