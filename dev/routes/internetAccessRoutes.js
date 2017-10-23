@@ -86,6 +86,11 @@ internetAccessRouter.route('/Port_Forwarding/Unitymedia_Connectbox/')
     res.status(301).redirect('/Fernzugriff/Port_Weiterleitung/Unitymedia_Connectbox/');
 });
 
+internetAccessRouter.route('/Port_Forwarding/Zyxel_Speedlink/')
+  .get(function(req, res) {
+    res.status(301).redirect('/Fernzugriff/Port_Weiterleitung/Zyxel_Speedlink/');
+});
+
 internetAccessRouter.route('/Mobile_Access/')
   .get(function(req, res) {
     res.status(301).redirect('/Fernzugriff/Mobil_Zugriff/');

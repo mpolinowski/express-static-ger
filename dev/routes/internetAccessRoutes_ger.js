@@ -478,6 +478,34 @@ internetAccessGerRouter.get('/Port_Weiterleitung/Unitymedia_Connectbox/', functi
       });
   });
 
+internetAccessGerRouter.get('/Port_Weiterleitung/Zyxel_Speedlink/', function(req, res) {
+    res.render('./Internet_Access/Port_Forwarding_Zyxel_Speedlink.ejs', {
+        title: 'Port Weiterleitung Zyxel Speedlink',
+        ampimg: '/images/Search/IA_SearchThumb_Portforwarding_Linksys.jpg',
+        headline: 'Port Weiterleitung Zyxel Speedlink für den Fernzugriff auf Ihre INSTAR Webcam',
+        breadcrumbs: '<li><a href="/">Home</a></li><li><a href="/Fernzugriff/">Fernzugriff</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/">Port Weiterleitung</a></li><li><a href="/Fernzugriff/Port_Weiterleitung/Zyxel_Speedlink/">Zyxel Speedlink</a></li>',
+        canonical: '/Internet_Access/Port_Forwarding/Zyxel_Speedlink/',
+        description: 'Ihr Router sperrt alle Zugriffe aus dem Internet auf Ihr lokales Netzwerk ab. Um den Fernzugriff auf Ihre Überwachungskamera aus dem Internet zu ermöglichen, müssen Sie einen Port auf diese durch die NAT Firewall durchleiten. Lesen Sie hier, wie Sie diese Weiterleitung bei Ihrem Zyxel Speedlink Router durchführen.',
+    		pacc: '',
+    		ptab: 'hidden',
+    		qiacc: '',
+    		qitab: 'hidden',
+    		mdacc: '',
+    		mdtab: 'hidden',
+    		iaacc: 'expanded',
+    		iatab: '',
+    		auacc: '',
+    		autab: 'hidden',
+    		hdacc: 'hidden',
+    		hdtab: 'hidden',
+    		fhdacc: 'hidden',
+    		fhdtab: 'hidden',
+    		sacc: 'hidden',
+    		dlacc: 'hidden',
+    		dltab: 'hidden',
+      });
+  });
+
 internetAccessGerRouter.get('/Mobil_Zugriff/', function(req, res) {
     res.render('./Internet_Access/Mobile_Access', {
         title: 'Fernzugriff auf Ihre Kamera mit Ihrem Mobil-Gerät',
