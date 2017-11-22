@@ -465,7 +465,7 @@ POST /wiki2_de_2017_09_09/article
     "title2": "720p CGI Commands - Get RTSP Port",
     "series": ["HD", "Indoor", "Outdoor"],
     "models": ["IN-5905 HD", "IN-5907 HD", "IN-6001 HD", "IN-6012 HD", "IN-6014 HD", "IN-7011 HD"],
-    "description": "CGI Befehle",
+    "description2": "CGI Befehle",
     "description": "720p CGI Commands - Get RTSP Port Network :: Get RTSP Port param.cgi?cmd=getrtspport Function Get RTSP Port Authority admin Syntax cgi-bin hi3510 param.cgi[?cmd=getrtspport] Return rtspport: RTSP Port Example http: admin:instar@192.168.178.88 cgi-bin hi3510 param.cgi?cmd=getrtspport",
     "link": "/720p_Series_CGI_List/Complete_CGI_List/Get_RTSP_Port",
     "title": "720p CGI Commands - Get RTSP Port",
