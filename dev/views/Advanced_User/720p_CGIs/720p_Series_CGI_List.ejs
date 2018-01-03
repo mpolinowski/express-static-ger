@@ -280,6 +280,29 @@
                 </p>
 
               </section>
+              
+              <!-- ------------------------------- Camera Modell ------------------------------- -->
+            
+            <section class="mb col-12">
+            
+                <h3>Camera Model</h3>
+                <p>Installing the wrong Firmware can overwrite your camera Identification. Use the following commands to reset your camera
+                    model:</p>
+            
+                <h4 class="mb">Set your Camera Model</h4>
+                <pre class="pre-scrollable">
+                                            http://192.168.178.133:83/param.cgi?cmd=get_instar_guest&-index=47
+                                            http://192.168.178.133:83/param.cgi?cmd=set_instar_guest&-index=47&-value=6014
+                                        </pre>
+            
+                <h4 class="mb">Set PoE or WiFi Model:</h4>
+                <p class="mb">
+                    <code>http://192.168.178.133:83/param.cgi?cmd=get_instar_guest&-index=48</code>
+                    <code>http://192.168.178.133:83//param.cgi?cmd=set_instar_guest&-index=48&-value=false</code>
+                </p>
+                <p>PoE (true) or WLAN (false)</p>
+            
+            </section>
 
           </div>
           <!-- /Main Container -->
