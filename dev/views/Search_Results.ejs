@@ -6,8 +6,22 @@
         <header><% include _partials/template/_header.ejs %></header>
         <!-- Navbar-->
 
-        <!-- ##############################  Search Results Header ############################## -->
+        <!-- #############################################  Maintenance ############################################# -->
+        <!--  -->
+          <section class="slanding">
+            <div class="container">
+              <div class="row">
+                <h1 class="headline">Wartungsarbeiten</h1>
+                <hr>
+                <p>Aufgrund von Wartungsarbeiten ist unser Suchdienst z.Z. leider nicht erreichbar. Wir bitten dies zu entschuldigen.</p>
+                <p>Klicken Sie bitte auf den folgenden Link um auf die Übersichtsseite des Wikis zu gelangen- <a href="/">Homepage</a>.</p>
+              </div>
+            </div>
+          </section>
+        <!--  -->
 
+        <!-- ##############################  Search Results Header ############################## -->
+        <!--
         <section class="slanding">
           <div class="container"
             <div class="row">
@@ -27,16 +41,12 @@
                   <% } %>
                   <h2 class="subheader"><i class="fa fa-angle-double-down" aria-hidden="true"></i></h2><br/>
            </div>
-           <!-- /Row -->
          </div>
-         <!-- /Container -->
        </section>
-       <!-- /Landing -->
 
        <section class="container" style="margin-bottom: 200px;">
            <div class="row">
 
-             <!-- /desktop up -->
              <% if (response.hits.total > 0) { %>
                <div class="card-columns hidden-sm-down">
                      <% for(var i=0; i<response.hits.hits.length;i++){ if (i === 8) { break; } %>
@@ -53,7 +63,6 @@
                      <% } %>
                  </div>
 
-                 <!-- /mobile down -->
                  <% for(var i=0; i<response.hits.hits.length;i++){ if (i === 8) { break; } %>
                    <div class="card card-inverse shadow mt hidden-md-up" style="background-color: #333; border-color: #333;">
                     <a href="<%= response.hits.hits[i]._source.link %>">
@@ -126,18 +135,14 @@
                   <% } %>
 
             </div>
-            <!-- /Row -->
         </section>
-        <!-- /Container -->
-
-        <!-- ############################### Footer ############################### -->
 
         <footer><% include _partials/template/_footer.ejs %></footer>
 
             <% include _partials/template/_jsdefaults_NO_WRAP.ejs %>
 
       </section>
-       <!-- /footer -->
+        -->
 </body>
 
 </html>
